@@ -4,7 +4,7 @@ m0rehud, competitive hud updated and improved by Hypnotize!
 
 Created By: m0re
 
-Updated by: Zimmy, Gunblade, NinjaDC
+Updated by: Zimmy, Gunblade, NinjaDC, Zen
 
 Screenshots Album: http://imgur.com/a/sxOyM
 
