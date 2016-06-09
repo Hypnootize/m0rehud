@@ -32,11 +32,15 @@ Download and unzip the hud, then copy the resource,scripts,basefiles folders and
 SINCE IN A NEW THING FOR THE HUDS MOST OF THE PEOPLE MIGHT NOT KNOW ABOUT THAT BUT IS REALLY IMPORTANT TO COPY THE BASEFILE FOLDER AS WELL, IF NOT INSTALLED WITH THE REST OF THE HUD YOU MIGHT EXPERIENCE PROBLEMS LIKE THE HEALTH/POINT ICONS ETC NOT APPEARING
 
 
+.
+
 
 2) My Fonts are looking weird/differen from the screenshots:
 
 Go to resource/fonts and install the fonts (right click on the font file and select install)
 
+
+.
 
 
 3) I want to use a customization but i don't know how to do it
@@ -45,6 +49,11 @@ Is really easy, after you install the hud (FAQ 1) select what customization you 
 Open the "killstreak icon enabled" folder and copy the resource folder, then go to your custom folder and paste and replace the customization files over your old hud files.
 Same with the other customizations!
 
+.
+
+.
+
+.
 
 IF YOU ARE GETTING ANY KIND OF PROBLEM DON'T ESITATE TO CONTACT ME HERE:
 
