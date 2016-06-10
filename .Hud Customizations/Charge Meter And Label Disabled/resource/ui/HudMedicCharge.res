@@ -18,7 +18,7 @@
 		"ypos"										"c36"
 		"zpos"										"2"
 		"wide"										"100"
-		"tall"										"20"
+		"tall"										"0" //20
 		"autoResize"								"1"
 		"pinCorner"									"2"
 		"visible"									"1"
@@ -96,7 +96,7 @@
 		"brighttext"								"0"
 		"font"										"M0refont72"
 		"fgcolor"  									"0 0 0 255"
-	}
+	}	
 	
 	"ChargeMeter"
 	{	
@@ -106,7 +106,7 @@
 		"xpos"										"0"
 		"ypos"										"476"
 		"zpos"										"2"
-		"wide"										"f0"
+		"wide"										"0" //f0
 		"tall"										"5"				
 		"autoResize"								"0"
 		"pinCorner"									"0"
