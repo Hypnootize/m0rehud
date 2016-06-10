@@ -1,5 +1,6 @@
 "Resource/UI/HudMedicCharge.res"
 {	
+
 	"Background"
 	{
 		"ControlName"								"CTFImagePanel"
