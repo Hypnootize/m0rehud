@@ -49,7 +49,14 @@ Is really easy, after you install the hud (FAQ 1) select what customization you 
 Open the "killstreak icon enabled" folder and copy the resource folder, then go to your custom folder and paste and replace the customization files over your old hud files.
 Same with the other customizations!
 
+
 .
+
+
+4) Where i can find amd enable the hud crosshairs:
+
+Crosshairs.res file in the scripts folder! open this file and set the visible value of the crosshair you want to 1.
+
 
 .
 
