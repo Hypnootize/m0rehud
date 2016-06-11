@@ -53,7 +53,7 @@ Same with the other customizations!
 .
 
 
-4) Where i can find amd enable the hud crosshairs:
+4) Where i can find and enable the hud crosshairs:
 
 Crosshairs.res file in the scripts folder! open this file and set the visible value of the crosshair you want to 1.
 
