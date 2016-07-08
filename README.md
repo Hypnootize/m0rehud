@@ -27,9 +27,8 @@ F.A.Q:
 
 1) How do i install the hud:
 
-Download and unzip the hud, then copy the resource,scripts,basefiles folders and paste them to your custom folder (C:\Program Files (x86)\Steam\SteamApps\common\Team Fortress 2\tf\custom\ *hud folder name*)
-
-SINCE IS A NEW THING FOR THE HUDS MOST OF THE PEOPLE MIGHT NOT KNOW ABOUT THAT BUT IS REALLY IMPORTANT TO COPY THE BASEFILE FOLDER AS WELL, IF NOT INSTALLED WITH THE REST OF THE HUD YOU MIGHT EXPERIENCE PROBLEMS LIKE THE HEALTH/POINT ICONS ETC NOT APPEARING
+-Download the hud and unzip it
+-Follow the "Installation Guide" file
 
 
 .
