@@ -28,6 +28,7 @@ F.A.Q:
 1) How do i install the hud:
 
 -Download the hud and unzip it
+
 -Follow the "Installation Guide" file
 
 
