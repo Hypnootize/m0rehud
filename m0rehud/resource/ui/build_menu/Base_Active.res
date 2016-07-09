@@ -63,7 +63,7 @@
 		"fieldName"									"CostLabel"
 		"font"										"Coolvetica"
 		"fgcolor"									"255 255 255 255"
-		"xpos"										"40"
+		"xpos"										"8"
 		"ypos"										"55"
 		"zpos"										"5"
 		"wide"										"84"
@@ -73,7 +73,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"%metal%"
-		"textAlignment"								"Left"	
+		"textAlignment"								"Center"	
 	}
 	
 	"CostLabelShadow"
