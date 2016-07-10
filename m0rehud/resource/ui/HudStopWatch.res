@@ -55,8 +55,9 @@
 		
 		if_comp
 		{
-			"xpos"									"-50"
-			"ypos"									"50"				
+			"xpos"									"70"
+			"ypos"									"30"
+			"wide"									"f0"			
 		}
 
 		"TimePanelValue"
@@ -73,6 +74,11 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"textAlignment"							"east"
+			
+			if_comp
+			{
+				"font"								"M0refont12"
+			}
 		}	
 	}
 
@@ -96,8 +102,9 @@
 		
 		if_comp
 		{
-			"xpos"									"13"
-			"ypos"									"49"				
+			"xpos"									"135"
+			"ypos"									"29"
+			"font"									"m0refont12"
 		}
 	}
 	
@@ -122,8 +129,9 @@
 		
 		if_comp
 		{
-			"xpos"									"28"
-			"ypos"									"49"				
+			"xpos"									"150"
+			"ypos"									"29"
+			"font"									"m0refont12"
 		}
 	}
 
@@ -148,8 +156,10 @@
 		
 		if_comp
 		{
-			"xpos"									"-37"
-			"ypos"									"50"				
+			"xpos"									"50"
+			"ypos"									"30"
+			"wide"									"f0"
+			"textAlignment"							"center"
 		}
 	}
 

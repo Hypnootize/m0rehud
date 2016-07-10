@@ -438,7 +438,7 @@
 		"enabled"									"1"
 		"xpos"										"c-145"
 		"ypos"										"-1"
-		"wide"										"125"
+		"wide"										"f0"
 		"tall"										"55"
 	}
 	
