@@ -77,7 +77,7 @@
 			
 			if_comp
 			{
-				"font"								"M0refont12"
+				"font"								"m0refont12"
 			}
 		}	
 	}
@@ -156,7 +156,7 @@
 		
 		if_comp
 		{
-			"xpos"									"50"
+			"xpos"									"98"
 			"ypos"									"30"
 			"wide"									"f0"
 			"textAlignment"							"center"
