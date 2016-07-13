@@ -969,9 +969,9 @@
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"PlayListContainer"
-		"xpos"										"c-200"
-		"ypos"										"125"
-		"zpos"										"-52"
+		"xpos"										"c-292"
+		"ypos"										"213"
+		"zpos"										"20"
 		"wide"										"260"
 		"tall"										"0"
 		"visible"									"1"
@@ -1680,12 +1680,69 @@
 		}
 	}
 	
+	"AdvancedSettingsButton"
+	{
+		"ControlName"								"EditablePanel"
+		"fieldname"									"AdvancedSettingsButton"
+		"xpos"										"c-285"
+		"ypos"										"285"
+		"zpos"										"11"
+		"wide"										"150"
+		"tall"										"14"
+		"visible"									"1"
+		
+		"SubButton"
+		{
+			"ControlName"							"CExImageButton"
+			"fieldName"								"SubButton"
+			"xpos"									"0"
+			"ypos"									"0"
+			"wide"									"150"
+			"tall"									"14"
+			"autoResize"							"0"
+			"pinCorner"								"3"
+			"visible"								"1"
+			"enabled"								"1"
+			"tabPosition"							"0"
+			"textinsetx"							"0"
+			"use_proportional_insets" 				"1"
+			"font"									"COOLVETICA"
+			"textAlignment"							"west"
+			"dulltext"								"0"
+			"brighttext"							"0"
+			"default"								"1"
+			"sound_depressed"						"UI/buttonclick.wav"
+			"sound_released"						"UI/buttonclickrelease.wav"
+			
+			"border_default"						""
+			"border_armed"							""
+			"paintbackground"						"0"
+			
+			"defaultFgColor_override" 				"255 255 255 255"
+			"armedFgColor_override" 				"Main Menu Labels"
+			"depressedFgColor_override" 			"Main Menu Labels"
+				
+			"image_drawcolor"						"Main Menu Labels"
+			"image_armedcolor"						"255 255 255 255"
+			
+			"SubImage"
+			{
+				"ControlName"						"ImagePanel"
+				"fieldName"							"SubImage"
+				"wide"								"0"
+				"tall"								"0"
+				"visible"							"0"
+				"enabled"							"0"
+			}
+		}
+	}
+	
 	"DemoUI"
 	{
 		"ControlName"								"EditablePanel"
 		"fieldname"									"demoui"
 		"xpos"										"c-285"
-		"ypos"										"285"
+		"ypos"										"302"
 		"zpos"										"11"
 		"wide"										"100"
 		"tall"										"14"
@@ -1742,7 +1799,7 @@
 		"ControlName"								"EditablePanel"
 		"fieldname"									"QuitButton"
 		"xpos"										"c-285"
-		"ypos"										"302"
+		"ypos"										"319"
 		"zpos"										"11"
 		"wide"										"100"
 		"tall"										"14"
@@ -1856,7 +1913,7 @@
 		"ControlName"								"EditablePanel"
 		"fieldname"									"DisconnectButton"
 		"xpos"										"c-285"
-		"ypos"										"285"
+		"ypos"										"302"
 		"zpos"										"11"
 		"wide"										"100"
 		"tall"										"14"
@@ -1913,7 +1970,7 @@
 		"ControlName"								"EditablePanel"
 		"fieldname"									"QuitGameButton"
 		"xpos"										"c-285"
-		"ypos"										"302"
+		"ypos"										"319"
 		"zpos"										"11"
 		"wide"										"100"
 		"tall"										"14"

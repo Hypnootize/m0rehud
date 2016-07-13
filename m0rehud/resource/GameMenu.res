@@ -1,56 +1,6 @@
 "GameMenu"
 {
-	"VersionButton"
-	{
-		"label" 									"M0REHUD" 
-		"command" 									"engine showconsole; echo m0rehud by Hypnotize, all credtits to m0re for the original hud. Get the new verions and report any bug @ www.teamfortress.tv/34115/m0re-hud"
-		"subimage" 									""
-		"OnlyAtMenu"								"1"
-	}
-	"FindAGameButton"
-	{
-		"label" 									"PLAY" 
-		"command" 									"toggle_play_menu"
-		"subimage" 									"glyph_multiplayer"
-		"OnlyAtMenu"								"0"
-	}
-	"SettingsButton"
-	{
-		"label"										"OPTIONS"
-		"command"									"OpenOptionsDialog"
-		"subimage"									"glyph_options"
-	}
-	"DemoUI"
-	{
-		"label"										"DEMOUI"
-		"command"									"engine demoui"
-		"OnlyAtMenu"								"1"
-	}
-	"Scoreboard"
-	{
-		"label"										"SCOREBOARD"
-		"command"									"engine toggle cl_hud_minmode"
-		"OnlyInGame"								"1"
-	}
-	"QuitButton"
-	{
-		"label" 									"QUIT"
-		"command" 									"engine replay_confirmquit"
-		"OnlyAtMenu" 								"1"
-	}
-	"QuitGameButton"
-	{
-		"label" 									"QUIT"
-		"command" 									"engine replay_confirmquit"
-		"OnlyInGame" 								"1"
-	}
-	"DisconnectButton"
-	{
-		"label" 									"DISCONNECT"
-		"command" 									"engine disconnect"
-		"OnlyInGame" 								"1"
-	}
-	
+	/////////////////////////Top Menu Buttons///////////////////////////
 	"QuestsButton"
 	{
 		"label" 									"F"
@@ -67,35 +17,65 @@
 		"command" 									"motd_show"
 	}
 	
-	// These buttons get positioned by the MainMenuOverride.res
+	/////////////////////////Main Menu Buttons/////////////////////////
+	"VersionButton"
+	{
+		"label" 									"M0REHUD" 
+		"command" 									"engine showconsole; echo m0rehud by Hypnotize, all credtits to m0re for the original hud. Get the new verions and report any bug @ www.teamfortress.tv/34115/m0re-hud"
+		"OnlyAtMenu"								"1"
+	}
+	"FindAGameButton"
+	{
+		"label" 									"PLAY" 
+		"command" 									"toggle_play_menu"
+	}
 	"CreateServerButton"
 	{
 		"label"										"CREATE"
 		"command"									"OpenCreateMultiplayerGameDialog"
 		"OnlyAtMenu"								"1"
 	}
-	"GeneralStoreButton"
-	{
-		"label"										"STORE"
-		"command"									"engine open_store"
-		"subimage"									"glyph_store"
-	}
 	"CharacterSetupButton"
 	{
 		"label"										"ITEMS"
 		"command"									"engine open_charinfo"
-		"subimage"									"glyph_items"
 	}
-
-	// These buttons are only shown while in-game
-	// and also are positioned by the .res file
+	"GeneralStoreButton"
+	{
+		"label"										"STORE"
+		"command"									"engine open_store"
+	}
+	"SettingsButton"
+	{
+		"label"										"OPTIONS"
+		"command"									"OpenOptionsDialog"
+	}
+	"AdvancedSettingsButton"
+	{
+		"label"										"ADVANCED"
+		"command"									"opentf2options"
+	}
+	"DemoUI"
+	{
+		"label"										"DEMOUI"
+		"command"									"engine demoui"
+		"OnlyAtMenu"								"1"
+	}
+	"QuitButton"
+	{
+		"label" 									"QUIT"
+		"command" 									"engine replay_confirmquit"
+		"OnlyAtMenu" 								"1"
+	}
+	
+	/////////////////////////Ingame Only Buttons///////////////////////
 	"CallVoteButton"
 	{
 		"label"										""
 		"command"									"callvote"
 		"subimage" 									"icon_checkbox"
 		"OnlyInGame" 								"1"
-		"tooltip" 									"#MMenu_CallVote"
+		"tooltip" 									"Call Vote"
 	}
 	"MutePlayersButton"
 	{
@@ -103,7 +83,7 @@
 		"command"									"OpenPlayerListDialog"
 		"subimage" 									"glyph_muted"
 		"OnlyInGame" 								"1"
-		"tooltip" 									"#MMenu_MutePlayers"
+		"tooltip" 									"Mute Players"
 	}
 	"ReportPlayerButton"
 	{
@@ -111,7 +91,7 @@
 		"command"									"OpenReportPlayerDialog"
 		"OnlyInGame"								"1"
 		"subimage"									"glyph_alert"
-		"tooltip"									"#MMenu_ReportPlayer"
+		"tooltip"									"Report Players"
 	}
 	"AchievementsButton"
 	{
@@ -120,5 +100,23 @@
 		"subimage"									"glyph_achievements"
 		"OnlyInGame"								"1"
 		"tooltip"									"Achievements"
+	}
+	"Scoreboard"
+	{
+		"label"										"SCOREBOARD"
+		"command"									"engine toggle cl_hud_minmode"
+		"OnlyInGame"								"1"
+	}
+	"DisconnectButton"
+	{
+		"label" 									"DISCONNECT"
+		"command" 									"engine disconnect"
+		"OnlyInGame" 								"1"
+	}
+	"QuitGameButton"
+	{
+		"label" 									"QUIT"
+		"command" 									"engine replay_confirmquit"
+		"OnlyInGame" 								"1"
 	}
 }
