@@ -293,7 +293,7 @@
 		"ControlName" 								"EditablePanel"
 		"fieldName"  								"BallPowerCluster"
 		"xpos"  									"0"
-		"ypos"  									"32"
+		"ypos"  									"0"
 		"zpos" 								 		"5"
 		"wide"  									"f0"
 		"tall"  									"f0"
