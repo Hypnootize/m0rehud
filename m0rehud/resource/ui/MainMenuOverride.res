@@ -272,7 +272,7 @@
 		"ControlName"								"EditablePanel"
 		"fieldname"									"CreateServerButton"
 		"xpos"										"c-285"
-		"ypos"										"217"
+		"ypos"										"234"
 		"zpos"										"11"
 		"wide"										"100"
 		"tall"										"14"
@@ -346,7 +346,7 @@
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"MOTD_Panel"
-		"xpos"										"c5"
+		"xpos"										"c-15"
 		"ypos"										"65"
 		"zpos"										"1"
 		"wide"										"300"
@@ -411,6 +411,7 @@
 			"dulltext"								"0"
 			"brighttext"							"0"
 			"default"								"0"
+			"actionsignallevel" 					"2"
 
 			"navDown"								"MOTD_URLButton"
 			"navActivate"							"<QuickplayButton"
@@ -607,6 +608,7 @@
 			"default"								"1"
 			"command"								"motd_viewurl"
 			"proportionaltoparent" 					"1"
+			"actionsignallevel" 					"2"
 
 			"navUp"									"MOTD_CloseButton"
 			"navLeft"								"MOTD_PrevButton"
@@ -642,6 +644,7 @@
 			"brighttext"							"0"
 			"default"								"1"
 			"Command"								"motd_prev"
+			"actionsignallevel" 					"2"
 
 			"navUp"									"MOTD_CloseButton"
 			"navRight"								"MOTD_URLButton"
@@ -689,6 +692,7 @@
 			"brighttext"							"0"
 			"default"								"1"
 			"Command"								"motd_next"
+			"actionsignallevel" 					"2"
 
 			"navUp"									"MOTD_CloseButton"
 			"navLeft"								"MOTD_URLButton"
@@ -798,6 +802,7 @@
 			"dulltext"								"0"
 			"brighttext"							"0"
 			"default"								"0"
+			"actionsignallevel" 					"2"
 
 			"Command"								"noti_hide"
 			"navActivate"							"<QuickplayButton"
@@ -876,8 +881,8 @@
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"Notifications_ShowButtonPanel"
-		"xpos"										"c-180"
-		"ypos"										"28"
+		"xpos"										"r30"
+		"ypos"										"300"
 		"zpos"										"1"
 		"wide"										"32"
 		"tall"										"32"
@@ -984,7 +989,7 @@
 			"ypos"									"-260"
 			"zpos"									"-1"
 			"wide"									"p0.98"
-			"tall"									"261"
+			"tall"									"161"
 			"visible"								"1"
 			"PaintBackgroundType"					"2"
 			"border"								"MainMenuBGBorder"
@@ -1068,39 +1073,7 @@
 					"button_command"				"play_mvm"
 					"desc_token"					"#MMenu_PlayList_MvM_Desc"
 				}
-
-				"ServerBrowserEntry"
-				{
-					"ControlName"					"CMainMenuPlayListEntry"
-					"fieldName"						"ServerBrowserEntry"
-					"xpos"							"0"
-					"ypos"							"153"
-					"tall"							"45"
-					"wide"							"p1"
-					"proportionaltoparent"			"1"
-
-					"image_name"					"main_menu/main_menu_button_community_server"
-					"button_token"					"#MMenu_PlayList_ServerBrowser_Button"
-					"button_command"				"OpenServerBrowser"
-					"desc_token"					"#MMenu_PlayList_ServerBrowser_Desc"
-				}
-
-				"TrainingEntry"
-				{
-					"ControlName"					"CMainMenuPlayListEntry"
-					"fieldName"						"TrainingEntry"
-					"xpos"							"0"
-					"ypos"							"203"
-					"tall"							"45"
-					"wide"							"p1"
-					"proportionaltoparent"			"1"
-
-					"image_name"					"main_menu/main_menu_button_training"
-					"button_token"					"#MMenu_PlayList_Training_Button"
-					"button_command"				"play_training"
-					"desc_token"					"#MMenu_PlayList_Training_Desc"
-				}
-
+				
 				"ScrollBar"
 				{
 					"ControlName"					"ScrollBar"
@@ -1140,8 +1113,8 @@
 	{
 		"ControlName"								"EditablePanel"
 		"fieldname"									"WatchStreamButton"
-		"xpos"										"c-300"
-		"ypos"										"28"
+		"xpos"										"r30"
+		"ypos"										"210"
 		"zpos"										"11"
 		"wide"										"32"
 		"tall"										"32"
@@ -1203,7 +1176,7 @@
 	{
 		"ControlName"								"CTFStreamListPanel"
 		"fieldName"									"StreamListPanel"
-		"xpos"										"c5"
+		"xpos"										"c-15"
 		"ypos"										"65"
 		"zpos"										"1"
 		"wide"										"300"
@@ -1221,8 +1194,8 @@
 	{
 		"ControlName"								"EditablePanel"
 		"fieldname"									"QuestsButton"
-		"xpos"										"c-260"
-		"ypos"										"28"
+		"xpos"										"r30"
+		"ypos"										"240"
 		"zpos"										"11"
 		"wide"										"32"
 		"tall"										"32"
@@ -1336,8 +1309,8 @@
 	{
 		"ControlName"								"EditablePanel"
 		"fieldname"									"MOTD_ShowButtonPanel"
-		"xpos"										"c-220"
-		"ypos"										"28"
+		"xpos"										"r30"
+		"ypos"										"270"
 		"zpos"										"11"
 		"wide"										"32"
 		"tall"										"32"
@@ -1366,7 +1339,7 @@
 			"default"								"1"
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
-			
+			"actionsignallevel" 					"2"
 			"border_default"						""
 			"border_armed"							""
 			"paintbackground"						"0"
@@ -1509,12 +1482,69 @@
 		}
 	}
 	
+	"ServerBrowserButton"
+	{
+		"ControlName"								"EditablePanel"
+		"fieldname"									"ServerBrowserButton"
+		"xpos"										"c-285"
+		"ypos"										"217"
+		"zpos"										"11"
+		"wide"										"100"
+		"tall"										"14"
+		"visible"									"1"
+		
+		"SubButton"
+		{
+			"ControlName"							"CExImageButton"
+			"fieldName"								"SubButton"
+			"xpos"									"0"
+			"ypos"									"0"
+			"wide"									"100"
+			"tall"									"14"
+			"autoResize"							"0"
+			"pinCorner"								"3"
+			"visible"								"1"
+			"enabled"								"1"
+			"tabPosition"							"0"
+			"textinsetx"							"0"
+			"use_proportional_insets" 				"1"
+			"font"									"COOLVETICA"
+			"textAlignment"							"west"
+			"dulltext"								"0"
+			"brighttext"							"0"
+			"default"								"1"
+			"sound_depressed"						"UI/buttonclick.wav"
+			"sound_released"						"UI/buttonclickrelease.wav"
+			
+			"border_default"						""
+			"border_armed"							""
+			"paintbackground"						"0"
+			
+			"defaultFgColor_override" 				"255 255 255 255"
+			"armedFgColor_override" 				"Main Menu Labels"
+			"depressedFgColor_override" 			"Main Menu Labels"
+				
+			"image_drawcolor"						"Main Menu Labels"
+			"image_armedcolor"						"255 255 255 255"
+			
+			"SubImage"
+			{
+				"ControlName"						"ImagePanel"
+				"fieldName"							"SubImage"
+				"wide"								"0"
+				"tall"								"0"
+				"visible"							"0"
+				"enabled"							"0"
+			}
+		}
+	}
+	
 	"CharacterSetupButton"
 	{
 		"ControlName"								"EditablePanel"
 		"fieldname"									"CharacterSetupButton"
 		"xpos"										"c-285"
-		"ypos"										"234"
+		"ypos"										"251"
 		"zpos"										"11"
 		"wide"										"100"
 		"tall"										"14"
@@ -1571,7 +1601,7 @@
 		"ControlName"								"EditablePanel"
 		"fieldname"									"GeneralStoreButton"
 		"xpos"										"c-285"
-		"ypos"										"251"
+		"ypos"										"268"
 		"zpos"										"11"
 		"wide"										"100"
 		"tall"										"14"
@@ -1628,7 +1658,7 @@
 		"ControlName"								"EditablePanel"
 		"fieldname"									"SettingsButton"
 		"xpos"										"c-285"
-		"ypos"										"268"
+		"ypos"										"285"
 		"zpos"										"11"
 		"wide"										"100"
 		"tall"										"14"
@@ -1685,7 +1715,7 @@
 		"ControlName"								"EditablePanel"
 		"fieldname"									"AdvancedSettingsButton"
 		"xpos"										"c-285"
-		"ypos"										"285"
+		"ypos"										"302"
 		"zpos"										"11"
 		"wide"										"150"
 		"tall"										"14"
@@ -1742,7 +1772,7 @@
 		"ControlName"								"EditablePanel"
 		"fieldname"									"demoui"
 		"xpos"										"c-285"
-		"ypos"										"302"
+		"ypos"										"319"
 		"zpos"										"11"
 		"wide"										"100"
 		"tall"										"14"
@@ -1799,7 +1829,7 @@
 		"ControlName"								"EditablePanel"
 		"fieldname"									"QuitButton"
 		"xpos"										"c-285"
-		"ypos"										"319"
+		"ypos"										"336"
 		"zpos"										"11"
 		"wide"										"100"
 		"tall"										"14"
@@ -1856,7 +1886,7 @@
 		"ControlName"								"EditablePanel"
 		"fieldname"									"Scoreboard"
 		"xpos"										"c-285"
-		"ypos"										"217"
+		"ypos"										"234"
 		"zpos"										"11"
 		"wide"										"100"
 		"tall"										"14"
@@ -1913,7 +1943,7 @@
 		"ControlName"								"EditablePanel"
 		"fieldname"									"DisconnectButton"
 		"xpos"										"c-285"
-		"ypos"										"302"
+		"ypos"										"319"
 		"zpos"										"11"
 		"wide"										"100"
 		"tall"										"14"
@@ -1970,7 +2000,7 @@
 		"ControlName"								"EditablePanel"
 		"fieldname"									"QuitGameButton"
 		"xpos"										"c-285"
-		"ypos"										"319"
+		"ypos"										"336"
 		"zpos"										"11"
 		"wide"										"100"
 		"tall"										"14"

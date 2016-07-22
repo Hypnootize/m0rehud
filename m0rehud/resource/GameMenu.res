@@ -29,6 +29,11 @@
 		"label" 									"PLAY" 
 		"command" 									"toggle_play_menu"
 	}
+	"ServerBrowserButton"
+	{
+		"label" 									"SERVERS"
+		"command" 									"OpenServerBrowser"
+	}
 	"CreateServerButton"
 	{
 		"label"										"CREATE"
