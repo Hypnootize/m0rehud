@@ -64,13 +64,13 @@ event HudHealthDyingPulse
 	Animate	PlayerStatusHealthBonusImage 		Alpha		"0"									Linear 	0.125 0.075
 	
 	Animate PlayerStatusHealthvalueSpecgui 		Alpha 		"255" 								Linear 	0.0 0.0
-	Animate PlayerStatusHealthvalueSpecgui 		FgColor 	"Low Health" 						Linear 	0.0 0.0
+	Animate PlayerStatusHealthvalueSpecgui 		FgColor 	"Low Health Spec" 					Linear 	0.0 0.0
 	
 	Animate PlayerStatusHealthValueSpecguiLow 	Alpha 		"255" 								Linear 	0.0 0.0
 	Animate PlayerStatusHealthValueSpecguiLow 	FgColor 	"0 0 0 255" 						Linear 	0.0 0.0
 	
 	Animate PlayerStatusHealthValueTarget 		Alpha 		"255" 								Linear 	0.0 0.0
-	Animate PlayerStatusHealthValueTarget 		FgColor 	"Low Health" 						Linear 	0.0 0.0
+	Animate PlayerStatusHealthValueTarget 		FgColor 	"Low Health Target" 				Linear 	0.0 0.0
 	
 	Animate PlayerStatusHealthValueshadow 		Alpha 		"255" 								Linear 	0.0 0.0
 	Animate PlayerStatusHealthValueshadow 		FgColor 	"Low Health" 						Accel 	0.0 0.0
