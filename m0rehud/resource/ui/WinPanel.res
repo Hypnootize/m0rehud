@@ -272,6 +272,7 @@
 		"dulltext"	  								"0"
 		"brighttext"								"0"
 	}
+	
 	"WinningTeamLabelDropshadow"
 	{	
 		"ControlName"								"CExLabel"
@@ -292,6 +293,7 @@
 		"dulltext"	  								"0"
 		"brighttext"								"0"
 	}
+	
 	"AdvancingTeamLabel"
 	{	
 		"ControlName"								"CExLabel"
@@ -312,6 +314,7 @@
 		"dulltext"									"0"
 		"brighttext"								"0"
 	}
+	
 	"AdvancingTeamLabelDropshadow"
 	{	
 		"ControlName"								"CExLabel"
@@ -332,6 +335,7 @@
 		"dulltext"									"0"
 		"brighttext"								"0"
 	}
+	
 	"WinReasonLabel"
 	{
 		"ControlName"								"CExLabel"

@@ -436,18 +436,16 @@
 		"fieldName"									"SpectatorsInQueue"
 		"font"										"ScoreboardVerySmall"
 		"labelText"									"%waitingtoplay%"
-		"textAlignment"								"west"
-		"xpos"										"115"
-		"xpos_hidef"								"135"
-		"ypos"										"348"							[$WIN32]
-		"ypos"										"277"							[$X360]
-		"zpos"										"4"
-		"wide"										"424"
-		"tall"										"20"
-		"autoResize"								"0"
-		"pinCorner"									"0"
-		"visible"									"1"
-		"enabled"									"1"
+		"textAlignment"								"east"
+		"xpos"          							"-10"
+		"ypos" 		     							"15"
+		"zpos"		      	     					"4"
+		"wide"		      	      					"f0"
+		"tall"		      	      					"10"
+		"autoResize"    	      					"0"
+		"pinCorner"	    	      					"0"
+		"visible"		           					"1"
+		"enabled"	              					"1"
 		
 		if_mvm
 		{

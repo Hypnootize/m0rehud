@@ -48,11 +48,12 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"font"										"HudFontMediumBold"
+		"font"										"m0refont24"
 		"labelText"									"#TF_Arena_Team_Layout"
 		"textAlignment"								"center"
 		"fgcolor"									"TanLight"
 	}
+	
 	"titleShadow"
 	{
 		"ControlName"								"CExLabel"
@@ -66,10 +67,10 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"font"										"HudFontMediumBold"
+		"font"										"m0refont24"
 		"labelText"									"#TF_Arena_Team_Layout"
 		"textAlignment"								"center"
-		"fgcolor"									"Black"
+		"fgcolor"									"0 0 0 255"
 	}
 		
 	"changeLabel"
@@ -90,6 +91,7 @@
 		"textAlignment"								"center"
 		"fgcolor"									"TanLight"
 	}
+	
 	"changeLabelShadow"
 	{
 		"ControlName"								"CExLabel"
