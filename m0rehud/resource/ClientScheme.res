@@ -1,55 +1,8 @@
 #base "../basefiles/ClientScheme.res"
+#base "../resource/ColorCustomization.res"
 
 Scheme
 {
-	
-	//////////////////////////////////COLORS////////////////////////////////////
-	
-	Colors
-	{
-		"Health Numbers"									"255 255 255 255"
-
-		"Buffed Health Green"								"0 255 0 200"
-		"Buffed Health Blue"								"0 165 255 200"
-
-		"Buffed Health Target Green"						"0 255 0 200"
-		"Buffed Health Target Blue"							"0 165 255 255"
-
-		"Buffed Health Spec Green"							"0 255 0 200"
-		"Buffed Health Spec Blue"							"0 165 255 255"
-		
-		"Low Health"										"255 20 20 255"
-		"Low Health Target"									"255 20 20 255"
-		"Low Health Spec"									"255 20 20 255"
-		
-		"Ammo In Clip"										"255 255 255 255"
-		"Ammo In Reserve"									"255 255 255 255"
-		"Ammo No Clip"										"255 255 255 255"
-
-		"Low Ammo In Clip"									"255 20 20 255"
-		"Low Ammo In Reserve"								"255 20 20 255"
-		"Low Ammo No Clip"									"255 20 20 255"
-
-		"Ubercharge"										"255 255 255 255"
-		"Full Ubercharge"									"255 0 127 255"
-		"Ubercharge Bar"									"255 0 127 255"
-
-		"Damage Numbers"									"255 255 255 255"
-		"Heal Numbers"										"0 255 0 255"
-		"Last Damage Done"									"255 255 255 255"
-
-		"Main Menu Labels"									"255 0 127 255"
-		
-		"M0reBlue"											"0 120 201 255"
-		"M0reRed"											"235 58 58 255"
-		
-		"TanLight"											"255 255 255 255"
-	}
-	
-	
-	//////////////////////////////////FONTS////////////////////////////////////
-	
-	
 	Fonts
 	{
 		
@@ -71,6 +24,27 @@ Scheme
 				"tall"										"15"
 				"additive"									"0"
 				"antialias" 								"1"
+			}
+		}
+		Coolvetica22
+		{
+			"1"
+			{
+				"name"										"Coolvetica22"
+				"tall"										"22"
+				"additive"									"0"
+				"antialias" 								"1"
+			}
+		}
+		M0refont6
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"6"
+				"additive"									"0"
+				"antialias" 								"1"
+				"outline"									"0"
 			}
 		}
 		M0refont8
@@ -173,6 +147,17 @@ Scheme
 				"outline"									"1"
 			}
 		}
+		M0refont20
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"20"
+				"additive"									"0"
+				"antialias" 								"1"
+				"outline"									"0"
+			}
+		}
 		M0refont20Outline
 		{
 			"1"
@@ -193,6 +178,17 @@ Scheme
 				"additive"									"0"
 				"antialias" 								"1"
 				"outline"									"1"
+			}
+		}
+		M0refont22
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"22"
+				"additive"									"0"
+				"antialias" 								"1"
+				"outline"									"0"
 			}
 		}
 		M0refont22Outline
@@ -272,12 +268,34 @@ Scheme
 				"outline"									"0"
 			}
 		}
+		M0refont30Outline
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"30"
+				"additive"									"0"
+				"antialias" 								"1"
+				"outline"									"1"
+			}
+		}
 		M0refont32
 		{
 			"1"
 			{
 				"name"										"Surface-Medium"
 				"tall"										"32"
+				"additive"									"0"
+				"antialias" 								"1"
+				"outline"									"0"
+			}
+		}
+		M0refont34
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"34"
 				"additive"									"0"
 				"antialias" 								"1"
 				"outline"									"0"
@@ -305,12 +323,45 @@ Scheme
 				"outline"									"1"
 			}
 		}
+		M0refont38
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"38"
+				"additive"									"0"
+				"antialias" 								"1"
+				"outline"									"0"
+			}
+		}
 		M0refont40
 		{
 			"1"
 			{
 				"name"										"Surface-Medium"
 				"tall"										"40"
+				"additive"									"0"
+				"antialias" 								"1"
+				"outline"									"0"
+			}
+		}
+		M0refont42
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"42"
+				"additive"									"0"
+				"antialias" 								"1"
+				"outline"									"0"
+			}
+		}
+		M0refont44
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"44"
 				"additive"									"0"
 				"antialias" 								"1"
 				"outline"									"0"
@@ -338,12 +389,122 @@ Scheme
 				"outline"									"0"
 			}
 		}
+		M0refont50
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"50"
+				"additive"									"0"
+				"antialias" 								"1"
+				"outline"									"0"
+			}
+		}
+		M0refont52
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"52"
+				"additive"									"0"
+				"antialias" 								"1"
+				"outline"									"0"
+			}
+		}
+		M0refont54
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"54"
+				"additive"									"0"
+				"antialias" 								"1"
+				"outline"									"0"
+			}
+		}
 		M0refont56
 		{
 			"1"
 			{
 				"name"										"Surface-Medium"
 				"tall"										"56"
+				"additive"									"0"
+				"antialias" 								"1"
+				"outline"									"0"
+			}
+		}
+		M0refont58
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"58"
+				"additive"									"0"
+				"antialias" 								"1"
+				"outline"									"0"
+			}
+		}
+		M0refont60
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"60"
+				"additive"									"0"
+				"antialias" 								"1"
+				"outline"									"0"
+			}
+		}
+		M0refont62
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"62"
+				"additive"									"0"
+				"antialias" 								"1"
+				"outline"									"0"
+			}
+		}
+		M0refont64
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"64"
+				"additive"									"0"
+				"antialias" 								"1"
+				"outline"									"0"
+			}
+		}
+		M0refont66
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"66"
+				"additive"									"0"
+				"antialias" 								"1"
+				"outline"									"0"
+			}
+		}
+		M0refont68
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"68"
+				"additive"									"0"
+				"antialias" 								"1"
+				"outline"									"0"
+			}
+		}
+		M0refont70
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"70"
 				"additive"									"0"
 				"antialias" 								"1"
 				"outline"									"0"
