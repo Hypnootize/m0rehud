@@ -24,10 +24,23 @@
 		"command" 									"engine showconsole; echo m0rehud by Hypnotize, all credtits to m0re for the original hud. Get the new verions and report any bug @ www.teamfortress.tv/34115/m0re-hud"
 		"OnlyAtMenu"								"1"
 	}
-	"FindAGameButton"
+	"CasualButton"
 	{
-		"label" 									"PLAY" 
-		"command" 									"toggle_play_menu"
+		"label" 									"CASUAL" 
+		"command" 									"play_casual"
+		"OnlyAtMenu"								"1"
+	}
+	"MvMButton"
+	{
+		"label" 									"MVM" 
+		"command" 									"play_mvm"
+		"OnlyAtMenu"								"1"
+	}
+	"CompetitiveButton"
+	{
+		"label" 									"COMPETITIVE" 
+		"command" 									"play_competitive"
+		"OnlyAtMenu"								"1"
 	}
 	"ServerBrowserButton"
 	{
@@ -36,9 +49,8 @@
 	}
 	"CreateServerButton"
 	{
-		"label"										"CREATE"
+		"label"										"+"
 		"command"									"OpenCreateMultiplayerGameDialog"
-		"OnlyAtMenu"								"1"
 	}
 	"CharacterSetupButton"
 	{
@@ -60,12 +72,6 @@
 		"label"										"ADVANCED"
 		"command"									"opentf2options"
 	}
-	"DemoUI"
-	{
-		"label"										"DEMOUI"
-		"command"									"engine demoui"
-		"OnlyAtMenu"								"1"
-	}
 	"QuitButton"
 	{
 		"label" 									"QUIT"
@@ -80,7 +86,6 @@
 		"command"									"callvote"
 		"subimage" 									"icon_checkbox"
 		"OnlyInGame" 								"1"
-		"tooltip" 									"Call Vote"
 	}
 	"MutePlayersButton"
 	{
@@ -88,7 +93,6 @@
 		"command"									"OpenPlayerListDialog"
 		"subimage" 									"glyph_muted"
 		"OnlyInGame" 								"1"
-		"tooltip" 									"Mute Players"
 	}
 	"ReportPlayerButton"
 	{
@@ -96,7 +100,6 @@
 		"command"									"OpenReportPlayerDialog"
 		"OnlyInGame"								"1"
 		"subimage"									"glyph_alert"
-		"tooltip"									"Report Players"
 	}
 	"AchievementsButton"
 	{
@@ -104,7 +107,6 @@
 		"command"									"OpenAchievementsDialog"
 		"subimage"									"glyph_achievements"
 		"OnlyInGame"								"1"
-		"tooltip"									"Achievements"
 	}
 	"Scoreboard"
 	{
