@@ -103,7 +103,6 @@
 			"visible"								"0"
 			"enabled"								"1"
 			"labelText"								"#Building_hud_sentry_not_built"
-			"labelText_lodef"						"#Building_hud_sentry_not_built_360"
 			"textAlignment"							"Left"
 			"dulltext"								"0"
 			"brighttext"							"0"
@@ -316,11 +315,11 @@
 						
 			"KillsLabel"
 			{	
-				"ControlName"						"CTFLabel"
+				"ControlName"						"CExLabel"
 				"fieldName"							"KillsLabel"
 				"font"								"DefaultSmall"
-				"xpos"								"12"
-				"ypos"								"13"
+				"xpos"								"15"
+				"ypos"								"11"
 				"wide"								"200"
 				"tall"								"22"
 				"autoResize"						"0"

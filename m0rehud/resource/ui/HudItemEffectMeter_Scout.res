@@ -5,8 +5,8 @@
 		"fieldName"									"HudItemEffectMeter"
 		"visible"									"1"
 		"enabled"									"1"
-		"xpos"										"c-69"							[$WIN32]
-		"ypos"										"412"							[$WIN32]
+		"xpos"										"c-69"
+		"ypos"										"412"
 		"wide"										"140"
 		"tall"										"50"
 		"MeterFG"									"White"
@@ -35,14 +35,14 @@
 		"autoResize"								"1"
 		"pinCorner"									"2"
 		"visible"									"1"
-		"enabled"									"0"
+		"enabled"									"1"
 		"tabPosition"								"0"
 		"labelText"									"#TF_ENERGYDRINK"
 		"textAlignment"								"center"
 		"dulltext"									"0"
 		"brighttext"								"0"
 		"font"										"TFFontSmall"
-		"fgcolor_override"							"255 255 255 255"
+		"fgcolor_override"							"150 150 150 255"
 	}
 
 	"ItemEffectMeter"

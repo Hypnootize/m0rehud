@@ -1,6 +1,6 @@
 "Resource/UI/HudPlayerHealth.res"
 {	
-	// player health data
+
 	"HudPlayerHealth"
 	{
 		"ControlName"           					"EditablePanel"
@@ -16,6 +16,7 @@
 		"HealthDeathWarning"    					"0.49"
 		"HealthDeathWarningColor"					"HUDDeathWarning"
 	}	
+	
 	"PlayerStatusHealthImage"
 	{
 		"ControlName" 	         				 	"ImagePanel"
@@ -24,7 +25,8 @@
 		"tall"                   				 	"0"
 		"visible"		             				"0"
 		"enabled"		             				"0"
-	}		
+	}
+	
 	"PlayerStatusHealthImageBG"
 	{
 		"ControlName"	           				 	"ImagePanel"
@@ -33,7 +35,8 @@
 		"tall"         				 				"0"
 		"visible"         				 			"0"
 		"enabled"	            				 	"0"
-	}	
+	}
+	
 	"PlayerStatusHealthBonusImage"
 	{
 		"ControlName"	         				 	"ImagePanel"
@@ -48,6 +51,7 @@
 		"image"			         				 	"../hud/health_over_bg"
 		"scaleImage"	         				 	"1"	
 	}
+	
 	"PlayerStatusHealthValue"
 	{
 		"ControlName"	           				 	"CExLabel"
@@ -64,6 +68,7 @@
 		"font"                   				 	"M0refont72"
 		"fgcolor"	    	         				"Health Numbers"
 	}
+	
 	"PlayerStatusHealthValueshadow"
 	{
 		"ControlName"	           				 	"CExLabel"
@@ -79,7 +84,8 @@
 		"textAlignment"	         				 	"center"	
 		"font"                   				 	"M0refont72"
 		"fgcolor"	     	         				"0 0 0 255"
-	}	
+	}
+	
 	"PlayerStatusHealthValueshadowExtra"
 	{
 		"ControlName"	          				 	"CExLabel"
@@ -96,6 +102,7 @@
 		"font"                   				 	"M0refont72"
 		"fgcolor"	     	         				"0 0 0 0"
 	}
+	
 	"PlayerStatusAnchor"
 	{
 		"ControlName"				         		"EditablePanel"
@@ -500,7 +507,7 @@
 		"visible"				         			"1"
 		"enabled"				         			"1"
 		"scaleImage"				         		"1"	
-		"image"					         			"../Effects/powerup_reflect_hud"
+		"image"      								"../Effects/powerup_reflect_hud"
 		"fgcolor"				         			"TanDark"
 		"pin_to_sibling"			         		"PlayerStatusAnchor"
 		"pin_corner_to_sibling"			         	"1"

@@ -264,24 +264,35 @@
 	{
 		"ControlName"								"Panel"
 		"fieldName"									"TopBar"
-		"visible"									"0"
+		"xpos"										"9999"
 		"tall"										"0"
+		"wide"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
+	
 	"BottomBar"
 	{
 		"ControlName"								"Frame"
 		"fieldName"									"BottomBar"
-		"visible"									"0"
-		"ypos"										"100"
+		"xpos"										"9999"
 		"tall"										"0"
+		"wide"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
+	
 	"bottombarblank"
 	{
 		"ControlName"								"Panel"
 		"fieldName"									"bottombarblank"
+		"xpos"										"9999"
+		"tall"										"0"
+		"wide"										"0"
 		"visible"									"0"
-		"ypos"										"480"
+		"enabled"									"0"
 	}
+	
 	"ReinforcementsLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -308,6 +319,7 @@
 			"textAlignment"							"center"
 		}
 	}
+	
 	"BuyBackLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -331,61 +343,98 @@
 			"visible"								"1"
 		}	
 	}
+	
 	"MapLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"MapLabel"
+		"tall"										"0"
+		"wide"										"0"
 		"visible"									"0"
+		"enabled"									"0"
 	}
+	
 	"ClassOrTeamLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"ClassOrTeamLabel"
+		"tall"										"0"
+		"wide"										"0"
 		"visible"									"0"
+		"enabled"									"0"
 	}
+	
 	"SwitchCamModeKeyLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"SwitchCamModeKeyLabel"
+		"tall"										"0"
+		"wide"										"0"
 		"visible"									"0"
+		"enabled"									"0"
 		
 	}
+	
 	"SwitchCamModeLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"SwitchCamModeLabel"
+		"tall"										"0"
+		"wide"										"0"
 		"visible"									"0"
+		"enabled"									"0"
 	}
+	
 	"CycleTargetFwdKeyLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"CycleTargetFwdKeyLabel"
+		"tall"										"0"
+		"wide"										"0"
 		"visible"									"0"
+		"enabled"									"0"
 	}
+	
 	"CycleTargetFwdLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"CycleTargetFwdLabel"
+		"tall"										"0"
+		"wide"										"0"
 		"visible"									"0"
+		"enabled"									"0"
 	}
+	
 	"CycleTargetRevKeyLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"CycleTargetRevKeyLabel"
+		"tall"										"0"
+		"wide"										"0"
 		"visible"									"0"
+		"enabled"									"0"
 	}
+	
 	"CycleTargetRevLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"CycleTargetRevLabel"
+		"tall"										"0"
+		"wide"										"0"
 		"visible"									"0"
+		"enabled"									"0"
 	}
+	
 	"TipLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"TipLabel"
+		"tall"										"0"
+		"wide"										"0"
 		"visible"									"0"
+		"enabled"									"0"
 	}
+	
 	"itempanel"
 	{
 		"ControlName"								"CItemModelPanel"

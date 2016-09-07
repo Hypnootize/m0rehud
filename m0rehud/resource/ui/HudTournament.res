@@ -21,6 +21,19 @@
 		"team2_player_delta_y"						"0"
 		"teams_player_delta_x_comp"					"48"
 		
+		if_competitive
+		{
+			"team1_player_base_y"					"86"
+		}
+		if_readymode
+		{
+			"team1_player_base_y"					"86"
+		}
+		if_mvm
+		{
+			"team1_player_base_y"					"95"
+		}
+		
 		"avatar_width"								"63"
 		"spacer"									"5"
 		"name_width"								"57"
@@ -51,7 +64,6 @@
 				"visible"							"1"
 				"labelText"							"%playername%"
 				"textAlignment"						"north-west"
-				//"fgcolor"							"235 226 202 255"
 			}
 			
 			"classimage"
@@ -514,6 +526,7 @@
 		if_mvm
 		{
 			"visible"								"1"
+			"ypos"									"130"
 		}
 	}
 	
