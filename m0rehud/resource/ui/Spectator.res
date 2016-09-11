@@ -12,37 +12,52 @@
 		"tabPosition"								"0"
 	}
 	
+	"specgui"
+	{
+	}
+	
 	"topbar"
 	{
 		"ControlName"								"Panel"
 		"fieldName"									"TopBar"
-		"xpos"										"9999"
+		"xpos"										"0"
+		"ypos"										"0"
 		"tall"										"0"
-		"wide"										"0"
+		"wide"										"f0"
+		"autoResize"								"0"
+		"pinCorner"									"0"
 		"visible"									"0"
-		"enabled"									"0"
+		"enabled"									"1"
+		"tabPosition"								"0"
 	}
 	
 	"BottomBar"
 	{
 		"ControlName"								"Frame"
 		"fieldName"									"BottomBar"
-		"xpos"										"9999"
-		"tall"										"0"
-		"wide"										"0"
-		"visible"									"0"
+		"xpos"										"0"
+		"ypos"										"r0"																					[$WIN32]
+		"tall"										"0"																						[$WIN32]	
+		"autoResize"								"0"
+		"pinCorner"									"0"
+		"visible"									"1"
 		"enabled"									"0"
+		"tabPosition"								"0"
 	}
 	
 	"bottombarblank"
 	{
 		"ControlName"								"Panel"
 		"fieldName"									"bottombarblank"
-		"xpos"										"9999"
+		"xpos"										"0"
+		"ypos"										"r0"
 		"tall"										"0"
-		"wide"										"0"
+		"wide"										"f0"
+		"autoResize"								"0"
+		"pinCorner"									"0"
 		"visible"									"0"
-		"enabled"									"0"
+		"enabled"									"1"
+		"tabPosition"								"0"
 	}
 	
 	"ReinforcementsLabel"
