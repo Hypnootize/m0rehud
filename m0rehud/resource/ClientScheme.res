@@ -663,130 +663,64 @@ Scheme
 	}
 	CustomFontFiles
 	{
-		"1" "resource/tf.ttf"
-		
-		"2" "resource/tfd.ttf"
-		
-		"3"
-		{
-			"font" 		"resource/TF2.ttf"
-			"name" 		"TF2"
-			"russian"
-			{
-				"range" "0x0000 0xFFFF"
-			}
-			"polish"
-			{
-				"range" "0x0000 0xFFFF"
-			}
-		}
-		
-		"4" 
-		{
-			"font" 		"resource/TF2Secondary.ttf"
-			"name" 		"TF2 Secondary"
-			"russian"
-			{
-				"range" "0x0000 0xFFFF"
-			}
-			"polish"
-			{
-				"range" "0x0000 0xFFFF"
-			}
-		}
-		
-		"5" 
-		{
-			"font" 		"resource/TF2Professor.ttf"
-			"name" 		"TF2 Professor"
-			"russian"
-			{
-				"range" "0x0000 0x00FF"
-			}
-			"polish"
-			{
-				"range" "0x0000 0x00FF"
-			}
-		}
-		
-		"6" 
-		{
-			"font" 		"resource/TF2Build.ttf"
-			"name" 		"TF2 Build"
-			"russian"
-			{
-				"range" "0x0000 0xFFFF"
-			}
-			"polish"
-			{
-				"range" "0x0000 0xFFFF"
-			}
-			"turkish"
-			{
-				"range" "0x0000 0xFFFF"
-			}
-		}
-		
-		"7" 
+		"8" 
 		{
 			"font" 		"resource/fonts/Surface_Medium.otf"
 			"name" 		"Surface-Medium"
 		}
 		
-		"8" 
+		"9" 
 		{
 			"font" 		"resource/fonts/COOLVETI.TTF"
 			"name" 		"Coolvetica"
 		}
 		
-		"9" 
+		"10" 
 		{
 			"font" 		"resource/fonts/Blocks.ttf"
 			"name" 		"Blocks"
 		}
 		
-		"10"
-		{
-			"font" 		"resource/fonts/tf2cross.ttf"
-			"name" 		"tf2cross"
-		}
-		
-		"11" 
-		{
-			"font" 		"resource/fonts/ASTRO867.TTF"
-			"name" 		"Astro 867"
-		}
-		
-		"12" 
-		{
-			"font" 		"resource/fonts/taller_evolution.ttf"
-			"name" 		"taller evolution"
-		}
-		
-		"13"
-		{
-			"font" 		"resource/fonts/Crosshairs.ttf"
-			"name" 		"broeselhud Crosshairs"
-		}
-		
-		"14"
-		{
-			"font" 		"resource/fonts/Garm3nFont.ttf"
-			"name" 		"Garm3nFont"
-		}
-		
-		"15"
-		{
-			"font" 		"resource/fonts/KnucklesCrosses.ttf"
-			"name" 		"KnucklesCrosses"
-		}
-		
-		"16"
+		"11"
 		{
 			"font" 		"resource/fonts/heydings_icons.ttf"
 			"name" 		"Heydings Icons"
 		}
 		
-		"17" 			"resource/ocra.ttf"
+		"12"
+		{
+			"font" 		"resource/fonts/tf2cross.ttf"
+			"name" 		"tf2cross"
+		}
+		
+		"13" 
+		{
+			"font" 		"resource/fonts/ASTRO867.TTF"
+			"name" 		"Astro 867"
+		}
+		
+		"14" 
+		{
+			"font" 		"resource/fonts/taller_evolution.ttf"
+			"name" 		"taller evolution"
+		}
+		
+		"15"
+		{
+			"font" 		"resource/fonts/Crosshairs.ttf"
+			"name" 		"broeselhud Crosshairs"
+		}
+		
+		"16"
+		{
+			"font" 		"resource/fonts/Garm3nFont.ttf"
+			"name" 		"Garm3nFont"
+		}
+		
+		"16"
+		{
+			"font" 		"resource/fonts/KnucklesCrosses.ttf"
+			"name" 		"KnucklesCrosses"
+		}
 	}
 }
