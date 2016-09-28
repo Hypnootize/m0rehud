@@ -1,5 +1,5 @@
 1. Unzip the hud
-2. Copy the m0rehud folder
+2. Copy the m0rehud folder (not m0rehud-master)
 3. Paste The folder to your custom folder
 (C:\Program Files (x86)\Steam\SteamApps\common\Team Fortress 2\tf\custom\m0rehud)
 

@@ -316,6 +316,17 @@
 		"wide"										"f0"
 		"tall"										"480"
 	}
+	
+	ArenaWinPanel
+	{
+		"fieldName"									"ArenaWinPanel"
+		"visible"									"1"
+		"enabled"									"1"
+		"xpos"										"0"
+		"ypos"										"0"
+		"wide"										"f0"
+		"tall"										"480"
+	}
 
 	StatPanel
 	{
@@ -323,9 +334,29 @@
 		"visible"									"0"
 		"enabled"									"0"
 		"wide"										"0"
-		"wide_lodef"								"0"
 		"tall"										"0"
-		"tall_lodef"								"0"
+	}
+	
+	"HudAlert"
+	{
+		"fieldName"									"HudAlert"
+		"visible"									"0"
+		"enable"									"1"
+		"xpos"										"c-160"
+		"ypos"										"100"
+		"wide"										"320"
+		"tall"										"150"
+	}
+	
+	HudTeamSwitch
+	{
+		"fieldName"									"HudTeamSwitch"
+		"visible"									"0"
+		"enabled"									"1"
+		"xpos"										"c-160"
+		"ypos"										"75"
+		"wide"										"320"
+		"tall"										"100"
 	}
 	
 	"HudMenuEngyBuild"
@@ -334,9 +365,9 @@
 		"visible" 									"1"
 		"enabled" 									"1"
 		"xpos"										"c-225"
-		"ypos"										"c-105"
+		"ypos"										"c-110"
 		"wide"										"450"
-		"tall"										"195"
+		"tall"										"200"
 		"PaintBackgroundType"						"0"
 	}
 	
@@ -346,7 +377,7 @@
 		"visible" 									"1"
 		"enabled" 									"1"
 		"xpos"										"c-225"
-		"ypos"										"c-107"
+		"ypos"										"c-112"
 		"wide"										"450"
 		"tall"										"200"
 		"PaintBackgroundType"						"0"
@@ -358,7 +389,7 @@
 		"visible" 									"1"
 		"enabled" 									"1"
 		"xpos"										"c-125"
-		"ypos"										"c-105"
+		"ypos"										"c-110"
 		"wide"										"250"
 		"tall"										"195"
 		"PaintBackgroundType"						"0"
@@ -370,9 +401,22 @@
 		"visible" 									"1"
 		"enabled" 									"1"
 		"xpos"										"c-235"
-		"ypos"										"c-105"
+		"ypos"										"c-110"
 		"wide"										"470"
 		"tall"										"200"							[$WIN32]
+		"PaintBackgroundType"						"0"
+	}
+	
+	"HudMenuTauntSelection"
+	{
+		"fieldName" 								"HudMenuTauntSelection"
+		"visible" 									"1"
+		"enabled" 									"1"
+		"xpos"										"c-235"
+		"ypos"										"c-65"
+		"zpos"										"20"
+		"wide"										"470"
+		"tall"										"200"
 		"PaintBackgroundType"						"0"
 	}
 	
@@ -415,7 +459,6 @@
 		"enabled"									"1"
 		"xpos"										"c-225"
 		"ypos"										"5"
-		"ypos_lodef"								"5"
 		"wide"										"450"
 		"tall"										"280"
 	}
@@ -438,7 +481,7 @@
 		"enabled"									"1"
 		"xpos"										"c-145"
 		"ypos"										"-1"
-		"wide"										"125"
+		"wide"										"f0"
 		"tall"										"55"
 	}
 	
@@ -479,4 +522,3 @@
 		"tall"										"480"
 	}
 }
-

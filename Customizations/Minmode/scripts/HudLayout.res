@@ -53,10 +53,10 @@
 		"fieldName"									"HudMedicCharge"
 		"visible"									"1"
 		"enabled"									"1"
-		"xpos"										"-70"							[$WIN32]
-		"xpos_minmode"								"-70"							[$WIN32]
-		"ypos"										"-70"							[$WIN32]
-		"ypos_minmode"								"-70"							[$WIN32]
+		"xpos"										"-70"
+		"xpos_minmode"								"-70"
+		"ypos"										"-70"
+		"ypos_minmode"								"-70"
 		"wide"										"f0"
 		"tall"										"480"
 	}
@@ -70,7 +70,7 @@
 		"xpos_minmode"								"0"
 		"ypos"										"0"
 		"ypos_minmode"								"0"
-		"zpos"										"1"								// draw in front of ammo
+		"zpos"										"1"
 		"wide"										"f0"
 		"wide_minmode"								"f0"
 		"tall"										"480"
@@ -96,7 +96,7 @@
 		"xpos_minmode"								"c-37"
 		"ypos"										"r120"
 		"ypos_minmode"								"r120"
-		"zpos"										"1"								// draw in front of ammo
+		"zpos"										"1"
 		"wide"										"100"
 		"wide_minmode"								"100"
 		"tall"										"50"
@@ -108,8 +108,8 @@
 	{
 		"fieldName"									"CHudAccountPanel"
 		"xpos"         								"c-100"
-		"ypos"										"c53"							[$WIN32]
-		"ypos_minmode"								"c53"							[$WIN32]
+		"ypos"										"c53"
+		"ypos_minmode"								"c53"
 		"wide"										"200"
 		"tall"  									"50"
 		"visible" 									"1"
@@ -162,7 +162,7 @@
 		"fieldName" 								"DisguiseStatus"
 		"visible"									"1"
 		"enabled"									"1"
-		"xpos"										"-270"  //180 if 4x3
+		"xpos"										"-270"
 		"ypos"										"60"
 		"wide"										"f0"
 		"tall"										"480"
@@ -257,8 +257,8 @@
 		"fieldName" 								"HudDeathNotice"
 		"visible" 									"1"
 		"enabled" 									"1"
-		"xpos"	 									"r640"							[$WIN32]
-		"ypos"	 									"15"							[$WIN32]
+		"xpos"	 									"r640"
+		"ypos"	 									"15"
 		"wide"	 									"628"
 		"tall"	 									"468"
 
@@ -267,7 +267,7 @@
 		"LineHeight"	  							"12"
 		"LineSpacing"	 							"0"
 		"CornerRadius"	  							"0"
-		"RightJustify"	  							"1"								// If 1, draw notices from the right
+		"RightJustify"	  							"1"
 		
 		"TextFont"									"Default"
 		
@@ -301,9 +301,9 @@
 		"tall"										"200"
 		"visible"									"1"
 		"enabled"									"1"
-		"separator_width"							"5"								// distance between the icons (including their backgrounds)
+		"separator_width"							"5"
 		"separator_height"							"5"
-		"height_offset"								"0"								[$WIN32] // distance from the bottom of the panel
+		"height_offset"								"0"
 	}
 
 	WinPanel
@@ -334,9 +334,29 @@
 		"visible"									"0"
 		"enabled"									"0"
 		"wide"										"0"
-		"wide_lodef"								"0"
 		"tall"										"0"
-		"tall_lodef"								"0"
+	}
+	
+	"HudAlert"
+	{
+		"fieldName"									"HudAlert"
+		"visible"									"0"
+		"enable"									"1"
+		"xpos"										"c-160"
+		"ypos"										"100"
+		"wide"										"320"
+		"tall"										"150"
+	}
+	
+	HudTeamSwitch
+	{
+		"fieldName"									"HudTeamSwitch"
+		"visible"									"0"
+		"enabled"									"1"
+		"xpos"										"c-160"
+		"ypos"										"75"
+		"wide"										"320"
+		"tall"										"100"
 	}
 	
 	"HudMenuEngyBuild"
@@ -345,9 +365,9 @@
 		"visible" 									"1"
 		"enabled" 									"1"
 		"xpos"										"c-225"
-		"ypos"										"c-105"
+		"ypos"										"c-110"
 		"wide"										"450"
-		"tall"										"195"
+		"tall"										"200"
 		"PaintBackgroundType"						"0"
 	}
 	
@@ -357,7 +377,7 @@
 		"visible" 									"1"
 		"enabled" 									"1"
 		"xpos"										"c-225"
-		"ypos"										"c-107"
+		"ypos"										"c-112"
 		"wide"										"450"
 		"tall"										"200"
 		"PaintBackgroundType"						"0"
@@ -369,7 +389,7 @@
 		"visible" 									"1"
 		"enabled" 									"1"
 		"xpos"										"c-125"
-		"ypos"										"c-105"
+		"ypos"										"c-110"
 		"wide"										"250"
 		"tall"										"195"
 		"PaintBackgroundType"						"0"
@@ -381,9 +401,22 @@
 		"visible" 									"1"
 		"enabled" 									"1"
 		"xpos"										"c-235"
-		"ypos"										"c-105"
+		"ypos"										"c-110"
 		"wide"										"470"
-		"tall"										"200"							[$WIN32]
+		"tall"										"200"
+		"PaintBackgroundType"						"0"
+	}
+	
+	"HudMenuTauntSelection"
+	{
+		"fieldName" 								"HudMenuTauntSelection"
+		"visible" 									"1"
+		"enabled" 									"1"
+		"xpos"										"c-235"
+		"ypos"										"c-65"
+		"zpos"										"20"
+		"wide"										"470"
+		"tall"										"200"
 		"PaintBackgroundType"						"0"
 	}
 	
@@ -392,10 +425,10 @@
 		"fieldName"									"HudDemomanPipes"
 		"visible"									"1"
 		"enabled"									"1"
-		"xpos"										"0"								[$WIN32]
-		"xpos_minmode"								"0"								[$WIN32]
-		"ypos"										"0"								[$WIN32]
-		"ypos_minmode"								"0"								[$WIN32]
+		"xpos"										"0"
+		"xpos_minmode"								"0"
+		"ypos"										"0"
+		"ypos_minmode"								"0"
 		"wide"										"f0"
 		"tall"										"480"
 	}		
@@ -426,7 +459,6 @@
 		"enabled"									"1"
 		"xpos"										"c-225"
 		"ypos"										"5"
-		"ypos_lodef"								"5"
 		"wide"										"450"
 		"tall"										"280"
 	}
@@ -489,17 +521,4 @@
 		"wide"										"f0"
 		"tall"										"480"
 	}
-	
-	"HudMenuTauntSelection"
-	{
-		"fieldName" 								"HudMenuTauntSelection"
-		"visible" 									"1"
-		"enabled" 									"1"
-		"xpos"										"c-235"
-		"ypos"										"c-55"
-		"wide"										"470"
-		"tall"										"200"
-		"PaintBackgroundType"						"0"
-	}
 }
-

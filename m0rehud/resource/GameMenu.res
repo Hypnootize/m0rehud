@@ -13,7 +13,7 @@
 	}
 	"MOTD_ShowButtonPanel"
 	{
-		"label" 									"c"
+		"label" 									"R"
 		"command" 									"motd_show"
 	}
 	
