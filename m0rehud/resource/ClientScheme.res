@@ -45,7 +45,6 @@ Scheme
 				"tall"										"6"
 				"additive"									"0"
 				"antialias" 								"1"
-				"outline"									"0"
 			}
 		}
 		M0refont8
@@ -56,7 +55,6 @@ Scheme
 				"tall"										"8"
 				"additive"									"0"
 				"antialias" 								"1"
-				"outline"									"0"
 			}
 		}
 		M0refont10
@@ -67,7 +65,6 @@ Scheme
 				"tall"										"10"
 				"additive"									"0"
 				"antialias" 								"1"
-				"outline"									"0"
 			}
 		}
 		M0refont12
@@ -78,7 +75,6 @@ Scheme
 				"tall"										"12"
 				"additive"									"0"
 				"antialias" 								"1"
-				"outline"									"0"
 			}
 		}
 		M0refont14
@@ -89,7 +85,6 @@ Scheme
 				"tall"										"14"
 				"additive"									"0"
 				"antialias" 								"1"
-				"outline"									"0"
 			}
 		}
 		M0refont16
@@ -100,7 +95,6 @@ Scheme
 				"tall"										"16"
 				"additive"									"0"
 				"antialias" 								"1"
-				"outline"									"0"
 			}
 		}
 		M0refont18
@@ -111,7 +105,6 @@ Scheme
 				"tall"										"18"
 				"additive"									"0"
 				"antialias" 								"1"
-				"outline"									"0"
 			}
 		}
 		M0refont18Outline
@@ -133,7 +126,6 @@ Scheme
 				"tall"										"18"
 				"additive"									"0"
 				"antialias" 								"1"
-				"outline"									"0"
 				"dropshadow"								"1"
 			}
 		}
@@ -156,7 +148,6 @@ Scheme
 				"tall"										"20"
 				"additive"									"0"
 				"antialias" 								"1"
-				"outline"									"0"
 			}
 		}
 		M0refont20Outline
@@ -189,7 +180,6 @@ Scheme
 				"tall"										"22"
 				"additive"									"0"
 				"antialias" 								"1"
-				"outline"									"0"
 			}
 		}
 		M0refont22Outline
@@ -222,7 +212,6 @@ Scheme
 				"tall"										"24"
 				"additive"									"0"
 				"antialias" 								"1"
-				"outline"									"0"
 			}
 		}
 		M0refont24Outline
@@ -236,6 +225,17 @@ Scheme
 				"outline"									"1"
 			}
 		}
+		M0refont24Shadow
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"24"
+				"additive"									"0"
+				"antialias" 								"1"
+				"dropshadow"								"1"
+			}
+		}
 		M0refont26
 		{
 			"1"
@@ -244,7 +244,6 @@ Scheme
 				"tall"										"26"
 				"additive"									"0"
 				"antialias"									"1"
-				"outline"									"0"
 			}
 		}
 		M0refont28
@@ -255,7 +254,6 @@ Scheme
 				"tall"										"28"
 				"additive"									"0"
 				"antialias" 								"1"
-				"outline"									"0"
 			}
 		}
 		M0refont30
@@ -266,7 +264,6 @@ Scheme
 				"tall"										"30"
 				"additive"									"0"
 				"antialias" 								"1"
-				"outline"									"0"
 			}
 		}
 		M0refont30Outline
@@ -288,7 +285,6 @@ Scheme
 				"tall"										"32"
 				"additive"									"0"
 				"antialias" 								"1"
-				"outline"									"0"
 			}
 		}
 		M0refont34
@@ -299,7 +295,6 @@ Scheme
 				"tall"										"34"
 				"additive"									"0"
 				"antialias" 								"1"
-				"outline"									"0"
 			}
 		}
 		M0refont36
@@ -310,7 +305,6 @@ Scheme
 				"tall"										"36"
 				"additive"									"0"
 				"antialias" 								"1"
-				"outline"									"0"
 			}
 		}
 		M0refont36Outline
@@ -332,7 +326,6 @@ Scheme
 				"tall"										"38"
 				"additive"									"0"
 				"antialias" 								"1"
-				"outline"									"0"
 			}
 		}
 		M0refont40
@@ -343,7 +336,6 @@ Scheme
 				"tall"										"40"
 				"additive"									"0"
 				"antialias" 								"1"
-				"outline"									"0"
 			}
 		}
 		M0refont42
@@ -354,7 +346,6 @@ Scheme
 				"tall"										"42"
 				"additive"									"0"
 				"antialias" 								"1"
-				"outline"									"0"
 			}
 		}
 		M0refont44
@@ -365,7 +356,6 @@ Scheme
 				"tall"										"44"
 				"additive"									"0"
 				"antialias" 								"1"
-				"outline"									"0"
 			}
 		}
 		M0refont46
@@ -376,7 +366,6 @@ Scheme
 				"tall"										"46"
 				"additive"									"0"
 				"antialias" 								"1"
-				"outline"									"0"
 			}
 		}
 		M0refont48
@@ -387,7 +376,6 @@ Scheme
 				"tall"										"48"
 				"additive"									"0"
 				"antialias" 								"1"
-				"outline"									"0"
 			}
 		}
 		M0refont50
@@ -398,7 +386,6 @@ Scheme
 				"tall"										"50"
 				"additive"									"0"
 				"antialias" 								"1"
-				"outline"									"0"
 			}
 		}
 		M0refont52
@@ -409,7 +396,6 @@ Scheme
 				"tall"										"52"
 				"additive"									"0"
 				"antialias" 								"1"
-				"outline"									"0"
 			}
 		}
 		M0refont54
@@ -420,7 +406,6 @@ Scheme
 				"tall"										"54"
 				"additive"									"0"
 				"antialias" 								"1"
-				"outline"									"0"
 			}
 		}
 		M0refont56
@@ -431,7 +416,6 @@ Scheme
 				"tall"										"56"
 				"additive"									"0"
 				"antialias" 								"1"
-				"outline"									"0"
 			}
 		}
 		M0refont58
@@ -442,7 +426,6 @@ Scheme
 				"tall"										"58"
 				"additive"									"0"
 				"antialias" 								"1"
-				"outline"									"0"
 			}
 		}
 		M0refont60
@@ -453,7 +436,6 @@ Scheme
 				"tall"										"60"
 				"additive"									"0"
 				"antialias" 								"1"
-				"outline"									"0"
 			}
 		}
 		M0refont62
@@ -464,7 +446,6 @@ Scheme
 				"tall"										"62"
 				"additive"									"0"
 				"antialias" 								"1"
-				"outline"									"0"
 			}
 		}
 		M0refont64
@@ -475,7 +456,6 @@ Scheme
 				"tall"										"64"
 				"additive"									"0"
 				"antialias" 								"1"
-				"outline"									"0"
 			}
 		}
 		M0refont66
@@ -486,7 +466,6 @@ Scheme
 				"tall"										"66"
 				"additive"									"0"
 				"antialias" 								"1"
-				"outline"									"0"
 			}
 		}
 		M0refont68
@@ -497,7 +476,6 @@ Scheme
 				"tall"										"68"
 				"additive"									"0"
 				"antialias" 								"1"
-				"outline"									"0"
 			}
 		}
 		M0refont70
@@ -508,7 +486,6 @@ Scheme
 				"tall"										"70"
 				"additive"									"0"
 				"antialias" 								"1"
-				"outline"									"0"
 			}
 		}
 		M0refont72
@@ -519,7 +496,6 @@ Scheme
 				"tall"										"72"
 				"additive"									"0"
 				"antialias" 								"1"
-				"outline"									"0"
 			}
 		}
 		"BlocksSharp64"

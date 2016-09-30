@@ -38,9 +38,9 @@
 			
 			if_match
 			{
-				"font"								"M0refont14"
-				"xpos"								"35"
-				"ypos"								"0"
+				"font"								"M0refont12"
+				"xpos"								"36"
+				"ypos"								"1"
 			}
 		}	
 	}
@@ -75,9 +75,9 @@
 			
 			if_match
 			{
-				"font"								"M0refont14"
-				"xpos"								"25"
-				"ypos"								"0"
+				"font"								"M0refont12"
+				"xpos"								"23"
+				"ypos"								"1"
 			}
 		}	
 	}

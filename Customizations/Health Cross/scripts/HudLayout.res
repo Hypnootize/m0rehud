@@ -26,11 +26,11 @@
 		"wide"										"200"
 		"tall"										"160"
 		
-		"blue_active_xpos"							"55"
-		"blue_active_xpos_minmode"					"55"
+		"blue_active_xpos"							"54"
+		"blue_active_xpos_minmode"					"54"
 	
-		"red_active_xpos"							"105"
-		"red_active_xpos_minmode"					"105"
+		"red_active_xpos"							"104"
+		"red_active_xpos_minmode"					"104"
 	}	
 
 	HudItemEffectMeter
@@ -53,10 +53,10 @@
 		"fieldName"									"HudMedicCharge"
 		"visible"									"1"
 		"enabled"									"1"
-		"xpos"										"0"								[$WIN32]
-		"xpos_minmode"								"0"								[$WIN32]
-		"ypos"										"0"								[$WIN32]
-		"ypos_minmode"								"0"								[$WIN32]
+		"xpos"										"0"
+		"xpos_minmode"								"0"
+		"ypos"										"0"
+		"ypos_minmode"								"0"
 		"wide"										"f0"
 		"tall"										"480"
 	}
@@ -70,7 +70,7 @@
 		"xpos_minmode"								"0"
 		"ypos"										"0"
 		"ypos_minmode"								"0"
-		"zpos"										"1"								// draw in front of ammo
+		"zpos"										"1"
 		"wide"										"f0"
 		"wide_minmode"								"f0"
 		"tall"										"480"
@@ -96,7 +96,7 @@
 		"xpos_minmode"								"c-37"
 		"ypos"										"r120"
 		"ypos_minmode"								"r120"
-		"zpos"										"1"								// draw in front of ammo
+		"zpos"										"1"
 		"wide"										"100"
 		"wide_minmode"								"100"
 		"tall"										"50"
@@ -108,8 +108,8 @@
 	{
 		"fieldName"									"CHudAccountPanel"
 		"xpos"         								"c-100"
-		"ypos"										"c53"							[$WIN32]
-		"ypos_minmode"								"c53"							[$WIN32]
+		"ypos"										"c53"
+		"ypos_minmode"								"c53"
 		"wide"										"200"
 		"tall"  									"50"
 		"visible" 									"1"
@@ -257,8 +257,8 @@
 		"fieldName" 								"HudDeathNotice"
 		"visible" 									"1"
 		"enabled" 									"1"
-		"xpos"	 									"r640"							[$WIN32]
-		"ypos"	 									"15"							[$WIN32]
+		"xpos"	 									"r640"
+		"ypos"	 									"15"
 		"wide"	 									"628"
 		"tall"	 									"468"
 
@@ -267,7 +267,7 @@
 		"LineHeight"	  							"12"
 		"LineSpacing"	 							"0"
 		"CornerRadius"	  							"0"
-		"RightJustify"	  							"1"								// If 1, draw notices from the right
+		"RightJustify"	  							"1"
 		
 		"TextFont"									"Default"
 		
@@ -301,9 +301,9 @@
 		"tall"										"200"
 		"visible"									"1"
 		"enabled"									"1"
-		"separator_width"							"5"								// distance between the icons (including their backgrounds)
+		"separator_width"							"5"
 		"separator_height"							"5"
-		"height_offset"								"0"								[$WIN32] // distance from the bottom of the panel
+		"height_offset"								"0"
 	}
 
 	WinPanel
@@ -313,6 +313,7 @@
 		"enabled"									"1"
 		"xpos"										"0"
 		"ypos"										"0"
+		"zpos"										"30"
 		"wide"										"f0"
 		"tall"										"480"
 	}
@@ -324,6 +325,7 @@
 		"enabled"									"1"
 		"xpos"										"0"
 		"ypos"										"0"
+		"zpos"										"30"
 		"wide"										"f0"
 		"tall"										"480"
 	}
@@ -403,7 +405,7 @@
 		"xpos"										"c-235"
 		"ypos"										"c-110"
 		"wide"										"470"
-		"tall"										"200"							[$WIN32]
+		"tall"										"200"
 		"PaintBackgroundType"						"0"
 	}
 	
@@ -425,10 +427,10 @@
 		"fieldName"									"HudDemomanPipes"
 		"visible"									"1"
 		"enabled"									"1"
-		"xpos"										"0"								[$WIN32]
-		"xpos_minmode"								"0"								[$WIN32]
-		"ypos"										"0"								[$WIN32]
-		"ypos_minmode"								"0"								[$WIN32]
+		"xpos"										"0"
+		"xpos_minmode"								"0"
+		"ypos"										"0"
+		"ypos_minmode"								"0"
 		"wide"										"f0"
 		"tall"										"480"
 	}		

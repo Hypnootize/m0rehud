@@ -129,10 +129,10 @@
 				"enabled"							"1"
 				"image"								"../HUD/tournament_panel_brown"
 
-				"src_corner_height"					"22"							// pixels inside the image
+				"src_corner_height"					"22"
 				"src_corner_width"					"22"
 			
-				"draw_corner_width"					"3"								// screen size of the corners ( and sides ), proportional
+				"draw_corner_width"					"3"
 				"draw_corner_height" 				"3"
 			}
 			
@@ -544,9 +544,9 @@
 		"visible"									"0"
 		"enabled"									"1"
 		"image"										"../HUD/color_panel_red"
-		"src_corner_height"							"23"							// pixels inside the image
+		"src_corner_height"							"23"
 		"src_corner_width"							"23"
-		"draw_corner_width"							"3"								// screen size of the corners ( and sides ), proportional
+		"draw_corner_width"							"3"
 		"draw_corner_height" 						"3"	
 		"proportionaltoparent"						"1"
 
@@ -581,24 +581,25 @@
 		"labelText"									"%tournamentstatelabel%"
 		"textAlignment"								"center"
 		"fgcolor"									"255 255 255 255"
+		
+		if_competitive
+		{
+			"font"									"m0refont18Shadow"
+		}
+
+		if_readymode
+		{
+			"font"									"m0refont18Shadow"
+		}
 	}
 	
 	"CountdownLabelShadow"
 	{	
 		"ControlName"								"CExLabel"
 		"fieldName"									"CountdownLabelShadow"
-		"font"										"m0refont18"
-		"xpos"										"c-15"
-		"ypos"										"r55"
 		"wide"										"0"
-		"tall"										"30"
-		"zpos"										"1"
-		"autoResize"								"0"
-		"pinCorner"									"0"
+		"tall"										"0"
 		"visible"									"0"
-		"enabled"									"1"
-		"wrap"										"0"
-		"labelText"									"%tournamentstatelabel%"
-		"textAlignment"								"center"
+		"enabled"									"0"
 	}
 }

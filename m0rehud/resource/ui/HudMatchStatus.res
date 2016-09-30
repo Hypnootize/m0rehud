@@ -62,7 +62,7 @@
 	{	
 		"ControlName"								"CExLabel"
 		"fieldName"									"CountdownLabel"
-		"font"										"m0refont24"
+		"font"										"m0refont24Shadow"
 		"xpos"										"cs-0.5"
 		"ypos"										"cs-0.1"
 		"wide"										"40"
@@ -76,7 +76,7 @@
 		"labelText"									"%countdown%"
 		"textAlignment"								"center"
 		"proportionaltoparent"						"1"
-		"fgcolor"									"TanLight"
+		"fgcolor"									"255 255 255 255"
 
 		if_readymode
 		{
@@ -89,28 +89,10 @@
 	{	
 		"ControlName"								"CExLabel"
 		"fieldName"									"CountdownLabelShadow"
-		"font"										"m0refont24"
-		"xpos"										"cs-0.48"
-		"ypos"										"cs-0.08"
-		"wide"										"40"
-		"tall"										"40"
-		"zpos"										"4"
-		"autoResize"								"0"
-		"pinCorner"									"0"
+		"wide"										"0"
+		"tall"										"0"
 		"visible"									"0"
-		"enabled"									"1"
-		"wrap"										"0"
-		"labelText"									"%countdown%"
-		"textAlignment"								"center"
-		"fgcolor"									"Black"
-		"proportionaltoparent"						"1"
-
-	
-		if_readymode
-		{
-			"xpos"									"300"
-			"ypos"									"130"
-		}
+		"enabled"									"0"
 	}	
 
 	"FrontParticlePanel"
@@ -227,7 +209,7 @@
 		"tall"										"150"
 		"visible"									"0"
 		"enabled"									"1"
-		"delta_item_x"								"38"							[$WIN32]
+		"delta_item_x"								"38"
 		"delta_item_start_y"						"27"
 		"delta_item_end_y"							"27"
 		"PositiveColor"								"0 255 0 255"
@@ -254,7 +236,7 @@
 			if_match
 			{
 				"font"								"M0refont12"
-				"ypos"								"6"
+				"ypos"								"5"
 			}
 		}	
 	}
@@ -425,9 +407,9 @@
 				"visible"							"0"
 				"enabled"							"1"
 				"image"								"../HUD/tournament_panel_brown"
-				"src_corner_height"					"22"							// pixels inside the image
+				"src_corner_height"					"22"
 				"src_corner_width"					"22"
-				"draw_corner_width"					"3"								// screen size of the corners ( and sides ), proportional
+				"draw_corner_width"					"3"
 				"draw_corner_height" 				"3"
 			}
 			
