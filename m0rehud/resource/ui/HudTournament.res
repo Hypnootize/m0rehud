@@ -12,7 +12,7 @@
 		"proportionaltoparent"						"1"
 	
 		"team1_player_base_offset_x"				"-75"
-		"team1_player_base_y"						"86"
+		"team1_player_base_y"						"0"
 		"team1_player_delta_x"						"-47"
 		"team1_player_delta_y"						"0"
 		"team2_player_base_offset_x"				"25"
@@ -23,11 +23,11 @@
 		
 		if_competitive
 		{
-			"team1_player_base_y"					"86"
+			"team1_player_base_y"					"50"
 		}
 		if_readymode
 		{
-			"team1_player_base_y"					"86"
+			"team1_player_base_y"					"50"
 		}
 		if_mvm
 		{
@@ -207,16 +207,6 @@
 		}
 	}
 	
-	"HudTournamentBG"
-	{
-		"ControlName"								"ScalableImagePanel"
-		"fieldName"									"HudTournamentBG"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	
 	"TournamentWhiteBar"
 	{	
 		"ControlName"								"ScalableImagePanel"
@@ -246,16 +236,6 @@
 		}
 	}
 	
-	"TournamentLabel"
-	{	
-		"ControlName"								"Label"
-		"fieldName"									"TournamentLabel"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-
 	"HudTournamentBLUEBG"
 	{
 		"ControlName"								"ScalableImagePanel"
@@ -474,28 +454,18 @@
 		
 		if_competitive
 		{
-			"ypos"									"25"
+			"visible"		              			"0"
 		}
 		if_readymode
 		{
-			"ypos"									"50"
+			"ypos"									"35"
 		}
 		if_mvm
 		{
-			"xpos"									"9999"
+			"visible"		              			"0"
 		}
 	}
 
-	"HudTournamentBGHelp"
-	{
-		"ControlName"								"ScalableImagePanel"
-		"fieldName"									"HudTournamentBGHelp"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	
 	"TournamentInstructionsLabel"
 	{	
 		"ControlName"								"Label"
@@ -518,10 +488,12 @@
 		if_competitive
 		{
 			"visible"								"1"
+			"ypos"									"85"
 		}
 		if_readymode
 		{
 			"visible"								"1"
+			"ypos"									"85"
 		}
 		if_mvm
 		{
@@ -593,6 +565,33 @@
 		}
 	}
 	
+	"HudTournamentBGHelp"
+	{
+		"ControlName"								"ScalableImagePanel"
+		"fieldName"									"HudTournamentBGHelp"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
+	}
+	"TournamentLabel"
+	{	
+		"ControlName"								"Label"
+		"fieldName"									"TournamentLabel"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
+	}
+	"HudTournamentBG"
+	{
+		"ControlName"								"ScalableImagePanel"
+		"fieldName"									"HudTournamentBG"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
+	}
 	"CountdownLabelShadow"
 	{	
 		"ControlName"								"CExLabel"

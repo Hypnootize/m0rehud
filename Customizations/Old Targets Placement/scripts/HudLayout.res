@@ -280,16 +280,16 @@
 		"LocalBackgroundColor"						"240 240 240 200"
 	}
 	
-	"HudSpellMenu"
+	HudSpellMenu
 	{
-		"fieldName"									"HudSpellMenu"
-		"visible"									"1"
-		"enabled"									"1"
-		"wide"										"640"
-		"tall"										"480"
-		"zpos"										"2"
-		"xpos"										"290"
-		"ypos"										"40"
+		"fieldName" 								"HudSpellMenu"
+		"visible" 									"1"
+		"enabled" 									"1"
+		"wide"	 									"640"
+		"tall"	 									"480"
+		"zpos" 										"2"
+		"xpos"										"c155"
+		"ypos"										"r61"
 	}
 	
 	HudControlPointIcons

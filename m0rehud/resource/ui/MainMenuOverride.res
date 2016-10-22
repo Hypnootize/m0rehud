@@ -1483,7 +1483,7 @@
 			"tabPosition"							"0"
 			"textinsetx"							"0"
 			"use_proportional_insets" 				"1"
-			"font"									"Coolvetica22"
+			"font"									"VerdanaMenu"
 			"textAlignment"							"west"
 			"dulltext"								"0"
 			"brighttext"							"0"
