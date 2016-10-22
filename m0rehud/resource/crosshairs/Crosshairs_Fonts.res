@@ -2,6 +2,7 @@ Scheme
 {
 	Fonts
 	{
+		
 		"seeker9"
 		{
 			"1"
@@ -48,6 +49,19 @@ Scheme
 				"antialias"									"1"
 				"additive"									"0"
 				"outline"									"0"
+			}
+		}
+		"seekerShadow"
+		{
+			"1"
+			{
+				"name"										"tf2cross"
+				"tall"										"11"
+				"weight"									"0"
+				"antialias"									"1"
+				"additive"									"0"
+				"outline"									"0"
+				"dropshadow"								"1"
 			}
 		}
 		
@@ -1920,6 +1934,44 @@ Scheme
 				"additive"									"0"
 				"outline"									"1"
 			}
+		}
+	}
+	CustomFontFiles
+	{
+		"20"
+		{
+			"font" 		"resource/crosshairs/tf2cross.ttf"
+			"name" 		"tf2cross"
+		}
+		
+		"21" 
+		{
+			"font" 		"resource/crosshairs/ASTRO867.TTF"
+			"name" 		"Astro 867"
+		}
+		
+		"22" 
+		{
+			"font" 		"resource/crosshairs/taller_evolution.ttf"
+			"name" 		"taller evolution"
+		}
+		
+		"23"
+		{
+			"font" 		"resource/crosshairs/Crosshairs.ttf"
+			"name" 		"broeselhud Crosshairs"
+		}
+		
+		"24"
+		{
+			"font" 		"resource/crosshairs/Garm3nFont.ttf"
+			"name" 		"Garm3nFont"
+		}
+		
+		"25"
+		{
+			"font" 		"resource/crosshairs/KnucklesCrosses.ttf"
+			"name" 		"KnucklesCrosses"
 		}
 	}
 }

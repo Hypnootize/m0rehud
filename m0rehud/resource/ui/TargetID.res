@@ -70,7 +70,7 @@
 	{	
 		"ControlName"		       					"Label"
 		"fieldName"		         					"TargetNameLabel"
-		"font"			           					"default"
+		"font"			           					"m0refont11"
 		"fgcolor_override"     						"255 255 255 255"
 		"xpos"			           					"40"
 		"ypos"			           					"9"
@@ -86,11 +86,12 @@
 		"dulltext"		         					"0"
 		"brighttext"		       					"0"
 	}
+	
 	"TargetDataLabel"
 	{	
 		"ControlName"		       					"Label"
 		"fieldName"		        					"TargetDataLabel"
-		"font"			           					"default"
+		"font"			           					"m0refont10"
 		"fgcolor_override"     						"255 255 255 255"
 		"xpos"			           					"40"
 		"ypos"			           					"0"
@@ -106,6 +107,7 @@
 		"dulltext"		         					"0"
 		"brighttext"		       					"0"
 	}
+	
 	"SpectatorGUIHealth"
 	{
 		"ControlName"		             			"EditablePanel"

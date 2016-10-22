@@ -12,7 +12,7 @@
 		
 		"fgcolor"    								"235 226 202 255"
 		"labelText"    								"x"
-		"font"      								"seeker11"
+		"font"      								"seeker11"				//Alternatives seeker9-10-11-12-seekerShadow
 		
 		"controlName"  								"CExLabel"
 		"fieldName"     							"SeekerCrosshair"
@@ -514,7 +514,7 @@
 		"controlName"								"CExLabel"
 		"fieldName"	 								"Knuckles Crosshairs"
 		"textAlignment"								"center"
-		"enabled" 									"0"
-		"zpos"										"0"
+		"enabled" 									"1"
+		"zpos"										"1"
 	}
 }
