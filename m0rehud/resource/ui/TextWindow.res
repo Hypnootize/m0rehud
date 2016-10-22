@@ -33,17 +33,9 @@
 		"textAlignment"	 							"center"
 		"dulltext"		 							"0"
 		"brighttext"	 							"0"
-		"font"			 							"M0refont24"
+		"font"			 							"Coolvetica"
 		"fgcolor"		 							"255 255 255 255"
 	}	
-
-	"TextMessage"
-	{
-		"ControlName"	 							"TextEntry"
-		"fieldName"		 							"TextMessage"
-		"visible"		 							"0"
-		"enabled"		 							"0"
-	}
 
 	"TFTextMessage"
 	{
@@ -85,24 +77,33 @@
 	{
 		"ControlName"		 						"CExButton"
 		"fieldName"		 							"ok"
-		"xpos"			 							"c-40"
+		"xpos"			 							"c-50"
 		"ypos"			 							"r125"
 		"zpos"			 							"6"
-		"wide"			 							"80"
+		"wide"			 							"100"
 		"tall"			 							"20"
 		"autoResize"	 							"0"
 		"pinCorner"		 							"2"
 		"visible"		 							"1"
 		"enabled"		 							"1"
 		"tabPosition"	 							"0"
-		"labelText"		 							"#TF_Continue"
+		"labelText"		 							"CONTINUE (&E) "
 		"textAlignment"	 							"center"
 		"dulltext"		 							"0"
 		"brighttext"	 							"0"
 		"wrap"			 							"0"
 		"command"		 							"okay"
 		"default"		 							"1"
-		"font"			 							"default"
+		"font"										"Coolvetica"
+		
+		"paintbackground"							"0"
+				
+		"defaultFgColor_override"					"255 255 255 255"
+		"armedFgColor_override" 					"255 0 127 255"
+		"depressedFgColor_override" 				"255 255 255 255"
+			
+		"border_default"							"NoBorder"
+		"border_armed"								"NoBorder"
 	}
 	
 	"MenuBG"
@@ -144,11 +145,22 @@
 		"PaintBackgroundType"	 					"0"
 	}						
 	
+	"TextMessage"
+	{
+		"ControlName"	 							"TextEntry"
+		"fieldName"		 							"TextMessage"
+		"visible"		 							"0"
+		"enabled"		 							"0"
+		"wide"			 							"0"
+		"tall"			 							"0"
+	}
 	"MessageTitle"
 	{
 		"ControlName"	 							"Label"
 		"fieldName"		 							"MessageTitle"
 		"visible"		 							"0"
 		"enabled"		 							"0"
+		"wide"			 							"0"
+		"tall"			 							"0"
 	}		
 }
