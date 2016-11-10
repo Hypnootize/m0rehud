@@ -14,36 +14,6 @@
 		"enabled"									"1"
 		"tabPosition"								"0"
 	}
-
-	"SysMenu"
-	{
-		"ControlName"								"Menu"
-		"fieldName"									"SysMenu"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-
-	"MapInfo"
-	{
-		"ControlName"								"HTML"
-		"fieldName"									"MapInfo"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-
-	"mapname"
-	{
-		"ControlName"								"Label"
-		"fieldName"									"mapname"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
 	
 	"teambutton2"
 	{
@@ -59,7 +29,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"tabPosition"								"1"
-		"labelText"									""								[$WIN32]
+		"labelText"									""
 		"textAlignment"								"south-west"
 		"dulltext"									"0"
 		"brighttext"								"0"
@@ -74,10 +44,10 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"TeamMenuAuto"
-		"xpos"										"c-120" 						[$WIN32] 
+		"xpos"										"c-120" 
 		"ypos"										"200"
 		"zpos"										"1"
-		"wide"										"100" 							[$WIN32] 
+		"wide"										"100"
 		"tall"										"50"
 		"autoResize"								"0"
 		"pinCorner"									"0"
@@ -96,10 +66,10 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"Separator"
-		"xpos"										"c-48" 						[$WIN32] 
+		"xpos"										"c-48"
 		"ypos"										"200"
 		"zpos"										"1"
-		"wide"										"100" 							[$WIN32] 
+		"wide"										"100"
 		"tall"										"50"
 		"autoResize"								"0"
 		"pinCorner"									"0"
@@ -128,7 +98,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"tabPosition"								"2"
-		"labelText"									""								[$WIN32]
+		"labelText"									""
 		"textAlignment"								"south-west"
 		"dulltext"									"0"
 		"brighttext"								"0"
@@ -161,7 +131,43 @@
 		"fgcolor"									"255 255 255 255"
 	}
 	
-	"CancelButton" [$WIN32] 
+	
+	
+	
+	
+	//////////////////////////////////REMOVED STUFF//////////////////////////////////
+	
+	"SysMenu"
+	{
+		"ControlName"								"Menu"
+		"fieldName"									"SysMenu"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
+	}
+
+	"MapInfo"
+	{
+		"ControlName"								"HTML"
+		"fieldName"									"MapInfo"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
+	}
+
+	"mapname"
+	{
+		"ControlName"								"Label"
+		"fieldName"									"mapname"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
+	}
+	
+	"CancelButton"
 	{
 		"ControlName"								"CExButton"
 		"fieldName"									"CancelButton"
@@ -191,4 +197,3 @@
 		"enabled"									"0"
 	}
 }
-

@@ -4,7 +4,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"BlueScore"
-		"xpos"										"c-110"
+		"xpos"										"c-60"
 		"ypos"										"r49"
 		"zpos"										"8"
 		"wide"										"75"
@@ -21,7 +21,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"BlueScoreShadow"
-		"xpos"										"c-109"
+		"xpos"										"c-59"
 		"ypos"										"r48"
 		"zpos"										"7"
 		"wide"										"75"
@@ -38,7 +38,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"RedScore"
-		"xpos"										"c37"
+		"xpos"										"c-13"
 		"ypos"										"r49"
 		"zpos"										"8"
 		"wide"										"75"
@@ -55,7 +55,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"RedScoreShadow"
-		"xpos"										"c39"
+		"xpos"										"c-12"
 		"ypos"										"r48"
 		"zpos"										"7"
 		"wide"										"75"
@@ -72,20 +72,26 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"PlayingTo"
-		"xpos"										"cs-0.5"
-		"ypos"										"r30"
-		"zpos"										"7"
-		"wide"										"140"
-		"tall"										"30"
+		"xpos"										"-5"
+		"ypos"										"470"
+		"zpos"										"4"
+		"wide"										"f0"
+		"tall"										"10"
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"#TF_PlayingTo"
-		"textAlignment"								"center"
+		"textAlignment"								"east"
 		"dulltext"									"0"
 		"brighttext"								"0"
-		"font"										"Default"
+		"font"										"defaultverysmall"
 		"fgcolor"									"255 255 255 255"
 	}
+	
+	
+	
+	
+	
+	//////////////////////////////////REMOVED STUFF//////////////////////////////////
 	
 	"LeftSideBG"
 	{

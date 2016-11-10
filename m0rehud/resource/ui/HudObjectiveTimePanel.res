@@ -1,5 +1,36 @@
 "Resource/UI/HudObjectiveTimePanel.res"
 {	
+	"ServerTimeLimitLabel"
+	{
+		"ControlName" 								"CExLabel"
+		"fieldName" 								"ServerTimeLimitLabel"
+		"xpos" 										"26"
+		"ypos" 										"14"
+		"zpos" 										"3"
+		"wide" 										"50"
+		"tall"										"15"
+		"visible" 									"1"
+		"enabled" 									"1"
+		"labelText"									"%servertimeleft%"
+		"textAlignment"								"center"
+		"dulltext" 									"0"
+		"brighttext" 								"0"
+		"wrap" 										"0"
+		"font" 										"m0refont12"
+		"fgcolor"									"255 255 255 255"
+		
+		if_mvm
+		{
+			"visible"								"0"
+		}
+	}
+	
+	
+	
+	
+	
+	//////////////////////////////////REMOVED STUFF//////////////////////////////////
+	
 	"TimePanelBG"
 	{
 		"ControlName"	    						"CTFImagePanel"
@@ -24,21 +55,10 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"WaitingForPlayersLabel"
-		"xpos"										"16"
-		"ypos"										"34"
-		"zpos"										"5"
 		"wide"										"0"
 		"tall"										"0"
 		"visible"									"0"
-		"enabled"									"1"
-		"labelText"									"#game_WaitingForPlayers"
-		"textAlignment"								"center"
-		"dulltext"									"0"
-		"brighttext"								"0"
-		"wrap"										"0"
-		"font"										"ClockSubTextTiny"
-		"font_hidef"								"HudFontSmall"
-		"font_lodef"								"HudFontSmall"
+		"enabled"									"0"
 	}
 	
 	"WaitingForPlayersBG"
@@ -55,21 +75,10 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"OvertimeLabel"
-		"xpos"										"16"
-		"ypos"										"0"
-		"zpos"										"5"
 		"wide"										"0"
 		"tall"										"0"
 		"visible"									"0"
-		"enabled"									"1"
-		"labelText"									"#game_Overtime"
-		"textAlignment"								"center"
-		"dulltext"									"0"
-		"brighttext"								"0"
-		"wrap"										"0"
-		"font"										"ClockSubText"
-		"font_hidef"								"HudFontSmall"
-		"font_lodef"								"HudFontSmall"
+		"enabled"									"0"
 	}
 	
 	"OvertimeBG"
@@ -86,21 +95,10 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"SuddenDeathLabel"
-		"xpos"										"16"
-		"ypos"										"33"
-		"zpos"										"5"
 		"wide"										"0"
 		"tall"										"0"
 		"visible"									"0"
-		"enabled"									"1"
-		"labelText"									"#game_SuddenDeath"
-		"textAlignment"								"center"
-		"dulltext"									"0"
-		"brighttext"								"0"
-		"wrap"										"0"
-		"font"										"ClockSubTextSuddenDeath"
-		"font_hidef"								"HudFontSmall"
-		"font_lodef"								"HudFontSmall"
+		"enabled"									"0"
 	}	
 	
 	"SuddenDeathBG"
@@ -117,22 +115,10 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"SetupLabel"
-		"xpos"										"16"
-		"ypos"										"33"
-		"zpos"										"5"
 		"wide"										"0"
 		"tall"										"0"
 		"visible"									"0"
-		"enabled"									"1"
-		"labelText"									"#game_Setup"
-		"textAlignment"								"center"
-		"dulltext"									"0"
-		"brighttext"								"0"
-		"wrap"										"0"
-		"font"										"ClockSubText"
-		"font_minmode"								"ClockSubTextSuddenDeath"
-		"font_hidef"								"HudFontSmall"
-		"font_lodef"								"HudFontSmall"
+		"enabled"									"0"
 	}	
 	
 	"SetupBG"
@@ -143,31 +129,6 @@
 		"tall"										"0"
 		"visible"									"0"
 		"enabled"									"1"
-	}
-	
-	"ServerTimeLimitLabel"
-	{
-		"ControlName" 								"CExLabel"
-		"fieldName" 								"ServerTimeLimitLabel"
-		"xpos" 										"26"
-		"ypos" 										"14"
-		"zpos" 										"3"
-		"wide" 										"50"
-		"tall"										"15"
-		"visible" 									"1"
-		"enabled" 									"1"
-		"labelText"									"%servertimeleft%"
-		"textAlignment"								"center"
-		"dulltext" 									"0"
-		"brighttext" 								"0"
-		"wrap" 										"0"
-		"font" 										"m0refont12"
-		"fgcolor"									"255 255 255 255"
-		
-		if_mvm
-		{
-			"visible"								"0"
-		}
 	}
 	
 	"ServerTimeLimitLabelBG"

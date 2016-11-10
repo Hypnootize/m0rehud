@@ -1,25 +1,5 @@
 "Resource/UI/HudMedicCharge.res"
 {	
-	"Background"
-	{
-		"ControlName"								"CTFImagePanel"
-		"fieldName"									"Background"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	
-	"ChargeLabel"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"ChargeLabel"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	
 	"ChargeLabelBig"
 	{
 		"ControlName"								"CExLabel"
@@ -64,16 +44,6 @@
 		"fgcolor"  									"0 0 0 255"
 	}	
 	
-	"ChargeMeter"
-	{	
-		"ControlName"								"ContinuousProgressBar"
-		"fieldName"									"ChargeMeter"
-		"wide"										"0"
-		"tall"										"0"				
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	
 	"IndividualChargesLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -94,16 +64,6 @@
 		"brighttext"								"0"
 		"fgcolor"									"Ubercharge"
 		"font"										"m0refont18Shadow"
-	}
-	
-	"HealthClusterIcon"
-	{
-		"ControlName"								"ImagePanel"
-		"fieldName"									"HealthClusterIcon"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
 	}
 	
 	"ResistIconAnchor"
@@ -209,5 +169,51 @@
 		"textAlignment"								"Left"
 		"dulltext"									"0"
 		"brighttext"								"0"
+	}
+	
+	
+	
+	
+	
+	//////////////////////////////////REMOVED STUFF//////////////////////////////////
+	
+	"Background"
+	{
+		"ControlName"								"CTFImagePanel"
+		"fieldName"									"Background"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
+	}
+	
+	"ChargeLabel"
+	{
+		"ControlName"								"CExLabel"
+		"fieldName"									"ChargeLabel"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
+	}
+	
+	"ChargeMeter"
+	{	
+		"ControlName"								"ContinuousProgressBar"
+		"fieldName"									"ChargeMeter"
+		"wide"										"0"
+		"tall"										"0"				
+		"visible"									"0"
+		"enabled"									"0"
+	}
+	
+	"HealthClusterIcon"
+	{
+		"ControlName"								"ImagePanel"
+		"fieldName"									"HealthClusterIcon"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

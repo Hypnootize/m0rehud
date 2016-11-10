@@ -78,15 +78,6 @@
 		"MeterBG"									"Gray"
 	}	
 
-	HudBowCharge
-	{
-		"fieldName"									"HudBowCharge"
-		"visible"									"0"
-		"enabled"									"0"
-		"wide"										"0"
-		"tall"										"0"
-	}
-
 	HudFlameRocketCharge
 	{
 		"fieldName"									"HudFlameRocketCharge"
@@ -136,8 +127,8 @@
 		"fieldName"									"HudDamageIndicator"
 		"visible"									"1"
 		"enabled"									"1"
-		"MinimumWidth"								"23"
-		"MaximumWidth"								"23"
+		"MinimumWidth"								"15"
+		"MaximumWidth"								"35"
 		"StartRadius"								"80"
 		"EndRadius"									"80"
 		"MinimumHeight"								"30"
@@ -330,15 +321,6 @@
 		"tall"										"480"
 	}
 
-	StatPanel
-	{
-		"fieldName"									"StatPanel"
-		"visible"									"0"
-		"enabled"									"0"
-		"wide"										"0"
-		"tall"										"0"
-	}
-	
 	"HudAlert"
 	{
 		"fieldName"									"HudAlert"
@@ -435,25 +417,6 @@
 		"tall"										"480"
 	}		
 
-	HudTeamGoal
-	{
-		"fieldName"									"HudTeamGoal"
-		"visible"									"0"
-		"enabled"									"0"
-		"wide"										"0"
-		"tall"										"0"
-	}
-
-
-	HudTeamGoalTournament
-	{
-		"fieldName"									"HudTeamGoalTournament"
-		"visible"									"0"
-		"enabled"									"0"
-		"wide"										"0"
-		"tall"										"0"
-	}
-
 	HudTournament
 	{
 		"fieldName"									"HudTournament"
@@ -522,5 +485,52 @@
 		"ypos"										"0"
 		"wide"										"f0"
 		"tall"										"480"
+	}
+	
+	/////////////////////////////REMOVED STUFF/////////////////////////////
+	
+	HudBowCharge
+	{
+		"fieldName"									"HudBowCharge"
+		"visible"									"0"
+		"enabled"									"0"
+		"wide"										"0"
+		"tall"										"0"
+	}
+	
+	StatPanel
+	{
+		"fieldName"									"StatPanel"
+		"visible"									"0"
+		"enabled"									"0"
+		"wide"										"0"
+		"tall"										"0"
+	}
+	
+	HudArenaNotification
+	{
+		"fieldName"									"HudArenaNotification"
+		"visible"									"0"
+		"enabled"									"0"
+		"wide"										"0"
+		"tall"										"0"
+	}
+	
+	HudTeamGoal
+	{
+		"fieldName"									"HudTeamGoal"
+		"visible"									"0"
+		"enabled"									"0"
+		"wide"										"0"
+		"tall"										"0"
+	}
+	
+	HudTeamGoalTournament
+	{
+		"fieldName"									"HudTeamGoalTournament"
+		"visible"									"0"
+		"enabled"									"0"
+		"wide"										"0"
+		"tall"										"0"
 	}
 }

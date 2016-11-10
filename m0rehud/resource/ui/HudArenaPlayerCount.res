@@ -25,8 +25,8 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"count"
-			"xpos"									"0"	//23
-			"ypos"									"0"	//7
+			"xpos"									"0"
+			"ypos"									"0"
 			"zpos"									"2"
 			"wide"									"30"
 			"tall"									"25"
@@ -34,7 +34,7 @@
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"font"									"M0refont24"	//HudFontMedium
+			"font"									"M0refont24"
 			"labelText"								"%blue_alive%"
 			"textAlignment"							"center"
 			"fgcolor"								"M0reBlue"
@@ -44,8 +44,8 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"countshadow"
-			"xpos"									"1"	//24
-			"ypos"									"1"	//8
+			"xpos"									"1"
+			"ypos"									"1"
 			"zpos"									"2"
 			"wide"									"30"
 			"tall"									"25"
@@ -100,8 +100,8 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"count"
-			"xpos"									"0"		//23
-			"ypos"									"0"		//7
+			"xpos"									"0"
+			"ypos"									"0"
 			"zpos"									"2"
 			"wide"									"30"
 			"tall"									"25"
@@ -112,15 +112,15 @@
 			"font"									"M0refont24"
 			"labelText"								"%red_alive%"
 			"textAlignment"							"center"
-			"fgcolor"								"M0reRed"	//TanLight
+			"fgcolor"								"M0reRed"
 		}
 		
 		"countshadow"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"countshadow"
-			"xpos"									"1"	//24
-			"ypos"									"1"	//8
+			"xpos"									"1"
+			"ypos"									"1"
 			"zpos"									"2"
 			"wide"									"30"
 			"tall"									"25"
@@ -128,7 +128,7 @@
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"font"									"M0refont24"	//HudFontMedium
+			"font"									"M0refont24"
 			"labelText"								"%red_alive%"
 			"textAlignment"							"center"
 			"fgcolor"								"0 0 0 255"

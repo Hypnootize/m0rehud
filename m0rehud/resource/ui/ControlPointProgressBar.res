@@ -14,7 +14,14 @@
 		"visible"									"0"
 		"enabled"									"1"
 	}
-
+	
+	
+	
+	
+	
+	//////////////////////////////////REMOVED STUFF//////////////////////////////////
+	
+	
 	"ProgressBar"
 	{
 		"ControlName"								"CircularProgressBar"

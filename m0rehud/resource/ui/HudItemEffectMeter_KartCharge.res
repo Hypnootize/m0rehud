@@ -74,6 +74,12 @@
 		"font"										"m0refont16"
 	}
 	
+	
+	
+	
+	
+	//////////////////////////////////REMOVED STUFF//////////////////////////////////
+	
 	"ItemEffectMeterBG"
 	{
 		"ControlName"								"CTFImagePanel"

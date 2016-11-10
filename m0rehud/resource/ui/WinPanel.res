@@ -10,26 +10,6 @@
 		"tall"										"60"
 		"visible"									"1"
 		
-		"BlueScoreBG"
-		{
-			"ControlName"							"EditablePanel"
-			"fieldName"								"BlueScoreBG"
-			"wide"									"0"
-			"tall"									"0"
-			"visible"								"0"
-			"enabled"								"0"
-		}
-		
-		"RedScoreBG"
-		{
-			"ControlName"							"EditablePanel"
-			"fieldName"								"RedScoreBG"
-			"wide"									"0"
-			"tall"									"0"
-			"visible"								"0"
-			"enabled"								"0"
-		}
-		
 		"BlueScoreBG2"
 		{
 			"ControlName"							"ScalableImagePanel"
@@ -144,26 +124,6 @@
 			"enabled"								"1"
 		}
 		
-		"BlueLeaderAvatar"
-		{
-			"ControlName"							"CAvatarImagePanel"
-			"fieldName"								"BlueLeaderAvatar"
-			"wide"									"0"
-			"tall"									"0"
-			"visible"								"0"
-			"enabled"								"0"
-		}
-		
-		"BlueLeaderAvatarBG"
-		{
-			"ControlName"							"EditablePanel"
-			"fieldName"								"BlueLeaderAvatarBG"
-			"wide"									"0"
-			"tall"									"0"
-			"visible"								"0"
-			"enabled"								"0"
-		}	
-		
 		"RedTeamLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -221,6 +181,46 @@
 			"enabled"								"1"
 		}
 		
+		"BlueScoreBG"
+		{
+			"ControlName"							"EditablePanel"
+			"fieldName"								"BlueScoreBG"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
+		}
+		
+		"RedScoreBG"
+		{
+			"ControlName"							"EditablePanel"
+			"fieldName"								"RedScoreBG"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
+		}
+		
+		"BlueLeaderAvatar"
+		{
+			"ControlName"							"CAvatarImagePanel"
+			"fieldName"								"BlueLeaderAvatar"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
+		}
+		
+		"BlueLeaderAvatarBG"
+		{
+			"ControlName"							"EditablePanel"
+			"fieldName"								"BlueLeaderAvatarBG"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
+		}	
+		
 		"RedLeaderAvatar"
 		{
 			"ControlName"							"CAvatarImagePanel"
@@ -240,16 +240,6 @@
 			"visible"								"0"
 			"enabled"								"0"
 		}
-	}
-	
-	"WinPanelBGBorder"
-	{
-		"ControlName"								"EditablePanel"
-		"fieldName"									"WinPanelBGBorder"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
 	}
 	
 	"WinningTeamLabel"
@@ -336,26 +326,6 @@
 		"brighttext"								"0"
 	}
 	
-	"WinReasonLabel"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"WinReasonLabel"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	
-	"DetailsLabel"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"DetailsLabel"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	
 	"ShadedBar"
 	{
 		"ControlName"								"ImagePanel"
@@ -372,36 +342,6 @@
 		"tabPosition"								"0"	
 		"fillcolor"									"0 0 0 100"
 		"PaintBackgroundType"						"0"
-	}
-	
-	"TopPlayersLabel"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"TopPlayerLabel"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	
-	"PointsThisRoundLabel"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"PointsThisRoundLabel"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	
-	"HorizontalLine"
-	{
-		"ControlName"								"ImagePanel"
-		"fieldName"									"HorizontalLine"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
 	}
 	
 	"Player1Avatar"
@@ -438,16 +378,6 @@
 		"textAlignment"								"west"
 		"dulltext"		 							"0"
 		"brighttext"								"0"
-	}
-	
-	"Player1Class"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"Player1Class"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
 	}
 	
 	"Player1Score"
@@ -506,16 +436,6 @@
 		"brighttext"								"0"
 	}
 	
-	"Player2Class"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"Player2Class"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	
 	"Player2Score"
 	{
 		"ControlName"								"CExLabel"
@@ -572,16 +492,6 @@
 		"brighttext"								"0"
 	}
 	
-	"Player3Class"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"Player3Class"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	
 	"Player3Score"
 	{
 		"ControlName"								"CExLabel"
@@ -602,7 +512,102 @@
 		"brighttext"								"0"
 	}
 	
-	// KillStreak
+	
+	
+	
+	
+	//////////////////////////////////REMOVED STUFF//////////////////////////////////
+	
+	"WinPanelBGBorder"
+	{
+		"ControlName"								"EditablePanel"
+		"fieldName"									"WinPanelBGBorder"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
+	}
+	
+	"WinReasonLabel"
+	{
+		"ControlName"								"CExLabel"
+		"fieldName"									"WinReasonLabel"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
+	}
+	
+	"DetailsLabel"
+	{
+		"ControlName"								"CExLabel"
+		"fieldName"									"DetailsLabel"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
+	}
+	
+	"TopPlayersLabel"
+	{
+		"ControlName"								"CExLabel"
+		"fieldName"									"TopPlayerLabel"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
+	}
+	
+	"PointsThisRoundLabel"
+	{
+		"ControlName"								"CExLabel"
+		"fieldName"									"PointsThisRoundLabel"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
+	}
+	
+	"HorizontalLine"
+	{
+		"ControlName"								"ImagePanel"
+		"fieldName"									"HorizontalLine"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
+	}
+	
+	"Player1Class"
+	{
+		"ControlName"								"CExLabel"
+		"fieldName"									"Player1Class"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
+	}
+	
+	"Player2Class"
+	{
+		"ControlName"								"CExLabel"
+		"fieldName"									"Player2Class"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
+	}
+	
+	"Player3Class"
+	{
+		"ControlName"								"CExLabel"
+		"fieldName"									"Player3Class"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
+	}
+	
 	"KillStreakLeaderLabel"
 	{	
 		"ControlName"								"CExLabel"

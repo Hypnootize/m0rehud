@@ -1,6 +1,5 @@
 "Resource/UI/HudPlayerHealth.res"
-{	
-
+{
 	"HudPlayerHealth"
 	{
 		"ControlName"           					"EditablePanel"
@@ -16,26 +15,6 @@
 		"HealthDeathWarning"    					"0.49"
 		"HealthDeathWarningColor"					"HUDDeathWarning"
 	}	
-	
-	"PlayerStatusHealthImage"
-	{
-		"ControlName" 	         				 	"ImagePanel"
-		"fieldName"		          				 	"PlayerStatusHealthImage"
-		"wide"		    	         				"0"
-		"tall"                   				 	"0"
-		"visible"		             				"0"
-		"enabled"		             				"0"
-	}
-	
-	"PlayerStatusHealthImageBG"
-	{
-		"ControlName"	           				 	"ImagePanel"
-		"fieldName"	  	         				 	"PlayerStatusHealthImageBG"
-		"wide"		    	          				"0"
-		"tall"         				 				"0"
-		"visible"         				 			"0"
-		"enabled"	            				 	"0"
-	}
 	
 	"PlayerStatusHealthBonusImage"
 	{
@@ -625,5 +604,31 @@
 		"pin_to_sibling"			         		"PlayerStatusAnchor"
 		"pin_corner_to_sibling"		         		"1"
 		"pin_to_sibling_corner"		         		"1"
+	}
+	
+	
+	
+	
+	
+	//////////////////////////////////REMOVED STUFF//////////////////////////////////
+	
+	"PlayerStatusHealthImage"
+	{
+		"ControlName" 	         				 	"ImagePanel"
+		"fieldName"		          				 	"PlayerStatusHealthImage"
+		"wide"		    	         				"0"
+		"tall"                   				 	"0"
+		"visible"		             				"0"
+		"enabled"		             				"0"
+	}
+	
+	"PlayerStatusHealthImageBG"
+	{
+		"ControlName"	           				 	"ImagePanel"
+		"fieldName"	  	         				 	"PlayerStatusHealthImageBG"
+		"wide"		    	          				"0"
+		"tall"         				 				"0"
+		"visible"         				 			"0"
+		"enabled"	            				 	"0"
 	}
 }

@@ -83,7 +83,7 @@
 		"brighttext"	  							"0"
 		"paintborder"	  							"0"
 		"command"		  							"jointeam blue"
-		"team"				  						"3"								// team blue
+		"team"				  						"3"
 		"associated_model"	  						"bluedoor"
 		"hover"				  						"2.0"
 		"font"			  							"invisiblelolol"
@@ -104,13 +104,13 @@
 		"visible"		  							"1"
 		"enabled"		  							"1"
 		"tabPosition"	  							"4"
-		"labelText"		  							"&4"							[$WIN32]
+		"labelText"		  							"&4"
 		"textAlignment"	  							"south-west"
 		"dulltext"		  							"0"
 		"brighttext"	  							"0"
 		"paintborder"	  							"0"
 		"command"		  							"jointeam red"
-		"team"				  						"2"								// team red
+		"team"				  						"2"
 		"associated_model"	  						"reddoor"	
 		"hover"				  						"2.0"
 		"font"			  							"invisiblelolol"
@@ -131,7 +131,7 @@
 		"visible"		  							"1"
 		"enabled"		  							"1"
 		"tabPosition"	  							"1"
-		"labelText"		  							"&1"							[$WIN32]
+		"labelText"		  							"&1"
 
 		"textAlignment"	  							"south-west"
 		"dulltext"		  							"0"
@@ -157,7 +157,7 @@
 		"visible"		  							"1"
 		"enabled"		  							"1"
 		"tabPosition"	  							"2"
-		"labelText"		  							"&2"							[$WIN32]
+		"labelText"		  							"&2"
 		"textAlignment"	  							"south-west"
 		"dulltext"		  							"0"
 		"brighttext"	  							"0"
@@ -267,10 +267,10 @@
 		"image"			  							"../hud/color_panel_clear"
 		"scaleImage"	  							"1"
 		
-		"src_corner_height"		  					"50"							// pixels inside the image
+		"src_corner_height"		  					"50"
 		"src_corner_width"		  					"50"
 		
-		"draw_corner_width"		  					"10"							// screen size of the corners ( and sides ), proportional
+		"draw_corner_width"		  					"10"
 		"draw_corner_height" 	  					"10"
 	}	
 	
@@ -472,7 +472,7 @@
 		"ControlName"		  						"CTFFooter"
 		"fieldName"			  						"Footer"
 		"zpos"				  						"6"
-		"tall"				  						"0"	//80
+		"tall"				  						"0"
 		"button_separator"	  						"10"
 		"button_separator_lodef"	  				"5"
 		"buttongap"			  						"50"
@@ -511,7 +511,7 @@
 		}
 	}	
 	
-	"HighlanderLabel"   							[$WIN32] 
+	"HighlanderLabel"
 	{
 		"ControlName"	  							"CExLabel"
 		"fieldName"		  							"HighlanderLabel"
@@ -533,7 +533,7 @@
 		"centerwrap"	  							"1"
 	}
 	
-	"HighlanderLabelShadow"   						[$WIN32] 
+	"HighlanderLabelShadow"
 	{
 		"ControlName"	  							"CExLabel"
 		"fieldName"		  							"HighlanderLabelShadow"
@@ -555,7 +555,7 @@
 		"centerwrap"	  							"1"
 	}
 	
-	"TeamsFullLabel"   								[$WIN32] 
+	"TeamsFullLabel"
 	{
 		"ControlName"	  							"CExLabel"
 		"fieldName"		  							"TeamsFullLabel"
@@ -577,7 +577,7 @@
 		"centerwrap"	  							"1"
 	}
 	
-	"TeamsFullLabelShadow"   						[$WIN32] 
+	"TeamsFullLabelShadow"
 	{
 		"ControlName"	  							"CExLabel"
 		"fieldName"		  							"TeamsFullLabelShadow"
@@ -599,7 +599,7 @@
 		"centerwrap"	  							"1"
 	}
 
-	"TeamsFullArrow"   								[$WIN32]
+	"TeamsFullArrow"
 	{
 		"ControlName"	  							"CTFImagePanel"
 		"fieldName"		  							"TeamsFullArrow"
@@ -614,4 +614,3 @@
 		"scaleImage"	  							"1"	
 	}
 }
-

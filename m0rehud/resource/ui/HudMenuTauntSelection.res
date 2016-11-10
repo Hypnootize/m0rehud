@@ -1,15 +1,5 @@
 "Resource/UI/HudMenuTauntSelection.res"
 {
-	"MainBackground"	
-	{
-		"ControlName"								"CIconPanel"
-		"fieldName"									"MainBackground"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-
 	"Divider"
 	{
 		"ControlName"		     					"ImagePanel"
@@ -31,16 +21,6 @@
 		"draw_corner_height" 						"0"
 	}
 
-	"IcoReelIcon"
-	{
-		"ControlName"								"CIconPanel"
-		"fieldName"									"IcoReelIcon"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	
 	"TitleLabel"
 	{	
 		"ControlName"								"CExLabel"
@@ -697,5 +677,31 @@
 		"textAlignment"								"Center"
 		"dulltext"									"1"
 		"brighttext"								"0"
+	}
+	
+	
+	
+	
+	
+	//////////////////////////////////REMOVED STUFF//////////////////////////////////
+	
+	"MainBackground"	
+	{
+		"ControlName"								"CIconPanel"
+		"fieldName"									"MainBackground"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
+	}
+	
+	"IcoReelIcon"
+	{
+		"ControlName"								"CIconPanel"
+		"fieldName"									"IcoReelIcon"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

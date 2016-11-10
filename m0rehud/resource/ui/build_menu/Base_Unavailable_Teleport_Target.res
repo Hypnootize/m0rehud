@@ -15,20 +15,9 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"#TF_Object_Sentry"
-		"labelText_lodef"							"#TF_Object_Sentry_360"
 		"textAlignment"								"Left"
 		"dulltext"									"0"
 		"brighttext"								"0"
-	}
-	
-	"ItemBackground"	
-	{
-		"ControlName"								"CIconPanel"
-		"fieldName"									"ItemBackground"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
 	}
 	
 	"CantBuildReason"
@@ -105,5 +94,21 @@
 		"textAlignment"								"Center"
 		"dulltext"									"1"
 		"brighttext"								"0"
+	}
+	
+	
+	
+	
+	
+	//////////////////////////////////REMOVED STUFF//////////////////////////////////
+	
+	"ItemBackground"	
+	{
+		"ControlName"								"CIconPanel"
+		"fieldName"									"ItemBackground"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

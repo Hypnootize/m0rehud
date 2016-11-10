@@ -1,15 +1,5 @@
 "Resource/UI/disguise_menu/HudMenuSpyDisguise.res"
 {
-	"MainBackground"	
-	{
-		"ControlName"								"CIconPanel"
-		"fieldName"									"MainBackground"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	
 	"Divider"
 	{
 		"ControlName"		     					"ImagePanel"
@@ -36,7 +26,7 @@
 		"ControlName"								"CExLabel"
 		"fieldName"									"TitleLabel"
 		"font"										"Coolvetica"
-		"xpos"										"210"							// align me to the left edge of the first selection
+		"xpos"										"210"
 		"ypos"										"30"
 		"zpos"										"3"
 		"wide"										"360"
@@ -58,7 +48,7 @@
 		"fieldName"									"TitleLabelDropshadow"
 		"font"										"Coolvetica"
 		"fgcolor"									"0 0 0 255"
-		"xpos"										"211"							// align me to the left edge of the first selection
+		"xpos"										"211"
 		"ypos"										"31"
 		"zpos"										"3"
 		"wide"										"360"
@@ -440,5 +430,21 @@
 		"textAlignment"								"Center"
 		"dulltext"									"1"
 		"brighttext"								"0"
+	}
+	
+	
+	
+	
+	
+	//////////////////////////////////REMOVED STUFF//////////////////////////////////
+	
+	"MainBackground"	
+	{
+		"ControlName"								"CIconPanel"
+		"fieldName"									"MainBackground"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

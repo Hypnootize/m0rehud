@@ -180,16 +180,6 @@
 			"visible"								"0"
 			"enabled"								"1"
 		}
-		
-		"ArenaStreaksBG"
-		{
-			"ControlName"							"ScalableImagePanel"
-			"fieldName"								"ArenaStreaksBG"
-			"wide"									"0"
-			"tall"									"0"
-			"visible"								"0"
-			"enabled"								"0"
-		}	
 
 		"ArenaStreakLabel"
 		{	
@@ -211,18 +201,18 @@
 			"dulltext"								"0"
 			"brighttext"							"0"
 		}
+		
+		"ArenaStreaksBG"
+		{
+			"ControlName"							"ScalableImagePanel"
+			"fieldName"								"ArenaStreaksBG"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
+		}	
 	}
 
-	"WinPanelBG"
-	{
-		"ControlName"								"ImagePanel"
-		"fieldName"									"WinPanelBG"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	
 	"WinningTeamLabel"
 	{	
 		"ControlName"								"CExLabel"
@@ -305,26 +295,6 @@
 		"textAlignment"								"east"
 		"dulltext"									"0"
 		"brighttext"								"0"
-	}
-	
-	"WinReasonLabel"
-	{	
-		"ControlName"								"CExLabel"
-		"fieldName"									"WinReasonLabel"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	
-	"DetailsLabel"
-	{	
-		"ControlName"								"CExLabel"
-		"fieldName"									"DetailsLabel"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
 	}
 	
 	"ShadedBar"
@@ -1223,5 +1193,41 @@
 			"dulltext"								"0"
 			"brighttext"							"0"
 		}
+	}
+	
+	
+	
+	
+	
+	//////////////////////////////////REMOVED STUFF//////////////////////////////////
+	
+	"WinPanelBG"
+	{
+		"ControlName"								"ImagePanel"
+		"fieldName"									"WinPanelBG"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
+	}
+	
+	"WinReasonLabel"
+	{	
+		"ControlName"								"CExLabel"
+		"fieldName"									"WinReasonLabel"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
+	}
+	
+	"DetailsLabel"
+	{	
+		"ControlName"								"CExLabel"
+		"fieldName"									"DetailsLabel"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

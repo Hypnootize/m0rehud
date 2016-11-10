@@ -1,35 +1,5 @@
 "Resource/UI/HudTournamentSetup.res"
 {
-	"HudTournamentSetupBG"
-	{
-		"ControlName"	      						"ScalableImagePanel"
-		"fieldName"		       					 	"HudTournamentSetupBG"
-		"wide"		          						"0"
-		"tall"			        					"0"
-		"visible"         							"0"
-		"enabled"         							"0"
-	}
-	
-	"TournamentSetupLabel"
-	{	
-		"ControlName"								"Label"
-		"fieldName"									"TournamentLabel"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-
-	"TournamentTeamNameLabel"
-	{	
-		"ControlName"								"Label"
-		"fieldName"									"TournamentTeamNameLabel"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-
 	"TournamentNameEdit"
 	{
 		"ControlName"								"TextEntry"
@@ -54,16 +24,6 @@
 		"bgcolor_override"							"255 255 255 100"
 		"labelText"									"%teamname%"
 		"textAlignment"								"center"
-	}
-
-	"HudTournamentNameBG"
-	{
-		"ControlName"								"CTFImagePanel"
-		"fieldName"									"HudTournamentNameBG"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
 	}
 
 	"TournamentNotReadyButton"
@@ -131,5 +91,51 @@
 		"depressedFgColor_override" 				"0 200 0 255"
 		"selectedFgColor_override" 					"0 200 0 255"
 		"paintbackground"							"0"
+	}
+	
+	
+	
+	
+	
+	//////////////////////////////////REMOVED STUFF//////////////////////////////////
+	
+	"HudTournamentSetupBG"
+	{
+		"ControlName"	      						"ScalableImagePanel"
+		"fieldName"		       					 	"HudTournamentSetupBG"
+		"wide"		          						"0"
+		"tall"			        					"0"
+		"visible"         							"0"
+		"enabled"         							"0"
+	}
+	
+	"TournamentSetupLabel"
+	{	
+		"ControlName"								"Label"
+		"fieldName"									"TournamentLabel"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
+	}
+
+	"TournamentTeamNameLabel"
+	{	
+		"ControlName"								"Label"
+		"fieldName"									"TournamentTeamNameLabel"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
+	}
+
+	"HudTournamentNameBG"
+	{
+		"ControlName"								"CTFImagePanel"
+		"fieldName"									"HudTournamentNameBG"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

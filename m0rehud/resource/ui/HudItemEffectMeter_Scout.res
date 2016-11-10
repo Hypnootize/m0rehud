@@ -13,16 +13,6 @@
 		"MeterBG"									"Gray"
 	}
 	
-	"ItemEffectMeterBG"
-	{
-		"ControlName"								"CTFImagePanel"
-		"fieldName"									"ItemEffectMeterBG"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	
 	"ItemEffectMeterLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -79,5 +69,21 @@
 		"enabled"             						"1"
 		"fillcolor"           						"0 255 0 255"
 		"PaintBackgroundType" 						"0"
-	}	
+	}
+	
+	
+	
+	
+	
+	//////////////////////////////////REMOVED STUFF//////////////////////////////////
+	
+	"ItemEffectMeterBG"
+	{
+		"ControlName"								"CTFImagePanel"
+		"fieldName"									"ItemEffectMeterBG"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
+	}
 }

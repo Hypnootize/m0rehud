@@ -13,26 +13,6 @@
 		"MeterBG"									"Gray"
 	}
 	
-	"ItemEffectMeterBG"
-	{
-		"ControlName"								"CTFImagePanel"
-		"fieldName"									"ItemEffectMeterBG"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	
-	"ItemEffectMeter"
-	{	
-		"ControlName"								"ContinuousProgressBar"
-		"fieldName"									"ItemEffectMeter"
-		"wide"										"70"
-		"tall"										"6"				
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	
 	"ItemEffectMeterLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -74,6 +54,7 @@
 		"font"										"m0refont24"
 		"fgcolor" 									"255 255 255 255"
 	}
+	
 	"ItemEffectMeterCountShadow"
 	{
 		"ControlName"								"CExLabel"
@@ -93,5 +74,31 @@
 		"brighttext"								"0"
 		"font"										"m0refont24"
 		"fgcolor" 									"0 0 0 255"
+	}
+	
+	
+	
+	
+	
+	//////////////////////////////////REMOVED STUFF//////////////////////////////////
+	
+	"ItemEffectMeterBG"
+	{
+		"ControlName"								"CTFImagePanel"
+		"fieldName"									"ItemEffectMeterBG"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
+	}
+	
+	"ItemEffectMeter"
+	{	
+		"ControlName"								"ContinuousProgressBar"
+		"fieldName"									"ItemEffectMeter"
+		"wide"										"0"
+		"tall"										"0"				
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

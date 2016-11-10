@@ -13,16 +13,6 @@
 		"MeterBG"									"Gray"
 	}
 	
-	"ItemEffectMeterBG"
-	{
-		"ControlName"								"CTFImagePanel"
-		"fieldName"									"ItemEffectMeterBG"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	
 	"ItemEffectMeterLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -46,26 +36,6 @@
 		"fgcolor_override"							"255 255 255 100"
 	}
 
-	"ItemEffectMeter"
-	{	
-		"ControlName"								"ContinuousProgressBar"
-		"fieldName"									"ItemEffectMeter"
-		"font"										"Default"
-		"xpos"										"0"
-		"ypos"										"0"
-		"zpos"										"2"
-		"wide"										"70"
-		"tall"										"6"				
-		"autoResize"								"0"
-		"pinCorner"									"0"
-		"visible"									"0"
-		"enabled"									"0"
-		"textAlignment"								"Left"
-		"dulltext"									"0"
-		"brighttext"								"0"
-		"fgcolor_override"							"255 255 255 255"
-	}					
-	
 	"ItemEffectMeterCount"
 	{
 		"ControlName"								"CExLabel"
@@ -106,5 +76,31 @@
 		"brighttext"								"0"
 		"font"										"m0refont24"
 		"fgcolor" 									"0 0 0 255"
+	}
+	
+	
+	
+	
+	
+	//////////////////////////////////REMOVED STUFF//////////////////////////////////
+	
+	"ItemEffectMeterBG"
+	{
+		"ControlName"								"CTFImagePanel"
+		"fieldName"									"ItemEffectMeterBG"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
+	}
+	
+	"ItemEffectMeter"
+	{	
+		"ControlName"								"ContinuousProgressBar"
+		"fieldName"									"ItemEffectMeter"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

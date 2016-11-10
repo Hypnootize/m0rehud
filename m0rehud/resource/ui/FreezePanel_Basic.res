@@ -1,6 +1,6 @@
 "Resource/UI/FreezePanel_Basic.res"
 {
-	"FreezePanelBase"								[$WIN32]
+	"FreezePanelBase"
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"FreezePanelBase"
@@ -68,7 +68,7 @@
 			"brighttext"							"0"
 		}
 		
-		"FreezePanelHealth"							[$WIN32]
+		"FreezePanelHealth"
 		{
 			"ControlName"							"CTFFreezePanelHealth"
 			"fieldName"								"FreezePanelHealth"
@@ -129,48 +129,14 @@
 			"tall"									"0"
 			"visible"								"0"
 			"enabled" 								"0"
-
-			"NemesisPanelBG"
-			{
-				"ControlName"						"ScalableImagePanel"
-				"fieldName"							"NemesisPanelBG"
-				"wide"								"0"
-				"tall"								"0"
-				"visible"							"0"
-				"enabled" 							"0"
-			}
-			
-			"NemesisIcon"
-			{
-				"ControlName"						"ImagePanel"
-				"fieldName"							"NemesisIcon"
-				"wide"								"0"
-				"tall"								"0"
-				"visible"							"0"
-				"enabled" 							"0"
-			}
-			
-			"NemesisLabel"
-			{	
-				"ControlName"						"Label"
-				"fieldName"							"NemesisLabel"
-				"wide"								"0"
-				"tall"								"0"
-				"visible"							"0"
-				"enabled" 							"0"
-			}
-			
-			"NemesisLabel2"
-			{	
-				"ControlName"						"Label"
-				"fieldName"							"NemesisLabel2"
-				"wide"								"0"
-				"tall"								"0"
-				"visible"							"0"
-				"enabled" 							"0"
-			}
 		}
 	}
+	
+	
+	
+	
+	
+	//////////////////////////////////REMOVED STUFF//////////////////////////////////
 		
 	"ScreenshotPanel"
 	{
@@ -180,36 +146,6 @@
 		"tall"										"0"
 		"visible"									"0"
 		"enabled" 									"0"
-			
-		"ScreenshotPanelBG"
-		{
-			"ControlName"							"ImagePanel"
-			"fieldName"								"ScreenshotPanelBG"
-			"wide"									"0"
-			"tall"									"0"
-			"visible"								"0"
-			"enabled" 								"0"
-		}
-		
-		"ScreenshotIcon"
-		{
-			"ControlName"							"ImagePanel"
-			"fieldName"								"ScreenshotIcon"
-			"wide"									"0"
-			"tall"									"0"
-			"visible"								"0"
-			"enabled" 								"0"
-		}
-		
-		"ScreenshotLabel"
-		{	
-			"ControlName"							"Label"
-			"fieldName"								"ScreenshotLabel"
-			"wide"									"0"
-			"tall"									"0"
-			"visible"								"0"
-			"enabled" 								"0"
-		}
 	}
 	
 	"itempanel"

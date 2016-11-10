@@ -565,6 +565,12 @@
 		}
 	}
 	
+	
+	
+	
+	
+	//////////////////////////////////REMOVED STUFF//////////////////////////////////
+	
 	"HudTournamentBGHelp"
 	{
 		"ControlName"								"ScalableImagePanel"

@@ -34,8 +34,8 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"BlueScoreShadow"
-		"xpos"										"c-208"
-		"ypos"										"r68"
+		"xpos"										"c-209"
+		"ypos"										"r69"
 		"zpos"										"7"
 		"wide"										"80"
 		"tall"										"35"
@@ -68,8 +68,8 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"RedScoreShadow"
-		"xpos"										"c132"
-		"ypos"										"r68"
+		"xpos"										"c131"
+		"ypos"										"r69"
 		"zpos"										"7"
 		"wide"										"80"
 		"tall"										"35"
@@ -122,6 +122,12 @@
 			"enabled"								"0"
 		}
 	}
+	
+	
+	
+	
+	
+	//////////////////////////////////REMOVED STUFF//////////////////////////////////
 	
 	"LeftSideBG"
 	{

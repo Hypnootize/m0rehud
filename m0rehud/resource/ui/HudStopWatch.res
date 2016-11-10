@@ -46,7 +46,7 @@
 		"ControlName"								"EditablePanel"
 		"fieldName"									"ObjectiveStatusTimePanel"
 		"xpos"										"0"
-		"ypos"										"0"								[$WIN32]
+		"ypos"										"0"
 		"zpos"										"1"
 		"wide"										"175"
 		"tall"										"150"
@@ -162,7 +162,13 @@
 			"textAlignment"							"center"
 		}
 	}
-
+	
+	
+	
+	
+	
+	//////////////////////////////////REMOVED STUFF//////////////////////////////////
+	
 	"HudStopWatchDescriptionBG"
 	{
 		"ControlName"								"ScalableImagePanel"

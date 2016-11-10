@@ -20,16 +20,6 @@
 		"brighttext"								"0"
 	}
 	
-	"ItemBackground"	
-	{
-		"ControlName"								"CIconPanel"
-		"fieldName"									"ItemBackground"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	
 	"DestroyIcon"	
 	{
 		"ControlName"								"CIconPanel"
@@ -97,5 +87,21 @@
 		"textAlignment"								"Center"
 		"dulltext"									"1"
 		"brighttext"								"0"
+	}
+	
+	
+	
+	
+	
+	//////////////////////////////////REMOVED STUFF//////////////////////////////////
+	
+	"ItemBackground"	
+	{
+		"ControlName"								"CIconPanel"
+		"fieldName"									"ItemBackground"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

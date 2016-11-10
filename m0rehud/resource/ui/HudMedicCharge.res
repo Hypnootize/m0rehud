@@ -1,16 +1,5 @@
 "Resource/UI/HudMedicCharge.res"
 {	
-
-	"Background"
-	{
-		"ControlName"								"CTFImagePanel"
-		"fieldName"									"Background"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	
 	"ChargeLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -118,16 +107,6 @@
 		"font"										"M0refont18Shadow"
 	}
 	
-	"HealthClusterIcon"
-	{
-		"ControlName"								"ImagePanel"
-		"fieldName"									"HealthClusterIcon"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	
 	"ResistIconAnchor"
 	{
 		"ControlName"								"EditablePanel"
@@ -231,5 +210,31 @@
 		"textAlignment"								"Left"
 		"dulltext"									"0"
 		"brighttext"								"0"
+	}
+	
+	
+	
+	
+	
+	//////////////////////////////////REMOVED STUFF//////////////////////////////////
+	
+	"Background"
+	{
+		"ControlName"								"CTFImagePanel"
+		"fieldName"									"Background"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
+	}
+	
+	"HealthClusterIcon"
+	{
+		"ControlName"								"ImagePanel"
+		"fieldName"									"HealthClusterIcon"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

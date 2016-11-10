@@ -105,6 +105,12 @@
 		"border_armed"								"NoBorder"
 	}
 	
+	
+	
+	
+	
+	//////////////////////////////////REMOVED STUFF//////////////////////////////////
+	
 	"MapInfoBack"
 	{
 		"ControlName"								"CExButton"

@@ -1,15 +1,5 @@
 "Resource/UI/HudDemomanPipes.res"
 {
-	"background"
-	{
-		"ControlName"								"CTFImagePanel"
-		"fieldName"									"background"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"			
-	}
-	
 	"ChargeLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -114,6 +104,22 @@
 			"font"									"M0refont16"
 			"fgcolor"								"0 0 0 255"
 		}		
+	}
+	
+	
+	
+	
+	
+	//////////////////////////////////REMOVED STUFF//////////////////////////////////
+	
+	"background"
+	{
+		"ControlName"								"CTFImagePanel"
+		"fieldName"									"background"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"			
 	}
 	
 	"NoPipesPresentPanel"

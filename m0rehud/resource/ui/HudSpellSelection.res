@@ -45,6 +45,12 @@
 		"visible"									"1"
 	}
 	
+	
+	
+	
+	
+	//////////////////////////////////REMOVED STUFF//////////////////////////////////
+	
 	"ItemEffectMeterBG"
 	{
 		"ControlName"								"CTFImagePanel"

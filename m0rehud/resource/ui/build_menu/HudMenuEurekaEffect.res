@@ -1,21 +1,5 @@
 "Resource/UI/build_menu/HudMenuEurekaEffect.res"
 {
-	"MainBackground"	
-	{
-		"ControlName"								"CIconPanel"
-		"fieldName"									"MainBackground"
-		"xpos"										"0"
-		"ypos"										"10"
-		"zpos"										"0"
-		"wide"										"250"
-		"tall"										"0"
-		"visible"									"1"
-		"enabled"									"1"
-		"scaleImage"								"1"	
-		"icon"										"hud_menu_bg"
-		"iconColor"									"255 255 255 255"
-	}
-	
 	"Divider"
 	{
 		"ControlName"		     					"ImagePanel"
@@ -35,22 +19,6 @@
 		"src_corner_width"							"0"
 		"draw_corner_width"							"0"
 		"draw_corner_height" 						"0"
-	}
-	
-	"BuildIcon"	
-	{
-		"ControlName"								"CIconPanel"
-		"fieldName"									"BuildIcon"
-		"xpos"										"15"
-		"ypos"										"-8"
-		"zpos"										"1"
-		"wide"										"48"
-		"tall"										"0"
-		"visible"									"1"
-		"enabled"									"1"
-		"scaleImage"								"1"	
-		"icon"										"ico_build"
-		"iconColor"									"255 255 255 255"
 	}
 	
 	"BuildIconShadow"	
@@ -74,7 +42,7 @@
 		"ControlName"								"CExLabel"
 		"fieldName"									"TitleLabel"
 		"font"										"Coolvetica"
-		"xpos"										"102"							// align me to the left edge of the first selection
+		"xpos"										"102"
 		"ypos"										"20"
 		"zpos"										"2"
 		"wide"										"300"
@@ -95,7 +63,7 @@
 		"fieldName"									"TitleLabelDropshadow"
 		"font"										"Coolvetica"
 		"fgcolor"									"Black"
-		"xpos"										"103"							// align me to the left edge of the first selection
+		"xpos"										"103"
 		"ypos"										"21"
 		"zpos"										"1"
 		"wide"										"300"
@@ -176,5 +144,31 @@
 		"wide"										"100"
 		"tall"										"124"
 		"visible"									"0"
+	}
+
+	
+	
+	
+	
+	//////////////////////////////////REMOVED STUFF//////////////////////////////////
+	
+	"MainBackground"	
+	{
+		"ControlName"								"CIconPanel"
+		"fieldName"									"MainBackground"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
+	}
+	
+	"BuildIcon"	
+	{
+		"ControlName"								"CIconPanel"
+		"fieldName"									"BuildIcon"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}	
 }

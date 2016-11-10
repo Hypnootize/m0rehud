@@ -1,6 +1,5 @@
 "Resource/UI/HudPlayerClass.res"
 {
-	// player class data
 	"HudPlayerClass"
 	{
 		"ControlName"								"EditablePanel"
@@ -13,6 +12,7 @@
 		"visible"									"1"
 		"enabled"									"1"		
 	}
+	
 	"PlayerStatusClassImage"
 	{
 		"ControlName"								"CTFClassImage"
@@ -27,43 +27,6 @@
 		"image"										"../hud/class_scoutred"
 		"scaleImage"								"1"
 		"alpha"										"0"
-	}
-	"PlayerStatusSpyImage"
-	{
-		"ControlName"								"CTFImagePanel"
-		"fieldName"									"PlayerStatusSpyImage"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}	
-	"PlayerStatusSpyOutlineImage"
-	{
-		"ControlName"								"CTFImagePanel"
-		"fieldName"									"PlayerStatusSpyOutlineImage"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}		
-	"PlayerStatusClassImageBG"
-	{
-		"ControlName"								"CTFImagePanel"
-		"fieldName"									"PlayerStatusClassImageBG"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	
-	"classmodelpanelBG"
-	{
-		"ControlName"								"CTFImagePanel"
-		"fieldName"									"classmodelpanelBG"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
 	}
 	
 	"classmodelpanel"
@@ -250,5 +213,49 @@
 				"origin_z"							"-82"
 			}
 		}
+	}
+	
+	
+	
+	
+	
+	//////////////////////////////////REMOVED STUFF//////////////////////////////////
+	
+	"PlayerStatusSpyImage"
+	{
+		"ControlName"								"CTFImagePanel"
+		"fieldName"									"PlayerStatusSpyImage"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
+	}	
+	"PlayerStatusSpyOutlineImage"
+	{
+		"ControlName"								"CTFImagePanel"
+		"fieldName"									"PlayerStatusSpyOutlineImage"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
+	}		
+	"PlayerStatusClassImageBG"
+	{
+		"ControlName"								"CTFImagePanel"
+		"fieldName"									"PlayerStatusClassImageBG"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
+	}
+	
+	"classmodelpanelBG"
+	{
+		"ControlName"								"CTFImagePanel"
+		"fieldName"									"classmodelpanelBG"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

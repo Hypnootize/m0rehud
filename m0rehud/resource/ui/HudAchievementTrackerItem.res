@@ -4,8 +4,8 @@
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"HudAchievementTrackerItem"
-		"xpos"										"0"								[$WIN32]
-		"ypos"										"0"								[$WIN32]
+		"xpos"										"0"
+		"ypos"										"0"
 		"zpos"										"3"
 		"wide"										"150"
 		"tall"										"29"
@@ -77,7 +77,7 @@
 		"enabled"									"1"
 	}
 	
-	"ProgressBar" // current completed
+	"ProgressBar"
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"ProgressBar"

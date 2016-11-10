@@ -1,15 +1,5 @@
 "Resource/UI/TargetID.res"
 {
-	"TargetIDBG"
-	{
-		"ControlName"		     					"CTFImagePanel"
-		"fieldName"		        					"TargetIDBG"
-		"wide"			           					"0"
-		"tall"	 		           					"0"
-		"visible"		          					"0"
-		"enabled"		           					"0"
-	}
-	
 	"TargetIDBG_Spec_Blue"
 	{
 		"ControlName"		         				"ScalableImagePanel"
@@ -203,5 +193,21 @@
 			"dulltext"		  						"0"
 			"brighttext"		  					"0"
 		}	
+	}
+	
+	
+	
+	
+	
+	//////////////////////////////////REMOVED STUFF//////////////////////////////////
+	
+	"TargetIDBG"
+	{
+		"ControlName"		     					"CTFImagePanel"
+		"fieldName"		        					"TargetIDBG"
+		"wide"			           					"0"
+		"tall"	 		           					"0"
+		"visible"		          					"0"
+		"enabled"		           					"0"
 	}
 }

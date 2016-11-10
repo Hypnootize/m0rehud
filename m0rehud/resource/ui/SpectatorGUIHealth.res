@@ -1,35 +1,5 @@
 "Resource/UI/SpectatorGUIHealth.res"
 {
-	"PlayerStatusHealthImage"
-	{
-		"ControlName"								"ImagePanel"
-		"fieldName"									"PlayerStatusHealthImage"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}	
-	
-	"PlayerStatusHealthImageBG"
-	{
-		"ControlName"								"ImagePanel"
-		"fieldName"									"PlayerStatusHealthImageBG"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	
-	"BuildingStatusHealthImageBG"
-	{
-		"ControlName"								"ImagePanel"
-		"fieldName"									"BuildingStatusHealthImageBG"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	
 	"PlayerStatusHealthBonusImage"
 	{
 		"ControlName"								"ImagePanel"
@@ -84,9 +54,7 @@
 		"ControlName"								"CExLabel"
 		"fieldName"									"PlayerStatusPlayerLevel"
 		"xpos"										"10"
-		"xpos_minmode"								"0"
-		"ypos"										"9"								[$WIN32]
-		"ypos"										"0"								[$X360]
+		"ypos"										"9"
 		"zpos"										"5"
 		"wide"										"12"
 		"tall"										"12"
@@ -95,5 +63,41 @@
 		"textAlignment"								"center"	
 		"font"										"ScoreboardVerySmall"
 		"fgcolor"									"TFOrange"
-	}		
+	}
+
+	
+	
+	
+	
+	//////////////////////////////////REMOVED STUFF//////////////////////////////////
+	
+	"PlayerStatusHealthImage"
+	{
+		"ControlName"								"ImagePanel"
+		"fieldName"									"PlayerStatusHealthImage"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
+	}	
+	
+	"PlayerStatusHealthImageBG"
+	{
+		"ControlName"								"ImagePanel"
+		"fieldName"									"PlayerStatusHealthImageBG"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
+	}
+	
+	"BuildingStatusHealthImageBG"
+	{
+		"ControlName"								"ImagePanel"
+		"fieldName"									"BuildingStatusHealthImageBG"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
+	}
 }

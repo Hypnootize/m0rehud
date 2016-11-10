@@ -1,25 +1,5 @@
 "Resource/UI/build_menu/HudMenuEngyDestroy.res"
 {
-	"MainBackground"	
-	{
-		"ControlName"								"CIconPanel"
-		"fieldName"									"MainBackground"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	
-	"DestroyIcon"	
-	{
-		"ControlName"								"CIconPanel"
-		"fieldName"									"DestroyIcon"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	
 	"Divider"
 	{
 		"ControlName"		     					"ImagePanel"
@@ -47,7 +27,7 @@
 		"fieldName"									"TitleLabel"
 		"font"										"Coolvetica"
 		"fgcolor"									"255 255 255 255"
-		"xpos"										"200"							// align me to the left edge of the first selection
+		"xpos"										"200"
 		"ypos"										"30"
 		"zpos"										"2"
 		"wide"										"300"
@@ -68,7 +48,7 @@
 		"fieldName"									"TitleLabelDropShadow"
 		"font"										"Coolvetica"
 		"fgcolor"									"0 0 0 255"
-		"xpos"										"201"							// align me to the left edge of the first selection
+		"xpos"										"201"
 		"ypos"										"31"
 		"zpos"										"2"
 		"wide"										"300"
@@ -246,5 +226,31 @@
 		"wide"										"100"
 		"tall"										"124"
 		"visible"									"1"
+	}
+	
+	
+	
+	
+	
+	//////////////////////////////////REMOVED STUFF//////////////////////////////////
+	
+	"MainBackground"	
+	{
+		"ControlName"								"CIconPanel"
+		"fieldName"									"MainBackground"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
+	}
+	
+	"DestroyIcon"	
+	{
+		"ControlName"								"CIconPanel"
+		"fieldName"									"DestroyIcon"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

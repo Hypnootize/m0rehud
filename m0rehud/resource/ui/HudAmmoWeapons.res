@@ -1,25 +1,5 @@
 "Resource/UI/HudAmmoWeapons.res"
 {
-	"HudWeaponAmmoBG"
-	{
-		"ControlName"								"CTFImagePanel"
-		"fieldName"									"HudWeaponAmmoBG"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	
-	"HudWeaponLowAmmoImage"
-	{
-		"ControlName"								"ImagePanel"
-		"fieldName"									"HudWeaponLowAmmoImage"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	
 	"AmmoInClip"
 	{
 		"ControlName"								"CExLabel"
@@ -35,7 +15,6 @@
 		"enabled"									"1"
 		"textAlignment"								"east"	
 		"labelText"									"%Ammo%"
-		
 	}	
 	
 	"AmmoInClipShadow"
@@ -53,7 +32,6 @@
 		"enabled"									"1"
 		"textAlignment"								"east"	
 		"labelText"									"%Ammo%"
-		
 	}	
 	
 	"AmmoInReserve"
@@ -122,6 +100,30 @@
 		"enabled"									"1"
 		"textAlignment"								"center"	
 		"labelText"									"%Ammo%"
-		
-	}									
+	}
+	
+	
+	
+	
+	
+	//////////////////////////////////REMOVED STUFF//////////////////////////////////
+	
+	"HudWeaponAmmoBG"
+	{
+		"ControlName"								"CTFImagePanel"
+		"fieldName"									"HudWeaponAmmoBG"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
+	}
+	"HudWeaponLowAmmoImage"
+	{
+		"ControlName"								"ImagePanel"
+		"fieldName"									"HudWeaponLowAmmoImage"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
+	}
 }

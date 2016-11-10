@@ -119,9 +119,9 @@
 		"enabled"		 							"1"
 		"image"			 							"../hud/color_panel_clear"
 		"scaleImage"	 							"1"
-		"src_corner_height"		 					"50"							// pixels inside the image
+		"src_corner_height"		 					"50"
 		"src_corner_width"		 					"50"
-		"draw_corner_width"		 					"10"							// screen size of the corners ( and sides ), proportional
+		"draw_corner_width"		 					"10"
 		"draw_corner_height" 	 					"10"	
 	}	
 
@@ -145,6 +145,12 @@
 		"PaintBackgroundType"	 					"0"
 	}						
 	
+	
+	
+	
+	
+	//////////////////////////////////REMOVED STUFF//////////////////////////////////
+	
 	"TextMessage"
 	{
 		"ControlName"	 							"TextEntry"
@@ -154,6 +160,7 @@
 		"wide"			 							"0"
 		"tall"			 							"0"
 	}
+	
 	"MessageTitle"
 	{
 		"ControlName"	 							"Label"

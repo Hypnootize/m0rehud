@@ -11,26 +11,6 @@
 		"delta_item_font"							"M0refont18"
 	}
 	
-	"AccountBG"
-	{
-		"ControlName"								"CTFImagePanel"
-		"fieldName"									"AccountBG"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	
-	"MetalIcon"	
-	{
-		"ControlName"								"CIconPanel"
-		"fieldName"									"MetalIcon"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	
 	"AccountValue"
 	{
 		"ControlName"								"CExLabel"
@@ -73,5 +53,30 @@
 		"brighttext"								"0"
 		"font"										"M0refont24"
 		"fgcolor"   								"0 0 0 255"
+	}
+	
+	
+	
+	
+	
+	//////////////////////////////////REMOVED STUFF//////////////////////////////////
+	
+	"AccountBG"
+	{
+		"ControlName"								"CTFImagePanel"
+		"fieldName"									"AccountBG"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
+	}
+	"MetalIcon"	
+	{
+		"ControlName"								"CIconPanel"
+		"fieldName"									"MetalIcon"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }
