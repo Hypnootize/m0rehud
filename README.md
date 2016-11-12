@@ -62,6 +62,6 @@ Crosshairs.res file in the scripts folder! open this file and set the visible va
 
 .
 
-IF YOU ARE GETTING ANY KIND OF PROBLEM DON'T ESITATE TO CONTACT ME HERE:
+IF YOU ARE GETTING ANY KIND OF PROBLEM DON'T HESITATE TO CONTACT ME HERE:
 
 http://www.teamfortress.tv/34115/m0re-hud#top
