@@ -98,7 +98,7 @@
 		"paintbackground"							"0"
 				
 		"defaultFgColor_override"					"255 255 255 255"
-		"armedFgColor_override" 					"255 0 127 255"
+		"armedFgColor_override" 					"Main Menu Labels"
 		"depressedFgColor_override" 				"255 255 255 255"
 			
 		"border_default"							"NoBorder"
