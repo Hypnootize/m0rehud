@@ -45,6 +45,23 @@
 		"scaleImage"								"1"	
 	}
 	
+	"HealthCrossBorder"
+	{
+		"ControlName"								"CTFImagePanel"
+		"fieldName"									"HealthCrossBorder"
+		"xpos"										"41"
+		"ypos"										"51"
+		"zpos"										"3"
+		"wide"										"128"
+		"tall"										"128"
+		"visible"									"1"
+		"enabled"									"1"
+		"image"										"replay/thumbnails/health_border_red"
+		"teambg_2"									"replay/thumbnails/health_border_red"
+		"teambg_3"									"replay/thumbnails/health_border_blu"
+		"scaleImage"								"1"
+	}
+	
 	"PlayerStatusHealthBonusImage"
 	{
 		"ControlName"								"ImagePanel"
