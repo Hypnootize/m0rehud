@@ -60,6 +60,14 @@ Crosshairs.res file in the scripts folder! open this file and set the visible va
 
 .
 
+5) How can i get bigger damage numbers?
+
+Resource > HudDamageAccount.res you need to change both delta_item_font and delta_item_font_big (default font is M0refont18Outline), you can choose between these fonts sizes:
+
+M0refont20Outline - M0refont21Outline - M0refont22Outline - M0refont23Outline - M0refont24Outline - M0refont30Outline
+
+.
+
 .
 
 IF YOU ARE GETTING ANY KIND OF PROBLEM DON'T HESITATE TO CONTACT ME HERE:
