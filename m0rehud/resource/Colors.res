@@ -4,9 +4,9 @@ Scheme
 	{
 		"Health Numbers"									"255 255 255 255"
 
-		"Buffed Health"										"0 255 0 200"
-		"Buffed Health Target"								"0 255 0 200"
-		"Buffed Health Spec"								"0 255 0 200"
+		"Buffed Health"										"0 200 0 255"
+		"Buffed Health Target"								"0 255 0 255"
+		"Buffed Health Spec"								"0 255 0 255"
 		
 		"Low Health"										"255 20 20 255"
 		"Low Health Target"									"255 20 20 255"
