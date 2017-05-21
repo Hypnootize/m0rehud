@@ -76,7 +76,7 @@
 		"tall"										"480"
 		"MeterFG"									"White"
 		"MeterBG"									"Gray"
-	}
+	}	
 
 	HudFlameRocketCharge
 	{
@@ -165,7 +165,7 @@
 		"visible" 									"0"
 		"enabled" 									"1"
 		"xpos"										"c-126"
-		"ypos"										"c73"
+		"ypos"										"c85"
 		"wide"	 									"252"
 		"tall"	 									"30"
 		"tall_minmode"	 							"30"
@@ -193,7 +193,7 @@
 		"visible" 									"0"
 		"enabled" 									"1"
 		"xpos"										"c-126"
-		"ypos"										"c98"
+		"ypos"										"c122"
 		"wide"	 									"252"
 		"tall"	 									"30"
 		"tall_minmode"	 							"30"
@@ -294,7 +294,7 @@
 		"enabled"									"1"
 		"separator_width"							"5"
 		"separator_height"							"5"
-		"height_offset"								"0"	
+		"height_offset"								"0"
 	}
 
 	WinPanel

@@ -1410,8 +1410,8 @@
 	{
 		"ControlName"								"CTFHudMannVsMachineScoreboard"
 		"fieldName"									"MvMScoreboard"
-		"xpos"										"120"
-		"ypos"										"0"
+		"xpos"										"127"
+		"ypos"										"-8"
 		"zpos"										"10"
 		"wide"										"f0"
 		"tall"										"480"
@@ -1425,5 +1425,5 @@
 			"wide" 									"f4"
 			"visible"								"1"
 		}
-	}				
+	}			
 }
