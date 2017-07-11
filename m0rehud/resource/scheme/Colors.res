@@ -4,9 +4,9 @@ Scheme
 	{
 		"Health Numbers"									"255 255 255 255"
 
-		"Buffed Health"										"0 165 255 200"
-		"Buffed Health Target"								"0 165 255 255"
-		"Buffed Health Spec"								"0 165 255 255"
+		"Buffed Health"										"0 200 0 255"
+		"Buffed Health Target"								"0 225 0 255"
+		"Buffed Health Spec"								"0 225 0 255"
 		
 		"Low Health"										"255 20 20 255"
 		"Low Health Target"									"255 20 20 255"
@@ -29,6 +29,7 @@ Scheme
 		"Last Damage Done"									"255 255 255 255"
 
 		"Main Menu Labels"									"255 0 127 255"
+		"Class Selection"									"0 255 0 175"
 		
 		"M0reBlue"											"0 120 201 255"
 		"M0reRed"											"235 58 58 255"

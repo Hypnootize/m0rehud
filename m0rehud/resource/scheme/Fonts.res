@@ -7,7 +7,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"Heydings Icons"
+				"name"										"Icons"
 				"tall"										"18"
 				"additive"									"0"
 				"antialias" 								"1"
@@ -600,8 +600,8 @@ Scheme
 		
 		"11"
 		{
-			"font" 		"resource/fonts/heydings_icons.ttf"
-			"name" 		"Heydings Icons"
+			"font" 		"resource/fonts/Icons.ttf"
+			"name" 		"Icons"
 		}
 	}
 }

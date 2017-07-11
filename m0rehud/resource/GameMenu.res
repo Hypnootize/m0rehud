@@ -3,17 +3,17 @@
 	/////////////////////////Top Menu Buttons///////////////////////////
 	"QuestsButton"
 	{
-		"label" 									"F"
+		"label" 									"s"
 		"command" 									"questlog"
 	}
 	"WatchStreamButton"
 	{
-		"label" 									"V"
+		"label" 									"q"
 		"command" 									"watch_stream"
 	}
 	"MOTD_ShowButtonPanel"
 	{
-		"label" 									"R"
+		"label" 									"h"
 		"command" 									"motd_show"
 	}
 	

@@ -736,7 +736,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"tabPosition"							"0"
-			"labelText"								"E"
+			"labelText"								"K"
 			"font"									"Symbols"
 			"textAlignment"							"center"
 			"dulltext"								"0"
@@ -758,11 +758,11 @@
 			"font"									"HudFontSmallestBold"
 			"labelText"								"%noticount%"
 			"textAlignment"							"center"
-			"xpos"									"11"
-			"ypos"									"4"
+			"xpos"									"-3"
+			"ypos"									"11"
 			"zpos"									"4"
-			"wide"									"16"
-			"tall"									"16"
+			"wide"									"10"
+			"tall"									"10"
 			"autoResize"							"0"
 			"pinCorner"								"0"
 			"visible"								"1"
@@ -784,7 +784,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"tabPosition"							"0"
-			"labelText"								"E"
+			"labelText"								"K"
 			"font"									"Symbols"
 			"textAlignment"							"center"
 			"dulltext"								"0"
@@ -801,10 +801,10 @@
 		}
 	}
 	
-	"WatchStreamButton"
+	"MOTD_ShowButtonPanel"
 	{
 		"ControlName"								"EditablePanel"
-		"fieldname"									"WatchStreamButton"
+		"fieldname"									"MOTD_ShowButtonPanel"
 		"xpos"										"r30"
 		"ypos"										"210"
 		"zpos"										"11"
@@ -835,7 +835,7 @@
 			"default"								"1"
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
-			
+			"actionsignallevel" 					"2"
 			"border_default"						""
 			"border_armed"							""
 			"paintbackground"						"0"
@@ -862,24 +862,6 @@
 				"scaleImage"						"1"
 			}		
 		}
-	}
-
-	"StreamListPanel"
-	{
-		"ControlName"								"CTFStreamListPanel"
-		"fieldName"									"StreamListPanel"
-		"xpos"										"c-15"
-		"ypos"										"65"
-		"zpos"										"1"
-		"wide"										"300"
-		"tall"										"350"
-		"visible"									"0"
-		"PaintBackgroundType"						"2"
-		"paintbackground"							"0"
-		"border"									"MainMenuHighlightBorder"
-
-		"navDown"									"SettingsButton"
-		"navLeft"									"WatchStreamButton"
 	}
 	
 	"QuestsButton"
@@ -997,10 +979,10 @@
 		}
 	}
 	
-	"MOTD_ShowButtonPanel"
+	"WatchStreamButton"
 	{
 		"ControlName"								"EditablePanel"
-		"fieldname"									"MOTD_ShowButtonPanel"
+		"fieldname"									"WatchStreamButton"
 		"xpos"										"r30"
 		"ypos"										"270"
 		"zpos"										"11"
@@ -1031,7 +1013,7 @@
 			"default"								"1"
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
-			"actionsignallevel" 					"2"
+			
 			"border_default"						""
 			"border_armed"							""
 			"paintbackground"						"0"
@@ -1058,6 +1040,24 @@
 				"scaleImage"						"1"
 			}		
 		}
+	}
+
+	"StreamListPanel"
+	{
+		"ControlName"								"CTFStreamListPanel"
+		"fieldName"									"StreamListPanel"
+		"xpos"										"c-15"
+		"ypos"										"65"
+		"zpos"										"1"
+		"wide"										"300"
+		"tall"										"350"
+		"visible"									"0"
+		"PaintBackgroundType"						"2"
+		"paintbackground"							"0"
+		"border"									"MainMenuHighlightBorder"
+
+		"navDown"									"SettingsButton"
+		"navLeft"									"WatchStreamButton"
 	}
 	
 	"VersionButton"

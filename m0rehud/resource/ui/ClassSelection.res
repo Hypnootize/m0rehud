@@ -32,9 +32,9 @@
 			
 		"fgcolor"									"255 255 255 255"
 		"defaultFgColor_override" 					"255 255 255 255"
-		"armedFgColor_override" 					"0 255 0 175"
-		"depressedFgColor_override" 				"0 255 0 175"
-		"selectedFgColor_override" 					"0 255 0 175"
+		"armedFgColor_override" 					"Class Selection"
+		"depressedFgColor_override" 				"Class Selection"
+		"selectedFgColor_override" 					"Class Selection"
 
 		"paintbackground"							"0"
 		
@@ -76,9 +76,9 @@
 		"font"										"default"
 		"fgcolor"									"255 255 255 255"
 		"defaultFgColor_override" 					"255 255 255 255"
-		"armedFgColor_override" 					"0 255 0 175"
-		"depressedFgColor_override"					"0 255 0 175"
-		"selectedFgColor_override" 					"0 255 0 175"
+		"armedFgColor_override" 					"Class Selection"
+		"depressedFgColor_override"					"Class Selection"
+		"selectedFgColor_override" 					"Class Selection"
 		
 		"paintbackground"							"0"
 		
@@ -121,9 +121,9 @@
 			
 		"fgcolor"									"255 255 255 255"
 		"defaultFgColor_override" 					"255 255 255 255"
-		"armedFgColor_override" 					"0 255 0 175"
-		"depressedFgColor_override" 				"0 255 0 175"
-		"selectedFgColor_override" 					"0 255 0 175"
+		"armedFgColor_override" 					"Class Selection"
+		"depressedFgColor_override" 				"Class Selection"
+		"selectedFgColor_override" 					"Class Selection"
 		
 		"paintbackground"							"0"
 		
@@ -166,9 +166,9 @@
 			
 		"fgcolor"									"255 255 255 255"
 		"defaultFgColor_override" 					"255 255 255 255"
-		"armedFgColor_override" 					"0 255 0 175"
-		"depressedFgColor_override" 				"0 255 0 175"
-		"selectedFgColor_override" 					"0 255 0 175"
+		"armedFgColor_override" 					"Class Selection"
+		"depressedFgColor_override" 				"Class Selection"
+		"selectedFgColor_override" 					"Class Selection"
 		
 		"paintbackground"							"0"
 		
@@ -213,9 +213,9 @@
 			
 		"fgcolor"									"255 255 255 255"
 		"defaultFgColor_override" 					"255 255 255 255"
-		"armedFgColor_override" 					"0 255 0 175"
-		"depressedFgColor_override" 				"0 255 0 175"
-		"selectedFgColor_override" 					"0 255 0 175"
+		"armedFgColor_override" 					"Class Selection"
+		"depressedFgColor_override" 				"Class Selection"
+		"selectedFgColor_override" 					"Class Selection"
 		
 		"paintbackground"							"0"
 		
@@ -258,9 +258,9 @@
 			
 		"fgcolor"									"255 255 255 255"
 		"defaultFgColor_override" 					"255 255 255 255"
-		"armedFgColor_override" 					"0 255 0 175"
-		"depressedFgColor_override" 				"0 255 0 175"
-		"selectedFgColor_override" 					"0 255 0 175"
+		"armedFgColor_override" 					"Class Selection"
+		"depressedFgColor_override" 				"Class Selection"
+		"selectedFgColor_override" 					"Class Selection"
 		
 		"paintbackground"							"0"
 		
@@ -303,9 +303,9 @@
 			
 		"fgcolor"									"255 255 255 255"
 		"defaultFgColor_override" 					"255 255 255 255"
-		"armedFgColor_override" 					"0 255 0 175"
-		"depressedFgColor_override" 				"0 255 0 175"
-		"selectedFgColor_override" 					"0 255 0 175"
+		"armedFgColor_override" 					"Class Selection"
+		"depressedFgColor_override" 				"Class Selection"
+		"selectedFgColor_override" 					"Class Selection"
 		
 		"paintbackground"							"0"
 		
@@ -348,9 +348,9 @@
 			
 		"fgcolor"									"255 255 255 255"
 		"defaultFgColor_override" 					"255 255 255 255"
-		"armedFgColor_override" 					"0 255 0 175"
-		"depressedFgColor_override" 				"0 255 0 175"
-		"selectedFgColor_override" 					"0 255 0 175"
+		"armedFgColor_override" 					"Class Selection"
+		"depressedFgColor_override" 				"Class Selection"
+		"selectedFgColor_override" 					"Class Selection"
 		
 		"paintbackground"							"0"
 		
@@ -393,9 +393,9 @@
 
 		"fgcolor"									"255 255 255 255"
 		"defaultFgColor_override" 					"255 255 255 255"
-		"armedFgColor_override" 					"0 255 0 175"
-		"depressedFgColor_override" 				"0 255 0 175"
-		"selectedFgColor_override" 					"0 255 0 175"
+		"armedFgColor_override" 					"Class Selection"
+		"depressedFgColor_override" 				"Class Selection"
+		"selectedFgColor_override" 					"Class Selection"
 		
 		"paintbackground"							"0"
 		
@@ -440,9 +440,9 @@
 			
 		"fgcolor"									"255 255 255 255"
 		"defaultFgColor_override" 					"255 255 255 255"
-		"armedFgColor_override" 					"0 255 0 175"
-		"depressedFgColor_override" 				"0 255 0 175"
-		"selectedFgColor_override" 					"0 255 0 175"
+		"armedFgColor_override" 					"Class Selection"
+		"depressedFgColor_override" 				"Class Selection"
+		"selectedFgColor_override" 					"Class Selection"
 		
 		"paintbackground"							"0"
 		
@@ -483,9 +483,9 @@
 		"font"										"default"
 		"fgcolor"									"255 255 255 255"
 		"defaultFgColor_override" 					"255 255 255 255"
-		"armedFgColor_override" 					"0 255 0 175"
-		"depressedFgColor_override" 				"0 255 0 175"
-		"selectedFgColor_override" 					"0 255 0 175"
+		"armedFgColor_override" 					"Class Selection"
+		"depressedFgColor_override" 				"Class Selection"
+		"selectedFgColor_override" 					"Class Selection"
 		
 		"paintbackground"							"0"
 		
