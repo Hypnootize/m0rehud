@@ -45,9 +45,9 @@ Go to resource/fonts and install the fonts (right click on the font file and sel
 
 3) I want to use a customization but i don't know how to do it:
 
-Is really easy, after you install the hud (FAQ 1) select what customization you want to apply, let's take as example the "Last Damage Done" Customization.
-Open the "Last Damage Done Enabled" folder and copy the resource folder, then go to your custom folder and paste and replace the customization files over your old hud files.
-Same with the other customizations!
+Is really easy, after you install the hud (FAQ 1) select what customization you want to apply, let's take as example the "Timer With Background" Customization.
+Open the "Timer With Background" folder and copy the resource folder, then go to your custom folder and paste and replace the customization files over your old hud files.
+Same with any other customization!
 
 
 .
