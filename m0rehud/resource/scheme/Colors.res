@@ -29,7 +29,7 @@ Scheme
 		"Last Damage Done"									"255 255 255 255"
 
 		"Main Menu Labels"									"255 0 127 255"
-		"Class Selection"									"0 255 0 175"
+		"Class Selection"									"0 225 0 255"
 		
 		"M0reBlue"											"0 120 201 255"
 		"M0reRed"											"235 58 58 255"
