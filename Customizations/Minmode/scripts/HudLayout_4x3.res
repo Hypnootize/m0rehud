@@ -267,7 +267,7 @@
 		"IconColor"									"255 255 255 255"
 		"LocalPlayerColor"							"HUDBlack"
 
-		"BaseBackgroundColor"						"0 0 0 80"
+		"BaseBackgroundColor"						"0 0 0 100"
 		"LocalBackgroundColor"						"240 240 240 200"
 	}
 	

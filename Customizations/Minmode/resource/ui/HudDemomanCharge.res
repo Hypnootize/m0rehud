@@ -9,7 +9,7 @@
 		"ypos"										"315"
 		"zpos"										"2"
 		"wide"										"100"
-		"tall"										"4"				
+		"tall"										"1"				
 		"autoResize"								"0"
 		"pinCorner"									"0"
 		"visible"									"1"
@@ -18,5 +18,6 @@
 		"dulltext"									"0"
 		"brighttext"								"0"
 		"fgcolor_override"							"255 255 255 255"
+		"bgcolor_override"							"0 0 0 100"
 	}					
 }

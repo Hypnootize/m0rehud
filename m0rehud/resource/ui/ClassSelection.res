@@ -1096,6 +1096,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"CountLabel"
+		"xpos"										"9999"
 		"wide"										"0"
 		"tall"										"0"
 		"visible"									"0"

@@ -5,8 +5,8 @@
 		"fieldName"									"HudItemEffectMeter"
 		"visible"									"1"
 		"enabled"									"1"
-		"xpos"										"c-75"
-		"ypos"										"c135"	
+		"xpos"										"c-69"
+		"ypos"										"c154"	
 		"wide"										"500"
 		"tall"										"500"
 		"MeterFG"									"White"
@@ -17,8 +17,8 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"ItemEffectMeterLabel"
-		"xpos"										"6"
-		"ypos"										"38"
+		"xpos"										"0"
+		"ypos"										"2"
 		"zpos"										"2"
 		"wide"										"140"
 		"tall"										"8"
@@ -40,8 +40,8 @@
 		"ControlName"								"ContinuousProgressBar"
 		"fieldName"									"ItemEffectMeter"
 		"font"										"Default"
-		"xpos"										"6"
-		"ypos"										"36"
+		"xpos"										"0"
+		"ypos"										"0"
 		"zpos"										"2"
 		"wide"										"140"
 		"tall"										"2"				
@@ -52,69 +52,7 @@
 		"textAlignment"								"Center"
 		"dulltext"									"0"
 		"brighttext"								"0"
-	}
-	
-	"ItemEffectMeterLabel2"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"ItemEffectMeterLabel2"
-		"xpos"										"40"
-		"ypos"										"31"
-		"zpos"										"2"
-		"wide"										"41"
-		"tall"										"15"
-		"autoResize"								"1"
-		"pinCorner"									"2"
-		"visible"									"0"
-		"enabled"									"1"
-		"tabPosition"								"0"
-		"labelText"									"#TF_KILLCOMBO"
-		"textAlignment"								"center"
-		"dulltext"									"0"
-		"brighttext"								"0"
-		"font"										"TFFontSmall"
-	}
-	
-	"KillComboClassIcon1"
-	{
-		"ControlName"								"ImagePanel"
-		"fieldName"									"KillComboClassIcon1"
-		"xpos"										"40"
-		"ypos"										"23"
-		"wide"										"12"
-		"tall"										"12"
-		"visible"									"0"
-		"enabled"									"1"
-		"image"										"../HUD/leaderboard_class_scout"
-		"scaleImage"								"1"	
-	}
-	
-	"KillComboClassIcon2"
-	{
-		"ControlName"								"ImagePanel"
-		"fieldName"									"KillComboClassIcon2"
-		"xpos"										"52"
-		"ypos"										"23"
-		"wide"										"12"
-		"tall"										"12"
-		"visible"									"0"
-		"enabled"									"1"
-		"image"										"../HUD/leaderboard_class_scout"
-		"scaleImage"								"1"	
-	}
-	
-	"KillComboClassIcon3"
-	{
-		"ControlName"								"ImagePanel"
-		"fieldName"									"KillComboClassIcon3"
-		"xpos"										"64"
-		"ypos"										"23"
-		"wide"										"12"
-		"tall"										"12"
-		"visible"									"0"
-		"enabled"									"1"
-		"image"										"../HUD/leaderboard_class_scout"
-		"scaleImage"								"1"	
+		"bgcolor_override"							"0 0 0 100"
 	}
 
 	

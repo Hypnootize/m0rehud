@@ -46,7 +46,7 @@
 	{
 		"ControlName"           					"ImagePanel"
 		"fieldName"              					"TargetBGshade"
-		"xpos"                   					"5"
+		"xpos"                   					"10"
 		"ypos"                   					"9"
 		"zpos"                   					"-1"
 		"wide"	          		   					"252"
@@ -102,7 +102,7 @@
 	{
 		"ControlName"		             			"EditablePanel"
 		"fieldName"		               				"SpectatorGUIHealth"
-		"xpos"			                 			"10"
+		"xpos"			                 			"15"
 		"ypos"			                 			"-7"
 		"wide"			                 			"45"
 		"tall"			                 			"40"
