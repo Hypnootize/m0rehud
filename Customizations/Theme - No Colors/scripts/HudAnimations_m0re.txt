@@ -8,14 +8,14 @@ event HudHealthBonusPulse
 	Animate	PlayerStatusHealthBonusImage 		Alpha		"255"								Linear 	0.0 0.2
 	Animate	PlayerStatusHealthBonusImage 		Alpha		"0"									Linear 	0.2 0.4
 	
-	Animate PlayerStatusHealthValueKiller 		Alpha 		"255" 								Linear 	0.0 0.0
-	Animate PlayerStatusHealthValueKiller 		FgColor 	"Buffed Health" 					Linear 	0.0 0.0
-	
 	Animate PlayerStatusHealthvalueSpecgui 		Alpha 		"255"								linear 	0.0 0.01
 	Animate PlayerStatusHealthvalueSpecgui 		FgColor 	"Buffed Health Spec" 				Accel 	0.0 0.0
 
 	Animate PlayerStatusHealthValueSpecguiLow 	Alpha 		"255" 								Linear 	0.0 0.0
 	Animate PlayerStatusHealthValueSpecguiLow 	FgColor 	"0 0 0 255" 						Linear 	0.0 0.0
+	
+	Animate PlayerStatusHealthValueShadowKiller Alpha 		"255" 								Linear 	0.0 0.01
+	Animate PlayerStatusHealthValueShadowKiller FgColor 	"Buffed Health" 					Accel 	0.0 0.0
 	
 	RunEvent HudHealthBonusPulseLoop			0.4
 	
@@ -31,14 +31,14 @@ event HudHealthBonusPulseStop
 	StopEvent HudHealthBonusPulse 				0.0
 	StopEvent HudHealthBonusPulseLoop			0.0
 	
-	Animate PlayerStatusHealthValueKiller 		Alpha 		"255" 								Linear 	0.0 0.0
-	Animate PlayerStatusHealthValueKiller 		FgColor 	"Health Numbers" 					Linear 	0.0 0.0
-	
 	Animate PlayerStatusHealthvalueSpecgui 		Alpha 		"255" 								Linear 	0.0 0.0
 	Animate PlayerStatusHealthvalueSpecgui 		FgColor 	"Health Numbers" 					Accel	0.0 0.0
 	
 	Animate PlayerStatusHealthvalueSpecguiLow 	Alpha 		"0" 								Linear 	0.0 0.0
 	Animate PlayerStatusHealthvalueSpecguiLow 	FgColor 	"0 0 0 0" 							Accel 	0.0 0.0
+	
+	Animate PlayerStatusHealthValueShadowKiller Alpha 		"255" 								Linear 	0.0 0.01
+	Animate PlayerStatusHealthValueShadowKiller FgColor 	"0 0 0 255" 						Linear 	0.0 0.0
 }
 
 //====================================================================================================================
@@ -48,14 +48,14 @@ event HudHealthDyingPulse
 	Animate	PlayerStatusHealthBonusImage 		Alpha		"255"								Linear 	0.0 0.075
 	Animate	PlayerStatusHealthBonusImage 		Alpha		"0"									Linear 	0.125 0.075
 	
-	Animate PlayerStatusHealthValueKiller 		Alpha 		"255" 								Linear 	0.0 0.0
-	Animate PlayerStatusHealthValueKiller 		FgColor 	"Low Health" 						Linear 	0.0 0.0
-	
 	Animate PlayerStatusHealthvalueSpecgui 		Alpha 		"255" 								Linear 	0.0 0.0
 	Animate PlayerStatusHealthvalueSpecgui 		FgColor 	"Low Health Spec" 					Linear 	0.0 0.0
 	
 	Animate PlayerStatusHealthValueSpecguiLow 	Alpha 		"255" 								Linear 	0.0 0.0
 	Animate PlayerStatusHealthValueSpecguiLow 	FgColor 	"0 0 0 255" 						Linear 	0.0 0.0
+	
+	Animate PlayerStatusHealthValueShadowKiller Alpha 		"255" 								Linear 	0.0 0.01
+	Animate PlayerStatusHealthValueShadowKiller FgColor 	"Low Health" 						Accel 	0.0 0.0
 	
 	RunEvent HudHealthDyingPulseLoop			0.25
 }
@@ -70,14 +70,14 @@ event HudHealthDyingPulseStop
 	StopEvent HudHealthDyingPulse				0.0
 	StopEvent HudHealthDyingPulseLoop 			0.0
 	
-	Animate PlayerStatusHealthValueKiller 		Alpha 		"255" 								Linear 	0.0 0.0
-	Animate PlayerStatusHealthValueKiller 		FgColor 	"Health Numbers" 					Linear 	0.0 0.0
-	
 	Animate PlayerStatusHealthvalueSpecgui 		Alpha 		"255" 								Linear 	0.0 0.0
 	Animate PlayerStatusHealthvalueSpecgui 		FgColor 	"Health Numbers" 					Accel 	0.0 0.0
 	
 	Animate PlayerStatusHealthvalueSpecguiLow 	Alpha 		"0" 								Linear 	0.0 0.0
 	Animate PlayerStatusHealthvalueSpecguiLow 	FgColor 	"0 0 0 0" 							Accel 	0.0 0.0
+	
+	Animate PlayerStatusHealthValueShadowKiller Alpha 		"255" 								Linear 	0.0 0.0
+	Animate PlayerStatusHealthValueShadowKiller FgColor 	"0 0 0 255" 						Linear 	0.0 0.0
 }
 
 //====================================================================================================================

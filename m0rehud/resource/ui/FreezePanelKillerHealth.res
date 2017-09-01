@@ -1,9 +1,9 @@
 "Resource/UI/FreezePanelKillerHealth.res"
 {
-	"PlayerStatusHealthValueKiller"
+	"PlayerStatusHealthValue"
 	{
 		"ControlName"								"Label"
-		"fieldName"									"PlayerStatusHealthValueKiller"
+		"fieldName"									"PlayerStatusHealthValue"
 		"xpos"										"0"
 		"ypos"										"0"
 		"zpos"										"20"
@@ -15,6 +15,23 @@
 		"labeltext"									"%Health%"
 		"font"										"M0refont24"
 		"fgcolor_override"  						"Health Numbers"	
+	}
+	
+	"PlayerStatusHealthValueShadowKiller"
+	{
+		"ControlName"								"Label"
+		"fieldName"									"PlayerStatusHealthValueShadowKiller"
+		"xpos"										"1"
+		"ypos"										"1"
+		"zpos"										"20"
+		"wide"										"40"
+		"tall"										"20"
+		"visible"									"1"
+		"enabled"									"1"
+		"textAlignment"								"center"	
+		"labeltext"									"%Health%"
+		"font"										"M0refont24"
+		"fgcolor_override"  						"0 0 0 255"	
 	}
 	
 	

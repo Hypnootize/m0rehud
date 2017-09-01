@@ -48,10 +48,10 @@
 		"fgcolor"	    	         				"Health Numbers"
 	}
 	
-	"PlayerStatusHealthValueshadow"
+	"PlayerStatusHealthValueShadow"
 	{
 		"ControlName"	           				 	"CExLabel"
-		"fieldName"	  	         				 	"PlayerStatusHealthValueshadow"
+		"fieldName"	  	         				 	"PlayerStatusHealthValueShadow"
 		"xpos"	    		         				"22"
 		"ypos"	    		         				"2"	
 		"zpos"	    		         				"5"
@@ -65,10 +65,10 @@
 		"fgcolor"	     	         				"0 0 0 255"
 	}
 	
-	"PlayerStatusHealthValueshadowExtra"
+	"PlayerStatusHealthValueShadowExtra"
 	{
 		"ControlName"	          				 	"CExLabel"
-		"fieldName"	  	         				 	"PlayerStatusHealthValueshadowExtra"
+		"fieldName"	  	         				 	"PlayerStatusHealthValueShadowExtra"
 		"xpos"	    		         				"23"
 		"ypos"	    		         				"3"	
 		"zpos"	    		         				"5"
