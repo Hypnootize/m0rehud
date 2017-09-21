@@ -206,11 +206,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"xpos"										"-20"
-		"xpos_hidef"								"32"
-		"xpos_lodef"								"40"
 		"ypos"										"120"
-		"ypos_hidef"								"16"
-		"ypos_lodef"								"25"
 		"wide"										"f0"
 		"tall"										"480"
 		
