@@ -53,7 +53,7 @@
 		"labeltext"									""
 		"xpos"										"5"
 		"ypos"										"8"
-		"wide"										"120"
+		"wide"										"100"
 		"tall"										"18"
 		"zpos"										"4"
 		"textinsetx"								"5"

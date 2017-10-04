@@ -90,7 +90,6 @@
 		"textAlignment"								"Left"
 		"dulltext"									"0"
 		"brighttext"								"0"
-		"bgcolor_override"							"0 0 0 100"
 	}
 
 	"ChargeMeter2"
@@ -110,7 +109,6 @@
 		"textAlignment"								"Left"
 		"dulltext"									"0"
 		"brighttext"								"0"
-		"bgcolor_override"							"0 0 0 100"
 	}
 
 	"ChargeMeter3"
@@ -130,7 +128,6 @@
 		"textAlignment"								"Left"
 		"dulltext"									"0"
 		"brighttext"								"0"
-		"bgcolor_override"							"0 0 0 100"
 	}
 
 	"ChargeMeter4"
@@ -150,7 +147,6 @@
 		"textAlignment"								"Left"
 		"dulltext"									"0"
 		"brighttext"								"0"
-		"bgcolor_override"							"0 0 0 100"
 	}
 	
 	

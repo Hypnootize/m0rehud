@@ -53,7 +53,6 @@
 		"textAlignment"								"Center"
 		"dulltext"									"0"
 		"brighttext"								"0"
-		"bgcolor_override"							"0 0 0 100"
 	}
 	
 	

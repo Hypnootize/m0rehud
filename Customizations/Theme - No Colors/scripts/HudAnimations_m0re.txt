@@ -107,14 +107,14 @@ event HudLowAmmoPulseStop
 	StopEvent HudLowAmmoPulse 					0.0
 	StopEvent HudLowAmmoPulseLoop 				0.0
 	
+	Animate AmmoInClipShadow 					Alpha 		"255" 								Linear 	0.0 0.0
+	Animate AmmoInClipShadow 					FgColor 	"0 0 0 255" 						Linear 	0.0 0.0
+	
 	Animate AmmoInReserveShadow 				Alpha 		"255" 								Linear 	0.0 0.0
 	Animate AmmoInReserveShadow 				FgColor 	"0 0 0 255" 						Linear 	0.0 0.0
 	
 	Animate AmmoNoClipShadow 					Alpha 		"255" 								Linear 	0.0 0.0
 	Animate AmmoNoClipShadow 					FgColor 	"0 0 0 255" 						Linear 	0.0 0.0
-
-	Animate AmmoInClipShadow 					Alpha 		"255" 								Linear 	0.0 0.0
-	Animate AmmoInClipShadow 					FgColor 	"0 0 0 255" 						Linear 	0.0 0.0
 }
 
 //====================================================================================================================
@@ -188,6 +188,16 @@ event HudTournamentSetupPanelClose
 {
 	Animate HudTournamentSetup					Position	"c-70 26"							Linear 	0.0 0.001
 	Animate HudTournamentSetup					Position	"c-70 -26"							Spline 	0.001 0.6
+}
+
+//====================================================================================================================
+
+event HudSnapShotReminderIn
+{
+    RunEvent HudHealthDyingPulseStop 			10.0
+    RunEvent HudHealthBonusPulseStop 			10.0
+    RunEvent HudLowAmmoPulseStop 				10.0
+    RunEvent HudMedicChargedStop 				10.0
 }
 
 //====================================================================================================================

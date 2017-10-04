@@ -18,6 +18,5 @@
 		"dulltext"									"0"
 		"brighttext"								"0"
 		"fgcolor_override"							"255 255 255 255"
-		"bgcolor_override"							"0 0 0 100"
 	}					
 }

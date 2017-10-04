@@ -17,7 +17,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"BlueScore"
-		"xpos"										"c-210"
+		"xpos"										"c-130"
 		"ypos"										"r70"
 		"zpos"										"8"
 		"wide"										"80"
@@ -34,7 +34,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"BlueScoreShadow"
-		"xpos"										"c-209"
+		"xpos"										"c-129"
 		"ypos"										"r69"
 		"zpos"										"7"
 		"wide"										"80"
@@ -51,7 +51,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"RedScore"
-		"xpos"										"c130"
+		"xpos"										"c50"
 		"ypos"										"r70"
 		"zpos"										"8"
 		"wide"										"80"
@@ -68,7 +68,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"RedScoreShadow"
-		"xpos"										"c131"
+		"xpos"										"c51"
 		"ypos"										"r69"
 		"zpos"										"7"
 		"wide"										"80"
@@ -98,7 +98,7 @@
 			"ControlName"							"CExLabel"
 			"fieldName"								"PlayingTo"
 			"xpos"									"c-70"
-			"ypos"									"r54"
+			"ypos"									"r45"
 			"zpos"									"4"
 			"wide"									"140"
 			"tall"									"30"

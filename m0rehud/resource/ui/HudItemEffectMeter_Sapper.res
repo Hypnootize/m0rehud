@@ -6,8 +6,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"xpos"										"c-69"
-		"ypos"										"c190"
-		"zpos"										"-1"
+		"ypos"										"c159"
 		"wide"										"500"
 		"tall"										"500"
 		"MeterFG"									"White"
@@ -53,7 +52,6 @@
 		"textAlignment"								"Left"
 		"dulltext"									"0"
 		"brighttext"								"0"
-		"bgcolor_override"							"0 0 0 100"
 	}
 	
 	

@@ -5,8 +5,8 @@
 		"fieldName"									"HudItemEffectMeter"
 		"visible"									"1"
 		"enabled"									"1"
-		"xpos"										"r52"
-		"ypos"										"r24"
+		"xpos"										"r58"
+		"ypos"										"-1"
 		"wide"										"f0"
 		"tall"										"480"
 		"MeterFG"									"White"
@@ -21,7 +21,7 @@
 		"ypos"										"0"
 		"zpos"										"2"
 		"wide"										"46"
-		"tall"										"20"	
+		"tall"										"16"	
 		"pinCorner"									"2"
 		"visible"									"1"
 		"enabled"									"1"
@@ -30,7 +30,7 @@
 		"textAlignment"								"east"
 		"dulltext"									"0"
 		"brighttext"								"0"
-		"font"										"m0refont20"
+		"font"										"m0refont18"
 		"fgcolor"									"255 255 255 255"
 	}
 	
@@ -42,7 +42,7 @@
 		"ypos"										"1"
 		"zpos"										"2"
 		"wide"										"46"
-		"tall"										"20"	
+		"tall"										"16"	
 		"pinCorner"									"2"
 		"visible"									"1"
 		"enabled"									"1"
@@ -51,7 +51,7 @@
 		"textAlignment"								"east"
 		"dulltext"									"0"
 		"brighttext"								"0"
-		"font"										"m0refont20"
+		"font"										"m0refont18"
 		"fgcolor"									"0 0 0 255"
 	}
 	

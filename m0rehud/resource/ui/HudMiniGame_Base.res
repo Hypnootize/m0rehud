@@ -13,7 +13,7 @@
 		"enabled"									"1"
 		"textAlignment"								"west"	
 		"labelText"									"%bluescore%"
-		"font"										"m0refont46"
+		"font"										"m0refont48"
 		"fgcolor"									"m0reblue"
 	}	
 		
@@ -30,7 +30,7 @@
 		"enabled"									"1"
 		"textAlignment"								"west"	
 		"labelText"									"%bluescore%"
-		"font"										"m0refont46"
+		"font"										"m0refont48"
 		"fgcolor"									"0 0 0 255"
 	}	
 							
@@ -47,7 +47,7 @@
 		"enabled"									"1"
 		"textAlignment"								"east"	
 		"labelText"									"%redscore%"
-		"font"										"m0refont46"
+		"font"										"m0refont48"
 		"fgcolor"									"m0rered"		
 	}	
 		
@@ -64,7 +64,7 @@
 		"enabled"									"1"
 		"textAlignment"								"east"	
 		"labelText"									"%redscore%"
-		"font"										"m0refont46"
+		"font"										"m0refont48"
 		"fgcolor"									"0 0 0 255"		
 	}	
 															
@@ -72,15 +72,15 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"PlayingTo"
-		"xpos"										"-5"
+		"xpos"										"c-68"
 		"ypos"										"470"
 		"zpos"										"4"
-		"wide"										"f0"
+		"wide"										"140"
 		"tall"										"10"
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"#TF_PlayingTo"
-		"textAlignment"								"east"
+		"textAlignment"								"center"
 		"dulltext"									"0"
 		"brighttext"								"0"
 		"font"										"defaultverysmall"

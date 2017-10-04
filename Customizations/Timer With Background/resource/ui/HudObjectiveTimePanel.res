@@ -57,7 +57,7 @@
 		"ypos" 										"15"
 		"zpos" 										"3"
 		"wide" 										"41"
-		"tall"										"15" //15
+		"tall"										"15"
 		"visible" 									"1"
 		"enabled" 									"1"
 		"fillcolor"									"0 0 0 100"

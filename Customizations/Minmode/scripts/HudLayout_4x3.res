@@ -1,5 +1,5 @@
-#base "../basefiles/hudlayout.res"
-#base "../scripts/crosshairs.res"
+#base "../scripts/Crosshairs/crosshairs.res"
+#base "../scripts/HudLayout_Base.res"
 
 "Resource/HudLayout.res"
 {	
@@ -444,6 +444,17 @@
 		"ypos"										"-1"
 		"wide"										"f0"
 		"tall"										"55"
+	}
+	
+	HudArenaClassLayout
+	{
+		"fieldName"									"HudArenaClassLayout"		
+		"visible"									"1"
+		"enabled"									"1"
+		"xpos"										"0"
+		"ypos"										"r260"
+		"wide"										"f0"
+		"tall"										"320"
 	}
 	
 	"HudAchievementTracker"
