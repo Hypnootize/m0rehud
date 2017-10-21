@@ -3,7 +3,7 @@
 	/////////////////////////Top Menu Buttons///////////////////////////
 	"QuestsButton"
 	{
-		"label" 									"s"
+		"label" 									"d"
 		"command" 									"questlog"
 	}
 	"WatchStreamButton"
@@ -21,25 +21,7 @@
 	"VersionButton"
 	{
 		"label" 									"M0REHUD" 
-		"command" 									"engine showconsole; echo m0rehud by Hypnotize, all credtits to m0re for the original hud. Get the new verions and report any bug @ www.teamfortress.tv/34115/m0re-hud"
-		"OnlyAtMenu"								"1"
-	}
-	"CasualButton"
-	{
-		"label" 									"CASUAL" 
-		"command" 									"play_casual"
-		"OnlyAtMenu"								"1"
-	}
-	"MvMButton"
-	{
-		"label" 									"MVM" 
-		"command" 									"play_mvm"
-		"OnlyAtMenu"								"1"
-	}
-	"CompetitiveButton"
-	{
-		"label" 									"COMPETITIVE" 
-		"command" 									"play_competitive"
+		"command" 									"engine showconsole; echo m0rehud (201017 Jungle Inferno) by Hypnotize, all credtits to m0re for the original hud"
 		"OnlyAtMenu"								"1"
 	}
 	"ServerBrowserButton"
@@ -118,12 +100,6 @@
 	{
 		"label" 									"DISCONNECT"
 		"command" 									"engine disconnect"
-		"OnlyInGame" 								"1"
-	}
-	"QuitGameButton"
-	{
-		"label" 									"QUIT"
-		"command" 									"engine replay_confirmquit"
 		"OnlyInGame" 								"1"
 	}
 }

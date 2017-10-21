@@ -13,7 +13,7 @@
 		"enabled"		   						 	"1"
 		"textAlignment"								"center"	
 		"labeltext"		 							"%Health%"
-		"font"										"DefaultNumber"
+		"font"										"m0refont11"
 		"fgcolor"		    						"Health Numbers"
 	}
 	
@@ -30,7 +30,7 @@
 		"enabled"		    						"1"
 		"textAlignment"								"center"	
 		"labeltext"		  							"%Health%"
-		"font"										"DefaultNumber"
+		"font"										"m0refont11"
 		"fgcolor"		    						"0 0 0 0"
 	}
 

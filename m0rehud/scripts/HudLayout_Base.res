@@ -1068,7 +1068,7 @@
 		"ypos"					"15"
 		"ypos_lodef"			"75"
 		"wide"					"320"
-		"tall"					"260"
+		"tall"					"300"
 	}
 
 	HudTeamSwitch
@@ -1443,18 +1443,6 @@
 		"tall"	"f0"
 	}
 
-	"QuestLogContainer"
-	{
-		"ControlName"		"EditablePanel"
-		"fieldName" 		"QuestLogContainer"
-		"visible" 		"1"
-		"enabled" 		"1"
-		"xpos"			"0"
-		"ypos"			"0"
-		"wide"	 		"f0"
-		"tall"	 		"f0"
-	}
-
 	"MatchMakingContainer"
 	{
 		"ControlName"		"EditablePanel"
@@ -1499,6 +1487,22 @@
 		"zpos"					"3"
 		"wide"					"f0"
 		"tall"					"f0"
+	}
+
+	"QueueHUDStatus"
+	{
+		"fieldName"				"QueueHUDStatus"
+		"visible"				"1"
+		"enabled"				"1"
+		"xpos"					"rs1-5"
+		"ypos"					"1"
+		"zpos"					"1001"
+		"wide"					"200"
+		"tall"					"18"
+		"proportionaltoparent"	"1"
+		"keyboardinputenabled"	"1"
+		"mouseinputenabled"		"0"
+		"alpha"					"100"
 	}
 }
 

@@ -154,6 +154,25 @@
 		"pin_to_sibling_corner"						"1"
 	}
 	
+	"PlayerStatusGasImage"
+	{
+		"ControlName"								"ImagePanel"
+		"fieldName"									"PlayerStatusGasImage"
+		"xpos"										"0"
+		"ypos"										"0"
+		"zpos"										"7"
+		"wide"										"30"
+		"tall"										"30"
+		"visible"									"1"
+		"enabled"									"1"
+		"scaleImage"								"1"	
+		"image"										"../vgui/covered_in_gas"
+		"fgcolor"									"TanDark"
+		"pin_to_sibling"							"PlayerStatusAnchor"
+		"pin_corner_to_sibling"						"1"
+		"pin_to_sibling_corner"						"1"
+	}
+	
 	"PlayerStatusMilkImage"
 	{
 		"ControlName"								"ImagePanel"
@@ -186,6 +205,25 @@
 		"enabled"									"1"
 		"scaleImage"								"1"	
 		"image"										"../vgui/marked_for_death"
+		"fgcolor"									"TanDark"
+		"pin_to_sibling"							"PlayerStatusAnchor"
+		"pin_corner_to_sibling"						"1"
+		"pin_to_sibling_corner"						"1"
+	}
+	
+	"PlayerStatusSlowed"
+	{
+		"ControlName"								"ImagePanel"
+		"fieldName"									"PlayerStatusSlowed"
+		"xpos"										"0"
+		"ypos"										"0"
+		"zpos"										"7"
+		"wide"										"30"
+		"tall"										"30"
+		"visible"									"1"
+		"enabled"									"1"
+		"scaleImage"								"1"	
+		"image"										"../vgui/slowed"
 		"fgcolor"									"TanDark"
 		"pin_to_sibling"							"PlayerStatusAnchor"
 		"pin_corner_to_sibling"						"1"
@@ -646,5 +684,21 @@
 		"pin_to_sibling"							"PlayerStatusAnchor"
 		"pin_corner_to_sibling"						"1"
 		"pin_to_sibling_corner"						"1"
+	}
+	
+	
+	
+	
+	
+	//////////////////////////////////REMOVED STUFF//////////////////////////////////
+	
+	"PlayerStatusMaxHealthValue"
+	{
+		"ControlName"								"CExLabel"
+		"fieldName"									"PlayerStatusMaxHealthValue"
+		"wide"		    	          				"0"
+		"tall"         				 				"0"
+		"visible"         				 			"0"
+		"enabled"	            				 	"0"
 	}
 }
