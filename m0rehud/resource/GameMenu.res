@@ -20,19 +20,38 @@
 	/////////////////////////Main Menu Buttons/////////////////////////
 	"VersionButton"
 	{
-		"label" 									"M0REHUD" 
-		"command" 									"engine showconsole; echo m0rehud (201017 Jungle Inferno) by Hypnotize, all credtits to m0re for the original hud"
+		"label" 									"M0REHUD 5.0" 
+		"command" 									"engine showconsole; echo m0rehud by Hypnotize @ www.teamfortress.tv/34115/m0re-hud"
 		"OnlyAtMenu"								"1"
+	}
+	"Space"
+	{
+		"label" 									"" 
+		"command" 									""
+		"OnlyInGame"								"1"
 	}
 	"ServerBrowserButton"
 	{
 		"label" 									"SERVERS"
 		"command" 									"OpenServerBrowser"
 	}
+	"Scoreboard"
+	{
+		"label"										"SCOREBOARD"
+		"command"									"engine toggle cl_hud_minmode"
+		"OnlyInGame"								"1"
+	}
+	"Training"
+	{
+		"label" 									"OFFLINE PRACTICE"
+		"command" 									"offlinepractice"
+		"OnlyAtMenu"								"1"
+	}
 	"CreateServerButton"
 	{
 		"label"										"+"
 		"command"									"OpenCreateMultiplayerGameDialog"
+		"OnlyAtMenu"								"1"
 	}
 	"CharacterSetupButton"
 	{
@@ -54,14 +73,25 @@
 		"label"										"ADVANCED"
 		"command"									"opentf2options"
 	}
+	"Demoui"
+	{
+		"label"										"DEMOUI"
+		"command"									"engine demoui"
+		"OnlyAtMenu"								"1"
+	}
+	"DisconnectButton"
+	{
+		"label" 									"DISCONNECT"
+		"command" 									"engine disconnect"
+		"OnlyInGame" 								"1"
+	}
 	"QuitButton"
 	{
 		"label" 									"QUIT"
 		"command" 									"engine replay_confirmquit"
-		"OnlyAtMenu" 								"1"
 	}
 	
-	/////////////////////////Ingame Only Buttons///////////////////////
+	/////////////////////////Main Menu Override/////////////////////////
 	"CallVoteButton"
 	{
 		"label"										""
@@ -89,17 +119,5 @@
 		"command"									"OpenAchievementsDialog"
 		"subimage"									"glyph_achievements"
 		"OnlyInGame"								"1"
-	}
-	"Scoreboard"
-	{
-		"label"										"SCOREBOARD"
-		"command"									"engine toggle cl_hud_minmode"
-		"OnlyInGame"								"1"
-	}
-	"DisconnectButton"
-	{
-		"label" 									"DISCONNECT"
-		"command" 									"engine disconnect"
-		"OnlyInGame" 								"1"
 	}
 }

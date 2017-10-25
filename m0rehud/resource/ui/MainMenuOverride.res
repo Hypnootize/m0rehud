@@ -14,15 +14,15 @@
 		"update_url"								"http://store.steampowered.com/news/?filter=updates&appids=440"
 		"blog_url"									"http://www.teamfortress.com/"
 		
-		"button_x_offset"							"-325"
-		"button_y"									"156"
+		"button_x_offset"							"-241"
+		"button_y"									"190"
 		"button_y_delta"							"3"
 		
 		"button_kv"
 		{
 			"xpos"									"0"
-			"ypos"									"156"
-			"wide"									"240"
+			"ypos"									"190"
+			"wide"									"150"
 			"tall"									"14"
 			"visible"								"1"
 
@@ -42,7 +42,7 @@
 				"textinsetx"						"0"
 				"use_proportional_insets" 			"1"
 				"font"								"Coolvetica"
-				"textAlignment"						"center"
+				"textAlignment"						"west"
 				"dulltext"							"0"
 				"brighttext"						"0"
 				"default"							"1"
@@ -219,7 +219,7 @@
 	{
 		"ControlName"								"CPvPRankPanel"
 		"fieldName"									"RankModelPanel"
-		"xpos"										"cs-0.5-260"
+		"xpos"										"cs-0.5-185"
 		"ypos"										"cs-0.5-120"
 
 		"zpos"										"-51"
@@ -238,11 +238,11 @@
 	{
 		"ControlName"								"CPvPRankPanel"
 		"fieldName"									"RankPanel"
-		"xpos"										"c-354"
+		"xpos"										"c-310"
 		"ypos"										"72"
 		"zpos"										"-52"
 		"wide"										"320"
-		"tall"										"100"
+		"tall"										"145"
 		"visible"									"1"
 		"proportionaltoparent"						"1"
 		"mouseinputenabled"							"0"
@@ -253,98 +253,56 @@
 		"show_model"								"0"
 	}
 	
-	"MainMenuBG"
+	"FriendsBG"
 	{
 		"ControlName"								"EditablePanel"
-		"fieldName"									"MainMenuBG"
-		"xpos"										"c-320"
-		"ypos"										"80"
-		"zpos"										"-53"
-		"wide"										"240"
-		"tall"										"320"
-		"autoResize"								"0"
-		"pinCorner"									"0"
+		"fieldName"									"FriendsBG"
+		"xpos"										"0"
+		"ypos"										"17"
+		"zpos"										"-1"
+		"wide"										"200"
+		"tall"										"25"
 		"visible"									"1"
-		"enabled"									"1"
 		"PaintBackgroundType"						"2"
-		"bgcolor_override"							"20 20 20 210"
-		"border"									"MainMenuBorder"
+		"border"									"ReplayDefaultBorder"
+		"proportionaltoparent"						"1"
 	}
 	
 	"FriendsContainer"
 	{
 		"ControlName"								"EditablePanel"
 		"fieldname"									"FriendsContainer"
-		"xpos"										"c-325"
-		"ypos"										"280"
+		"xpos"										"-8"
+		"ypos"										"2"
 		"zpos"										"5"
 		"wide"										"260"
-		"tall"										"140"
+		"tall"										"50"
 		"visible"									"1"
 
-		"PaintBackgroundType"						"2"
-		"bgcolor_override"							"32 32 32 0"
 		"border"									"NoBorder"
-
-		"TitleLabel"
-		{
-			"ControlName"							"CExLabel"
-			"fieldName"								"TitleLabel"
-			"font"									"HudFontSmallBold"
-			"labelText"								"#TF_Competitive_Friends"
-			"textAlignment"							"west"
-			"xpos"									"12"
-			"ypos"									"0"
-			"wide"									"f0"
-			"tall"									"0"
-			"autoResize"							"0"
-			"pinCorner"								"0"
-			"visible"								"1"
-			"enabled"								"1"
-			"textinsetx"							"0"
-			"fgcolor_override"						"235 227 203 255"
-		}
-
-		"InnerShadow"
-		{
-			"ControlName"							"EditablePanel"
-			"fieldname"								"InnerShadow"
-			"xpos"									"9999"
-			"ypos"									"rs1-10"
-			"zpos"									"501"
-			"wide"									"f20"
-			"tall"									"0"
-			"visible"								"1"	
-			"PaintBackgroundType"					"0"
-			"proportionaltoparent"					"1"
-			"mouseinputenabled"						"0"
-
-			"paintborder"							"0"
-			"border"								"NoBorder"
-		}
 
 		"SteamFriendsList"
 		{
 			"ControlName"							"CSteamFriendsListPanel"
 			"fieldname"								"SteamFriendsList"
-			"xpos"									"0"
-			"ypos"									"0"
+			"xpos"									"cs-0.5"
+			"ypos"									"rs1-10"
 			"zpos"									"500"
 			"wide"									"f20"
-			"tall"									"110"
+			"tall"									"26"
 			"visible"								"1"
 			"proportionaltoparent"					"1"
 
-			"columns_count"							"2"
-			"inset_x"								"10"
+			"columns_count"							"3"
+			"inset_x"								"0"
 			"inset_y"								"5"
-			"row_gap"								"5"
-			"column_gap"							"20"
+			"row_gap"								"3"
+			"column_gap"							"0"
 			"restrict_width"						"0"
 
 			"friendpanel_kv"
 			{
-				"wide"								"100"
+				"wide"								"65"
 				"tall"								"20"
 			}
 
@@ -352,50 +310,37 @@
 			{
 				"ControlName"						"ScrollBar"
 				"FieldName"							"ScrollBar"
-				"xpos"								"rs1-1"
-				"ypos"								"0"
-				"tall"								"f0"
-				"wide"								"5" // This gets slammed from client schme.  GG.
-				"zpos"								"1000"
-				"nobuttons"							"1"
-				"proportionaltoparent"				"1"
-
-				"Slider"
-				{
-					"fgcolor_override"				"255 255 255 255"
-				}
-		
-				"UpButton"
-				{
-					"ControlName"					"Button"
-					"FieldName"						"UpButton"
-					"visible"						"0"
-				}
-		
-				"DownButton"
-				{
-					"ControlName"					"Button"
-					"FieldName"						"DownButton"
-					"visible"						"0"
-				}
+				"tall"								"0"
+				"wide"								"0" // This gets slammed from client schme.  GG.  //wtf valve thats not true
 			}
 		}
-
+		
+		"TitleLabel"
+		{
+			"ControlName"							"CExLabel"
+			"fieldName"								"TitleLabel"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
+		}
+		"InnerShadow"
+		{
+			"ControlName"							"EditablePanel"
+			"fieldname"								"InnerShadow"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
+		}
 		"BelowDarken"
 		{
 			"ControlName"							"EditablePanel"
 			"fieldname"								"BelowDarken"
-			"xpos"									"cs-0.5"
-			"ypos"									"rs1-10"
-			"zpos"									"499"
 			"wide"									"0"
 			"tall"									"0"
-			"visible"								"1"	
-			"PaintBackgroundType"					"0"
-			"proportionaltoparent"					"1"
-			"mouseinputenabled"						"0"
-
-			"bgcolor_override"						"0 0 0 0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 	}
 	
@@ -781,15 +726,15 @@
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"Notifications_Panel"
-		"xpos"										"c-295"
-		"ypos"										"66"
+		"xpos"										"c0"
+		"ypos"										"102"
 		"zpos"										"10"
 		"wide"										"210"
 		"tall"										"80"
 		"visible"									"0"
 		"PaintBackgroundType"						"2"
 		"paintbackground"							"0"
-		"border"									"MainMenuHighlightBorder"
+		"border"									"ReplayDefaultBorder"
 
 		"navUp"										"MOTD_ShowButtonPanel"
 		"navDown"									"SettingsButton"
@@ -1248,8 +1193,8 @@
 	{
 		"ControlName"								"EditablePanel"
 		"fieldname"									"CreateServerButton"
-		"xpos"										"c-170"
-		"ypos"										"170"
+		"xpos"										"c-180"
+		"ypos"										"204"
 		"zpos"										"11"
 		"wide"										"22"
 		"tall"										"14"
@@ -1305,8 +1250,8 @@
 	{
 		"ControlName"								"EditablePanel"
 		"fieldname"									"CallVoteButton"
-		"xpos"										"c-313"
-		"ypos"										"170"
+		"xpos"										"c-242"
+		"ypos"										"187"
 		"zpos"										"12"
 		"wide"										"26"
 		"tall"										"26"
@@ -1367,8 +1312,8 @@
 	{
 		"ControlName"								"EditablePanel"
 		"fieldname"									"MutePlayersButton"
-		"xpos"										"c-313"
-		"ypos"										"190"
+		"xpos"										"c-222"
+		"ypos"										"187"
 		"zpos"										"12"
 		"wide"										"26"
 		"tall"										"26"
@@ -1429,8 +1374,8 @@
 	{
 		"ControlName"								"EditablePanel"
 		"fieldname"									"ReportPlayerButton"
-		"xpos"										"c-313"
-		"ypos"										"210"
+		"xpos"										"c-202"
+		"ypos"										"187"
 		"zpos"										"12"
 		"wide"										"26"
 		"tall"										"26"
@@ -1491,8 +1436,8 @@
 	{
 		"ControlName"								"EditablePanel"
 		"fieldname"									"AchievementsButton"
-		"xpos"										"c-313"
-		"ypos"										"230"
+		"xpos"										"c-182"
+		"ypos"										"187"
 		"zpos"										"12"
 		"wide"										"26"
 		"tall"										"26"
@@ -1565,7 +1510,6 @@
 		"visible"									"0"
 		"enabled"									"0"
 	}
-	
 	"TFLogoImage"
 	{
 		"ControlName"								"ImagePanel"
@@ -1575,7 +1519,6 @@
 		"visible"									"0"
 		"enabled"									"0"
 	}
-	
 	"TFCharacterImage"
 	{
 		"ControlName"								"ImagePanel"
@@ -1585,7 +1528,6 @@
 		"visible"									"0"
 		"enabled"									"0"
 	}
-	
 	"MainMenuBGPanel"
 	{
 		"ControlName"								"EditablePanel"
@@ -1595,7 +1537,6 @@
 		"visible"									"0"
 		"enabled"									"0"
 	}
-	
 	"TopRightContainer"
 	{
 		"ControlName"								"EditablePanel"
@@ -1605,7 +1546,6 @@
 		"visible"									"0"
 		"enabled"									"0"
 	}
-	
 	"PlayLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -1615,7 +1555,6 @@
 		"visible"									"0"
 		"enabled"									"0"
 	}
-	
 	"ShowWarButton"
 	{
 		"ControlName"								"CExImageButton"
@@ -1625,7 +1564,6 @@
 		"visible"									"0"
 		"enabled"									"0"
 	}
-	
 	"EventPromo"
 	{
 		"ControlName"								"EditablePanel"
@@ -1635,7 +1573,6 @@
 		"visible"									"0"
 		"enabled"									"0"
 	}
-
 	"icon_generator"
 	{
 		"ControlName"								"CEmbeddedItemModelPanel"

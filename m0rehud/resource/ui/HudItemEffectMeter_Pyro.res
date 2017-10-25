@@ -1,5 +1,6 @@
 #base "HudItemEffectMeter.res"
-"Resource/UI/HudRocketPack.res"
+
+"Resource/UI/HudItemEffectMeter_Pyro.res"
 {
 	HudItemEffectMeter
 	{
@@ -10,23 +11,10 @@
 		"ypos"										"c172"	
 		"wide"										"500"
 		"tall"										"500"
+		"MeterFG"									"White"
+		"MeterBG"									"Gray"
 	}
-
-	"ItemEffectIcon"
-	{
-		"ControlName"								"CTFImagePanel"
-		"fieldName"									"ItemEffectIcon"
-		"xpos"										"0"
-		"ypos"										"0"
-		"zpos"										"2"
-		"wide"										"0"								//Disabled for now
-		"tall"										"32"
-		"visible"									"1"
-		"enabled"									"1"
-		"image"										"../hud/pyro_jetpack_off2"
-		"scaleImage"								"1"	
-	}
-
+	
 	"ItemEffectMeterLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -41,7 +29,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"tabPosition"								"0"
-		"labelText"									"#TF_RocketPack_Disabled"
+		"labelText"									"#TF_Ball"
 		"textAlignment"								"center"
 		"dulltext"									"0"
 		"brighttext"								"0"
@@ -57,7 +45,7 @@
 		"xpos"										"0"
 		"ypos"										"0"
 		"zpos"										"2"
-		"wide"										"70"
+		"wide"										"140"
 		"tall"										"2"				
 		"autoResize"								"0"
 		"pinCorner"									"0"
@@ -66,29 +54,8 @@
 		"textAlignment"								"Center"
 		"dulltext"									"0"
 		"brighttext"								"0"
-		"fgcolor"									"255 255 255 255"
 	}
 
-	"ItemEffectMeter2"
-	{	
-		"ControlName"								"ContinuousProgressBar"
-		"fieldName"									"ItemEffectMeter2"
-		"font"										"Default"
-		"xpos"										"71"
-		"ypos"										"0"
-		"zpos"										"2"
-		"wide"										"69"
-		"tall"										"2"				
-		"autoResize"								"0"
-		"pinCorner"									"0"
-		"visible"									"1"
-		"enabled"									"1"
-		"textAlignment"								"Center"
-		"dulltext"									"0"
-		"brighttext"								"0"
-		"fgcolor"									"255 255 255 255"
-	}
-	
 	
 	
 	

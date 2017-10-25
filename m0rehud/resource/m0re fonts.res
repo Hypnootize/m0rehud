@@ -23,6 +23,36 @@ Scheme
 				"antialias" 								"1"
 			}
 		}
+		CoolveticaSmallest
+		{
+			"1"
+			{
+				"name"										"Coolvetica"
+				"tall"										"10"
+				"additive"									"0"
+				"antialias" 								"1"
+			}
+		}
+		CoolveticaSmall
+		{
+			"1"
+			{
+				"name"										"Coolvetica"
+				"tall"										"12"
+				"additive"									"0"
+				"antialias" 								"1"
+			}
+		}
+		CoolveticaMedium
+		{
+			"1"
+			{
+				"name"										"Coolvetica"
+				"tall"										"20"
+				"additive"									"0"
+				"antialias" 								"1"
+			}
+		}
 		VerdanaMenu
 		{
 			"1"
