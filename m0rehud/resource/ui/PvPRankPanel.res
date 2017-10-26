@@ -318,9 +318,9 @@
 					{
 						"ControlName"				"ProgressBar"
 						"fieldName"					"ProgressBar"
-						"xpos"						"9999"
+						"xpos"						"0"
 						"ypos"						"cs-0.5"
-						"wide"						"0"
+						"wide"						"f0"
 						"tall"						"f-2"
 						"zpos"						"1"
 						"proportionaltoparent"		"1"

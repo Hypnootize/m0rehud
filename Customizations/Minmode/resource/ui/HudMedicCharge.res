@@ -4,8 +4,8 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"ChargeLabelBig"
-		"xpos"										"c75"
-		"ypos"										"c60"
+		"xpos"										"c5"
+		"ypos"										"c-10"
 		"zpos"										"2"
 		"wide"										"175"
 		"tall"										"150"
@@ -26,8 +26,8 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"ChargeLabelBigShadow"
-		"xpos"										"c77"
-		"ypos"										"c62"
+		"xpos"										"c7"
+		"ypos"										"c-8"
 		"zpos"										"2"
 		"wide"										"174"
 		"tall"										"149"
@@ -48,8 +48,8 @@
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"ResistIconAnchor"
-		"xpos"										"c45"
-		"ypos"										"c125"
+		"xpos"										"c-20"
+		"ypos"										"c72"
 		"wide"										"30"
 		"tall"										"30"
 		"visible"									"1"
@@ -78,8 +78,8 @@
 		"ControlName"								"ContinuousProgressBar"
 		"fieldName"									"ChargeMeter1"
 		"font"										"Default"
-		"xpos"										"c18"
-		"ypos"										"r98"
+		"xpos"										"c-50"
+		"ypos"										"306"
 		"zpos"										"2"
 		"wide"										"25"
 		"tall"										"1"				
@@ -90,7 +90,6 @@
 		"textAlignment"								"Left"
 		"dulltext"									"0"
 		"brighttext"								"0"
-		"bgcolor_override"							"0 0 0 100"
 	}
 
 	"ChargeMeter2"
@@ -98,8 +97,8 @@
 		"ControlName"								"ContinuousProgressBar"
 		"fieldName"									"ChargeMeter2"
 		"font"										"Default"
-		"xpos"										"c44"
-		"ypos"										"r98"
+		"xpos"										"c-24"
+		"ypos"										"306"
 		"zpos"										"2"
 		"wide"										"25"
 		"tall"										"1"				
@@ -110,7 +109,6 @@
 		"textAlignment"								"Left"
 		"dulltext"									"0"
 		"brighttext"								"0"
-		"bgcolor_override"							"0 0 0 100"
 	}
 
 	"ChargeMeter3"
@@ -118,8 +116,8 @@
 		"ControlName"								"ContinuousProgressBar"
 		"fieldName"									"ChargeMeter3"
 		"font"										"Default"
-		"xpos"										"c70"
-		"ypos"										"r98"
+		"xpos"										"c2"
+		"ypos"										"306"
 		"zpos"										"2"
 		"wide"										"25"
 		"tall"										"1"				
@@ -130,7 +128,6 @@
 		"textAlignment"								"Left"
 		"dulltext"									"0"
 		"brighttext"								"0"
-		"bgcolor_override"							"0 0 0 100"
 	}
 
 	"ChargeMeter4"
@@ -138,8 +135,8 @@
 		"ControlName"								"ContinuousProgressBar"
 		"fieldName"									"ChargeMeter4"
 		"font"										"Default"
-		"xpos"										"c96"
-		"ypos"										"r98"
+		"xpos"										"c28"
+		"ypos"										"306"
 		"zpos"										"2"
 		"wide"										"25"
 		"tall"										"1"				
@@ -150,7 +147,6 @@
 		"textAlignment"								"Left"
 		"dulltext"									"0"
 		"brighttext"								"0"
-		"bgcolor_override"							"0 0 0 100"
 	}
 	
 	
