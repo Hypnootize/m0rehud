@@ -1,6 +1,6 @@
 "GameMenu"
 {
-	/////////////////////////Top Menu Buttons///////////////////////////
+	/////////////////////////RIGHT BUTTONS/////////////////////////
 	"QuestsButton"
 	{
 		"label" 									"d"
@@ -17,31 +17,20 @@
 		"command" 									"motd_show"
 	}
 	
-	/////////////////////////Main Menu Buttons/////////////////////////
+	/////////////////////////MAIN MENU/////////////////////////
 	"VersionButton"
 	{
 		"label" 									"M0REHUD 5.0" 
 		"command" 									"engine showconsole; echo m0rehud by Hypnotize @ www.teamfortress.tv/34115/m0re-hud"
 		"OnlyAtMenu"								"1"
 	}
-	"Space"
-	{
-		"label" 									"" 
-		"command" 									""
-		"OnlyInGame"								"1"
-	}
 	"ServerBrowserButton"
 	{
 		"label" 									"SERVERS"
 		"command" 									"OpenServerBrowser"
+		"OnlyAtMenu"								"1"
 	}
-	"Scoreboard"
-	{
-		"label"										"SCOREBOARD"
-		"command"									"engine toggle cl_hud_minmode"
-		"OnlyInGame"								"1"
-	}
-	"Training"
+	"TrainingButton"
 	{
 		"label" 									"OFFLINE PRACTICE"
 		"command" 									"offlinepractice"
@@ -73,11 +62,31 @@
 		"label"										"ADVANCED"
 		"command"									"opentf2options"
 	}
-	"Demoui"
+	"QuitButton"
 	{
-		"label"										"DEMOUI"
-		"command"									"engine demoui"
+		"label" 									"QUIT"
+		"command" 									"engine replay_confirmquit"
 		"OnlyAtMenu"								"1"
+	}
+	
+	/////////////////////////INGAME ONLY/////////////////////////
+	"ScoreboardButton"
+	{
+		"label"										"SCOREBOARD"
+		"command"									"engine toggle cl_hud_minmode"
+		"OnlyInGame"								"1"
+	}
+	"ChangeServerButton"
+	{
+		"label" 									"SERVERS"
+		"command" 									"OpenServerBrowser"
+		"OnlyInGame"								"1"
+	}
+	"CreateInGameButton"
+	{
+		"label"										"+"
+		"command"									"OpenCreateMultiplayerGameDialog"
+		"OnlyInGame"								"1"
 	}
 	"DisconnectButton"
 	{
@@ -85,13 +94,12 @@
 		"command" 									"engine disconnect"
 		"OnlyInGame" 								"1"
 	}
-	"QuitButton"
+	"QuitGameButton"
 	{
 		"label" 									"QUIT"
 		"command" 									"engine replay_confirmquit"
+		"OnlyInGame" 								"1"
 	}
-	
-	/////////////////////////Main Menu Override/////////////////////////
 	"CallVoteButton"
 	{
 		"label"										""
