@@ -7,8 +7,8 @@
 		"fieldName"									"HudItemEffectMeter"
 		"visible"									"1"
 		"enabled"									"1"
-		"xpos"										"c-69"
-		"ypos"										"c172"	
+		"xpos"										"c-69"	
+		"ypos"										"c159"	
 		"wide"										"500"
 		"tall"										"500"
 		"MeterFG"									"White"
@@ -29,7 +29,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"tabPosition"								"0"
-		"labelText"									"#TF_Ball"
+		"labelText"									"#TF_ENERGYDRINK"
 		"textAlignment"								"center"
 		"dulltext"									"0"
 		"brighttext"								"0"
@@ -55,7 +55,7 @@
 		"dulltext"									"0"
 		"brighttext"								"0"
 	}
-
+	
 	
 	
 	
@@ -69,6 +69,6 @@
 		"wide"										"0"
 		"tall"										"0"
 		"visible"									"0"
-		"enabled"									"0"
+		"enabled"									"0"			
 	}
 }
