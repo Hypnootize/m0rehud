@@ -20,7 +20,7 @@
 	/////////////////////////MAIN MENU/////////////////////////
 	"VersionButton"
 	{
-		"label" 									"M0REHUD 5.0" 
+		"label" 									"M0REHUD 5.1" 
 		"command" 									"engine showconsole; echo m0rehud by Hypnotize @ www.teamfortress.tv/34115/m0re-hud"
 		"OnlyAtMenu"								"1"
 	}

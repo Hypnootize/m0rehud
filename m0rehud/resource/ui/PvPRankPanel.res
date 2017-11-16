@@ -191,6 +191,8 @@
 			"ypos"									"cs-0.5"
 			"tall"									"35"
 			"wide"									"505"
+			"PaintBackgroundType"					"2"
+			"border"								"MainMenuBGBorder"
 		}
 
 		"NameLabel"
@@ -238,6 +240,7 @@
 			{
 				"xpos"								"67"
 				"ypos"								"4"
+				"font"								"HudFontSmallestBold"
 			}
 		}
 
@@ -276,7 +279,7 @@
 					"ypos"							"rs1"
 					"zpos"							"0"
 					"wide"							"100"
-					"tall"							"0" //20
+					"tall"							"0"
 					"visible"						"1"
 					"enabled"						"1"
 					"font"							"ItemFontAttribSmall"
@@ -284,6 +287,11 @@
 					"textAlignment"					"south-west"
 					"labelText"						"%current_xp%"
 					"proportionaltoparent"			"1"
+					
+					if_mini
+					{
+						"tall"						"20"
+					}
 				}
 
 				"NextLevelXPLabel"
@@ -294,7 +302,7 @@
 					"ypos"							"rs1"
 					"zpos"							"0"
 					"wide"							"100"
-					"tall"							"0"	//20
+					"tall"							"0"
 					"visible"						"1"
 					"enabled"						"1"
 					"font"							"ItemFontAttribSmall"
@@ -302,6 +310,11 @@
 					"textAlignment"					"south-east"
 					"labelText"						"%next_level_xp%"
 					"proportionaltoparent"			"1"
+					
+					if_mini
+					{
+						"tall"						"20"
+					}
 				}
 
 				"ProgressBarsContainer"

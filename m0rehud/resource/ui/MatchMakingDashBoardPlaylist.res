@@ -26,9 +26,8 @@
 		"proportionaltoparent"						"1"
 		"labeltext"									"#TF_Matchmaking_HeaderModeSelect"
 		"textAlignment"								"west"
-		"font"										"Coolvetica"
-		"fgcolor_override"							"255 255 255 255"
-		"AllCaps"									"1"
+		"font"										"HudFontMediumBigBold"
+		"fgcolor_override"							"TanDark"
 		
 		"mouseinputenabled"							"0"
 	}
