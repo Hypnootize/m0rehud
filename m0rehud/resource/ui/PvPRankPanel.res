@@ -176,9 +176,9 @@
 		"ControlName"								"EditablePanel"
 		"fieldName"									"BGPanel"
 		"xpos"										"0"
-		"ypos"										"20"
+		"ypos"										"0"
 		"zpos"										"-1"
-		"wide"										"260"
+		"wide"										"110"
 		"tall"										"f40"
 		"visible"									"1"
 		"PaintBackgroundType"						"0"
@@ -199,22 +199,31 @@
 		{
 			"ControlName"							"Label"
 			"fieldName"								"NameLabel"
-			"xpos"									"65"
+			"xpos"									"1"
 			"ypos"									"5"
-			"wide"									"f0"
+			"wide"									"108"
 			"zpos"									"100"
 			"tall"									"20"
 			"visible"								"0"
 			"enabled"								"1"
-			"font"									"HudFontSmallishBold"
+			"font"									"Coolvetica"
 			"fgcolor_override"						"TanLight"
 			"textAlignment"							"north-west"
 			"labelText"								"%name%"
 			"proportionaltoparent"					"1"
+			"AllCaps"								"1"
 
 			if_mini
 			{
+				"xpos"								"65"
+				"ypos"								"5"
+				"wide"								"f0"
+				"tall"								"20"
 				"visible"							"0"
+				"font"								"HudFontSmallishBold"
+				"fgcolor_override"					"TanLight"
+				"textAlignment"						"north-west"
+				"AllCaps"							"0"
 			}
 		}
 
@@ -222,9 +231,9 @@
 		{
 			"ControlName"							"Label"
 			"fieldName"								"LevelLabel"
-			"xpos"									"70"
-			"ypos"									"68"
-			"wide"									"f0"
+			"xpos"									"1"
+			"ypos"									"20"
+			"wide"									"108"
 			"zpos"									"100"
 			"tall"									"20"
 			"visible"								"1"
@@ -240,7 +249,11 @@
 			{
 				"xpos"								"67"
 				"ypos"								"4"
+				"wide"								"f0"
 				"font"								"HudFontSmallestBold"
+				"fgcolor_override"					"TanLight"
+				"textAlignment"						"north-west"
+				"AllCaps"							"0"
 			}
 		}
 
@@ -248,9 +261,9 @@
 		{
 			"ControlName"							"EditablePanel"
 			"fieldName"								"StatsContainer"
-			"xpos"									"68"
+			"xpos"									"0"
 			"ypos"									"0"
-			"wide"									"110"
+			"wide"									"108"
 			"tall"									"f0"
 			"proportionaltoparent"					"1"
 
@@ -333,7 +346,7 @@
 						"fieldName"					"ProgressBar"
 						"xpos"						"0"
 						"ypos"						"cs-0.5"
-						"wide"						"f0"
+						"wide"						"0"
 						"tall"						"f-2"
 						"zpos"						"1"
 						"proportionaltoparent"		"1"
@@ -341,6 +354,11 @@
 
 						"fgcolor_override"			"20 20 20 180"
 						"bgcolor_override"			"0 0 0 0"
+						
+						if_mini
+						{
+							"wide"					"f0"
+						}
 					}
 
 					"ContinuousProgressBar"
@@ -354,7 +372,12 @@
 						"proportionaltoparent"		"1"
 						"progress"					"0"
 
-						"fgcolor_override"			"CreditsGreen"
+						"fgcolor_override"			"Main Menu Labels"
+						
+						if_mini
+						{
+							"fgcolor_override"		"CreditsGreen"
+						}
 					}
 
 					"Frame"
@@ -363,11 +386,16 @@
 						"fieldName"					"Frame"
 						"xpos"						"0"
 						"ypos"						"0"
-						"wide"						"f0"
+						"wide"						"0"
 						"tall"						"f0"
 						"zpos"						"5"
 						"proportionaltoparent"		"1"
 						"border"					"InnerShadowBorderThin"
+						
+						if_mini
+						{
+							"wide"					"f0"
+						}
 					}
 				}
 			}

@@ -1,22 +1,5 @@
 "GameMenu"
 {
-	/////////////////////////RIGHT BUTTONS/////////////////////////
-	"QuestsButton"
-	{
-		"label" 									"d"
-		"command" 									"questlog"
-	}
-	"WatchStreamButton"
-	{
-		"label" 									"q"
-		"command" 									"watch_stream"
-	}
-	"MOTD_ShowButtonPanel"
-	{
-		"label" 									"h"
-		"command" 									"motd_show"
-	}
-	
 	/////////////////////////MAIN MENU/////////////////////////
 	"VersionButton"
 	{
@@ -30,16 +13,16 @@
 		"command" 									"OpenServerBrowser"
 		"OnlyAtMenu"								"1"
 	}
-	"TrainingButton"
-	{
-		"label" 									"OFFLINE PRACTICE"
-		"command" 									"offlinepractice"
-		"OnlyAtMenu"								"1"
-	}
 	"CreateServerButton"
 	{
 		"label"										"+"
 		"command"									"OpenCreateMultiplayerGameDialog"
+		"OnlyAtMenu"								"1"
+	}
+	"TrainingButton"
+	{
+		"label" 									"OFFLINE PRACTICE"
+		"command" 									"offlinepractice"
 		"OnlyAtMenu"								"1"
 	}
 	"CharacterSetupButton"
@@ -127,5 +110,22 @@
 		"command"									"OpenAchievementsDialog"
 		"subimage"									"glyph_achievements"
 		"OnlyInGame"								"1"
+	}
+	
+	/////////////////////////RIGHT BUTTONS/////////////////////////
+	"QuestsButton"
+	{
+		"label" 									"d"
+		"command" 									"questlog"
+	}
+	"WatchStreamButton"
+	{
+		"label" 									"q"
+		"command" 									"watch_stream"
+	}
+	"MOTD_ShowButtonPanel"
+	{
+		"label" 									"h"
+		"command" 									"motd_show"
 	}
 }
