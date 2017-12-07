@@ -5,7 +5,7 @@
 		"ControlName"								"EditablePanel"
 		"fieldName"									"ItemQuickSwitchPanel"
 		"xpos"										"c-123"
-		"ypos"										"325"
+		"ypos"										"320"
 		"wide"										"246"
 		"tall"										"121"
 		"autoResize"								"0"

@@ -488,10 +488,10 @@
 		"fieldName"									"ItemQuickSwitchPanel"
 		"visible"									"0"
 		"enabled"									"1"
-		"xpos"										"0"
-		"ypos"										"0"
-		"wide"										"f0"
-		"tall"										"480"
+		"xpos"										"c-123"
+		"ypos"										"320"
+		"wide"										"246"
+		"tall"										"121"
 	}
 	
 	/////////////////////////////REMOVED STUFF/////////////////////////////
