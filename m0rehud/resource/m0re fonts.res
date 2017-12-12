@@ -616,25 +616,19 @@ Scheme
 			"name" 		"Surface-Medium"
 		}
 		
-		"8" 
-		{
-			"font" 		"resource/fonts/Surface_Numbers.otf"
-			"name" 		"Surface-Numbers"
-		}
-		
-		"10" 
+		"9" 
 		{
 			"font" 		"resource/fonts/COOLVETI.TTF"
 			"name" 		"Coolvetica"
 		}
 		
-		"11" 
+		"10" 
 		{
 			"font" 		"resource/fonts/Blocks.ttf"
 			"name" 		"Blocks"
 		}
 		
-		"12"
+		"11"
 		{
 			"font" 		"resource/fonts/Icons.ttf"
 			"name" 		"Icons"
