@@ -29,7 +29,7 @@
 			
 			"color_ready"							"0 255 0 220"
 			"color_notready"						"0 0 0 220"
-										  			
+				
 			"playername"
 			{
 				"ControlName"						"CExLabel"
@@ -46,7 +46,6 @@
 				"labelText"							"%playername%"
 				"textAlignment"						"west"
 				"fgcolor"							"255 255 255 255"
-					
 			}
 			
 			"classimage"
@@ -62,7 +61,6 @@
 				"enabled"							"1"
 				"image"								"../hud/class_scoutred"
 				"scaleImage"						"1"	
-				
 			}
 			
 			"classimagebg"
@@ -78,7 +76,6 @@
 				"enabled"							"1"
 				"bgcolor_override"					"255 255 255 0"
 				"PaintBackgroundType"				"0"
-				
 			}
 			
 			"HealthIcon"
@@ -118,12 +115,7 @@
 				"src_corner_width"			       	"22"
 			
 				"draw_corner_width"				   	"3"
-				"draw_corner_height" 				"3"
-				
-				if_mvm
-				{
-					"visible"						"0"
-				}	
+				"draw_corner_height" 				"3"	
 			}
 			
 			"ReadyImage"
@@ -141,11 +133,6 @@
 				"enabled"							"1"
 				"image"								"hud/checkmark"
 				"scaleImage"						"1"
-
-				if_mvm
-				{
-					"visible"						"1"
-				}
 			}
 			
 			"respawntime"
@@ -164,11 +151,6 @@
 				"labelText"							"%respawntime%"
 				"textAlignment"						"center"
 				"fgcolor"							"0 0 0 255"
-				
-				if_mvm
-				{
-					"ypos"							"17"
-				}
 			}
 			
 			"respawntimecover"
@@ -206,6 +188,7 @@
 				"textAlignment"						"center"
 				"fgcolor_override"					"0 0 0 255"
 			}
+			
 			"chargeamountcover"
 			{
 				"ControlName"						"CExLabel"
@@ -239,24 +222,7 @@
 				"visible"							"0"
 				"labelText"							"%specindex%"
 				"textAlignment"						"north-west"
-				//"fgcolor"							"235 226 202 255"
 			}
-			
-			if_mvm
-			{
-				"wide"								"55"
-				"tall"								"35"
-			}
-		}
-		
-		if_mvm
-		{
-			"xpos"									"c-250"
-			"ypos"									"6"
-			"wide"									"500"
-			"tall"									"180"
-	
-			"team1_player_delta_x"					"52"
 		}		
 	}
 
@@ -280,10 +246,7 @@
 		
 		if_mvm
 		{
-			"xpos"									"c-190"
-			"ypos"									"1"
-			"wide"									"380"
-			"textAlignment"							"center"
+			"ypos"									"70"
 		}
 	}
 	
@@ -370,20 +333,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"attriblabel"
-			"font"									"ItemFontAttribLarge"
-			"xpos"									"0"
-			"ypos"									"30"
-			"zpos"									"2"
-			"wide"									"140"
-			"tall"									"60"
-			"autoResize"							"0"
-			"pinCorner"								"0"
-			"visible"								"0"
-			"enabled"								"1"
-			"labelText"								"%attriblist%"
-			"textAlignment"							"south"
-			"fgcolor"								"235 226 202 255"
-			"centerwrap"							"1"
+			"xpos"									"9999"
 		}
 	}
 	
