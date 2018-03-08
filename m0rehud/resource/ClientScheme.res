@@ -1,5 +1,6 @@
 #base "../resource/m0re colors.res"
 #base "../resource/m0re fonts.res"
+#base "../resource/m0re borders.res"
 #base "../resource/crosshairs/m0re crosshairs.res"
 
 /////////////////////////////////////////////////////////////////////////
@@ -18,6 +19,10 @@
 //
 //> "Default"
 //> "DefaultSmall"
+//
+//BORDERS
+//
+//> QuestStatusBorder
 //
 //DONE!
 /////////////////////////////////////////////////////////////////////////
@@ -5363,18 +5368,6 @@ Scheme
 		}
 		ReplayBrowser.ScrollBar.SliderButton.Border
 		{
-		}
-
-		QuestStatusBorder
-		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			
-			"image"					"replay/panel_scalable_transparent"
-			"src_corner_height"		"23"			// pixels inside the image
-			"src_corner_width"		"23"
-			"draw_corner_width"		"7"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"7"	
 		}
 
 		RedWithThinBorder
