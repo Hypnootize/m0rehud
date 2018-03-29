@@ -167,12 +167,55 @@
 		}
 	}
 	
+	"CycleRankTypeButton"
+	{
+		"ControlName"								"CExImageButton"
+		"fieldName"									"CycleRankTypeButton"
+		"xpos"										"c-163"
+		"ypos"										"228"
+		"zpos"										"16"
+		"wide"										"16"
+		"tall"										"16"
+		"autoResize"								"0"
+		"pinCorner"									"3"
+		"visible"									"1"
+		"enabled"									"1"
+		"tabPosition"								"0"
+		"labelText"									"P"
+		"use_proportional_insets" 					"1"
+		"font"										"SymbolsSmall"
+		"command"									"open_rank_type_menu"
+		"textAlignment"								"west"
+		"dulltext"									"0"
+		"brighttext"								"0"
+		"default"									"1"
+		"sound_depressed"							"UI/buttonclick.wav"
+		"sound_released"							"vo/null.mp3"
+		"actionsignallevel" 						"1"
+		"proportionaltoparent"						"1"
+				
+		"sound_depressed"							"UI/buttonclick.wav"
+		"sound_released"							"UI/buttonclickrelease.wav"
+		"border_default"							""
+		"border_armed"								""
+		"paintbackground"							"0"
+		"paintborder"								"0"
+		
+		"FgColor" 									"255 255 255 255"			
+		"defaultFgColor_override" 					"255 255 255 255"
+		"armedFgColor_override"				 		"Main Menu Labels"
+		"depressedFgColor_override" 				"255 255 255 255"
+			
+		"image_drawcolor"							"0 0 0 0"
+		"image_armedcolor" 							"Main Menu Labels"
+	}
+	
 	"RankModelPanel"
 	{
 		"ControlName"								"CPvPRankPanel"
 		"fieldName"									"RankModelPanel"
-		"xpos"										"cs-0.5-225"
-		"ypos"										"cs-0.5-73"
+		"xpos"										"cs-0.5-220"
+		"ypos"										"cs-0.5-98"
 		"zpos"										"2"
 		"wide"										"900"
 		"tall"										"900"
@@ -187,17 +230,19 @@
 	{
 		"ControlName"								"CPvPRankPanel"
 		"fieldName"									"RankPanel"
-		"xpos"										"c-241"
-		"ypos"										"182"
+		"xpos"										"c-366"
+		"ypos"										"156"
 		"zpos"										"1"
 		"wide"										"320"
-		"tall"										"96"
-		"visible"									"1"
+		"tall"										"100"
+		"visible"									"0"
 		"proportionaltoparent"						"1"
 		"mouseinputenabled"							"0"
+
 		"matchgroup"								"MatchGroup_Casual_12v12"
-		"xp_source_notification_center_x"			"350"
+
 		"show_model"								"0"
+		"show_type"									"1"
 	}
 	
 	///////////////////////////////////////////////////////////////////////////////////////////////////////////////////

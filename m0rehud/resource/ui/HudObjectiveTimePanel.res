@@ -40,7 +40,6 @@
 		"visible"	        						"0"
 		"enabled"	        						"0"
 	}
-	
 	"TimePanelProgressBar"
 	{
 		"ControlName"								"CTFProgressBar"
@@ -50,7 +49,6 @@
 		"visible"									"0"
 		"enabled"									"0"
 	}
-	
 	"WaitingForPlayersLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -60,7 +58,6 @@
 		"visible"									"0"
 		"enabled"									"0"
 	}
-	
 	"WaitingForPlayersBG"
 	{
 		"ControlName"								"CTFImagePanel"
@@ -70,7 +67,6 @@
 		"visible"									"0"
 		"enabled"									"0"
 	}
-	
 	"OvertimeLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -80,7 +76,6 @@
 		"visible"									"0"
 		"enabled"									"0"
 	}
-	
 	"OvertimeBG"
 	{
 		"ControlName"								"CTFImagePanel"
@@ -90,7 +85,6 @@
 		"visible"									"0"
 		"enabled"									"0"
 	}
-	
 	"SuddenDeathLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -99,8 +93,7 @@
 		"tall"										"0"
 		"visible"									"0"
 		"enabled"									"0"
-	}	
-	
+	}
 	"SuddenDeathBG"
 	{
 		"ControlName"								"CTFImagePanel"
@@ -109,8 +102,7 @@
 		"tall"										"0"
 		"visible"									"0"
 		"enabled"									"0"
-	}	
-	
+	}
 	"SetupLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -120,7 +112,6 @@
 		"visible"									"0"
 		"enabled"									"0"
 	}	
-	
 	"SetupBG"
 	{
 		"ControlName"								"CTFImagePanel"
@@ -130,7 +121,6 @@
 		"visible"									"0"
 		"enabled"									"1"
 	}
-	
 	"ServerTimeLimitLabelBG"
 	{
 		"ControlName" 								"ImagePanel"

@@ -13,8 +13,7 @@
 		"proportionaltoparent"						"1"
 		"keyboardinputenabled"						"1"
 		"mouseinputenabled"							"1"
-		"border"									""
-		"bgcolor_override"							"0 0 0 150"
+		"border"									"QuickplayBorder"
 
 		"log_font_small"							"HudFontSmall"
 		"log_font_medium"							"HudFontMediumSmallSecondary"
@@ -45,7 +44,7 @@
 		"RoundedCorners"							"0"
 		"font"										"HudFontSmallest"
 		
-		"bgcolor_override"							"0 0 0 0"
+		"bgcolor_override"							"0 0 0 50"
 
 		"pinCorner"									"2"
 		"autoResize"								"1"
@@ -56,14 +55,14 @@
 			"xpos"									"rs1-1"
 			"ypos"									"0"
 			"tall"									"f0"
-			"wide"									"5"
+			"wide"									"5" // This gets slammed from client schme.  GG.
 			"zpos"									"1000"
 			"nobuttons"								"1"
 			"proportionaltoparent"					"1"
 
 			"Slider"
 			{
-				"fgcolor_override"					"255 255 255 255"
+				"fgcolor_override"					"TanLight"
 			}
 		
 			"UpButton"
@@ -86,16 +85,18 @@
 	{
 		// "ControlName"							"TextEntry"
 		"fieldName"									"chatentry"
-		"xpos"										"cs-0.5"
-		"ypos"										"rs1"
+		"xpos"										"1"
+		"ypos"										"rs1+12"
 		"zpos"										"1"
-		"wide"										"f0"
-		"tall"										"15"
+		"wide"										"f2"
+		"tall"										"13"
 		"visible"									"1"
 		"proportionaltoparent"						"1"
-		"bgcolor_override"							"0 0 0 0"
+		"bgcolor_override"							"0 0 0 255"
 		"RoundedCorners"							"0"
 		"font"										"HudFontSmallest"
+		"alpha"										"0"
+		"mouseinputenabled"							"0"
 
 		"pinCorner"									"2"
 		//"autoResize"								"1"
@@ -107,10 +108,10 @@
 		"fieldName"									"EntryShadow"
 		"xpos"										"cs-0.5"
 		"ypos"										"rs1"
-		"zpos"										"1"
+		"zpos"										"2"
 		"wide"										"f0"
 		"tall"										"15"
-		"visible"									"0"
+		"visible"									"1"
 		"proportionaltoparent"						"1"
 		"bgcolor_override"							"0 0 0 0"
 		"RoundedCorners"							"0"

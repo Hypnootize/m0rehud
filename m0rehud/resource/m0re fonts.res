@@ -13,6 +13,16 @@ Scheme
 				"antialias" 								"1"
 			}
 		}
+		SymbolsSmall
+		{
+			"1"
+			{
+				"name"										"Icons"
+				"tall"										"10"
+				"additive"									"0"
+				"antialias" 								"1"
+			}
+		}
 		Coolvetica
 		{
 			"1"

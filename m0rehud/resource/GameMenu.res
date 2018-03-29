@@ -3,8 +3,8 @@
 	/////////////////////////MAIN MENU/////////////////////////
 	"VersionButton"
 	{
-		"label" 									"M0REHUD 5.1" 
-		"command" 									"engine showconsole; echo m0rehud by Hypnotize @ www.teamfortress.tv/34115/m0re-hud"
+		"label" 									"M0REHUD 5.2" 
+		"command" 									"engine showconsole; echo m0rehud by Hypnotize @ www.teamfortress.tv/34115/m0re-hud all credits to m0re"
 		"OnlyAtMenu"								"1"
 	}
 	"ServerBrowserButton"
