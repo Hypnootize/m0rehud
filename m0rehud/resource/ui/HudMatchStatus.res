@@ -196,6 +196,11 @@
 		"delta_lifetime"							"2"
 		"delta_item_font"							"default"
 		
+		if_match
+		{
+			"delta_item_x"							"9999"
+		}
+		
 		"TimePanelValue"
 		{
 			"ControlName"							"CExLabel"

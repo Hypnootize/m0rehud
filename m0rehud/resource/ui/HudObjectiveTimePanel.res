@@ -19,6 +19,11 @@
 		"font" 										"m0refont12"
 		"fgcolor"									"255 255 255 255"
 		
+		if_match
+		{
+			"font"									"M0refont12"
+			"ypos"									"20"
+		}
 		if_mvm
 		{
 			"visible"								"0"
