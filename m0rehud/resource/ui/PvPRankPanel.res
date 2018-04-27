@@ -207,8 +207,8 @@
 			"ControlName"							"Label"
 			"fieldName"								"NameLabel"
 			"xpos"									"65"
-			"ypos"									"5"
-			"wide"									"f0"
+			"ypos"									"8"
+			"wide"									"130"
 			"zpos"									"100"
 			"tall"									"20"
 			"visible"								"1"
@@ -231,13 +231,13 @@
 			"ControlName"							"CAutoFittingLabel"
 			"fieldName"								"DescLine1"
 			"xpos"									"65"
-			"ypos"									"19"
-			"wide"									"195"
+			"ypos"									"24"
+			"wide"									"130"
 			"zpos"									"100"
 			"tall"									"20"
 			"visible"								"1"
 			"enabled"								"1"
-			"font"									"CoolveticaSmall"
+			"font"									"Coolvetica"
 			"fgcolor_override"						"TanLight"
 			"textAlignment"							"north-west"
 			"labelText"								"%desc1%"
@@ -248,15 +248,16 @@
 			{
 				"xpos"								"67"
 				"ypos"								"4"
+				"wide"								"195"
 				"font"								"HudFontSmallestBold"
 				"AllCaps"							"0"
 			}
 
 			"fonts"
 			{
-				"0"									"CoolveticaSmall"
-				"1"									"CoolveticaSmall"
-				"2"									"CoolveticaSmall"
+				"0"									"Coolvetica"
+				"1"									"Coolvetica"
+				"2"									"Coolvetica"
 			}
 		}
 
@@ -265,13 +266,13 @@
 			"ControlName"							"CAutoFittingLabel"
 			"fieldName"								"DescLine2"
 			"xpos"									"65"
-			"ypos"									"29"
-			"wide"									"195"
+			"ypos"									"24"
+			"wide"									"130"
 			"zpos"									"100"
 			"tall"									"20"
 			"visible"								"1"
 			"enabled"								"1"
-			"font"									"CoolveticaSmall"
+			"font"									"Coolvetica"
 			"fgcolor_override"						"TanLight"
 			"textAlignment"							"north-west"
 			"labelText"								"%desc2%"
@@ -282,15 +283,16 @@
 			{
 				"xpos"								"67"
 				"ypos"								"4"
+				"wide"								"195"
 				"font"								"HudFontSmallestBold"
 				"AllCaps"							"0"
 			}
 
 			"fonts"
 			{
-				"0"									"CoolveticaSmall"
-				"1"									"CoolveticaSmall"
-				"2"									"CoolveticaSmall"
+				"0"									"Coolvetica"
+				"1"									"Coolvetica"
+				"2"									"Coolvetica"
 			}
 
 			"colors"

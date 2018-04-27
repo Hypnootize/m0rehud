@@ -1,110 +1,110 @@
 "GameMenu"
 {
 	/////////////////////////MAIN MENU/////////////////////////
-	"VersionButton"
+	"Version"
 	{
-		"label" 									"M0REHUD 5.2" 
+		"label" 									"m0rehud 5.3" 
 		"command" 									"engine showconsole; echo m0rehud by Hypnotize @ www.teamfortress.tv/34115/m0re-hud all credits to m0re"
 		"OnlyAtMenu"								"1"
 	}
-	"ServerBrowserButton"
+	"Servers"
 	{
-		"label" 									"SERVERS"
+		"label" 									"Servers"
 		"command" 									"OpenServerBrowser"
 		"OnlyAtMenu"								"1"
 	}
-	"CreateServerButton"
+	"Create"
 	{
 		"label"										"+"
 		"command"									"OpenCreateMultiplayerGameDialog"
 		"OnlyAtMenu"								"1"
 	}
-	"TrainingButton"
+	"Training"
 	{
-		"label" 									"OFFLINE PRACTICE"
+		"label" 									"Offline Practice"
 		"command" 									"offlinepractice"
 		"OnlyAtMenu"								"1"
 	}
-	"CharacterSetupButton"
+	"Items"
 	{
-		"label"										"ITEMS"
+		"label"										"Items"
 		"command"									"engine open_charinfo"
 	}
-	"GeneralStoreButton"
+	"Store"
 	{
-		"label"										"STORE"
+		"label"										"Store"
 		"command"									"engine open_store"
 	}
-	"SettingsButton"
+	"Settings"
 	{
-		"label"										"OPTIONS"
+		"label"										"Options"
 		"command"									"OpenOptionsDialog"
 	}
-	"AdvancedSettingsButton"
+	"Advanced"
 	{
-		"label"										"ADVANCED"
+		"label"										"Advanced"
 		"command"									"opentf2options"
 	}
-	"QuitButton"
+	"Quit"
 	{
-		"label" 									"QUIT"
+		"label" 									"Quit"
 		"command" 									"engine replay_confirmquit"
 		"OnlyAtMenu"								"1"
 	}
 	
 	/////////////////////////INGAME ONLY/////////////////////////
-	"ScoreboardButton"
+	"Scoreboard"
 	{
-		"label"										"SCOREBOARD"
+		"label"										"Scoreboard"
 		"command"									"engine toggle cl_hud_minmode"
 		"OnlyInGame"								"1"
 	}
-	"ChangeServerButton"
+	"ServersGame"
 	{
-		"label" 									"SERVERS"
+		"label" 									"Servers"
 		"command" 									"OpenServerBrowser"
 		"OnlyInGame"								"1"
 	}
-	"CreateInGameButton"
+	"CreateGame"
 	{
 		"label"										"+"
 		"command"									"OpenCreateMultiplayerGameDialog"
 		"OnlyInGame"								"1"
 	}
-	"DisconnectButton"
+	"Disconnect"
 	{
-		"label" 									"DISCONNECT"
+		"label" 									"Disconnect"
 		"command" 									"engine disconnect"
 		"OnlyInGame" 								"1"
 	}
-	"QuitGameButton"
+	"QuitGame"
 	{
-		"label" 									"QUIT"
+		"label" 									"Quit"
 		"command" 									"engine replay_confirmquit"
 		"OnlyInGame" 								"1"
 	}
-	"CallVoteButton"
+	"Vote"
 	{
 		"label"										""
 		"command"									"callvote"
 		"subimage" 									"icon_checkbox"
 		"OnlyInGame" 								"1"
 	}
-	"MutePlayersButton"
+	"Mute"
 	{
 		"label"										""
 		"command"									"OpenPlayerListDialog"
 		"subimage" 									"glyph_muted"
 		"OnlyInGame" 								"1"
 	}
-	"ReportPlayerButton"
+	"Report"
 	{
 		"label"										""
 		"command"									"OpenReportPlayerDialog"
 		"OnlyInGame"								"1"
 		"subimage"									"glyph_alert"
 	}
-	"AchievementsButton"
+	"Achievements"
 	{
 		"label"										""
 		"command"									"OpenAchievementsDialog"

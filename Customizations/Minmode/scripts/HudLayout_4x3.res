@@ -420,6 +420,7 @@
 		"enabled"									"1"
 		"xpos"										"c-225"
 		"ypos"										"5"
+		"zpos"										"20"
 		"wide"										"450"
 		"tall"										"280"
 	}

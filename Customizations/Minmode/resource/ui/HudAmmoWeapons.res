@@ -67,14 +67,14 @@
 		"textAlignment"								"west"		
 		"labelText"									"%AmmoInReserve%"
 	}	
-							
+	
 	"AmmoNoClip"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"AmmonoClip"
 		"font"										"M0refont32"
 		"fgcolor"									"Ammo No Clip"
-		"xpos"										"c100"
+		"xpos"										"c105"
 		"ypos"    									"c60"
 		"zpos"										"5"
 		"wide"										"150"
@@ -91,11 +91,11 @@
 		"fieldName"									"AmmonoClipshadow"
 		"font"										"M0refont32"
 		"fgcolor"									"0 0 0 255"
-		"xpos"										"c103"
-		"ypos"										"c63"
+		"xpos"										"c106"
+		"ypos"										"c61"
 		"zpos"										"5"
-		"wide"										"148"
-		"tall"										"147"
+		"wide"										"151"
+		"tall"										"151"
 		"visible"									"0"
 		"enabled"									"1"
 		"textAlignment"								"center"	

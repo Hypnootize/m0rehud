@@ -32,25 +32,6 @@
 		"pinCorner"									"2"
 		"autoResize"								"1"
 
-		"Gradient"
-		{
-			"ControlName"							"ImagePanel"
-			"fieldName"								"Gradient"
-			"xpos"									"9999"			//0
-			"ypos"									"0"
-			"wide"									"155"
-			"tall"									"f6"
-			"zpos"									"0"
-			"visible"								"0"
-			"enabled"								"0"
-			"rotation"								"2"
-			"proportionaltoparent"					"1"
-			"scaleimage"							"1"
-			"mouseinputenabled"						"0"
-			"alpha"									"100"
-			"image"									"gradient_pure_black"
-		}
-
 		"BGPanel"
 		{
 			"ControlName"							"EditablePanel"
@@ -63,21 +44,6 @@
 			"visible"								"1"
 			"PaintBackgroundType"					"2"
 			"border"								"ReplayDefaultBorder"
-			"proportionaltoparent"					"1"
-		}
-
-		"OuterShadow"
-		{
-			"ControlName"							"EditablePanel"
-			"fieldName"								"OuterShadow"
-			"xpos"									"9999"
-			"ypos"									"cs-0.5"
-			"zpos"									"-2"
-			"wide"									"155"
-			"tall"									"p1"
-			"visible"								"0"
-			"PaintBackgroundType"					"2"
-			"border"								"OuterShadowBorder"
 			"proportionaltoparent"					"1"
 		}
 
@@ -95,13 +61,14 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"tabPosition"							"0"
-			"font"									"HudFontSmallestBold"
+			"font"									"Symbols12"
 			"textAlignment"							"center"
+			"textinsety"							"9"
 			"dulltext"								"0"
 			"brighttext"							"0"
 			"Command"								"toggle_chat"
 			"proportionaltoparent"					"1"
-			"labeltext"								""
+			"labeltext"								"D"
 			"mouseinputenabled"						"1"
 			"keyboardinputenabled"					"0"
 			"actionsignallevel"						"2"
@@ -117,7 +84,7 @@
 			{
 				"ControlName"						"ImagePanel"
 				"fieldName"							"SubImage"
-				"xpos"								"cs-0.5"
+				"xpos"								"9999"
 				"ypos"								"rs1-2"
 				"zpos"								"1"
 				"wide"								"12"
@@ -558,24 +525,25 @@
 		{
 			"ControlName"							"CExImageButton"
 			"fieldName"								"QuitButton"
-			"xpos"									"200" //+25
+			"xpos"									"182"
 			"ypos"									"0"
 			"zpos"									"100"
-			"wide"									"0"
-			"tall"									"0"
+			"wide"									"18"
+			"tall"									"23"
 			"autoResize"							"0"
 			"pinCorner"								"3"
 			"visible"								"1"
 			"enabled"								"1"
 			"tabPosition"							"0"
-			"font"									"HudFontSmallBold"
-			"textAlignment"							"west"
+			"font"									"Symbols12"
+			"textAlignment"							"center"
 			"textinsetx"							"0"
+			"textinsety"							"5"
 			"dulltext"								"0"
 			"brighttext"							"0"
 			"Command"								"quit"
 			"proportionaltoparent"					"1"
-			"labeltext"								""
+			"labeltext"								"W"
 			"mouseinputenabled"						"1"
 			"keyboardinputenabled"					"0"
 			"actionsignallevel"						"2"
@@ -584,21 +552,21 @@
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
 
-			"armedBgColor_override"					"192 28 0 150"
-			"defaultBgColor_override"				"192 28 0 50"
+			"armedBgColor_override"					"255 20 20 255"
+			"defaultBgColor_override"				"180 20 20 255"
 
-			"defaultFgColor_override" 				"TanLight"
-			"armedFgColor_override" 				"TanLight"
+			"defaultFgColor_override" 				"255 255 255 255"
+			"armedFgColor_override" 				"255 255 255 255"
 
-			"image_drawcolor"						"TanLight"
-			"image_armedcolor"						"TanLight"
+			"image_drawcolor"						"255 255 255 255"
+			"image_armedcolor"						"255 255 255 255"
 
 			"SubImage"
 			{
 				"ControlName"						"ImagePanel"
 				"fieldName"							"SubImage"
-				"xpos"								"cs-0.5"
-				"ypos"								"rs1-4"
+				"xpos"								"9999"
+				"ypos"								"0"
 				"zpos"								"1"
 				"wide"								"8"
 				"tall"								"8"
@@ -607,57 +575,56 @@
 				"scaleImage"						"1"
 				"proportionaltoparent"				"1"
 				"image"								"glyph_quit"
-				"drawcolor_override" 				"TanLight"
+				"drawcolor_override" 				"255 255 255 255"
 			}
 		}
 
 		"DisconnectButton"
 		{
 			"ControlName"							"CExImageButton"
-			"fieldName"								"DisconnectButton"
-			"xpos"									"200" //+25
+			"fieldName"								"QuitButton"
+			"xpos"									"182"
 			"ypos"									"0"
 			"zpos"									"100"
-			"wide"									"0"
-			"tall"									"0"
+			"wide"									"18"
+			"tall"									"23"
 			"autoResize"							"0"
 			"pinCorner"								"3"
 			"visible"								"1"
 			"enabled"								"1"
 			"tabPosition"							"0"
-			"font"									"HudFontSmallBold"
-			"textAlignment"							"west"
+			"font"									"Symbols12"
+			"textAlignment"							"center"
+			"textinsetx"							"0"
+			"textinsety"							"5"
 			"dulltext"								"0"
 			"brighttext"							"0"
 			"Command"								"quit"
 			"proportionaltoparent"					"1"
-			"labeltext"								""
+			"labeltext"								"W"
 			"mouseinputenabled"						"1"
 			"keyboardinputenabled"					"0"
 			"actionsignallevel"						"2"
 			"RoundedCorners"						"0"
-			"textinsety"							"3"
-			"textinsetx"							"22"
-			"use_proportional_insets"				"1"
 
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
 
-			"armedBgColor_override"					"192 28 0 150"
-			"defaultBgColor_override"				"192 28 0 50"
+			"armedBgColor_override"					"255 20 20 255"
+			"defaultBgColor_override"				"180 20 20 255"
 
-			"defaultFgColor_override" 				"TanLight"
-			"armedFgColor_override" 				"TanLight"
+			"defaultFgColor_override" 				"255 255 255 255"
+			"armedFgColor_override" 				"255 255 255 255"
 
-			"image_drawcolor"						"TanLight"
-			"image_armedcolor"						"TanLight"
+			"image_drawcolor"						"255 255 255 255"
+			"image_armedcolor"						"255 255 255 255"
 
 			"SubImage"
 			{
 				"ControlName"						"ImagePanel"
 				"fieldName"							"SubImage"
-				"xpos"								"cs-0.5"
-				"ypos"								"rs1-4"
+				"xpos"								"9999"
+				"ypos"								"0"
 				"zpos"								"1"
 				"wide"								"8"
 				"tall"								"8"
@@ -665,8 +632,8 @@
 				"enabled"							"1"
 				"scaleImage"						"1"
 				"proportionaltoparent"				"1"
-				"image"								"glyph_disconnect"
-				"drawcolor_override" 				"TanLight"
+				"image"								"glyph_quit"
+				"drawcolor_override" 				"255 255 255 255"
 			}
 		}
 
@@ -728,14 +695,14 @@
 			}
 		}
 
-		"FindAGameButton"	// remember Hypno this is pinned to quit/resume/disconnect somehow!!!!!
+		"FindAGameButton"
 		{
 			"ControlName"							"CExImageButton"
 			"fieldName"								"FindAGameButton"
-			"xpos"									"175"
+			"xpos"									"rs1"
 			"ypos"									"0"
 			"zpos"									"100"
-			"wide"									"65"
+			"wide"									"47"
 			"tall"									"23"
 			"autoResize"							"0"
 			"pinCorner"								"3"
@@ -743,7 +710,7 @@
 			"enabled"								"1"
 			"tabPosition"							"0"
 			"font"									"Coolvetica"
-			"textAlignment"							"west"
+			"textAlignment"							"center"
 			"dulltext"								"0"
 			"brighttext"							"0"
 			"Command"								"find_game"
@@ -765,6 +732,7 @@
 
 			"defaultFgColor_override" 				"255 255 255 255"
 			"armedFgColor_override" 				"255 255 255 255"
+			
 			"image_drawcolor"						"255 255 255 255"
 			"image_armedcolor"						"255 255 255 255"
 
@@ -772,7 +740,7 @@
 			{
 				"ControlName"						"ImagePanel"
 				"fieldName"							"SubImage"
-				"xpos"								"47"
+				"xpos"								"9999"
 				"ypos"								"9"
 				"zpos"								"1"
 				"wide"								"10"
@@ -785,6 +753,19 @@
 				"drawcolor_override" 				"255 255 255 255"
 				"FgColor_override" 					"255 255 255 255"
 			}
+		}
+		
+		"Gradient"
+		{
+			"ControlName"							"ImagePanel"
+			"fieldName"								"Gradient"
+			"xpos"									"9999"
+		}
+		"OuterShadow"
+		{
+			"ControlName"							"EditablePanel"
+			"fieldName"								"OuterShadow"
+			"xpos"									"9999"
 		}
 	}
 }

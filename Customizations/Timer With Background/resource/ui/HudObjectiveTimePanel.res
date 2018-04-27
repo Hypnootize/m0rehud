@@ -16,12 +16,7 @@
 		"src_corner_height"	 						"10"
 		"src_corner_width"	 						"10"
 		"draw_corner_width"						 	"0"	
-		"draw_corner_height" 						"0"
-		
-		if_match
-		{
-			"visible"								"0"
-		}		
+		"draw_corner_height" 						"0"		
 	}
 	
 	"ServerTimeLimitLabel"
@@ -43,11 +38,6 @@
 		"font" 										"m0refont12"
 		"fgcolor"									"255 255 255 255"
 		
-		if_match
-		{
-			"font"									"M0refont12"
-			"ypos"									"20"
-		}
 		if_mvm
 		{
 			"visible"								"0"
@@ -67,10 +57,6 @@
 		"enabled" 									"1"
 		"fillcolor"									"0 0 0 100"
 		
-		if_match
-		{
-			"wide" 									"0"
-		}
 		if_mvm
 		{
 			"visible"								"0"

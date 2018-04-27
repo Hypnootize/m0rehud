@@ -2,27 +2,37 @@ Scheme
 {
 	Fonts
 	{
+		Symbols8
+		{
+			"1"
+			{
+				"name"										"Icons"
+				"tall"										"8"
+				"additive"									"0"
+				"antialias" 								"1"
+			}
+		}
+		Symbols12
+		{
+			"1"
+			{
+				"name"										"Icons"
+				"tall"										"12"
+				"additive"									"0"
+				"antialias" 								"1"
+			}
+		}
+		Symbols16
+		{
+			"1"
+			{
+				"name"										"Icons"
+				"tall"										"16"
+				"additive"									"0"
+				"antialias" 								"1"
+			}
+		}
 		
-		Symbols
-		{
-			"1"
-			{
-				"name"										"Icons"
-				"tall"										"18"
-				"additive"									"0"
-				"antialias" 								"1"
-			}
-		}
-		SymbolsSmall
-		{
-			"1"
-			{
-				"name"										"Icons"
-				"tall"										"10"
-				"additive"									"0"
-				"antialias" 								"1"
-			}
-		}
 		Coolvetica
 		{
 			"1"

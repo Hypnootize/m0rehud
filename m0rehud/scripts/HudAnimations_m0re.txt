@@ -246,6 +246,30 @@ event HudTournament_MoveChatWindow
 
 //====================================================================================================================
 
+event TeamStatus_PlayerDead
+{
+   SetVisible DeathPanel  						0 0
+   SetVisible SkullPanel 						0 0
+   SetVisible respawntime  						1 0
+
+   Animate DeathPanel 							ypos 		0 									Accel 0 0.2
+   Animate SkullPanel							ypos 		0 									Accel 0 0.2
+   Animate respawntime 							ypos 		0 									Accel 0 0.2
+}
+
+event TeamStatus_PlayerAlive
+{
+   Animate DeathPanel 							ypos 		0 									Accel 0 0.2
+   Animate SkullPanel 							ypos 		0 									Accel 0 0.2
+   Animate respawntime 							ypos 		0 									Accel 0 0.2
+
+   SetVisible DeathPanel 			 			0 			0.2
+   SetVisible SkullPanel  						0 			0.2
+   SetVisible respawntime 						0 			0.2
+}
+
+//====================================================================================================================
+
 event HudSnapShotReminderIn
 {
     RunEvent HudHealthDyingPulseStop 			10.0
