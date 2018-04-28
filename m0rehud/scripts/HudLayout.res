@@ -29,8 +29,8 @@
 		"blue_active_xpos"							"56"
 		"blue_active_xpos_minmode"					"56"
 	
-		"red_active_xpos"							"100"
-		"red_active_xpos_minmode"					"100"
+		"red_active_xpos"							"101"
+		"red_active_xpos_minmode"					"101"
 	}	
 
 	HudItemEffectMeter
