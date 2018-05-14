@@ -200,17 +200,35 @@
 		"priority"									"35"
 	}
 	
+	"BuildingAnchor"
+	{	
+		"ControlName"								"Label"
+		"fieldName"									"BuildingAnchor"
+		"xpos"										"-20"
+		"ypos"										"120"
+		"zpos"										"0"
+		"wide"										"f0"
+		"tall"										"480"
+		"visible"									"1"
+		"enabled"									"1"
+		"bgcolor_override"							"Blank"
+	}
+	
 	BuildingStatus_Engineer
 	{
 		"fieldName" 								"BuildingStatus_Engineer"
 		"visible"									"1"
 		"enabled"									"1"
-		"xpos"										"-20"
-		"ypos"										"120"
+		"xpos"										"0"
+		"ypos"										"0"
 		"wide"										"f0"
 		"tall"										"480"
 		
 		"PaintBackgroundType"						"2"
+		
+		"pin_to_sibling"							"BuildingAnchor"
+		"pin_corner_to_sibling"						"PIN_CENTERTOP"
+		"pin_to_sibling_corner"						"PIN_CENTERTOP"
 	}
 		
 	HudRoundTimerHudRoundTimer

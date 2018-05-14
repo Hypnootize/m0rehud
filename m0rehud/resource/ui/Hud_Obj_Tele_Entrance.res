@@ -298,7 +298,7 @@
 					"font"							"Default"
 					"xpos"							"12"
 					"ypos"							"6"
-					"wide"							"38"
+					"wide"							"30"
 					"tall"							"8"
 					"autoResize"					"0"
 					"pinCorner"						"0"
@@ -323,22 +323,23 @@
 				
 				"TimesUsedLabel"
 				{	
-					"ControlName"					"CTFLabel"
+					"ControlName"					"CExLabel"
 					"fieldName"						"TimesUsedLabel"
-					"font"							"DefaultSmall"
-					"xpos"							"12"
-					"ypos"							"5"
+					"font"							"Default"
+					"xpos"							"44"
+					"ypos"							"2"
 					"wide"							"200"
-					"tall"							"25"
+					"tall"							"15"
 					"autoResize"					"0"
 					"pinCorner"						"0"
 					"visible"						"1"
 					"enabled"						"1"
 					"labelText"						"%timesused%"
-					"textAlignment"					"north-west"
+					"textAlignment"					"west"
 					"dulltext"						"0"
 					"brighttext"					"0"
 					"alpha" 						"125"	
+					"fgcolor_override" 				"235 226 202 255"	
 				}
 			}	
 			

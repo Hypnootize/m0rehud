@@ -312,14 +312,14 @@
 				"drawcolor"							"ProgressOffWhite"
 				"alpha" 							"125"
 			}
-						
+			
 			"KillsLabel"
 			{	
 				"ControlName"						"CExLabel"
 				"fieldName"							"KillsLabel"
-				"font"								"DefaultSmall"
+				"font"								"Default"
 				"xpos"								"15"
-				"ypos"								"11"
+				"ypos"								"5"
 				"wide"								"200"
 				"tall"								"22"
 				"autoResize"						"0"
@@ -327,12 +327,13 @@
 				"visible"							"1"
 				"enabled"							"1"
 				"labelText"							"#Building_hud_sentry_kills_assists"
-				"textAlignment"						"north-west"
+				"textAlignment"						"west"
 				"dulltext"							"0"
 				"brighttext"						"0"
 				"alpha" 							"125"
+				"fgcolor_override" 					"235 226 202 255"
 			}
-					
+			
 			"ShellIcon"	
 			{
 				"ControlName"						"ImagePanel"
