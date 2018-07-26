@@ -155,6 +155,7 @@
 		"textAlignment"								"west"
 		"xpos"										"10"
 		"ypos"										"0"
+		"zpos"										"5"
 		"wide"										"f0"
 		"tall"										"15"
 		"autoResize"								"0"
@@ -249,6 +250,7 @@
 		"textAlignment"								"east"
 		"xpos"										"-10"
 		"ypos"										"0"
+		"zpos"										"5"
 		"wide"										"f0"
 		"tall"										"15"
 		"autoResize"								"0"
@@ -372,7 +374,7 @@
 		{
 			"visible"								"0"
 		}
-	}	
+	}
 	
 	"Spectators"
 	{
@@ -404,17 +406,16 @@
 		"fieldName"									"SpectatorsInQueue"
 		"font"										"ScoreboardVerySmall"
 		"labelText"									"%waitingtoplay%"
-		"textAlignment"								"west"
-		"xpos"										"115"
-		"xpos_hidef"								"135"
-		"ypos"										"348"
-		"zpos"										"4"
-		"wide"										"424"
-		"tall"										"20"
-		"autoResize"								"0"
-		"pinCorner"									"0"
-		"visible"									"1"
-		"enabled"									"1"
+		"textAlignment"								"east"
+		"xpos"          							"-10"
+		"ypos" 		     							"15"
+		"zpos"		      	     					"4"
+		"wide"		      	      					"f0"
+		"tall"		      	      					"10"
+		"autoResize"    	      					"0"
+		"pinCorner"	    	      					"0"
+		"visible"		           					"1"
+		"enabled"	              					"1"
 		
 		if_mvm
 		{
@@ -746,25 +747,6 @@
 		"visible"									"1"
 		"enabled"									"1"
 
-		"KillsWhite"
-		{
-			"ControlName"							"CExLabel"
-			"fieldName"								"KillsWhite"
-			"font"									"M0refont48"
-			"fgcolor" 								"255 255 255 255"
-			"labelText"								"%kills%"
-			"textAlignment"							"east"
-			"xpos"									"-25"
-			"ypos"									"15"
-			"zpos"									"3"
-			"wide"									"100"
-			"tall"									"35"
-			"autoResize"							"0"
-			"pinCorner"								"0"
-			"visible"								"1"
-			"enabled"								"1"
-		}
-		
 		"K/D"
 		{
 			"ControlName"							"CExLabel"
@@ -772,7 +754,7 @@
 			"font"									"M0refont48"
 			"fgcolor" 								"255 255 255 255"
 			"labelText"								":"
-			"textAlignment"							"north-center"
+			"textAlignment"							"center"
 			"xpos"									"75"
 			"ypos"									"15"
 			"zpos"									"3"
@@ -782,7 +764,30 @@
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-		}						
+		}
+		
+		"KillsWhite"
+		{
+			"ControlName"							"CExLabel"
+			"fieldName"								"KillsWhite"
+			"font"									"M0refont48"
+			"fgcolor" 								"255 255 255 255"
+			"labelText"								"%kills%"
+			"textAlignment"							"east"
+			"xpos"									"0"
+			"ypos"									"0"
+			"zpos"									"3"
+			"wide"									"100"
+			"tall"									"35"
+			"autoResize"							"0"
+			"pinCorner"								"0"
+			"visible"								"1"
+			"enabled"								"1"
+			
+			"pin_to_sibling" 						"K/D"
+			"pin_corner_to_sibling" 				"PIN_TOPRIGHT"
+			"pin_to_sibling_corner" 				"PIN_TOPLEFT"
+		}
 		
 		"DeathsWhite"
 		{
@@ -792,8 +797,8 @@
 			"fgcolor" 								"255 255 255 255"
 			"labelText"								"%deaths%"
 			"textAlignment"							"west"
-			"xpos"									"85"
-			"ypos"									"15"
+			"xpos"									"0"
+			"ypos"									"0"
 			"zpos"									"3"
 			"wide"									"100"
 			"tall"									"35"
@@ -801,6 +806,10 @@
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
+			
+			"pin_to_sibling" 						"K/D"
+			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
+			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
 		}
 			
 		"AssistsLabel"
@@ -830,15 +839,19 @@
 			"fgcolor" 								"255 255 255 255"
 			"labelText"								"%assists%"
 			"textAlignment"							"west"
-			"xpos"									"200"
-			"ypos"									"34"
+			"xpos"									"5"
+			"ypos"									"0"
 			"zpos"									"3"
-			"wide"									"35"
+			"wide"									"70"
 			"tall"									"10"
 			"autoResize"							"0"
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
+			
+			"pin_to_sibling" 						"AssistsLabel"
+			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
+			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
 		}
 		
 		"DestructionLabel"
@@ -849,8 +862,8 @@
 			"fgcolor" 								"255 255 255 255"
 			"labelText"								"#TF_ScoreBoard_DestructionLabel"
 			"textAlignment"							"east"
-			"xpos"									"100"
-			"ypos"									"41"
+			"xpos"									"0"
+			"ypos"									"-3"
 			"zpos"									"3"
 			"wide"									"95"
 			"tall"									"10"
@@ -858,6 +871,10 @@
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
+			
+			"pin_to_sibling" 						"AssistsLabel"
+			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
+			"pin_to_sibling_corner" 				"PIN_BOTTOMLEFT"
 		}							
 		
 		"DestructionWhite"
@@ -868,15 +885,19 @@
 			"fgcolor" 								"255 255 255 255"
 			"labelText"								"%destruction%"
 			"textAlignment"							"west"
-			"xpos"									"200"
-			"ypos"									"41"
+			"xpos"									"5"
+			"ypos"									"0"
 			"zpos"									"3"
-			"wide"									"35"
+			"wide"									"70"
 			"tall"									"10"
 			"autoResize"							"0"
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
+			
+			"pin_to_sibling" 						"DestructionLabel"
+			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
+			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
 		}
 		
 		"CapturesLabel"
@@ -887,8 +908,8 @@
 			"fgcolor" 								"255 255 255 255"
 			"labelText"								"#TF_ScoreBoard_CapturesLabel"
 			"textAlignment"							"east"
-			"xpos"									"200"
-			"ypos"									"34"
+			"xpos"									"-62"
+			"ypos"									"0"
 			"zpos"									"3"
 			"wide"									"95"
 			"tall"									"10"
@@ -896,6 +917,10 @@
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
+			
+			"pin_to_sibling" 						"AssistsWhite"
+			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
+			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
 		}
 
 		"CapturesWhite"
@@ -906,15 +931,19 @@
 			"fgcolor" 								"255 255 255 255"
 			"labelText"								"%captures%"
 			"textAlignment"							"west"
-			"xpos"									"305"
-			"ypos"									"34"
+			"xpos"									"5"
+			"ypos"									"0"
 			"zpos"									"3"
-			"wide"									"95"
+			"wide"									"70"
 			"tall"									"10"
 			"autoResize"							"0"
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
+			
+			"pin_to_sibling" 						"CapturesLabel"
+			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
+			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
 		}
 		
 		"DefensesLabel"
@@ -925,8 +954,8 @@
 			"fgcolor" 								"255 255 255 255"
 			"labelText"								"#TF_ScoreBoard_DefensesLabel"
 			"textAlignment"							"east"
-			"xpos"									"200"
-			"ypos"									"41"
+			"xpos"									"0"
+			"ypos"									"-3"
 			"zpos"									"3"
 			"wide"									"95"
 			"tall"									"10"
@@ -934,6 +963,10 @@
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
+			
+			"pin_to_sibling" 						"CapturesLabel"
+			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
+			"pin_to_sibling_corner" 				"PIN_BOTTOMLEFT"
 		}	
 
 		"DefensesWhite"
@@ -944,15 +977,19 @@
 			"fgcolor" 								"255 255 255 255"
 			"labelText"								"%defenses%"
 			"textAlignment"							"west"
-			"xpos"									"305"
-			"ypos"									"41"
+			"xpos"									"5"
+			"ypos"									"0"
 			"zpos"									"3"
-			"wide"									"95"
+			"wide"									"70"
 			"tall"									"10"
 			"autoResize"							"0"
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
+			
+			"pin_to_sibling" 						"DefensesLabel"
+			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
+			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
 		}
 		
 		"DominationLabel"
@@ -963,8 +1000,8 @@
 			"fgcolor"								"255 255 255 255"
 			"labelText"								"#TF_ScoreBoard_DominationLabel"
 			"textAlignment"							"east"
-			"xpos"									"321"
-			"ypos"									"34"
+			"xpos"									"-62"
+			"ypos"									"0"
 			"zpos"									"3"
 			"wide"									"95"
 			"tall"									"10"
@@ -972,6 +1009,10 @@
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
+			
+			"pin_to_sibling" 						"CapturesWhite"
+			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
+			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
 		}
 
 		"DominationWhite"
@@ -982,15 +1023,19 @@
 			"fgcolor" 								"255 255 255 255"
 			"labelText"								"%dominations%"
 			"textAlignment"							"west"
-			"xpos"									"426"
-			"ypos"									"34"
+			"xpos"									"5"
+			"ypos"									"0"
 			"zpos"									"3"
-			"wide"									"95"
+			"wide"									"70"
 			"tall"									"10"
 			"autoResize"							"0"
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
+			
+			"pin_to_sibling" 						"DominationLabel"
+			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
+			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
 		}
 		
 		"RevengeLabel"
@@ -1001,8 +1046,8 @@
 			"fgcolor" 								"255 255 255 255"
 			"labelText"								"#TF_ScoreBoard_RevengeLabel"
 			"textAlignment"							"east"
-			"xpos"									"321"
-			"ypos"									"41"
+			"xpos"									"0"
+			"ypos"									"-3"
 			"zpos"									"3"
 			"wide"									"95"
 			"tall"									"10"
@@ -1010,6 +1055,10 @@
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
+			
+			"pin_to_sibling" 						"DominationLabel"
+			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
+			"pin_to_sibling_corner" 				"PIN_BOTTOMLEFT"
 		}						
 
 		"RevengeWhite"
@@ -1020,15 +1069,19 @@
 			"fgcolor" 								"255 255 255 255"
 			"labelText"								"%Revenge%"
 			"textAlignment"							"west"
-			"xpos"									"426"
-			"ypos"									"41"
+			"xpos"									"5"
+			"ypos"									"0"
 			"zpos"									"3"
-			"wide"									"95"
+			"wide"									"70"
 			"tall"									"10"
 			"autoResize"							"0"
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
+			
+			"pin_to_sibling" 						"RevengeLabel"
+			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
+			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
 		}
 		
 		"HealingLabel"
@@ -1039,8 +1092,8 @@
 			"fgcolor" 								"255 255 255 255"
 			"labelText"								"#TF_ScoreBoard_HealingLabel"
 			"textAlignment"							"east"
-			"xpos"									"427"
-			"ypos"									"34"
+			"xpos"									"-62"
+			"ypos"									"0"
 			"zpos"									"3"
 			"wide"									"95"
 			"tall"									"10"
@@ -1048,6 +1101,10 @@
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
+			
+			"pin_to_sibling" 						"DominationWhite"
+			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
+			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
 		}
 		
 		"HealingWhite"
@@ -1058,15 +1115,19 @@
 			"fgcolor" 								"255 255 255 255"
 			"labelText"								"%healing%"
 			"textAlignment"							"west"
-			"xpos"									"526"
-			"ypos"									"34"
+			"xpos"									"5"
+			"ypos"									"0"
 			"zpos"									"3"
-			"wide"									"95"
+			"wide"									"70"
 			"tall"									"10"
 			"autoResize"							"0"
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
+			
+			"pin_to_sibling" 						"HealingLabel"
+			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
+			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
 		}
 		
 		"InvulnLabel"
@@ -1077,8 +1138,8 @@
 			"fgcolor" 								"255 255 255 255"
 			"labelText"								"#TF_ScoreBoard_InvulnLabel"
 			"textAlignment"							"east"
-			"xpos"									"427"
-			"ypos"									"41"
+			"xpos"									"0"
+			"ypos"									"-3"
 			"zpos"									"3"
 			"wide"									"95"
 			"tall"									"10"
@@ -1086,6 +1147,10 @@
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
+			
+			"pin_to_sibling" 						"HealingLabel"
+			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
+			"pin_to_sibling_corner" 				"PIN_BOTTOMLEFT"
 		}	
 		
 		"InvulnWhite"
@@ -1096,15 +1161,19 @@
 			"fgcolor" 								"255 255 255 255"
 			"labelText"								"%invulns%"
 			"textAlignment"							"west"
-			"xpos"									"526"
-			"ypos"									"41"
+			"xpos"									"5"
+			"ypos"									"0"
 			"zpos"									"3"
-			"wide"									"95"
+			"wide"									"70"
 			"tall"									"10"
 			"autoResize"							"0"
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
+			
+			"pin_to_sibling" 						"InvulnLabel"
+			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
+			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
 		}
 		
 		"TeleportsLabel"
@@ -1115,8 +1184,8 @@
 			"fgcolor" 								"255 255 255 255"
 			"labelText"								"#TF_ScoreBoard_TeleportsLabel"
 			"textAlignment"							"east"
-			"xpos"									"532"
-			"ypos"									"34"
+			"xpos"									"-62"
+			"ypos"									"0"
 			"zpos"									"3"
 			"wide"									"95"
 			"tall"									"10"
@@ -1124,6 +1193,10 @@
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
+			
+			"pin_to_sibling" 						"HealingWhite"
+			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
+			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
 		}
 		
 		"TeleportsWhite"
@@ -1134,15 +1207,19 @@
 			"fgcolor" 								"255 255 255 255"
 			"labelText"								"%teleports%"
 			"textAlignment"							"west"
-			"xpos"									"632"
-			"ypos"									"34"
+			"xpos"									"5"
+			"ypos"									"0"
 			"zpos"									"3"
-			"wide"									"95"
+			"wide"									"70"
 			"tall"									"10"
 			"autoResize"							"0"
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
+			
+			"pin_to_sibling" 						"TeleportsLabel"
+			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
+			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
 		}
 		
 		"HeadshotsLabel"
@@ -1153,8 +1230,8 @@
 			"fgcolor" 								"255 255 255 255"
 			"labelText"								"#TF_ScoreBoard_HeadshotsLabel"
 			"textAlignment"							"east"
-			"xpos"									"532"
-			"ypos"									"41"
+			"xpos"									"0"
+			"ypos"									"-3"
 			"zpos"									"3"
 			"wide"									"95"
 			"tall"									"10"
@@ -1162,6 +1239,10 @@
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
+			
+			"pin_to_sibling" 						"TeleportsLabel"
+			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
+			"pin_to_sibling_corner" 				"PIN_BOTTOMLEFT"
 		}						
 		
 		"HeadshotsWhite"
@@ -1172,15 +1253,19 @@
 			"fgcolor"								"255 255 255 255"
 			"labelText"								"%headshots%"
 			"textAlignment"							"west"
-			"xpos"									"632"
-			"ypos"									"41"
+			"xpos"									"5"
+			"ypos"									"0"
 			"zpos"									"3"
-			"wide"									"95"
+			"wide"									"70"
 			"tall"									"10"
 			"autoResize"							"0"
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
+			
+			"pin_to_sibling" 						"HeadshotsLabel"
+			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
+			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
 		}
 		
 		"BackstabsLabel"
@@ -1191,8 +1276,8 @@
 			"labelText"								"#TF_ScoreBoard_BackstabsLabel"
 			"textAlignment"							"east"
 			"fgcolor" 								"255 255 255 255"
-			"xpos"									"620"
-			"ypos"									"34"
+			"xpos"									"-62"
+			"ypos"									"0"
 			"zpos"									"3"
 			"wide"									"95"
 			"tall"									"10"
@@ -1200,6 +1285,10 @@
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
+			
+			"pin_to_sibling" 						"TeleportsWhite"
+			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
+			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
 		}
 		
 		"BackstabsWhite"
@@ -1210,15 +1299,19 @@
 			"labelText"								"%backstabs%"
 			"fgcolor" 								"255 255 255 255"
 			"textAlignment"							"west"
-			"xpos"									"720"
-			"ypos"									"34"
+			"xpos"									"5"
+			"ypos"									"0"
 			"zpos"									"3"
-			"wide"									"95"
+			"wide"									"70"
 			"tall"									"10"
 			"autoResize"							"0"
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
+			
+			"pin_to_sibling" 						"BackstabsLabel"
+			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
+			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
 		}
 		
 		"DamageLabel"
@@ -1229,8 +1322,8 @@
 			"fgcolor" 								"255 255 255 255"
 			"labelText"								"#TF_Scoreboard_Damage"
 			"textAlignment"							"east"
-			"xpos"									"620"
-			"ypos"									"41"
+			"xpos"									"0"
+			"ypos"									"-3"
 			"zpos"									"3"
 			"wide"									"95"
 			"tall"									"10"
@@ -1238,6 +1331,10 @@
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
+			
+			"pin_to_sibling" 						"BackstabsLabel"
+			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
+			"pin_to_sibling_corner" 				"PIN_BOTTOMLEFT"
 		}
 		
 		"DamageWhite"
@@ -1248,15 +1345,19 @@
 			"fgcolor" 								"255 255 255 255"
 			"labelText"								"%damage%"
 			"textAlignment"							"west"
-			"xpos"									"720"
-			"ypos"									"41"
+			"xpos"									"5"
+			"ypos"									"0"
 			"zpos"									"3"
-			"wide"									"95"
+			"wide"									"70"
 			"tall"									"10"
 			"autoResize"							"0"
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
+			
+			"pin_to_sibling" 						"DamageLabel"
+			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
+			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
 		}
 		
 		"Kills"
@@ -1387,32 +1488,12 @@
 		}
 	}
 
-	"ButtonLegendBG"								[$X360]
-	{
-		"ControlName"								"ImagePanel"
-		"fieldName"									"ButtonLegendBG"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	
-	"ButtonLegend"									[$X360]
-	{
-		"ControlName"								"EditablePanel"
-		"fieldName"									"ButtonLegend"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	
 	"MvMScoreboard"
 	{
 		"ControlName"								"CTFHudMannVsMachineScoreboard"
 		"fieldName"									"MvMScoreboard"
-		"xpos"										"80"
-		"ypos"										"0"
+		"xpos"										"127"
+		"ypos"										"-8"
 		"zpos"										"10"
 		"wide"										"f0"
 		"tall"										"480"
@@ -1426,5 +1507,5 @@
 			"wide" 									"f4"
 			"visible"								"1"
 		}
-	}				
+	}			
 }
