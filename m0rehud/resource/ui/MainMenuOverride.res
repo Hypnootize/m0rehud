@@ -1437,7 +1437,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		
-		"pin_to_sibling" 							"CycleRankTypeButton"
+		"pin_to_sibling" 							"WatchStreamButton"
 		"pin_corner_to_sibling" 					"PIN_TOPRIGHT"
 		"pin_to_sibling_corner" 					"PIN_TOPLEFT"
 		
