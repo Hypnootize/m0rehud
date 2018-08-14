@@ -1,6 +1,6 @@
 # m0rehud
 
-m0rehud, competitive hud updated and improved by Hypnotize!
+m0rehud, a competitive HUD, updated and improved by [Hypnotize](https://github.com/Hypnootize)!
 
 Created By: m0re
 
@@ -16,60 +16,38 @@ TeamFortress.tv thread: http://www.teamfortress.tv/34115/m0re-hud
 
 Steam Group: Soon (maybe... not)
 
-.
+## How to install the HUD
 
-.
+- Download the [HUD](https://github.com/Hypnootize/m0rehud/archive/master.zip) and extract it.
 
-.
+- Follow the [Installation Guide](https://github.com/Hypnootize/m0rehud/blob/master/Installation%20Guide.txt).
 
-F.A.Q:
+## F.A.Q.
 
+### 1) Why are my Fonts look weird/different from the screenshots?
 
-1) How do i install the hud:
-
--Download the hud and unzip it
-
--Follow the "Installation Guide" file
+This happens if you haven't installed the custom fonts on your system.
+You can fix this by going to the resource/fonts folder and installing the fonts on your system. (usually double-click or right-click)
 
 
-.
+### 2) How can I customize the HUD myself?
+
+It's really easy. If you've installed the HUD correctly, select what customization you want to apply and copy the resource folder to your 'tf2/custom' folder.
+For example if you want to apply the "Timer With Background" customization, open the "Timer With Background" folder and copy the resource folder to your 'tf2/custom' folder. Make sure to replace the customization files over your old hud files.
 
 
-2) My Fonts are looking weird/differen from the screenshots:
+### 3) Where I can find and enable the hud crosshairs?
 
-Go to resource/fonts and install the fonts (right click on the font file and select install)
-
-
-.
+Open Crosshairs.res file in the scripts folder. You can edit this file and set the visible value of the crosshair you want to 1.
 
 
-3) I want to use a customization but i don't know how to do it:
+### 4) How can I get bigger damage numbers?
 
-Is really easy, after you install the hud (FAQ 1) select what customization you want to apply, let's take as example the "Timer With Background" Customization.
-Open the "Timer With Background" folder and copy the resource folder, then go to your custom folder and paste and replace the customization files over your old hud files.
-Same with any other customization!
-
-
-.
-
-
-4) Where i can find and enable the hud crosshairs:
-
-Crosshairs.res file in the scripts folder! open this file and set the visible value of the crosshair you want to 1.
-
-
-.
-
-5) How can i get bigger damage numbers?
-
-Resource > HudDamageAccount.res you need to change both "delta_item_font" and "delta_item_font_big" (default font is M0refont18Outline), you can choose between these fonts sizes:
+Open Resource > HudDamageAccount.res . You need to change both "delta_item_font" and "delta_item_font_big" (default font is M0refont18Outline) to one of these alternatives:
 
 M0refont20Outline - M0refont21Outline - M0refont22Outline - M0refont23Outline - M0refont24Outline - M0refont30Outline
 
-.
 
-.
-
-IF YOU ARE GETTING ANY KIND OF PROBLEM DON'T HESITATE TO CONTACT ME HERE:
+**IF YOU ARE GETTING ANY KIND OF PROBLEM DON'T HESITATE TO CONTACT ME HERE:**
 
 http://www.teamfortress.tv/34115/m0re-hud#top
