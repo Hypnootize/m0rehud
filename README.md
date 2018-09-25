@@ -5,7 +5,7 @@
 <a>LINKS</a>
 ====
 
-[TeamFortress.tv] http://www.teamfortress.tv/34115/m0re-hud
+[TeamFortress.tv](http://www.teamfortress.tv/34115/m0re-hud)
 
 [Huds.tf](http://huds.tf/forum/showthread.php?tid=248)
 
