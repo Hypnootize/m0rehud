@@ -1,75 +1,70 @@
 # m0rehud
 
-m0rehud, competitive hud updated and improved by Hypnotize!
+**m0rehud, competitive hud updated and improved by Hypnotize**
 
-Created By: m0re
+<a>LINKS</a>
+====
 
-Updated by: Zimmy, Gunblade, NinjaDC, Zen
+[TeamFortress.tv] http://www.teamfortress.tv/34115/m0re-hud
 
-Links:
+[Huds.tf](http://huds.tf/forum/showthread.php?tid=248)
 
-Screenshots Album: http://imgur.com/a/sxOyM
+[Screenshot Album](http://imgur.com/a/sxOyM)
 
-Huds.tf: http://huds.tf/forum/showthread.php?tid=248
-
-TeamFortress.tv thread: http://www.teamfortress.tv/34115/m0re-hud
-
-Steam Group: Soon (maybe... not)
-
-.
-
-.
-
-.
-
-F.A.Q:
+[Changelogs](https://github.com/Hypnootize/m0rehud/commits/master)
 
 
-1) How do i install the hud:
+<a>INSTALLATION</a>
+====
 
--Download the hud and unzip it
+**1)** Extract/Unzip the hud
 
--Follow the "Installation Guide" file
+**2)** Copy the m0rehud folder (**NOT** m0rehud-Master, the one inside it!)
 
+**3)** Paste The folder to your custom tf folder (C:\Program Files (x86)\Steam\SteamApps\common\Team Fortress 2\tf\custom\m0rehud)
 
-.
+**4)** Go to Resource/Fonts select all the font and install them (rightclick while selected and install)
 
+**NOTES:**
 
-2) My Fonts are looking weird/differen from the screenshots:
+In case you are using a **4:3, 5:4 or 16:10** aspect ration be sure to use the right patches in order to make the hud compatible with these resolutions. 
 
-Go to resource/fonts and install the fonts (right click on the font file and select install)
+You can find the patches inside the customization folder, open the folder that matches your aspect ration and take the "resource" folder in it, last replace it over the normal m0rehud files!
 
-
-.
-
-
-3) I want to use a customization but i don't know how to do it:
-
-Is really easy, after you install the hud (FAQ 1) select what customization you want to apply, let's take as example the "Timer With Background" Customization.
-Open the "Timer With Background" folder and copy the resource folder, then go to your custom folder and paste and replace the customization files over your old hud files.
-Same with any other customization!
+I suggest using **"tf_hud_target_id_disable_floating_health" "1"** since the floating version is not as consistan and can have problems.
 
 
-.
+<a>CUSTOMIZATION</a>
+====
+
+m0rehud supports different customizations!
+
+All the customizations can be found inside the Customization folder and from there all you need to do is:
+
+**1)** Choose which customization you want to apply and open the dedicated folder (each folder has a screen of the customization as well)
+
+**2)** Copy all the folders found inside
+
+**3)** Paste and replace them over the normal m0rehud files!
+
+**Other than that is also possible to easily change the colors by editing the m0recolors file**
+
+Inside that file is possible to change all the colors used for the health/ammo/buff/hurt/uber and many more!
 
 
-4) Where i can find and enable the hud crosshairs:
+<a>CROSSHAIRS</a>
+====
+All the hud crosshairs can be found inside the scripts/crosshairs folder!
 
-Crosshairs.res file in the scripts folder! open this file and set the visible value of the crosshair you want to 1.
+It is possible to enable them from the crosshairs.res file by setting **"visible" "1"** for the wanted crosshair.
+
+It is also possible to easily animate them so the crosshair turns red on damage by editing the HudAnimations_Crosshairs file, you can find all the instructions inside the file!
 
 
-.
+<a>CREDITS</a>
+====
+**Created By:** m0re
 
-5) How can i get bigger damage numbers?
+**Updated in the years by:** Zimmy, Gunblade, NinjaDC, Zen
 
-Resource > HudDamageAccount.res you need to change both "delta_item_font" and "delta_item_font_big" (default font is M0refont18Outline), you can choose between these fonts sizes:
-
-M0refont20Outline - M0refont21Outline - M0refont22Outline - M0refont23Outline - M0refont24Outline - M0refont30Outline
-
-.
-
-.
-
-IF YOU ARE GETTING ANY KIND OF PROBLEM DON'T HESITATE TO CONTACT ME HERE:
-
-http://www.teamfortress.tv/34115/m0re-hud#top
+**IF YOU ARE GETTING ANY KIND OF PROBLEM DON'T HESITATE TO CONTACT ME** [HERE](http://www.teamfortress.tv/34115/m0re-hud)
