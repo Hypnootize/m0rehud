@@ -4,16 +4,16 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"BlueScore"
-		"xpos"										"c-60"
-		"ypos"										"r49"
+		"xpos"										"c-110"
+		"ypos"										"r30"
 		"zpos"										"8"
 		"wide"										"75"
 		"tall"										"35"
 		"visible"									"1"
 		"enabled"									"1"
-		"textAlignment"								"west"	
+		"textAlignment"								"east"	
 		"labelText"									"%bluescore%"
-		"font"										"m0refont48"
+		"font"										"m0refont30"
 		"fgcolor"									"m0reblue"
 	}	
 		
@@ -21,33 +21,37 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"BlueScoreShadow"
-		"xpos"										"c-59"
-		"ypos"										"r48"
+		"xpos"										"-1"
+		"ypos"										"-1"
 		"zpos"										"7"
 		"wide"										"75"
 		"tall"										"35"
 		"visible"									"1"
 		"enabled"									"1"
-		"textAlignment"								"west"	
+		"textAlignment"								"east"	
 		"labelText"									"%bluescore%"
-		"font"										"m0refont48"
+		"font"										"m0refont30"
 		"fgcolor"									"0 0 0 255"
+		
+		"pin_to_sibling"							"BlueScore"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 	}	
-							
+	
 	"RedScore"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"RedScore"
-		"xpos"										"c-13"
-		"ypos"										"r49"
+		"xpos"										"c37"
+		"ypos"										"r30"
 		"zpos"										"8"
 		"wide"										"75"
 		"tall"										"35"
 		"visible"									"1"
 		"enabled"									"1"
-		"textAlignment"								"east"	
+		"textAlignment"								"west"	
 		"labelText"									"%redscore%"
-		"font"										"m0refont48"
+		"font"										"m0refont30"
 		"fgcolor"									"m0rered"		
 	}	
 		
@@ -55,19 +59,23 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"RedScoreShadow"
-		"xpos"										"c-12"
-		"ypos"										"r48"
+		"xpos"										"-1"
+		"ypos"										"-1"
 		"zpos"										"7"
 		"wide"										"75"
 		"tall"										"35"
 		"visible"									"1"
 		"enabled"									"1"
-		"textAlignment"								"east"	
+		"textAlignment"								"west"	
 		"labelText"									"%redscore%"
-		"font"										"m0refont48"
-		"fgcolor"									"0 0 0 255"		
+		"font"										"m0refont30"
+		"fgcolor"									"0 0 0 255"	
+
+		"pin_to_sibling"							"RedScore"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_TOPLEFT"		
 	}	
-															
+	
 	"PlayingTo"
 	{
 		"ControlName"								"CExLabel"
@@ -83,7 +91,7 @@
 		"textAlignment"								"center"
 		"dulltext"									"0"
 		"brighttext"								"0"
-		"font"										"defaultverysmall"
+		"font"										"DefaultVerySmall"
 		"fgcolor"									"255 255 255 255"
 	}
 	
