@@ -246,6 +246,20 @@ event HudTournament_MoveChatWindow
 
 //====================================================================================================================
 
+event RDPositiveScorePulse
+{
+	Animate Score 								FgColor		"255 255 255 255"					Linear 	0.0 0.0
+	Animate Score 								FgColor		"255 255 255 255"					Linear 	0.1 0.2
+}
+
+event RDNegativeScorePulse
+{
+	Animate Score 								FgColor		"255 255 255 255"					Linear 	0.0 0.0
+	Animate Score 								FgColor		"255 255 255 255"					Linear 	0.1 0.2
+}
+
+//====================================================================================================================
+
 event TeamStatus_PlayerDead
 {
    SetVisible DeathPanel  						0 0
