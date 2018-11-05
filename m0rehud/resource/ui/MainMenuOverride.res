@@ -131,22 +131,6 @@
 		"visible"									"0"
 		"enabled"									"0"
 	}
-	
-	"RankModelPanel"
-	{
-		"ControlName"								"CPvPRankPanel"
-		"fieldName"									"RankModelPanel"
-		"xpos"										"cs-0.5-220"
-		"ypos"										"cs-0.5-65"
-		"zpos"										"2"
-		"wide"										"900"
-		"tall"										"900"
-		"visible"									"1"
-		"proportionaltoparent"						"1"
-		"mouseinputenabled"							"1"
-		"matchgroup"								"MatchGroup_Casual_12v12"
-		"show_progress"								"0"
-	}
 
 	"RankPanel"
 	{
@@ -171,6 +155,26 @@
 		"pin_to_sibling_corner" 					"PIN_TOPLEFT"
 	}
 	
+	"RankModelPanel"
+	{
+		"ControlName"								"CPvPRankPanel"
+		"fieldName"									"RankModelPanel"
+		"xpos"										"300"
+		"ypos"										"-435"
+		"zpos"										"2"
+		"wide"										"900"
+		"tall"										"900"
+		"visible"									"1"
+		"proportionaltoparent"						"1"
+		"mouseinputenabled"							"1"
+		"matchgroup"								"MatchGroup_Casual_12v12"
+		"show_progress"								"0"
+		
+		"pin_to_sibling" 							"RankPanel"
+		"pin_corner_to_sibling" 					"PIN_BOTTOMLEFT"
+		"pin_to_sibling_corner" 					"PIN_TOPLEFT"
+	}
+	
 	"NoGCMessage"
 	{
 		"ControlName"								"Label"
@@ -191,7 +195,7 @@
 
 		"font"										"COOLVETICA"
 		"fgcolor_override"							"255 100 100 255"
-		"labelText"									"Rank Currently Unavailable"
+		"labelText"									"No Connection To Steam"
 		"textAlignment"								"west"
 		"use_proportional_insets"					"1"
 		

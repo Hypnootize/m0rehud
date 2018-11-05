@@ -2,26 +2,6 @@ Scheme
 {
 	Fonts
 	{
-		Symbols8
-		{
-			"1"
-			{
-				"name"										"Icons"
-				"tall"										"8"
-				"additive"									"0"
-				"antialias" 								"1"
-			}
-		}
-		Symbols12
-		{
-			"1"
-			{
-				"name"										"Icons"
-				"tall"										"12"
-				"additive"									"0"
-				"antialias" 								"1"
-			}
-		}
 		Symbols16
 		{
 			"1"
@@ -43,36 +23,7 @@ Scheme
 				"antialias" 								"1"
 			}
 		}
-		CoolveticaSmallest
-		{
-			"1"
-			{
-				"name"										"Coolvetica"
-				"tall"										"10"
-				"additive"									"0"
-				"antialias" 								"1"
-			}
-		}
-		CoolveticaSmall
-		{
-			"1"
-			{
-				"name"										"Coolvetica"
-				"tall"										"12"
-				"additive"									"0"
-				"antialias" 								"1"
-			}
-		}
-		CoolveticaMedium
-		{
-			"1"
-			{
-				"name"										"Coolvetica"
-				"tall"										"20"
-				"additive"									"0"
-				"antialias" 								"1"
-			}
-		}
+		
 		VerdanaMenu
 		{
 			"1"
@@ -83,6 +34,7 @@ Scheme
 				"antialias" 								"1"
 			}
 		}
+		
 		M0refont6
 		{
 			"1"
