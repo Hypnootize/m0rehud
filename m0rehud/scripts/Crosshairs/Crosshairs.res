@@ -430,46 +430,6 @@
 		"zpos"										"1"
 	}
 	
-	"Lozenge"
-	{
-		"visible"									"0"
-		
-		"xpos"      								"c-11"
-		"ypos"      								"c-12"
-		"wide"										"25"
-		"tall"										"24"
-		
-		"fgcolor"									"255 255 255 255"
-		"labelText"									"p"
-		"font"										"size: 22, outline: off"
-		
-		"controlName"								"CExLabel"
-		"fieldName"									"Crosshair16"
-		"textAlignment"								"Lozenge"
-		"enabled"									"1"
-		"zpos"										"1"
-	}
-	
-	"yz50 Wings"
-	{
-		"visible"									"0"
-		
-		"xpos"										"c-25"
-		"ypos"										"c-25"
-		"wide"										"50"
-		"tall"										"50"
-		
-		"fgcolor"									"255 255 255 255"
-		"labelText"									"q"
-		"font"										"size: 23, outline: off"
-		
-		"controlName"								"CExLabel"
-		"fieldName"									"yz50 Wings"
-		"textAlignment"								"center"
-		"enabled"									"1"
-		"zpos"										"1"
-	}
-	
 	/////////////////////////////////////////////////////////////////////////
 	/////////////////////////////KONR CROSSHAIRS/////////////////////////////
 	/////////////////////////////////////////////////////////////////////////

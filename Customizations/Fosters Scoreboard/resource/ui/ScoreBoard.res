@@ -30,7 +30,7 @@
 		"xpos"			          					"c-205"
 		"ypos"			          					"c-100"
 		"wide"			         					"180"
-		"tall"			          					"230"
+		"tall"			          					"180"
 		
 		"ControlName"	       						"SectionedListPanel"
 		"fieldName"		        					"BluePlayerList"
@@ -49,7 +49,7 @@
 		"xpos"			          					"c20"
 		"ypos"			          					"c-100"
 		"wide"			          					"180"
-		"tall"			          					"230"
+		"tall"			          					"180"
 		
 		"ControlName"								"SectionedListPanel"
 		"fieldName"									"RedPlayerList"
@@ -110,7 +110,7 @@
 			"visible"								"0"
 		}
 	}
-								
+	
 	"ServerTimeLeft"
 	{
 		"ControlName"								"CExLabel"
@@ -119,7 +119,7 @@
 		"labelText"									"%servertimeleft%"
 		"textAlignment"								"center"
 		"xpos"										"c-75"
-		"ypos"										"118"
+		"ypos"										"131"
 		"wide"										"150"
 		"tall"										"12"
 		"zpos"										"99"
@@ -143,10 +143,10 @@
 		"labelText"									"%spectators%"
 		"textAlignment"								"west"
 		"alpha"										"255"
-		"xpos"										"5"
+		"xpos"										"3"
 		"ypos"										"0"
 		"wide"										"f0"
-		"tall"										"10"
+		"tall"										"8"
 		"zpos"										"4"
 		"autoResize"								"0"
 		"pinCorner"									"0"
@@ -164,10 +164,10 @@
 		"labelText"									"%waitingtoplay%"
 		"textAlignment"								"west"
 		"alpha"										"255"
-		"xpos"										"5"
+		"xpos"										"3"
 		"ypos"										"0"
 		"wide"										"f0"
-		"tall"										"10"
+		"tall"										"8"
 		"zpos"										"4"
 		"autoResize"								"0"
 		"pinCorner"									"0"
@@ -183,12 +183,11 @@
 		"fieldName"									"ServerLabel"
 		"font"										"ScoreboardVerySmall"
 		"labelText"									"%server%"
-		"textAlignment"								"west"
-		"alpha"										"255"
-		"xpos"										"5"
-		"ypos"										"10"
+		"textAlignment"								"east"
+		"xpos"										"-4"
+		"ypos"										"0"
 		"wide"										"f0"
-		"tall"										"10"
+		"tall"										"8"
 		"autoResize"								"0"
 		"pinCorner"									"0"
 		"visible"									"1"
@@ -219,8 +218,8 @@
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"LocalPlayerStatsPanel"
-		"xpos"										"5"
-		"ypos"										"20"
+		"xpos"										"c-70"
+		"ypos"										"r155"
 		"zpos"										"40"
 		"wide"										"f0"
 		"tall"										"480"
@@ -229,13 +228,18 @@
 		"visible"									"1"
 		"enabled"									"1"
 		
+		if_mvm
+		{
+			"visible"								"0"	
+		}
+		
 		"KillsLabel"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"KillsLabel"
 			"font"									"ScoreboardVerySmall"
 			"labelText"								"#TF_ScoreBoard_KillsLabel"
-			"textAlignment"							"west"
+			"textAlignment"							"east"
 			"xpos"									"0"
 			"ypos"									"0"
 			"wide"									"50"
@@ -246,11 +250,6 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"fgcolor"								"255 255 255 255"
-			
-			if_mvm
-			{
-				"visible"							"0"	
-			}
 		}
 		
 		"KillsWhite"
@@ -260,21 +259,16 @@
 			"font"									"ScoreboardVerySmall"
 			"labelText"								"%kills%"
 			"textAlignment"							"west"
-			"xpos"									"50"
+			"xpos"									"55"
 			"ypos"									"0"
-			"wide"									"50"
+			"wide"									"30"
 			"tall"									"10"
 			"zpos"									"40"
 			"autoResize"							"0"
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"fgcolor"								"255 255 255 255"
-			
-			if_mvm
-			{
-				"visible"							"0"	
-			}
+			"fgcolor"								"34 202 66 255"
 		}
 		
 		"DeathsLabel"
@@ -283,9 +277,9 @@
 			"fieldName"								"DeathsLabel"
 			"font"									"ScoreboardVerySmall"
 			"labelText"								"#TF_ScoreBoard_DeathsLabel"
-			"textAlignment"							"west"
-			"xpos"									"0"
-			"ypos"									"10"
+			"textAlignment"							"east"
+			"xpos"									"60"
+			"ypos"									"0"
 			"wide"									"50"
 			"tall"									"10"
 			"zpos"									"3"
@@ -294,11 +288,6 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"fgcolor"								"255 255 255 255"
-			
-			if_mvm
-			{
-				"visible"							"0"	
-			}
 		}
 		
 		"DeathsWhite"
@@ -308,21 +297,16 @@
 			"font"									"ScoreboardVerySmall"
 			"labelText"								"%deaths%"
 			"textAlignment"							"west"
-			"xpos"									"50"
-			"ypos"									"10"
-			"wide"									"50"
+			"xpos"									"115"
+			"ypos"									"0"
+			"wide"									"30"
 			"tall"									"10"
 			"zpos"									"40"
 			"autoResize"							"0"
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"fgcolor"								"255 255 255 255"
-			
-			if_mvm
-			{
-				"visible"							"0"	
-			}
+			"fgcolor"								"255 0 0 255"
 		}
 	}
 	
@@ -542,7 +526,7 @@
 	{
 		"ControlName"								"CTFHudMannVsMachineScoreboard"
 		"fieldName"									"MvMScoreboard"
-		"xpos"										"127"
+		"xpos"										"c-300"
 		"ypos"										"-8"
 		"zpos"										"10"
 		"wide"										"f0"

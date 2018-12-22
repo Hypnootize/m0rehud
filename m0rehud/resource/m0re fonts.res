@@ -2,17 +2,6 @@ Scheme
 {
 	Fonts
 	{
-		Symbols16
-		{
-			"1"
-			{
-				"name"										"Icons"
-				"tall"										"16"
-				"additive"									"0"
-				"antialias" 								"1"
-			}
-		}
-		
 		Coolvetica
 		{
 			"1"
@@ -598,12 +587,6 @@ Scheme
 		{
 			"font" 		"resource/fonts/Blocks.ttf"
 			"name" 		"Blocks"
-		}
-		
-		"11"
-		{
-			"font" 		"resource/fonts/Icons.ttf"
-			"name" 		"Icons"
 		}
 	}
 }

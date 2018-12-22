@@ -11,19 +11,11 @@
 	{
 		"label" 									"Servers"
 		"command" 									"OpenServerBrowser"
-		"OnlyAtMenu"								"1"
 	}
 	"Create"
 	{
 		"label"										"+"
 		"command"									"OpenCreateMultiplayerGameDialog"
-		"OnlyAtMenu"								"1"
-	}
-	"Training"
-	{
-		"label" 									"Offline Practice"
-		"command" 									"offlinepractice"
-		"OnlyAtMenu"								"1"
 	}
 	"Items"
 	{
@@ -45,6 +37,16 @@
 		"label"										"Advanced"
 		"command"									"opentf2options"
 	}
+	"Contracker"
+	{
+		"label"										"Contracker"
+		"command"									"questlog"
+	}
+	"Streams"
+	{
+		"label"										"Streams"
+		"command"									"watch_stream"
+	}
 	"Quit"
 	{
 		"label" 									"Quit"
@@ -57,18 +59,6 @@
 	{
 		"label"										"Scoreboard"
 		"command"									"engine toggle cl_hud_minmode"
-		"OnlyInGame"								"1"
-	}
-	"ServersGame"
-	{
-		"label" 									"Servers"
-		"command" 									"OpenServerBrowser"
-		"OnlyInGame"								"1"
-	}
-	"CreateGame"
-	{
-		"label"										"+"
-		"command"									"OpenCreateMultiplayerGameDialog"
 		"OnlyInGame"								"1"
 	}
 	"Disconnect"
@@ -110,22 +100,5 @@
 		"command"									"OpenAchievementsDialog"
 		"subimage"									"glyph_achievements"
 		"OnlyInGame"								"1"
-	}
-	
-	/////////////////////////RIGHT BUTTONS/////////////////////////
-	"QuestsButton"
-	{
-		"label" 									"d"
-		"command" 									"questlog"
-	}
-	"WatchStreamButton"
-	{
-		"label" 									"q"
-		"command" 									"watch_stream"
-	}
-	"MOTD_ShowButtonPanel"
-	{
-		"label" 									"h"
-		"command" 									"motd_show"
 	}
 }
