@@ -32,7 +32,7 @@
 		"labelText"									"#game_respawntime_in_secs"
 		"textAlignment"								"center"
 		"font"										"default"
-		"fgcolor_override"   						"255 255 255 255"
+		"fgcolor_override"   						"White"
 		
 		"if_mvm"
 		{

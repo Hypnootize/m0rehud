@@ -30,15 +30,15 @@
 		"dulltext"									"0"
 		"brighttext"								"0"
 		"font"										"M0refont24"
-		"fgcolor"   								"255 255 255 255"
+		"fgcolor"   								"White"
 	}
 	
 	"AccountValueShadow"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"AccountValueShadow"
-		"xpos"										"1"
-		"ypos"										"1"
+		"xpos"										"-1"
+		"ypos"										"-1"
 		"zpos"										"2"
 		"wide"										"200"
 		"tall"										"20"
@@ -52,7 +52,11 @@
 		"dulltext"									"0"
 		"brighttext"								"0"
 		"font"										"M0refont24"
-		"fgcolor"   								"0 0 0 255"
+		"fgcolor"   								"Black"
+		
+		"pin_to_sibling"							"AccountValue"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 	}
 	
 	

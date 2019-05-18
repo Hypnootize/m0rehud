@@ -13,8 +13,8 @@
 		"pinCorner"		          					"0"
 		"visible"	          	   					"0"
 		"enabled"	          	   					"1"
+		
 		"image"		          	   					"../hud/color_panel_blu"
-		"image_lodef"	           					"../hud/color_panel_blu"
 		"src_corner_height"	    					"15"
 		"src_corner_width"	     					"15"
 		"draw_corner_width"	     					"0"	
@@ -34,8 +34,8 @@
 		"pinCorner"	        	   					"0"
 		"visible"	          	   					"0"
 		"enabled"	          	   					"1"
+		
 		"image"	          		   					"../hud/color_panel_red"
-		"image_lodef"	           					"../hud/color_panel_red"
 		"src_corner_height"	     					"15"
 		"src_corner_width"	     					"15"
 		"draw_corner_width"	     					"0"	
@@ -61,7 +61,7 @@
 		"ControlName"		       					"Label"
 		"fieldName"		         					"TargetNameLabel"
 		"font"			           					"m0refont11"
-		"fgcolor_override"     						"255 255 255 255"
+		"fgcolor_override"     						"White"
 		"xpos"			           					"40"
 		"ypos"			           					"9"
 		"zpos"			           					"1"
@@ -82,7 +82,7 @@
 		"ControlName"		       					"Label"
 		"fieldName"		        					"TargetDataLabel"
 		"font"			           					"m0refont10"
-		"fgcolor_override"     						"255 255 255 255"
+		"fgcolor_override"     						"White"
 		"xpos"			           					"40"
 		"ypos"			           					"-1"
 		"zpos"			           					"1"
@@ -130,6 +130,7 @@
 		"visible"		          					"0"
 		"enabled"		           					"0"
 	}
+	
 	"MoveableSubPanel"
 	{
 		"ControlName"		   						"EditablePanel"

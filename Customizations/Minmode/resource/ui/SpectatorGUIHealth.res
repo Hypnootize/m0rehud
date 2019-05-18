@@ -36,8 +36,8 @@
 	{
 		"ControlName"								"Label"
 		"fieldName"									"PlayerStatusHealthValueTargetShadow"
-		"xpos"										"-2"
-		"ypos"										"11"
+		"xpos"										"-1"
+		"ypos"										"-1"
 		"zpos"										"20"
 		"wide"										"40"
 		"tall"										"20"
@@ -46,7 +46,11 @@
 		"textAlignment"								"center"	
 		"labeltext"									"%Health%"
 		"font"										"M0refont20"
-		"fgcolor_override"  						"0 0 0 255"
+		"fgcolor_override"  						"Black"
+		
+		"pin_to_sibling"							"PlayerStatusHealthValueTarget"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 	}
 
 	"PlayerStatusPlayerLevel"

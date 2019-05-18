@@ -17,10 +17,10 @@
 		"fgcolor"		    						"Health Numbers"
 	}
 	
-	"PlayerStatusHealthValueSpecguiLow"
+	"PlayerStatusHealthValueSpecguiExtra"
 	{
 		"ControlName"								"ceXLabel"
-		"fieldName"									"PlayerStatusHealthValueSpecguiLow"
+		"fieldName"									"PlayerStatusHealthValueSpecguiExtra"
 		"xpos"			   						 	"0"
 		"ypos"			    						"0"
 		"zpos"			    						"5"
@@ -31,7 +31,12 @@
 		"textAlignment"								"center"	
 		"labeltext"		  							"%Health%"
 		"font"										"m0refont11"
-		"fgcolor"		    						"0 0 0 0"
+		"fgcolor"		    						"Black"
+		"alpha"		    							"0"
+		
+		"pin_to_sibling"							"PlayerStatusHealthValueSpecgui"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 	}
 
 	

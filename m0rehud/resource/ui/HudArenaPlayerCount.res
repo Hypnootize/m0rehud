@@ -5,7 +5,7 @@
 		"ControlName"								"EditablePanel"
 		"fieldName"									"blueteam"
 		"xpos"										"c-33"
-		"ypos"										"-6"
+		"ypos"										"-5"
 		"zpos"										"0"
 		"wide"										"60"
 		"tall"										"30"
@@ -44,8 +44,8 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"countshadow"
-			"xpos"									"1"
-			"ypos"									"1"
+			"xpos"									"-1"
+			"ypos"									"-1"
 			"zpos"									"2"
 			"wide"									"30"
 			"tall"									"25"
@@ -56,22 +56,21 @@
 			"font"									"M0refont24"
 			"labelText"								"%blue_alive%"
 			"textAlignment"							"center"
-			"fgcolor"								"0 0 0 255"
+			"fgcolor"								"Black"
+			
+			"pin_to_sibling"						"count"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_TOPLEFT"
 		}
 		
 		"playerimage"
 		{
 			"ControlName"							"ImagePanel"		
 			"fieldName"								"playerimage"
-			"xpos"									"12"
-			"ypos"									"10"
-			"zpos"									"3"
-			"wide"									"8"
-			"tall"									"16"
+			"wide"									"0"
+			"tall"									"0"
 			"visible"								"0"
-			"enabled"								"1"
-			"image"									"capture_icon_white"
-			"scaleImage"							"1"
+			"enabled"								"0"
 		}
 	}
 
@@ -80,7 +79,7 @@
 		"ControlName"								"EditablePanel"
 		"fieldName"									"redteam"
 		"xpos"										"c6"
-		"ypos"										"-6"
+		"ypos"										"-5"
 		"zpos"										"0"
 		"wide"										"60"
 		"tall"										"30"
@@ -119,8 +118,8 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"countshadow"
-			"xpos"									"1"
-			"ypos"									"1"
+			"xpos"									"-1"
+			"ypos"									"-1"
 			"zpos"									"2"
 			"wide"									"30"
 			"tall"									"25"
@@ -131,22 +130,21 @@
 			"font"									"M0refont24"
 			"labelText"								"%red_alive%"
 			"textAlignment"							"center"
-			"fgcolor"								"0 0 0 255"
+			"fgcolor"								"Black"
+			
+			"pin_to_sibling"						"count"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_TOPLEFT"
 		}
 	
 		"playerimage"
 		{
 			"ControlName"							"ImagePanel"		
 			"fieldName"								"playerimage"
-			"xpos"									"12"
-			"ypos"									"10"
-			"zpos"									"3"
-			"wide"									"8"
-			"tall"									"16"
+			"wide"									"0"
+			"tall"									"0"
 			"visible"								"0"
-			"enabled"								"1"
-			"image"									"capture_icon_white"
-			"scaleImage"							"1"
+			"enabled"								"0"
 		}			
 	}
 }

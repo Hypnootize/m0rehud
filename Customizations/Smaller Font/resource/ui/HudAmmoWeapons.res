@@ -15,7 +15,6 @@
 		"enabled"									"1"
 		"textAlignment"								"east"	
 		"labelText"									"%Ammo%"
-		
 	}	
 	
 	"AmmoInClipShadow"
@@ -23,9 +22,9 @@
 		"ControlName"								"CExLabel"
 		"fieldName"									"AmmoInClipShadow"
 		"font"										"M0refont46"
-		"fgcolor"									"0 0 0 255"
-		"xpos"										"c102"
-		"ypos"										"c62"
+		"fgcolor"									"Black"
+		"xpos"										"-2"
+		"ypos"										"-2"
 		"zpos"										"5"
 		"wide"										"78"
 		"tall"										"150"
@@ -34,7 +33,10 @@
 		"textAlignment"								"east"	
 		"labelText"									"%Ammo%"
 		
-	}	
+		"pin_to_sibling"							"AmmoInClip"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_TOPLEFT"
+	}
 	
 	"AmmoInReserve"
 	{
@@ -43,7 +45,7 @@
 		"font"										"m0refont24"
 		"fgcolor"									"Ammo In Reserve"
 		"xpos"										"c180"
-		"ypos"										"c128"
+		"ypos"										"c127"
 		"zpos"										"7"
 		"wide"										"40"
 		"tall"										"27"
@@ -58,9 +60,9 @@
 		"ControlName"								"CExLabel"
 		"fieldName"									"AmmoInReserveshadow"
 		"font"										"m0refont24"
-		"fgcolor"									"0 0 0 255"
-		"xpos"										"c181"
-		"ypos"										"c129"
+		"fgcolor"									"Black"
+		"xpos"										"-1"
+		"ypos"										"-1"
 		"zpos"										"7"
 		"wide"										"40"
 		"tall"										"27"
@@ -68,8 +70,12 @@
 		"enabled"									"1"
 		"textAlignment"								"west"		
 		"labelText"									"%AmmoInReserve%"
+		
+		"pin_to_sibling"							"AmmoInReserve"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 	}	
-							
+	
 	"AmmoNoClip"
 	{
 		"ControlName"								"CExLabel"
@@ -92,9 +98,9 @@
 		"ControlName"								"CExLabel"
 		"fieldName"									"AmmonoClipshadow"
 		"font"										"M0refont46"
-		"fgcolor"									"0 0 0 255"
-		"xpos"										"c102"
-		"ypos"										"c62"
+		"fgcolor"									"Black"
+		"xpos"										"-2"
+		"ypos"										"-2"
 		"zpos"										"5"
 		"wide"										"150"
 		"tall"										"150"
@@ -103,6 +109,9 @@
 		"textAlignment"								"center"	
 		"labelText"									"%Ammo%"
 		
+		"pin_to_sibling"							"AmmoNoClip"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 	}
 	
 	
@@ -120,7 +129,6 @@
 		"visible"									"0"
 		"enabled"									"0"
 	}
-	
 	"HudWeaponLowAmmoImage"
 	{
 		"ControlName"								"ImagePanel"

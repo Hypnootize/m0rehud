@@ -398,7 +398,7 @@
 						"progress"					"1"
 
 						"fgcolor_override"			"20 20 20 180"
-						"bgcolor_override"			"0 0 0 0"
+						"bgcolor_override"			"Blank"
 						
 						if_mini
 						{

@@ -27,7 +27,7 @@
 		"labelText"									"%countdown%"
 		"textAlignment"								"center"
 		"proportionaltoparent"						"1"
-		"fgcolor"									"255 255 255 255"
+		"fgcolor"									"White"
 
 		if_readymode
 		{
@@ -118,23 +118,11 @@
 		}
 	}
 	
-	"RoundCounter"
-	{
-		"fieldName"									"RoundCounter"
-		"xpos"										"cs-0.5"
-		"ypos"										"-2"
-		"zpos"										"1"		
-		"wide"										"300"
-		"tall"										"0"
-		"visible"									"1"
-		"enabled"									"1"
-	}
-	
 	"RankUpLabel"
 	{	
 		"ControlName"								"CExLabel"
 		"fieldName"									"RankUpLabel"
-		"font"										"HudFontMediumSmallBold"
+		"font"										"m0refont24Shadow"
 		"xpos"										"cs-0.5"
 		"ypos"										"80"
 		"wide"										"600"
@@ -153,29 +141,6 @@
 		"fgcolor"									"TanLight"
 	}
 
-	"RankUpShadowLabel"
-	{	
-		"ControlName"								"CExLabel"
-		"fieldName"									"RankUpShadowLabel"
-		"font"										"HudFontMediumSmallBold"
-		"xpos"										"cs-0.5+2"
-		"ypos"										"80+2"
-		"wide"										"600"
-		"tall"										"60"
-		"zpos"										"5"
-		"autoResize"								"0"
-		"pinCorner"									"0"
-		"visible"									"1"
-		"enabled"									"1"
-		"wrap"										"0"
-		"centerwrap"								"1"
-		"alpha"										"0"
-		"labelText"									"%rank_possibility%"
-		"textAlignment"								"center"
-		"proportionaltoparent"						"1"
-		"fgcolor"									"Black"
-	}
-
 	"ObjectiveStatusTimePanel"
 	{
 		"ControlName"								"EditablePanel"
@@ -184,7 +149,7 @@
 		"ypos"										"1"
 		"zpos"										"5"
 		"wide"										"100"
-		"tall"										"150"
+		"tall"										"50"
 		"visible"									"0"
 		"enabled"									"1"
 		"delta_item_x"								"38"
@@ -200,7 +165,7 @@
 			"ControlName"							"CExLabel"
 			"fieldName"								"TimePanelValue"
 			"font"									"M0refont16"
-			"fgcolor"								"255 255 255 255"
+			"fgcolor"								"White"
 			"xpos"									"26"
 			"ypos"									"-2"
 			"zpos"									"3"
@@ -232,11 +197,11 @@
 
 		"team1_grow_dir" 							"west"
 		"team1_base_x"								"c-45"
-		"team1_max_expand"							"133"
+		"team1_max_expand"							"150"
 
 		"team2_grow_dir" 							"east"
 		"team2_base_x"								"c47"
-		"team2_max_expand"							"133"
+		"team2_max_expand"							"150"
 
 		"playerpanels_kv"
 		{
@@ -326,7 +291,7 @@
 				"textAlignment"						"Left"
 				"dulltext"							"0"
 				"brighttext"						"0"
-				"bgcolor_override"	   				"0 0 0 0"
+				"bgcolor_override"	   				"Blank"
 				"fgcolor_override"	   				"255 255 255 180"
 				"proportionaltoparent"				"1"
 			}
@@ -365,7 +330,7 @@
 				"labelText"							"%respawntime%"
 				"textAlignment"						"center"
 				"proportionaltoparent"				"1"
-				"fgcolor_override"					"255 255 255 255"
+				"fgcolor_override"					"White"
 			}
 			
 			
@@ -728,6 +693,16 @@
 		"visible"									"0"
 		"enabled"									"0"
 	}
+	
+	"RoundCounter"
+	{
+		"fieldName"									"RoundCounter"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
+	}
+	
 	"CountdownLabelShadow"
 	{	
 		"ControlName"								"CExLabel"
@@ -737,9 +712,20 @@
 		"visible"									"0"
 		"enabled"									"0"
 	}
+	
 	"RoundSignModel"
 	{
 		"ControlName"								"CModelPanel"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
+	}
+	
+	"RankUpShadowLabel"
+	{	
+		"ControlName"								"CExLabel"
+		"fieldName"									"RankUpShadowLabel"
 		"wide"										"0"
 		"tall"										"0"
 		"visible"									"0"

@@ -28,7 +28,7 @@
 		"enabled"									"1"
 		"textAlignment"								"center"
 		"labelText"									"A TEAM STOLE THE BALL"
-		"fgcolor_override"							"255 255 255 255"
+		"fgcolor_override"							"White"
 	}
 
 	"EventBonusLabel"
@@ -47,7 +47,8 @@
 		"textAlignment"								"center"
 		"labelText"									""
 		"fgcolor_override"							"255 235 35 200"
-		"pin_to_sibling	"							"EventTitleLabel"
+		
+		"pin_to_sibling"							"EventTitleLabel"
 		"pin_corner_to_sibling"						"6"
 		"pin_to_sibling_corner"						"4"
 	}
@@ -67,10 +68,11 @@
 		"enabled"									"1"
 		"textAlignment"								"center"
 		"labelText"									"A TEAM STOLE THE BALL"
-		fgcolor_override							"255 255 255 255"
-		pin_to_sibling								"EventTitleLabel"
-		pin_corner_to_sibling						"4"
-		pin_to_sibling_corner						"6"
+		"fgcolor_override"							"White"
+		
+		"pin_to_sibling"							"EventTitleLabel"
+		"pin_corner_to_sibling"						"4"
+		"pin_to_sibling_corner"						"6"
 	}
 
 	"ProgressLevelBar"
@@ -170,7 +172,6 @@
 		"image"										"../passtime/hud/passtime_goal_blue_icon"
 		"scaleImage"								"1"	
 	}
-
 
 	"GoalRed0"
 	{
@@ -394,8 +395,6 @@
 			}
 		}
 	}
-
-
 
 	"playericon0"
 	{

@@ -1,6 +1,6 @@
 Resource/UI/HudPasstimePassNotify.res
 {
-	HudPasstimePassNotify
+	"HudPasstimePassNotify"
 	{
 		"ControlName" 								"EditablePanel"
 		"fieldName" 								"HudPasstimePassNotify"
@@ -13,7 +13,7 @@ Resource/UI/HudPasstimePassNotify.res
 		"enabled" 									"1"
 	}
 
-	TextBox
+	"TextBox"
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName" 								"TextBox"
@@ -27,7 +27,7 @@ Resource/UI/HudPasstimePassNotify.res
 		"border"									"TFFatLineBorder"
 		"RoundedCorners"							"255"
 
-		TextInPassRange
+		"TextInPassRange"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName" 							"TextInPassRange"
@@ -42,10 +42,10 @@ Resource/UI/HudPasstimePassNotify.res
 			"centerwrap"							"1"
 			"textAlignment" 						"center"
 			"labelText" 							"#Msg_PasstimeInPassRange"
-			"fgcolor_override" 						"255 255 255 255"
+			"fgcolor_override" 						"White"
 		}
 
-		TextLockedOn
+		"TextLockedOn"
 		{
 			"ControlName" 							"CExLabel"
 			"fieldName"								"TextLockedOn"
@@ -60,10 +60,10 @@ Resource/UI/HudPasstimePassNotify.res
 			"centerwrap"							"1"
 			"textAlignment" 						"center"
 			"labelText" 							"#Msg_PasstimeLockedOn"
-			"fgcolor_override" 						"255 255 255 255"
+			"fgcolor_override" 						"White"
 		}
 
-		TextPassIncoming
+		"TextPassIncoming"
 		{
 			"ControlName" 							"CExLabel"
 			"fieldName" 							"TextPassIncoming"
@@ -78,10 +78,10 @@ Resource/UI/HudPasstimePassNotify.res
 			"centerwrap"							"1"
 			"textAlignment" 						"center"
 			"labelText" 							"#Msg_PasstimePassIncoming"
-			"fgcolor_override" 						"255 255 255 255"
+			"fgcolor_override" 						"White"
 		}
 
-		TextPlayerName
+		"TextPlayerName"
 		{
 			"ControlName" 							"CExLabel"
 			"fieldName"								"TextPlayerName"
@@ -112,6 +112,7 @@ Resource/UI/HudPasstimePassNotify.res
 		"enabled"									"1"
 		"scaleImage" 								"1"
 		"image" 									"../passtime/hud/passtime_ball_reticle_incomingpass"
+		
 		"pin_to_sibling" 							"TextBox"
 		"pin_corner_to_sibling" 					"0"
 		"pin_to_sibling_corner" 					"1"
@@ -130,6 +131,7 @@ Resource/UI/HudPasstimePassNotify.res
 		"enabled" 									"1"
 		"scaleImage" 								"1"
 		"image" 									"../passtime/hud/passtime_pass_to_me_prompt"
+		
 		"pin_to_sibling" 							"TextBox"
 		"pin_corner_to_sibling" 					"1"
 		"pin_to_sibling_corner" 					"0"

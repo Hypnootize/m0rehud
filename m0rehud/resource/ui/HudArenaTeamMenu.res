@@ -15,30 +15,204 @@
 		"tabPosition"								"0"
 	}
 	
-	"SysMenu"
+	"MapName"
 	{
-		"ControlName"								"Menu"
-		"fieldName"									"SysMenu"
-		"xpos"										"0"
-		"ypos"										"0"
-		"wide"										"64"
-		"tall"										"24"
-		"autoResize"								"0"
-		"pinCorner"									"0"
+		"ControlName"	  							"Label"
+		"fieldName"		  							"MapName"
+		"xpos"			  							"c-300"
+		"ypos"			  							"110"
+		"zpos"			  							"1"
+		"wide"			  							"600"
+		"tall"			  							"24"
+		"autoResize"	  							"0"
+		"pinCorner"		  							"0"
+		"visible"		  							"0"		//1 to enable
+		"enabled"		  							"1"
+		"textAlignment"	  							"center"
+		"font"			  							"M0refont24"
+		"fgcolor"		  							"White"
+	}
+	
+	"TeamsAnchor"									//THIS MOVES THE WHOLE TEAM MENU
+	{
+		"ControlName"								"EditablePanel"
+		"fieldname"									"TeamsAnchor"
+		"xpos"										"c-2"
+		"ypos"										"c-6"
+		"wide"										"10"
+		"tall"										"10"
 		"visible"									"0"
 		"enabled"									"0"
-		"tabPosition"								"0"
+	}
+	
+	"WhiteBar"
+	{	
+		"ControlName"		  						"ScalableImagePanel"
+		"fieldname"      							"WhiteBar"
+		"xpos"		    	  						"0"
+		"ypos"		    	  						"0"
+		"zpos"           							"0"
+		"wide"		    	  						"4"
+		"tall"		    	  						"12"
+		"autoResize"  	  							"0"
+		"pinCorner" 		  						"0"
+		"visible"	    	  						"1"
+		"enabled"		      						"1"
+		"fillcolor"       							"White"
+		
+		"pin_to_sibling"							"TeamsAnchor"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_TOPLEFT"
+	}
+	
+	"FightBar"
+	{
+		"ControlName"     		  					"ScalableImagePanel"
+		"fieldName"	        	  					"FightBar"
+		"xpos"			            				"-1"
+		"ypos"		          	  					"0"
+		"zpos"		          	  					"1"		
+		"wide"			            				"125"
+		"tall"			            				"12"
+		"autoResize"        	  					"0"
+		"pinCorner"		          					"0"
+		"visible"	          	  					"1"
+		"enabled"	          	  					"1"
+		
+		"image"		          	  					"../HUD/tournament_panel_red"
+		"src_corner_height"	    					"15"
+		"src_corner_width"	    					"15"
+		"draw_corner_width"	    					"0"	
+		"draw_corner_height"    					"0"
+		
+		"pin_to_sibling"							"WhiteBar"
+		"pin_corner_to_sibling"						"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"						"PIN_TOPLEFT"
+	}
+	
+	"SpectateBar"
+	{
+		"ControlName"		        				"ImagePanel"
+		"fieldName"	        	  					"SpectateBar"		
+		"xpos"		          	  					"-1"
+		"ypos"		          	  					"0"
+		"zpos"		          	  					"1"		
+		"wide"		          	  					"125"
+		"tall"		          	  					"12"
+		"autoResize"	          					"0"
+		"pinCorner"	        	  					"0"
+		"visible"	          	  					"1"
+		"enabled"		           					"1"
+		"fillcolor"     							"60 60 60 255"
+		
+		"pin_to_sibling"							"WhiteBar"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
+	}
+	
+	"FightCount"
+	{
+		"ControlName"	  							"CExLabel"
+		"fieldName"		  							"FightCount"
+		"xpos"			  							"-5"
+		"ypos"			  							"15"
+		"zpos"			  							"2"
+		"wide"			  							"120"
+		"tall"			  							"36"
+		"autoResize"	  							"0"
+		"pinCorner"		  							"0"
+		"visible"		  							"1"
+		"enabled"		  							"1"
+		"labelText"		  							"1"
+		"textAlignment"	  							"east"
+		"font"			  							"M0refont36"
+		"fgcolor"		  							"White"
+		
+		"pin_to_sibling"							"FightBar"
+		"pin_corner_to_sibling"						"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
+	}
+	
+	"SpectateCount"
+	{
+		"ControlName"	  							"CExLabel"
+		"fieldName"		  							"SpectateCount"
+		"xpos"			  							"-5"
+		"ypos"			  							"15"
+		"zpos"			  							"2"
+		"wide"			  							"120"
+		"tall"			  							"36"
+		"visible"		  							"1"
+		"enabled"		  							"1"
+		"labelText"		  							"2"
+		"textAlignment"	  							"west"
+		"font"			  							"M0refont36"
+		"fgcolor"		  							"White"
+		
+		"pin_to_sibling"							"SpectateBar"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_TOPLEFT"
+	}
+	
+	"FightLabel"
+	{
+		"ControlName"	  							"CExLabel"
+		"fieldName"		  							"FightLabel"
+		"xpos"			  							"-2"
+		"ypos"			  							"0"
+		"zpos"			  							"2"
+		"wide"			  							"125"
+		"tall"			  							"12"
+		"visible"		  							"1"
+		"enabled"		  							"1"
+		"labelText"		  							"FIGHT"
+		"textAlignment"	  							"west"
+		"font"			  							"Default"
+		"fgcolor"		  							"White"
+		"autoResize"	  							"0"
+		"pinCorner"		  							"0"
+		"dulltext"		  							"0"
+		"brighttext"	  							"1"
+		
+		"pin_to_sibling"							"FightBar"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_TOPLEFT"
+	}		
+	
+	"SpectateLabel"
+	{
+		"ControlName"	  							"CExLabel"
+		"fieldName"		  							"SpectateLabel"
+		"xpos"			  							"-2"
+		"ypos"			  							"0"
+		"zpos"			  							"2"
+		"wide"			  							"125"
+		"tall"			  							"12"
+		"visible"		  							"1"
+		"enabled"		  							"1"
+		"labelText"		  							"SPECTATE"
+		"textAlignment"	  							"east"
+		"font"			  							"Default"
+		"fgcolor"		  							"White"
+		"autoResize"	  							"0"
+		"pinCorner"		  							"0"
+		"dulltext"		  							"0"
+		"brighttext"	  							"1"
+		
+		"pin_to_sibling"							"SpectateBar"
+		"pin_corner_to_sibling"						"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 	}
 	
 	"teambutton2"
 	{
 		"ControlName"								"CTFTeamButton"
 		"fieldName"									"teambutton2"
-		"xpos"										"c-125"
-		"ypos"										"c-7"
-		"zpos"										"3"		
-		"wide"										"124"
-		"tall"										"12"
+		"xpos"			  							"0"
+		"ypos"			  							"0"
+		"zpos"			  							"3"		
+		"wide"			  							"125"
+		"tall"			  							"12"
 		"autoResize"								"0"
 		"pinCorner"									"2"
 		"visible"									"1"
@@ -53,17 +227,21 @@
 		"associated_model"							"autodoor"
 		"font"										"invisiblelolol"
 		"fgcolor"									"255 255 255 0"
+		
+		"pin_to_sibling"							"FightBar"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 	}
 	
 	"teambutton3"
 	{
 		"ControlName"								"CTFTeamButton"
 		"fieldName"									"teambutton3"
-		"xpos"										"c1"
-		"ypos"										"c-7"
-		"zpos"										"3"		
-		"wide"										"124"
-		"tall"										"12"
+		"xpos"			  							"0"
+		"ypos"			  							"0"
+		"zpos"			  							"3"		
+		"wide"			  							"125"
+		"tall"			  							"12"
 		"autoResize"								"0"
 		"pinCorner"									"2"
 		"visible"									"1"
@@ -78,138 +256,10 @@
 		"associated_model"							"spectate"	
 		"font"										"invisiblelolol"
 		"fgcolor"									"255 255 255 0"
-	}
-	
-	"TeamMenuFight"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"TeamMenuFIght"
-		"xpos"										"c-115"
-		"ypos"										"c-6"
-		"zpos"										"2"
-		"wide"										"124"
-		"tall"										"12"
-		"autoResize"								"0"
-		"pinCorner"									"0"
-		"visible"									"1"
-		"enabled"									"1"
-		"labelText"									"FIGHT"
-		"textAlignment"								"left"
-		"dulltext"									"0"
-		"brighttext"								"0"
-		"wrap"										"0"
-		"font"										"Default"
-		"fgcolor"									"255 255 255 255"
-	}
-	
-	"TeamMenuSpectate"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"TeamMenuSpectate"
-		"xpos"										"c1"
-		"ypos"										"c-6"
-		"zpos"										"2"
-		"wide"										"114"
-		"tall"										"12"
-		"autoResize"								"0"
-		"pinCorner"									"0"
-		"visible"									"1"
-		"enabled"									"1"
-		"labelText"									"SPECTATE"
-		"textAlignment"								"east"
-		"dulltext"									"0"
-		"brighttext"								"0"
-		"wrap"										"0"
-		"font"										"Default"
-		"fgcolor"									"255 255 255 255"
-	}
-	
-	"FightCount"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"FightCount"
-		"xpos"										"c-125"
-		"ypos"										"c-20"
-		"zpos"										"2"
-		"wide"										"120"
-		"tall"										"36"
-		"autoResize"								"0"
-		"pinCorner"									"0"
-		"visible"									"1"
-		"enabled"									"1"
-		"labelText"									"1"
-		"textAlignment"								"east"
-		"font"										"M0refont36"
-		"fgcolor"									"255 255 255 255"
-	}		
-	
-	"SpectateCount"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"SpectateCount"
-		"xpos"										"c5"
-		"ypos"										"c-20"
-		"zpos"										"2"
-		"wide"										"120"
-		"tall"										"36"
-		"visible"									"1"
-		"enabled"									"1"
-		"labelText"									"2"
-		"textAlignment"								"west"
-		"font"										"M0refont36"
-		"fgcolor"									"255 255 255 255"
-	}
-	
-	"FightFrame"
-	{
-		"ControlName"     							"ScalableImagePanel"
-		"fieldName"	        						"FightFrame"
-		"xpos"			          					"c-125"
-		"ypos"		          						"c-6"
-		"zpos"		          						"1"		
-		"wide"			          					"124"
-		"tall"			          					"12"
-		"autoResize"        						"0"
-		"pinCorner"		       					 	"0"
-		"visible"	          						"1"
-		"enabled"	          						"1"
-		"image"		           						"../HUD/tournament_panel_red"
-		"src_corner_height"	  						"15"
-		"src_corner_width"	  						"15"
-		"draw_corner_width"	  						"0"	
-		"draw_corner_height"  						"0"
-	}
-	
-	"Tournamenttransbar"
-	{	
-		"ControlName"								"ImagePanel"
-		"fieldname"     							"tournamenttransbar"
-		"xpos"		    							"c-6"
-		"ypos"		    							"c-6"
-		"zpos"         								"-20"
-		"wide"		    							"20"
-		"tall"		    							"12"
-		"autoResize"  								"0"
-		"pinCorner" 								"0"
-		"visible"	    							"1"
-		"enabled"		   						 	"1"
-		"fillcolor"     							"255 255 255 255"
-	}
-	
-	"SpectateFrame"
-	{
-		"ControlName"								"ImagePanel"
-		"fieldName"	        						"SpectateFrame"		
-		"xpos"		          						"c1"
-		"ypos"		          						"c-6"
-		"zpos"		          						"1"		
-		"wide"		          						"124"
-		"tall"		          						"12"
-		"autoResize"	       					 	"0"
-		"pinCorner"	        						"0"
-		"visible"	          						"1"
-		"enabled"									"1"
-		"fillcolor"     							"60 60 60 255"
+		
+		"pin_to_sibling"							"SpectateBar"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 	}
 	
 	"MenuBG"
@@ -235,8 +285,6 @@
 			"angles_y" 								"180"
 			"angles_z" 								"0"
 			"origin_x" 								"290"
-			"origin_x_hidef" 						"305"
-			"origin_x_lodef" 						"320"
 			"origin_y" 								"0"
 			"origin_z" 								"-34"
 		}
@@ -265,8 +313,6 @@
 			"angles_y" 								"180"
 			"angles_z" 								"0"
 			"origin_x" 								"290"
-			"origin_x_lodef" 						"320"
-			"origin_x_hidef" 						"305"
 			"origin_y"							 	"0"
 			"origin_z" 								"-34"
 			
@@ -314,8 +360,6 @@
 			"angles_y" 								"180"
 			"angles_z" 								"0"
 			"origin_x" 								"290"
-			"origin_x_lodef" 						"320"
-			"origin_x_hidef" 						"305"
 			"origin_y" 								"0"
 			"origin_z" 								"-34"
 			
@@ -346,7 +390,22 @@
 	
 	
 	//////////////////////////////////REMOVED STUFF//////////////////////////////////
-
+	
+	"SysMenu"
+	{
+		"ControlName"	  							"Menu"
+		"fieldName"		  							"SysMenu"
+		"xpos"			  							"0"
+		"ypos"			  							"0"
+		"wide"			  							"64"
+		"tall"			  							"24"
+		"autoResize"	  							"0"
+		"pinCorner"		  							"0"
+		"visible"		  							"0"
+		"enabled"		  							"0"
+		"tabPosition"	  							"0"
+	}
+	
 	"MapInfo"
 	{
 		"ControlName"								"HTML"
@@ -356,15 +415,17 @@
 		"visible"									"0"
 		"enabled"									"0"
 	}
-	"mapname"
+	
+	"CancelButton"
 	{
-		"ControlName"								"Label"
-		"fieldName"									"mapname"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
+		"ControlName"	  							"CExButton"
+		"fieldName"		  							"CancelButton"
+		"wide"			  							"0"
+		"tall"			  							"0"
+		"visible"		  							"0"
+		"enabled"		  							"0"
 	}
+	
 	"ShadedBar"
 	{
 		"ControlName"								"ImagePanel"

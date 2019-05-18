@@ -33,7 +33,7 @@
 		"dulltext"									"0"
 		"brighttext"								"0"
 		"font"										"DefaultVerySmall"
-		"fgcolor_override"							"255 255 255 255"
+		"fgcolor_override"							"White"
 	}
 
 	"ItemEffectMeter"

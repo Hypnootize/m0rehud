@@ -3,7 +3,7 @@
 	/////////////////////////MAIN MENU/////////////////////////
 	"Version"
 	{
-		"label" 									"m0rehud 5.4" 
+		"label" 									"m0rehud 5.5" 
 		"command" 									"engine showconsole; echo m0rehud by Hypnotize @ www.teamfortress.tv/34115/m0re-hud all credits to m0re"
 		"OnlyAtMenu"								"1"
 	}
@@ -91,8 +91,8 @@
 	{
 		"label"										""
 		"command"									"OpenReportPlayerDialog"
-		"OnlyInGame"								"1"
 		"subimage"									"glyph_alert"
+		"OnlyInGame"								"1"
 	}
 	"Achievements"
 	{

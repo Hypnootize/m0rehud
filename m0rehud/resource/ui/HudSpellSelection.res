@@ -13,21 +13,40 @@
 		"enabled"									"1"
 		"scaleImage"								"1"	
 		"image"										"../signs/death_wheel_whammy"
-		"fgcolor"									"255 255 255 255"
+		"fgcolor"									"White"
 	}
 	
 	"CountText"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"CountText"
-		"font"										"m0refont24Shadow"
+		"font"										"m0refont24"
 		"labelText"									"%counttext%"
 		"textAlignment" 							"center"
 		"xpos"										"40"
 		"ypos"										"22"
+		"zpos"										"1"
 		"wide"										"20"
 		"tall"										"19"
-		"fgcolor"									"255 255 255 255"
+		"fgcolor"									"White"
+	}
+	
+	"CountTextShadow"
+	{
+		"ControlName"								"CExLabel"
+		"fieldName"									"CountTextShadow"
+		"font"										"m0refont24"
+		"labelText"									"%counttext%"
+		"textAlignment" 							"center"
+		"xpos"										"-1"
+		"ypos"										"-1"
+		"wide"										"20"
+		"tall"										"19"
+		"fgcolor"									"Black"
+		
+		"pin_to_sibling"							"CountText"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 	}
 	
 	"ActionText"
@@ -41,7 +60,7 @@
 		"ypos"										"48"
 		"wide"										"100"
 		"tall"										"10"
-		"fgcolor"									"255 255 255 255"
+		"fgcolor"									"White"
 		"visible"									"1"
 	}
 	

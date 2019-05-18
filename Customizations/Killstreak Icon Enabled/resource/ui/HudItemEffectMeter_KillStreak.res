@@ -31,15 +31,15 @@
 		"dulltext"									"0"
 		"brighttext"								"0"
 		"font"										"m0refont18"
-		"fgcolor"									"255 255 255 255"
+		"fgcolor"									"White"
 	}
 	
 	"ItemEffectMeterCountShadow"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"ItemEffectMeterCountShadow"
-		"xpos"										"1"
-		"ypos"										"1"
+		"xpos"										"-1"
+		"ypos"										"-1"
 		"zpos"										"2"
 		"wide"										"46"
 		"tall"										"16"	
@@ -52,7 +52,11 @@
 		"dulltext"									"0"
 		"brighttext"								"0"
 		"font"										"m0refont18"
-		"fgcolor"									"0 0 0 255"
+		"fgcolor"									"Black"
+		
+		"pin_to_sibling"							"AccountValue"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 	}
 	
 	

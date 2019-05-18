@@ -30,12 +30,12 @@
 		"font"										"m0refont14"
 	}
 	
-	"DamageAccountValueBG"
+	"DamageAccountValueShadow"
 	{
 		"ControlName"								"CExLabel"
-		"fieldName"									"DamageAccountValueBG"
-		"xpos"										"c-140"
-		"ypos"										"r200"
+		"fieldName"									"DamageAccountValueShadow"
+		"xpos"										"0"
+		"ypos"										"0"
 		"zpos"										"1"
 		"wide"										"102"
 		"tall"										"27"
@@ -43,7 +43,11 @@
 		"enabled"									"1"
 		"labelText"									"%metal%"
 		"textAlignment"								"center"
-		"fgcolor"									"0 0 0 255"
+		"fgcolor"									"Black"
 		"font"										"m0refont14"
+		
+		"pin_to_sibling"							"DamageAccountValue"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 	}
 }

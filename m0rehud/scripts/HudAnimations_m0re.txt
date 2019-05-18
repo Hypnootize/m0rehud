@@ -1,295 +1,250 @@
-//  ____________________
-// | M0rehud animations |
-//  ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
 //====================================================================================================================
 
 event HudHealthBonusPulse
 {
-	Animate	PlayerStatusHealthBonusImage 		Alpha		"255"								Linear 	0.0 0.2
-	Animate	PlayerStatusHealthBonusImage 		Alpha		"0"									Linear 	0.2 0.4
+	Animate	PlayerStatusHealthBonusImage 			Alpha		"255"								Linear 	0.0 0.2
+	Animate	PlayerStatusHealthBonusImage 			Alpha		"0"									Linear 	0.2 0.4
 	
-	Animate PlayerStatusHealthValueShadow 		Alpha 		"255" 								Linear 	0.0 0.01
-	Animate PlayerStatusHealthValueShadow 		FgColor 	"Buffed Health" 					Accel 	0.0 0.0
+	Animate PlayerStatusHealthValueShadow 			FgColor 	"Health Buff" 						Accel 	0.0 0.0
+	Animate PlayerStatusHealthValueShadowExtra 		Alpha 		"255" 								Accel 	0.0 0.0
+	
+	Animate PlayerStatusHealthValueTarget 			FgColor 	"Health Buff Target" 				Linear 	0.0 0.0
+	
+	Animate PlayerStatusHealthValueSpecgui 			FgColor 	"Health Buff Spec" 					Accel 	0.0 0.0
+	Animate PlayerStatusHealthValueSpecguiExtra 	Alpha 		"255" 								Linear 	0.0 0.0
+	
+	Animate PlayerStatusHealthValueShadowKiller 	FgColor 	"Health Buff" 						Accel 	0.0 0.0
 
-	Animate PlayerStatusHealthValueShadowExtra 	Alpha 		"255" 								Linear 	0.0 0.01
-	Animate PlayerStatusHealthValueShadowExtra 	FgColor 	"0 0 0 255" 						Accel 	0.0 0.0
-	
-	Animate PlayerStatusHealthValueTarget 		Alpha 		"255" 								Linear 	0.0 0.0
-	Animate PlayerStatusHealthValueTarget 		FgColor 	"Buffed Health Target" 				Linear 	0.0 0.0
-	
-	Animate PlayerStatusHealthvalueSpecgui 		Alpha 		"255"								linear 	0.0 0.01
-	Animate PlayerStatusHealthvalueSpecgui 		FgColor 	"Buffed Health Spec" 				Accel 	0.0 0.0
-
-	Animate PlayerStatusHealthValueSpecguiLow 	Alpha 		"255" 								Linear 	0.0 0.0
-	Animate PlayerStatusHealthValueSpecguiLow 	FgColor 	"0 0 0 255" 						Linear 	0.0 0.0
-	
-	Animate PlayerStatusHealthValueShadowKiller Alpha 		"255" 								Linear 	0.0 0.01
-	Animate PlayerStatusHealthValueShadowKiller FgColor 	"Buffed Health" 					Accel 	0.0 0.0
-			
-	RunEvent HudHealthBonusPulseLoop			0.4
-	
+	RunEvent HudHealthBonusPulseLoop				0.4
 }
 
 event HudHealthBonusPulseLoop
 {
-	RunEvent HudHealthBonusPulse				0.0
+	RunEvent HudHealthBonusPulse					0.0
 }
 
 event HudHealthBonusPulseStop
 {
-	StopEvent HudHealthBonusPulse 				0.0
-	StopEvent HudHealthBonusPulseLoop			0.0
+	StopEvent HudHealthBonusPulse 					0.0
+	StopEvent HudHealthBonusPulseLoop				0.0
 	
-	Animate PlayerStatusHealthValueShadow		Alpha 		"255" 								Linear 	0.0 0.01
-	Animate PlayerStatusHealthValueShadow 		FgColor 	"0 0 0 255" 						Accel 	0.0 0.0
-
-	Animate PlayerStatusHealthValueShadowExtra 	Alpha 		"0" 								Linear 	0.0 0.01
-	Animate PlayerStatusHealthValueShadowExtra 	FgColor 	"0 0 0 0"							Accel 	0.0 0.0
+	Animate PlayerStatusHealthValueShadow 			FgColor 	"Black" 							Accel 	0.0 0.0
+	Animate PlayerStatusHealthValueShadowExtra 		Alpha 		"0"									Accel 	0.0 0.0
 	
-	Animate PlayerStatusHealthValueTarget 		Alpha 		"255" 								Linear 	0.0 0.0
-	Animate PlayerStatusHealthValueTarget 		FgColor 	"Health Numbers" 					Linear 	0.0 0.0
+	Animate PlayerStatusHealthValueTarget 			FgColor 	"Health Numbers" 					Linear 	0.0 0.0
 	
-	Animate PlayerStatusHealthvalueSpecgui 		Alpha 		"255" 								Linear 	0.0 0.0
-	Animate PlayerStatusHealthvalueSpecgui 		FgColor 	"Health Numbers" 					Accel	0.0 0.0
+	Animate PlayerStatusHealthvalueSpecgui 			FgColor 	"Health Numbers" 					Accel	0.0 0.0
+	Animate PlayerStatusHealthValueSpecguiExtra 	Alpha 		"0" 								Accel 	0.0 0.0
 	
-	Animate PlayerStatusHealthvalueSpecguiLow 	Alpha 		"0" 								Linear 	0.0 0.0
-	Animate PlayerStatusHealthvalueSpecguiLow 	FgColor 	"0 0 0 0" 							Accel 	0.0 0.0
-	
-	Animate PlayerStatusHealthValueShadowKiller Alpha 		"255" 								Linear 	0.0 0.01
-	Animate PlayerStatusHealthValueShadowKiller FgColor 	"0 0 0 255" 						Linear 	0.0 0.0
+	Animate PlayerStatusHealthValueShadowKiller 	FgColor 	"Black" 							Linear 	0.0 0.0
 }
 
 //====================================================================================================================
 
 event HudHealthDyingPulse
 {
-	Animate	PlayerStatusHealthBonusImage 		Alpha		"255"								Linear 	0.0 0.075
-	Animate	PlayerStatusHealthBonusImage 		Alpha		"0"									Linear 	0.125 0.075
+	Animate	PlayerStatusHealthBonusImage 			Alpha		"255"								Linear 	0.0 0.075
+	Animate	PlayerStatusHealthBonusImage 			Alpha		"0"									Linear 	0.125 0.075
 	
-	Animate PlayerStatusHealthValueShadow 		Alpha 		"255" 								Linear 	0.0 0.0
-	Animate PlayerStatusHealthValueShadow 		FgColor 	"Low Health" 						Accel 	0.0 0.0
+	Animate PlayerStatusHealthValueShadow 			FgColor 	"Health Hurt" 						Accel 	0.0 0.0
+	Animate PlayerStatusHealthValueShadowExtra 		Alpha 		"255" 								Accel	0.0 0.0
+	
+	Animate PlayerStatusHealthValueTarget 			FgColor 	"Health Hurt Target" 				Linear 	0.0 0.0
+	
+	Animate PlayerStatusHealthvalueSpecgui 			FgColor 	"Health Hurt Spec" 					Linear 	0.0 0.0
+	Animate PlayerStatusHealthValueSpecguiExtra 	Alpha 		"255" 								Linear 	0.0 0.0
+	
+	Animate PlayerStatusHealthValueShadowKiller 	FgColor 	"Health Hurt" 						Accel 	0.0 0.0
 
-	Animate PlayerStatusHealthValueShadowExtra 	Alpha 		"255" 								Linear 	0.0 0.0
-	Animate PlayerStatusHealthValueShadowExtra 	FgColor 	"0 0 0 255" 						Accel	0.0 0.0
-	
-	Animate PlayerStatusHealthValueTarget 		Alpha 		"255" 								Linear 	0.0 0.0
-	Animate PlayerStatusHealthValueTarget 		FgColor 	"Low Health Target" 				Linear 	0.0 0.0
-	
-	Animate PlayerStatusHealthvalueSpecgui 		Alpha 		"255" 								Linear 	0.0 0.0
-	Animate PlayerStatusHealthvalueSpecgui 		FgColor 	"Low Health Spec" 					Linear 	0.0 0.0
-	
-	Animate PlayerStatusHealthValueSpecguiLow 	Alpha 		"255" 								Linear 	0.0 0.0
-	Animate PlayerStatusHealthValueSpecguiLow 	FgColor 	"0 0 0 255" 						Linear 	0.0 0.0
-	
-	Animate PlayerStatusHealthValueShadowKiller Alpha 		"255" 								Linear 	0.0 0.01
-	Animate PlayerStatusHealthValueShadowKiller FgColor 	"Low Health" 						Accel 	0.0 0.0
-
-	RunEvent HudHealthDyingPulseLoop			0.25
+	RunEvent HudHealthDyingPulseLoop				0.25
 }
 
 event HudHealthDyingPulseLoop
 {
-	RunEvent HudHealthDyingPulse				0.0
+	RunEvent HudHealthDyingPulse					0.0
 }
 
 event HudHealthDyingPulseStop
 {
-	StopEvent HudHealthDyingPulse				0.0
-	StopEvent HudHealthDyingPulseLoop 			0.0
+	StopEvent HudHealthDyingPulse					0.0
+	StopEvent HudHealthDyingPulseLoop 				0.0
 	
-	Animate PlayerStatusHealthValueShadow 		Alpha 		"255" 								Linear 	0.0 0.01
-	Animate PlayerStatusHealthValueShadow 		FgColor 	"0 0 0 255" 						Accel 	0.0 0.0
+	Animate PlayerStatusHealthValueShadow 			FgColor 	"Black" 							Accel 	0.0 0.0
+	Animate PlayerStatusHealthValueShadowExtra 		Alpha 		"0" 								Accel 	0.0 0.0
 	
-	Animate PlayerStatusHealthValueShadowExtra 	Alpha 		"0" 								Linear 	0.0 0.0
-	Animate PlayerStatusHealthValueShadowExtra 	FgColor 	"0 0 0 0" 							Accel 	0.0 0.0
+	Animate PlayerStatusHealthValueTarget 			FgColor 	"Health Numbers" 					Accel 	0.0 0.0
 	
-	Animate PlayerStatusHealthValueTarget 		Alpha 		"255"								Linear 	0.0 0.0
-	Animate PlayerStatusHealthValueTarget 		FgColor 	"Health Numbers" 					Accel 	0.0 0.0
+	Animate PlayerStatusHealthvalueSpecgui 			FgColor 	"Health Numbers" 					Accel 	0.0 0.0
+	Animate PlayerStatusHealthValueSpecguiExtra 	Alpha 		"0" 								Accel 	0.0 0.0
 	
-	Animate PlayerStatusHealthvalueSpecgui 		Alpha 		"255" 								Linear 	0.0 0.0
-	Animate PlayerStatusHealthvalueSpecgui 		FgColor 	"Health Numbers" 					Accel 	0.0 0.0
-	
-	Animate PlayerStatusHealthvalueSpecguiLow 	Alpha 		"0" 								Linear 	0.0 0.0
-	Animate PlayerStatusHealthvalueSpecguiLow 	FgColor 	"0 0 0 0" 							Accel 	0.0 0.0
-	
-	Animate PlayerStatusHealthValueShadowKiller Alpha 		"255" 								Linear 	0.0 0.0
-	Animate PlayerStatusHealthValueShadowKiller FgColor 	"0 0 0 255" 						Linear 	0.0 0.0
+	Animate PlayerStatusHealthValueShadowKiller 	FgColor 	"Black" 							Linear 	0.0 0.0
 }
 
 //====================================================================================================================
 
 event HudLowAmmoPulse
 {
-
-	Animate AmmoInClipShadow 					Alpha 		"255" 								Linear 	0.0 0.0
-	Animate AmmoInClipShadow 					FgColor 	"Low Ammo In Clip" 					Linear 	0.0 0.0
+	Animate AmmoInClipShadow 						FgColor 	"Ammo In Clip Low" 					Linear 	0.0 0.0
+	Animate AmmoInReserveShadow 					FgColor 	"Ammo In Reserve Low" 				Linear 	0.0 0.0
+	Animate AmmoNoClipShadow						FgColor 	"Ammo No Clip Low" 					Linear 	0.0 0.0
 	
-	Animate AmmoInReserveShadow 				Alpha 		"255" 								Linear 	0.0 0.0
-	Animate AmmoInReserveShadow 				FgColor 	"Low Ammo In Reserve" 				Linear 	0.0 0.0
-	
-	Animate AmmoNoClipShadow 					Alpha 		"255" 								Linear 	0.0 0.0
-	Animate AmmoNoClipShadow					FgColor 	"Low Ammo No Clip" 					Linear 	0.0 0.0
-	
-	RunEvent HudLowAmmoPulseLoop				0.25
+	RunEvent HudLowAmmoPulseLoop					0.25
 }	
 
 event HudLowAmmoPulseLoop
 {
-	RunEvent HudLowAmmoPulse					0.0
+	RunEvent HudLowAmmoPulse						0.0
 }
 
 event HudLowAmmoPulseStop
 {
-	StopEvent HudLowAmmoPulse 					0.0
-	StopEvent HudLowAmmoPulseLoop 				0.0
+	StopEvent HudLowAmmoPulse 						0.0
+	StopEvent HudLowAmmoPulseLoop 					0.0
 	
-	Animate AmmoInClipShadow 					Alpha 		"255" 								Linear 	0.0 0.0
-	Animate AmmoInClipShadow 					FgColor 	"0 0 0 255" 						Linear 	0.0 0.0
-	
-	Animate AmmoInReserveShadow 				Alpha 		"255" 								Linear 	0.0 0.0
-	Animate AmmoInReserveShadow 				FgColor 	"0 0 0 255" 						Linear 	0.0 0.0
-	
-	Animate AmmoNoClipShadow 					Alpha 		"255" 								Linear 	0.0 0.0
-	Animate AmmoNoClipShadow 					FgColor 	"0 0 0 255" 						Linear 	0.0 0.0
+	Animate AmmoInClipShadow 						FgColor 	"Black" 							Linear 	0.0 0.0
+	Animate AmmoInReserveShadow 					FgColor 	"Black" 							Linear 	0.0 0.0
+	Animate AmmoNoClipShadow 						FgColor 	"Black" 							Linear 	0.0 0.0
 }
 
 //====================================================================================================================
 
 event HudMedicCharged
 {
-	Animate ChargeLabel 						Alpha 		"255" 								Linear 	0.0 0.01
-	Animate ChargeLabel 						FgColor 	"Full Ubercharge" 					Accel 	0.0 0.0
-
-	Animate ChargeLabelBigShadow 				Alpha 		"255" 								Linear 	0.0 0.01
-	Animate ChargeLabelBigShadow 				FgColor 	"Full Ubercharge"					Accel 	0.0 0.0
-		
-	Animate ChargeMeter 						FgColor 	"Ubercharge Bar" 					Accel 	0.0 0.0
+	Animate ChargeLabel 							FgColor 	"Ubercharge Full" 					Accel 	0.0 0.0
+	Animate ChargeLabelBigShadow 					FgColor 	"Ubercharge Full"					Accel 	0.0 0.0
 	
-	RunEvent HudMedicChargedLoop				0.6
+	Animate ChargeLabelBigShadowExtra				Alpha 		"255"								Accel 	0.0 0.0
+	
+	Animate ChargeMeter 							FgColor 	"Ubercharge Full" 					Accel 	0.0 0.0
+	
+	RunEvent HudMedicChargedLoop					0.6
 }
 
 event HudMedicChargedLoop
 {
-	RunEvent HudMedicCharged 					0.0
+	RunEvent HudMedicCharged 						0.0
 }
 
 event HudMedicChargedStop
 {
-	StopEvent HudMedicCharged 					0.0
-	StopEvent HudMedicChargedLoop 				0.0
+	StopEvent HudMedicCharged 						0.0
+	StopEvent HudMedicChargedLoop 					0.0
 	
-	Animate	ChargeLabel 						FgColor		"Ubercharge"						Linear	0.0 0.0001
-	Animate	ChargeLabelBigShadow 				FgColor		"0 0 0 255"							Linear 	0.0 0.0001
-	Animate	ChargeMeter 						FgColor		"Ubercharge"						Linear 	0.0 0.0001
+	Animate	ChargeLabel 							FgColor		"Ubercharge"						Linear	0.0 0.0001
+	
+	Animate	ChargeLabelBigShadow 					FgColor		"Black"								Linear 	0.0 0.0001
+	Animate ChargeLabelBigShadowExtra				Alpha 		"0"									Linear 	0.0 0.0001
+	
+	Animate	ChargeMeter 							FgColor		"Ubercharge"						Linear 	0.0 0.0001
 }
 
 //====================================================================================================================
 
 event FlagOutline
 {
-	RunEvent FlagOutlineHide 					0.0
-	Animate OutlineImage						Alpha		"0"									Linear 	0.1 0.2
+	RunEvent FlagOutlineHide 						0.0
+	Animate OutlineImage							Alpha		"0"									Linear 	0.1 0.2
 	
-	Animate OutlineImage						Position	"c-200 140"							Linear 	0.1 0.2
-	Animate OutlineImage						Size		"400 200"							Linear 	0.1 0.2
+	Animate OutlineImage							Position	"c-200 140"							Linear 	0.1 0.2
+	Animate OutlineImage							Size		"400 200"							Linear 	0.1 0.2
 
-	Animate OutlineImage						Position	"c-50 r137"							Linear 	0.7 0.2
-	Animate OutlineImage						Position	"c-50 r158"							Linear 	0.7 0.2
-	Animate OutlineImage						Size		"100 50"							Linear 	0.7 0.2
+	Animate OutlineImage							Position	"c-50 r137"							Linear 	0.7 0.2
+	Animate OutlineImage							Position	"c-50 r158"							Linear 	0.7 0.2
+	Animate OutlineImage							Size		"100 50"							Linear 	0.7 0.2
 	
-	Animate OutlineImage						Alpha		"0"									Linear 	0.9 0.1
+	Animate OutlineImage							Alpha		"0"									Linear 	0.9 0.1
 }
 
 //====================================================================================================================
 
 event HudSpyDisguiseChanged
 {
-	Animate PlayerStatusSpyOutlineImage			Alpha		"0"									Linear 	0.0 0.2
+	Animate PlayerStatusSpyOutlineImage				Alpha		"0"									Linear 	0.0 0.2
 	
-	Animate PlayerStatusSpyOutlineImage			Position	"c-200 c-200"						Linear 	0.0 0.2
-	Animate PlayerStatusSpyOutlineImage			Size		"400 400"							Linear 	0.0 0.2
+	Animate PlayerStatusSpyOutlineImage				Position	"c-200 c-200"						Linear 	0.0 0.2
+	Animate PlayerStatusSpyOutlineImage				Size		"400 400"							Linear 	0.0 0.2
 
-	RunEvent HudSpyDisguiseHide	0.7
+	RunEvent HudSpyDisguiseHide						0.7
 }
 
 //====================================================================================================================
 
 event HudTournamentSetupPanelOpen
 {
-	Animate HudTournamentSetup					Position	"c-70 -26"							Linear 	0.0 0.001
-	Animate HudTournamentSetup					Position	"c-70 26"							Spline 	0.001 0.1
+	Animate HudTournamentSetup						Position	"c-70 -26"							Linear 	0.0 0.001
+	Animate HudTournamentSetup						Position	"c-70 26"							Spline 	0.001 0.1
 }
 
 event HudTournamentSetupPanelClose
 {
-	Animate HudTournamentSetup					Position	"c-70 26"							Linear 	0.0 0.001
-	Animate HudTournamentSetup					Position	"c-70 -26"							Spline 	0.001 0.6
+	Animate HudTournamentSetup						Position	"c-70 26"							Linear 	0.0 0.001
+	Animate HudTournamentSetup						Position	"c-70 -26"							Spline 	0.001 0.6
 }
 
 //====================================================================================================================
 
 event CompetitiveGame_LowerChatWindow
 {
-	Animate HudChat 							ypos 		"17"								Accel 	0 0
+	Animate HudChat 								ypos 		"17"								Accel 	0 0
 }
 
 event CompetitiveGame_RestoreChatWindow
 {
-	Animate HudChat 							ypos 		"17" 								Accel 	0 0
+	Animate HudChat 								ypos 		"17" 								Accel 	0 0
 }
 
 event HudTournament_MoveChatWindow
 {
-	RunEvent CompetitiveGame_LowerChatWindow 	0
-	RunEvent CompetitiveGame_RestoreChatWindow 	10
+	RunEvent CompetitiveGame_LowerChatWindow 		0
+	RunEvent CompetitiveGame_RestoreChatWindow 		10
 }
 
 //====================================================================================================================
 
 event RDPositiveScorePulse
 {
-	Animate Score 								FgColor		"255 255 255 255"					Linear 	0.0 0.0
-	Animate Score 								FgColor		"255 255 255 255"					Linear 	0.1 0.2
+	Animate Score 									FgColor		"White"								Linear 	0.0 0.0
+	Animate Score 									FgColor		"White"								Linear 	0.1 0.2
 }
 
 event RDNegativeScorePulse
 {
-	Animate Score 								FgColor		"255 255 255 255"					Linear 	0.0 0.0
-	Animate Score 								FgColor		"255 255 255 255"					Linear 	0.1 0.2
+	Animate Score 									FgColor		"White"								Linear 	0.0 0.0
+	Animate Score 									FgColor		"White"								Linear 	0.1 0.2
 }
 
 //====================================================================================================================
 
 event TeamStatus_PlayerDead
 {
-   SetVisible DeathPanel  						0 0
-   SetVisible SkullPanel 						0 0
-   SetVisible respawntime  						1 0
+   SetVisible DeathPanel  							0 0
+   SetVisible SkullPanel 							0 0
+   SetVisible respawntime  							1 0
 
-   Animate DeathPanel 							ypos 		0 									Accel 0 0.2
-   Animate SkullPanel							ypos 		0 									Accel 0 0.2
-   Animate respawntime 							ypos 		0 									Accel 0 0.2
+   Animate DeathPanel 								ypos 		0 									Accel 0 0.2
+   Animate SkullPanel								ypos 		0 									Accel 0 0.2
+   Animate respawntime 								ypos 		0 									Accel 0 0.2
 }
 
 event TeamStatus_PlayerAlive
 {
-   Animate DeathPanel 							ypos 		0 									Accel 0 0.2
-   Animate SkullPanel 							ypos 		0 									Accel 0 0.2
-   Animate respawntime 							ypos 		0 									Accel 0 0.2
+   Animate DeathPanel 								ypos 		0 									Accel 0 0.2
+   Animate SkullPanel 								ypos 		0 									Accel 0 0.2
+   Animate respawntime 								ypos 		0 									Accel 0 0.2
 
-   SetVisible DeathPanel 			 			0 			0.2
-   SetVisible SkullPanel  						0 			0.2
-   SetVisible respawntime 						0 			0.2
+   SetVisible DeathPanel 			 				0 			0.2
+   SetVisible SkullPanel  							0 			0.2
+   SetVisible respawntime 							0 			0.2
 }
 
 //====================================================================================================================
 
 event HudSnapShotReminderIn
 {
-    RunEvent HudHealthDyingPulseStop 			10.0
-    RunEvent HudHealthBonusPulseStop 			10.0
-    RunEvent HudLowAmmoPulseStop 				10.0
-    RunEvent HudMedicChargedStop 				10.0
+    RunEvent HudHealthDyingPulseStop 				10.0
+    RunEvent HudHealthBonusPulseStop 				10.0
+    RunEvent HudLowAmmoPulseStop 					10.0
+    RunEvent HudMedicChargedStop 					10.0
 }
 
 //====================================================================================================================

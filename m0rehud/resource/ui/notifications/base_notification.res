@@ -1,19 +1,5 @@
 "Resource/UI/notifications/base_notification.res"
 {	
-	"Notification_Icon"	
-	{
-		"ControlName"								"CIconPanel"
-		"fieldName"									"Notification_Icon"
-		"xpos"										"7"
-		"ypos"										"9"
-		"wide"										"20"
-		"tall"										"20"
-		"visible"									"1"
-		"enabled"									"1"
-		"scaleImage"								"1"	
-		"icon"										"ico_notify_sixty_seconds"
-	}
-	
 	"Notification_Label"
 	{	
 		"ControlName"								"CExLabel"
@@ -38,6 +24,16 @@
 	
 	
 	//////////////////////////////////REMOVED STUFF//////////////////////////////////
+	
+	"Notification_Icon"	
+	{
+		"ControlName"								"CIconPanel"
+		"fieldName"									"Notification_Icon"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
+	}
 	
 	"Notification_Background"
 	{

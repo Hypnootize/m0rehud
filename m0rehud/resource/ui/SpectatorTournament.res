@@ -10,7 +10,7 @@
 		"autoResize"								"0"
 		"pinCorner"									"0"
 		"enabled"									"1"
-				
+		
 		"team1_player_base_offset_x"				"0"
 		"team1_player_base_y"						"325"
 		"team1_player_delta_x"						"0"
@@ -29,7 +29,7 @@
 			
 			"color_ready"							"0 255 0 220"
 			"color_notready"						"0 0 0 220"
-				
+			
 			"playername"
 			{
 				"ControlName"						"CExLabel"
@@ -45,7 +45,7 @@
 				"visible"							"1"
 				"labelText"							"%playername%"
 				"textAlignment"						"west"
-				"fgcolor"							"255 255 255 255"
+				"fgcolor"							"White"
 			}
 			
 			"classimage"
@@ -67,15 +67,10 @@
 			{
 				"ControlName"						"Panel"
 				"fieldName"							"classimagebg"
-				"xpos"								"3"
-				"ypos"								"3"
-				"zpos"								"2"
-				"wide"								"12"
-				"tall"								"13"
-				"visible"							"1"
-				"enabled"							"1"
-				"bgcolor_override"					"255 255 255 0"
-				"PaintBackgroundType"				"0"
+				"wide"								"0"
+				"tall"								"0"
+				"visible"							"0"
+				"enabled"							"0"
 			}
 			
 			"HealthIcon"
@@ -100,39 +95,20 @@
 			{
 				"ControlName"			       		"ScalableImagePanel"
 				"fieldName"					      	"ReadyBG"
-				"xpos"						       	"30"
-				"ypos"						      	"6"
-				"zpos"						      	"-1"
-				"wide"			       				"16"
-				"tall"			       				"16"
-				"autoResize"				      	"0"
-				"pinCorner"					      	"0"
-				"visible"					       	"0"
-				"enabled"					       	"1"
-				"image"						       	"../HUD/tournament_panel_brown"
-
-				"src_corner_height"			       	"22"
-				"src_corner_width"			       	"22"
-			
-				"draw_corner_width"				   	"3"
-				"draw_corner_height" 				"3"	
+				"wide"								"0"
+				"tall"								"0"
+				"visible"							"0"
+				"enabled"							"0"
 			}
 			
 			"ReadyImage"
 			{
 				"ControlName"						"ImagePanel"
 				"fieldName"							"ReadyImage"
-				"xpos"								"32"
-				"ypos"								"8"
-				"zpos"								"0"
-				"wide"								"12"
-				"tall"								"12"
-				"autoResize"						"0"
-				"pinCorner"							"0"
+				"wide"								"0"
+				"tall"								"0"
 				"visible"							"0"
-				"enabled"							"1"
-				"image"								"hud/checkmark"
-				"scaleImage"						"1"
+				"enabled"							"0"
 			}
 			
 			"respawntime"
@@ -150,25 +126,7 @@
 				"visible"							"1"
 				"labelText"							"%respawntime%"
 				"textAlignment"						"center"
-				"fgcolor"							"0 0 0 255"
-			}
-			
-			"respawntimecover"
-			{
-				"ControlName"						"CExLabel"
-				"fieldName"							"respawntimecover"
-				"font"								"BlocksSharp64"
-				"xpos"								"15"
-				"ypos"								"2"
-				"zpos"								"5"
-				"wide"								"22"
-				"tall"								"14"
-				"autoResize"						"0"
-				"pinCorner"							"0"
-				"visible"							"0"
-				"labelText"							"%respawntime%"
-				"textAlignment"						"east"
-				"fgcolor"							"255 255 255 255"
+				"fgcolor"							"Black"
 			}
 			
 			"chargeamount"
@@ -186,7 +144,7 @@
 				"visible"							"1"
 				"labelText"							"%chargeamount%"
 				"textAlignment"						"center"
-				"fgcolor_override"					"0 0 0 255"
+				"fgcolor_override"					"Black"
 			}
 			
 			"chargeamountcover"
@@ -204,24 +162,17 @@
 				"visible"							"1"
 				"labelText"							"%chargeamount%"
 				"textAlignment"						"east"
-				"fgcolor"							"255 255 255 255"
+				"fgcolor"							"White"
 			}
 			
 			"specindex"
 			{
 				"ControlName"						"CExLabel"
 				"fieldName"							"specindex"
-				"font"								"DefaultVerySmall"
-				"xpos"								"4"
-				"ypos"								"2"
-				"zpos"								"5"
-				"wide"								"50"
-				"tall"								"8"
-				"autoResize"						"0"
-				"pinCorner"							"0"
+				"wide"								"0"
+				"tall"								"0"
 				"visible"							"0"
-				"labelText"							"%specindex%"
-				"textAlignment"						"north-west"
+				"enabled"							"0"
 			}
 		}		
 	}
@@ -242,7 +193,7 @@
 		"labelText"									"#game_respawntime_in_secs"
 		"textAlignment"								"center"
 		"font"										"default"
-		"fgcolor_override"  						"255 255 255 255"
+		"fgcolor_override"  						"White"
 		
 		if_mvm
 		{

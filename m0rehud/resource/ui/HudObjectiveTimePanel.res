@@ -17,7 +17,7 @@
 		"brighttext" 								"0"
 		"wrap" 										"0"
 		"font" 										"m0refont12"
-		"fgcolor"									"255 255 255 255"
+		"fgcolor"									"White"
 		
 		if_mvm
 		{

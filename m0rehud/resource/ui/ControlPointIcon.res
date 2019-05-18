@@ -100,7 +100,7 @@
 			"visible"								"0"
 		}
 	}
-				
+	
 	"CPTimerBG"
 	{
 		"ControlName"	  							"Panel"

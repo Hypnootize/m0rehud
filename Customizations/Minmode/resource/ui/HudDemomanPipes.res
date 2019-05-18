@@ -19,7 +19,7 @@
 		"dulltext"									"0"
 		"brighttext"								"0"
 		"font"										"DefaultVerySmall"
-		"fgcolor_override"							"255 255 255 255"
+		"fgcolor_override"							"White"
 	}
 
 	"ChargeMeter"
@@ -51,16 +51,6 @@
 		"tall"										"480"
 		"visible"									"1"
 		
-		"PipeIcon"
-		{
-			"ControlName"							"CTFImagePanel"
-			"fieldName"								"PipeIcon"
-			"wide"									"0"
-			"tall"									"0"
-			"visible"								"0"
-			"enabled"								"0"
-		}	
-		
 		"NumPipesLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -80,15 +70,15 @@
 			"dulltext"								"0"
 			"brighttext"							"0"
 			"font"									"M0refont16"
-			"fgcolor"   							"255 255 255 255"
+			"fgcolor"   							"White"
 		}
 		
 		"NumPipesLabelDropshadow"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"NumPipesLabelDropshadow"
-			"xpos"									"c-14"
-			"ypos"									"c51"
+			"xpos"									"-1"
+			"ypos"									"-1"
 			"zpos"									"2"
 			"wide"									"30"
 			"tall"									"20"
@@ -102,8 +92,22 @@
 			"dulltext"								"0"
 			"brighttext"							"0"
 			"font"									"M0refont16"
-			"fgcolor"								"0 0 0 255"
-		}		
+			"fgcolor"								"Black"
+			
+			"pin_to_sibling"						"NumPipesLabel"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_TOPLEFT"
+		}
+		
+		"PipeIcon"
+		{
+			"ControlName"							"CTFImagePanel"
+			"fieldName"								"PipeIcon"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
+		}
 	}
 	
 	

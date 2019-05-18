@@ -1,23 +1,39 @@
 "Resource/UI/build_menu/base_inactive.res"
 {
-	"ItemNameLabel"
-	{	
-		"ControlName"								"CExLabel"
-		"fieldName"									"ItemNameLabel"
-		"font"										"Default"
-		"xpos"										"30"
-		"ypos"										"20"
+	"DestroyIcon"	
+	{
+		"ControlName"								"CIconPanel"
+		"fieldName"									"DestroyIcon"
+		"xpos"										"0"
+		"ypos"										"0"
 		"zpos"										"1"
-		"wide"										"84"
-		"tall"										"15"
-		"autoResize"								"0"
-		"pinCorner"									"0"
+		"wide"										"40"
+		"tall"										"40"
+		"visible"									"0"
+		"enabled"									"1"
+		"scaleImage"								"1"	
+		"icon"										"ico_demolish"
+		"iconColor"									"White"
+	}
+	
+	"BuildingIcon"	
+	{
+		"ControlName"								"CIconPanel"
+		"fieldName"									"BuildingIcon"
+		"xpos"										"-2"
+		"ypos"										"5"
+		"zpos"										"3"
+		"wide"										"40"
+		"tall"										"40"
 		"visible"									"1"
 		"enabled"									"1"
-		"labelText"									"#TF_Object_dispenser"
-		"textAlignment"								"Left"
-		"dulltext"									"0"
-		"brighttext"								"0"
+		"scaleImage"								"1"	
+		"icon"										"obj_status_sentrygun_1"
+		"iconColor"									"255 255 255 175"
+		
+		"pin_to_sibling"							"DestroyIcon"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 	}
 	
 	"NotBuiltLabel"
@@ -25,21 +41,23 @@
 		"ControlName"								"CExLabel"
 		"fieldName"									"NotBuiltLabel"
 		"font"										"Default"
-		"xpos"										"10"
-		"ypos"										"48"
-		"zpos"										"2"
-		"wide"										"80"
-		"tall"										"18"
+		"xpos"										"0"
+		"ypos"										"22"
+		"zpos"										"20"
+		"wide"										"40"
+		"tall"										"40"
 		"autoResize"								"0"
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"#TF_NotBuilt"
 		"textAlignment"								"Center"
+		"centerwrap"								"1"
 		"dulltext"									"0"
 		"brighttext"								"0"
+		"fgcolor_override"							"255 0 0 255"
 	}	
-			
+	
 	"NumberBg"	
 	{
 		"ControlName"								"CIconPanel"
@@ -60,7 +78,7 @@
 	{	
 		"ControlName"								"CExLabel"
 		"fieldName"									"NumberLabel"
-		"font"										"HudMenuNumberFont"
+		"font"										"Default"
 		"fgcolor"									"Black"
 		"xpos"										"0"
 		"ypos"										"90"
@@ -87,6 +105,46 @@
 	{
 		"ControlName"								"CIconPanel"
 		"fieldName"									"ItemBackground"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
+	}
+	
+	"ItemNameLabel"
+	{	
+		"ControlName"								"CExLabel"
+		"fieldName"									"ItemNameLabel"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
+	}
+	
+	"UnavailableLabel"
+	{	
+		"ControlName"								"CExLabel"
+		"fieldName"									"UnavailableLabel"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
+	}
+	
+	"NumberBg"	
+	{
+		"ControlName"								"CIconPanel"
+		"fieldName"									"NumberBg"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
+	}
+	
+	"NumberLabel"
+	{	
+		"ControlName"								"CExLabel"
+		"fieldName"									"NumberLabel"
 		"wide"										"0"
 		"tall"										"0"
 		"visible"									"0"

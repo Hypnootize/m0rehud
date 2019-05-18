@@ -32,16 +32,16 @@
 				"fieldName"							"SubButton"
 				"xpos"								"0"
 				"ypos"								"0"
-				"wide"								"250"
+				"wide"								"150"
 				"tall"								"14"
 				"autoResize"						"0"
 				"pinCorner"							"3"
 				"visible"							"1"
 				"enabled"							"1"
 				"tabPosition"						"0"
-				"textinsetx"						"0"
 				"use_proportional_insets" 			"1"
-				"font"								"Coolvetica"
+				"font"								"COOLVETICA"
+				"AllCaps"							"1"
 				"textAlignment"						"west"
 				"dulltext"							"0"
 				"brighttext"						"0"
@@ -49,30 +49,12 @@
 				"sound_depressed"					"UI/buttonclick.wav"
 				"sound_released"					"UI/buttonclickrelease.wav"
 				
-				"border_default"					"NoBorder"
-				"border_armed"						"NoBorder"
 				"paintbackground"					"0"
+				"paintborder"						"0"
 				
-				"defaultFgColor_override"			"255 255 255 255"
+				"defaultFgColor_override" 			"White"
 				"armedFgColor_override" 			"Main Menu Labels"
 				"depressedFgColor_override" 		"Main Menu Labels"
-				
-				"image_drawcolor"					"Main Menu Labels"
-				"image_armedcolor"					"255 255 255 255"
-				
-				"SubImage"
-				{
-					"ControlName"					"ImagePanel"
-					"fieldName"						"SubImage"
-					"xpos"							"6"
-					"ypos"							"6"
-					"zpos"							"1"
-					"wide"							"14"
-					"tall"							"14"
-					"visible"						"1"
-					"enabled"						"1"
-					"scaleImage"					"1"
-				}				
 			}		
 		}
 		
@@ -131,12 +113,16 @@
 		"visible"									"0"
 		"enabled"									"0"
 	}
+	
+	///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+	/////////////////////////////////////////////////CASUAL / COMP RANK////////////////////////////////////////////////
+	///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 	"RankPanel"
 	{
 		"ControlName"								"CPvPRankPanel"
 		"fieldName"									"RankPanel"
-		"xpos"										"124"
+		"xpos"										"123"
 		"ypos"										"-26"
 		"zpos"										"1"
 		"wide"										"320"
@@ -179,7 +165,7 @@
 	{
 		"ControlName"								"Label"
 		"fieldName"									"NoGCMessage"
-		"xpos"										"-125"
+		"xpos"										"-127"
 		"ypos"										"-15"
 		"zpos"										"-99"
 		"wide"										"200"
@@ -188,8 +174,6 @@
 		"proportionaltoparent"						"1"
 		"mouseinputenabled"							"0"
 		"wrap"										"1"
-		"textinsetx"								"0"
-		"textinsety"								"0"
 		
 		"AllCaps"									"1"
 
@@ -203,6 +187,26 @@
 		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 					"PIN_TOPLEFT"
 	}
+	
+	"NoGCImage"
+	{
+		"ControlName"								"ImagePanel"
+		"fieldName"									"NoGCImage"
+		"xpos"										"0"
+		"ypos"										"-30"
+		"zpos"										"-99"
+		"wide"										"40"
+		"tall"										"40"
+		"visible"									"1"
+		"enabled"									"1"
+		"image"										"gc_dc"
+		"scaleImage"								"1"
+		"proportionaltoparent" 						"1"
+		
+		"pin_to_sibling" 							"NoGCMessage"
+		"pin_corner_to_sibling" 					"PIN_BOTTOMLEFT"
+		"pin_to_sibling_corner" 					"PIN_TOPLEFT"
+	}	
 	
 	"CycleRankTypeButton"
 	{
@@ -270,7 +274,6 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"tabPosition"							"0"
-			"textinsetx"							"0"
 			"use_proportional_insets" 				"1"
 			"font"									"COOLVETICA"
 			"AllCaps"								"1"
@@ -284,11 +287,9 @@
 			"paintbackground"						"0"
 			"paintborder"							"0"
 			
-			"defaultFgColor_override" 				"255 255 255 255"
+			"defaultFgColor_override" 				"White"
 			"armedFgColor_override" 				"Main Menu Labels"
 			"depressedFgColor_override" 			"Main Menu Labels"
-			
-			
 		}
 	}
 	
@@ -301,7 +302,6 @@
 		"zpos"										"15"
 		"wide"										"150"
 		"tall"										"14"
-		"visible"									"0"
 		
 		"pin_to_sibling" 							"Version"
 		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
@@ -320,7 +320,6 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"tabPosition"							"0"
-			"textinsetx"							"0"
 			"use_proportional_insets" 				"1"
 			"font"									"COOLVETICA"
 			"AllCaps"								"1"
@@ -334,8 +333,7 @@
 			"paintbackground"						"0"
 			"paintborder"							"0"
 			
-			
-			"defaultFgColor_override" 				"255 255 255 255"
+			"defaultFgColor_override" 				"White"
 			"armedFgColor_override" 				"Main Menu Labels"
 			"depressedFgColor_override" 			"Main Menu Labels"
 		}
@@ -350,7 +348,6 @@
 		"zpos"										"16"
 		"wide"										"22"
 		"tall"										"14"
-		"visible"									"1"
 		
 		"pin_to_sibling" 							"Servers"
 		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
@@ -369,7 +366,6 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"tabPosition"							"0"
-			"textinsetx"							"0"
 			"use_proportional_insets" 				"1"
 			"font"									"VerdanaMenu"
 			"AllCaps"								"1"
@@ -383,8 +379,7 @@
 			"paintbackground"						"0"
 			"paintborder"							"0"
 			
-			
-			"defaultFgColor_override" 				"255 255 255 255"
+			"defaultFgColor_override" 				"White"
 			"armedFgColor_override" 				"Main Menu Labels"
 			"depressedFgColor_override" 			"Main Menu Labels"
 		}
@@ -399,7 +394,6 @@
 		"zpos"										"15"
 		"wide"										"150"
 		"tall"										"14"
-		"visible"									"0"
 		
 		"pin_to_sibling" 							"Servers"
 		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
@@ -418,7 +412,6 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"tabPosition"							"0"
-			"textinsetx"							"0"
 			"use_proportional_insets" 				"1"
 			"font"									"COOLVETICA"
 			"AllCaps"								"1"
@@ -432,8 +425,7 @@
 			"paintbackground"						"0"
 			"paintborder"							"0"
 			
-			
-			"defaultFgColor_override" 				"255 255 255 255"
+			"defaultFgColor_override" 				"White"
 			"armedFgColor_override" 				"Main Menu Labels"
 			"depressedFgColor_override" 			"Main Menu Labels"
 		}
@@ -448,7 +440,6 @@
 		"zpos"										"15"
 		"wide"										"150"
 		"tall"										"14"
-		"visible"									"0"
 		
 		"pin_to_sibling" 							"Items"
 		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
@@ -467,7 +458,6 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"tabPosition"							"0"
-			"textinsetx"							"0"
 			"use_proportional_insets" 				"1"
 			"font"									"COOLVETICA"
 			"AllCaps"								"1"
@@ -481,8 +471,7 @@
 			"paintbackground"						"0"
 			"paintborder"							"0"
 			
-			
-			"defaultFgColor_override" 				"255 255 255 255"
+			"defaultFgColor_override" 				"White"
 			"armedFgColor_override" 				"Main Menu Labels"
 			"depressedFgColor_override" 			"Main Menu Labels"
 		}
@@ -497,7 +486,6 @@
 		"zpos"										"15"
 		"wide"										"150"
 		"tall"										"14"
-		"visible"									"0"
 		
 		"pin_to_sibling" 							"Store"
 		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
@@ -516,7 +504,6 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"tabPosition"							"0"
-			"textinsetx"							"0"
 			"use_proportional_insets" 				"1"
 			"font"									"COOLVETICA"
 			"AllCaps"								"1"
@@ -530,8 +517,7 @@
 			"paintbackground"						"0"
 			"paintborder"							"0"
 			
-			
-			"defaultFgColor_override" 				"255 255 255 255"
+			"defaultFgColor_override" 				"White"
 			"armedFgColor_override" 				"Main Menu Labels"
 			"depressedFgColor_override" 			"Main Menu Labels"
 		}
@@ -546,7 +532,6 @@
 		"zpos"										"15"
 		"wide"										"150"
 		"tall"										"14"
-		"visible"									"0"
 		
 		"pin_to_sibling" 							"Settings"
 		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
@@ -565,7 +550,6 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"tabPosition"							"0"
-			"textinsetx"							"0"
 			"use_proportional_insets" 				"1"
 			"font"									"COOLVETICA"
 			"AllCaps"								"1"
@@ -579,8 +563,7 @@
 			"paintbackground"						"0"
 			"paintborder"							"0"
 			
-			
-			"defaultFgColor_override" 				"255 255 255 255"
+			"defaultFgColor_override" 				"White"
 			"armedFgColor_override" 				"Main Menu Labels"
 			"depressedFgColor_override" 			"Main Menu Labels"
 		}
@@ -595,7 +578,6 @@
 		"zpos"										"15"
 		"wide"										"150"
 		"tall"										"14"
-		"visible"									"0"
 		
 		"pin_to_sibling" 							"Advanced"
 		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
@@ -614,7 +596,6 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"tabPosition"							"0"
-			"textinsetx"							"0"
 			"use_proportional_insets" 				"1"
 			"font"									"COOLVETICA"
 			"AllCaps"								"1"
@@ -628,8 +609,7 @@
 			"paintbackground"						"0"
 			"paintborder"							"0"
 			
-			
-			"defaultFgColor_override" 				"255 255 255 255"
+			"defaultFgColor_override" 				"White"
 			"armedFgColor_override" 				"Main Menu Labels"
 			"depressedFgColor_override" 			"Main Menu Labels"
 		}
@@ -644,7 +624,6 @@
 		"zpos"										"15"
 		"wide"										"150"
 		"tall"										"14"
-		"visible"									"0"
 		
 		"pin_to_sibling" 							"Contracker"
 		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
@@ -663,7 +642,6 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"tabPosition"							"0"
-			"textinsetx"							"0"
 			"use_proportional_insets" 				"1"
 			"font"									"COOLVETICA"
 			"AllCaps"								"1"
@@ -677,8 +655,7 @@
 			"paintbackground"						"0"
 			"paintborder"							"0"
 			
-			
-			"defaultFgColor_override" 				"255 255 255 255"
+			"defaultFgColor_override" 				"White"
 			"armedFgColor_override" 				"Main Menu Labels"
 			"depressedFgColor_override" 			"Main Menu Labels"
 		}
@@ -693,7 +670,6 @@
 		"zpos"										"15"
 		"wide"										"150"
 		"tall"										"14"
-		"visible"									"0"
 		
 		"pin_to_sibling" 							"Streams"
 		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
@@ -712,7 +688,6 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"tabPosition"							"0"
-			"textinsetx"							"0"
 			"use_proportional_insets" 				"1"
 			"font"									"COOLVETICA"
 			"AllCaps"								"1"
@@ -726,8 +701,7 @@
 			"paintbackground"						"0"
 			"paintborder"							"0"
 			
-			
-			"defaultFgColor_override" 				"255 255 255 255"
+			"defaultFgColor_override" 				"White"
 			"armedFgColor_override" 				"Main Menu Labels"
 			"depressedFgColor_override" 			"Main Menu Labels"
 		}
@@ -765,7 +739,6 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"tabPosition"							"0"
-			"textinsetx"							"0"
 			"use_proportional_insets" 				"1"
 			"font"									"COOLVETICA"
 			"AllCaps"								"1"
@@ -779,8 +752,7 @@
 			"paintbackground"						"0"
 			"paintborder"							"0"
 			
-			
-			"defaultFgColor_override" 				"255 255 255 255"
+			"defaultFgColor_override" 				"White"
 			"armedFgColor_override" 				"Main Menu Labels"
 			"depressedFgColor_override" 			"Main Menu Labels"
 		}
@@ -814,7 +786,6 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"tabPosition"							"0"
-			"textinsetx"							"0"
 			"use_proportional_insets" 				"1"
 			"font"									"COOLVETICA"
 			"AllCaps"								"1"
@@ -828,8 +799,7 @@
 			"paintbackground"						"0"
 			"paintborder"							"0"
 			
-			
-			"defaultFgColor_override" 				"255 255 255 255"
+			"defaultFgColor_override" 				"White"
 			"armedFgColor_override" 				"Main Menu Labels"
 			"depressedFgColor_override" 			"Main Menu Labels"
 		}
@@ -863,7 +833,6 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"tabPosition"							"0"
-			"textinsetx"							"0"
 			"use_proportional_insets" 				"1"
 			"font"									"COOLVETICA"
 			"AllCaps"								"1"
@@ -877,8 +846,7 @@
 			"paintbackground"						"0"
 			"paintborder"							"0"
 			
-			
-			"defaultFgColor_override" 				"255 255 255 255"
+			"defaultFgColor_override" 				"White"
 			"armedFgColor_override" 				"Main Menu Labels"
 			"depressedFgColor_override" 			"Main Menu Labels"
 		}
@@ -888,7 +856,7 @@
 	{
 		"ControlName"								"EditablePanel"
 		"fieldname"									"Notifications_ShowButtonPanel"
-		"xpos"										"0"
+		"xpos"										"-3"
 		"ypos"										"3"
 		"zpos"										"15"
 		"wide"										"150"
@@ -949,8 +917,7 @@
 			"paintbackground"						"0"
 			"paintborder"							"0"
 			
-			
-			"defaultFgColor_override" 				"255 255 255 255"
+			"defaultFgColor_override" 				"White"
 			"armedFgColor_override" 				"Main Menu Labels"
 			"depressedFgColor_override" 			"Main Menu Labels"
 		}
@@ -960,11 +927,11 @@
 	{
 		"ControlName"								"EditablePanel"
 		"fieldname"									"Vote"
-		"xpos"										"0"
-		"ypos"										"3"
+		"xpos"										"-2"
+		"ypos"										"5"
 		"zpos"										"15"
-		"wide"										"17"
-		"tall"										"17"
+		"wide"										"20"
+		"tall"										"20"
 		"visible"									"1"
 		
 		"pin_to_sibling" 							"MainMenuAnchor"
@@ -977,8 +944,8 @@
 			"fieldName"								"SubButton"
 			"xpos"									"0"
 			"ypos"									"0"
-			"wide"									"17"
-			"tall"									"17"
+			"wide"									"20"
+			"tall"									"20"
 			"autoResize"							"0"
 			"pinCorner"								"0"
 			"visible"								"1"
@@ -998,10 +965,10 @@
 			"border_armed"							"MainMenuMiniButtonArmed"
 			"paintbackground"						"0"
 			
-			"defaultFgColor_override" 				"255 255 255 255"
+			"defaultFgColor_override" 				"White"
 			"armedFgColor_override" 				"255 0 127 255"
 			"depressedFgColor_override" 			"255 0 127 255"
-				
+			
 			"image_drawcolor"						"255 255 255 255"
 			"image_armedcolor"						"255 0 127 255"
 			
@@ -1012,8 +979,8 @@
 				"xpos"								"4"
 				"ypos"								"4"
 				"zpos"								"1"
-				"wide"								"9"
-				"tall"								"9"
+				"wide"								"12"
+				"tall"								"12"
 				"visible"							"1"
 				"enabled"							"1"
 				"image"								"glyph_create"
@@ -1029,8 +996,8 @@
 		"xpos"										"2"
 		"ypos"										"0"
 		"zpos"										"15"
-		"wide"										"17"
-		"tall"										"17"
+		"wide"										"20"
+		"tall"										"20"
 		"visible"									"1"
 		
 		"pin_to_sibling" 							"Vote"
@@ -1043,8 +1010,8 @@
 			"fieldName"								"SubButton"
 			"xpos"									"0"
 			"ypos"									"0"
-			"wide"									"17"
-			"tall"									"17"
+			"wide"									"20"
+			"tall"									"20"
 			"autoResize"							"0"
 			"pinCorner"								"0"
 			"visible"								"1"
@@ -1064,10 +1031,10 @@
 			"border_armed"							"MainMenuMiniButtonArmed"
 			"paintbackground"						"0"
 			
-			"defaultFgColor_override" 				"255 255 255 255"
+			"defaultFgColor_override" 				"White"
 			"armedFgColor_override" 				"255 0 127 255"
 			"depressedFgColor_override" 			"255 0 127 255"
-				
+			
 			"image_drawcolor"						"255 255 255 255"
 			"image_armedcolor"						"255 0 127 255"
 			
@@ -1078,8 +1045,8 @@
 				"xpos"								"4"
 				"ypos"								"4"
 				"zpos"								"1"
-				"wide"								"9"
-				"tall"								"9"
+				"wide"								"12"
+				"tall"								"12"
 				"visible"							"1"
 				"enabled"							"1"
 				"image"								"glyph_create"
@@ -1095,8 +1062,8 @@
 		"xpos"										"2"
 		"ypos"										"0"
 		"zpos"										"15"
-		"wide"										"17"
-		"tall"										"17"
+		"wide"										"20"
+		"tall"										"20"
 		"visible"									"1"
 		
 		"pin_to_sibling" 							"Mute"
@@ -1109,8 +1076,8 @@
 			"fieldName"								"SubButton"
 			"xpos"									"0"
 			"ypos"									"0"
-			"wide"									"17"
-			"tall"									"17"
+			"wide"									"20"
+			"tall"									"20"
 			"autoResize"							"0"
 			"pinCorner"								"0"
 			"visible"								"1"
@@ -1130,10 +1097,10 @@
 			"border_armed"							"MainMenuMiniButtonArmed"
 			"paintbackground"						"0"
 			
-			"defaultFgColor_override" 				"255 255 255 255"
+			"defaultFgColor_override" 				"White"
 			"armedFgColor_override" 				"255 0 127 255"
 			"depressedFgColor_override" 			"255 0 127 255"
-				
+			
 			"image_drawcolor"						"255 255 255 255"
 			"image_armedcolor"						"255 0 127 255"
 			
@@ -1144,8 +1111,8 @@
 				"xpos"								"4"
 				"ypos"								"4"
 				"zpos"								"1"
-				"wide"								"9"
-				"tall"								"9"
+				"wide"								"12"
+				"tall"								"12"
 				"visible"							"1"
 				"enabled"							"1"
 				"image"								"glyph_alert"
@@ -1161,8 +1128,8 @@
 		"xpos"										"2"
 		"ypos"										"0"
 		"zpos"										"15"
-		"wide"										"17"
-		"tall"										"17"
+		"wide"										"20"
+		"tall"										"20"
 		"visible"									"1"
 		"command"									"OpenAchievementsDialog"
 		
@@ -1176,8 +1143,8 @@
 			"fieldName"								"SubButton"
 			"xpos"									"0"
 			"ypos"									"0"
-			"wide"									"17"
-			"tall"									"17"
+			"wide"									"20"
+			"tall"									"20"
 			"autoResize"							"0"
 			"pinCorner"								"0"
 			"visible"								"1"
@@ -1197,10 +1164,10 @@
 			"border_armed"							"MainMenuMiniButtonArmed"
 			"paintbackground"						"0"
 			
-			"defaultFgColor_override" 				"255 255 255 255"
+			"defaultFgColor_override" 				"White"
 			"armedFgColor_override" 				"255 0 127 255"
 			"depressedFgColor_override" 			"255 0 127 255"
-				
+			
 			"image_drawcolor"						"255 255 255 255"
 			"image_armedcolor"						"255 0 127 255"
 			
@@ -1211,8 +1178,8 @@
 				"xpos"								"4"
 				"ypos"								"4"
 				"zpos"								"1"
-				"wide"								"9"
-				"tall"								"9"
+				"wide"								"12"
+				"tall"								"12"
 				"visible"							"1"
 				"enabled"							"1"
 				"image"								"glyph_achievements"
@@ -1241,17 +1208,17 @@
 		{
 			"ControlName"							"CSteamFriendsListPanel"
 			"fieldname"								"SteamFriendsList"
-			"xpos"									"0"
-			"ypos"									"0"
+			"xpos"									"3"
+			"ypos"									"3"
 			"zpos"									"500"
 			"wide"									"106"
-			"tall"									"220"
+			"tall"									"214"
 			"visible"								"1"
 			"proportionaltoparent"					"1"
 
 			"columns_count"							"1"
-			"inset_x"								"3"
-			"inset_y"								"3"
+			"inset_x"								"0"
+			"inset_y"								"0"
 			"row_gap"								"2"
 			"column_gap"							"0"
 			"restrict_width"						"0"
@@ -1287,7 +1254,7 @@
 		"visible"									"0"
 		"PaintBackgroundType"						"2"
 		"paintbackground"							"0"
-		"border"									"ReplayDefaultBorder"
+		"border"									"MainMenuHighlightBorder"
 		
 		"Notifications_CloseButton"
 		{
@@ -1325,6 +1292,7 @@
 			
 			"image_drawcolor"						"117 107 94 255"
 			"image_armedcolor"						"200 80 60 255"
+			
 			"SubImage"
 			{
 				"ControlName"						"ImagePanel"

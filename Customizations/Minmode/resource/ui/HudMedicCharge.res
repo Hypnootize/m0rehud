@@ -26,8 +26,8 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"ChargeLabelBigShadow"
-		"xpos"										"c7"
-		"ypos"										"c-8"
+		"xpos"										"-2"
+		"ypos"										"-2"
 		"zpos"										"2"
 		"wide"										"174"
 		"tall"										"149"
@@ -41,7 +41,38 @@
 		"dulltext"									"0"
 		"brighttext"								"0"
 		"font"										"M0refont32"
-		"fgcolor"  									"0 0 0 255"
+		"fgcolor"  									"Black"
+		
+		"pin_to_sibling"							"ChargeLabelBig"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_TOPLEFT"
+	}
+	
+	"ChargeLabelBigShadowExtra"
+	{
+		"ControlName"								"CExLabel"
+		"fieldName"									"ChargeLabelBigShadowExtra"
+		"xpos"										"-1"
+		"ypos"										"-1"
+		"zpos"										"2"
+		"wide"										"174"
+		"tall"										"149"
+		"autoResize"								"1"
+		"pinCorner"									"2"
+		"visible"									"1"
+		"enabled"									"1"
+		"tabPosition"								"0"
+		"labelText"									"#TF_UberchargeMinHUD"
+		"textAlignment"								"center"
+		"dulltext"									"0"
+		"brighttext"								"0"
+		"font"										"M0refont32"
+		"fgcolor"  									"Black"
+		"alpha"										"0"
+		
+		"pin_to_sibling"							"ChargeLabelBigShadow"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 	}
 	
 	"ResistIconAnchor"
@@ -97,8 +128,8 @@
 		"ControlName"								"ContinuousProgressBar"
 		"fieldName"									"ChargeMeter2"
 		"font"										"Default"
-		"xpos"										"c-24"
-		"ypos"										"306"
+		"xpos"										"1"
+		"ypos"										"0"
 		"zpos"										"2"
 		"wide"										"25"
 		"tall"										"1"				
@@ -109,6 +140,10 @@
 		"textAlignment"								"Left"
 		"dulltext"									"0"
 		"brighttext"								"0"
+		
+		"pin_to_sibling"							"ChargeMeter1"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 	}
 
 	"ChargeMeter3"
@@ -116,8 +151,8 @@
 		"ControlName"								"ContinuousProgressBar"
 		"fieldName"									"ChargeMeter3"
 		"font"										"Default"
-		"xpos"										"c2"
-		"ypos"										"306"
+		"xpos"										"1"
+		"ypos"										"0"
 		"zpos"										"2"
 		"wide"										"25"
 		"tall"										"1"				
@@ -128,6 +163,10 @@
 		"textAlignment"								"Left"
 		"dulltext"									"0"
 		"brighttext"								"0"
+		
+		"pin_to_sibling"							"ChargeMeter2"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 	}
 
 	"ChargeMeter4"
@@ -135,8 +174,8 @@
 		"ControlName"								"ContinuousProgressBar"
 		"fieldName"									"ChargeMeter4"
 		"font"										"Default"
-		"xpos"										"c28"
-		"ypos"										"306"
+		"xpos"										"1"
+		"ypos"										"0"
 		"zpos"										"2"
 		"wide"										"25"
 		"tall"										"1"				
@@ -147,6 +186,10 @@
 		"textAlignment"								"Left"
 		"dulltext"									"0"
 		"brighttext"								"0"
+		
+		"pin_to_sibling"							"ChargeMeter3"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 	}
 	
 	

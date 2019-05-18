@@ -16,7 +16,7 @@
 		"enabled"									"1"
 		"wrap"										"1"
 		"labelText"									""
-		"fgcolor"									"255 255 255 255"
+		"fgcolor"									"White"
 		"textAlignment"								"center"
 	}
 	

@@ -38,16 +38,6 @@
 		"fgcolor"									"black"
 	}
 
-	"ItemBackground"
-	{
-		"ControlName"								"CIconPanel"
-		"fieldName"									"ItemBackground"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	
 	"BuildingIcon"	
 	{
 		"ControlName"								"CIconPanel"
@@ -61,17 +51,7 @@
 		"enabled"									"1"
 		"scaleImage"								"1"	
 		"icon"										"hud_menu_sentry_build"
-		"iconColor"									"255 255 255 255"
-	}
-	
-	"MetalIcon"	
-	{
-		"ControlName"								"CIconPanel"
-		"fieldName"									"MetalIcon"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
+		"iconColor"									"White"
 	}
 	
 	"CostLabel"
@@ -91,5 +71,31 @@
 		"enabled"									"1"
 		"labelText"									"%metal%"
 		"textAlignment"								"Left"	
+	}
+	
+	
+	
+	
+	
+	//////////////////////////////////REMOVED STUFF//////////////////////////////////
+	
+	"ItemBackground"
+	{
+		"ControlName"								"CIconPanel"
+		"fieldName"									"ItemBackground"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
+	}
+	
+	"MetalIcon"	
+	{
+		"ControlName"								"CIconPanel"
+		"fieldName"									"MetalIcon"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

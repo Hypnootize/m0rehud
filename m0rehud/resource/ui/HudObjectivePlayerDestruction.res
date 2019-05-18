@@ -36,7 +36,7 @@
 			"wide"									"20"
 			"tall"									"20"
 			"visible"								"1"
-			"bgcolor_override"						"0 0 0 0"
+			"bgcolor_override"						"Blank"
 			"PaintBackgroundType"					"0"
 			"paintborder"							"0"
 			"AutoResize"							"0"
@@ -49,7 +49,7 @@
 		"ControlName"								"CExLabel"
 		"fieldName"									"PlayingTo"
 		"xpos"										"c-70"
-		"ypos"										"472"
+		"ypos"										"471"
 		"zpos"										"4"
 		"wide"										"140"
 		"tall"										"9"
@@ -60,7 +60,7 @@
 		"dulltext"									"0"
 		"brighttext"								"0"
 		"font"										"DefaultVerySmall"
-		"fgcolor"									"255 255 255 255"
+		"fgcolor"									"White"
 		
 		"if_hybrid"
 		{
@@ -87,7 +87,7 @@
 		"tall"										"100"
 		"visible"									"0"
 		"enabled"									"1"
-		"bgcolor_override"							"0 0 0 0"
+		"bgcolor_override"							"Blank"
 	
 		"CarriedImage"
 		{
@@ -141,8 +141,8 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"FlagValueShadow"
-			"xpos"									"53"
-			"ypos"									"73"
+			"xpos"									"-1"
+			"ypos"									"-1"
 			"zpos"									"3"
 			"wide"									"25"
 			"tall"									"15"
@@ -151,8 +151,12 @@
 			"textAlignment"							"center"	
 			"labelText"								"%flagvalue%"
 			"font"									"m0refont14"
-			"fgcolor"								"0 0 0 255"	
-			"proportionalToParent"					"1"	
+			"fgcolor"								"Black"	
+			"proportionalToParent"					"1"
+			
+			"pin_to_sibling"						"FlagValue"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_TOPLEFT"
 		}
 
 		"WhiteBG"
@@ -267,7 +271,7 @@
 				"textAlignment"						"east"	
 				"labelText"							"%blue_escrow%"
 				"font"								"m0refont18"
-				"fgcolor"							"255 255 255 255"		
+				"fgcolor"							"White"		
 				"proportionalToParent"				"1"
 				
 				"pin_to_sibling"					"FlagImageBlue"
@@ -289,7 +293,7 @@
 				"textAlignment"						"east"	
 				"labelText"							"%blue_escrow%"
 				"font"								"m0refont18"
-				"fgcolor"							"0 0 0 255"		
+				"fgcolor"							"Black"		
 				"proportionalToParent"				"1"
 				
 				"pin_to_sibling"					"EscrowBlue"
@@ -327,7 +331,7 @@
 				"textAlignment"						"west"	
 				"labelText"							"%red_escrow%"
 				"font"								"m0refont18"
-				"fgcolor"							"255 255 255 255"		
+				"fgcolor"							"White"		
 				"proportionalToParent"				"1"
 				
 				"pin_to_sibling"					"FlagImageRed"
@@ -349,7 +353,7 @@
 				"textAlignment"						"west"	
 				"labelText"							"%red_escrow%"
 				"font"								"m0refont18"
-				"fgcolor"							"0 0 0 255"		
+				"fgcolor"							"Black"		
 				"proportionalToParent"				"1"
 				
 				"pin_to_sibling"					"EscrowRed"
@@ -384,7 +388,7 @@
 					"textAlignment"					"east"	
 					"labelText"						"#TF_RD_BlueFinale"
 					"font"							"m0refont14"
-					"fgcolor"						"255 255 255 255"		
+					"fgcolor"						"White"		
 					"proportionalToParent"			"1"
 				}
 
@@ -392,8 +396,8 @@
 				{
 					"ControlName"					"CExLabel"
 					"fieldName"						"VictoryLabelShadow"
-					"xpos"							"1"
-					"ypos"							"1"
+					"xpos"							"-1"
+					"ypos"							"-1"
 					"zpos"							"7"
 					"wide"							"95"
 					"tall"							"35"
@@ -402,8 +406,12 @@
 					"textAlignment"					"east"	
 					"labelText"						"#TF_RD_BlueFinale"
 					"font"							"m0refont14"
-					"fgcolor"						"0 0 0 255"		
+					"fgcolor"						"Black"		
 					"proportionalToParent"			"1"
+					
+					"pin_to_sibling"				"VictoryLabel"
+					"pin_corner_to_sibling"			"PIN_TOPLEFT"
+					"pin_to_sibling_corner"			"PIN_TOPLEFT"
 				}
 
 				"VictoryLabelTime"
@@ -442,7 +450,7 @@
 					"textAlignment"					"center"	
 					"labelText"						"%victorytime%"
 					"font"							"m0refont14"
-					"fgcolor"						"0 0 0 255"		
+					"fgcolor"						"Black"		
 					"proportionalToParent"			"1"
 
 					"pin_to_sibling"              	"VictoryLabel"
@@ -496,7 +504,7 @@
 					"textAlignment"					"west"	
 					"labelText"						"#TF_RD_RedFinale"
 					"font"							"m0refont14"
-					"fgcolor"						"255 255 255 255"		
+					"fgcolor"						"White"		
 					"proportionalToParent"			"1"
 				}
 
@@ -504,8 +512,8 @@
 				{
 					"ControlName"					"CExLabel"
 					"fieldName"						"VictoryLabelShadow"
-					"xpos"							"1"
-					"ypos"							"1"
+					"xpos"							"-1"
+					"ypos"							"-1"
 					"zpos"							"7"
 					"wide"							"95"
 					"tall"							"35"
@@ -514,8 +522,12 @@
 					"textAlignment"					"west"	
 					"labelText"						"#TF_RD_RedFinale"
 					"font"							"m0refont14"
-					"fgcolor"						"0 0 0 255"		
+					"fgcolor"						"Black"		
 					"proportionalToParent"			"1"
+					
+					"pin_to_sibling"				"VictoryLabel"
+					"pin_corner_to_sibling"			"PIN_TOPLEFT"
+					"pin_to_sibling_corner"			"PIN_TOPLEFT"
 				}
 
 				"VictoryLabelTime"
@@ -554,7 +566,7 @@
 					"textAlignment"					"center"	
 					"labelText"						"%victorytime%"
 					"font"							"m0refont14"
-					"fgcolor"						"0 0 0 255"		
+					"fgcolor"						"Black"		
 					"proportionalToParent"			"1"
 
 					"pin_to_sibling"				"VictoryLabel"
@@ -617,8 +629,8 @@
 			{
 				"ControlName"						"CExLabel"
 				"fieldName"							"ScoreShadow"
-				"xpos"								"1"
-				"ypos"								"1"
+				"xpos"								"-1"
+				"ypos"								"-1"
 				"zpos"								"7"
 				"wide"								"f0"
 				"tall"								"f0"
@@ -627,8 +639,12 @@
 				"textAlignment"						"east"	
 				"labelText"							"%score%"
 				"font"								"m0refont30"
-				"fgcolor"							"0 0 0 255"		
+				"fgcolor"							"Black"		
 				"proportionalToParent"				"1"
+				
+				"pin_to_sibling"					"Score"
+				"pin_corner_to_sibling"				"PIN_TOPLEFT"
+				"pin_to_sibling_corner"				"PIN_TOPLEFT"
 			}
 		}
 
@@ -643,7 +659,7 @@
 			"tall"									"60"
 			"visible"								"1"
 			"enabled"								"1"
-			"bgcolor_override"						"0 0 0 0"
+			"bgcolor_override"						"Blank"
 			"proportionalToParent"					"1"
 
 			"Score"
@@ -668,8 +684,8 @@
 			{
 				"ControlName"						"CExLabel"
 				"fieldName"							"ScoreShadow"
-				"xpos"								"1"
-				"ypos"								"1"
+				"xpos"								"-1"
+				"ypos"								"-1"
 				"zpos"								"7"
 				"wide"								"f0"
 				"tall"								"f0"
@@ -678,8 +694,12 @@
 				"textAlignment"						"west"	
 				"labelText"							"%score%"
 				"font"								"m0refont30"
-				"fgcolor"							"0 0 0 255"		
+				"fgcolor"							"Black"		
 				"proportionalToParent"				"1"
+				
+				"pin_to_sibling"					"Score"
+				"pin_corner_to_sibling"				"PIN_TOPLEFT"
+				"pin_to_sibling_corner"				"PIN_TOPLEFT"
 			}
 		}
 
@@ -694,7 +714,7 @@
 			"tall"									"40"
 			"visible"								"1"
 			"enabled"								"1"
-			"bgcolor_override"						"0 0 0 0"
+			"bgcolor_override"						"Blank"
 			"proportionalToParent"					"1"
 
 			"IntelImage"
@@ -724,7 +744,7 @@
 				"tall"								"f0"
 				"visible"							"1"
 				"enabled"							"1"
-				"bgcolor_override"					"0 0 0 0"
+				"bgcolor_override"					"Blank"
 				
 				"proportionalToParent"				"1"
 
@@ -760,7 +780,7 @@
 				"labelText"							"%intelvalue%"
 				"font"								"m0refont16"
 				"fgcolor"							"TanLight"		
-				"bgcolor_override"					"0 0 0 0"
+				"bgcolor_override"					"Blank"
 				"proportionalToParent"				"1"
 			}
 
@@ -768,8 +788,8 @@
 			{
 				"ControlName"						"CExLabel"
 				"fieldName"							"IntelValueShadow"
-				"xpos"								"1"
-				"ypos"								"1"
+				"xpos"								"-1"
+				"ypos"								"-1"
 				"zpos"								"11"
 				"wide"								"f0"
 				"tall"								"20"
@@ -778,8 +798,12 @@
 				"textAlignment"						"center"	
 				"labelText"							"%intelvalue%"
 				"font"								"m0refont16"	
-				"fgcolor"							"0 0 0 255"
+				"fgcolor"							"Black"
 				"proportionalToParent"				"1"
+				
+				"pin_to_sibling"					"IntelValue"
+				"pin_corner_to_sibling"				"PIN_TOPLEFT"
+				"pin_to_sibling_corner"				"PIN_TOPLEFT"
 			}
 		}
 
@@ -794,7 +818,7 @@
 			"tall"									"40"
 			"visible"								"1"
 			"enabled"								"1"
-			"bgcolor_override"						"0 0 0 0"
+			"bgcolor_override"						"Blank"
 			"proportionalToParent"					"1"
 
 			"IntelImage"
@@ -824,7 +848,7 @@
 				"tall"								"f0"
 				"visible"							"1"
 				"enabled"							"1"
-				"bgcolor_override"					"0 0 0 0"
+				"bgcolor_override"					"Blank"
 				
 				"proportionalToParent"				"1"
 
@@ -860,7 +884,7 @@
 				"labelText"							"%intelvalue%"
 				"font"								"m0refont16"
 				"fgcolor"							"TanLight"		
-				"bgcolor_override"					"0 0 0 0"
+				"bgcolor_override"					"Blank"
 				"proportionalToParent"				"1"
 			}
 
@@ -868,8 +892,8 @@
 			{
 				"ControlName"						"CExLabel"
 				"fieldName"							"IntelValueShadow"
-				"xpos"								"1"
-				"ypos"								"1"
+				"xpos"								"-1"
+				"ypos"								"-1"
 				"zpos"								"11"
 				"wide"								"f0"
 				"tall"								"20"
@@ -878,8 +902,12 @@
 				"textAlignment"						"center"	
 				"labelText"							"%intelvalue%"
 				"font"								"m0refont16"	
-				"fgcolor"							"0 0 0 255"	
+				"fgcolor"							"Black"	
 				"proportionalToParent"				"1"
+				
+				"pin_to_sibling"					"IntelValue"
+				"pin_corner_to_sibling"				"PIN_TOPLEFT"
+				"pin_to_sibling_corner"				"PIN_TOPLEFT"
 			}
 		}
 	}
@@ -930,7 +958,7 @@
 			"textAlignment"							"center"	
 			"labelText"								"%countdowntime%"
 			"font"									"m0refont18"
-			"fgcolor"								"255 255 255 255"
+			"fgcolor"								"White"
 			"proportionalToParent"					"1"
 		}
 
@@ -938,8 +966,8 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"CountdownLabelTimeTimeShadow"
-			"xpos"									"c-17"
-			"ypos"									"53"
+			"xpos"									"-1"
+			"ypos"									"-1"
 			"zpos"									"7"
 			"wide"									"40"
 			"tall"									"40"
@@ -948,8 +976,12 @@
 			"textAlignment"							"center"	
 			"labelText"								"%countdowntime%"
 			"font"									"m0refont18"
-			"fgcolor"								"0 0 0 255"		
+			"fgcolor"								"Black"		
 			"proportionalToParent"					"1"
+			
+			"pin_to_sibling"						"CountdownLabelTime"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_TOPLEFT"
 		}
 	}
 	

@@ -39,9 +39,9 @@
 		"ControlName"								"CExLabel"
 		"fieldName"									"CurrencyShadow"
 		"font"										"m0refont16"
-		"fgcolor"									"0 0 0 255"
-		"xpos"										"10"
-		"ypos"										"2"
+		"fgcolor"									"Black"
+		"xpos"										"-1"
+		"ypos"										"-1"
 		"zpos"										"4"
 		"wide"										"90"
 		"tall"										"14"
@@ -49,6 +49,10 @@
 		"enabled"									"1"
 		"textAlignment"								"center"	
 		"labelText"									"%currency%"
+		
+		"pin_to_sibling"							"CurrencyGood"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 	}
 	
 	

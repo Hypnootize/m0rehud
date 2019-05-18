@@ -1,141 +1,28 @@
 "Resource/UI/build_menu/HudMenuEurekaEffect.res"
 {
-	"MainBackground"	
+	"Background"
 	{
-		"ControlName"								"CIconPanel"
-		"fieldName"									"MainBackground"
+		"ControlName"		     					"EditablePanel"
+		"fieldName"									"Background"
 		"xpos"										"0"
-		"ypos"										"10"
+		"ypos"										"0"
 		"zpos"										"0"
-		"wide"										"250"
-		"tall"										"0"
-		"visible"									"1"
-		"enabled"									"1"
-		"scaleImage"								"1"	
-		"icon"										"hud_menu_bg"
-		"iconColor"									"255 255 255 255"
-	}
-	
-	"ShadedBar"
-	{
-		"ControlName"								"ImagePanel"
-		"fieldName"									"ShadedBar"
-		"xpos"										"37"
-		"ypos"										"47"
-		"zpos"										"0"
-		"wide"										"175"
-		"tall"										"115"
-		"autoResize"								"0"
-		"pinCorner"									"0"
-		"visible"									"1"
-		"enabled"									"1"
-		"tabPosition"								"0"	
-		"fillcolor"									"100 0 255 150"
-		"PaintBackgroundType"						"0"
-	}
-	
-	"BuildIcon"	
-	{
-		"ControlName"								"CIconPanel"
-		"fieldName"									"BuildIcon"
-		"xpos"										"15"
-		"ypos"										"-8"
-		"zpos"										"1"
-		"wide"										"48"
-		"tall"										"0"
-		"visible"									"1"
-		"enabled"									"1"
-		"scaleImage"								"1"	
-		"icon"										"ico_build"
-		"iconColor"									"255 255 255 255"
-	}
-	
-	"BuildIconShadow"	
-	{
-		"ControlName"								"CIconPanel"
-		"fieldName"									"BuildIconShadow"
-		"xpos"										"16"
-		"ypos"										"-7"
-		"zpos"										"0"
-		"wide"										"0"
-		"tall"										"48"
-		"visible"									"1"
-		"enabled"									"1"
-		"scaleImage"								"1"	
-		"icon"										"ico_build"
-		"iconColor"									"0 0 0 255"
-	}
-	
-	"TitleLabel"
-	{	
-		"ControlName"								"CExLabel"
-		"fieldName"									"TitleLabel"
-		"font"										"Coolvetica"
-		"xpos"										"102"
-		"ypos"										"20"
-		"zpos"										"2"
-		"wide"										"300"
-		"tall"										"38"
-		"autoResize"								"0"
-		"pinCorner"									"0"
-		"visible"									"1"
-		"enabled"									"1"
-		"labelText"									"TELEPORT"
-		"textAlignment"								"Left"
-		"dulltext"									"0"
-		"brighttext"								"0"
-	}
-	
-	"TitleLabelDropshadow"
-	{	
-		"ControlName"								"CExLabel"
-		"fieldName"									"TitleLabelDropshadow"
-		"font"										"Coolvetica"
-		"fgcolor"									"Black"
-		"xpos"										"103"
-		"ypos"										"21"
-		"zpos"										"1"
-		"wide"										"300"
-		"tall"										"38"
-		"autoResize"								"0"
-		"pinCorner"									"0"
-		"visible"									"1"
-		"enabled"									"1"
-		"labelText"									"TELEPORT"
-		"textAlignment"								"Left"
-		"dulltext"									"1"
-		"brighttext"								"0"
-	}
-	
-	"CancelLabel"
-	{	
-		"ControlName"								"CExLabel"
-		"fieldName"									"CancelLabel"
-		"font"										"SpectatorKeyHints"
-		"xpos"										"75"
-		"ypos"										"50"
-		"zpos"										"1"
-		"wide"										"100"
-		"tall"										"13"
-		"autoResize"								"0"
-		"pinCorner"									"0"
-		"visible"									"1"
-		"enabled"									"1"
-		"labelText"									"#Hud_Menu_Build_Cancel"
-		"textAlignment"								"center"
-		"dulltext"									"0"
-		"brighttext"								"0"
+		"wide"										"103"
+		"tall"										"68"
+		"visible"		        					"1"
+		"enabled"	          						"1"
+		"border"									"TFThinLineBorder"
 	}
 	
 	"available_target_1"
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"available_target_1"
-		"xpos"										"40"
-		"ypos"										"47"
+		"xpos"										"8"
+		"ypos"										"8"
 		"zpos"										"10"
-		"wide"										"100"
-		"tall"										"124"
+		"wide"										"45"
+		"tall"										"55"
 		"visible"									"1"
 	}	
 	
@@ -143,11 +30,11 @@
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"available_target_2"
-		"xpos"										"110"
-		"ypos"										"47"
+		"xpos"										"55"
+		"ypos"										"8"
 		"zpos"										"1"
-		"wide"										"100"
-		"tall"										"124"
+		"wide"										"45"
+		"tall"										"55"
 		"visible"									"1"
 	}	
 
@@ -155,23 +42,99 @@
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"unavailable_target_1"
-		"xpos"										"25"
-		"ypos"										"47"
-		"zpos"										"1"
-		"wide"										"100"
-		"tall"										"124"
-		"visible"									"0"
+		"xpos"										"8"
+		"ypos"										"8"
+		"zpos"										"10"
+		"wide"										"45"
+		"tall"										"55"
+		"visible"									"1"
 	}	
 	
 	"unavailable_target_2"
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"unavailable_target_2"
-		"xpos"										"125"
-		"ypos"										"47"
+		"xpos"										"55"
+		"ypos"										"8"
 		"zpos"										"1"
-		"wide"										"100"
-		"tall"										"124"
+		"wide"										"45"
+		"tall"										"55"
+		"visible"									"1"
+	}
+
+	
+	
+	
+	
+	//////////////////////////////////REMOVED STUFF//////////////////////////////////
+	
+	"MainBackground"	
+	{
+		"ControlName"								"CIconPanel"
+		"fieldName"									"MainBackground"
+		"wide"										"0"
+		"tall"										"0"
 		"visible"									"0"
-	}	
+		"enabled"									"0"
+	}
+	
+	"BuildIcon"	
+	{
+		"ControlName"								"CIconPanel"
+		"fieldName"									"BuildIcon"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
+	}
+	
+	"BuildIconShadow"	
+	{
+		"ControlName"								"CIconPanel"
+		"fieldName"									"BuildIconShadow"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
+	}
+	
+	"Divider"
+	{
+		"ControlName"		     					"ImagePanel"
+		"fieldName"									"Divider"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
+	}
+	
+	"TitleLabel"
+	{	
+		"ControlName"								"CExLabel"
+		"fieldName"									"TitleLabel"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
+	}
+	
+	"TitleLabelDropshadow"
+	{	
+		"ControlName"								"CExLabel"
+		"fieldName"									"TitleLabelDropshadow"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
+	}
+	
+	"CancelLabel"
+	{	
+		"ControlName"								"CExLabel"
+		"fieldName"									"CancelLabel"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
+	}
 }

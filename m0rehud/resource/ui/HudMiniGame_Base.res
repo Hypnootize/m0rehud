@@ -1,22 +1,22 @@
 "Resource/UI/HudMiniGame_Base.res"
-{
+{	
 	"BlueScore"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"BlueScore"
-		"xpos"										"c-110"
-		"ypos"										"r30"
+		"xpos"										"c-80"
+		"ypos"										"r23"
 		"zpos"										"8"
-		"wide"										"75"
-		"tall"										"35"
+		"wide"										"50"
+		"tall"										"20"
 		"visible"									"1"
 		"enabled"									"1"
-		"textAlignment"								"east"	
+		"textAlignment"								"east"
 		"labelText"									"%bluescore%"
 		"font"										"m0refont30"
 		"fgcolor"									"m0reblue"
 	}	
-		
+	
 	"BlueScoreShadow"
 	{
 		"ControlName"								"CExLabel"
@@ -24,37 +24,37 @@
 		"xpos"										"-1"
 		"ypos"										"-1"
 		"zpos"										"7"
-		"wide"										"75"
-		"tall"										"35"
+		"wide"										"50"
+		"tall"										"20"
 		"visible"									"1"
 		"enabled"									"1"
-		"textAlignment"								"east"	
+		"textAlignment"								"east"
 		"labelText"									"%bluescore%"
 		"font"										"m0refont30"
-		"fgcolor"									"0 0 0 255"
+		"fgcolor"									"Black"
 		
 		"pin_to_sibling"							"BlueScore"
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
 		"pin_to_sibling_corner"						"PIN_TOPLEFT"
-	}	
+	}
 	
 	"RedScore"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"RedScore"
-		"xpos"										"c37"
-		"ypos"										"r30"
+		"xpos"										"c31"
+		"ypos"										"r23"
 		"zpos"										"8"
-		"wide"										"75"
-		"tall"										"35"
+		"wide"										"50"
+		"tall"										"20"
 		"visible"									"1"
 		"enabled"									"1"
-		"textAlignment"								"west"	
+		"textAlignment"								"west"
 		"labelText"									"%redscore%"
 		"font"										"m0refont30"
-		"fgcolor"									"m0rered"		
-	}	
-		
+		"fgcolor"									"m0rered"
+	}
+	
 	"RedScoreShadow"
 	{
 		"ControlName"								"CExLabel"
@@ -62,28 +62,28 @@
 		"xpos"										"-1"
 		"ypos"										"-1"
 		"zpos"										"7"
-		"wide"										"75"
-		"tall"										"35"
+		"wide"										"50"
+		"tall"										"20"
 		"visible"									"1"
 		"enabled"									"1"
-		"textAlignment"								"west"	
+		"textAlignment"								"west"
 		"labelText"									"%redscore%"
 		"font"										"m0refont30"
-		"fgcolor"									"0 0 0 255"	
+		"fgcolor"									"Black"
 
 		"pin_to_sibling"							"RedScore"
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
-		"pin_to_sibling_corner"						"PIN_TOPLEFT"		
-	}	
+		"pin_to_sibling_corner"						"PIN_TOPLEFT"
+	}
 	
 	"PlayingTo"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"PlayingTo"
-		"xpos"										"c-68"
-		"ypos"										"470"
+		"xpos"										"c-30"
+		"ypos"										"r10"
 		"zpos"										"4"
-		"wide"										"140"
+		"wide"										"60"
 		"tall"										"10"
 		"visible"									"1"
 		"enabled"									"1"
@@ -92,7 +92,7 @@
 		"dulltext"									"0"
 		"brighttext"								"0"
 		"font"										"DefaultVerySmall"
-		"fgcolor"									"255 255 255 255"
+		"fgcolor"									"White"
 	}
 	
 	
@@ -120,7 +120,7 @@
 		"visible"									"0"
 		"enabled"									"0"
 	}
-		
+	
 	"OutlineBG"
 	{
 		"ControlName"								"ImagePanel"

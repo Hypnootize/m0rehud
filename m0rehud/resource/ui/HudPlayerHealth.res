@@ -16,21 +16,6 @@
 		"HealthDeathWarningColor"					"HUDDeathWarning"
 	}	
 	
-	"PlayerStatusHealthBonusImage"
-	{
-		"ControlName"	         				 	"ImagePanel"
-		"fieldName"		         				 	"PlayerStatusHealthBonusImage"
-		"xpos"			         				 	"63"
-		"ypos"			         				 	"46"
-		"zpos"			         				 	"-4"
-		"wide"			         				 	"66"
-		"tall"			         				 	"66"
-		"visible"		         				 	"0"
-		"enabled"		         				 	"1"
-		"image"			         				 	"../hud/health_over_bg"
-		"scaleImage"	         				 	"1"	
-	}
-	
 	"PlayerStatusHealthValue"
 	{
 		"ControlName"	           				 	"CExLabel"
@@ -52,8 +37,8 @@
 	{
 		"ControlName"	           				 	"CExLabel"
 		"fieldName"	  	         				 	"PlayerStatusHealthValueShadow"
-		"xpos"	    		         				"22"
-		"ypos"	    		         				"2"	
+		"xpos"	    		         				"-2"
+		"ypos"	    		         				"-2"	
 		"zpos"	    		         				"5"
 		"wide"		    	         				"150"
 		"tall"		    	         				"150"
@@ -62,15 +47,19 @@
 		"labelText"	  	         				 	"%Health%"
 		"textAlignment"	         				 	"center"	
 		"font"                   				 	"M0refont72"
-		"fgcolor"	     	         				"0 0 0 255"
+		"fgcolor"	     	         				"Black"
+		
+		"pin_to_sibling"							"PlayerStatusHealthValue"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 	}
 	
 	"PlayerStatusHealthValueShadowExtra"
 	{
 		"ControlName"	          				 	"CExLabel"
 		"fieldName"	  	         				 	"PlayerStatusHealthValueShadowExtra"
-		"xpos"	    		         				"23"
-		"ypos"	    		         				"3"	
+		"xpos"	    		         				"-1"
+		"ypos"	    		         				"-1"	
 		"zpos"	    		         				"5"
 		"wide"		    	         				"150"
 		"tall"		    	         				"150"
@@ -79,7 +68,27 @@
 		"labelText"	  	         				 	"%Health%"
 		"textAlignment"	         				 	"center"	
 		"font"                   				 	"M0refont72"
-		"fgcolor"	     	         				"0 0 0 0"
+		"fgcolor"	     	         				"Black"
+		"alpha"	     	         					"0"
+		
+		"pin_to_sibling"							"PlayerStatusHealthValueShadow"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_TOPLEFT"
+	}
+	
+	"PlayerStatusHealthBonusImage"
+	{
+		"ControlName"	         				 	"ImagePanel"
+		"fieldName"		         				 	"PlayerStatusHealthBonusImage"
+		"xpos"			         				 	"63"
+		"ypos"			         				 	"46"
+		"zpos"			         				 	"-4"
+		"wide"			         				 	"66"
+		"tall"			         				 	"66"
+		"visible"		         				 	"0"
+		"enabled"		         				 	"1"
+		"image"			         				 	"../hud/health_over_bg"
+		"scaleImage"	         				 	"1"
 	}
 	
 	"PlayerStatusAnchor"
@@ -183,25 +192,6 @@
 		"enabled"				         			"1"
 		"scaleImage"				         		"1"	
 		"image"					         			"../vgui/marked_for_death"
-		"fgcolor"				         			"TanDark"
-		"pin_to_sibling"			         		"PlayerStatusAnchor"
-		"pin_corner_to_sibling"			         	"1"
-		"pin_to_sibling_corner"			         	"1"
-	}
-	
-	"PlayerStatusSlowed"
-	{
-		"ControlName"				         		"ImagePanel"
-		"fieldName"				         			"PlayerStatusSlowed"
-		"xpos"					         			"0"
-		"ypos"					         			"0"
-		"zpos"					         			"7"
-		"wide"					         			"30"
-		"tall"					         			"30"
-		"visible"				         			"1"
-		"enabled"				         			"1"
-		"scaleImage"				         		"1"	
-		"image"					         			"../vgui/slowed"
 		"fgcolor"				         			"TanDark"
 		"pin_to_sibling"			         		"PlayerStatusAnchor"
 		"pin_corner_to_sibling"			         	"1"
@@ -661,6 +651,25 @@
 		"pin_to_sibling"			         		"PlayerStatusAnchor"
 		"pin_corner_to_sibling"		         		"1"
 		"pin_to_sibling_corner"		         		"1"
+	}
+	
+	"PlayerStatusSlowed"
+	{
+		"ControlName"				         		"ImagePanel"
+		"fieldName"				         			"PlayerStatusSlowed"
+		"xpos"					         			"0"
+		"ypos"					         			"0"
+		"zpos"					         			"7"
+		"wide"					         			"30"
+		"tall"					         			"30"
+		"visible"				         			"1"
+		"enabled"				         			"1"
+		"scaleImage"				         		"1"	
+		"image"					         			"../vgui/slowed"
+		"fgcolor"				         			"TanDark"
+		"pin_to_sibling"			         		"PlayerStatusAnchor"
+		"pin_corner_to_sibling"			         	"1"
+		"pin_to_sibling_corner"			         	"1"
 	}
 	
 	

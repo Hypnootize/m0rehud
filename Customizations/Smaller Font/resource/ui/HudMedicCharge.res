@@ -48,8 +48,8 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"ChargeLabelBigShadow"
-		"xpos"										"c77"
-		"ypos"										"c62"
+		"xpos"										"-2"
+		"ypos"										"-2"
 		"zpos"										"2"
 		"wide"										"175"
 		"tall"										"150"
@@ -63,7 +63,38 @@
 		"dulltext"									"0"
 		"brighttext"								"0"
 		"font"										"M0refont46"
-		"fgcolor"  									"0 0 0 255"
+		"fgcolor"  									"Black"
+		
+		"pin_to_sibling"							"ChargeLabelBig"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_TOPLEFT"
+	}
+	
+	"ChargeLabelBigShadowExtra"
+	{
+		"ControlName"								"CExLabel"
+		"fieldName"									"ChargeLabelBigShadowExtra"
+		"xpos"										"-1"
+		"ypos"										"-1"
+		"zpos"										"2"
+		"wide"										"175"
+		"tall"										"150"
+		"autoResize"								"1"
+		"pinCorner"									"2"
+		"visible"									"1"
+		"enabled"									"1"
+		"tabPosition"								"0"
+		"labelText"									"#TF_UberchargeMinHUD"
+		"textAlignment"								"center"
+		"dulltext"									"0"
+		"brighttext"								"0"
+		"font"										"M0refont46"
+		"fgcolor"  									"Black"
+		"alpha"  									"0"
+		
+		"pin_to_sibling"							"ChargeLabelBigShadow"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 	}
 	
 	"ChargeMeter"
@@ -90,11 +121,11 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"IndividualChargesLabel"
-		"xpos"										"c-51"
-		"ypos"										"c0"
+		"xpos"										"0"
+		"ypos"										"0"
 		"zpos"										"3"
 		"wide"										"100"
-		"tall"										"65"
+		"tall"										"20"
 		"autoResize"								"1"
 		"pinCorner"									"2"
 		"visible"									"1"
@@ -106,6 +137,10 @@
 		"brighttext"								"0"
 		"fgcolor"									"Ubercharge"
 		"font"										"M0refont18Shadow"
+		
+		"pin_to_sibling"							"ChargeLabel"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 	}
 	
 	"ResistIconAnchor"
@@ -132,6 +167,7 @@
 		"enabled"									"1"
 		"image"										"../HUD/defense_buff_bullet_blue"
 		"scaleImage"								"1"
+		
 		"pin_to_sibling"							"ResistIconAnchor"
 		"pin_corner_to_sibling"						"1"
 		"pin_to_sibling_corner"						"1"
@@ -161,8 +197,8 @@
 		"ControlName"								"ContinuousProgressBar"
 		"fieldName"									"ChargeMeter2"
 		"font"										"Default"
-		"xpos"										"c-34"
-		"ypos"										"r88"
+		"xpos"										"1"
+		"ypos"										"0"
 		"zpos"										"2"
 		"wide"										"34"
 		"tall"										"2"				
@@ -173,6 +209,10 @@
 		"textAlignment"								"Left"
 		"dulltext"									"0"
 		"brighttext"								"0"
+		
+		"pin_to_sibling"							"ChargeMeter1"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 	}
 
 	"ChargeMeter3"
@@ -180,8 +220,8 @@
 		"ControlName"								"ContinuousProgressBar"
 		"fieldName"									"ChargeMeter3"
 		"font"										"Default"
-		"xpos"										"c1"
-		"ypos"										"r88"
+		"xpos"										"1"
+		"ypos"										"0"
 		"zpos"										"2"
 		"wide"										"34"
 		"tall"										"2"			
@@ -192,6 +232,10 @@
 		"textAlignment"								"Left"
 		"dulltext"									"0"
 		"brighttext"								"0"
+		
+		"pin_to_sibling"							"ChargeMeter2"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 	}
 
 	"ChargeMeter4"
@@ -199,8 +243,8 @@
 		"ControlName"								"ContinuousProgressBar"
 		"fieldName"									"ChargeMeter4"
 		"font"										"Default"
-		"xpos"										"c36"
-		"ypos"										"r88"
+		"xpos"										"1"
+		"ypos"										"0"
 		"zpos"										"2"
 		"wide"										"35"
 		"tall"										"2"		
@@ -211,6 +255,10 @@
 		"textAlignment"								"Left"
 		"dulltext"									"0"
 		"brighttext"								"0"
+		
+		"pin_to_sibling"							"ChargeMeter3"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 	}
 	
 	

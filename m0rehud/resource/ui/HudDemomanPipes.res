@@ -38,9 +38,8 @@
 		"textAlignment"								"Left"
 		"dulltext"									"0"
 		"brighttext"								"0"
-		"bgcolor_override"							"0 0 0 100"
 	}				
-		
+	
 	"PipesPresentPanel"
 	{
 		"ControlName"								"EditablePanel"
@@ -71,15 +70,15 @@
 			"dulltext"								"0"
 			"brighttext"							"0"
 			"font"									"M0refont24"
-			"fgcolor"   							"255 255 255 255"
+			"fgcolor"   							"White"
 		}
 		
 		"NumPipesLabelDropshadow"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"NumPipesLabelDropshadow"
-			"xpos"									"c-14"
-			"ypos"									"c55"
+			"xpos"									"-1"
+			"ypos"									"-1"
 			"zpos"									"2"
 			"wide"									"30"
 			"tall"									"20"
@@ -93,7 +92,11 @@
 			"dulltext"								"0"
 			"brighttext"							"0"
 			"font"									"M0refont24"
-			"fgcolor"								"0 0 0 255"
+			"fgcolor"								"Black"
+			
+			"pin_to_sibling"						"NumPipesLabel"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_TOPLEFT"
 		}
 
 		"PipeIcon"

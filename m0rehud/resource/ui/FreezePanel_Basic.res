@@ -48,7 +48,7 @@
 			"tall"									"15"
 			"visible"								"1"
 			"enabled"								"1"
-			"fillcolor"         					"255 255 255 255"
+			"fillcolor"         					"White"
 			"scaleImage"							"1"	
 			"src_corner_height"	 					"15"
 			"src_corner_width"	 					"15"
@@ -98,7 +98,7 @@
 		{	
 			"ControlName"							"Label"
 			"fieldName"								"FreezeLabelKiller"
-			"fgcolor_override"  					"255 255 255 255"
+			"fgcolor_override"  					"White"
 			"font"									"default"
 			"xpos"									"55"
 			"ypos"									"10"

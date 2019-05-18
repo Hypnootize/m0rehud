@@ -5,7 +5,7 @@
 		"ControlName"								"EditablePanel"
 		"fieldName"									"ObjectiveStatusFlagPanel"
 		"xpos"										"0"
-		"ypos"										"-2"
+		"ypos"										"0"
 		"zpos"										"1"
 		"wide"										"f0"
 		"tall"										"480"
@@ -22,16 +22,16 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"BlueScore"
-		"xpos"										"c-92"
-		"ypos"										"r45"
+		"xpos"										"c-100"
+		"ypos"										"r42"
 		"zpos"										"8"
 		"wide"										"50"
 		"tall"										"35"
 		"visible"									"1"
 		"enabled"									"1"
-		"textAlignment"								"west"	
+		"textAlignment"								"east"	
 		"labelText"									"%bluescore%"
-		"font"										"m0refont48"
+		"font"										"m0refont36"
 		"fgcolor"									"m0reblue"
 		
 		"if_hybrid"
@@ -49,22 +49,26 @@
 			"visible"								"0"
 		}
 	}	
-		
+	
 	"BlueScoreShadow"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"BlueScoreShadow"
-		"xpos"										"c-91"
-		"ypos"										"r44"
+		"xpos"										"-1"
+		"ypos"										"-1"
 		"zpos"										"7"
 		"wide"										"50"
 		"tall"										"35"
 		"visible"									"1"
 		"enabled"									"1"
-		"textAlignment"								"west"	
+		"textAlignment"								"east"	
 		"labelText"									"%bluescore%"
-		"font"										"m0refont48"
-		"fgcolor"									"0 0 0 255"
+		"font"										"m0refont36"
+		"fgcolor"									"Black"
+		
+		"pin_to_sibling"							"BlueScore"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 		
 		"if_hybrid"
 		{
@@ -81,21 +85,21 @@
 			"visible"								"0"
 		}
 	}	
-							
+	
 	"RedScore"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"RedScore"
-		"xpos"										"c44"
-		"ypos"										"r45"
+		"xpos"										"c52"
+		"ypos"										"r42"
 		"zpos"										"8"
 		"wide"										"50"
 		"tall"										"35"
 		"visible"									"1"
 		"enabled"									"1"
-		"textAlignment"								"east"	
+		"textAlignment"								"west"	
 		"labelText"									"%redscore%"
-		"font"										"m0refont48"
+		"font"										"m0refont36"
 		"fgcolor"									"m0rered"	
 		
 		"if_hybrid"
@@ -113,22 +117,26 @@
 			"visible"								"0"
 		}
 	}	
-		
+	
 	"RedScoreShadow"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"RedScoreShadow"
-		"xpos"										"c45"
-		"ypos"										"r44"
+		"xpos"										"-1"
+		"ypos"										"-1"
 		"zpos"										"7"
 		"wide"										"50"
 		"tall"										"35"
 		"visible"									"1"
 		"enabled"									"1"
-		"textAlignment"								"east"	
+		"textAlignment"								"west"	
 		"labelText"									"%redscore%"
-		"font"										"m0refont48"
-		"fgcolor"									"0 0 0 255"		
+		"font"										"m0refont36"
+		"fgcolor"									"Black"
+
+		"pin_to_sibling"							"RedScore"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 		
 		"if_hybrid"
 		{
@@ -144,37 +152,8 @@
 		{
 			"visible"								"0"
 		}
-	}		
-	
-	"CarriedImage"
-	{
-		"ControlName"								"ImagePanel"
-		"fieldName"									"CarriedImage"
-		"xpos"										"c-15"
-		"ypos"										"r36"
-		"zpos"										"10"
-		"wide"										"30"
-		"tall"										"30"
-		"visible"									"0"
-		"enabled"									"1"
-		"image"										"../hud/objectives_flagpanel_carried_red"
-		"scaleImage"								"1"
-		
-		"if_hybrid"
-		{
-			"ypos"									"r85"
-		}
+	}
 
-		"if_specialdelivery"
-		{
-			"xpos"									"c-20"
-			"ypos"									"r50"
-			"zpos"									"10"
-			"wide"									"40"
-			"tall"									"40"
-		}
-	}		
-	
 	"PlayingTo"
 	{
 		"ControlName"								"CExLabel"
@@ -191,7 +170,7 @@
 		"dulltext"									"0"
 		"brighttext"								"0"
 		"font"										"defaultverysmall"
-		"fgcolor"									"255 255 255 255"
+		"fgcolor"									"White"
 		
 		"if_hybrid"
 		{
@@ -205,14 +184,14 @@
 		{
 			"visible"								"0"
 		}
-	}	
-			
+	}
+	
 	"BlueFlag"
 	{
 		"ControlName"								"CTFFlagStatus"
 		"fieldName"									"BlueFlag"
-		"xpos"										"c-107"
-		"ypos"										"r71"
+		"xpos"										"c-95"
+		"ypos"										"r63"
 		"zpos"										"5"
 		"wide"										"160"
 		"tall"										"90"
@@ -222,22 +201,45 @@
 		"if_hybrid"
 		{
 			"visible"								"0"
-			"ypos"									"r100"
 		}
 		
 		"if_hybrid_single"
 		{
-			"xpos"									"c-80"
-		}
-		
-		"if_hybrid_double"
-		{
-			"xpos"									"c-115"
+			"xpos"									"c-72"
 		}
 
-		"if_specialdelivery"
+		"if_no_flags"
 		{
-			"ypos"									"r80"
+			"visible"								"0"
+		}
+		
+		"if_mvm"
+		{
+			"xpos"									"c-82"
+			"ypos"									"r72"
+		}
+	}
+	
+	"RedFlag"
+	{
+		"ControlName"								"CTFFlagStatus"
+		"fieldName"									"RedFlag"
+		"xpos"										"c-55"
+		"ypos"										"r63"
+		"zpos"										"5"
+		"wide"										"160"
+		"tall"										"90"
+		"visible"									"1"
+		"enabled"									"1"
+		
+		"if_hybrid"
+		{
+			"visible"								"0"
+		}
+		
+		"if_hybrid_single"
+		{
+			"xpos"									"c-72"
 		}
 
 		"if_no_flags"
@@ -245,67 +247,37 @@
 			"visible"								"0"
 		}
 	}
-			
-	"RedFlag"
-	{
-		"ControlName"								"CTFFlagStatus"
-		"fieldName"									"RedFlag"
-		"xpos"										"c-50"
-		"ypos"										"r71"
-		"zpos"										"5"
-		"wide"										"160"
-		"tall"										"90"
-		"visible"									"1"
-		"enabled"									"1"
-				
-		"if_hybrid"
-		{
-			"visible"								"0"
-			"ypos"									"r100"
-		}
-		
-		"if_hybrid_single"
-		{
-			"xpos"									"c-80"
-		}
-		
-		"if_hybrid_double"
-		{
-			"xpos"									"c-45"
-		}
-		
-		"if_specialdelivery"
-		{
-			"ypos"									"r80"
-		}
-
-		"if_no_flags"
-		{
-			"visible"								"0"
-		}
-	}	
-			
+	
 	"CaptureFlag"
 	{
 		"ControlName"								"CTFArrowPanel"
 		"fieldName"									"CaptureFlag"
-		"xpos"										"c-25"
-		"ypos"										"r50"
+		"xpos"										"c-20"
+		"ypos"										"r43"
 		"zpos"										"5"
-		"wide"										"50"
-		"tall"										"50"
+		"wide"										"40"
+		"tall"										"40"
 		"visible"									"0"
 		"enabled"									"1"
+	}
+	
+	"CarriedImage"
+	{
+		"ControlName"								"ImagePanel"
+		"fieldName"									"CarriedImage"
+		"xpos"										"0"
+		"ypos"										"-12"
+		"zpos"										"10"
+		"wide"										"25"
+		"tall"										"25"
+		"visible"									"0"
+		"enabled"									"1"
+		"image"										"../hud/objectives_flagpanel_carried_red"
+		"scaleImage"								"1"
 		
-		"if_hybrid"
-		{
-			"ypos"									"r100"
-		}
-
-		"if_specialdelivery"
-		{
-			"ypos"									"r60"
-		}
+		"pin_to_sibling"							"CaptureFlag"
+		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
+		"pin_to_sibling_corner"						"PIN_CENTER_TOP"
 	}
 	
 	"SpecCarriedImage"

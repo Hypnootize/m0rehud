@@ -97,7 +97,7 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"fgcolor_override"							"0 0 0 255"
+		"fgcolor_override"							"Black"
 	}
 	
 	"TopLine"
@@ -111,7 +111,7 @@
 		"tall"										"10"
 		"visible"									"1"
 		"enabled"									"1"
-		"fillcolor" 								"255 255 255 255"
+		"fillcolor" 								"White"
 		"tileImage"									"1"
 		"tileVertically" 							"0"
 	}				
@@ -125,7 +125,7 @@
 		"wide"										"230"
 		"tall"										"115"
 		"PaintBackgroundType"						"2"
-		"fgcolor_override"							"255 255 255 255"
+		"fgcolor_override"							"White"
 		"bgcolor_override"							"200 187 161 0"
 		"autohide_buttons" 							"1"
 	}
@@ -155,7 +155,7 @@
 			"tall"									"10"
 			"visible"								"1"
 			"PaintBackgroundType"					"2"
-			"fgcolor" 								"255 255 255 255"
+			"fgcolor" 								"White"
 		}
 	}
 	

@@ -13,22 +13,23 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
+		
 		"image"										"../hud/color_panel_clear"
 		"scaleImage"								"1"	
 		"teambg_2"									"../hud/color_panel_clear"
 		"teambg_3"									"../hud/color_panel_clear"
-			
+		
 		"src_corner_height"							"23"
 		"src_corner_width"							"23"
-				
+		
 		"draw_corner_width"							"5"
 		"draw_corner_height" 						"5"	
 	}
 	
-	"title"
+	"Title"
 	{
 		"ControlName"								"CExLabel"
-		"fieldName"									"title"
+		"fieldName"									"Title"
 		"xpos"										"c-200"
 		"ypos"										"112"
 		"zpos"										"6"
@@ -41,15 +42,15 @@
 		"font"										"m0refont18"
 		"labelText"									"#TF_Arena_Team_Layout"
 		"textAlignment"								"center"
-		"fgcolor"									"255 255 255 255"
+		"fgcolor"									"White"
 	}
 	
-	"titleShadow"
+	"TitleShadow"
 	{
 		"ControlName"								"CExLabel"
-		"fieldName"									"titleShadow"
-		"xpos"										"c-199"
-		"ypos"										"113"
+		"fieldName"									"TitleShadow"
+		"xpos"										"-1"
+		"ypos"										"-1"
 		"zpos"										"5"
 		"wide"										"400"
 		"tall"										"20"
@@ -60,13 +61,17 @@
 		"font"										"m0refont18"
 		"labelText"									"#TF_Arena_Team_Layout"
 		"textAlignment"								"center"
-		"fgcolor"									"0 0 0 255"
-	}
+		"fgcolor"									"Black"
 		
-	"changeLabel"
+		"pin_to_sibling"							"title"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_TOPLEFT"
+	}
+	
+	"ChangeLabel"
 	{
 		"ControlName"								"CExLabel"
-		"fieldName"									"changeLabel"
+		"fieldName"									"ChangeLabel"
 		"xpos"										"c-220"
 		"ypos"										"230"
 		"zpos"										"6"
@@ -79,15 +84,15 @@
 		"font"										"HudFontSmallBold"
 		"labelText"									"#TF_Arena_F4_ChangeClass"
 		"textAlignment"								"center"
-		"fgcolor"									"255 255 255 255"
+		"fgcolor"									"White"
 	}
 	
-	"changeLabelShadow"
+	"ChangeLabelShadow"
 	{
 		"ControlName"								"CExLabel"
-		"fieldName"									"changeLabelShadow"
-		"xpos"										"c-219"
-		"ypos"										"231"
+		"fieldName"									"ChangeLabelShadow"
+		"xpos"										"-1"
+		"ypos"										"-1"
 		"zpos"										"5"
 		"wide"										"440"
 		"tall"										"20"
@@ -98,7 +103,11 @@
 		"font"										"HudFontSmallBold"
 		"labelText"									"#TF_Arena_F4_ChangeClass"
 		"textAlignment"								"center"
-		"fgcolor"									"0 0 0 255"
+		"fgcolor"									"Black"
+		
+		"pin_to_sibling"							"ChangeLabel"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 	}
 	
 	"classImage0"

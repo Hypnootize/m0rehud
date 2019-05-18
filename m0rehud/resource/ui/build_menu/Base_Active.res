@@ -1,52 +1,32 @@
 "Resource/UI/build_menu/base.res"
 {
-	"ItemNameLabel"
-	{	
-		"ControlName"								"CExLabel"
-		"fieldName"									"ItemNameLabel"
-		"font"										"Default"
-		"xpos"										"30"
-		"ypos"										"20"
-		"zpos"										"1"
-		"wide"										"84"
-		"tall"										"15"
-		"autoResize"								"0"
-		"pinCorner"									"0"
-		"visible"									"1"
-		"enabled"									"1"
-		"labelText"									"#TF_Object_Sentry"
-		"textAlignment"								"Left"
-		"dulltext"									"0"
-		"brighttext"								"0"
-	}
-
 	"BuildingIcon"	
 	{
 		"ControlName"								"CIconPanel"
 		"fieldName"									"BuildingIcon"
-		"xpos"										"22"
-		"ypos"										"33"
+		"xpos"										"0"
+		"ypos"										"0"
 		"zpos"										"2"
-		"wide"										"56"
-		"tall"										"56"
+		"wide"										"40"
+		"tall"										"40"
 		"visible"									"1"
 		"enabled"									"1"
 		"scaleImage"								"1"	
 		"icon"										"hud_menu_sentry_build"
-		"iconColor"									"255 255 255 255"
+		"iconColor"									"White"
 	}
 	
 	"CostLabel"
 	{	
 		"ControlName"								"CExLabel"
 		"fieldName"									"CostLabel"
-		"font"										"Coolvetica"
-		"fgcolor"									"255 255 255 255"
-		"xpos"										"8"
-		"ypos"										"55"
+		"font"										"m0refont18Shadow"
+		"fgcolor"									"White"
+		"xpos"										"0"
+		"ypos"										"0"
 		"zpos"										"5"
-		"wide"										"84"
-		"tall"										"13"
+		"wide"										"40"
+		"tall"										"40"
 		"autoResize"								"0"
 		"pinCorner"									"0"
 		"visible"									"1"
@@ -55,70 +35,32 @@
 		"textAlignment"								"Center"	
 	}
 	
-	"CostLabelShadow"
-	{	
-		"ControlName"								"CExLabel"
-		"fieldName"									"CostLabelShadow"
-		"font"										"Coolvetica"
-		"fgcolor"									"0 0 0 255"
-		"xpos"										"41"
-		"ypos"										"56"
-		"zpos"										"5"
-		"wide"										"84"
-		"tall"										"13"
-		"autoResize"								"0"
-		"pinCorner"									"0"
-		"visible"									"0"
-		"enabled"									"1"
-		"labelText"									"%metal%"
-		"textAlignment"								"Left"	
-	}
-	
-	"ModeLabel"
-	{	
-		"ControlName"								"CExLabel"
-		"fieldName"									"ModeLabel"
-		"font"										"DefaultSmall"
-		"fgcolor"									"TanDarker"
-		"xpos"										"33"
-		"ypos"										"17"
-		"zpos"										"1"
-		"wide"										"44"
-		"tall"										"13"
-		"autoResize"								"0"
-		"pinCorner"									"0"
-		"visible"									"1"
-		"enabled"									"1"
-		"labelText"									""
-		"textAlignment"								"East"	
-	}
-	
 	"NumberBg"	
 	{
 		"ControlName"								"CIconPanel"
 		"fieldName"									"NumberBg"
-		"xpos"										"41"
-		"ypos"										"90"
-		"zpos"										"0"
+		"xpos"										"12"
+		"ypos"										"35"
+		"zpos"										"5"
 		"wide"										"18"
 		"tall"										"18"
 		"visible"									"1"
 		"enabled"									"1"
 		"scaleImage"								"1"	
 		"icon"										"ico_key_blank"
-		"iconColor"									"255 255 255 255"
+		"iconColor"									"White"
 	}
 	
 	"NumberLabel"
 	{	
 		"ControlName"								"CExLabel"
 		"fieldName"									"NumberLabel"
-		"font"										"HudMenuNumberFont"
+		"font"										"Default"
 		"fgcolor"									"Black"
 		"xpos"										"0"
-		"ypos"										"90"
-		"zpos"										"1"
-		"wide"										"100"
+		"ypos"										"1"
+		"zpos"										"6"
+		"wide"										"18"
 		"tall"										"18"
 		"autoResize"								"0"
 		"pinCorner"									"0"
@@ -128,6 +70,10 @@
 		"textAlignment"								"Center"
 		"dulltext"									"1"
 		"brighttext"								"0"
+		
+		"pin_to_sibling"							"NumberBg"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 	}
 	
 	
@@ -146,10 +92,30 @@
 		"enabled"									"0"
 	}
 	
+	"ItemNameLabel"
+	{	
+		"ControlName"								"CExLabel"
+		"fieldName"									"ItemNameLabel"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
+	}
+	
 	"MetalIcon"	
 	{
 		"ControlName"								"CIconPanel"
 		"fieldName"									"MetalIcon"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
+	}
+	
+	"ModeLabel"
+	{	
+		"ControlName"								"CExLabel"
+		"fieldName"									"ModeLabel"
 		"wide"										"0"
 		"tall"										"0"
 		"visible"									"0"

@@ -252,7 +252,7 @@
 			"tall"									"16"
 			"visible"								"1"
 			"enabled"								"1"
-			"fgcolor"								"255 255 255 255"		
+			"fgcolor"								"White"		
 		}
 	}
 }

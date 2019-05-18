@@ -23,7 +23,7 @@
 		"xpos"										"75"
 		"ypos"										"85"
 		"zpos"										"4"
-		"wide"										"61"							// try "60" if the HP cross isn't centered inside the background cross
+		"wide"										"61"
 		"tall"										"60"
 		"visible"									"1"
 		"enabled"									"1"
@@ -34,23 +34,27 @@
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"PlayerStatusHealthImageBG"
-		"xpos"										"73"
-		"ypos"										"83"
+		"xpos"										"2"
+		"ypos"										"2"
 		"zpos"										"3"
 		"wide"										"64"
 		"tall"										"64"
 		"visible"									"1"
 		"enabled"									"1"
 		"image"										"replay/thumbnails/health_bg"
-		"scaleImage"								"1"	
+		"scaleImage"								"1"
+		
+		"pin_to_sibling"							"PlayerStatusHealthImage"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 	}
 	
 	"HealthCrossBorder"
 	{
 		"ControlName"								"CTFImagePanel"
 		"fieldName"									"HealthCrossBorder"
-		"xpos"										"41"
-		"ypos"										"51"
+		"xpos"										"32"
+		"ypos"										"32"
 		"zpos"										"3"
 		"wide"										"128"
 		"tall"										"128"
@@ -60,6 +64,10 @@
 		"teambg_2"									"replay/thumbnails/health_border_red"
 		"teambg_3"									"replay/thumbnails/health_border_blu"
 		"scaleImage"								"1"
+		
+		"pin_to_sibling"							"PlayerStatusHealthImageBG"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 	}
 	
 	"PlayerStatusHealthBonusImage"
@@ -69,7 +77,7 @@
 		"xpos"										"72"
 		"ypos"										"82"
 		"zpos"										"-4"
-		"wide"										"66" 							// try "65" if the HP cross isn't centered inside the background cross
+		"wide"										"66"
 		"tall"										"66"
 		"visible"									"0"
 		"enabled"									"1"
@@ -90,16 +98,16 @@
 		"enabled"									"1"
 		"labelText"									"%Health%"
 		"textAlignment"								"center"	
-		"font"										"M0refont32"
+		"font"										"M0refont30"
 		"fgcolor"									"Health Numbers"
 	}
 	
-	"PlayerStatusHealthValueshadow2"
+	"PlayerStatusHealthValueShadowCross"
 	{
 		"ControlName"								"CExLabel"
-		"fieldName"									"PlayerStatusHealthValueshadow2"
-		"xpos"										"69"
-		"ypos"										"94"	
+		"fieldName"									"PlayerStatusHealthValueShadowCross"
+		"xpos"										"-1"
+		"ypos"										"-1"	
 		"zpos"										"5"
 		"wide"										"74"
 		"tall"										"40"
@@ -107,8 +115,12 @@
 		"enabled"									"1"
 		"labelText"									"%Health%"
 		"textAlignment"								"center"	
-		"font"										"M0refont32"
-		"fgcolor"									"0 0 0 255"
+		"font"										"M0refont30"
+		"fgcolor"									"Black"
+		
+		"pin_to_sibling"							"PlayerStatusHealthValue"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 	}
 	
 	"PlayerStatusAnchor"
@@ -224,25 +236,6 @@
 		"enabled"									"1"
 		"scaleImage"								"1"	
 		"image"										"../vgui/marked_for_death"
-		"fgcolor"									"TanDark"
-		"pin_to_sibling"							"PlayerStatusAnchor"
-		"pin_corner_to_sibling"						"1"
-		"pin_to_sibling_corner"						"1"
-	}
-	
-	"PlayerStatusSlowed"
-	{
-		"ControlName"								"ImagePanel"
-		"fieldName"									"PlayerStatusSlowed"
-		"xpos"										"0"
-		"ypos"										"0"
-		"zpos"										"7"
-		"wide"										"30"
-		"tall"										"30"
-		"visible"									"1"
-		"enabled"									"1"
-		"scaleImage"								"1"	
-		"image"										"../vgui/slowed"
 		"fgcolor"									"TanDark"
 		"pin_to_sibling"							"PlayerStatusAnchor"
 		"pin_corner_to_sibling"						"1"
@@ -699,6 +692,25 @@
 		"enabled"									"1"
 		"scaleImage"								"1"
 		"image"										"../Effects/powerup_supernova_hud"
+		"fgcolor"									"TanDark"
+		"pin_to_sibling"							"PlayerStatusAnchor"
+		"pin_corner_to_sibling"						"1"
+		"pin_to_sibling_corner"						"1"
+	}
+	
+	"PlayerStatusSlowed"
+	{
+		"ControlName"								"ImagePanel"
+		"fieldName"									"PlayerStatusSlowed"
+		"xpos"										"0"
+		"ypos"										"0"
+		"zpos"										"7"
+		"wide"										"30"
+		"tall"										"30"
+		"visible"									"1"
+		"enabled"									"1"
+		"scaleImage"								"1"	
+		"image"										"../vgui/slowed"
 		"fgcolor"									"TanDark"
 		"pin_to_sibling"							"PlayerStatusAnchor"
 		"pin_corner_to_sibling"						"1"

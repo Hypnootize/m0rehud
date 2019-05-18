@@ -28,7 +28,7 @@
 		"enabled"									"1"
 		"scaleImage"								"1"	
 		"icon"										"obj_status_background_disabled"
-		"iconColor"									"255 255 255 255"
+		"iconColor"									"White"
         "alpha" 									"125"	
 	}
 	
@@ -44,7 +44,7 @@
 		"enabled"									"1"
 		"scaleImage"								"1"	
 		"icon"										"obj_status_tele_exit"
-		"iconColor"									"255 255 255 255"
+		"iconColor"									"White"
         "alpha" 									"125"	
 	}
 	
@@ -101,7 +101,7 @@
 			"enabled"								"1"
 			"scaleImage"							"1"	
 			"icon"									"obj_status_upgrade_1"
-			"iconColor"								"255 255 255 255"
+			"iconColor"								"White"
 			"alpha" 								"125"	
 		}
 
@@ -118,7 +118,7 @@
 			"enabled"								"1"
 			"scaleImage"							"1"	
 			"icon"									"obj_status_upgrade_2"
-			"iconColor"								"255 255 255 255"
+			"iconColor"								"White"
 			"alpha" 								"125"	
 		}
 
@@ -135,7 +135,7 @@
 			"enabled"								"1"
 			"scaleImage"							"1"	
 			"icon"									"obj_status_upgrade_3"
-			"iconColor"								"255 255 255 255"
+			"iconColor"								"White"
 			"alpha" 								"125"	
 		}
 
@@ -165,7 +165,7 @@
 			"enabled"								"1"
 			"scaleImage"							"1"	
 			"icon"									"obj_status_icon_wrench"
-			"iconColor"								"255 255 255 255"
+			"iconColor"								"White"
 			"alpha" 								"0"	
 		}
 		
@@ -182,7 +182,7 @@
 			"enabled"								"1"
 			"scaleImage"							"1"	
 			"icon"									"obj_status_icon_sapper"
-			"iconColor"								"255 255 255 255"
+			"iconColor"								"White"
 			
 		}
 		

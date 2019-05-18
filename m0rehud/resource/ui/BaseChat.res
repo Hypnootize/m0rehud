@@ -1,7 +1,5 @@
 "Resource/UI/BaseChat.res"
 {
-	bla bla
-	
 	"HudChat"
 	{
 		"ControlName"		      					"EditablePanel"
