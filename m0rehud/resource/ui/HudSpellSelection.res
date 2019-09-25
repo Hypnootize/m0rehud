@@ -45,8 +45,6 @@
 		"fgcolor"									"Black"
 		
 		"pin_to_sibling"							"CountText"
-		"pin_corner_to_sibling"						"PIN_TOPLEFT"
-		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 	}
 	
 	"ActionText"

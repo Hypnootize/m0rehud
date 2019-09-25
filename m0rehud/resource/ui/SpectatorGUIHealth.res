@@ -49,8 +49,6 @@
 		"fgcolor_override"  						"Black"
 		
 		"pin_to_sibling"							"PlayerStatusHealthValueTarget"
-		"pin_corner_to_sibling"						"PIN_TOPLEFT"
-		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 	}
 
 	"PlayerStatusPlayerLevel"

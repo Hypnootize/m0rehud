@@ -61,8 +61,6 @@
 		"fillcolor"       							"White"
 		
 		"pin_to_sibling"							"TeamsAnchor"
-		"pin_corner_to_sibling"						"PIN_TOPLEFT"
-		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 	}
 	
 	"BlueBar"
@@ -155,8 +153,6 @@
 		"fgcolor"		  							"White"
 		
 		"pin_to_sibling"							"RedBar"
-		"pin_corner_to_sibling"						"PIN_TOPLEFT"
-		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 	}
 	
 	"BlueLabel"
@@ -180,8 +176,6 @@
 		"brighttext"	  							"1"
 		
 		"pin_to_sibling"							"BlueBar"
-		"pin_corner_to_sibling"						"PIN_TOPLEFT"
-		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 	}		
 	
 	"RedLabel"
@@ -278,8 +272,6 @@
 		"fgcolor"		  							"255 255 255 0"
 		
 		"pin_to_sibling"							"BlueBar"
-		"pin_corner_to_sibling"						"PIN_TOPLEFT"
-		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 	}
 
 	"teambutton1"									//RED TEAM
@@ -309,8 +301,6 @@
 		"fgcolor"		  							"255 255 255 0"
 		
 		"pin_to_sibling"							"RedBar"
-		"pin_corner_to_sibling"						"PIN_TOPLEFT"
-		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 	}
 
 	"teambutton2"									//RANDOM TEAM
@@ -338,8 +328,6 @@
 		"fgcolor"		  							"255 255 255 0"
 		
 		"pin_to_sibling"							"RandomLabel"
-		"pin_corner_to_sibling"						"PIN_TOPLEFT"
-		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 	}
 	
 	"teambutton3"									//SPECTATE
@@ -367,8 +355,6 @@
 		"fgcolor"		  							"255 255 255 0"
 		
 		"pin_to_sibling"							"SpectateLabel"
-		"pin_corner_to_sibling"						"PIN_TOPLEFT"
-		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 	}
 	
 	

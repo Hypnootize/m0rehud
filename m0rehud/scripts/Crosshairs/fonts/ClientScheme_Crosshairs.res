@@ -1939,37 +1939,37 @@ Scheme
 	{
 		"20"
 		{
-			"font" 		"resource/crosshairs/tf2cross.ttf"
+			"font" 		"scripts/crosshairs/fonts/TF2Cross.ttf"
 			"name" 		"tf2cross"
 		}
 		
 		"21" 
 		{
-			"font" 		"resource/crosshairs/ASTRO867.TTF"
+			"font" 		"scripts/crosshairs/fonts/ASTRO867.TTF"
 			"name" 		"Astro 867"
 		}
 		
 		"22" 
 		{
-			"font" 		"resource/crosshairs/taller_evolution.ttf"
+			"font" 		"scripts/crosshairs/fonts/taller_evolution.ttf"
 			"name" 		"taller evolution"
 		}
 		
 		"23"
 		{
-			"font" 		"resource/crosshairs/Crosshairs.ttf"
+			"font" 		"scripts/crosshairs/fonts/Crosshairs.ttf"
 			"name" 		"broeselhud Crosshairs"
 		}
 		
 		"24"
 		{
-			"font" 		"resource/crosshairs/Garm3nFont.ttf"
+			"font" 		"scripts/crosshairs/fonts/Garm3nFont.ttf"
 			"name" 		"Garm3nFont"
 		}
 		
 		"25"
 		{
-			"font" 		"resource/crosshairs/KnucklesCrosses.ttf"
+			"font" 		"scripts/crosshairs/fonts/KnucklesCrosses.ttf"
 			"name" 		"KnucklesCrosses"
 		}
 	}

@@ -297,8 +297,6 @@
 		"PaintBackgroundType"						"0"
 		
 		"pin_to_sibling"							"BottomBarAnchor"
-		"pin_corner_to_sibling"						"PIN_TOPLEFT"
-		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 	}
 	
 	"WinningTeamLabel"
@@ -347,8 +345,6 @@
 		"brighttext"								"0"
 		
 		"pin_to_sibling"							"WinningTeamLabel"
-		"pin_corner_to_sibling"						"PIN_TOPLEFT"
-		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 	}
 	
 	"AdvancingTeamLabel"
@@ -397,8 +393,6 @@
 		"brighttext"								"0"
 		
 		"pin_to_sibling"							"AdvancingTeamLabel"
-		"pin_corner_to_sibling"						"PIN_TOPLEFT"
-		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 	}
 	
 	"Player1Score"									//Player1Anchor

@@ -184,8 +184,6 @@
 		"use_proportional_insets"					"1"
 		
 		"pin_to_sibling" 							"RankPanel"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_TOPLEFT"
 	}
 	
 	"NoGCImage"
@@ -238,8 +236,6 @@
 		"alpha"										"0"
 		
 		"pin_to_sibling" 							"RankPanel"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_TOPLEFT"
 	}
 	
 	///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -258,8 +254,6 @@
 		"visible"									"0"
 		
 		"pin_to_sibling" 							"MainMenuAnchor"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_TOPLEFT"
 		
 		"SubButton"
 		{
@@ -935,8 +929,6 @@
 		"visible"									"1"
 		
 		"pin_to_sibling" 							"MainMenuAnchor"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_TOPLEFT"
 
 		"SubButton"
 		{

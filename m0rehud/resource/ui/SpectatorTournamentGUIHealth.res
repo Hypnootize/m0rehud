@@ -35,8 +35,6 @@
 		"alpha"		    							"0"
 		
 		"pin_to_sibling"							"PlayerStatusHealthValueSpecgui"
-		"pin_corner_to_sibling"						"PIN_TOPLEFT"
-		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 	}
 
 	

@@ -47,7 +47,5 @@
 		"font"										"m0refont24"
 		
 		"pin_to_sibling"							"DamageAccountValue"
-		"pin_corner_to_sibling"						"PIN_TOPLEFT"
-		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 	}
 }

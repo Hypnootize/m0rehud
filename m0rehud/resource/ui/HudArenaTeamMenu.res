@@ -61,8 +61,6 @@
 		"fillcolor"       							"White"
 		
 		"pin_to_sibling"							"TeamsAnchor"
-		"pin_corner_to_sibling"						"PIN_TOPLEFT"
-		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 	}
 	
 	"FightBar"
@@ -150,8 +148,6 @@
 		"fgcolor"		  							"White"
 		
 		"pin_to_sibling"							"SpectateBar"
-		"pin_corner_to_sibling"						"PIN_TOPLEFT"
-		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 	}
 	
 	"FightLabel"
@@ -175,8 +171,6 @@
 		"brighttext"	  							"1"
 		
 		"pin_to_sibling"							"FightBar"
-		"pin_corner_to_sibling"						"PIN_TOPLEFT"
-		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 	}		
 	
 	"SpectateLabel"
@@ -229,8 +223,6 @@
 		"fgcolor"									"255 255 255 0"
 		
 		"pin_to_sibling"							"FightBar"
-		"pin_corner_to_sibling"						"PIN_TOPLEFT"
-		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 	}
 	
 	"teambutton3"
@@ -258,8 +250,6 @@
 		"fgcolor"									"255 255 255 0"
 		
 		"pin_to_sibling"							"SpectateBar"
-		"pin_corner_to_sibling"						"PIN_TOPLEFT"
-		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 	}
 	
 	"MenuBG"

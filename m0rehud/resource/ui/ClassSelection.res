@@ -20,7 +20,7 @@
 		"ControlName"								"EditablePanel"
 		"fieldname"									"ClassesAnchor"
 		"xpos"										"c15"
-		"ypos"										"c-70"
+		"ypos"										"c-65"
 		"wide"										"10"
 		"tall"										"10"
 		"visible"									"0"
@@ -56,8 +56,6 @@
 		"keyboardinputenabled"						"0"
 		
 		"pin_to_sibling"							"ClassesAnchor"
-		"pin_corner_to_sibling"						"PIN_TOPLEFT"
-		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 	}
 	
 	"scout"
@@ -65,7 +63,7 @@
 		"ControlName"								"CExImageButton"
 		"fieldName"									"scout"
 		"xpos"										"0"
-		"ypos"										"-17"
+		"ypos"										"7"
 		"zpos"										"6"
 		"wide"										"65"
 		"tall"										"11"
@@ -90,8 +88,8 @@
 		"keyboardinputenabled"						"0"
 		
 		"pin_to_sibling"							"EditLoadoutButton"
-		"pin_corner_to_sibling"						"PIN_TOPLEFT"
-		"pin_to_sibling_corner"						"PIN_TOPLEFT"
+		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 					"PIN_BOTTOMLEFT"
 	}
 	
 	"soldier"
@@ -99,7 +97,7 @@
 		"ControlName"								"CExImageButton"
 		"fieldName"									"soldier"
 		"xpos"										"0"
-		"ypos"										"-11"
+		"ypos"										"0"
 		"zpos"										"6"
 		"wide"										"65"
 		"tall"										"11"
@@ -124,8 +122,8 @@
 		"keyboardinputenabled"						"0"
 		
 		"pin_to_sibling"							"scout"
-		"pin_corner_to_sibling"						"PIN_TOPLEFT"
-		"pin_to_sibling_corner"						"PIN_TOPLEFT"
+		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 					"PIN_BOTTOMLEFT"
 	}
 	
 	"pyro"
@@ -133,7 +131,7 @@
 		"ControlName"								"CExImageButton"
 		"fieldName"									"pyro"
 		"xpos"										"0"
-		"ypos"										"-11"
+		"ypos"										"0"
 		"zpos"										"6"
 		"wide"										"65"
 		"tall"										"11"
@@ -158,8 +156,8 @@
 		"keyboardinputenabled"						"0"
 		
 		"pin_to_sibling"							"soldier"
-		"pin_corner_to_sibling"						"PIN_TOPLEFT"
-		"pin_to_sibling_corner"						"PIN_TOPLEFT"
+		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 					"PIN_BOTTOMLEFT"
 	}
 	
 	"demoman"
@@ -167,7 +165,7 @@
 		"ControlName"								"CExImageButton"
 		"fieldName"									"demoman"
 		"xpos"										"0"
-		"ypos"										"-11"
+		"ypos"										"0"
 		"zpos"										"6"
 		"wide"										"65"
 		"tall"										"11"
@@ -192,8 +190,8 @@
 		"keyboardinputenabled"						"0"
 		
 		"pin_to_sibling"							"pyro"
-		"pin_corner_to_sibling"						"PIN_TOPLEFT"
-		"pin_to_sibling_corner"						"PIN_TOPLEFT"
+		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 					"PIN_BOTTOMLEFT"
 	}
 	
 	"heavyweapons"
@@ -201,7 +199,7 @@
 		"ControlName"								"CExImageButton"
 		"fieldName"									"heavyweapons"
 		"xpos"										"0"
-		"ypos"										"-11"
+		"ypos"										"0"
 		"zpos"										"6"
 		"wide"										"65"
 		"tall"										"11"
@@ -226,8 +224,8 @@
 		"keyboardinputenabled"						"0"
 		
 		"pin_to_sibling"							"demoman"
-		"pin_corner_to_sibling"						"PIN_TOPLEFT"
-		"pin_to_sibling_corner"						"PIN_TOPLEFT"
+		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 					"PIN_BOTTOMLEFT"
 	}
 	
 	"engineer"
@@ -235,7 +233,7 @@
 		"ControlName"								"CExImageButton"
 		"fieldName"									"engineer"
 		"xpos"										"0"
-		"ypos"										"-11"
+		"ypos"										"0"
 		"zpos"										"6"
 		"wide"										"65"
 		"tall"										"11"
@@ -260,8 +258,8 @@
 		"keyboardinputenabled"						"0"
 		
 		"pin_to_sibling"							"heavyweapons"
-		"pin_corner_to_sibling"						"PIN_TOPLEFT"
-		"pin_to_sibling_corner"						"PIN_TOPLEFT"
+		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 					"PIN_BOTTOMLEFT"
 	}
 	
 	"medic"
@@ -269,7 +267,7 @@
 		"ControlName"								"CExImageButton"
 		"fieldName"									"medic"
 		"xpos"										"0"
-		"ypos"										"-11"
+		"ypos"										"0"
 		"zpos"										"6"
 		"wide"										"65"
 		"tall"										"11"
@@ -294,8 +292,8 @@
 		"keyboardinputenabled"						"0"
 		
 		"pin_to_sibling"							"engineer"
-		"pin_corner_to_sibling"						"PIN_TOPLEFT"
-		"pin_to_sibling_corner"						"PIN_TOPLEFT"
+		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 					"PIN_BOTTOMLEFT"
 	}
 	
 	"sniper"
@@ -303,7 +301,7 @@
 		"ControlName"								"CExImageButton"
 		"fieldName"									"sniper"
 		"xpos"										"0"
-		"ypos"										"-11"
+		"ypos"										"0"
 		"zpos"										"6"
 		"wide"										"65"
 		"tall"										"11"
@@ -328,8 +326,8 @@
 		"keyboardinputenabled"						"0"
 		
 		"pin_to_sibling"							"medic"
-		"pin_corner_to_sibling"						"PIN_TOPLEFT"
-		"pin_to_sibling_corner"						"PIN_TOPLEFT"
+		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 					"PIN_BOTTOMLEFT"
 	}
 	
 	"spy"
@@ -337,7 +335,7 @@
 		"ControlName"								"CExImageButton"
 		"fieldName"									"spy"
 		"xpos"										"0"
-		"ypos"										"-11"
+		"ypos"										"0"
 		"zpos"										"6"
 		"wide"										"65"
 		"tall"										"11"
@@ -362,14 +360,14 @@
 		"keyboardinputenabled"						"0"
 		
 		"pin_to_sibling"							"sniper"
-		"pin_corner_to_sibling"						"PIN_TOPLEFT"
-		"pin_to_sibling_corner"						"PIN_TOPLEFT"
+		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 					"PIN_BOTTOMLEFT"
 	}
 	
 	"random"
 	{
 		"xpos"										"0"
-		"ypos"										"-17"
+		"ypos"										"7"
 		"zpos"										"6"
 		"wide"										"65"
 		"tall"										"11"
@@ -394,8 +392,8 @@
 		"keyboardinputenabled"						"0"
 		
 		"pin_to_sibling"							"spy"
-		"pin_corner_to_sibling"						"PIN_TOPLEFT"
-		"pin_to_sibling_corner"						"PIN_TOPLEFT"
+		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 					"PIN_BOTTOMLEFT"
 	}
 	
 	"numScout"

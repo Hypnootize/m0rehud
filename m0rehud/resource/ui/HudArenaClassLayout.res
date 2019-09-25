@@ -64,8 +64,6 @@
 		"fgcolor"									"Black"
 		
 		"pin_to_sibling"							"title"
-		"pin_corner_to_sibling"						"PIN_TOPLEFT"
-		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 	}
 	
 	"ChangeLabel"
@@ -106,8 +104,6 @@
 		"fgcolor"									"Black"
 		
 		"pin_to_sibling"							"ChangeLabel"
-		"pin_corner_to_sibling"						"PIN_TOPLEFT"
-		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 	}
 	
 	"classImage0"

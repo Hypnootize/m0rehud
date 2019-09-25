@@ -252,8 +252,6 @@
 		"PaintBackgroundType"						"0"
 		
 		"pin_to_sibling"							"BottomBarAnchor"
-		"pin_corner_to_sibling"						"PIN_TOPLEFT"
-		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 	}
 	
 	"HorizontalLine"
@@ -324,8 +322,6 @@
 		"brighttext"								"0"
 		
 		"pin_to_sibling"							"WinningTeamLabel"
-		"pin_corner_to_sibling"						"PIN_TOPLEFT"
-		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 	}
 
 	"LosingTeamLabel"
@@ -374,8 +370,6 @@
 		"brighttext"								"0"
 		
 		"pin_to_sibling"							"LosingTeamLabel"
-		"pin_corner_to_sibling"						"PIN_TOPLEFT"
-		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 	}
 	
 	"IndexAnchor"
@@ -415,8 +409,6 @@
 		"brighttext"								"0"
 		
 		"pin_to_sibling"							"IndexAnchor"
-		"pin_corner_to_sibling"						"PIN_TOPLEFT"
-		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 	}
 	
 	"ClassPlayedLabel"

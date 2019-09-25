@@ -32,8 +32,6 @@
 		"iconColor"									"255 255 255 175"
 		
 		"pin_to_sibling"							"DestroyIcon"
-		"pin_corner_to_sibling"						"PIN_TOPLEFT"
-		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 	}
 	
 	"NotBuiltLabel"

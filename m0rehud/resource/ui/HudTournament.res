@@ -204,8 +204,6 @@
 		"fillcolor"     							"White"
 		
 		"pin_to_sibling"							"TopBarAnchor"
-		"pin_corner_to_sibling"						"PIN_TOPLEFT"
-		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 		
 		if_competitive
 		{
@@ -278,8 +276,6 @@
 		"textAlignment"								"west"
 
 		"pin_to_sibling"							"HudTournamentBLUEBG"
-		"pin_corner_to_sibling"						"PIN_TOPLEFT"
-		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 		
 		if_competitive
 		{
@@ -426,8 +422,6 @@
 		"textAlignment"								"west"
 		
 		"pin_to_sibling"							"HudTournamentRedBG"
-		"pin_corner_to_sibling"						"PIN_TOPLEFT"
-		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 		
 		if_competitive
 		{

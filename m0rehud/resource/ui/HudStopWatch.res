@@ -36,8 +36,6 @@
 		}
 		
 		"pin_to_sibling"							"StopWatchAnchor"
-		"pin_corner_to_sibling"						"PIN_TOPLEFT"
-		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 
 		"TimePanelValue"
 		{
@@ -139,8 +137,6 @@
 		"centerwrap"								"1"
 		
 		"pin_to_sibling"							"ObjectiveStatusTimePanel"
-		"pin_corner_to_sibling"						"PIN_TOPLEFT"
-		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 		
 		if_comp
 		{

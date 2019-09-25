@@ -32,8 +32,6 @@
 		"iconColor"									"255 255 255 128"
 		
 		"pin_to_sibling"							"DestroyIcon"
-		"pin_corner_to_sibling"						"PIN_TOPLEFT"
-		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 	}
 	
 	"NumberBg"	
@@ -73,8 +71,6 @@
 		"brighttext"								"0"
 		
 		"pin_to_sibling"							"NumberBg"
-		"pin_corner_to_sibling"						"PIN_TOPLEFT"
-		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 	}
 	
 	

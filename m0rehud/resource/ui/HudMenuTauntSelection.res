@@ -65,8 +65,6 @@
 		"iconColor"									"White"
 		
 		"pin_to_sibling"							"TauntModelPanel1"
-		"pin_corner_to_sibling"						"PIN_TOPLEFT"
-		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 	}
 	
 	"NumberLabel1"
@@ -90,8 +88,6 @@
 		"brighttext"								"0"
 		
 		"pin_to_sibling"							"NumberBg1"
-		"pin_corner_to_sibling"						"PIN_TOPLEFT"
-		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 	}
 
 	"TauntModelPanel2"
@@ -149,8 +145,6 @@
 		"iconColor"									"White"
 		
 		"pin_to_sibling"							"TauntModelPanel2"
-		"pin_corner_to_sibling"						"PIN_TOPLEFT"
-		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 	}
 	
 	"NumberLabel2"
@@ -174,8 +168,6 @@
 		"brighttext"								"0"
 		
 		"pin_to_sibling"							"NumberBg2"
-		"pin_corner_to_sibling"						"PIN_TOPLEFT"
-		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 	}
 
 	"TauntModelPanel3"
@@ -233,8 +225,6 @@
 		"iconColor"									"White"
 		
 		"pin_to_sibling"							"TauntModelPanel3"
-		"pin_corner_to_sibling"						"PIN_TOPLEFT"
-		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 	}
 	
 	"NumberLabel3"
@@ -258,8 +248,6 @@
 		"brighttext"								"0"
 		
 		"pin_to_sibling"							"NumberBg3"
-		"pin_corner_to_sibling"						"PIN_TOPLEFT"
-		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 	}
 
 	"TauntModelPanel4"
@@ -317,8 +305,6 @@
 		"iconColor"									"White"
 		
 		"pin_to_sibling"							"TauntModelPanel4"
-		"pin_corner_to_sibling"						"PIN_TOPLEFT"
-		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 	}
 	
 	"NumberLabel4"
@@ -342,8 +328,6 @@
 		"brighttext"								"0"
 		
 		"pin_to_sibling"							"NumberBg4"
-		"pin_corner_to_sibling"						"PIN_TOPLEFT"
-		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 	}
 
 	"TauntModelPanel5"
@@ -401,8 +385,6 @@
 		"iconColor"									"White"
 		
 		"pin_to_sibling"							"TauntModelPanel5"
-		"pin_corner_to_sibling"						"PIN_TOPLEFT"
-		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 	}
 	
 	"NumberLabel5"
@@ -426,8 +408,6 @@
 		"brighttext"								"0"
 		
 		"pin_to_sibling"							"NumberBg5"
-		"pin_corner_to_sibling"						"PIN_TOPLEFT"
-		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 	}
 
 	"TauntModelPanel6"
@@ -485,8 +465,6 @@
 		"iconColor"									"White"
 		
 		"pin_to_sibling"							"TauntModelPanel6"
-		"pin_corner_to_sibling"						"PIN_TOPLEFT"
-		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 	}
 	
 	"NumberLabel6"
@@ -510,8 +488,6 @@
 		"brighttext"								"0"
 		
 		"pin_to_sibling"							"NumberBg6"
-		"pin_corner_to_sibling"						"PIN_TOPLEFT"
-		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 	}
 
 	"TauntModelPanel7"
@@ -569,8 +545,6 @@
 		"iconColor"									"White"
 		
 		"pin_to_sibling"							"TauntModelPanel7"
-		"pin_corner_to_sibling"						"PIN_TOPLEFT"
-		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 	}
 	
 	"NumberLabel7"
@@ -594,8 +568,6 @@
 		"brighttext"								"0"
 		
 		"pin_to_sibling"							"NumberBg7"
-		"pin_corner_to_sibling"						"PIN_TOPLEFT"
-		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 	}
 
 	"TauntModelPanel8"
@@ -653,8 +625,6 @@
 		"iconColor"									"White"
 		
 		"pin_to_sibling"							"TauntModelPanel8"
-		"pin_corner_to_sibling"						"PIN_TOPLEFT"
-		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 	}
 	
 	"NumberLabel8"
@@ -678,8 +648,6 @@
 		"brighttext"								"0"
 		
 		"pin_to_sibling"							"NumberBg8"
-		"pin_corner_to_sibling"						"PIN_TOPLEFT"
-		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 	}
 	
 	

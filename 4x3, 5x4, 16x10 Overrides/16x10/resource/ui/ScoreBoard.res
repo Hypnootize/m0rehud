@@ -104,8 +104,6 @@
 		"fillcolor"     							"White"
 		
 		"pin_to_sibling"							"TopBarAnchor"
-		"pin_corner_to_sibling"						"PIN_TOPLEFT"
-		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 		
 		if_mvm
 		{
@@ -162,8 +160,6 @@
 		"enabled"									"1"
 		
 		"pin_to_sibling"							"BlueScoreBG"
-		"pin_corner_to_sibling"						"PIN_TOPLEFT"
-		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 		
 		if_mvm
 		{
@@ -304,8 +300,6 @@
 		"enabled"									"1"
 		
 		"pin_to_sibling"							"RedScoreBG"
-		"pin_corner_to_sibling"						"PIN_TOPLEFT"
-		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 
 		if_mvm
 		{

@@ -66,8 +66,6 @@
 		"fgcolor"  									"Black"
 		
 		"pin_to_sibling"							"ChargeLabelBig"
-		"pin_corner_to_sibling"						"PIN_TOPLEFT"
-		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 	}
 	
 	"ChargeLabelBigShadowExtra"
@@ -93,8 +91,6 @@
 		"alpha"  									"0"
 		
 		"pin_to_sibling"							"ChargeLabelBigShadow"
-		"pin_corner_to_sibling"						"PIN_TOPLEFT"
-		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 	}
 	
 	"ChargeMeter"
@@ -139,8 +135,6 @@
 		"font"										"M0refont18Shadow"
 		
 		"pin_to_sibling"							"ChargeLabel"
-		"pin_corner_to_sibling"						"PIN_TOPLEFT"
-		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 	}
 	
 	"ResistIconAnchor"

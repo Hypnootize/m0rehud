@@ -67,8 +67,6 @@
 		"fgcolor"									"Black"
 		
 		"pin_to_sibling"							"BlueScore"
-		"pin_corner_to_sibling"						"PIN_TOPLEFT"
-		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 		
 		"if_hybrid"
 		{
@@ -135,8 +133,6 @@
 		"fgcolor"									"Black"
 
 		"pin_to_sibling"							"RedScore"
-		"pin_corner_to_sibling"						"PIN_TOPLEFT"
-		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 		
 		"if_hybrid"
 		{
@@ -320,7 +316,7 @@
 		"visible"									"0"
 		"enabled"									"0"
 	}
-		
+	
 	"OutlineBG"
 	{
 		"ControlName"								"ImagePanel"
