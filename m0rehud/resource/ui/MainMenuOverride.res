@@ -1238,8 +1238,8 @@
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"Notifications_Panel"
-		"xpos"										"c0"
-		"ypos"										"102"
+		"xpos"										"c-238"
+		"ypos"										"r75"
 		"zpos"										"17"
 		"wide"										"210"
 		"tall"										"80"
@@ -1271,7 +1271,6 @@
 			"actionsignallevel" 					"2"
 
 			"Command"								"noti_hide"
-			"navActivate"							"<QuickplayButton"
 
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"

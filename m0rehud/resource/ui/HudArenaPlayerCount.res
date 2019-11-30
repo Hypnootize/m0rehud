@@ -59,8 +59,6 @@
 			"fgcolor"								"Black"
 			
 			"pin_to_sibling"						"count"
-			"pin_corner_to_sibling"					"PIN_TOPLEFT"
-			"pin_to_sibling_corner"					"PIN_TOPLEFT"
 		}
 		
 		"playerimage"
@@ -133,8 +131,6 @@
 			"fgcolor"								"Black"
 			
 			"pin_to_sibling"						"count"
-			"pin_corner_to_sibling"					"PIN_TOPLEFT"
-			"pin_to_sibling_corner"					"PIN_TOPLEFT"
 		}
 	
 		"playerimage"

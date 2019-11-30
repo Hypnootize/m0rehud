@@ -13,7 +13,7 @@
 		"enabled"									"1"
 		"scaleImage"								"1"	
 		"icon"										"hud_menu_sentry_build"
-		"iconColor"									"0 255 0 255"
+		"iconColor"									"White"
 	}
 	
 	"NumberBg"	

@@ -53,8 +53,8 @@
 	{
 		"ControlName"								"CIconPanel"
 		"fieldName"									"NumberBg1"
-		"xpos"										"-10"
-		"ypos"										"-21"
+		"xpos"										"0"
+		"ypos"										"-3"
 		"zpos"										"110"
 		"wide"										"15"
 		"tall"										"15"
@@ -65,6 +65,8 @@
 		"iconColor"									"White"
 		
 		"pin_to_sibling"							"TauntModelPanel1"
+		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
+		"pin_to_sibling_corner"						"PIN_CENTER_BOTTOM"
 	}
 	
 	"NumberLabel1"
@@ -133,8 +135,8 @@
 	{
 		"ControlName"								"CIconPanel"
 		"fieldName"									"NumberBg2"
-		"xpos"										"-10"
-		"ypos"										"-21"
+		"xpos"										"0"
+		"ypos"										"-3"
 		"zpos"										"110"
 		"wide"										"15"
 		"tall"										"15"
@@ -145,6 +147,8 @@
 		"iconColor"									"White"
 		
 		"pin_to_sibling"							"TauntModelPanel2"
+		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
+		"pin_to_sibling_corner"						"PIN_CENTER_BOTTOM"
 	}
 	
 	"NumberLabel2"
@@ -213,8 +217,8 @@
 	{
 		"ControlName"								"CIconPanel"
 		"fieldName"									"NumberBg3"
-		"xpos"										"-10"
-		"ypos"										"-21"
+		"xpos"										"0"
+		"ypos"										"-3"
 		"zpos"										"110"
 		"wide"										"15"
 		"tall"										"15"
@@ -225,6 +229,8 @@
 		"iconColor"									"White"
 		
 		"pin_to_sibling"							"TauntModelPanel3"
+		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
+		"pin_to_sibling_corner"						"PIN_CENTER_BOTTOM"
 	}
 	
 	"NumberLabel3"
@@ -293,8 +299,8 @@
 	{
 		"ControlName"								"CIconPanel"
 		"fieldName"									"NumberBg4"
-		"xpos"										"-10"
-		"ypos"										"-21"
+		"xpos"										"0"
+		"ypos"										"-3"
 		"zpos"										"110"
 		"wide"										"15"
 		"tall"										"15"
@@ -305,6 +311,8 @@
 		"iconColor"									"White"
 		
 		"pin_to_sibling"							"TauntModelPanel4"
+		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
+		"pin_to_sibling_corner"						"PIN_CENTER_BOTTOM"
 	}
 	
 	"NumberLabel4"
@@ -373,8 +381,8 @@
 	{
 		"ControlName"								"CIconPanel"
 		"fieldName"									"NumberBg5"
-		"xpos"										"-10"
-		"ypos"										"-21"
+		"xpos"										"0"
+		"ypos"										"-3"
 		"zpos"										"110"
 		"wide"										"15"
 		"tall"										"15"
@@ -385,6 +393,8 @@
 		"iconColor"									"White"
 		
 		"pin_to_sibling"							"TauntModelPanel5"
+		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
+		"pin_to_sibling_corner"						"PIN_CENTER_BOTTOM"
 	}
 	
 	"NumberLabel5"
@@ -453,8 +463,8 @@
 	{
 		"ControlName"								"CIconPanel"
 		"fieldName"									"NumberBg6"
-		"xpos"										"-10"
-		"ypos"										"-21"
+		"xpos"										"0"
+		"ypos"										"-3"
 		"zpos"										"110"
 		"wide"										"15"
 		"tall"										"15"
@@ -465,6 +475,8 @@
 		"iconColor"									"White"
 		
 		"pin_to_sibling"							"TauntModelPanel6"
+		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
+		"pin_to_sibling_corner"						"PIN_CENTER_BOTTOM"
 	}
 	
 	"NumberLabel6"
@@ -533,8 +545,8 @@
 	{
 		"ControlName"								"CIconPanel"
 		"fieldName"									"NumberBg7"
-		"xpos"										"-10"
-		"ypos"										"-21"
+		"xpos"										"0"
+		"ypos"										"-3"
 		"zpos"										"110"
 		"wide"										"15"
 		"tall"										"15"
@@ -545,6 +557,8 @@
 		"iconColor"									"White"
 		
 		"pin_to_sibling"							"TauntModelPanel7"
+		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
+		"pin_to_sibling_corner"						"PIN_CENTER_BOTTOM"
 	}
 	
 	"NumberLabel7"
@@ -613,8 +627,8 @@
 	{
 		"ControlName"								"CIconPanel"
 		"fieldName"									"NumberBg8"
-		"xpos"										"-10"
-		"ypos"										"-21"
+		"xpos"										"0"
+		"ypos"										"-3"
 		"zpos"										"110"
 		"wide"										"15"
 		"tall"										"15"
@@ -625,6 +639,8 @@
 		"iconColor"									"White"
 		
 		"pin_to_sibling"							"TauntModelPanel8"
+		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
+		"pin_to_sibling_corner"						"PIN_CENTER_BOTTOM"
 	}
 	
 	"NumberLabel8"

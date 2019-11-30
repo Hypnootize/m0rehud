@@ -56,7 +56,7 @@ Scheme
 			}
 		}
 		
-		VerdanaMenu	//Create Server Button
+		VerdanaMenu											//Only Used For Create Server Button
 		{
 			"1"
 			{
@@ -67,7 +67,7 @@ Scheme
 			}
 		}
 		
-		M0refont6
+		m0refont6
 		{
 			"1"
 			{
@@ -77,7 +77,42 @@ Scheme
 				"antialias" 								"1"
 			}
 		}
-		M0refont8
+		m0refont6Shadow
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"6"
+				"additive"									"0"
+				"antialias" 								"1"
+				"dropshadow" 								"1"
+			}
+		}
+		m0refont6Outline
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"6"
+				"additive"									"0"
+				"antialias" 								"1"
+				"outline" 									"1"
+			}
+		}
+		m0refont6Blur
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"6"
+				"additive"									"0"
+				"antialias" 								"1"
+				"blur" 										"2"
+			}
+		}
+		
+		
+		m0refont8
 		{
 			"1"
 			{
@@ -87,7 +122,42 @@ Scheme
 				"antialias" 								"1"
 			}
 		}
-		M0refont10
+		m0refont8Shadow
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"8"
+				"additive"									"0"
+				"antialias" 								"1"
+				"dropshadow" 								"1"
+			}
+		}
+		m0refont8Outline
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"8"
+				"additive"									"0"
+				"antialias" 								"1"
+				"outline" 									"1"
+			}
+		}
+		m0refont8Blur
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"8"
+				"additive"									"0"
+				"antialias" 								"1"
+				"blur" 										"2"
+			}
+		}
+		
+		
+		m0refont10
 		{
 			"1"
 			{
@@ -97,7 +167,42 @@ Scheme
 				"antialias" 								"1"
 			}
 		}
-		M0refont11
+		m0refont10Shadow
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"10"
+				"additive"									"0"
+				"antialias" 								"1"
+				"dropshadow" 								"1"
+			}
+		}
+		m0refont10Outline
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"10"
+				"additive"									"0"
+				"antialias" 								"1"
+				"outline" 									"1"
+			}
+		}
+		m0refont10Blur
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"10"
+				"additive"									"0"
+				"antialias" 								"1"
+				"blur" 										"2"
+			}
+		}
+		
+		
+		m0refont11
 		{
 			"1"
 			{
@@ -107,7 +212,42 @@ Scheme
 				"antialias" 								"1"
 			}
 		}
-		M0refont12
+		m0refont11Shadow
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"11"
+				"additive"									"0"
+				"antialias" 								"1"
+				"dropshadow" 								"1"
+			}
+		}
+		m0refont11Outline
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"11"
+				"additive"									"0"
+				"antialias" 								"1"
+				"outline" 									"1"
+			}
+		}
+		m0refont11Blur
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"11"
+				"additive"									"0"
+				"antialias" 								"1"
+				"blur" 										"2"
+			}
+		}
+		
+		
+		m0refont12
 		{
 			"1"
 			{
@@ -117,7 +257,42 @@ Scheme
 				"antialias" 								"1"
 			}
 		}
-		M0refont14
+		m0refont12Shadow
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"12"
+				"additive"									"0"
+				"antialias" 								"1"
+				"dropshadow" 								"1"
+			}
+		}
+		m0refont12Outline
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"12"
+				"additive"									"0"
+				"antialias" 								"1"
+				"outline" 									"1"
+			}
+		}
+		m0refont12Blur
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"12"
+				"additive"									"0"
+				"antialias" 								"1"
+				"blur" 										"2"
+			}
+		}
+		
+		
+		m0refont14
 		{
 			"1"
 			{
@@ -127,7 +302,42 @@ Scheme
 				"antialias" 								"1"
 			}
 		}
-		M0refont16
+		m0refont14Shadow
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"14"
+				"additive"									"0"
+				"antialias" 								"1"
+				"dropshadow" 								"1"
+			}
+		}
+		m0refont14Outline
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"14"
+				"additive"									"0"
+				"antialias" 								"1"
+				"outline" 									"1"
+			}
+		}
+		m0refont14Blur
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"14"
+				"additive"									"0"
+				"antialias" 								"1"
+				"blur" 										"2"
+			}
+		}
+		
+		
+		m0refont16
 		{
 			"1"
 			{
@@ -137,7 +347,42 @@ Scheme
 				"antialias" 								"1"
 			}
 		}
-		M0refont18
+		m0refont16Shadow
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"16"
+				"additive"									"0"
+				"antialias" 								"1"
+				"dropshadow" 								"1"
+			}
+		}
+		m0refont16Outline
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"16"
+				"additive"									"0"
+				"antialias" 								"1"
+				"outline" 									"1"
+			}
+		}
+		m0refont16Blur
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"16"
+				"additive"									"0"
+				"antialias" 								"1"
+				"blur" 										"2"
+			}
+		}
+		
+		
+		m0refont18
 		{
 			"1"
 			{
@@ -147,7 +392,7 @@ Scheme
 				"antialias" 								"1"
 			}
 		}
-		M0refont18Outline
+		m0refont18Shadow
 		{
 			"1"
 			{
@@ -155,10 +400,10 @@ Scheme
 				"tall"										"18"
 				"additive"									"0"
 				"antialias" 								"1"
-				"outline"									"1"
+				"dropshadow" 								"1"
 			}
 		}
-		M0refont18Shadow
+		m0refont18Outline
 		{
 			"1"
 			{
@@ -166,21 +411,23 @@ Scheme
 				"tall"										"18"
 				"additive"									"0"
 				"antialias" 								"1"
-				"dropshadow"								"1"
+				"outline" 									"1"
 			}
 		}
-		M0refont19Outline
+		m0refont18Blur
 		{
 			"1"
 			{
 				"name"										"Surface-Medium"
-				"tall"										"19"
+				"tall"										"18"
 				"additive"									"0"
 				"antialias" 								"1"
-				"outline"									"1"
+				"blur" 										"2"
 			}
 		}
-		M0refont20
+		
+		
+		m0refont20
 		{
 			"1"
 			{
@@ -190,7 +437,7 @@ Scheme
 				"antialias" 								"1"
 			}
 		}
-		M0refont20Outline
+		m0refont20Shadow
 		{
 			"1"
 			{
@@ -198,21 +445,34 @@ Scheme
 				"tall"										"20"
 				"additive"									"0"
 				"antialias" 								"1"
-				"outline"									"1"
+				"dropshadow" 								"1"
 			}
 		}
-		M0refont21Outline
+		m0refont20Outline
 		{
 			"1"
 			{
 				"name"										"Surface-Medium"
-				"tall"										"21"
+				"tall"										"20"
 				"additive"									"0"
 				"antialias" 								"1"
-				"outline"									"1"
+				"outline" 									"1"
 			}
 		}
-		M0refont22
+		m0refont20Blur
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"20"
+				"additive"									"0"
+				"antialias" 								"1"
+				"blur" 										"2"
+			}
+		}
+		
+		
+		m0refont22
 		{
 			"1"
 			{
@@ -222,7 +482,7 @@ Scheme
 				"antialias" 								"1"
 			}
 		}
-		M0refont22Outline
+		m0refont22Shadow
 		{
 			"1"
 			{
@@ -230,42 +490,34 @@ Scheme
 				"tall"										"22"
 				"additive"									"0"
 				"antialias" 								"1"
-				"outline"									"1"
+				"dropshadow" 								"1"
 			}
 		}
-		M0refont23Outline
+		m0refont22Outline
 		{
 			"1"
 			{
 				"name"										"Surface-Medium"
-				"tall"										"23"
+				"tall"										"22"
 				"additive"									"0"
 				"antialias" 								"1"
-				"outline"									"1"
+				"outline" 									"1"
 			}
 		}
-		M0refont24
+		m0refont22Blur
 		{
 			"1"
 			{
 				"name"										"Surface-Medium"
-				"tall"										"24"
+				"tall"										"22"
 				"additive"									"0"
 				"antialias" 								"1"
+				"blur" 										"2"
 			}
 		}
-		M0refont24Outline
-		{
-			"1"
-			{
-				"name"										"Surface-Medium"
-				"tall"										"24"
-				"additive"									"0"
-				"antialias" 								"1"
-				"outline"									"1"
-			}
-		}
-		M0refont24Shadow
+		
+		
+		m0refont24
 		{
 			"1"
 			{
@@ -273,20 +525,89 @@ Scheme
 				"tall"										"24"
 				"additive"									"0"
 				"antialias" 								"1"
-				"dropshadow"								"1"
 			}
 		}
-		M0refont26
+		m0refont24Shadow
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"24"
+				"additive"									"0"
+				"antialias" 								"1"
+				"dropshadow" 								"1"
+			}
+		}
+		m0refont24Outline
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"24"
+				"additive"									"0"
+				"antialias" 								"1"
+				"outline" 									"1"
+			}
+		}
+		m0refont24Blur
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"24"
+				"additive"									"0"
+				"antialias" 								"1"
+				"blur" 										"2"
+			}
+		}
+		
+		
+		m0refont26
 		{
 			"1"
 			{
 				"name"										"Surface-Medium"
 				"tall"										"26"
 				"additive"									"0"
-				"antialias"									"1"
+				"antialias" 								"1"
 			}
 		}
-		M0refont28
+		m0refont26Shadow
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"26"
+				"additive"									"0"
+				"antialias" 								"1"
+				"dropshadow" 								"1"
+			}
+		}
+		m0refont26Outline
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"26"
+				"additive"									"0"
+				"antialias" 								"1"
+				"outline" 									"1"
+			}
+		}
+		m0refont26Blur
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"26"
+				"additive"									"0"
+				"antialias" 								"1"
+				"blur" 										"2"
+			}
+		}
+		
+		
+		m0refont28
 		{
 			"1"
 			{
@@ -296,7 +617,41 @@ Scheme
 				"antialias" 								"1"
 			}
 		}
-		M0refont30
+		m0refont28Shadow
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"28"
+				"additive"									"0"
+				"antialias" 								"1"
+				"dropshadow" 								"1"
+			}
+		}
+		m0refont28Outline
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"28"
+				"additive"									"0"
+				"antialias" 								"1"
+				"outline" 									"1"
+			}
+		}
+		m0refont28Blur
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"28"
+				"additive"									"0"
+				"antialias" 								"1"
+				"blur" 										"2"
+			}
+		}
+		
+		m0refont30
 		{
 			"1"
 			{
@@ -306,7 +661,7 @@ Scheme
 				"antialias" 								"1"
 			}
 		}
-		M0refont30Outline
+		m0refont30Shadow
 		{
 			"1"
 			{
@@ -314,10 +669,34 @@ Scheme
 				"tall"										"30"
 				"additive"									"0"
 				"antialias" 								"1"
-				"outline"									"1"
+				"dropshadow" 								"1"
 			}
 		}
-		M0refont32
+		m0refont30Outline
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"30"
+				"additive"									"0"
+				"antialias" 								"1"
+				"outline" 									"1"
+			}
+		}
+		m0refont30Blur
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"30"
+				"additive"									"0"
+				"antialias" 								"1"
+				"blur" 										"2"
+			}
+		}
+		
+		
+		m0refont32
 		{
 			"1"
 			{
@@ -327,7 +706,42 @@ Scheme
 				"antialias" 								"1"
 			}
 		}
-		M0refont34
+		m0refont32Shadow
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"32"
+				"additive"									"0"
+				"antialias" 								"1"
+				"dropshadow" 								"1"
+			}
+		}
+		m0refont32Outline
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"32"
+				"additive"									"0"
+				"antialias" 								"1"
+				"outline" 									"1"
+			}
+		}
+		m0refont32Blur
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"32"
+				"additive"									"0"
+				"antialias" 								"1"
+				"blur" 										"2"
+			}
+		}
+		
+		
+		m0refont34
 		{
 			"1"
 			{
@@ -337,7 +751,42 @@ Scheme
 				"antialias" 								"1"
 			}
 		}
-		M0refont36
+		m0refont34Shadow
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"34"
+				"additive"									"0"
+				"antialias" 								"1"
+				"dropshadow" 								"1"
+			}
+		}
+		m0refont34Outline
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"34"
+				"additive"									"0"
+				"antialias" 								"1"
+				"outline" 									"1"
+			}
+		}
+		m0refont34Blur
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"34"
+				"additive"									"0"
+				"antialias" 								"1"
+				"blur" 										"2"
+			}
+		}
+		
+		
+		m0refont36
 		{
 			"1"
 			{
@@ -347,7 +796,7 @@ Scheme
 				"antialias" 								"1"
 			}
 		}
-		M0refont36Outline
+		m0refont36Shadow
 		{
 			"1"
 			{
@@ -355,10 +804,34 @@ Scheme
 				"tall"										"36"
 				"additive"									"0"
 				"antialias" 								"1"
-				"outline"									"1"
+				"dropshadow" 								"1"
 			}
 		}
-		M0refont38
+		m0refont36Outline
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"36"
+				"additive"									"0"
+				"antialias" 								"1"
+				"outline" 									"1"
+			}
+		}
+		m0refont36Blur
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"36"
+				"additive"									"0"
+				"antialias" 								"1"
+				"blur" 										"2"
+			}
+		}
+		
+		
+		m0refont38
 		{
 			"1"
 			{
@@ -368,7 +841,42 @@ Scheme
 				"antialias" 								"1"
 			}
 		}
-		M0refont40
+		m0refont38Shadow
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"38"
+				"additive"									"0"
+				"antialias" 								"1"
+				"dropshadow" 								"1"
+			}
+		}
+		m0refont38Outline
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"38"
+				"additive"									"0"
+				"antialias" 								"1"
+				"outline" 									"1"
+			}
+		}
+		m0refont38Blur
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"38"
+				"additive"									"0"
+				"antialias" 								"1"
+				"blur" 										"2"
+			}
+		}
+		
+		
+		m0refont40
 		{
 			"1"
 			{
@@ -378,7 +886,42 @@ Scheme
 				"antialias" 								"1"
 			}
 		}
-		M0refont42
+		m0refont40Shadow
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"40"
+				"additive"									"0"
+				"antialias" 								"1"
+				"dropshadow" 								"1"
+			}
+		}
+		m0refont40Outline
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"40"
+				"additive"									"0"
+				"antialias" 								"1"
+				"outline" 									"1"
+			}
+		}
+		m0refont40Blur
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"40"
+				"additive"									"0"
+				"antialias" 								"1"
+				"blur" 										"2"
+			}
+		}
+		
+		
+		m0refont42
 		{
 			"1"
 			{
@@ -388,7 +931,42 @@ Scheme
 				"antialias" 								"1"
 			}
 		}
-		M0refont44
+		m0refont42Shadow
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"42"
+				"additive"									"0"
+				"antialias" 								"1"
+				"dropshadow" 								"1"
+			}
+		}
+		m0refont42Outline
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"42"
+				"additive"									"0"
+				"antialias" 								"1"
+				"outline" 									"1"
+			}
+		}
+		m0refont42Blur
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"42"
+				"additive"									"0"
+				"antialias" 								"1"
+				"blur" 										"2"
+			}
+		}
+		
+		
+		m0refont44
 		{
 			"1"
 			{
@@ -398,7 +976,42 @@ Scheme
 				"antialias" 								"1"
 			}
 		}
-		M0refont46
+		m0refont44Shadow
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"44"
+				"additive"									"0"
+				"antialias" 								"1"
+				"dropshadow" 								"1"
+			}
+		}
+		m0refont44Outline
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"44"
+				"additive"									"0"
+				"antialias" 								"1"
+				"outline" 									"1"
+			}
+		}
+		m0refont44Blur
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"44"
+				"additive"									"0"
+				"antialias" 								"1"
+				"blur" 										"2"
+			}
+		}
+		
+		
+		m0refont46
 		{
 			"1"
 			{
@@ -408,7 +1021,42 @@ Scheme
 				"antialias" 								"1"
 			}
 		}
-		M0refont48
+		m0refont46Shadow
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"46"
+				"additive"									"0"
+				"antialias" 								"1"
+				"dropshadow" 								"1"
+			}
+		}
+		m0refont46Outline
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"46"
+				"additive"									"0"
+				"antialias" 								"1"
+				"outline" 									"1"
+			}
+		}
+		m0refont46Blur
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"46"
+				"additive"									"0"
+				"antialias" 								"1"
+				"blur" 										"2"
+			}
+		}
+		
+		
+		m0refont48
 		{
 			"1"
 			{
@@ -418,7 +1066,42 @@ Scheme
 				"antialias" 								"1"
 			}
 		}
-		M0refont50
+		m0refont48Shadow
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"48"
+				"additive"									"0"
+				"antialias" 								"1"
+				"dropshadow" 								"1"
+			}
+		}
+		m0refont48Outline
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"48"
+				"additive"									"0"
+				"antialias" 								"1"
+				"outline" 									"1"
+			}
+		}
+		m0refont48Blur
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"48"
+				"additive"									"0"
+				"antialias" 								"1"
+				"blur" 										"2"
+			}
+		}
+		
+		
+		m0refont50
 		{
 			"1"
 			{
@@ -428,7 +1111,42 @@ Scheme
 				"antialias" 								"1"
 			}
 		}
-		M0refont52
+		m0refont50Shadow
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"50"
+				"additive"									"0"
+				"antialias" 								"1"
+				"dropshadow" 								"1"
+			}
+		}
+		m0refont50Outline
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"50"
+				"additive"									"0"
+				"antialias" 								"1"
+				"outline" 									"1"
+			}
+		}
+		m0refont50Blur
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"50"
+				"additive"									"0"
+				"antialias" 								"1"
+				"blur" 										"2"
+			}
+		}
+		
+		
+		m0refont52
 		{
 			"1"
 			{
@@ -438,7 +1156,42 @@ Scheme
 				"antialias" 								"1"
 			}
 		}
-		M0refont54
+		m0refont52Shadow
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"52"
+				"additive"									"0"
+				"antialias" 								"1"
+				"dropshadow" 								"1"
+			}
+		}
+		m0refont52Outline
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"52"
+				"additive"									"0"
+				"antialias" 								"1"
+				"outline" 									"1"
+			}
+		}
+		m0refont52Blur
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"52"
+				"additive"									"0"
+				"antialias" 								"1"
+				"blur" 										"2"
+			}
+		}
+		
+		
+		m0refont54
 		{
 			"1"
 			{
@@ -448,7 +1201,42 @@ Scheme
 				"antialias" 								"1"
 			}
 		}
-		M0refont56
+		m0refont54Shadow
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"54"
+				"additive"									"0"
+				"antialias" 								"1"
+				"dropshadow" 								"1"
+			}
+		}
+		m0refont54Outline
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"54"
+				"additive"									"0"
+				"antialias" 								"1"
+				"outline" 									"1"
+			}
+		}
+		m0refont54Blur
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"54"
+				"additive"									"0"
+				"antialias" 								"1"
+				"blur" 										"2"
+			}
+		}
+		
+		
+		m0refont56
 		{
 			"1"
 			{
@@ -458,7 +1246,42 @@ Scheme
 				"antialias" 								"1"
 			}
 		}
-		M0refont58
+		m0refont56Shadow
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"56"
+				"additive"									"0"
+				"antialias" 								"1"
+				"dropshadow" 								"1"
+			}
+		}
+		m0refont8Outline
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"56"
+				"additive"									"0"
+				"antialias" 								"1"
+				"outline" 									"1"
+			}
+		}
+		m0refont56Blur
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"56"
+				"additive"									"0"
+				"antialias" 								"1"
+				"blur" 										"2"
+			}
+		}
+		
+		
+		m0refont58
 		{
 			"1"
 			{
@@ -468,7 +1291,42 @@ Scheme
 				"antialias" 								"1"
 			}
 		}
-		M0refont60
+		m0refont58Shadow
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"58"
+				"additive"									"0"
+				"antialias" 								"1"
+				"dropshadow" 								"1"
+			}
+		}
+		m0refont58Outline
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"58"
+				"additive"									"0"
+				"antialias" 								"1"
+				"outline" 									"1"
+			}
+		}
+		m0refont58Blur
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"58"
+				"additive"									"0"
+				"antialias" 								"1"
+				"blur" 										"2"
+			}
+		}
+		
+		
+		m0refont60
 		{
 			"1"
 			{
@@ -478,7 +1336,42 @@ Scheme
 				"antialias" 								"1"
 			}
 		}
-		M0refont62
+		m0refont60Shadow
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"60"
+				"additive"									"0"
+				"antialias" 								"1"
+				"dropshadow" 								"1"
+			}
+		}
+		m0refont60Outline
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"60"
+				"additive"									"0"
+				"antialias" 								"1"
+				"outline" 									"1"
+			}
+		}
+		m0refont60Blur
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"60"
+				"additive"									"0"
+				"antialias" 								"1"
+				"blur" 										"2"
+			}
+		}
+		
+		
+		m0refont62
 		{
 			"1"
 			{
@@ -488,7 +1381,42 @@ Scheme
 				"antialias" 								"1"
 			}
 		}
-		M0refont64
+		m0refont62Shadow
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"62"
+				"additive"									"0"
+				"antialias" 								"1"
+				"dropshadow" 								"1"
+			}
+		}
+		m0refont62Outline
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"62"
+				"additive"									"0"
+				"antialias" 								"1"
+				"outline" 									"1"
+			}
+		}
+		m0refont62Blur
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"62"
+				"additive"									"0"
+				"antialias" 								"1"
+				"blur" 										"2"
+			}
+		}
+		
+		
+		m0refont64
 		{
 			"1"
 			{
@@ -498,7 +1426,42 @@ Scheme
 				"antialias" 								"1"
 			}
 		}
-		M0refont66
+		m0refont64Shadow
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"64"
+				"additive"									"0"
+				"antialias" 								"1"
+				"dropshadow" 								"1"
+			}
+		}
+		m0refont64Outline
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"64"
+				"additive"									"0"
+				"antialias" 								"1"
+				"outline" 									"1"
+			}
+		}
+		m0refont64Blur
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"64"
+				"additive"									"0"
+				"antialias" 								"1"
+				"blur" 										"2"
+			}
+		}
+		
+		
+		m0refont66
 		{
 			"1"
 			{
@@ -508,7 +1471,42 @@ Scheme
 				"antialias" 								"1"
 			}
 		}
-		M0refont68
+		m0refont66Shadow
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"66"
+				"additive"									"0"
+				"antialias" 								"1"
+				"dropshadow" 								"1"
+			}
+		}
+		m0refont66Outline
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"66"
+				"additive"									"0"
+				"antialias" 								"1"
+				"outline" 									"1"
+			}
+		}
+		m0refont66Blur
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"66"
+				"additive"									"0"
+				"antialias" 								"1"
+				"blur" 										"2"
+			}
+		}
+		
+		
+		m0refont68
 		{
 			"1"
 			{
@@ -518,7 +1516,42 @@ Scheme
 				"antialias" 								"1"
 			}
 		}
-		M0refont70
+		m0refont68Shadow
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"68"
+				"additive"									"0"
+				"antialias" 								"1"
+				"dropshadow" 								"1"
+			}
+		}
+		m0refont68Outline
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"68"
+				"additive"									"0"
+				"antialias" 								"1"
+				"outline" 									"1"
+			}
+		}
+		m0refont68Blur
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"68"
+				"additive"									"0"
+				"antialias" 								"1"
+				"blur" 										"2"
+			}
+		}
+		
+		
+		m0refont70
 		{
 			"1"
 			{
@@ -528,7 +1561,42 @@ Scheme
 				"antialias" 								"1"
 			}
 		}
-		M0refont72
+		m0refont70Shadow
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"70"
+				"additive"									"0"
+				"antialias" 								"1"
+				"dropshadow" 								"1"
+			}
+		}
+		m0refont70Outline
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"70"
+				"additive"									"0"
+				"antialias" 								"1"
+				"outline" 									"1"
+			}
+		}
+		m0refont70Blur
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"70"
+				"additive"									"0"
+				"antialias" 								"1"
+				"blur" 										"2"
+			}
+		}
+		
+		
+		m0refont72
 		{
 			"1"
 			{
@@ -538,6 +1606,41 @@ Scheme
 				"antialias" 								"1"
 			}
 		}
+		m0refont72Shadow
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"72"
+				"additive"									"0"
+				"antialias" 								"1"
+				"dropshadow" 								"1"
+			}
+		}
+		m0refont72Outline
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"72"
+				"additive"									"0"
+				"antialias" 								"1"
+				"outline" 									"1"
+			}
+		}
+		m0refont72Blur
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"72"
+				"additive"									"0"
+				"antialias" 								"1"
+				"blur" 										"2"
+			}
+		}
+		
+		
 		"BlocksSharp64"
 		{
 			"1"

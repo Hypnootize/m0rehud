@@ -81,15 +81,6 @@
 				"scaleImage"						"1"	
 			}
 			
-			"classimagebg"
-			{
-				"ControlName"						"Panel"
-				"fieldName"							"classimagebg"
-				"wide"								"0"
-				"tall"								"0"
-				"visible"							"0"
-			}
-			
 			"HealthIcon"
 			{
 				"ControlName"						"EditablePanel"
@@ -147,6 +138,14 @@
 				"scaleImage"						"1"
 			}
 			
+			"classimagebg"
+			{
+				"ControlName"						"Panel"
+				"fieldName"							"classimagebg"
+				"wide"								"0"
+				"tall"								"0"
+				"visible"							"0"
+			}
 			"respawntime"
 			{
 				"ControlName"						"CExLabel"
@@ -155,7 +154,6 @@
 				"tall"								"0"
 				"visible"							"0"
 			}
-			
 			"chargeamount"
 			{
 				"ControlName"						"CExLabel"
@@ -164,7 +162,6 @@
 				"tall"								"0"
 				"visible"							"0"
 			}
-			
 			"specindex"
 			{
 				"ControlName"						"CExLabel"

@@ -1,6 +1,6 @@
 "Resource/UI/build_menu/base.res"
 {
-	"BuildingIcon"	
+	"BuildingIcon"
 	{
 		"ControlName"								"CIconPanel"
 		"fieldName"									"BuildingIcon"
@@ -11,13 +11,13 @@
 		"tall"										"40"
 		"visible"									"1"
 		"enabled"									"1"
-		"scaleImage"								"1"	
+		"scaleImage"								"1"
 		"icon"										"hud_menu_sentry_build"
-		"iconColor"									"0 255 0 255"
+		"iconColor"									"White"
 	}
 	
 	"CostLabel"
-	{	
+	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"CostLabel"
 		"font"										"m0refont18Shadow"
@@ -32,10 +32,32 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"%metal%"
-		"textAlignment"								"Center"	
+		"textAlignment"								"Center"
 	}
 	
-	"NumberBg"	
+	"CantBuildReason"
+	{
+		"ControlName"								"CExLabel"
+		"fieldName"									"CantBuildReason"
+		"font"										"Default"
+		"xpos"										"0"
+		"ypos"										"0"
+		"zpos"										"2"
+		"wide"										"40"
+		"tall"										"40"
+		"autoResize"								"0"
+		"pinCorner"									"0"
+		"visible"									"0"
+		"enabled"									"1"
+		"labelText"									""
+		"textAlignment"								"Center"
+		"centerwrap"								"1"
+		"dulltext"									"0"
+		"brighttext"								"0"
+		"fgcolor_override"							"255 0 0 255"
+	}
+	
+	"NumberBg"
 	{
 		"ControlName"								"CIconPanel"
 		"fieldName"									"NumberBg"
@@ -46,13 +68,13 @@
 		"tall"										"18"
 		"visible"									"1"
 		"enabled"									"1"
-		"scaleImage"								"1"	
+		"scaleImage"								"1"
 		"icon"										"ico_key_blank"
 		"iconColor"									"White"
 	}
 	
 	"NumberLabel"
-	{	
+	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"NumberLabel"
 		"font"										"Default"

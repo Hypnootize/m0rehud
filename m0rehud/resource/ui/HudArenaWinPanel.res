@@ -38,8 +38,6 @@
 			"fillcolor"    							"White"
 			
 			"pin_to_sibling"						"TopBarAnchor"
-			"pin_corner_to_sibling"					"PIN_TOPLEFT"
-			"pin_to_sibling_corner"					"PIN_TOPLEFT"
 		}
 		
 		"BlueScoreBG"
@@ -113,8 +111,6 @@
 			"enabled"								"1"
 			
 			"pin_to_sibling"						"BlueScoreBG"
-			"pin_corner_to_sibling"					"PIN_TOPLEFT"
-			"pin_to_sibling_corner"					"PIN_TOPLEFT"
 		}
 		
 		"BlueTeamScore"
@@ -182,8 +178,6 @@
 			"enabled"								"1"
 			
 			"pin_to_sibling"						"RedScoreBG"
-			"pin_corner_to_sibling"					"PIN_TOPLEFT"
-			"pin_to_sibling_corner"					"PIN_TOPLEFT"
 		}
 
 		"ArenaStreakLabel"
@@ -548,8 +542,6 @@
 		"zpos"										"3"
 		
 		"pin_to_sibling" 							"IndexAnchor"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_TOPLEFT"
 
 		"Player1Avatar"
 		{
@@ -978,8 +970,6 @@
 		"zpos"										"3"
 		
 		"pin_to_sibling" 							"IndexAnchor"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_TOPLEFT"
 
 		"Player1Avatar"
 		{
