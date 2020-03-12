@@ -29,6 +29,21 @@
 		"alpha"										"0"
 	}
 	
+	"PlayerStatusSpyOutlineImage"
+	{
+		"ControlName"								"CTFImagePanel"
+		"fieldName"									"PlayerStatusSpyOutlineImage"
+		"xpos"										"-5"
+		"ypos"										"r44"
+		"zpos"										"7"
+		"wide"										"27"
+		"tall"										"27"
+		"visible"									"0"
+		"enabled"									"1"
+		"image"										"../hud/class_spy_outline"
+		"scaleImage"								"1"	
+	}
+	
 	"classmodelpanel"
 	{
 		"ControlName"								"CTFPlayerModelPanel"
@@ -178,15 +193,6 @@
 		"visible"									"0"
 		"enabled"									"0"
 	}	
-	"PlayerStatusSpyOutlineImage"
-	{
-		"ControlName"								"CTFImagePanel"
-		"fieldName"									"PlayerStatusSpyOutlineImage"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}		
 	"PlayerStatusClassImageBG"
 	{
 		"ControlName"								"CTFImagePanel"
@@ -196,7 +202,6 @@
 		"visible"									"0"
 		"enabled"									"0"
 	}
-	
 	"classmodelpanelBG"
 	{
 		"ControlName"								"CTFImagePanel"
