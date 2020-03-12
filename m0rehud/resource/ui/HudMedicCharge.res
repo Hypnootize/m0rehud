@@ -22,14 +22,27 @@
 		"fgcolor"   								"Ubercharge"
 	}
 	
+	"UberAnchor"									//Moves the Big Uber Label
+	{
+		"ControlName"								"EditablePanel"
+		"fieldName"									"UberAnchor"
+		"xpos"										"c175"
+		"ypos"										"c60"
+		"zpos"										"0"
+		"wide"										"2"
+		"tall"										"150"
+		"visible"									"0"
+		"enabled"									"1"
+	}
+	
 	"ChargeLabelBig"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"ChargeLabelBig"
-		"xpos"										"c75"
-		"ypos"										"c60"
+		"xpos"										"0"
+		"ypos"										"0"
 		"zpos"										"2"
-		"wide"										"175"
+		"wide"										"200"
 		"tall"										"150"
 		"autoResize"								"1"
 		"pinCorner"									"2"
@@ -42,6 +55,10 @@
 		"brighttext"								"0"
 		"font"										"M0refont72"
 		"fgcolor"   								"Ubercharge"
+		
+		"pin_to_sibling"							"UberAnchor"
+		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
+		"pin_to_sibling_corner"						"PIN_CENTER_TOP"
 	}
 	
 	"ChargeLabelBigShadow"
@@ -51,7 +68,7 @@
 		"xpos"										"-2"
 		"ypos"										"-2"
 		"zpos"										"2"
-		"wide"										"175"
+		"wide"										"200"
 		"tall"										"150"
 		"autoResize"								"1"
 		"pinCorner"									"2"

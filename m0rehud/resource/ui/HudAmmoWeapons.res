@@ -1,21 +1,38 @@
 "Resource/UI/HudAmmoWeapons.res"
 {
+	"AmmoAnchor"									//Moves the Ammos
+	{
+		"ControlName"								"EditablePanel"
+		"fieldName"									"AmmoAnchor"
+		"xpos"										"c175"
+		"ypos"										"c60"
+		"zpos"										"0"
+		"wide"										"2"
+		"tall"										"150"
+		"visible"									"0"
+		"enabled"									"1"
+	}
+	
 	"AmmoInClip"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"AmmoInClip"
 		"font"										"M0refont72"
 		"fgcolor"									"Ammo In Clip"
-		"xpos"										"c100"
-		"ypos"										"c60"
+		"xpos"										"0"
+		"ypos"										"0"
 		"zpos"										"5"
-		"wide"										"78"
+		"wide"										"150"
 		"tall"										"150"
 		"visible"									"0"
 		"enabled"									"1"
-		"textAlignment"								"east"	
+		"textAlignment"								"east"
 		"labelText"									"%Ammo%"
-	}	
+		
+		"pin_to_sibling"							"AmmoAnchor"
+		"pin_corner_to_sibling"						"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"						"PIN_TOPLEFT"
+	}
 	
 	"AmmoInClipShadow"
 	{
@@ -26,11 +43,11 @@
 		"xpos"										"-2"
 		"ypos"										"-2"
 		"zpos"										"5"
-		"wide"										"78"
+		"wide"										"150"
 		"tall"										"150"
 		"visible"									"0"
 		"enabled"									"1"
-		"textAlignment"								"east"	
+		"textAlignment"								"east"
 		"labelText"									"%Ammo%"
 		
 		"pin_to_sibling"							"AmmoInClip"
@@ -42,16 +59,20 @@
 		"fieldName"									"AmmoInReserve"
 		"font"										"m0refont24"
 		"fgcolor"									"Ammo In Reserve"
-		"xpos"										"c180"
-		"ypos"										"c130"
+		"xpos"										"0"
+		"ypos"										"-8"
 		"zpos"										"7"
-		"wide"										"40"
-		"tall"										"27"
+		"wide"										"150"
+		"tall"										"150"
 		"visible"									"0"
 		"enabled"									"1"
-		"textAlignment"								"west"		
+		"textAlignment"								"west"
 		"labelText"									"%AmmoInReserve%"
-	}	
+		
+		"pin_to_sibling"							"AmmoAnchor"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
+	}
 	
 	"AmmoInReserveShadow"
 	{
@@ -62,15 +83,15 @@
 		"xpos"										"-1"
 		"ypos"										"-1"
 		"zpos"										"7"
-		"wide"										"40"
-		"tall"										"27"
+		"wide"										"150"
+		"tall"										"150"
 		"visible"									"0"
 		"enabled"									"1"
-		"textAlignment"								"west"		
+		"textAlignment"								"west"
 		"labelText"									"%AmmoInReserve%"
 		
 		"pin_to_sibling"							"AmmoInReserve"
-	}	
+	}
 	
 	"AmmoNoClip"
 	{
@@ -78,15 +99,19 @@
 		"fieldName"									"AmmonoClip"
 		"font"										"m0refont72"
 		"fgcolor"									"Ammo No Clip"
-		"xpos"										"c100"
-		"ypos"    									"c60"
+		"xpos"										"0"
+		"ypos"    									"0"
 		"zpos"										"5"
 		"wide"										"150"
 		"tall"										"150"
 		"visible"									"0"
 		"enabled"									"1"
-		"textAlignment"								"center"	
+		"textAlignment"								"center"
 		"labelText"									"%Ammo%"
+		
+		"pin_to_sibling"							"AmmoAnchor"
+		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
+		"pin_to_sibling_corner"						"PIN_CENTER_TOP"
 	}
 	
 	"AmmoNoClipShadow"
@@ -102,7 +127,7 @@
 		"tall"										"150"
 		"visible"									"0"
 		"enabled"									"1"
-		"textAlignment"								"center"	
+		"textAlignment"								"center"
 		"labelText"									"%Ammo%"
 		
 		"pin_to_sibling"							"AmmoNoClip"

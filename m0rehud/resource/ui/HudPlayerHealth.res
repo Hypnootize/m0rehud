@@ -4,23 +4,51 @@
 	{
 		"ControlName"           					"EditablePanel"
 		"fieldName"	            					"HudPlayerHealth"
-		"xpos"		               					"c-270"
-		"ypos"		               					"c60"
+		"xpos"		               					"0"
+		"ypos"		               					"0"
 		"zpos"		               					"2"
-		"wide"		              					"170"
-		"tall"			           				 	"150"
+		"wide"		              					"f0"
+		"tall"			           				 	"480"
 		"visible"	              					"1"
 		"enabled"		           					"1"	
 		"HealthBonusPosAdj"     					"35"
 		"HealthDeathWarning"    					"0.49"
 		"HealthDeathWarningColor"					"HUDDeathWarning"
-	}	
+	}
+	
+	"HealthAnchor"									//Moves the health
+	{
+		"ControlName"								"EditablePanel"
+		"fieldName"									"HealthAnchor"
+		"xpos"										"c-175"
+		"ypos"										"c60"
+		"zpos"										"0"
+		"wide"										"2"
+		"tall"										"150"
+		"visible"									"0"
+		"enabled"									"1"
+	}
+	
+	"PlayerStatusHealthBonusImage"
+	{
+		"ControlName"	         				 	"ImagePanel"
+		"fieldName"		         				 	"PlayerStatusHealthBonusImage"
+		"xpos"			         				 	"c-205"
+		"ypos"			         				 	"c107"
+		"zpos"			         				 	"-4"
+		"wide"			         				 	"66"
+		"tall"			         				 	"66"
+		"visible"		         				 	"0"
+		"enabled"		         				 	"1"
+		"image"			         				 	"../hud/health_over_bg"
+		"scaleImage"	         				 	"1"
+	}
 	
 	"PlayerStatusHealthValue"
 	{
 		"ControlName"	           				 	"CExLabel"
 		"fieldName"	  	         				 	"PlayerStatusHealthValue"
-		"xpos"		    	         				"20"
+		"xpos"		    	         				"0"
 		"ypos"		    	         				"0"	
 		"zpos"		    	         				"5"
 		"wide"		    	         				"150"
@@ -31,6 +59,10 @@
 		"textAlignment"         				 	"center"	
 		"font"                   				 	"M0refont72"
 		"fgcolor"	    	         				"Health Numbers"
+		
+		"pin_to_sibling"							"HealthAnchor"
+		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
+		"pin_to_sibling_corner"						"PIN_CENTER_TOP"
 	}
 	
 	"PlayerStatusHealthValueShadow"
@@ -72,31 +104,20 @@
 		"pin_to_sibling"							"PlayerStatusHealthValueShadow"
 	}
 	
-	"PlayerStatusHealthBonusImage"
-	{
-		"ControlName"	         				 	"ImagePanel"
-		"fieldName"		         				 	"PlayerStatusHealthBonusImage"
-		"xpos"			         				 	"63"
-		"ypos"			         				 	"46"
-		"zpos"			         				 	"-4"
-		"wide"			         				 	"66"
-		"tall"			         				 	"66"
-		"visible"		         				 	"0"
-		"enabled"		         				 	"1"
-		"image"			         				 	"../hud/health_over_bg"
-		"scaleImage"	         				 	"1"
-	}
-	
 	"PlayerStatusAnchor"
 	{
 		"ControlName"				         		"EditablePanel"
 		"fieldName"				         			"PlayerStatusAnchor"
-		"xpos"					         			"-10"
-		"ypos"					         			"64"
-		"wide"					         			"30"
-		"tall"					         			"30"
+		"xpos"					         			"0"
+		"ypos"					         			"-64"
+		"wide"					         			"2"
+		"tall"					         			"150"
 		"visible"				         			"1"
 		"enabled"				         			"1"
+		
+		"pin_to_sibling"							"PlayerStatusHealthValue"
+		"pin_corner_to_sibling"						"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 	}
 	
 	"PlayerStatusBleedImage"
