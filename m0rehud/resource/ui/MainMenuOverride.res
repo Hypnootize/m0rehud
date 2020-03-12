@@ -1238,8 +1238,8 @@
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"Notifications_Panel"
-		"xpos"										"c-238"
-		"ypos"										"r75"
+		"xpos"										"c-290"
+		"ypos"										"40"
 		"zpos"										"17"
 		"wide"										"210"
 		"tall"										"80"
