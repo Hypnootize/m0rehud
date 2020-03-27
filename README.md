@@ -37,19 +37,17 @@ I suggest using **"tf_hud_target_id_disable_floating_health" "1"** since the flo
 <a>CUSTOMIZATION</a>
 ====
 
-m0rehud supports different customizations!
+**1)** Each folder works as a category and inside each category you will find the actual customizations.
 
-All the customizations can be found inside the Customization folder and from there all you need to do is:
+**2)** Once you picked a customization open the dedicated folder and copy all the folders inside (usualy they are named: materials, resource, scripts)
 
-**1)** Choose which customization you want to apply and open the dedicated folder (each folder has a screen of the customization as well)
+**3)** Paste and replace the folder/s over the normal m0rehud files!
 
-**2)** Copy all the folders found inside
+*QUICK EXAMPLE: if I want the Health Cross customization I will:*
+*Open "Health Ammo Uber Style" then "[Health] Health Cross" then copy the "materials" and "resource" folders and replace them over the m0rehud files!*
 
-**3)** Paste and replace them over the normal m0rehud files!
 
-**Other than that is also possible to easily change the colors by editing the ClientScheme_m0re file**
-
-Inside that file is possible to change all the colors used for the health/ammo/buff/hurt/uber and many more!
+**It is also possible to change the colors more in depth from the resource/colors.res!**
 
 
 <a>CROSSHAIRS</a>
