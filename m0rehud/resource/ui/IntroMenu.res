@@ -89,7 +89,7 @@
 		"paintborder"								"0"
 		
 		"defaultFgColor_override"					"White"
-		"armedFgColor_override" 					"Main Menu Labels"
+		"armedFgColor_override" 					"Menu Labels"
 		"depressedFgColor_override" 				"White"
 		
 		"pin_to_sibling"							"VideoCaption"
@@ -121,7 +121,7 @@
 		"paintborder"								"0"
 		
 		"defaultFgColor_override"					"White"
-		"armedFgColor_override" 					"Main Menu Labels"
+		"armedFgColor_override" 					"Menu Labels"
 		"depressedFgColor_override" 				"White"
 		
 		"pin_to_sibling"							"Skip"

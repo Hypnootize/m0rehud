@@ -1,0 +1,17 @@
+////////////////////////////////////////////////
+///////////// CUSTOMIZATIONS USAGE /////////////
+////////////////////////////////////////////////
+
+Usage Instructions:
+
+1) Each folder works as a category and inside each category you will find the actual customizations.
+
+2) Once you picked a customization open the dedicated folder and copy all the folders inside (usualy they are named: materials, resource, scripts)
+
+3) Paste and replace the folder/s over the normal m0rehud files!
+
+QUICK EXAMPLE: if I want the Health Cross customization I will:
+Open "Health Ammo Uber Style" then "[Health] Health Cross" then copy the "materials" and "resource" folders and replace them over the m0rehud files!
+
+
+It is also possible to change the colors more in depth from the resource/colors.res!

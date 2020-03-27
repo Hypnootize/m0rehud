@@ -85,7 +85,7 @@
 		"paintborder"								"0"
 		
 		"defaultFgColor_override"					"White"
-		"armedFgColor_override" 					"Main Menu Labels"
+		"armedFgColor_override" 					"Menu Labels"
 		"depressedFgColor_override" 				"White"
 		
 		"pin_to_sibling"							"MapInfoText"
@@ -118,7 +118,7 @@
 		"paintborder"								"0"
 		
 		"defaultFgColor_override"					"White"
-		"armedFgColor_override" 					"Main Menu Labels"
+		"armedFgColor_override" 					"Menu Labels"
 		"depressedFgColor_override" 				"White"
 		
 		"pin_to_sibling"							"ok"

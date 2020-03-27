@@ -185,11 +185,11 @@
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"BGPanel"
-		"xpos"										"rs1"
-		"ypos"										"20"
+		"xpos"										"0"
+		"ypos"										"0"
 		"zpos"										"-1"
-		"wide"										"260"
-		"tall"										"f40"
+		"wide"										"200"
+		"tall"										"50"
 		"visible"									"1"
 		"PaintBackgroundType"						"2"
 		"proportionaltoparent"						"1"
@@ -206,16 +206,16 @@
 		{
 			"ControlName"							"Label"
 			"fieldName"								"NameLabel"
-			"xpos"									"65"
-			"ypos"									"8"
-			"wide"									"130"
+			"xpos"									"0"
+			"ypos"									"0"
+			"wide"									"f0"
 			"zpos"									"100"
-			"tall"									"20"
+			"tall"									"14"
 			"visible"								"1"
 			"enabled"								"1"
 			"font"									"Coolvetica"
-			"fgcolor_override"						"TanLight"
-			"textAlignment"							"north-west"
+			"fgcolor_override"						"White"
+			"textAlignment"							"west"
 			"labelText"								"%name%"
 			"proportionaltoparent"					"1"
 			"AllCaps"								"1"
@@ -230,16 +230,16 @@
 		{
 			"ControlName"							"CAutoFittingLabel"
 			"fieldName"								"DescLine1"
-			"xpos"									"65"
-			"ypos"									"24"
-			"wide"									"131"
+			"xpos"									"0"
+			"ypos"									"17"
+			"wide"									"f0"
 			"zpos"									"100"
-			"tall"									"20"
+			"tall"									"14"
 			"visible"								"1"
 			"enabled"								"1"
 			"font"									"Coolvetica"
-			"fgcolor_override"						"TanLight"
-			"textAlignment"							"north-west"
+			"fgcolor_override"						"White"
+			"textAlignment"							"west"
 			"labelText"								"%desc1%"
 			"proportionaltoparent"					"1"
 			"AllCaps"								"1"
@@ -248,16 +248,23 @@
 			{
 				"xpos"								"67"
 				"ypos"								"4"
-				"wide"								"195"
-				"font"								"HudFontSmallestBold"
-				"AllCaps"							"0"
+				"wide"								"131"
+				"zpos"								"100"
+				"tall"								"20"
+				"visible"							"1"
+				"enabled"							"1"
+				"font"								"Coolvetica"
+				"fgcolor_override"					"White"
+				"textAlignment"						"north-west"
+				"labelText"							"%desc1%"
+				"proportionaltoparent"				"1"
 			}
 
 			"fonts"
 			{
 				"0"									"Coolvetica"
-				"1"									"Coolvetica"
-				"2"									"Coolvetica"
+				"1"									"Coolvetica13"
+				"2"									"Coolvetica11"
 			}
 		}
 
@@ -265,16 +272,16 @@
 		{
 			"ControlName"							"CAutoFittingLabel"
 			"fieldName"								"DescLine2"
-			"xpos"									"65"
-			"ypos"									"24"
+			"xpos"									"0"
+			"ypos"									"20"
 			"wide"									"131"
-			"zpos"									"100"
-			"tall"									"20"
+			"zpos"									"f0"
+			"tall"									"14"
 			"visible"								"1"
 			"enabled"								"1"
 			"font"									"Coolvetica"
-			"fgcolor_override"						"TanLight"
-			"textAlignment"							"north-west"
+			"fgcolor_override"						"White"
+			"textAlignment"							"west"
 			"labelText"								"%desc2%"
 			"proportionaltoparent"					"1"
 			"AllCaps"								"1"
@@ -283,16 +290,23 @@
 			{
 				"xpos"								"67"
 				"ypos"								"4"
-				"wide"								"195"
-				"font"								"HudFontSmallestBold"
-				"AllCaps"							"0"
+				"wide"								"131"
+				"zpos"								"100"
+				"tall"								"20"
+				"visible"							"1"
+				"enabled"							"1"
+				"font"								"Coolvetica"
+				"fgcolor_override"					"White"
+				"textAlignment"						"north-west"
+				"labelText"							"%desc2%"
+				"proportionaltoparent"				"1"
 			}
 
 			"fonts"
 			{
 				"0"									"Coolvetica"
-				"1"									"Coolvetica"
-				"2"									"Coolvetica"
+				"1"									"Coolvetica13"
+				"2"									"Coolvetica11"
 			}
 
 			"colors"
@@ -306,10 +320,10 @@
 		{
 			"ControlName"							"EditablePanel"
 			"fieldName"								"StatsContainer"
-			"xpos"									"64"
-			"ypos"									"0"
-			"wide"									"120"
-			"tall"									"f0"
+			"xpos"									"-1"
+			"ypos"									"29"
+			"wide"									"f0"
+			"tall"									"480"
 			"proportionaltoparent"					"1"
 
 			if_mini
@@ -317,17 +331,26 @@
 				"xpos"								"rs1-10"
 				"ypos"								"0"
 				"wide"								"p0.85"
+				"tall"								"f0"
 			}
 
 			"XPBar"
 			{
 				"Controlname"						"EditablePanel"
 				"fieldName"							"XPBar"
-				"xpos"								"cs-0.5"
-				"ypos"								"rs1-3"
-				"wide"								"p1"
-				"tall"								"30"
+				"xpos"								"0"
+				"ypos"								"0"
+				"wide"								"120"
+				"tall"								"20"
 				"proportionaltoparent"				"1"
+				
+				if_mini
+				{
+					"xpos"							"cs-0.5"
+					"ypos"							"rs1-3"
+					"wide"							"p1"
+					"tall"							"30"
+				}
 
 				"CurrentXPLabel"
 				{
@@ -417,7 +440,7 @@
 						"proportionaltoparent"		"1"
 						"progress"					"0"
 
-						"fgcolor_override"			"Main Menu Labels"
+						"fgcolor_override"			"Menu Labels"
 						
 						if_mini
 						{
@@ -439,7 +462,7 @@
 						
 						if_mini
 						{
-							"wide"						"f0"
+							"wide"					"f0"
 						}
 					}
 				}

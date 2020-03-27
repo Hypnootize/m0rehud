@@ -1,0 +1,11 @@
+The Transparent Viewmodel customization should't be used with a dxlevel lower than 90.
+dxlevel 80/81 doesn't support the refract material, which mostly means that if you enable this customization your screen will simply turn white!
+
+If you are having problems you might want to edit your fps config so that certain console commands don't disable your viewmodels' transparency:
+
+mat_motion_blur_enabled 1 			//the only sure-fire way to keep refract masking on
+mat_motion_blur_strength 0 			//effectively disables motion blur, personal choice + motion blur gets masked and looks bad with refract masking
+mat_disable_bloom 1 				//disables bloom so refract masking doesn't create a dark rectangle over light materials
+mat_hdr_level 0
+mat_colcorrection_disableentities 1
+mat_colorcorrection 0

@@ -4,5 +4,8 @@
 //hud crosshairs
 #base "../scripts/Crosshairs/HudLayout_Crosshairs.res"
 
+//transparent viewmodel
+#base "../scripts/Transparent Viewmodels.res"
+
 //default hud layout
-#base "../scripts/HudLayout_Default.res"
+#base "../resource/default/HudLayout.res"

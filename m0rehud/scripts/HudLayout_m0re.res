@@ -1,6 +1,3 @@
-#base "../scripts/Crosshairs/crosshairs.res"
-#base "../scripts/HudLayout_Base.res"
-
 "Resource/HudLayout.res"
 {	
 	HudWeaponAmmo
@@ -161,8 +158,6 @@
 		"tall"										"480"
 		
 		"pin_to_sibling"							"BuildingAnchor"
-		"pin_corner_to_sibling"						"PIN_TOPLEFT"
-		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 	}
 	
 	HudDeathNotice
@@ -188,6 +183,22 @@
 
 		"BaseBackgroundColor"						"0 0 0 100"
 		"LocalBackgroundColor"						"240 240 240 200"
+	}
+	
+	HudCloseCaption
+	{
+		"xpos"										"c-215"
+		"ypos"										"r95"
+		"wide"										"150"
+		"tall"										"50"
+
+		"BgAlpha"									"0"
+
+		"GrowTime"									"0"
+		"ItemHiddenTime"							"0"
+		"ItemFadeInTime"							"0"
+		"ItemFadeOutTime"							"0.2"
+		"topoffset"									"0"
 	}
 	
 	HudSpellMenu
