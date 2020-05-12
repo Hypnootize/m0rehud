@@ -27,7 +27,7 @@
 		"ControlName"								"ContinuousProgressBar"
 		"fieldName"									"ItemEffectMeter2"
 		"font"										"Default"
-		"xpos"										"71"
+		"xpos"										"1"
 		"ypos"										"0"
 		"zpos"										"2"
 		"wide"										"69"
@@ -40,5 +40,9 @@
 		"dulltext"									"0"
 		"brighttext"								"0"
 		"fgcolor"									"White"
+		
+		"pin_to_sibling" 							"ItemEffectMeter"
+		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
 	}
 }

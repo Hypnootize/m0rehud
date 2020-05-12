@@ -5,10 +5,10 @@
 		"fieldName"									"HudItemEffectMeter"
 		"visible"									"1"
 		"enabled"									"1"
-		"xpos"										"c-69"
+		"xpos"										"c-70"
 		"ypos"										"c185"	
-		"wide"										"500"
-		"tall"										"500"
+		"wide"										"140"
+		"tall"										"10"
 		"MeterFG"									"White"
 		"MeterBG"									"Gray"
 	}

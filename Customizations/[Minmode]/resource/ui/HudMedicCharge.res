@@ -1,6 +1,6 @@
 "Resource/UI/HudMedicCharge.res"
 {	
-	"UberAnchor"									//Moves the health
+	"UberAnchor"									//Moves The Uber Label
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"UberAnchor"
@@ -8,7 +8,7 @@
 		"ypos"										"c45"
 		"zpos"										"0"
 		"wide"										"2"
-		"tall"										"50"
+		"tall"										"40"
 		"visible"									"0"
 		"enabled"									"1"
 	}

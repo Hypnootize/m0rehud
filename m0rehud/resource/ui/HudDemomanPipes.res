@@ -1,11 +1,29 @@
 "Resource/UI/HudDemomanPipes.res"
 {
+	"ChargeMeter"
+	{	
+		"ControlName"								"ContinuousProgressBar"
+		"fieldName"									"ChargeMeter"
+		"xpos"										"c-70"
+		"ypos"										"r80"
+		"zpos"										"2"
+		"wide"										"140"
+		"tall"										"2"				
+		"autoResize"								"0"
+		"pinCorner"									"0"
+		"visible"									"1"
+		"enabled"									"1"
+		"textAlignment"								"Left"
+		"dulltext"									"0"
+		"brighttext"								"0"
+	}
+	
 	"ChargeLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"ChargeLabel"
-		"xpos"										"c-69"
-		"ypos"										"402"
+		"xpos"										"0"
+		"ypos"										"0"
 		"zpos"										"2"
 		"wide"										"140"
 		"tall"										"8"
@@ -20,25 +38,11 @@
 		"brighttext"								"0"
 		"font"										"TFFontSmall"
 		"fgcolor_override"							"150 150 150 255"
+		
+		"pin_to_sibling" 							"ChargeMeter"
+		"pin_corner_to_sibling" 					"PIN_CENTER_TOP"
+		"pin_to_sibling_corner" 					"PIN_CENTER_BOTTOM"
 	}
-
-	"ChargeMeter"
-	{	
-		"ControlName"								"ContinuousProgressBar"
-		"fieldName"									"ChargeMeter"
-		"xpos"										"c-69"
-		"ypos"										"400"
-		"zpos"										"2"
-		"wide"										"140"
-		"tall"										"2"				
-		"autoResize"								"0"
-		"pinCorner"									"0"
-		"visible"									"1"
-		"enabled"									"1"
-		"textAlignment"								"Left"
-		"dulltext"									"0"
-		"brighttext"								"0"
-	}				
 	
 	"PipesPresentPanel"
 	{

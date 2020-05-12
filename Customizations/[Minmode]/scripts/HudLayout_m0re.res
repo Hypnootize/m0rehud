@@ -24,16 +24,6 @@
 		"red_active_xpos_minmode"					"101"
 	}	
 
-	HudItemEffectMeter
-	{
-		"xpos"										"c-37"
-		"xpos_minmode"								"c-37"
-		"ypos"										"r52"
-		"wide"										"100"
-		"wide_minmode"								"100"
-		"tall"										"50"
-	}
-	
 	HudMedicCharge
 	{
 		"xpos"										"0"
@@ -56,18 +46,6 @@
 		"tall"										"480"
 	}	
 
-	HudFlameRocketCharge
-	{
-		"xpos"										"c-37"
-		"xpos_minmode"								"c-37"
-		"ypos"										"r120"
-		"ypos_minmode"								"r120"
-		"zpos"										"1"
-		"wide"										"100"
-		"wide_minmode"								"100"
-		"tall"										"50"
-	}
-	
 	CHudAccountPanel
 	{
 		"xpos"         								"c-100"
@@ -81,10 +59,10 @@
 	{
 		"xpos"										"0"
 		"xpos_minmode"								"0"
-		"ypos"										"456"
-		"ypos_minmode"								"456"
+		"ypos"										"r25"
+		"ypos_minmode"								"r25"
 		"wide"										"f0"
-		"tall"  									"24"
+		"tall"  									"25"
 	}
 	
 	HudDamageIndicator
@@ -117,7 +95,6 @@
 
 	CMainTargetID
 	{
-		"xpos"										"c-126"
 		"ypos"										"c30"
 		"tall"	 									"30"
 		"tall_minmode"	 							"30"
@@ -125,7 +102,6 @@
 	
 	CSpectatorTargetID
 	{
-		"xpos"										"c-126"
 		"ypos"										"c122"
 		"tall"	 									"30"
 		"tall_minmode"	 							"30"
@@ -133,7 +109,6 @@
 	
 	CSecondaryTargetID
 	{
-		"xpos"										"c-126"
 		"ypos"										"c85"
 		"tall"	 									"30"
 		"tall_minmode"	 							"30"
@@ -221,7 +196,7 @@
 	{
 		"xpos"										"0"
 		"ypos"										"0"
-		"zpos"										"30"
+		"zpos"										"10"
 		"wide"										"f0"
 		"tall"										"480"
 	}
@@ -230,25 +205,25 @@
 	{
 		"xpos"										"0"
 		"ypos"										"0"
-		"zpos"										"30"
+		"zpos"										"10"
 		"wide"										"f0"
 		"tall"										"480"
 	}
 
 	"HudAlert"
 	{
-		"xpos"										"c-160"
-		"ypos"										"100"
-		"wide"										"320"
-		"tall"										"150"
+		"xpos"										"0"
+		"ypos"										"0"
+		"wide"										"f0"
+		"tall"										"480"
 	}
 	
 	HudTeamSwitch
 	{
-		"xpos"										"c-160"
-		"ypos"										"75"
-		"wide"										"320"
-		"tall"										"100"
+		"xpos"										"0"
+		"ypos"										"0"
+		"wide"										"f0"
+		"tall"										"480"
 	}
 	
 	"HudMenuEngyBuild"

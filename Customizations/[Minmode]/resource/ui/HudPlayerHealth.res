@@ -24,9 +24,24 @@
 		"ypos"										"c45"
 		"zpos"										"0"
 		"wide"										"2"
-		"tall"										"50"
+		"tall"										"40"
 		"visible"									"0"
 		"enabled"									"1"
+	}
+	
+	"PlayerStatusHealthBonusImage"
+	{
+		"ControlName"	         				 	"ImagePanel"
+		"fieldName"		         				 	"PlayerStatusHealthBonusImage"
+		"xpos"			         				 	"c-108"
+		"ypos"			         				 	"c54"
+		"zpos"			         				 	"-4"
+		"wide"			         				 	"30"
+		"tall"			         				 	"30"
+		"visible"		         				 	"0"
+		"enabled"		         				 	"1"
+		"image"			         				 	"../hud/health_over_bg"
+		"scaleImage"	         				 	"1"	
 	}
 	
 	"PlayerStatusHealthValue"
@@ -87,21 +102,6 @@
 		"alpha"	     	         					"0"
 		
 		"pin_to_sibling"							"PlayerStatusHealthValueShadow"
-	}
-	
-	"PlayerStatusHealthBonusImage"
-	{
-		"ControlName"	         				 	"ImagePanel"
-		"fieldName"		         				 	"PlayerStatusHealthBonusImage"
-		"xpos"			         				 	"c-108"
-		"ypos"			         				 	"c54"
-		"zpos"			         				 	"-4"
-		"wide"			         				 	"30"
-		"tall"			         				 	"30"
-		"visible"		         				 	"0"
-		"enabled"		         				 	"1"
-		"image"			         				 	"../hud/health_over_bg"
-		"scaleImage"	         				 	"1"	
 	}
 	
 	"PlayerStatusAnchor"
@@ -352,7 +352,7 @@
 	{
 		"ControlName"				         		"ImagePanel"
 		"fieldName"				         			"PlayerStatus_WheelOfDoom"
-		"xpos"					         			"7"
+		"xpos"					         			"0"
 		"ypos"					         			"27"
 		"zpos"					         			"7"
 		"wide"					         			"18"
@@ -618,7 +618,7 @@
 		"ControlName"				         		"ImagePanel"
 		"fieldName"					         		"PlayerStatus_RuneKing"
 		"xpos"						         		"0"
-		"ypos"						         		"-4"
+		"ypos"						         		"0"
 		"zpos"						         		"7"
 		"wide"					         			"18"
 		"tall"					         			"18"
@@ -637,7 +637,7 @@
 		"ControlName"				         		"ImagePanel"
 		"fieldName"					         		"PlayerStatus_RunePlague"
 		"xpos"						         		"0"
-		"ypos"						         		"-4"
+		"ypos"						         		"0"
 		"zpos"						         		"7"
 		"wide"					         			"18"
 		"tall"					         			"18"
@@ -656,7 +656,7 @@
 		"ControlName"				         		"ImagePanel"
 		"fieldName"					         		"PlayerStatus_RuneSupernova"
 		"xpos"						         		"0"
-		"ypos"						         		"-4"
+		"ypos"						         		"0"
 		"zpos"						         		"7"
 		"wide"					         			"18"
 		"tall"					         			"18"

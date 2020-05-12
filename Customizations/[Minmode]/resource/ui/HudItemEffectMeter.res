@@ -5,12 +5,31 @@
 		"fieldName"									"HudItemEffectMeter"
 		"visible"									"1"
 		"enabled"									"1"
-		"xpos"										"c-67"
+		"xpos"										"c-50"
 		"ypos"										"c66"
-		"wide"										"500"
-		"tall"										"500"
+		"wide"										"100"
+		"tall"										"10"
 		"MeterFG"									"White"
 		"MeterBG"									"Gray"
+	}
+	
+	"ItemEffectMeter"
+	{	
+		"ControlName"								"ContinuousProgressBar"
+		"fieldName"									"ItemEffectMeter"
+		"font"										"Default"
+		"xpos"										"0"
+		"ypos"										"0"
+		"zpos"										"2"
+		"wide"										"100"
+		"tall"										"1"				
+		"autoResize"								"0"
+		"pinCorner"									"0"
+		"visible"									"1"
+		"enabled"									"1"
+		"textAlignment"								"Center"
+		"dulltext"									"0"
+		"brighttext"								"0"
 	}
 	
 	"ItemEffectMeterLabel"
@@ -20,7 +39,7 @@
 		"xpos"										"0"
 		"ypos"										"0"
 		"zpos"										"2"
-		"wide"										"140"
+		"wide"										"100"
 		"tall"										"8"
 		"autoResize"								"1"
 		"pinCorner"									"2"
@@ -34,25 +53,6 @@
 		"brighttext"								"0"
 		"font"										"DefaultVerySmall"
 		"fgcolor_override"							"White"
-	}
-
-	"ItemEffectMeter"
-	{	
-		"ControlName"								"ContinuousProgressBar"
-		"fieldName"									"ItemEffectMeter"
-		"font"										"Default"
-		"xpos"										"17"
-		"ypos"										"0"
-		"zpos"										"2"
-		"wide"										"100"
-		"tall"										"1"				
-		"autoResize"								"0"
-		"pinCorner"									"0"
-		"visible"									"1"
-		"enabled"									"1"
-		"textAlignment"								"Center"
-		"dulltext"									"0"
-		"brighttext"								"0"
 	}
 	
 	

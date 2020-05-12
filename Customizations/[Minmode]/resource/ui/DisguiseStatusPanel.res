@@ -33,8 +33,8 @@
 	{
 		"ControlName"								"CTFImagePanel"
 		"fieldName"									"DisguiseStatusBG"
-		"xpos"										"c-70"
-		"ypos"										"400"
+		"xpos"										"5"
+		"ypos"										"r18"
 		"zpos"										"-1"
 		"wide"										"140"
 		"tall"	 									"12"

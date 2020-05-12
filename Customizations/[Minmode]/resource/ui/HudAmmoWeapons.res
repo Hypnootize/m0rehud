@@ -8,7 +8,7 @@
 		"ypos"										"c45"
 		"zpos"										"0"
 		"wide"										"2"
-		"tall"										"150"
+		"tall"										"40"
 		"visible"									"0"
 		"enabled"									"1"
 	}
