@@ -25,7 +25,7 @@
 	{	
 		"ControlName"								"CExLabel"
 		"fieldName"									"BalanceLabel"
-		"font"										"m0refont12"
+		"font"										"m0refont12Shadow"
 		"xpos"										"cs-0.5"
 		"ypos"										"60"
 		"zpos"										"1"
