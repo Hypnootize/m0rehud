@@ -1,65 +1,87 @@
-//====================================================================================================================
+//===========================================================================================================================
 
 event FlagOutline
 {
 	RunEvent FlagOutlineHide 						0.0
-	Animate OutlineImage							Alpha		"0"									Linear 	0.1 0.2
+	Animate OutlineImage							Alpha		"0"									Linear 	0.1 	0.2
 	
-	Animate OutlineImage							Position	"c-200 140"							Linear 	0.1 0.2
-	Animate OutlineImage							Size		"400 200"							Linear 	0.1 0.2
+	Animate OutlineImage							Position	"c-200 140"							Linear 	0.1 	0.2
+	Animate OutlineImage							Size		"400 200"							Linear 	0.1 	0.2
 
-	Animate OutlineImage							Position	"c-50 r137"							Linear 	0.7 0.2
-	Animate OutlineImage							Position	"c-50 r158"							Linear 	0.7 0.2
-	Animate OutlineImage							Size		"100 50"							Linear 	0.7 0.2
+	Animate OutlineImage							Position	"c-50 r137"							Linear 	0.7 	0.2
+	Animate OutlineImage							Position	"c-50 r158"							Linear 	0.7 	0.2
+	Animate OutlineImage							Size		"100 50"							Linear 	0.7 	0.2
 	
-	Animate OutlineImage							Alpha		"0"									Linear 	0.9 0.1
+	Animate OutlineImage							Alpha		"0"									Linear 	0.9 	0.1
 }
 
-//====================================================================================================================
+//===========================================================================================================================
 
 event HudTournamentSetupPanelOpen
 {
-	Animate HudTournamentSetup						Position	"c-70 -26"							Linear 	0.0 0.001
-	Animate HudTournamentSetup						Position	"c-70 26"							Spline 	0.001 0.1
+	Animate HudTournamentSetup						Position	"c-70 -26"							Linear 	0.0 	0.001
+	Animate HudTournamentSetup						Position	"c-70 26"							Spline 	0.001	0.1
 }
 
 event HudTournamentSetupPanelClose
 {
-	Animate HudTournamentSetup						Position	"c-70 26"							Linear 	0.0 0.001
-	Animate HudTournamentSetup						Position	"c-70 -26"							Spline 	0.001 0.6
+	Animate HudTournamentSetup						Position	"c-70 26"							Linear 	0.0 	0.001
+	Animate HudTournamentSetup						Position	"c-70 -26"							Spline 	0.001 	0.6
 }
 
-//====================================================================================================================
+//===========================================================================================================================
+
+event HasNotificationsBlink
+{
+	Animate	Notifications_ShowButtonPanel_SB 		Alpha		"255"								Linear 	0.0 	0.0
+
+	RunEvent HasNotificationsBlinkLoop				2.0
+}
+
+event HasNotificationsBlinkLoop
+{
+	RunEvent HasNotificationsBlink					0.0
+}
+
+event HasNotificationsBlinkStop
+{
+	StopEvent HasNotificationsBlink					0.0
+	StopEvent HasNotificationsBlinkLoop 			0.0
+	
+	Animate	Notifications_ShowButtonPanel_SB 		Alpha		"255"								Linear 	0.0 	0.0
+}
+
+//===========================================================================================================================
 
 event ActiveTimerHighlight
 {
-	Animate TimePanelValue 							FgColor		"255 255 100 255"					Linear 	0.1 0.1
-	Animate TimePanelValue 							FgColor		"White"								Linear 	0.3 0.1
+	Animate TimePanelValue 							FgColor		"255 255 100 255"					Linear 	0.1 	0.1
+	Animate TimePanelValue 							FgColor		"White"								Linear 	0.3 	0.1
 
-	Animate TimePanelValue							FgColor		"255 255 100 255"					Linear 	0.5 0.1
-	Animate TimePanelValue 							FgColor		"White"								Linear 	0.7 0.1
+	Animate TimePanelValue							FgColor		"255 255 100 255"					Linear 	0.5 	0.1
+	Animate TimePanelValue 							FgColor		"White"								Linear 	0.7 	0.1
 
-	Animate TimePanelValue 							FgColor		"255 255 100 255"					Linear 	0.9 0.1
-	Animate TimePanelValue 							FgColor		"White"								Linear 	1.1 0.1
+	Animate TimePanelValue 							FgColor		"255 255 100 255"					Linear 	0.9 	0.1
+	Animate TimePanelValue 							FgColor		"White"								Linear 	1.1 	0.1
 
-	Animate TimePanelValue 							FgColor		"255 255 100 255"					Linear 	1.3 0.3
+	Animate TimePanelValue 							FgColor		"255 255 100 255"					Linear 	1.3 	0.3
 }
 
 event ActiveTimerDim
 {
-	Animate TimePanelValue 							FgColor		"White"								Linear 	0.0 0.4
+	Animate TimePanelValue 							FgColor		"White"								Linear 	0.0 	0.4
 }
 
-//====================================================================================================================
+//===========================================================================================================================
 
 event CompetitiveGame_LowerChatWindow
 {
-	Animate HudChat 								ypos 		"17"								Accel 	0 0
+	Animate HudChat 								ypos 		"17"								Accel 	0 	0
 }
 
 event CompetitiveGame_RestoreChatWindow
 {
-	Animate HudChat 								ypos 		"17" 								Accel 	0 0
+	Animate HudChat 								ypos 		"17" 								Accel 	0 	0
 }
 
 event HudTournament_MoveChatWindow
@@ -68,21 +90,21 @@ event HudTournament_MoveChatWindow
 	RunEvent CompetitiveGame_RestoreChatWindow 		10
 }
 
-//====================================================================================================================
+//===========================================================================================================================
 
 event RDPositiveScorePulse
 {
-	Animate Score 									FgColor		"White"								Linear 	0.0 0.0
-	Animate Score 									FgColor		"White"								Linear 	0.1 0.2
+	Animate Score 									FgColor		"White"								Linear 	0.0 	0.0
+	Animate Score 									FgColor		"White"								Linear 	0.1 	0.2
 }
 
 event RDNegativeScorePulse
 {
-	Animate Score 									FgColor		"White"								Linear 	0.0 0.0
-	Animate Score 									FgColor		"White"								Linear 	0.1 0.2
+	Animate Score 									FgColor		"White"								Linear 	0.0 	0.0
+	Animate Score 									FgColor		"White"								Linear 	0.1 	0.2
 }
 
-//====================================================================================================================
+//===========================================================================================================================
 
 event TeamStatus_PlayerDead
 {
@@ -90,23 +112,23 @@ event TeamStatus_PlayerDead
    SetVisible SkullPanel 							0 0
    SetVisible respawntime  							1 0
 
-   Animate DeathPanel 								ypos 		0 									Accel 0 0.2
-   Animate SkullPanel								ypos 		0 									Accel 0 0.2
-   Animate respawntime 								ypos 		0 									Accel 0 0.2
+   Animate DeathPanel 								ypos 		0 									Accel 	0 	0.2
+   Animate SkullPanel								ypos 		0 									Accel 	0 	0.2
+   Animate respawntime 								ypos 		0 									Accel 	0 	0.2
 }
 
 event TeamStatus_PlayerAlive
 {
-   Animate DeathPanel 								ypos 		0 									Accel 0 0.2
-   Animate SkullPanel 								ypos 		0 									Accel 0 0.2
-   Animate respawntime 								ypos 		0 									Accel 0 0.2
+   Animate DeathPanel 								ypos 		0 									Accel 	0 	0.2
+   Animate SkullPanel 								ypos 		0 									Accel 	0 	0.2
+   Animate respawntime 								ypos 		0 									Accel 	0 	0.2
 
    SetVisible DeathPanel 			 				0 			0.2
    SetVisible SkullPanel  							0 			0.2
    SetVisible respawntime 							0 			0.2
 }
 
-//====================================================================================================================
+//===========================================================================================================================
 
 event HudSnapShotReminderIn
 {
@@ -116,4 +138,4 @@ event HudSnapShotReminderIn
     RunEvent HudMedicChargedStop 					10.0
 }
 
-//====================================================================================================================
+//===========================================================================================================================

@@ -1,3 +1,5 @@
+//===========================================================================================================================
+
 event HudSpyDisguiseChanged
 {
 	Animate PlayerStatusSpyOutlineImage				Alpha		"0"									Linear 	0.0 0.2
@@ -15,3 +17,5 @@ event HudSpyDisguiseHide
 	
 	Animate PlayerStatusSpyOutlineImage				Alpha		"0"									Linear 	0.2 0.1
 }
+
+//===========================================================================================================================
