@@ -48,11 +48,12 @@ I suggest using **"tf_hud_target_id_disable_floating_health" "1"** since the flo
 
 <a>CROSSHAIRS</a>
 ====
-All the hud crosshairs can be found inside the scripts/crosshairs folder!
 
-It is possible to enable them from the crosshairs.res file by setting **"visible" "1"** for the wanted crosshair.
+All the hud crosshairs can be found inside the scripts/crosshairs/Crosshair.res file.
 
-It is also possible to easily animate them so the crosshair turns red on damage by editing the HudAnimations_Crosshairs file, you can find all the instructions inside the file!
+Change the **"visible"** value to **"1"** to enable the hud crosshair and change the **"labelText"** value to switch the crosshair style, checkout the Crosshairs.png in order to see all the possible options!
+
+It is also possible to easily animate the crosshair to turn red on damage by editing the scripts/crosshairs/Animations_Crosshairs.res file, you can find all the instructions inside the file!
 
 
 <a>CREDITS</a>
