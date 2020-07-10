@@ -3,7 +3,7 @@
 #base "../resource/Fonts.res"
 
 //hud crosshair fonts
-#base "../scripts/crosshairs/fonts/ClientScheme_Crosshairs.res"
+#base "../scripts/crosshairs/font/Crosshairs.res"
 
 //default hud clientscheme
 #base "../resource/default/ClientScheme.res"

@@ -1,0 +1,18 @@
+/////////////////////////////////////////////INSTRUCTIONS/////////////////////////////////////////////
+//																									//
+// 		Uncomment both lines by removing the // to activate the crosshair flashing on damage		//
+//																									//
+/////////////////////////////////////////////CUSTOMIZATION////////////////////////////////////////////
+//																									//
+// 					The first fgcolor is the damage flash color (red by default)					//
+//																									//
+// 						The second fgcolor is the normal crosshair color! 							//
+//					Be sure to set the color to match the one on "Crosshair.res"					//
+//																									//
+//////////////////////////////////////////////////////////////////////////////////////////////////////
+
+event DamagedPlayer
+{
+    //	Animate "CustomCrosshair"		FgColor     "255 0 0 255"			Linear 	0.0 	0.00001 	// Crosshair color on hit
+    //	Animate "CustomCrosshair"		FgColor     "255 255 255 255"		Linear 	0.10 	0.10001 	// Should match your crosshair color in crosshair.res
+}
