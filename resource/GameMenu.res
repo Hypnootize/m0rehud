@@ -88,7 +88,7 @@
 	"Mute"
 	{
 		"label"										""
-		"command"									"OpenPlayerListDialog"
+		"command"									"OpenMutePlayerDialog"
 		"subimage" 									"glyph_muted"
 		"OnlyInGame" 								"1"
 	}
@@ -107,6 +107,7 @@
 		"OnlyInGame"								"1"
 	}
 	
+	/////////////////////////TOOLS BAR/////////////////////////
 	"Fix Invisible Players"
 	{
 		"label"										"C"
