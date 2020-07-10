@@ -2,16 +2,6 @@ Scheme
 {
 	Fonts
 	{
-		"m0refont8"
-		{
-			"1"
-			{
-				"name"										"Surface-Medium"
-				"tall"										"8"
-				"additive"									"0"
-				"antialias" 								"1"
-			}
-		}
 		"m0refont10"
 		{
 			"1"
@@ -170,17 +160,6 @@ Scheme
 				"dropshadow" 								"1"
 			}
 		}
-		"m0refont20Outline"
-		{
-			"1"
-			{
-				"name"										"Surface-Medium"
-				"tall"										"20"
-				"additive"									"0"
-				"antialias" 								"1"
-				"outline" 									"1"
-			}
-		}
 		"m0refont22"
 		{
 			"1"
@@ -200,17 +179,6 @@ Scheme
 				"additive"									"0"
 				"antialias" 								"1"
 				"dropshadow" 								"1"
-			}
-		}
-		"m0refont22Outline"
-		{
-			"1"
-			{
-				"name"										"Surface-Medium"
-				"tall"										"22"
-				"additive"									"0"
-				"antialias" 								"1"
-				"outline" 									"1"
 			}
 		}
 		"m0refont24"
@@ -266,38 +234,6 @@ Scheme
 				"antialias" 								"1"
 			}
 		}
-		"m0refont26Shadow"
-		{
-			"1"
-			{
-				"name"										"Surface-Medium"
-				"tall"										"26"
-				"additive"									"0"
-				"antialias" 								"1"
-				"dropshadow" 								"1"
-			}
-		}
-		"m0refont28"
-		{
-			"1"
-			{
-				"name"										"Surface-Medium"
-				"tall"										"28"
-				"additive"									"0"
-				"antialias" 								"1"
-			}
-		}
-		"m0refont28Shadow"
-		{
-			"1"
-			{
-				"name"										"Surface-Medium"
-				"tall"										"28"
-				"additive"									"0"
-				"antialias" 								"1"
-				"dropshadow" 								"1"
-			}
-		}
 		"m0refont30"
 		{
 			"1"
@@ -351,16 +287,6 @@ Scheme
 				"antialias" 								"1"
 			}
 		}
-		"m0refont34"
-		{
-			"1"
-			{
-				"name"										"Surface-Medium"
-				"tall"										"34"
-				"additive"									"0"
-				"antialias" 								"1"
-			}
-		}
 		"m0refont36"
 		{
 			"1"
@@ -380,46 +306,6 @@ Scheme
 				"additive"									"0"
 				"antialias" 								"1"
 				"dropshadow" 								"1"
-			}
-		}
-		"m0refont38"
-		{
-			"1"
-			{
-				"name"										"Surface-Medium"
-				"tall"										"38"
-				"additive"									"0"
-				"antialias" 								"1"
-			}
-		}
-		"m0refont40"
-		{
-			"1"
-			{
-				"name"										"Surface-Medium"
-				"tall"										"40"
-				"additive"									"0"
-				"antialias" 								"1"
-			}
-		}
-		"m0refont42"
-		{
-			"1"
-			{
-				"name"										"Surface-Medium"
-				"tall"										"42"
-				"additive"									"0"
-				"antialias" 								"1"
-			}
-		}
-		"m0refont44"
-		{
-			"1"
-			{
-				"name"										"Surface-Medium"
-				"tall"										"44"
-				"additive"									"0"
-				"antialias" 								"1"
 			}
 		}
 		"m0refont46"
@@ -474,102 +360,12 @@ Scheme
 				"antialias" 								"1"
 			}
 		}
-		"m0refont52"
-		{
-			"1"
-			{
-				"name"										"Surface-Medium"
-				"tall"										"52"
-				"additive"									"0"
-				"antialias" 								"1"
-			}
-		}
-		"m0refont54"
-		{
-			"1"
-			{
-				"name"										"Surface-Medium"
-				"tall"										"54"
-				"additive"									"0"
-				"antialias" 								"1"
-			}
-		}
-		"m0refont56"
-		{
-			"1"
-			{
-				"name"										"Surface-Medium"
-				"tall"										"56"
-				"additive"									"0"
-				"antialias" 								"1"
-			}
-		}
-		"m0refont58"
-		{
-			"1"
-			{
-				"name"										"Surface-Medium"
-				"tall"										"58"
-				"additive"									"0"
-				"antialias" 								"1"
-			}
-		}
 		"m0refont60"
 		{
 			"1"
 			{
 				"name"										"Surface-Medium"
 				"tall"										"60"
-				"additive"									"0"
-				"antialias" 								"1"
-			}
-		}
-		"m0refont62"
-		{
-			"1"
-			{
-				"name"										"Surface-Medium"
-				"tall"										"62"
-				"additive"									"0"
-				"antialias" 								"1"
-			}
-		}
-		"m0refont64"
-		{
-			"1"
-			{
-				"name"										"Surface-Medium"
-				"tall"										"64"
-				"additive"									"0"
-				"antialias" 								"1"
-			}
-		}
-		"m0refont66"
-		{
-			"1"
-			{
-				"name"										"Surface-Medium"
-				"tall"										"66"
-				"additive"									"0"
-				"antialias" 								"1"
-			}
-		}
-		"m0refont68"
-		{
-			"1"
-			{
-				"name"										"Surface-Medium"
-				"tall"										"68"
-				"additive"									"0"
-				"antialias" 								"1"
-			}
-		}
-		"m0refont70"
-		{
-			"1"
-			{
-				"name"										"Surface-Medium"
-				"tall"										"70"
 				"additive"									"0"
 				"antialias" 								"1"
 			}
@@ -607,16 +403,6 @@ Scheme
 			}
 		}
 		
-		"Coolvetica"
-		{
-			"1"
-			{
-				"name"										"Coolvetica"
-				"tall"										"15"
-				"additive"									"0"
-				"antialias" 								"1"
-			}
-		}
 		"Coolvetica11"
 		{
 			"1"
@@ -633,6 +419,16 @@ Scheme
 			{
 				"name"										"Coolvetica"
 				"tall"										"13"
+				"additive"									"0"
+				"antialias" 								"1"
+			}
+		}
+		"Coolvetica15"
+		{
+			"1"
+			{
+				"name"										"Coolvetica"
+				"tall"										"15"
 				"additive"									"0"
 				"antialias" 								"1"
 			}

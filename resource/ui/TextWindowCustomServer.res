@@ -70,7 +70,7 @@
 		"dulltext"		 							"0"
 		"brighttext"	 							"0"
 		"AllCaps"	 								"1"
-		"font"			 							"Coolvetica"
+		"font"			 							"Coolvetica15"
 		"fgcolor"		 							"White"
 		
 		"pin_to_sibling"							"TFTextMessage"
@@ -99,7 +99,7 @@
 		"wrap"			 							"0"
 		"command"		 							"okay"
 		"default"		 							"1"
-		"font"										"Coolvetica"
+		"font"										"Coolvetica15"
 		
 		"paintbackground"							"0"
 		"paintborder"								"0"

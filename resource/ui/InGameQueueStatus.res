@@ -45,7 +45,7 @@
 		"tall"										"f0"
 		"visible"									"0"
 		"enabled"									"1"
-		"font"										"Coolvetica"
+		"font"										"m0refont16"
 		"AllCaps"									"1"
 		"fgcolor_override"							"White"
 		"textAlignment"								"east"

@@ -213,7 +213,7 @@
 			"tall"									"14"
 			"visible"								"1"
 			"enabled"								"1"
-			"font"									"Coolvetica"
+			"font"									"Coolvetica15"
 			"fgcolor_override"						"White"
 			"textAlignment"							"west"
 			"labelText"								"%name%"
@@ -237,7 +237,7 @@
 			"tall"									"14"
 			"visible"								"1"
 			"enabled"								"1"
-			"font"									"Coolvetica"
+			"font"									"Coolvetica15"
 			"fgcolor_override"						"White"
 			"textAlignment"							"west"
 			"labelText"								"%desc1%"
@@ -253,7 +253,7 @@
 				"tall"								"20"
 				"visible"							"1"
 				"enabled"							"1"
-				"font"								"Coolvetica"
+				"font"								"Coolvetica15"
 				"fgcolor_override"					"White"
 				"textAlignment"						"north-west"
 				"labelText"							"%desc1%"
@@ -262,7 +262,7 @@
 
 			"fonts"
 			{
-				"0"									"Coolvetica"
+				"0"									"Coolvetica15"
 				"1"									"Coolvetica13"
 				"2"									"Coolvetica11"
 			}
@@ -279,7 +279,7 @@
 			"tall"									"14"
 			"visible"								"1"
 			"enabled"								"1"
-			"font"									"Coolvetica"
+			"font"									"Coolvetica15"
 			"fgcolor_override"						"White"
 			"textAlignment"							"west"
 			"labelText"								"%desc2%"
@@ -295,7 +295,7 @@
 				"tall"								"20"
 				"visible"							"1"
 				"enabled"							"1"
-				"font"								"Coolvetica"
+				"font"								"Coolvetica15"
 				"fgcolor_override"					"White"
 				"textAlignment"						"north-west"
 				"labelText"							"%desc2%"
@@ -304,7 +304,7 @@
 
 			"fonts"
 			{
-				"0"									"Coolvetica"
+				"0"									"Coolvetica15"
 				"1"									"Coolvetica13"
 				"2"									"Coolvetica11"
 			}

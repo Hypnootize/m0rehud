@@ -49,7 +49,7 @@
 		"enabled"									"1"
 		"labelText"									"%mapname%"
 		"textAlignment"								"center"
-		"font"										"Coolvetica"
+		"font"										"Coolvetica15"
 		"fgcolor"									"White"
 		"AllCaps"	 								"1"
 		
@@ -79,7 +79,7 @@
 		"wrap"										"0"
 		"command"									"continue"
 		"default"									"1"
-		"font"										"Coolvetica"
+		"font"										"Coolvetica15"
 		
 		"paintbackground"							"0"
 		"paintborder"								"0"
@@ -112,7 +112,7 @@
 		"brighttext"								"0"
 		"command"									"intro"
 		"default"									"1"
-		"font"										"Coolvetica"
+		"font"										"Coolvetica15"
 		
 		"paintbackground"							"0"
 		"paintborder"								"0"

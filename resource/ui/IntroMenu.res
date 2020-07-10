@@ -83,7 +83,7 @@
 		"brighttext"								"0"
 		"wrap"										"0"
 		"command"									"skip"
-		"font"										"Coolvetica"
+		"font"										"Coolvetica15"
 		
 		"paintbackground"							"0"
 		"paintborder"								"0"
@@ -115,7 +115,7 @@
 		"dulltext"									"0"
 		"brighttext"								"0"
 		"command"									"back"
-		"font"										"Coolvetica"
+		"font"										"Coolvetica15"
 		
 		"paintbackground"							"0"
 		"paintborder"								"0"
