@@ -22,17 +22,6 @@ Scheme
 				"antialias" 								"1"
 			}
 		}
-		"m0refont11Shadow"
-		{
-			"1"
-			{
-				"name"										"Surface-Medium"
-				"tall"										"11"
-				"additive"									"0"
-				"antialias" 								"1"
-				"dropshadow" 								"1"
-			}
-		}
 		"m0refont12"
 		{
 			"1"
@@ -64,17 +53,6 @@ Scheme
 				"antialias" 								"1"
 			}
 		}
-		"m0refont14Shadow"
-		{
-			"1"
-			{
-				"name"										"Surface-Medium"
-				"tall"										"14"
-				"additive"									"0"
-				"antialias" 								"1"
-				"dropshadow" 								"1"
-			}
-		}
 		"m0refont16"
 		{
 			"1"
@@ -83,17 +61,6 @@ Scheme
 				"tall"										"16"
 				"additive"									"0"
 				"antialias" 								"1"
-			}
-		}
-		"m0refont16Shadow"
-		{
-			"1"
-			{
-				"name"										"Surface-Medium"
-				"tall"										"16"
-				"additive"									"0"
-				"antialias" 								"1"
-				"dropshadow" 								"1"
 			}
 		}
 		"m0refont18"
@@ -147,38 +114,6 @@ Scheme
 				"tall"										"20"
 				"additive"									"0"
 				"antialias" 								"1"
-			}
-		}
-		"m0refont20Shadow"
-		{
-			"1"
-			{
-				"name"										"Surface-Medium"
-				"tall"										"20"
-				"additive"									"0"
-				"antialias" 								"1"
-				"dropshadow" 								"1"
-			}
-		}
-		"m0refont22"
-		{
-			"1"
-			{
-				"name"										"Surface-Medium"
-				"tall"										"22"
-				"additive"									"0"
-				"antialias" 								"1"
-			}
-		}
-		"m0refont22Shadow"
-		{
-			"1"
-			{
-				"name"										"Surface-Medium"
-				"tall"										"22"
-				"additive"									"0"
-				"antialias" 								"1"
-				"dropshadow" 								"1"
 			}
 		}
 		"m0refont24"
@@ -244,17 +179,6 @@ Scheme
 				"antialias" 								"1"
 			}
 		}
-		"m0refont30Shadow"
-		{
-			"1"
-			{
-				"name"										"Surface-Medium"
-				"tall"										"30"
-				"additive"									"0"
-				"antialias" 								"1"
-				"dropshadow" 								"1"
-			}
-		}
 		"m0refont30Outline"
 		{
 			"1"
@@ -287,6 +211,17 @@ Scheme
 				"antialias" 								"1"
 			}
 		}
+		"m0refont32Shadow"
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"32"
+				"additive"									"0"
+				"antialias" 								"1"
+				"dropshadow" 								"1"
+			}
+		}
 		"m0refont36"
 		{
 			"1"
@@ -295,38 +230,6 @@ Scheme
 				"tall"										"36"
 				"additive"									"0"
 				"antialias" 								"1"
-			}
-		}
-		"m0refont36Shadow"
-		{
-			"1"
-			{
-				"name"										"Surface-Medium"
-				"tall"										"36"
-				"additive"									"0"
-				"antialias" 								"1"
-				"dropshadow" 								"1"
-			}
-		}
-		"m0refont46"
-		{
-			"1"
-			{
-				"name"										"Surface-Medium"
-				"tall"										"46"
-				"additive"									"0"
-				"antialias" 								"1"
-			}
-		}
-		"m0refont46Shadow"
-		{
-			"1"
-			{
-				"name"										"Surface-Medium"
-				"tall"										"46"
-				"additive"									"0"
-				"antialias" 								"1"
-				"dropshadow" 								"1"
 			}
 		}
 		"m0refont48"
@@ -350,26 +253,6 @@ Scheme
 				"dropshadow" 								"1"
 			}
 		}
-		"m0refont50"
-		{
-			"1"
-			{
-				"name"										"Surface-Medium"
-				"tall"										"50"
-				"additive"									"0"
-				"antialias" 								"1"
-			}
-		}
-		"m0refont60"
-		{
-			"1"
-			{
-				"name"										"Surface-Medium"
-				"tall"										"60"
-				"additive"									"0"
-				"antialias" 								"1"
-			}
-		}
 		"m0refont72"
 		{
 			"1"
@@ -378,17 +261,6 @@ Scheme
 				"tall"										"72"
 				"additive"									"0"
 				"antialias" 								"1"
-			}
-		}
-		"m0refont72Shadow"
-		{
-			"1"
-			{
-				"name"										"Surface-Medium"
-				"tall"										"72"
-				"additive"									"0"
-				"antialias" 								"1"
-				"dropshadow" 								"1"
 			}
 		}
 		
