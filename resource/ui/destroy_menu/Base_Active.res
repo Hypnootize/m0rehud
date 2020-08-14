@@ -29,9 +29,31 @@
 		"enabled"									"1"
 		"scaleImage"								"1"	
 		"icon"										"obj_status_dispenser"
-		"iconColor"									"255 255 255 128"
+		"iconColor"									"255 255 255 175"
 		
 		"pin_to_sibling"							"DestroyIcon"
+	}
+	
+	"NotBuiltLabel"
+	{	
+		"ControlName"								"CExLabel"
+		"fieldName"									"NotBuiltLabel"
+		"font"										"m0refont11"
+		"xpos"										"0"
+		"ypos"										"23"
+		"zpos"										"20"
+		"wide"										"40"
+		"tall"										"40"
+		"autoResize"								"0"
+		"pinCorner"									"0"
+		"visible"									"0"
+		"enabled"									"1"
+		"labelText"									"#TF_NotBuilt"
+		"textAlignment"								"Center"
+		"centerwrap"								"1"
+		"dulltext"									"0"
+		"brighttext"								"0"
+		"fgcolor_override"							"255 0 0 255"
 	}
 	
 	"NumberBg"	
@@ -54,7 +76,7 @@
 	{	
 		"ControlName"								"CExLabel"
 		"fieldName"									"NumberLabel"
-		"font"										"Default"
+		"font"										"m0refont11"
 		"fgcolor"									"Black"
 		"xpos"										"0"
 		"ypos"										"1"
@@ -88,7 +110,6 @@
 		"visible"									"0"
 		"enabled"									"0"
 	}
-	
 	"ItemNameLabel"
 	{	
 		"ControlName"								"CExLabel"

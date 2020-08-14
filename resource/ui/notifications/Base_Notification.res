@@ -4,7 +4,7 @@
 	{	
 		"ControlName"								"CExLabel"
 		"fieldName"									"Notification_Label"
-		"font"										"Default"
+		"font"										"m0refont11"
 		"xpos"										"30"
 		"ypos"										"9"
 		"wide"										"200"
@@ -34,7 +34,6 @@
 		"visible"									"0"
 		"enabled"									"0"
 	}
-	
 	"Notification_Background"
 	{
 		"ControlName"								"CImagePanel"

@@ -51,7 +51,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"ActionText"
-		"font"										"Default"
+		"font"										"m0refont11"
 		"labelText"									"%actiontext%"
 		"textAlignment"							 	"west"
 		"xpos"										"18"
@@ -77,7 +77,6 @@
 		"visible"									"0"
 		"enabled"									"0"	
 	}
-	
 	"Spellbook"
 	{
 		"ControlName"								"CTFImagePanel"
@@ -87,7 +86,6 @@
 		"visible"									"0"
 		"enabled"									"0"		
 	}
-	
 	"SpellText"
 	{
 		"ControlName"								"CExLabel"

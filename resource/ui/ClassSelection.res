@@ -41,15 +41,14 @@
 		"labelText"									"Loadout (&E)"
 		"textAlignment"								"west"
 		"Command"									"openloadout"
-		"font"										"default"
+		"font"										"m0refont11"
 		
+		"paintbackground"							"0"
 		"fgcolor"									"White"
 		"defaultFgColor_override" 					"White"
 		"armedFgColor_override" 					"Class Selection"
 		"depressedFgColor_override" 				"Class Selection"
 		"selectedFgColor_override" 					"Class Selection"
-		
-		"paintbackground"							"0"
 		
 		"stayselectedonclick"						"1"
 		"selectonhover"								"1"
@@ -73,15 +72,16 @@
 		"textAlignment"								"west"
 		"Command"									"joinclass scout"
 		"Default"									"0"
-		"font"										"default"
+		"font"										"m0refont11"
 		
+		"paintbackground"							"0"
 		"fgcolor"									"White"
 		"defaultFgColor_override" 					"White"
 		"armedFgColor_override" 					"Class Selection"
 		"depressedFgColor_override"					"Class Selection"
 		"selectedFgColor_override" 					"Class Selection"
 		
-		"paintbackground"							"0"
+		
 		
 		"stayselectedonclick"						"1"
 		"selectonhover"								"1"
@@ -107,19 +107,14 @@
 		"textAlignment"								"west"
 		"Command"									"joinclass soldier"
 		"Default"									"0"
-		"font"										"default"
+		"font"										"m0refont11"
 		
+		"paintbackground"							"0"
 		"fgcolor"									"White"
 		"defaultFgColor_override" 					"White"
 		"armedFgColor_override" 					"Class Selection"
 		"depressedFgColor_override" 				"Class Selection"
 		"selectedFgColor_override" 					"Class Selection"
-		
-		"paintbackground"							"0"
-		
-		"stayselectedonclick"						"1"
-		"selectonhover"								"1"
-		"keyboardinputenabled"						"0"
 		
 		"pin_to_sibling"							"scout"
 		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
@@ -141,19 +136,14 @@
 		"textAlignment"								"west"
 		"Command"									"joinclass pyro"
 		"Default"									"0"
-		"font"										"default"
+		"font"										"m0refont11"
 		
+		"paintbackground"							"0"
 		"fgcolor"									"White"
 		"defaultFgColor_override" 					"White"
 		"armedFgColor_override" 					"Class Selection"
 		"depressedFgColor_override" 				"Class Selection"
 		"selectedFgColor_override" 					"Class Selection"
-		
-		"paintbackground"							"0"
-		
-		"stayselectedonclick"						"1"
-		"selectonhover"								"1"
-		"keyboardinputenabled"						"0"
 		
 		"pin_to_sibling"							"soldier"
 		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
@@ -175,19 +165,14 @@
 		"textAlignment"								"west"
 		"Command"									"joinclass demoman"
 		"Default"									"0"
-		"font"										"default"
+		"font"										"m0refont11"
 		
+		"paintbackground"							"0"
 		"fgcolor"									"White"
 		"defaultFgColor_override" 					"White"
 		"armedFgColor_override" 					"Class Selection"
 		"depressedFgColor_override" 				"Class Selection"
 		"selectedFgColor_override" 					"Class Selection"
-		
-		"paintbackground"							"0"
-		
-		"stayselectedonclick"						"1"
-		"selectonhover"								"1"
-		"keyboardinputenabled"						"0"
 		
 		"pin_to_sibling"							"pyro"
 		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
@@ -209,19 +194,14 @@
 		"textAlignment"								"west"
 		"Command"									"joinclass heavyweapons"
 		"Default"									"0"
-		"font"										"default"
+		"font"										"m0refont11"
 		
+		"paintbackground"							"0"
 		"fgcolor"									"White"
 		"defaultFgColor_override" 					"White"
 		"armedFgColor_override" 					"Class Selection"
 		"depressedFgColor_override" 				"Class Selection"
 		"selectedFgColor_override" 					"Class Selection"
-		
-		"paintbackground"							"0"
-		
-		"stayselectedonclick"						"1"
-		"selectonhover"								"1"
-		"keyboardinputenabled"						"0"
 		
 		"pin_to_sibling"							"demoman"
 		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
@@ -243,19 +223,14 @@
 		"textAlignment"								"west"
 		"Command"									"joinclass engineer"
 		"Default"									"0"
-		"font"										"default"
+		"font"										"m0refont11"
 		
+		"paintbackground"							"0"
 		"fgcolor"									"White"
 		"defaultFgColor_override" 					"White"
 		"armedFgColor_override" 					"Class Selection"
 		"depressedFgColor_override" 				"Class Selection"
 		"selectedFgColor_override" 					"Class Selection"
-		
-		"paintbackground"							"0"
-		
-		"stayselectedonclick"						"1"
-		"selectonhover"								"1"
-		"keyboardinputenabled"						"0"
 		
 		"pin_to_sibling"							"heavyweapons"
 		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
@@ -277,19 +252,14 @@
 		"textAlignment"								"west"
 		"Command"									"joinclass medic"
 		"Default"									"0"
-		"font"										"default"
+		"font"										"m0refont11"
 		
+		"paintbackground"							"0"
 		"fgcolor"									"White"
 		"defaultFgColor_override" 					"White"
 		"armedFgColor_override" 					"Class Selection"
 		"depressedFgColor_override" 				"Class Selection"
 		"selectedFgColor_override" 					"Class Selection"
-		
-		"paintbackground"							"0"
-		
-		"stayselectedonclick"						"1"
-		"selectonhover"								"1"
-		"keyboardinputenabled"						"0"
 		
 		"pin_to_sibling"							"engineer"
 		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
@@ -311,19 +281,14 @@
 		"textAlignment"								"west"
 		"Command"									"joinclass sniper"
 		"Default"									"0"
-		"font"										"default"
+		"font"										"m0refont11"
 		
+		"paintbackground"							"0"
 		"fgcolor"									"White"
 		"defaultFgColor_override" 					"White"
 		"armedFgColor_override" 					"Class Selection"
 		"depressedFgColor_override" 				"Class Selection"
 		"selectedFgColor_override" 					"Class Selection"
-		
-		"paintbackground"							"0"
-		
-		"stayselectedonclick"						"1"
-		"selectonhover"								"1"
-		"keyboardinputenabled"						"0"
 		
 		"pin_to_sibling"							"medic"
 		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
@@ -345,19 +310,14 @@
 		"textAlignment"								"west"
 		"Command"									"joinclass spy"
 		"Default"									"0"
-		"font"										"default"
+		"font"										"m0refont11"
 		
+		"paintbackground"							"0"
 		"fgcolor"									"White"
 		"defaultFgColor_override" 					"White"
 		"armedFgColor_override" 					"Class Selection"
 		"depressedFgColor_override" 				"Class Selection"
 		"selectedFgColor_override" 					"Class Selection"
-		
-		"paintbackground"							"0"
-		
-		"stayselectedonclick"						"1"
-		"selectonhover"								"1"
-		"keyboardinputenabled"						"0"
 		
 		"pin_to_sibling"							"sniper"
 		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
@@ -377,19 +337,14 @@
 		"textAlignment"								"west"
 		"Command"									"joinclass random"
 		"Default"									"1"
-		"font"										"default"
+		"font"										"m0refont11"
 		
+		"paintbackground"							"0"
 		"fgcolor"									"White"
 		"defaultFgColor_override" 					"White"
 		"armedFgColor_override" 					"Class Selection"
 		"depressedFgColor_override" 				"Class Selection"
 		"selectedFgColor_override" 					"Class Selection"
-
-		"paintbackground"							"0"
-		
-		"stayselectedonclick"						"1"
-		"selectonhover"								"1"
-		"keyboardinputenabled"						"0"
 		
 		"pin_to_sibling"							"spy"
 		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
@@ -412,7 +367,7 @@
 		"tabPosition"								"0"
 		"textAlignment"								"west"
 		"labelText"									"%numScout%"
-		"font"										"default"
+		"font"										"m0refont11"
 		"fgcolor"									"White"
 		
 		"pin_to_sibling"							"scout"
@@ -436,7 +391,7 @@
 		"tabPosition"								"0"
 		"textAlignment"								"west"
 		"labelText"									"%numSoldier%"
-		"font"										"default"
+		"font"										"m0refont11"
 		"fgcolor"									"White"
 		
 		"pin_to_sibling"							"soldier"
@@ -460,7 +415,7 @@
 		"tabPosition"								"0"
 		"textAlignment"								"west"
 		"labelText"									"%numPyro%"
-		"font"										"default"
+		"font"										"m0refont11"
 		"fgcolor"									"White"
 		
 		"pin_to_sibling"							"pyro"
@@ -484,7 +439,7 @@
 		"tabPosition"								"0"
 		"textAlignment"								"west"
 		"labelText"									"%numDemoman%"
-		"font"										"default"
+		"font"										"m0refont11"
 		"fgcolor"									"White"
 		
 		"pin_to_sibling"							"demoman"
@@ -508,7 +463,7 @@
 		"tabPosition"								"0"
 		"textAlignment"								"west"
 		"labelText"									"%numHeavy%"
-		"font"										"default"
+		"font"										"m0refont11"
 		"fgcolor"									"White"
 		
 		"pin_to_sibling"							"heavyweapons"
@@ -532,7 +487,7 @@
 		"tabPosition"								"0"
 		"textAlignment"								"west"
 		"labelText"									"%numEngineer%"
-		"font"										"default"
+		"font"										"m0refont11"
 		"fgcolor"									"White"
 		
 		"pin_to_sibling"							"engineer"
@@ -556,7 +511,7 @@
 		"tabPosition"								"0"
 		"textAlignment"								"west"
 		"labelText"									"%numMedic%"
-		"font"										"default"
+		"font"										"m0refont11"
 		"fgcolor"									"White"
 		
 		"pin_to_sibling"							"medic"
@@ -580,7 +535,7 @@
 		"tabPosition"								"0"
 		"textAlignment"								"west"
 		"labelText"									"%numSniper%"
-		"font"										"default"
+		"font"										"m0refont11"
 		"fgcolor"									"White"
 		
 		"pin_to_sibling"							"sniper"
@@ -604,7 +559,7 @@
 		"tabPosition"								"0"
 		"textAlignment"								"west"
 		"labelText"									"%numSpy%"
-		"font"										"default"
+		"font"										"m0refont11"
 		"fgcolor"									"White"
 		
 		"pin_to_sibling"							"spy"
@@ -806,7 +761,6 @@
 		"visible"									"0"
 		"enabled"									"0"
 	}
-
 	"ClassMenuSelect"
 	{
 		"ControlName"								"CExLabel"
@@ -816,7 +770,6 @@
 		"visible"									"0"
 		"enabled"									"0"
 	}
-	
 	"MenuBG"
 	{
 		"ControlName"								"CModelPanel"
@@ -825,8 +778,7 @@
 		"tall"										"0"
 		"visible"									"0"
 		"enabled"									"0"
-	}	
-
+	}
 	"Hint"
 	{	
 		"ControlName"								"CExLabel"
@@ -836,7 +788,6 @@
 		"visible"									"0"
 		"enabled"									"0"
 	}
-	
 	"ShadedBar"
 	{
 		"ControlName"								"ImagePanel"
@@ -846,7 +797,6 @@
 		"visible"									"0"
 		"enabled"									"0"
 	}
-	
 	"SysMenu"
 	{
 		"ControlName"								"Menu"
@@ -856,7 +806,6 @@
 		"visible"									"0"
 		"enabled"									"0"
 	}
-	
 	"localPlayerImage"
 	{
 		"ControlName"								"CTFImagePanel"
@@ -866,7 +815,6 @@
 		"visible"									"0"
 		"enabled"									"0"
 	}
-	
 	"localPlayerBG"
 	{
 		"ControlName"								"CTFImagePanel"
@@ -876,7 +824,6 @@
 		"visible"									"0"
 		"enabled"									"0"
 	}
-	
 	"countImage0"
 	{
 		"ControlName"								"CTFImagePanel"
@@ -885,8 +832,7 @@
 		"tall"										"0"
 		"visible"									"0"
 		"enabled"									"0"
-	}							
-	
+	}
 	"countImage1"
 	{
 		"ControlName"								"CTFImagePanel"
@@ -896,7 +842,6 @@
 		"visible"									"0"
 		"enabled"									"0"
 	}
-	
 	"countImage2"
 	{
 		"ControlName"								"CTFImagePanel"
@@ -906,7 +851,6 @@
 		"visible"									"0"
 		"enabled"									"0"
 	}
-	
 	"countImage3"
 	{
 		"ControlName"								"CTFImagePanel"
@@ -916,7 +860,6 @@
 		"visible"									"0"
 		"enabled"									"0"
 	}
-	
 	"countImage4"
 	{
 		"ControlName"								"CTFImagePanel"
@@ -926,7 +869,6 @@
 		"visible"									"0"
 		"enabled"									"0"
 	}
-	
 	"countImage5"
 	{
 		"ControlName"								"CTFImagePanel"
@@ -936,7 +878,6 @@
 		"visible"									"0"
 		"enabled"									"0"
 	}
-	
 	"countImage6"
 	{
 		"ControlName"								"CTFImagePanel"
@@ -946,7 +887,6 @@
 		"visible"									"0"
 		"enabled"									"0"
 	}
-	
 	"countImage7"
 	{
 		"ControlName"								"CTFImagePanel"
@@ -956,7 +896,6 @@
 		"visible"									"0"
 		"enabled"									"0"
 	}
-	
 	"countImage8"
 	{
 		"ControlName"								"CTFImagePanel"
@@ -966,7 +905,6 @@
 		"visible"									"0"
 		"enabled"									"0"
 	}
-	
 	"countImage9"
 	{
 		"ControlName"								"CTFImagePanel"
@@ -976,7 +914,6 @@
 		"visible"									"0"
 		"enabled"									"0"
 	}
-	
 	"countImage10"
 	{
 		"ControlName"								"CTFImagePanel"
@@ -986,7 +923,6 @@
 		"visible"									"0"
 		"enabled"									"0"
 	}
-	
 	"CountLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -997,7 +933,6 @@
 		"visible"									"0"
 		"enabled"									"0"
 	}
-
 	"CancelButton"
 	{
 		"ControlName"								"CExButton"
@@ -1007,7 +942,6 @@
 		"visible"									"0"
 		"enabled"									"0"
 	}
-	
 	"StartExplanation"
 	{
 		"ControlName"								"CExplanationPopup"
@@ -1017,7 +951,6 @@
 		"visible"									"0"
 		"enabled"									"0"
 	}
-	
 	"Offense"
 	{
 		"ControlName"								"CExLabel"
@@ -1027,7 +960,6 @@
 		"visible"									"0"
 		"enabled"									"0"
 	}
-	
 	"Defense"
 	{
 		"ControlName"								"CExLabel"
@@ -1037,7 +969,6 @@
 		"visible"									"0"
 		"enabled"									"0"
 	}
-	
 	"Support"
 	{
 		"ControlName"								"CExLabel"
@@ -1047,7 +978,6 @@
 		"visible"									"0"
 		"enabled"									"0"
 	}
-	
 	"ClassTipsPanel"
 	{
 		"ControlName"								"CTFClassTipsPanel"
@@ -1057,7 +987,6 @@
 		"visible"									"0"
 		"enabled"									"0"
 	}
-	
 	"ClassHighlightPanel"
 	{
 		"ControlName"								"CExplanationPopup"

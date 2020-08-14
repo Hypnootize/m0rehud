@@ -45,7 +45,7 @@
 	{	
 		"ControlName"		  						"Label"
 		"fieldName"		    						"CapNumPlayers"
-		"font"			      						"M0refont18"
+		"font"			      						"m0refont18"
 		"xpos"			      						"6"
 		"ypos"			      						"0"
 		"zpos"			      						"3"

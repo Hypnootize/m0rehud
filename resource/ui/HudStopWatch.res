@@ -41,7 +41,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"TimePanelValue"
-			"font"									"M0refont16"
+			"font"									"m0refont16"
 			"fgcolor"								"White"
 			"xpos"									"0"
 			"ypos"									"0"
@@ -54,7 +54,7 @@
 			
 			if_comp
 			{
-				"font"								"M0refont12"
+				"font"								"m0refont12"
 			}
 		}	
 	}
@@ -63,7 +63,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"StopWatchScoreToBeat"
-		"font"										"M0refont16"
+		"font"										"m0refont16"
 		"fgcolor"									"White"
 		"labelText"									"%scoretobeat%"
 		"textAlignment"								"center"
@@ -83,7 +83,7 @@
 		
 		if_comp
 		{
-			"font"									"M0refont12"
+			"font"									"m0refont12"
 		}
 	}
 	
@@ -91,7 +91,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"StopWatchPointsLabel"
-		"font"										"M0refont16"
+		"font"										"m0refont16"
 		"fgcolor"									"White"
 		"labelText"									"%pointslabel%"
 		"textAlignment"								"west"
@@ -112,7 +112,7 @@
 		
 		if_comp
 		{
-			"font"									"M0refont12"
+			"font"									"m0refont12"
 		}
 	}
 
@@ -120,7 +120,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"StopWatchLabel"
-		"font"										"default"
+		"font"										"m0refont11"
 		"fgcolor"									"White"
 		"labelText"									"%stopwatchlabel%"
 		"textAlignment"								"center"
@@ -140,7 +140,7 @@
 		
 		if_comp
 		{
-			"font"									"M0refont12"
+			"font"									"m0refont12"
 		}
 	}
 	
@@ -184,7 +184,6 @@
 		"visible"									"0"
 		"enabled"									"0"
 	}
-	
 	"StopWatchImageCaptureTime"
 	{
 		"ControlName"								"ImagePanel"
@@ -194,7 +193,6 @@
 		"visible"									"0"
 		"enabled"									"0"
 	}
-	
 	"HudStopWatchDescriptionBG"
 	{
 		"ControlName"								"ScalableImagePanel"
@@ -204,7 +202,6 @@
 		"visible"									"0"
 		"enabled"									"0"
 	}
-
 	"StopWatchDescriptionLabel"
 	{
 		"ControlName"								"CExLabel"

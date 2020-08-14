@@ -60,7 +60,7 @@
 		{
 			"ControlName"							"CTFLabel"
 			"fieldName"								"NotBuiltLabel"
-			"font"									"DefaultSmall"
+			"font"									"m0refont11"
 			"xpos"									"60"
 			"ypos"									"0"
 			"wide"									"200"
@@ -118,7 +118,7 @@
 			{
 				"ControlName"						"CTFLabel"
 				"fieldName"							"BuildingLabel"
-				"font"								"DefaultSmall"
+				"font"								"m0refont11"
 				"xpos"								"0"
 				"ypos"								"5"
 				"wide"								"200"

@@ -6,7 +6,7 @@
 	{
 		"icon"										"obj_status_tele_entrance"
 	}
-		
+	
 	"NumberLabel"
 	{	
 		"labelText"									"3"

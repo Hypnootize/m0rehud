@@ -5,16 +5,17 @@
 	HudItemEffectMeter
 	{
 		"ypos"										"c100"
+		"tall"										"35"
 	}
 	
 	"ItemEffectMeterLabel"
 	{
-		"ypos"										"22"
+		"ypos"										"20"
 	}
 
 	"ItemEffectMeter"
 	{	
-		"ypos"										"20"
+		"ypos"										"18"
 	}
 	
 	"ItemEffectMeterCount"

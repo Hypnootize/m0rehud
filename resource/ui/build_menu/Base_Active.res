@@ -39,12 +39,12 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"CantBuildReason"
-		"font"										"Default"
+		"font"										"m0refont11"
 		"xpos"										"0"
 		"ypos"										"0"
 		"zpos"										"2"
-		"wide"										"40"
-		"tall"										"40"
+		"wide"										"45"
+		"tall"										"55"
 		"autoResize"								"0"
 		"pinCorner"									"0"
 		"visible"									"0"
@@ -77,7 +77,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"NumberLabel"
-		"font"										"Default"
+		"font"										"m0refont11"
 		"fgcolor"									"Black"
 		"xpos"										"0"
 		"ypos"										"1"
@@ -111,7 +111,6 @@
 		"visible"									"0"
 		"enabled"									"0"
 	}
-	
 	"ItemNameLabel"
 	{	
 		"ControlName"								"CExLabel"
@@ -121,7 +120,6 @@
 		"visible"									"0"
 		"enabled"									"0"
 	}
-	
 	"MetalIcon"	
 	{
 		"ControlName"								"CIconPanel"
@@ -131,7 +129,6 @@
 		"visible"									"0"
 		"enabled"									"0"
 	}
-	
 	"ModeLabel"
 	{	
 		"ControlName"								"CExLabel"

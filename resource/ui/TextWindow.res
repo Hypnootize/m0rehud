@@ -20,9 +20,9 @@
 	{
 		"ControlName"	 							"CExRichText"
 		"fieldName"		 							"TFTextMessage"
-		"font"			 							"default"
-		"xpos"			 							"c-200"
-		"ypos"			 							"c-100"
+		"font"			 							"m0refont11"
+		"xpos"			 							"cs-0.5"
+		"ypos"			 							"cs-0.5"
 		"zpos"			 							"1"
 		"wide"			 							"400"
 		"tall"			 							"200"
@@ -33,14 +33,15 @@
 		"paintborder"	 							"0"
 		"textAlignment"	 							"left"
 		"fgcolor"		 							"White"
+		"proportionaltoparent"						"1"
 	}
 
 	"HTMLMessage"
 	{
 		"ControlName"	 							"HTML"
 		"fieldName"		 							"HTMLMessage"
-		"xpos"			 							"c-200"
-		"ypos"			 							"c-100"
+		"xpos"			 							"cs-0.5"
+		"ypos"			 							"cs-0.5"
 		"zpos"			 							"1"
 		"wide"			 							"400"
 		"tall"			 							"200"
@@ -50,6 +51,7 @@
 		"enabled"		 							"1"
 		"tabPosition"	 							"0"
 		"paintborder"	 							"0"
+		"proportionaltoparent"						"1"
 	}
 
 	"TFMessageTitle"
@@ -128,7 +130,6 @@
 		"wide"			 							"0"
 		"tall"			 							"0"
 	}
-	
 	"MessageTitle"
 	{
 		"ControlName"	 							"Label"
@@ -138,7 +139,6 @@
 		"wide"			 							"0"
 		"tall"			 							"0"
 	}
-	
 	"MenuBG"
 	{
 		"ControlName"	 							"CTFImagePanel"
@@ -148,7 +148,6 @@
 		"visible"		 							"0"
 		"enabled"		 							"0"
 	}
-
 	"ShadedBG"
 	{
 		"ControlName"	 							"ImagePanel"

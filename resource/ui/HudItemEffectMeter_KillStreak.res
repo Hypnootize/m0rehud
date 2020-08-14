@@ -1,4 +1,4 @@
-"Resource/UI/HudItemEffectMeter_Demoman.res"
+"Resource/UI/HudItemEffectMeter_KillStreak.res"
 {
 	HudItemEffectMeter
 	{

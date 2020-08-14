@@ -85,7 +85,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"ItemSlotLabel"
-		"font"										"default"
+		"font"										"m0refont11"
 		"labelText"									"#PrimaryWeapon"
 		"textAlignment"								"west"
 		"xpos"										"-4"
@@ -145,7 +145,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"CurrentlyEquippedBackground"
-			"font"									"defaultsmall"
+			"font"									"m0refont11"
 			"labelText"								"EQUIP"
 			"textAlignment"							"center"
 			"xpos"									"0"

@@ -48,8 +48,8 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"PlayingTo"
-		"xpos"										"c-70"
-		"ypos"										"471"
+		"xpos"										"cs-0.5"
+		"ypos"										"r9"
 		"zpos"										"4"
 		"wide"										"140"
 		"tall"										"9"
@@ -61,6 +61,7 @@
 		"brighttext"								"0"
 		"font"										"DefaultVerySmall"
 		"fgcolor"									"White"
+		"proportionaltoparent"						"1"
 		
 		"if_hybrid"
 		{
@@ -189,7 +190,7 @@
 	{
 		"fieldName"									"ScoreContainer"
 		"ControlName"								"EditablePanel"
-		"xpos"										"c-200"
+		"xpos"										"cs-0.5"
 		"ypos"										"r110"
 		"zpos"										"0"
 		"wide"										"400"
@@ -197,6 +198,7 @@
 		"scaleimage"								"0"
 		"visible"									"1"
 		"enabled"									"1"
+		"proportionaltoparent"						"1"
 
 		"ProgressBarContainer"
 		{
@@ -342,7 +344,7 @@
 				"fieldName"							"BlueVictoryContainer"
 				"ControlName"						"EditablePanel"
 				"xpos"								"85"
-				"ypos"								"25"
+				"ypos"								"27"
 				"zpos"								"5"
 				"wide"								"30"
 				"tall"								"30"
@@ -473,7 +475,7 @@
 				"fieldName"							"RedVictoryContainer"
 				"ControlName"						"EditablePanel"
 				"xpos"								"185"
-				"ypos"								"25"
+				"ypos"								"27"
 				"zpos"								"5"
 				"wide"								"30"
 				"tall"								"30"

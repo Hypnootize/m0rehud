@@ -142,7 +142,6 @@
 		"visible"									"0"
 		"enabled"									"0"
 	}
-		
 	"RightSideBG"
 	{
 		"ControlName"								"ImagePanel"
@@ -152,7 +151,6 @@
 		"visible"									"0"
 		"enabled"									"0"
 	}
-		
 	"OutlineBG"
 	{
 		"ControlName"								"ImagePanel"

@@ -130,7 +130,6 @@
 		"visible"		          					"0"
 		"enabled"		           					"0"
 	}
-	
 	"MoveableSubPanel"
 	{
 		"ControlName"		   						"EditablePanel"

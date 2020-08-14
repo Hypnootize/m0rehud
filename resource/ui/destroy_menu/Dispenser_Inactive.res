@@ -4,7 +4,6 @@
 {
 	"BuildingIcon"	
 	{
-		"ypos"										"3"
 		"icon"										"obj_status_dispenser"
 	}
 }

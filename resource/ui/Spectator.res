@@ -20,7 +20,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"ReinforcementsLabel"
-		"xpos"										"c-300"
+		"xpos"										"cs-0.5"
 		"ypos"										"50"
 		"wide"										"600"  
 		"tall"										"15"
@@ -31,8 +31,9 @@
 		"enabled"									"1"
 		"labelText"									"#game_respawntime_in_secs"
 		"textAlignment"								"center"
-		"font"										"default"
+		"font"										"m0refont11"
 		"fgcolor_override"   						"White"
+		"proportionaltoparent"						"1"
 		
 		"if_mvm"
 		{
@@ -46,8 +47,8 @@
 		"fieldName"									"BuyBackLabel"
 		"xpos"										"0"
 		"ypos"										"0"
-		"wide"										"320"
-		"tall"										"30"
+		"wide"										"400"
+		"tall"										"f0"
 		"autoResize"								"0"
 		"pinCorner"									"0"
 		"visible"									"0"
@@ -57,11 +58,6 @@
 		"font"										"m0refont16"
 		"wrap"										"1"
 		"centerwrap"								"1"
-		
-		if_mvm
-		{
-			"visible"								"1"
-		}
 	}
 	
 	"itempanel"
@@ -154,21 +150,19 @@
 		"enabled"									"1"
 		"tabPosition"								"0"
 	}
-	
 	"BottomBar"
 	{
 		"ControlName"								"Frame"
 		"fieldName"									"BottomBar"
 		"xpos"										"0"
-		"ypos"										"r0"																					[$WIN32]
-		"tall"										"0"																						[$WIN32]	
+		"ypos"										"r0"
+		"tall"										"0"
 		"autoResize"								"0"
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"0"
 		"tabPosition"								"0"
 	}
-	
 	"bottombarblank"
 	{
 		"ControlName"								"Panel"
@@ -183,7 +177,6 @@
 		"enabled"									"1"
 		"tabPosition"								"0"
 	}
-	
 	"MapLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -193,7 +186,6 @@
 		"visible"									"0"
 		"enabled"									"0"
 	}
-	
 	"ClassOrTeamLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -203,7 +195,6 @@
 		"visible"									"0"
 		"enabled"									"0"
 	}
-	
 	"SwitchCamModeKeyLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -213,7 +204,6 @@
 		"visible"									"0"
 		"enabled"									"0"
 	}
-	
 	"SwitchCamModeLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -223,7 +213,6 @@
 		"visible"									"0"
 		"enabled"									"0"
 	}
-	
 	"CycleTargetFwdKeyLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -242,7 +231,6 @@
 		"visible"									"0"
 		"enabled"									"0"
 	}
-	
 	"CycleTargetRevKeyLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -252,7 +240,6 @@
 		"visible"									"0"
 		"enabled"									"0"
 	}
-	
 	"CycleTargetRevLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -262,7 +249,6 @@
 		"visible"									"0"
 		"enabled"									"0"
 	}
-	
 	"TipLabel"
 	{
 		"ControlName"								"CExLabel"

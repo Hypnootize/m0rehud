@@ -9,6 +9,6 @@
 		"PositiveColor"								"Health Buff"
 		"NegativeColor"								"Health Hurt"
 		"delta_lifetime"							"1"
-		"delta_item_font"							"M0refont24"
+		"delta_item_font"							"m0refont24"
 	}
 }

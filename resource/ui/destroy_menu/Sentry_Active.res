@@ -4,6 +4,7 @@
 {
 	"BuildingIcon"	
 	{
+		"ypos"										"5"
 		"icon"										"obj_status_sentrygun_1"
 	}
 	

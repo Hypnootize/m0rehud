@@ -52,7 +52,7 @@
 		"textAlignment"								"east"
 		"dulltext"									"0"
 		"brighttext"								"0"
-		"font"										"M0refont24"
+		"font"										"m0refont24"
 		"fgcolor_override" 							"White"
 	}
 	
@@ -73,7 +73,7 @@
 		"textAlignment"								"east"
 		"dulltext"									"0"
 		"brighttext"								"0"
-		"font"										"M0refont24"
+		"font"										"m0refont24"
 		"fgcolor_override" 							"Black"
 		
 		"pin_to_sibling"							"ItemEffectMeterCount"

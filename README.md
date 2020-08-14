@@ -25,7 +25,7 @@
 
 In case you are using a **4:3, 5:4 or 16:10** aspect ration be sure to use the right patches in order to make the hud compatible with these resolutions. 
 
-You can find the patches inside the "Customizations & Overrides" > "4x3, 5x4, 16x10 Overrides" folder, open the folder that matches your aspect ration and take the "resource" folder in it, last replace it over the normal m0rehud files!
+You can find the patches inside the "Customizations" > "4x3, 5x4, 16x10 Overrides" folder, open the folder that matches your aspect ration and take the "resource" folder in it, last replace it over the normal m0rehud files!
 
 I suggest using **"tf_hud_target_id_disable_floating_health" "1"** since the floating version is not as consistan and can have problems.
 

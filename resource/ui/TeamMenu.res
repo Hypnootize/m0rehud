@@ -19,7 +19,7 @@
 	{
 		"ControlName"	  							"Label"
 		"fieldName"		  							"MapName"
-		"xpos"			  							"c-300"
+		"xpos"			  							"cs-0.5"
 		"ypos"			  							"110"
 		"zpos"			  							"1"
 		"wide"			  							"600"
@@ -29,8 +29,9 @@
 		"visible"		  							"0"		//1 to enable
 		"enabled"		  							"1"
 		"textAlignment"	  							"center"
-		"font"			  							"M0refont24"
+		"font"			  							"m0refont24"
 		"fgcolor"		  							"White"
+		"proportionaltoparent"						"1"
 	}
 	
 	"TeamsAnchor"									//THIS MOVES THE WHOLE TEAM MENU
@@ -128,7 +129,7 @@
 		"enabled"		  							"1"
 		"labelText"		  							"%bluecount%"
 		"textAlignment"	  							"east"
-		"font"			  							"M0refont36"
+		"font"			  							"m0refont36"
 		"fgcolor"		  							"White"
 		
 		"pin_to_sibling"							"BlueBar"
@@ -149,7 +150,7 @@
 		"enabled"		  							"1"
 		"labelText"		  							"%redcount%"
 		"textAlignment"	  							"west"
-		"font"			  							"M0refont36"
+		"font"			  							"m0refont36"
 		"fgcolor"		  							"White"
 		
 		"pin_to_sibling"							"RedBar"
@@ -168,7 +169,7 @@
 		"enabled"		  							"1"
 		"labelText"		  							"Blu :"
 		"textAlignment"	  							"west"
-		"font"			  							"Default"
+		"font"			  							"m0refont11"
 		"fgcolor"		  							"White"
 		"autoResize"	  							"0"
 		"pinCorner"		  							"0"
@@ -191,7 +192,7 @@
 		"enabled"		  							"1"
 		"labelText"		  							": Red"
 		"textAlignment"	  							"east"
-		"font"			  							"Default"
+		"font"			  							"m0refont11"
 		"fgcolor"		  							"White"
 		"autoResize"	  							"0"
 		"pinCorner"		  							"0"
@@ -216,7 +217,7 @@
 		"enabled"		  							"1"
 		"labelText"		  							"RANDOM"
 		"textAlignment"	  							"center"
-		"font"			  							"Default"
+		"font"			  							"m0refont11"
 		"fgcolor"		  							"White"
 		
 		"pin_to_sibling"							"WhiteBar"
@@ -237,7 +238,7 @@
 		"enabled"		  							"1"
 		"labelText"		  							"SPECTATE"
 		"textAlignment"  							"center"
-		"font"			  							"Default"
+		"font"			  							"m0refont11"
 		"fgcolor"		  							"White"
 		
 		"pin_to_sibling"							"WhiteBar"
@@ -377,7 +378,6 @@
 		"enabled"		  							"0"
 		"tabPosition"	  							"0"
 	}
-	
 	"MapInfo"
 	{
 		"ControlName"	  							"HTML"
@@ -387,7 +387,6 @@
 		"visible"		  							"0"
 		"enabled"		  							"0"
 	}
-	
 	"CancelButton"
 	{
 		"ControlName"	  							"CExButton"
@@ -397,7 +396,6 @@
 		"visible"		  							"0"
 		"enabled"		  							"0"
 	}
-	
 	"TeamMenuSelect"
 	{
 		"ControlName"	  							"CExLabel"
@@ -407,7 +405,6 @@
 		"visible"		  							"0"
 		"enabled"		  							"0"
 	}
-	
 	"MenuBG"
 	{
 		"ControlName"	  							"CModelPanel"
@@ -417,7 +414,6 @@
 		"visible"		  							"0"
 		"enabled"		  							"0"
 	}
-	
 	"ShadedBar"
 	{
 		"ControlName"	  							"ImagePanel"
@@ -427,7 +423,6 @@
 		"visible"		  							"0"
 		"enabled"		  							"0"
 	}
-	
 	"Footer"
 	{
 		"ControlName"		  						"CTFFooter"
@@ -436,8 +431,7 @@
 		"tall"			  							"0"
 		"visible"		  							"0"
 		"enabled"		  							"0"
-	}	
-	
+	}
 	"HighlanderLabel"
 	{
 		"ControlName"	  							"CExLabel"
@@ -447,7 +441,6 @@
 		"visible"		  							"0"
 		"enabled"		  							"0"
 	}
-	
 	"HighlanderLabelShadow"
 	{
 		"ControlName"	  							"CExLabel"
@@ -467,7 +460,6 @@
 		"visible"		  							"0"
 		"enabled"		  							"0"
 	}
-	
 	"TeamsFullLabelShadow"
 	{
 		"ControlName"	  							"CExLabel"
@@ -477,7 +469,6 @@
 		"visible"		  							"0"
 		"enabled"		  							"0"
 	}
-
 	"TeamsFullArrow"
 	{
 		"ControlName"	  							"CTFImagePanel"

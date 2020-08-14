@@ -154,8 +154,8 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"PlayingTo"
-		"xpos"										"c-70"
-		"ypos"										"472"
+		"xpos"										"cs-0.5"
+		"ypos"										"r10"
 		"zpos"										"4"
 		"wide"										"140"
 		"tall"										"10"
@@ -167,6 +167,7 @@
 		"brighttext"								"0"
 		"font"										"defaultverysmall"
 		"fgcolor"									"White"
+		"proportionaltoparent"						"1"
 		
 		"if_hybrid"
 		{
@@ -248,13 +249,14 @@
 	{
 		"ControlName"								"CTFArrowPanel"
 		"fieldName"									"CaptureFlag"
-		"xpos"										"c-20"
+		"xpos"										"cs-0.5"
 		"ypos"										"r43"
 		"zpos"										"5"
 		"wide"										"40"
 		"tall"										"40"
 		"visible"									"0"
 		"enabled"									"1"
+		"proportionaltoparent"						"1"
 	}
 	
 	"CarriedImage"
@@ -280,7 +282,7 @@
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"SpecCarriedImage"
-		"xpos"										"c-20"
+		"xpos"										"cs-0.5"
 		"ypos"										"r46"
 		"zpos"										"10"
 		"wide"										"40"
@@ -289,6 +291,7 @@
 		"enabled"									"1"
 		"image"										"../hud/objectives_flagpanel_carried_red"
 		"scaleImage"								"1"
+		"proportionaltoparent"						"1"
 	}
 	
 	
@@ -306,7 +309,6 @@
 		"visible"									"0"
 		"enabled"									"0"
 	}
-		
 	"RightSideBG"
 	{
 		"ControlName"								"ImagePanel"
@@ -316,7 +318,6 @@
 		"visible"									"0"
 		"enabled"									"0"
 	}
-	
 	"OutlineBG"
 	{
 		"ControlName"								"ImagePanel"
@@ -326,7 +327,6 @@
 		"visible"									"0"
 		"enabled"									"0"
 	}
-	
 	"OutlineImage"
 	{
 		"ControlName"								"CTFImagePanel"
@@ -336,7 +336,6 @@
 		"visible"									"0"
 		"enabled"									"0"
 	}
-	
 	"PlayingToBG"
 	{
 		"ControlName"								"CTFImagePanel"

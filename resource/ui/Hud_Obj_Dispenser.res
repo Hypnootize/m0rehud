@@ -218,7 +218,7 @@
 			{
 				"ControlName"						"CTFLabel"
 				"fieldName"							"BuildingLabel"
-				"font"								"DefaultSmall"
+				"font"								"m0refont11"
 				"xpos"								"0"
 				"ypos"								"5"
 				"wide"								"0"
@@ -285,7 +285,7 @@
 			{	
 				"ControlName"						"ContinuousProgressBar"
 				"fieldName"							"Ammo"
-				"font"								"Default"
+				"font"								"m0refont11"
 				"xpos"								"12"
 				"ypos"								"6"
 				"wide"								"38"

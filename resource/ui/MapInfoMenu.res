@@ -19,9 +19,9 @@
 	{
 		"ControlName"								"CExRichText"
 		"fieldName"									"MapInfoText"
-		"font"										"default"
-		"xpos"										"c-100"
-		"ypos"										"c-100"
+		"font"										"m0refont11"
+		"xpos"										"cs-0.5"
+		"ypos"										"cs-0.5"
 		"zpos"										"3"
 		"wide"										"200"
 		"tall"										"200"
@@ -32,6 +32,7 @@
 		"textAlignment"								"center"
 		"fgcolor"									"White"
 		"paintbackground"							"0"
+		"proportionaltoparent"						"1"
 	}
 	
 	"MapInfoTitle"

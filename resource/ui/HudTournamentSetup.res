@@ -19,7 +19,7 @@
 		"NumericInputOnly"							"0"
 		"unicode"									"0"
 		"wrap"										"0"
-		"font" 										"defaultsmall"
+		"font" 										"m0refont11"
 		"fgcolor_override"							"White"
 		"bgcolor_override"							"255 255 255 100"
 		"labelText"									"%teamname%"
@@ -41,12 +41,12 @@
 		"textAlignment"								"west"
 		"command"									"teamnotready"
 		"default"									"1"
-		"font"										"defaultsmall"
+		"font"										"m0refont11"
 		"fgcolor"									"White"
 		"defaultFgColor_override" 					"White"
-		"armedFgColor_override" 					"0 200 0 255"
-		"depressedFgColor_override" 				"0 200 0 255"
-		"selectedFgColor_override" 					"0 200 0 255"
+		"armedFgColor_override" 					"255 50 50 255"
+		"depressedFgColor_override" 				"255 50 50 255"
+		"selectedFgColor_override" 					"255 50 50 255"
 		"paintbackground"							"0"
 	}
 	
@@ -64,7 +64,7 @@
 		"labelText"									"/"
 		"textAlignment"								"center"
 		"default"									"0"
-		"font"										"defaultsmall"
+		"font"										"m0refont11"
 		"fgcolor"									"White"
 		"paintbackground"							"0"
 	}
@@ -84,7 +84,7 @@
 		"textAlignment"								"east"
 		"command"									"teamready" 
 		"default"									"0"
-		"font"										"defaultsmall"
+		"font"										"m0refont11"
 		"fgcolor"									"White"
 		"defaultFgColor_override" 					"White"
 		"armedFgColor_override"						"0 200 0 255"
@@ -108,7 +108,6 @@
 		"visible"         							"0"
 		"enabled"         							"0"
 	}
-	
 	"TournamentSetupLabel"
 	{	
 		"ControlName"								"Label"
@@ -118,7 +117,6 @@
 		"visible"									"0"
 		"enabled"									"0"
 	}
-
 	"TournamentTeamNameLabel"
 	{	
 		"ControlName"								"Label"
@@ -128,7 +126,6 @@
 		"visible"									"0"
 		"enabled"									"0"
 	}
-
 	"HudTournamentNameBG"
 	{
 		"ControlName"								"CTFImagePanel"

@@ -4,11 +4,11 @@
 	{	
 		"ControlName"								"ContinuousProgressBar"
 		"fieldName"									"ChargeMeter"
-		"xpos"										"c-70"
+		"xpos"										"cs-0.5"
 		"ypos"										"r80"
 		"zpos"										"2"
 		"wide"										"140"
-		"tall"										"2"				
+		"tall"										"2"
 		"autoResize"								"0"
 		"pinCorner"									"0"
 		"visible"									"1"
@@ -16,6 +16,7 @@
 		"textAlignment"								"Left"
 		"dulltext"									"0"
 		"brighttext"								"0"
+		"proportionaltoparent"						"1"
 	}
 	
 	"ChargeLabel"
@@ -38,6 +39,7 @@
 		"brighttext"								"0"
 		"font"										"TFFontSmall"
 		"fgcolor_override"							"150 150 150 255"
+		"proportionaltoparent"						"1"
 		
 		"pin_to_sibling" 							"ChargeMeter"
 		"pin_corner_to_sibling" 					"PIN_CENTER_TOP"
@@ -59,7 +61,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"NumPipesLabel"
-			"xpos"									"c-15"
+			"xpos"									"cs-0.5"
 			"ypos"									"c54"
 			"zpos"									"2"
 			"wide"									"30"
@@ -73,8 +75,9 @@
 			"textAlignment"							"center"
 			"dulltext"								"0"
 			"brighttext"							"0"
-			"font"									"M0refont24"
+			"font"									"m0refont24"
 			"fgcolor"   							"White"
+			"proportionaltoparent"					"1"
 		}
 		
 		"NumPipesLabelDropshadow"
@@ -95,8 +98,9 @@
 			"textAlignment"							"center"
 			"dulltext"								"0"
 			"brighttext"							"0"
-			"font"									"M0refont24"
+			"font"									"m0refont24"
 			"fgcolor"								"Black"
+			"proportionaltoparent"					"1"
 			
 			"pin_to_sibling"						"NumPipesLabel"
 		}
@@ -127,7 +131,6 @@
 		"visible"									"0"
 		"enabled"									"0"			
 	}
-	
 	"NoPipesPresentPanel"
 	{
 		"ControlName"								"EditablePanel"

@@ -73,7 +73,7 @@
 	{	
 		"ControlName"								"CExLabel"
 		"fieldName"									"NumberLabel1"
-		"font"										"Default"
+		"font"										"m0refont11"
 		"fgcolor"									"Black"
 		"xpos"										"0"
 		"ypos"										"1"
@@ -155,7 +155,7 @@
 	{	
 		"ControlName"								"CExLabel"
 		"fieldName"									"NumberLabel2"
-		"font"										"Default"
+		"font"										"m0refont11"
 		"fgcolor"									"Black"
 		"xpos"										"0"
 		"ypos"										"1"
@@ -237,7 +237,7 @@
 	{	
 		"ControlName"								"CExLabel"
 		"fieldName"									"NumberLabel3"
-		"font"										"Default"
+		"font"										"m0refont11"
 		"fgcolor"									"Black"
 		"xpos"										"0"
 		"ypos"										"1"
@@ -319,7 +319,7 @@
 	{	
 		"ControlName"								"CExLabel"
 		"fieldName"									"NumberLabel4"
-		"font"										"Default"
+		"font"										"m0refont11"
 		"fgcolor"									"Black"
 		"xpos"										"0"
 		"ypos"										"1"
@@ -401,7 +401,7 @@
 	{	
 		"ControlName"								"CExLabel"
 		"fieldName"									"NumberLabel5"
-		"font"										"Default"
+		"font"										"m0refont11"
 		"fgcolor"									"Black"
 		"xpos"										"0"
 		"ypos"										"1"
@@ -483,7 +483,7 @@
 	{	
 		"ControlName"								"CExLabel"
 		"fieldName"									"NumberLabel6"
-		"font"										"Default"
+		"font"										"m0refont11"
 		"fgcolor"									"Black"
 		"xpos"										"0"
 		"ypos"										"1"
@@ -565,7 +565,7 @@
 	{	
 		"ControlName"								"CExLabel"
 		"fieldName"									"NumberLabel7"
-		"font"										"Default"
+		"font"										"m0refont11"
 		"fgcolor"									"Black"
 		"xpos"										"0"
 		"ypos"										"1"
@@ -647,7 +647,7 @@
 	{	
 		"ControlName"								"CExLabel"
 		"fieldName"									"NumberLabel8"
-		"font"										"Default"
+		"font"										"m0refont11"
 		"fgcolor"									"Black"
 		"xpos"										"0"
 		"ypos"										"1"
@@ -681,7 +681,6 @@
 		"visible"									"0"
 		"enabled"									"0"
 	}
-	
 	"Divider"
 	{
 		"ControlName"		     					"ImagePanel"
@@ -691,7 +690,6 @@
 		"visible"									"0"
 		"enabled"									"0"
 	}
-	
 	"IcoReelIcon"
 	{
 		"ControlName"								"CIconPanel"
@@ -701,7 +699,6 @@
 		"visible"									"0"
 		"enabled"									"0"
 	}
-	
 	"TitleLabel"
 	{	
 		"ControlName"								"CExLabel"
@@ -711,7 +708,6 @@
 		"visible"									"0"
 		"enabled"									"0"
 	}
-	
 	"TitleLabelDropshadow"
 	{	
 		"ControlName"								"CExLabel"
@@ -721,7 +717,6 @@
 		"visible"									"0"
 		"enabled"									"0"
 	}
-	
 	"WeaponTauntLabel"
 	{	
 		"ControlName"								"CExLabel"
@@ -731,7 +726,6 @@
 		"visible"									"0"
 		"enabled"									"0"
 	}
-	
 	"CancelLabel"
 	{	
 		"ControlName"								"CExLabel"

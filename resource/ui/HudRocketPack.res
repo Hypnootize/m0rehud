@@ -1,22 +1,7 @@
-#base "HudItemEffectMeter.res"
+#base "HudItemEffectMeter_Scout.res"
 
 "Resource/UI/HudRocketPack.res"
 {
-	HudItemEffectMeter
-	{
-		"ypos"										"c172"
-	}
-
-	"ItemEffectIcon"
-	{
-		"ControlName"								"CTFImagePanel"
-		"fieldName"									"ItemEffectIcon"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-
 	"ItemEffectMeter"
 	{	
 		"wide"										"70"
@@ -44,5 +29,21 @@
 		"pin_to_sibling" 							"ItemEffectMeter"
 		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
+	}
+
+	
+	
+	
+	
+	//////////////////////////////////REMOVED STUFF//////////////////////////////////
+	
+	"ItemEffectIcon"
+	{
+		"ControlName"								"CTFImagePanel"
+		"fieldName"									"ItemEffectIcon"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

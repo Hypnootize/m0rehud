@@ -96,7 +96,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"BlueTeamLabel"
-			"font"									"default"
+			"font"									"m0refont11"
 			"fgcolor"								"White"
 			"labelText"								"%blueteamname%"
 			"textAlignment"							"west"
@@ -117,7 +117,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"BlueTeamScore"
-			"font"									"M0refont48"
+			"font"									"m0refont48"
 			"fgcolor"								"White"
 			"labelText"								"%blueteamscore%"
 			"textAlignment"							"east"
@@ -140,7 +140,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"RedTeamLabel"
-			"font"									"default"
+			"font"									"m0refont11"
 			"fgcolor"								"White"
 			"labelText"								"%redteamname%"
 			"textAlignment"							"east"
@@ -163,7 +163,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"RedTeamScore"
-			"font"									"M0refont48"
+			"font"									"m0refont48"
 			"fgcolor"								"White"
 			"labelText"								"%redteamscore%"
 			"textAlignment"							"west"
@@ -184,7 +184,7 @@
 		{	
 			"ControlName"							"CExLabel"
 			"fieldName"								"ArenaStreakLabel"
-			"font"									"default"
+			"font"									"m0refont11"
 			"fgcolor"								"White"
 			"xpos"									"0"
 			"ypos"									"25"
@@ -274,7 +274,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"	  								"WinningTeamLabel"
-		"font"			    						"M0refont24"
+		"font"			    						"m0refont24"
 		"fgcolor"       							"White"
 		"xpos"		    							"-12"
 		"ypos"		    							"-4"
@@ -299,7 +299,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"WinningTeamLabelDropshadow"
-		"font"			    						"M0refont24"
+		"font"			    						"m0refont24"
 		"fgcolor"      								"Black"
 		"xpos"		    							"-1"
 		"ypos"		    							"-1"
@@ -322,7 +322,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"LosingTeamLabel"
-		"font"			    						"M0refont24"
+		"font"			    						"m0refont24"
 		"fgcolor"       							"White"
 		"xpos"		    							"-12"
 		"ypos"		    							"-4"
@@ -347,7 +347,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"LosingTeamLabelDropshadow"
-		"font"			    						"M0refont24"
+		"font"			    						"m0refont24"
 		"fgcolor"      								"Black"
 		"xpos"		    							"-1"
 		"ypos"		    							"-1"
@@ -1401,7 +1401,6 @@
 		"visible"									"0"
 		"enabled"									"0"
 	}
-	
 	"WinReasonLabel"
 	{	
 		"ControlName"								"CExLabel"
@@ -1411,7 +1410,6 @@
 		"visible"									"0"
 		"enabled"									"0"
 	}
-	
 	"DetailsLabel"
 	{	
 		"ControlName"								"CExLabel"

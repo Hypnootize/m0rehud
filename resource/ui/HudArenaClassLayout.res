@@ -30,7 +30,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"Title"
-		"xpos"										"c-200"
+		"xpos"										"cs-0.5"
 		"ypos"										"112"
 		"zpos"										"6"
 		"wide"										"400"
@@ -43,6 +43,7 @@
 		"labelText"									"#TF_Arena_Team_Layout"
 		"textAlignment"								"center"
 		"fgcolor"									"White"
+		"proportionaltoparent"						"1"
 	}
 	
 	"TitleShadow"
@@ -70,7 +71,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"ChangeLabel"
-		"xpos"										"c-220"
+		"xpos"										"cs-0.5"
 		"ypos"										"230"
 		"zpos"										"6"
 		"wide"										"440"
@@ -83,6 +84,7 @@
 		"labelText"									"#TF_Arena_F4_ChangeClass"
 		"textAlignment"								"center"
 		"fgcolor"									"White"
+		"proportionaltoparent"						"1"
 	}
 	
 	"ChangeLabelShadow"

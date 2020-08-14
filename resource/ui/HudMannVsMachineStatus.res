@@ -4,13 +4,14 @@
 	{
 		"ControlName"								"CWaveStatusPanel"
 		"fieldName"									"WaveStatusPanel"
-		"xpos"										"c-300"
+		"xpos"										"cs-0.5"
 		"ypos"										"0"
 		"zpos"										"0"
 		"wide"										"600"
 		"tall"										"67"
 		"visible"									"1"
 		"enabled"									"1"
+		"proportionaltoparent"						"1"
 	}
 	
 	"WaveCompleteSummaryPanel"
@@ -47,10 +48,10 @@
 	{
 		"ControlName"								"CCurrencyStatusPanel"
 		"fieldName"									"CurrencyStatusPanel"
-		"xpos"										"c127"
-		"ypos"										"r130"
-		"wide"										"100"
-		"tall"										"100"
+		"xpos"										"c146"
+		"ypos"										"r70"
+		"wide"										"60"
+		"tall"										"20"
 		"visible" 									"1"
 		"enabled" 									"1"
 	}
@@ -59,10 +60,10 @@
 	{
 		"ControlName"								"CInWorldCurrencyStatus"
 		"fieldName"									"InWorldCurrencyPanel"
-		"xpos"										"c131"
-		"ypos"										"r40"
-		"wide"										"100"
-		"tall"										"100"
+		"xpos"										"c146"
+		"ypos"										"r50"
+		"wide"										"60"
+		"tall"										"20"
 		"visible" 									"1"
 		"enabled" 									"1"
 	}
@@ -222,21 +223,10 @@
 		{
 			"ControlName"							"ScalableImagePanel"
 			"fieldName"								"Background"
-			"xpos"									"c-90"
-			"ypos"									"400"
-			"wide"									"180"
-			"tall"									"16"
-			"autoResize"							"0"
-			"pinCorner"								"0"
-			"visible"								"1"
-			"enabled"								"1"
-			"image"									"../hud/color_panel_red"
-
-			"src_corner_height"						"23"
-			"src_corner_width"						"23"
-		
-			"draw_corner_width"						"3"
-			"draw_corner_height" 					"3"	
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 	
 		"ServerChangeLabel"
@@ -246,13 +236,14 @@
 			"font"									"m0refont12"
 			"textAlignment"							"center"
 			"labelText"								"%servermessage%"
-			"xpos"									"c-90"
-			"ypos"									"400"
+			"xpos"									"cs-0.5"
+			"ypos"									"r80"
 			"wide"									"180"
 			"tall"									"16"
 			"visible"								"1"
 			"enabled"								"1"
-			"fgcolor"								"White"		
+			"fgcolor"								"White"
+			"proportionaltoparent"					"1"
 		}
 	}
 }

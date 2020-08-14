@@ -36,7 +36,7 @@
 	{	
 		"ControlName"								"CExLabel"
 		"fieldName"									"NumberLabel"
-		"font"										"Default"
+		"font"										"m0refont11"
 		"fgcolor"									"Black"
 		"xpos"										"0"
 		"ypos"										"1"
@@ -70,7 +70,6 @@
 		"visible"									"0"
 		"enabled"									"0"
 	}
-	
 	"ItemNameLabel"
 	{	
 		"ControlName"								"CExLabel"
@@ -80,7 +79,6 @@
 		"visible"									"0"
 		"enabled"									"0"
 	}
-	
 	"ModeLabel"
 	{	
 		"ControlName"								"CExLabel"

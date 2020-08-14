@@ -33,8 +33,8 @@
 	{
 		"ControlName"								"CTFImagePanel"
 		"fieldName"									"DisguiseStatusBG"
-		"xpos"										"c-70"
-		"ypos"										"400"
+		"xpos"										"cs-0.5"
+		"ypos"										"r80"
 		"zpos"										"-1"
 		"wide"										"140"
 		"tall"	 									"12"
@@ -42,6 +42,7 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
+		"proportionaltoparent"						"1"
 		
 		"image"										"../hud/color_panel_brown"
 		"scaleImage"								"1"
@@ -59,7 +60,7 @@
 	{	
 		"ControlName"								"Label"
 		"fieldName"									"DisguiseNameLabel"
-		"font"										"defaultsmall"
+		"font"										"m0refont11"
 		"fgcolor_override"   						"White"
 		"xpos"										"-40"
 		"ypos"										"0"
@@ -84,7 +85,7 @@
 	{	
 		"ControlName"								"Label"
 		"fieldName"									"WeaponNameLabel"
-		"font"										"defaultsmall"
+		"font"										"m0refont11"
 		"fgcolor_override"   						"White"
 		"xpos"										"-40"
 		"ypos"										"0"

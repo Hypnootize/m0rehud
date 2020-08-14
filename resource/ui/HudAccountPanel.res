@@ -8,7 +8,7 @@
 		"PositiveColor"								"0 255 0 155"
 		"NegativeColor"								"255 0 0 155"
 		"delta_lifetime"							"1"
-		"delta_item_font"							"M0refont18"
+		"delta_item_font"							"m0refont18"
 	}
 	
 	"AccountValue"
@@ -29,7 +29,7 @@
 		"textAlignment"								"center"
 		"dulltext"									"0"
 		"brighttext"								"0"
-		"font"										"M0refont24"
+		"font"										"m0refont24"
 		"fgcolor"   								"White"
 	}
 	
@@ -51,7 +51,7 @@
 		"textAlignment"								"center"
 		"dulltext"									"0"
 		"brighttext"								"0"
-		"font"										"M0refont24"
+		"font"										"m0refont24"
 		"fgcolor"   								"Black"
 		
 		"pin_to_sibling"							"AccountValue"

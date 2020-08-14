@@ -4,7 +4,7 @@
 	{	
 		"ControlName"								"CExLabel"
 		"fieldName"									"ItemNameLabel"
-		"font"										"Default"
+		"font"										"m0refont11"
 		"xpos"										"0"
 		"ypos"										"0"
 		"zpos"										"2"
@@ -25,7 +25,7 @@
 	{	
 		"ControlName"								"CExLabel"
 		"fieldName"									"CantBuildReason"
-		"font"										"Default"
+		"font"										"m0refont11"
 		"xpos"										"0"
 		"ypos"										"10"
 		"zpos"										"2"
@@ -58,7 +58,6 @@
 		"visible"									"0"
 		"enabled"									"0"
 	}
-	
 	"ModeLabel"
 	{	
 		"ControlName"								"CExLabel"
@@ -68,7 +67,6 @@
 		"visible"									"0"
 		"enabled"									"0"
 	}
-		
 	"NumberBg"	
 	{
 		"ControlName"								"CIconPanel"
@@ -78,7 +76,6 @@
 		"visible"									"0"
 		"enabled"									"0"
 	}
-	
 	"NumberLabel"
 	{	
 		"ControlName"								"CExLabel"

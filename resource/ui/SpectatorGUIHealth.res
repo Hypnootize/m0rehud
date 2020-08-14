@@ -28,7 +28,7 @@
 		"enabled"									"1"
 		"textAlignment"								"center"	
 		"labeltext"									"%Health%"
-		"font"										"M0refont24"
+		"font"										"m0refont24"
 		"fgcolor_override"  						"Health Numbers"
 	}
 	
@@ -45,7 +45,7 @@
 		"enabled"									"1"
 		"textAlignment"								"center"	
 		"labeltext"									"%Health%"
-		"font"										"M0refont24"
+		"font"										"m0refont24"
 		"fgcolor_override"  						"Black"
 		
 		"pin_to_sibling"							"PlayerStatusHealthValueTarget"
@@ -81,8 +81,7 @@
 		"tall"										"0"
 		"visible"									"0"
 		"enabled"									"0"
-	}	
-	
+	}
 	"PlayerStatusHealthImageBG"
 	{
 		"ControlName"								"ImagePanel"
@@ -92,7 +91,6 @@
 		"visible"									"0"
 		"enabled"									"0"
 	}
-	
 	"BuildingStatusHealthImageBG"
 	{
 		"ControlName"								"ImagePanel"

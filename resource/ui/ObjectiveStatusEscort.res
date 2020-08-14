@@ -155,7 +155,7 @@
 		"labelText"									""
 		"image"										"../hud/cart_point_neutral"
 		"scaleImage"								"1"	
-												
+		
 		"if_multiple_trains"
 		{
 			"xpos"									"61"

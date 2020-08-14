@@ -2,7 +2,7 @@
 {
 	"PlayerStatusHealthValueSpecgui"
 	{
-		"ControlName"								"ceXLabel"
+		"ControlName"								"CexLabel"
 		"fieldName"									"PlayerStatusHealthValueSpecgui"
 		"xpos"			   							"0"
 		"ypos"			    						"0"
@@ -11,16 +11,16 @@
 		"tall"			    						"17"
 		"visible"		    						"1"
 		"enabled"		   						 	"1"
-		"textAlignment"								"center"	
+		"textAlignment"								"center"
 		"labeltext"		 							"%Health%"
 		"font"										"m0refont11"
 		"fgcolor"		    						"Health Numbers"
 	}
 	
-	"PlayerStatusHealthValueSpecguiExtra"
+	"PlayerStatusHealthValueSpecguiShadow"
 	{
-		"ControlName"								"ceXLabel"
-		"fieldName"									"PlayerStatusHealthValueSpecguiExtra"
+		"ControlName"								"CexLabel"
+		"fieldName"									"PlayerStatusHealthValueSpecguiShadow"
 		"xpos"			   						 	"0"
 		"ypos"			    						"0"
 		"zpos"			    						"5"
@@ -28,11 +28,10 @@
 		"tall"			    						"18"
 		"visible"		    						"1"
 		"enabled"		    						"1"
-		"textAlignment"								"center"	
+		"textAlignment"								"center"
 		"labeltext"		  							"%Health%"
 		"font"										"m0refont11"
 		"fgcolor"		    						"Black"
-		"alpha"		    							"0"
 		
 		"pin_to_sibling"							"PlayerStatusHealthValueSpecgui"
 	}
@@ -51,8 +50,7 @@
 		"tall"										"0"
 		"visible"									"0"
 		"enabled"									"0"
-	}	
-	
+	}
 	"PlayerStatusHealthImageBG"
 	{
 		"ControlName"								"ImagePanel"
@@ -62,7 +60,6 @@
 		"visible"									"0"
 		"enabled"									"0"
 	}
-	
 	"BuildingStatusHealthImageBG"
 	{
 		"ControlName"								"ImagePanel"
@@ -72,7 +69,6 @@
 		"visible"									"0"
 		"enabled"									"0"
 	}
-	
 	"PlayerStatusHealthBonusImage"
 	{
 		"ControlName"								"ImagePanel"

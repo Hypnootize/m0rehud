@@ -1,9 +1,1 @@
-#base "HudItemEffectMeter.res"
-
-"Resource/UI/HudItemEffectMeter_Raygun.res"
-{
-	HudItemEffectMeter
-	{
-		"ypos"										"c172"
-	}
-}
+#base "HudItemEffectMeter_Scout.res"

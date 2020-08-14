@@ -13,7 +13,7 @@
 		"enabled"									"1"
 		"textAlignment"								"center"	
 		"labeltext"									"%Health%"
-		"font"										"M0refont24"
+		"font"										"m0refont24"
 		"fgcolor_override"  						"Health Numbers"	
 	}
 	
@@ -30,7 +30,7 @@
 		"enabled"									"1"
 		"textAlignment"								"center"	
 		"labeltext"									"%Health%"
-		"font"										"M0refont24"
+		"font"										"m0refont24"
 		"fgcolor_override"  						"Black"
 		
 		"pin_to_sibling"							"PlayerStatusHealthValueKiller"

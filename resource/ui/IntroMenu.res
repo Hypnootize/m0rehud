@@ -20,7 +20,7 @@
 	{
 		"ControlName"								"CTFVideoPanel"
 		"fieldName"									"VideoPanel"
-		"xpos"										"c-150"
+		"xpos"										"cs-0.5"
 		"ypos"										"c-183"
 		"zpos"										"6"		
 		"wide"										"300"
@@ -31,6 +31,7 @@
 		"enabled"									"1"
 		"start_delay"								"0"
 		"end_delay"									"0"
+		"proportionaltoparent"						"1"
 	}
 	
 	"VideoCaption"
@@ -50,7 +51,7 @@
 		"textAlignment"								"center"
 		"dulltext"									"0"
 		"brighttext"								"0"
-		"font"										"default"
+		"font"										"m0refont11"
 		"fgcolor"									"White"
 		"wrap"										"1"
 		"centerwrap"								"1"
@@ -131,7 +132,7 @@
 
 	
 	
-	
+	//////////////////////////////////REMOVED STUFF//////////////////////////////////
 	
 	"titlelabel"
 	{

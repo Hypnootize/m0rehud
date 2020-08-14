@@ -152,11 +152,11 @@
 		"CornerRadius"	  							"0"
 		"RightJustify"	  							"1"
 		
-		"TextFont"									"Default"
+		"TextFont"									"m0refont11"
 		
-		"TeamBlue"									"M0reBlue"
-		"TeamRed"									"M0reRed"
-		"IconColor"									"255 255 255 255"
+		"TeamBlue"									"m0reBlue"
+		"TeamRed"									"m0reRed"
+		"IconColor"									"White"
 		"LocalPlayerColor"							"HUDBlack"
 
 		"BaseBackgroundColor"						"0 0 0 100"
@@ -328,22 +328,18 @@
 	{
 		"wide"										"0"
 	}
-	
 	StatPanel
 	{
 		"wide"										"0"
 	}
-	
 	HudArenaNotification
 	{
 		"wide"										"0"
 	}
-	
 	HudTeamGoal
 	{
 		"wide"										"0"
 	}
-	
 	HudTeamGoalTournament
 	{
 		"wide"										"0"

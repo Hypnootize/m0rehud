@@ -31,7 +31,6 @@
 		"visible"									"0"
 		"enabled"									"0"
 	}
-
 	"Teardrop"
 	{
 		"ControlName"								"CIconPanel"
@@ -41,7 +40,6 @@
 		"visible"									"0"
 		"enabled"									"0"
 	}
-	
 	"TeardropSide"
 	{
 		"ControlName"								"CIconPanel"
@@ -51,7 +49,6 @@
 		"visible"									"0"
 		"enabled"									"0"
 	}
-
 	"ProgressText"
 	{	
 		"ControlName"								"Label"
@@ -61,7 +58,6 @@
 		"visible"									"0"
 		"enabled"									"0"
 	}
-
 	"Blocked"
 	{
 		"ControlName"								"CIconPanel"

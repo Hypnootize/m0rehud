@@ -173,7 +173,6 @@
 		"visible"									"0"
 		"enabled"									"0"
 	}
-	
 	"DestroyIcon"	
 	{
 		"ControlName"								"CIconPanel"
@@ -183,7 +182,6 @@
 		"visible"									"0"
 		"enabled"									"0"
 	}
-	
 	"Divider"
 	{
 		"ControlName"		     					"ImagePanel"
@@ -193,7 +191,6 @@
 		"visible"									"0"
 		"enabled"									"0"
 	}
-	
 	"TitleLabel"
 	{	
 		"ControlName"								"CExLabel"
@@ -203,7 +200,6 @@
 		"visible"									"0"
 		"enabled"									"0"
 	}
-	
 	"TitleLabelDropshadow"
 	{	
 		"ControlName"								"CExLabel"
@@ -213,7 +209,6 @@
 		"visible"									"0"
 		"enabled"									"0"
 	}
-	
 	"CancelLabel"
 	{	
 		"ControlName"								"CExLabel"

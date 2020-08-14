@@ -1,15 +1,5 @@
 "Resource/UI/disguise_menu/scout_red.res"
 {
-	"ItemNameLabel"
-	{	
-		"ControlName"								"CExLabel"
-		"fieldName"									"ItemName"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	
 	"ClassIcon"	
 	{
 		"ControlName"								"CIconPanel"
@@ -45,7 +35,7 @@
 	{	
 		"ControlName"								"CExLabel"
 		"fieldName"									"NumberLabel"
-		"font"										"Default"
+		"font"										"m0refont11"
 		"fgcolor"									"Black"
 		"xpos"										"0"
 		"ypos"										"1"
@@ -68,7 +58,7 @@
 	{	
 		"ControlName"								"CExLabel"
 		"fieldName"									"NumberLabel"
-		"font"										"Default"
+		"font"										"m0refont11"
 		"fgcolor"									"Black"
 		"xpos"										"0"
 		"ypos"										"1"
@@ -85,5 +75,21 @@
 		"brighttext"								"0"
 		
 		"pin_to_sibling"							"NumberBg"
+	}
+	
+	
+	
+	
+	
+	//////////////////////////////////REMOVED STUFF//////////////////////////////////
+	
+	"ItemNameLabel"
+	{	
+		"ControlName"								"CExLabel"
+		"fieldName"									"ItemName"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

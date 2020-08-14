@@ -251,7 +251,7 @@
 			{
 				"ControlName"						"CTFLabel"
 				"fieldName"							"BuildingLabel"
-				"font"								"DefaultSmall"
+				"font"								"m0refont11"
 				"xpos"								"0"
 				"ypos"								"18"
 				"wide"								"200"
@@ -317,7 +317,7 @@
 			{	
 				"ControlName"						"CExLabel"
 				"fieldName"							"KillsLabel"
-				"font"								"Default"
+				"font"								"m0refont11"
 				"xpos"								"15"
 				"ypos"								"5"
 				"wide"								"200"

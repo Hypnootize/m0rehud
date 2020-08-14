@@ -76,7 +76,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"PlayingTo"
-		"xpos"										"c-30"
+		"xpos"										"cs-0.5"
 		"ypos"										"r10"
 		"zpos"										"4"
 		"wide"										"60"
@@ -89,6 +89,7 @@
 		"brighttext"								"0"
 		"font"										"DefaultVerySmall"
 		"fgcolor"									"White"
+		"proportionaltoparent"						"1"
 	}
 	
 	
@@ -106,7 +107,6 @@
 		"visible"									"0"
 		"enabled"									"0"
 	}
-
 	"RightSideBG"
 	{
 		"ControlName"								"ImagePanel"
@@ -116,7 +116,6 @@
 		"visible"									"0"
 		"enabled"									"0"
 	}
-	
 	"OutlineBG"
 	{
 		"ControlName"								"ImagePanel"
@@ -126,7 +125,6 @@
 		"visible"									"0"
 		"enabled"									"0"
 	}
-	
 	"PlayingToBG"
 	{
 		"ControlName"								"CTFImagePanel"
@@ -136,7 +134,6 @@
 		"visible"									"0"
 		"enabled"									"0"
 	}
-	
 	"GameImage"
 	{
 		"ControlName"								"ImagePanel"

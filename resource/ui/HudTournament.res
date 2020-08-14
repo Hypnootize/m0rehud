@@ -257,7 +257,7 @@
 	{	
 		"ControlName"								"Label"
 		"fieldName"									"TournamentBLUELabel"
-		"font"										"default"
+		"font"										"m0refont11"
 		"fgcolor_override"   						"White"
 		"xpos"										"-10"
 		"ypos"										"0"
@@ -292,7 +292,7 @@
 	{	
 		"ControlName"								"Label"
 		"fieldName"									"TournamentBLUEStateLabel"
-		"font"										"default"
+		"font"										"m0refont11"
 		"fgcolor_override" 							"White"
 		"xpos"										"-8"
 		"ypos"										"0"
@@ -366,7 +366,7 @@
 	{	
 		"ControlName"								"Label"
 		"fieldName"									"TournamentREDLabel"
-		"font"										"default"
+		"font"										"m0refont11"
 		"fgcolor_override"   						"White"
 		"xpos"										"-10"
 		"ypos"										"0"
@@ -403,7 +403,7 @@
 	{	
 		"ControlName"								"Label"
 		"fieldName"									"TournamentREDStateLabel"
-		"font"										"default"
+		"font"										"m0refont11"
 		"fgcolor_override" 							"White"
 		"xpos"										"-8"
 		"ypos"										"0"
@@ -440,7 +440,7 @@
 		"fieldName"		           					"TournamentConditionLabel"
 		"font"			              				"TFFontSmall"
 		"fgcolor"                					"White"
-		"xpos"			              				"0"
+		"xpos"			              				"cs-0.5"
 		"ypos"	              						"0"
 		"zpos"			              				"1"
 		"wide"			              				"f0"
@@ -452,6 +452,7 @@
 		"wrap"		              					"0"
 		"labelText" 	          					"%winconditions%"
 		"textAlignment"		        				"center"
+		"proportionaltoparent"						"1"
 		
 		"pin_to_sibling"							"WhiteBG"
 		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
@@ -477,7 +478,7 @@
 		"fieldName"									"TournamentInstructionsLabel"
 		"font"										"m0refont12"
 		"fgcolor"									"White"
-		"xpos"										"c-125"
+		"xpos"			              				"cs-0.5"
 		"ypos"										"68"
 		"wide"										"250"
 		"tall"										"12"
@@ -489,6 +490,7 @@
 		"wrap"										"0"
 		"labelText"									"%readylabel%"
 		"textAlignment"								"center"
+		"proportionaltoparent"						"1"
 		
 		if_competitive
 		{
@@ -545,7 +547,7 @@
 		"ControlName"								"CExLabel"
 		"fieldName"									"CountdownLabel"
 		"font"										"m0refont18"
-		"xpos"										"c-16"
+		"xpos"										"cs-0.5"
 		"ypos"										"r40"
 		"wide"										"32"
 		"tall"										"18"
@@ -558,6 +560,7 @@
 		"labelText"									"%tournamentstatelabel%"
 		"textAlignment"								"center"
 		"fgcolor"									"White"
+		"proportionaltoparent"						"1"
 		
 		if_competitive
 		{

@@ -19,7 +19,7 @@
 	{
 		"ControlName"	  							"Label"
 		"fieldName"		  							"MapName"
-		"xpos"			  							"c-300"
+		"xpos"			  							"cs-0.5"
 		"ypos"			  							"110"
 		"zpos"			  							"1"
 		"wide"			  							"600"
@@ -29,8 +29,9 @@
 		"visible"		  							"0"		//1 to enable
 		"enabled"		  							"1"
 		"textAlignment"	  							"center"
-		"font"			  							"M0refont24"
+		"font"			  							"m0refont24"
 		"fgcolor"		  							"White"
+		"proportionaltoparent"						"1"
 	}
 	
 	"TeamsAnchor"									//THIS MOVES THE WHOLE TEAM MENU
@@ -123,7 +124,7 @@
 		"enabled"		  							"1"
 		"labelText"		  							"1"
 		"textAlignment"	  							"east"
-		"font"			  							"M0refont36"
+		"font"			  							"m0refont36"
 		"fgcolor"		  							"White"
 		
 		"pin_to_sibling"							"FightBar"
@@ -144,7 +145,7 @@
 		"enabled"		  							"1"
 		"labelText"		  							"2"
 		"textAlignment"	  							"west"
-		"font"			  							"M0refont36"
+		"font"			  							"m0refont36"
 		"fgcolor"		  							"White"
 		
 		"pin_to_sibling"							"SpectateBar"
@@ -163,7 +164,7 @@
 		"enabled"		  							"1"
 		"labelText"		  							"FIGHT"
 		"textAlignment"	  							"west"
-		"font"			  							"Default"
+		"font"			  							"m0refont11"
 		"fgcolor"		  							"White"
 		"autoResize"	  							"0"
 		"pinCorner"		  							"0"
@@ -186,7 +187,7 @@
 		"enabled"		  							"1"
 		"labelText"		  							"SPECTATE"
 		"textAlignment"	  							"east"
-		"font"			  							"Default"
+		"font"			  							"m0refont11"
 		"fgcolor"		  							"White"
 		"autoResize"	  							"0"
 		"pinCorner"		  							"0"
@@ -395,7 +396,6 @@
 		"enabled"		  							"0"
 		"tabPosition"	  							"0"
 	}
-	
 	"MapInfo"
 	{
 		"ControlName"								"HTML"
@@ -405,7 +405,6 @@
 		"visible"									"0"
 		"enabled"									"0"
 	}
-	
 	"CancelButton"
 	{
 		"ControlName"	  							"CExButton"
@@ -415,7 +414,6 @@
 		"visible"		  							"0"
 		"enabled"		  							"0"
 	}
-	
 	"ShadedBar"
 	{
 		"ControlName"								"ImagePanel"

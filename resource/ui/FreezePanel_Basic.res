@@ -12,11 +12,12 @@
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"FreezePanelBase"
-		"xpos"										"c-128"
-		"ypos"										"c70"		
-		"wide"										"256"		
-		"tall"										"35"		
+		"xpos"										"cs-0.5"
+		"ypos"										"c70"
+		"wide"										"256"
+		"tall"										"35"
 		"visible"									"1"
+		"proportionaltoparent"						"1"
 	
 		"FreezePanelBG"
 		{
@@ -60,7 +61,7 @@
 		{	
 			"ControlName"							"Label"
 			"fieldName"								"FreezeLabel"
-			"font"									"DefaultSmall"
+			"font"									"m0refont11"
 			"xpos"									"40"
 			"ypos"									"62"
 			"zpos"									"1"
@@ -99,7 +100,7 @@
 			"ControlName"							"Label"
 			"fieldName"								"FreezeLabelKiller"
 			"fgcolor_override"  					"White"
-			"font"									"default"
+			"font"									"m0refont11"
 			"xpos"									"55"
 			"ypos"									"10"
 			"zpos"									"1"
@@ -198,7 +199,7 @@
 			{	
 				"ControlName"						"Label"
 				"fieldName"							"NemesisLabel2"
-				"font"								"DefaultSmall"
+				"font"								"m0refont11"
 				"xpos"								"134"
 				"ypos"								"10"
 				"zpos"								"6"

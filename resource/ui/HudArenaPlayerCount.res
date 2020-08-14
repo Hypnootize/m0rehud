@@ -10,16 +10,6 @@
 		"wide"										"60"
 		"tall"										"30"
 		"visible"									"1"
-	
-		"background"
-		{
-			"ControlName"							"CTFImagePanel"
-			"fieldName"								"background"
-			"wide"									"0"
-			"tall"									"0"
-			"visible"								"0"
-			"enabled"								"0"
-		}
 		
 		"count"
 		{
@@ -34,10 +24,10 @@
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"font"									"M0refont24"
+			"font"									"m0refont24"
 			"labelText"								"%blue_alive%"
 			"textAlignment"							"center"
-			"fgcolor"								"M0reBlue"
+			"fgcolor"								"m0reBlue"
 		}
 		
 		"countshadow"
@@ -53,7 +43,7 @@
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"font"									"M0refont24"
+			"font"									"m0refont24"
 			"labelText"								"%blue_alive%"
 			"textAlignment"							"center"
 			"fgcolor"								"Black"
@@ -61,6 +51,15 @@
 			"pin_to_sibling"						"count"
 		}
 		
+		"background"
+		{
+			"ControlName"							"CTFImagePanel"
+			"fieldName"								"background"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
+		}
 		"playerimage"
 		{
 			"ControlName"							"ImagePanel"		
@@ -83,16 +82,6 @@
 		"tall"										"30"
 		"visible"									"1"
 	
-		"background"
-		{
-			"ControlName"							"CTFImagePanel"
-			"fieldName"								"background"
-			"wide"									"0"
-			"tall"									"0"
-			"visible"								"0"
-			"enabled"								"0"
-		}
-		
 		"count"
 		{
 			"ControlName"							"CExLabel"
@@ -106,10 +95,10 @@
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"font"									"M0refont24"
+			"font"									"m0refont24"
 			"labelText"								"%red_alive%"
 			"textAlignment"							"center"
-			"fgcolor"								"M0reRed"
+			"fgcolor"								"m0reRed"
 		}
 		
 		"countshadow"
@@ -125,7 +114,7 @@
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"font"									"M0refont24"
+			"font"									"m0refont24"
 			"labelText"								"%red_alive%"
 			"textAlignment"							"center"
 			"fgcolor"								"Black"
@@ -133,6 +122,15 @@
 			"pin_to_sibling"						"count"
 		}
 	
+		"background"
+		{
+			"ControlName"							"CTFImagePanel"
+			"fieldName"								"background"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
+		}
 		"playerimage"
 		{
 			"ControlName"							"ImagePanel"		
