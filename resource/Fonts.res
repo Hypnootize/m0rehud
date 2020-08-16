@@ -242,17 +242,6 @@ Scheme
 				"antialias" 								"1"
 			}
 		}
-		"m0refont48Shadow"
-		{
-			"1"
-			{
-				"name"										"Surface-Medium"
-				"tall"										"48"
-				"additive"									"0"
-				"antialias" 								"1"
-				"dropshadow" 								"1"
-			}
-		}
 		"m0refont72"
 		{
 			"1"
@@ -334,68 +323,36 @@ Scheme
 			{
 				"name"		  								"Surface-Medium"
 				"tall"      								"14"
-				"weight"									"500"
+				"weight"									"0"
 				"antialias" 								"1"
-				"yres"	    								"480 700"
 			}
 			"2"
 			{
 				"name"		 								"Surface-Medium"
 				"tall"      								"18"
-				"weight"									"500"
+				"weight"									"0"
 				"antialias" 								"1"
-				"yres"	    								"701 899"
 			}
 			"3"
 			{
 				"name"		  								"Surface-Medium"
 				"tall"      								"22"
-				"weight"									"500"
+				"weight"									"0"
 				"antialias" 								"1"
-				"yres"	    								"900 1000"
 			}
 			"4"
 			{
 				"name"		  								"Surface-Medium"
 				"tall"      								"24"
-				"weight"									"500"
+				"weight"									"0"
 				"antialias" 								"1"
-				"yres"	    								"1001 10000"
 			}
-		}
-		"DefaultSmall"
-		{
-			"1"
+			"5"
 			{
 				"name"										"Surface-Medium"
-				"tall"      								"13"
-				"weight"									"500"
-				"antialias" 								"1"
-				"yres"										"480 700"
-			}
-			"2"
-			{
-				"name"										"Surface-Medium"
-				"tall"      								"16"
-				"weight"									"500"
-				"antialias" 								"1"
-				"yres"										"701 899"
-			}
-			"3"
-			{
-				"name"										"Surface-Medium"
-				"tall"     									"20"
-				"weight"									"500"
-				"antialias" 								"1"
-				"yres"										"900 1000"
-			}
-			"4"
-			{
-				"name"										"Surface-Medium"
-				"tall"      								"24"
-				"weight"									"500"
-				"antialias" 								"1"
-				"yres"										"1001 10000"
+				"tall"										"24"
+				"weight"									"0"
+				"antialias"									"1"
 			}
 		}
 		
@@ -405,9 +362,7 @@ Scheme
 			{
 				"name"										"Surface-Medium"
 				"tall"										"24"
-				"weight"									"500"
-				"range"										"0x0000 0x017F"
-				"additive"									"0"
+				"weight"									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -417,10 +372,8 @@ Scheme
 			{
 				"name"										"Surface-Medium"
 				"tall"										"24"
-				"weight"									"500"
-				"italic"									"1"
-				"range"										"0x0000 0x017F"
-				"additive"									"0"
+				"weight"									"0"
+				"italic"									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -430,9 +383,7 @@ Scheme
 			{
 				"name"										"Surface-Medium"
 				"tall"										"24"
-				"weight"									"500"
-				"range"										"0x0000 0x017F"
-				"additive"									"0"
+				"weight"									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -442,10 +393,8 @@ Scheme
 			{
 				"name"										"Surface-Medium"
 				"tall"										"24"
-				"weight"									"500"
-				"italic"									"1"
-				"range"										"0x0000 0x017F"
-				"additive"									"0"
+				"weight"									"0"
+				"italic"									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -455,9 +404,7 @@ Scheme
 			{
 				"name"										"Surface-Medium"
 				"tall"										"16"
-				"weight"									"500"
-				"range"										"0x0000 0x017F"
-				"additive"									"0"
+				"weight"									"0"
 				"antialias" 								"1"
 			}
 		}
