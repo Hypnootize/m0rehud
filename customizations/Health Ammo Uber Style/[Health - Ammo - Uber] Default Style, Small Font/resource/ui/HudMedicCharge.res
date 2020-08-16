@@ -54,7 +54,7 @@
 		"textAlignment"								"center"
 		"dulltext"									"0"
 		"brighttext"								"0"
-		"font"										"m0refont46"
+		"font"										"m0refont48"
 		"fgcolor"   								"Ubercharge"
 		
 		"pin_to_sibling"							"UberAnchor"
@@ -80,7 +80,7 @@
 		"textAlignment"								"center"
 		"dulltext"									"0"
 		"brighttext"								"0"
-		"font"										"m0refont46"
+		"font"										"m0refont48"
 		"fgcolor"  									"Black"
 		
 		"pin_to_sibling"							"ChargeLabelBig"
@@ -104,7 +104,7 @@
 		"textAlignment"								"center"
 		"dulltext"									"0"
 		"brighttext"								"0"
-		"font"										"m0refont46"
+		"font"										"m0refont48"
 		"fgcolor"  									"Black"
 		"alpha"  									"0"
 		
