@@ -75,7 +75,7 @@
 		"wide_minmode"								"138"
 		"visible"									"1"
 		"enabled"									"1"
-		"image"										"../HUD/tournament_panel_blu"
+		"image"										"../HUD/tournament_panel_red"
 		
 		"src_corner_height"							"22"
 		"src_corner_width"							"22"

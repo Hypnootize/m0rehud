@@ -1715,24 +1715,6 @@
 		}
 	}
 
-	"StreamListPanel"
-	{
-		"ControlName"								"CTFStreamListPanel"
-		"fieldName"									"StreamListPanel"
-		"xpos"										"c-15"
-		"ypos"										"65"
-		"zpos"										"17"
-		"wide"										"300"
-		"tall"										"350"
-		"visible"									"0"
-		"PaintBackgroundType"						"2"
-		"paintbackground"							"0"
-		"border"									"MainMenuHighlightBorder"
-
-		"navDown"									"SettingsButton"
-		"navLeft"									"WatchStreamButton"
-	}
-	
 	"TooltipPanel"
 	{
 		"ControlName"								"EditablePanel"
