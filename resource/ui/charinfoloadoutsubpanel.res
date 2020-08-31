@@ -1,4 +1,4 @@
-#base "../../resource/default/CharInfoLoadoutSubPanel.res"
+#base "../../resource/default/charinfoloadoutsubpanel.res"
 
 "Resource/UI/CharInfoLoadoutSubPanel.res"
 {

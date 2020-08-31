@@ -1,1 +1,1 @@
-#base "../HudMenuEngyBuild.res"
+#base "../hudmenuengybuild.res"

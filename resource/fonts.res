@@ -414,32 +414,32 @@ Scheme
 	{
 		"8" 
 		{
-			"font" 		"resource/fonts/Surface_Medium.otf"
+			"font" 		"resource/fonts/surface_medium.otf"
 			"name" 		"Surface-Medium"
 		}
 		
 		"9" 
 		{
-			"font" 		"resource/fonts/COOLVETI.TTF"
-			"name" 		"Coolvetica"
+			"font" 		"resource/fonts/surface_numbers.otf"
+			"name" 		"Surface-Numbers"
 		}
 		
 		"10" 
 		{
-			"font" 		"resource/fonts/Blocks.ttf"
+			"font" 		"resource/fonts/coolvetica.ttf"
+			"name" 		"Coolvetica"
+		}
+		
+		"11" 
+		{
+			"font" 		"resource/fonts/blocks.ttf"
 			"name" 		"Blocks"
 		}
 		
 		"12" 
 		{
-			"font" 		"resource/fonts/m0re Icons.otf"
+			"font" 		"resource/fonts/m0re icons.otf"
 			"name" 		"m0re Icons"
-		}
-		
-		"11" 
-		{
-			"font" 		"resource/fonts/Surface_Numbers.otf"
-			"name" 		"Surface-Numbers"
 		}
 	}
 }

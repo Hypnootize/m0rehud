@@ -1,4 +1,4 @@
-#base "../../../resource/default/BackPackPanel.res"
+#base "../../../resource/default/backpackpanel.res"
 
 "Resource/UI/FullLoadoutPanel.res"
 {

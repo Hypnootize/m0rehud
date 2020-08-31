@@ -1,1 +1,1 @@
-#base "../Tele_Entrance_Inactive.res"
+#base "../tele_entrance_inactive.res"

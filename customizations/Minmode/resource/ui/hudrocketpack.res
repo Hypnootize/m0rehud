@@ -1,4 +1,4 @@
-#base "HudItemEffectMeter.res"
+#base "huditemeffectmeter.res"
 
 "Resource/UI/HudRocketPack.res"
 {

@@ -1,1 +1,1 @@
-#base "TextWindow.res"
+#base "textwindow.res"

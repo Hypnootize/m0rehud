@@ -1,4 +1,4 @@
-#base "../../resource/default/ClassLoadoutPanel.res"
+#base "../../resource/default/classloadoutpanel.res"
 
 "Resource/UI/FullLoadoutPanel.res"
 {

@@ -1,1 +1,1 @@
-#base "../HudMenuEurekaEffect.res"
+#base "../hudmenueurekaeffect.res"
