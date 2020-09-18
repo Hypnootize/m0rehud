@@ -47,13 +47,13 @@
 	"friction"	"0.8"
 	"dampening"	"0.0"
 
-	"stepleft"	"SolidMetal.StepLeft"
-	"stepright"	"SolidMetal.StepRight"
-	"impacthard"	"SolidMetal.ImpactHard"
-	"impactsoft"	"SolidMetal.ImpactSoft"
-	"scraperough"	"SolidMetal.ScrapeRough"
-	"scrapesmooth"	"SolidMetal.ScrapeSmooth"
-	"bulletimpact"	"SolidMetal.BulletImpact"
+	"stepleft"	"Default.StepLeft"
+	"stepright"	"Default.StepRight"
+	"bulletimpact"	"Default.BulletImpact"
+	"scraperough"	"Default.ScrapeRough"
+	"scrapesmooth"	"Default.ScrapeSmooth"
+	"impacthard"	"Default.ImpactHard"
+	"impactsoft"	"Default.ImpactSoft"
 
 	"audioreflectivity" "0.66"
 	"audiohardnessfactor" "1.0"
@@ -62,7 +62,7 @@
 	"scrapeRoughThreshold" "0.5"
 	"impactHardThreshold" "0.5"
 
-	"gamematerial"	"-"
+	"gamematerial"	"I"
 	"jumpfactor" "1.0"
 	"maxspeedfactor" "1.0"
 	"climbable"	"0"
@@ -75,17 +75,17 @@
 	"elasticity"	"0.1"
 	"audioreflectivity" "0.83"
 	"friction"	"0.8"
-	//"stepleft"	"SolidMetal.StepLeft"
-	//"stepright"	"SolidMetal.StepRight"
-	//"impacthard"	"SolidMetal.ImpactHard"
-	//"impactsoft"	"SolidMetal.ImpactSoft"
-	//"scraperough"	"SolidMetal.ScrapeRough"
-	//"scrapesmooth"	"SolidMetal.ScrapeSmooth"
-	//"bulletimpact"	"SolidMetal.BulletImpact"
+	"stepleft"	"SolidMetal.StepLeft"
+	"stepright"	"SolidMetal.StepRight"
+	"impacthard"	"SolidMetal.ImpactHard"
+	"impactsoft"	"SolidMetal.ImpactSoft"
+	"scraperough"	"SolidMetal.ScrapeRough"
+	"scrapesmooth"	"SolidMetal.ScrapeSmooth"
+	"bulletimpact"	"SolidMetal.BulletImpact"
 
 	// "strain"		"SolidMetal.Strain"
 
-	//"gamematerial"	"I"
+	"gamematerial"	"I"
 }
 
 // metal box - smaller metal box (< 2' width/height/depth)
@@ -95,13 +95,13 @@
 	"base"	"solidmetal"
 	"thickness"	"0.1"
 
-	//"stepleft"	"SolidMetal.StepLeft"
-	//"stepright"	"SolidMetal.StepRight"
-	//"impacthard"	"SolidMetal.ImpactHard"
-	//"impactsoft"	"SolidMetal.ImpactSoft"
-	//"scraperough"	"SolidMetal.ScrapeRough"
-	//"scrapesmooth"	"SolidMetal.ScrapeSmooth"
-	//"bulletimpact"	"SolidMetal.BulletImpact"
+	"stepleft"	"Metal_Box.StepLeft"
+	"stepright"	"Metal_Box.StepRight"
+	"bulletimpact"	"Metal_Box.BulletImpact"
+	"scraperough"	"Metal_Box.ScrapeRough"
+	"scrapesmooth"	"Metal_Box.ScrapeSmooth"
+	"impacthard"	"Metal_Box.ImpactHard"
+	"impactsoft"	"Metal_Box.ImpactSoft"
 
 	"break"		"Metal_Box.Break"
 	// "strain"		"Metal_Box.Strain"
@@ -146,19 +146,19 @@
 	"elasticity"	"0.25"
 	"friction"	"0.8"
 
-	//"stepleft"	"SolidMetal.StepLeft"
-	//"stepright"	"SolidMetal.StepRight"
-	//"impacthard"	"SolidMetal.ImpactHard"
-	//"impactsoft"	"SolidMetal.ImpactSoft"
-	//"scraperough"	"SolidMetal.ScrapeRough"
-	//"scrapesmooth"	"SolidMetal.ScrapeSmooth"
-	//"bulletimpact"	"SolidMetal.BulletImpact"
+	"stepleft"	"MetalGrate.StepLeft"
+	"stepright"	"MetalGrate.StepRight"
+	"impacthard"	"MetalGrate.ImpactHard"
+	"impactsoft"	"MetalGrate.ImpactSoft"
+	"scraperough"	"MetalGrate.ScrapeRough"
+	"scrapeSmooth"	"MetalGrate.ScrapeSmooth"
+	"bulletimpact"	"MetalGrate.BulletImpact"
 
 	"audioreflectivity" "0.83"
 
 	// "strain"		"Metal_Box.Strain"
 
-	//"gamematerial"	"I"
+	"gamematerial"	"I"
 }
 
 // ~1mm thick metal
@@ -171,18 +171,14 @@
 	"elasticity"	"0.1"
 	"friction"	"0.8"
 
-	//"stepleft"	"SolidMetal.StepLeft"
-	//"stepright"	"SolidMetal.StepRight"
-	//"impacthard"	"SolidMetal.ImpactHard"
-	//"impactsoft"	"SolidMetal.ImpactSoft"
-	//"scraperough"	"SolidMetal.ScrapeRough"
-	//"scrapesmooth"	"SolidMetal.ScrapeSmooth"
-	//"bulletimpact"	"SolidMetal.BulletImpact"
+	"stepleft"	"MetalVent.StepLeft"
+	"stepright"	"MetalVent.StepRight"
+	"impacthard"	"MetalVent.ImpactHard"
 	
 	"audioreflectivity" "0.33"
 	"audioroughnessfactor" "0.1"
 
-	//"gamematerial"	"I"
+	"gamematerial"	"I"
 }
 
 // thick solid steel panel - used for solid wall, floor, machine construction
@@ -198,7 +194,7 @@
 	"audioreflectivity" "0.33"
 	"audioroughnessfactor" "0.1"
 
-	//"gamematerial"	"I"
+	"gamematerial"	"I"
 }
 
 "dirt"
@@ -207,18 +203,16 @@
 	"elasticity"	"0.01"
 	"friction"	"0.8"
 
-	//"stepleft"	"SolidMetal.StepLeft"
-	//"stepright"	"SolidMetal.StepRight"
-	//"impacthard"	"SolidMetal.ImpactHard"
-	//"impactsoft"	"SolidMetal.ImpactSoft"
-	//"scraperough"	"SolidMetal.ScrapeRough"
-	//"scrapesmooth"	"SolidMetal.ScrapeSmooth"
-	//"bulletimpact"	"SolidMetal.BulletImpact"
+	"stepleft"	"Dirt.StepLeft"
+	"stepright"	"Dirt.StepRight"
+	"impacthard"	"Dirt.Impact"
+	"scraperough"	"Dirt.Scrape"
+	"bulletimpact"	"Dirt.BulletImpact"
 
 	"audioreflectivity" "0.03"
 	"audiohardnessfactor" "0.25"
 
-	//"gamematerial"	"I"
+	"gamematerial"	"I"
 }
 
 "mud"
@@ -227,8 +221,8 @@
 	"friction"	 "0.6"
 	"dampening"	 "6.0"
 
-	//"stepleft"	 "Mud.StepLeft"
-	//"stepright"	 "Mud.StepRight"
+	"stepleft"	 "Mud.StepLeft"
+	"stepright"	 "Mud.StepRight"
 	
 	"audiohardnessfactor" "0.0"
 	"audioroughnessfactor" "0.1"
@@ -240,13 +234,8 @@
 	"friction"	 "0.1"
 	"jumpfactor" "0.7"
 
-	//"stepleft"	"SolidMetal.StepLeft"
-	//"stepright"	"SolidMetal.StepRight"
-	//"impacthard"	"SolidMetal.ImpactHard"
-	//"impactsoft"	"SolidMetal.ImpactSoft"
-	//"scraperough"	"SolidMetal.ScrapeRough"
-	//"scrapesmooth"	"SolidMetal.ScrapeSmooth"
-	//"bulletimpact"	"SolidMetal.BulletImpact"
+	"stepleft"	 "SlipperySlime.StepLeft"
+	"stepright"	 "SlipperySlime.StepRight"
 
 	"audiohardnessfactor" "0.0"
 	"audioroughnessfactor" "0.1"
@@ -255,14 +244,8 @@
 "grass"
 {
 	"base"		"dirt"
-	
-	//"stepleft"	"SolidMetal.StepLeft"
-	//"stepright"	"SolidMetal.StepRight"
-	//"impacthard"	"SolidMetal.ImpactHard"
-	//"impactsoft"	"SolidMetal.ImpactSoft"
-	//"scraperough"	"SolidMetal.ScrapeRough"
-	//"scrapesmooth"	"SolidMetal.ScrapeSmooth"
-	//"bulletimpact"	"SolidMetal.BulletImpact"
+	"stepleft"	"Grass.StepLeft"
+	"stepright"	"Grass.StepRight"
 }
 
 "tile"
@@ -272,21 +255,14 @@
 	"elasticity"	"0.3"
 	"friction"	"0.8"
 
-	//"stepleft"	"Tile.StepLeft"
-	//"stepright"	"Tile.StepRight"
+	"stepleft"	"Tile.StepLeft"
+	"stepright"	"Tile.StepRight"
 
 	"audioreflectivity" "0.99"
 	"audioroughnessfactor" "0.1"
 
-	//"stepleft"	"SolidMetal.StepLeft"
-	//"stepright"	"SolidMetal.StepRight"
-	//"impacthard"	"SolidMetal.ImpactHard"
-	//"impactsoft"	"SolidMetal.ImpactSoft"
-	//"scraperough"	"SolidMetal.ScrapeRough"
-	//"scrapesmooth"	"SolidMetal.ScrapeSmooth"
-	//"bulletimpact"	"SolidMetal.BulletImpact"
-	
-	//"gamematerial"	"I"
+	"bulletimpact"	"Tile.BulletImpact"
+	"gamematerial"	"I"
 }
 
 // generic wood (NOTE: materials should use wood_box, wood_crate, wood_plank, wood_panel etc)
@@ -297,13 +273,13 @@
 	"elasticity"	"0.1"
 	"friction"	"0.8"
 
-	//"stepleft"	"SolidMetal.StepLeft"
-	//"stepright"	"SolidMetal.StepRight"
-	//"impacthard"	"SolidMetal.ImpactHard"
-	//"impactsoft"	"SolidMetal.ImpactSoft"
-	//"scraperough"	"SolidMetal.ScrapeRough"
-	//"scrapesmooth"	"SolidMetal.ScrapeSmooth"
-	//"bulletimpact"	"SolidMetal.BulletImpact"
+	"stepleft"		"Wood.StepLeft"
+	"stepright"		"Wood.StepRight"
+	"bulletimpact"	"Wood.BulletImpact"
+	"scraperough"	"Wood.ScrapeRough"
+	"scrapesmooth"	"Wood.ScrapeSmooth"
+	"impacthard"	"Wood.ImpactHard"
+	"impactsoft"	"Wood.ImpactSoft"
 
 //	"strain"		"Wood.Strain"
 	"break"			"Wood.Break"
@@ -311,7 +287,7 @@
 	"audioreflectivity" "0.33"
 	"audiohardnessfactor" "0.25"
 
-	//"gamematerial"	"I"
+	"gamematerial"	"I"
 }
 
 "Wood_lowdensity"
@@ -326,13 +302,13 @@
 {
 	"base"	"Wood"
 
-	//"stepleft"	"SolidMetal.StepLeft"
-	//"stepright"	"SolidMetal.StepRight"
-	//"impacthard"	"SolidMetal.ImpactHard"
-	//"impactsoft"	"SolidMetal.ImpactSoft"
-	//"scraperough"	"SolidMetal.ScrapeRough"
-	//"scrapesmooth"	"SolidMetal.ScrapeSmooth"
-	//"bulletimpact"	"SolidMetal.BulletImpact"
+	"stepleft"		"Wood_Box.StepLeft"
+	"stepright"		"Wood_Box.StepRight"
+	"bulletimpact"	"Wood_Box.BulletImpact"
+	"scraperough"	"Wood_Box.ScrapeRough"
+	"scrapesmooth"	"Wood_Box.ScrapeSmooth"
+	"impacthard"	"Wood_Box.ImpactHard"
+	"impactsoft"	"Wood_Box.ImpactSoft"
 
 //	"strain"		"Wood_Box.Strain"
 	"break"			"Wood_Box.Break"
@@ -345,13 +321,12 @@
 {
 	"base"	"Wood"
 
-	//"stepleft"	"SolidMetal.StepLeft"
-	//"stepright"	"SolidMetal.StepRight"
-	//"impacthard"	"SolidMetal.ImpactHard"
-	//"impactsoft"	"SolidMetal.ImpactSoft"
-	//"scraperough"	"SolidMetal.ScrapeRough"
-	//"scrapesmooth"	"SolidMetal.ScrapeSmooth"
-	//"bulletimpact"	"SolidMetal.BulletImpact"
+	"stepleft"		"Wood_Crate.StepLeft"
+	"stepright"		"Wood_Crate.StepRight"
+	"scraperough"	"Wood_Crate.ScrapeRough"
+	"scrapesmooth"	"Wood_Crate.ScrapeSmooth"
+	"impacthard"	"Wood_Crate.ImpactHard"
+	"impactsoft"	"Wood_Crate.ImpactSoft"
 
 //	"strain"		"Wood_Crate.Strain"
 	"break"			"Wood_Crate.Break"
@@ -364,13 +339,11 @@
 {
 	"base"	"Wood_Box"
 
-	//"stepleft"	"SolidMetal.StepLeft"
-	//"stepright"	"SolidMetal.StepRight"
-	//"impacthard"	"SolidMetal.ImpactHard"
-	//"impactsoft"	"SolidMetal.ImpactSoft"
-	//"scraperough"	"SolidMetal.ScrapeRough"
-	//"scrapesmooth"	"SolidMetal.ScrapeSmooth"
-	//"bulletimpact"	"SolidMetal.BulletImpact"
+	"bulletimpact"	"Wood_Plank.BulletImpact"
+	"scraperough"	"Wood_Plank.ScrapeRough"
+	"scrapesmooth"	"Wood_Plank.ScrapeSmooth"
+	"impacthard"	"Wood_Plank.ImpactHard"
+	"impactsoft"	"Wood_Plank.ImpactSoft"
 
 //	"strain"		"Wood_Plank.Strain"
 	"break"			"Wood_Plank.Break"
@@ -383,13 +356,11 @@
 {
 	"base"	"Wood"
 
-	//"stepleft"	"SolidMetal.StepLeft"
-	//"stepright"	"SolidMetal.StepRight"
-	//"impacthard"	"SolidMetal.ImpactHard"
-	//"impactsoft"	"SolidMetal.ImpactSoft"
-	//"scraperough"	"SolidMetal.ScrapeRough"
-	//"scrapesmooth"	"SolidMetal.ScrapeSmooth"
-	//"bulletimpact"	"SolidMetal.BulletImpact"
+	"bulletimpact"	"Wood_Solid.BulletImpact"
+	"scraperough"	"Wood_Solid.ScrapeRough"
+	"scrapesmooth"	"Wood_Solid.ScrapeSmooth"
+	"impacthard"	"Wood_Solid.ImpactHard"
+	"impactsoft"	"Wood_Solid.ImpactSoft"
 
 //	"strain"		"Wood_Solid.Strain"
 	"break"			"Wood_Solid.Break"
@@ -402,13 +373,7 @@
 {
 	"base"	"Wood_Box"
 
-	//"stepleft"	"SolidMetal.StepLeft"
-	//"stepright"	"SolidMetal.StepRight"
-	//"impacthard"	"SolidMetal.ImpactHard"
-	//"impactsoft"	"SolidMetal.ImpactSoft"
-	//"scraperough"	"SolidMetal.ScrapeRough"
-	//"scrapesmooth"	"SolidMetal.ScrapeSmooth"
-	//"bulletimpact"	"SolidMetal.BulletImpact"
+	"impactsoft"	"Wood_Furniture.ImpactSoft"
 
 //	"strain"		"Wood_Furniture.Strain"
 	"break"			"Wood_Furniture.Break"
@@ -422,13 +387,13 @@
 	"base"	"Wood_Crate"
 	"thickness"		"1.0"
 
-	//"stepleft"	"SolidMetal.StepLeft"
-	//"stepright"	"SolidMetal.StepRight"
-	//"impacthard"	"SolidMetal.ImpactHard"
-	//"impactsoft"	"SolidMetal.ImpactSoft"
-	//"scraperough"	"SolidMetal.ScrapeRough"
-	//"scrapesmooth"	"SolidMetal.ScrapeSmooth"
-	//"bulletimpact"	"SolidMetal.BulletImpact"
+	"stepleft"		"Wood_Panel.StepLeft"
+	"stepright"		"Wood_Panel.StepRight"
+	"bulletimpact"	"Wood_Panel.BulletImpact"
+	"scraperough"	"Wood_Panel.ScrapeRough"
+	"scrapesmooth"	"Wood_Panel.ScrapeSmooth"
+	"impacthard"	"Wood_Panel.ImpactHard"
+	"impactsoft"	"Wood_Panel.ImpactSoft"
 
 //	"strain"		"Wood_Panel.Strain"
 	"break"			"Wood_Panel.Break"
@@ -442,19 +407,15 @@
 	"elasticity"	"0.1"
 	"friction"	"0.8"
 
-	//"stepleft"	"SolidMetal.StepLeft"
-	//"stepright"	"SolidMetal.StepRight"
-	//"impacthard"	"SolidMetal.ImpactHard"
-	//"impactsoft"	"SolidMetal.ImpactSoft"
-	//"scraperough"	"SolidMetal.ScrapeRough"
-	//"scrapesmooth"	"SolidMetal.ScrapeSmooth"
-	//"bulletimpact"	"SolidMetal.BulletImpact"
+	"stepleft"	"Water.StepLeft"
+	"stepright"	"Water.StepRight"
+	"bulletimpact"	"Water.BulletImpact"
 
 	"audioreflectivity" "0.33"
 	"audioroughnessfactor" "0.1"
 	"audiohardnessfactor" "0.0"
 
-	//"gamematerial"	"I"
+	"gamematerial"	"I"
 }
 
 "slime"
@@ -464,15 +425,11 @@
 	"friction"	"0.9"
 	"dampening"	 "200.0"
 
-	//"stepleft"	"SolidMetal.StepLeft"
-	//"stepright"	"SolidMetal.StepRight"
-	//"impacthard"	"SolidMetal.ImpactHard"
-	//"impactsoft"	"SolidMetal.ImpactSoft"
-	//"scraperough"	"SolidMetal.ScrapeRough"
-	//"scrapesmooth"	"SolidMetal.ScrapeSmooth"
-	//"bulletimpact"	"SolidMetal.BulletImpact"
+	"stepleft"	"Mud.StepLeft"
+	"stepright"	"Mud.StepRight"
+	"bulletimpact"	"Water.BulletImpact"
 
-	//"gamematerial"	"I"
+	"gamematerial"	"I"
 
 	"audioreflectivity" "0.33"
 	"audiohardnessfactor" "0.0"
@@ -492,13 +449,9 @@
 // wade is a water material for walking in/on water at knee height
 "wade"
 {
-	//"stepleft"	"SolidMetal.StepLeft"
-	//"stepright"	"SolidMetal.StepRight"
-	//"impacthard"	"SolidMetal.ImpactHard"
-	//"impactsoft"	"SolidMetal.ImpactSoft"
-	//"scraperough"	"SolidMetal.ScrapeRough"
-	//"scrapesmooth"	"SolidMetal.ScrapeSmooth"
-	//"bulletimpact"	"SolidMetal.BulletImpact"
+	"base"		"water"
+	"stepleft"	"Wade.StepLeft"
+	"stepright"	"Wade.StepRight"
 
 	"audioreflectivity" "0.33"
 
@@ -510,8 +463,8 @@
 {
 	"base"		"metal"
 	"climbable"	"1.0"
-	//"stepleft"	"Ladder.StepLeft"
-	//"stepright"	"Ladder.StepRight"
+	"stepleft"	"Ladder.StepLeft"
+	"stepright"	"Ladder.StepRight"
 
 	"audioreflectivity" "0.33"
 
@@ -522,8 +475,8 @@
 {
 	"base"		"wood"
 	"climbable"	"1.0"
-	//"stepleft"	"Ladder.WoodStepLeft"
-	//"stepright"	"Ladder.WoodStepRight"
+	"stepleft"	"Ladder.WoodStepLeft"
+	"stepright"	"Ladder.WoodStepRight"
 
 	"audioreflectivity" "0.33"
 
@@ -539,13 +492,14 @@
 	"elasticity"	"0.2"
 	"friction"	"0.5"
 
-	//"stepleft"	"SolidMetal.StepLeft"
-	//"stepright"	"SolidMetal.StepRight"
-	//"impacthard"	"SolidMetal.ImpactHard"
-	//"impactsoft"	"SolidMetal.ImpactSoft"
-	//"scraperough"	"SolidMetal.ScrapeRough"
-	//"scrapesmooth"	"SolidMetal.ScrapeSmooth"
-	//"bulletimpact"	"SolidMetal.BulletImpact"
+	"stepleft"		"Glass.StepLeft"
+	"stepright"		"Glass.StepRight"
+	"scraperough"	"Glass.ScrapeRough"
+	"scrapesmooth"	"Glass.ScrapeSmooth"
+	"impacthard"	"Glass.ImpactHard"
+	"impactsoft"	"Glass.ImpactSoft"
+		
+	"bulletimpact"	"Glass.BulletImpact"
 	
 	// "strain"		"Glass.Strain"
 	"break"			"Glass.Break"
@@ -554,7 +508,7 @@
 	"audiohardnessfactor" "1.0"
 
 	"audioroughnessfactor" "0.0"
-	//"gamematerial"	"I"
+	"gamematerial"	"I"
 }
 
 // computer case, tech equipment case
@@ -563,15 +517,11 @@
 {
 	"base"		"metal_box"
 
-	//"stepleft"	"SolidMetal.StepLeft"
-	//"stepright"	"SolidMetal.StepRight"
-	//"impacthard"	"SolidMetal.ImpactHard"
-	//"impactsoft"	"SolidMetal.ImpactSoft"
-	//"scraperough"	"SolidMetal.ScrapeRough"
-	//"scrapesmooth"	"SolidMetal.ScrapeSmooth"
-	//"bulletimpact"	"SolidMetal.BulletImpact"
+	"bulletimpact"	"Computer.BulletImpact"
+	"impacthard"	"Computer.ImpactHard"
+	"impactsoft"	"Computer.ImpactSoft"
 
-	//"gamematerial"	"I"
+	"gamematerial"	"I"
 }
 
 "concrete"
@@ -580,30 +530,27 @@
 	"elasticity"	"0.2"
 	"friction"	"0.8"
 
-	//"stepleft"	"SolidMetal.StepLeft"
-	//"stepright"	"SolidMetal.StepRight"
-	//"impacthard"	"SolidMetal.ImpactHard"
-	//"impactsoft"	"SolidMetal.ImpactSoft"
-	//"scraperough"	"SolidMetal.ScrapeRough"
-	//"scrapesmooth"	"SolidMetal.ScrapeSmooth"
-	//"bulletimpact"	"SolidMetal.BulletImpact"
+	"stepleft"		"Concrete.StepLeft"
+	"stepright"		"Concrete.StepRight"
+	"scraperough"	"Concrete.ScrapeRough"
+	"scrapesmooth"	"Concrete.ScrapeSmooth"
+	"impacthard"	"Concrete.ImpactHard"
+	"impactsoft"	"Concrete.ImpactSoft"
+	"bulletimpact"	"Concrete.BulletImpact"
 
 	"audioreflectivity" "0.66"
 
-	//"gamematerial"	"I"
+	"gamematerial"	"I"
 }
 
 // Solid rock (small sounds)
 "rock"
 {
 	"base"		"concrete"
-	//"stepleft"	"SolidMetal.StepLeft"
-	//"stepright"	"SolidMetal.StepRight"
-	//"impacthard"	"SolidMetal.ImpactHard"
-	//"impactsoft"	"SolidMetal.ImpactSoft"
-	//"scraperough"	"SolidMetal.ScrapeRough"
-	//"scrapesmooth"	"SolidMetal.ScrapeSmooth"
-	//"bulletimpact"	"SolidMetal.BulletImpact"
+	"impacthard"	"Rock.ImpactHard"
+	"impactsoft"	"Rock.ImpactSoft"
+	"scraperough"	"Rock.ImpactHard"
+	"scrapesmooth"	"Rock.ImpactSoft"
 
 }
 
@@ -618,26 +565,18 @@
 "boulder"
 {
 	"base"		"rock"
-	//"stepleft"	"SolidMetal.StepLeft"
-	//"stepright"	"SolidMetal.StepRight"
-	//"impacthard"	"SolidMetal.ImpactHard"
-	//"impactsoft"	"SolidMetal.ImpactSoft"
-	//"scraperough"	"SolidMetal.ScrapeRough"
-	//"scrapesmooth"	"SolidMetal.ScrapeSmooth"
-	//"bulletimpact"	"SolidMetal.BulletImpact"
+	"scraperough"	"Boulder.ScrapeRough"
+	"scrapesmooth"	"Boulder.ScrapeSmooth"
+	"impacthard"	"Boulder.ImpactHard"
+	"impactsoft"	"Boulder.ImpactSoft"
 }
 
 "gravel"
 {
 	"base"		"rock"
 	"friction"	"0.4"
-	//"stepleft"	"SolidMetal.StepLeft"
-	//"stepright"	"SolidMetal.StepRight"
-	//"impacthard"	"SolidMetal.ImpactHard"
-	//"impactsoft"	"SolidMetal.ImpactSoft"
-	//"scraperough"	"SolidMetal.ScrapeRough"
-	//"scrapesmooth"	"SolidMetal.ScrapeSmooth"
-	//"bulletimpact"	"SolidMetal.BulletImpact"
+	"stepleft"	"Gravel.StepLeft"
+	"stepright""Gravel.StepRight"
 }
 
 "brick"
@@ -651,13 +590,7 @@
 {
 	
 	"base"		"concrete"
-	//"stepleft"	"SolidMetal.StepLeft"
-	//"stepright"	"SolidMetal.StepRight"
-	//"impacthard"	"SolidMetal.ImpactHard"
-	//"impactsoft"	"SolidMetal.ImpactSoft"
-	//"scraperough"	"SolidMetal.ScrapeRough"
-	//"scrapesmooth"	"SolidMetal.ScrapeSmooth"
-	//"bulletimpact"	"SolidMetal.BulletImpact"
+	"impacthard"	"Concrete_Block.ImpactHard"
 }
 
 // chainlink fencing material
@@ -668,14 +601,14 @@
 	"density"	"1600"
 	"elasticity"	"0.25"
 	"friction"	"0.8"
-	//"stepleft"	"SolidMetal.StepLeft"
-	//"stepright"	"SolidMetal.StepRight"
-	//"impacthard"	"SolidMetal.ImpactHard"
-	//"impactsoft"	"SolidMetal.ImpactSoft"
-	//"scraperough"	"SolidMetal.ScrapeRough"
-	//"scrapesmooth"	"SolidMetal.ScrapeSmooth"
-	//"bulletimpact"	"SolidMetal.BulletImpact"
-	//"gamematerial"	"I"
+	"stepleft"	"ChainLink.StepLeft"
+	"stepright"	"ChainLink.StepRight"
+	"impacthard"	"ChainLink.ImpactHard"
+	"impactsoft"	"ChainLink.ImpactSoft"
+	"scraperough"	"ChainLink.ScrapeRough"
+	"scrapesmooth"	"ChainLink.ScrapeSmooth"
+	"bulletimpact"	"ChainLink.BulletImpact"
+	"gamematerial"	"I"
 }
 
 // metal chain
@@ -683,14 +616,12 @@
 "chain"
 {
 	"base"		"chainlink"
-	//"stepleft"	"SolidMetal.StepLeft"
-	//"stepright"	"SolidMetal.StepRight"
-	//"impacthard"	"SolidMetal.ImpactHard"
-	//"impactsoft"	"SolidMetal.ImpactSoft"
-	//"scraperough"	"SolidMetal.ScrapeRough"
-	//"scrapesmooth"	"SolidMetal.ScrapeSmooth"
-	//"bulletimpact"	"SolidMetal.BulletImpact"
-	//"gamematerial"	"I"
+	"impacthard"	"ChainLink.ImpactHard"
+	"impactsoft"	"ChainLink.ImpactSoft"
+	"scraperough"	"ChainLink.ScrapeRough"
+	"scrapesmooth"	"ChainLink.ScrapeSmooth"
+	"bulletimpact"	"ChainLink.BulletImpact"
+	"gamematerial"	"I"
 }
 
 // medium sized body
@@ -699,13 +630,13 @@
 {
 	"density"	"900"
 
-	//"stepleft"	"SolidMetal.StepLeft"
-	//"stepright"	"SolidMetal.StepRight"
-	//"impacthard"	"SolidMetal.ImpactHard"
-	//"impactsoft"	"SolidMetal.ImpactSoft"
-	//"scraperough"	"SolidMetal.ScrapeRough"
-	//"scrapesmooth"	"SolidMetal.ScrapeSmooth"
-	//"bulletimpact"	"SolidMetal.BulletImpact"
+	"stepleft"	"Flesh.StepLeft"
+	"stepright"	"Flesh.StepRight"
+	"bulletimpact"	"Flesh.BulletImpact"
+	"impacthard"	"Flesh.ImpactHard"
+	"impactsoft"	"Flesh.ImpactSoft"
+	"scraperough"	"Flesh.ScrapeRough"
+	"scrapesmooth"	"Flesh.ScrapeSmooth"
 
 //	"strain"		"Flesh.Strain"
 	"break"			"Flesh.Break"
@@ -714,7 +645,7 @@
 	"audioHardMinVelocity" "500"
 	"audioroughnessfactor" "0.1"
 
-	//"gamematerial"	"I"
+	"gamematerial"	"I"
 }
 
 // gibs
@@ -723,22 +654,16 @@
 {
 	"base"			"flesh"
 
-	//"stepleft"	"SolidMetal.StepLeft"
-	//"stepright"	"SolidMetal.StepRight"
-	//"impacthard"	"SolidMetal.ImpactHard"
-	//"impactsoft"	"SolidMetal.ImpactSoft"
-	//"scraperough"	"SolidMetal.ScrapeRough"
-	//"scrapesmooth"	"SolidMetal.ScrapeSmooth"
-	//"bulletimpact"	"SolidMetal.BulletImpact"
+	"impacthard"	"Flesh_Bloody.ImpactHard"
 
-	//"gamematerial"	"I"
+	"gamematerial"	"I"
 }
 
 "alienflesh"
 {
 	"base"			"flesh"
 
-	//"gamematerial"	"I"
+	"gamematerial"	"I"
 }
 
 
@@ -746,35 +671,25 @@
 "armorflesh"
 {
 	"base"		"flesh"
-	//"stepleft"	"SolidMetal.StepLeft"
-	//"stepright"	"SolidMetal.StepRight"
-	//"impacthard"	"SolidMetal.ImpactHard"
-	//"impactsoft"	"SolidMetal.ImpactSoft"
-	//"scraperough"	"SolidMetal.ScrapeRough"
-	//"scrapesmooth"	"SolidMetal.ScrapeSmooth"
-	//"bulletimpact"	"SolidMetal.BulletImpact"
+	"bulletimpact"	"ArmorFlesh.BulletImpact"
 
 	"audiohardnessfactor" "1.0"
 	"audioroughnessfactor" "0.1"
 
-	//"gamematerial"	"I"
+	"gamematerial"	"I"
 }
 
 "watermelon"
 {
 	"density"	"900"
-	//"stepleft"	"SolidMetal.StepLeft"
-	//"stepright"	"SolidMetal.StepRight"
-	//"impacthard"	"SolidMetal.ImpactHard"
-	//"impactsoft"	"SolidMetal.ImpactSoft"
-	//"scraperough"	"SolidMetal.ScrapeRough"
-	//"scrapesmooth"	"SolidMetal.ScrapeSmooth"
-	//"bulletimpact"	"SolidMetal.BulletImpact"
+	"bulletimpact"	"Watermelon.BulletImpact"
+	"impacthard"	"Watermelon.Impact"
+	"scraperough"	"Watermelon.Scrape"
 
 	"audiohardnessfactor" "0.25"
 	"audioroughnessfactor" "0.1"
 
-	//"gamematerial"	"I"
+	"gamematerial"	"I"
 }
 
 "snow"
@@ -806,13 +721,9 @@
 	"elasticity"	"0.01"
 	"friction"	"0.8"
 	
-	//"stepleft"	"SolidMetal.StepLeft"
-	//"stepright"	"SolidMetal.StepRight"
-	//"impacthard"	"SolidMetal.ImpactHard"
-	//"impactsoft"	"SolidMetal.ImpactSoft"
-	//"scraperough"	"SolidMetal.ScrapeRough"
-	//"scrapesmooth"	"SolidMetal.ScrapeSmooth"
-	//"bulletimpact"	"SolidMetal.BulletImpact"
+	"impacthard"	"Carpet.Impact"
+	"bulletimpact"	"Carpet.BulletImpact"
+	"scraperough"	"Carpet.Scrape"
 
 	"audioreflectivity" "0.03"
 	"audiohardnessfactor" "0.25"
@@ -827,13 +738,13 @@
 	"audiohardnessfactor" "0.5"
 	"audioroughnessfactor" "0.1"
 
-	//"stepleft"	"SolidMetal.StepLeft"
-	//"stepright"	"SolidMetal.StepRight"
-	//"impacthard"	"SolidMetal.ImpactHard"
-	//"impactsoft"	"SolidMetal.ImpactSoft"
-	//"scraperough"	"SolidMetal.ScrapeRough"
-	//"scrapesmooth"	"SolidMetal.ScrapeSmooth"
-	//"bulletimpact"	"SolidMetal.BulletImpact"
+	"stepleft"		"drywall.StepLeft"
+	"stepright"		"drywall.StepRight"
+	"bulletimpact"	"drywall.ImpactHard"
+	"scraperough"	"ceiling_tile.ScrapeRough"
+	"scrapesmooth"	"ceiling_tile.ScrapeSmooth"
+	"impacthard"	"drywall.ImpactHard"
+	"impactsoft"	"drywall.ImpactSoft"
 
 //	"strain"		"Cardboard.Strain"
 	"break"			"Cardboard.Break"
@@ -851,13 +762,13 @@
 	"audiohardnessfactor" "0.25"
 	"audioroughnessfactor" "0.25"
 
-	//"stepleft"	"SolidMetal.StepLeft"
-	//"stepright"	"SolidMetal.StepRight"
-	//"impacthard"	"SolidMetal.ImpactHard"
-	//"impactsoft"	"SolidMetal.ImpactSoft"
-	//"scraperough"	"SolidMetal.ScrapeRough"
-	//"scrapesmooth"	"SolidMetal.ScrapeSmooth"
-	//"bulletimpact"	"SolidMetal.BulletImpact"
+	"stepleft"		"Cardboard.StepLeft"
+	"stepright"		"Cardboard.StepRight"
+	"bulletimpact"	"Cardboard.BulletImpact"
+	"scraperough"	"Cardboard.ScrapeRough"
+	"scrapesmooth"	"Cardboard.ScrapeSmooth"
+	"impacthard"	"Cardboard.ImpactHard"
+	"impactsoft"	"Cardboard.ImpactSoft"
 
 //	"shake"			"Cardboard.Shake"
 //	"strain"		"Cardboard.Strain"
@@ -877,20 +788,20 @@
 	"audiohardnessfactor" "0.25"
 	"audioroughnessfactor" "0.25"
 
-	//"stepleft"	"SolidMetal.StepLeft"
-	//"stepright"	"SolidMetal.StepRight"
-	//"impacthard"	"SolidMetal.ImpactHard"
-	//"impactsoft"	"SolidMetal.ImpactSoft"
-	//"scraperough"	"SolidMetal.ScrapeRough"
-	//"scrapesmooth"	"SolidMetal.ScrapeSmooth"
-	//"bulletimpact"	"SolidMetal.BulletImpact"
+	"stepleft"		"Plastic_Barrel.StepLeft"
+	"stepright"		"Plastic_Barrel.StepRight"
+	"bulletimpact"	"Plastic_Barrel.BulletImpact"
+	"scraperough"	"Plastic_Barrel.ScrapeRough"
+	"scrapesmooth"	"Plastic_Barrel.ScrapeSmooth"
+	"impacthard"	"Plastic_Barrel.ImpactHard"
+	"impactsoft"	"Plastic_Barrel.ImpactSoft"
 
 //	"shake"			"Plastic_Barrel.Shake"
 //	"strain"		"Plastic_Barrel.Strain"
 	"break"			"Plastic_Barrel.Break"
 //	"roll"			"Plastic_Barrel.Roll"
 
-	//"gamematerial"	"I"
+	"gamematerial"	"I"
 }
 
 // small - medium plastic box, hard plastic
@@ -905,18 +816,18 @@
 	"audiohardnessfactor" "0.25"
 	"audioroughnessfactor" "0.25"
 
-	//"stepleft"	"SolidMetal.StepLeft"
-	//"stepright"	"SolidMetal.StepRight"
-	//"impacthard"	"SolidMetal.ImpactHard"
-	//"impactsoft"	"SolidMetal.ImpactSoft"
-	//"scraperough"	"SolidMetal.ScrapeRough"
-	//"scrapesmooth"	"SolidMetal.ScrapeSmooth"
-	//"bulletimpact"	"SolidMetal.BulletImpact"
+	"stepleft"		"Plastic_Box.StepLeft"
+	"stepright"		"Plastic_Box.StepRight"
+	"bulletimpact"	"Plastic_Box.BulletImpact"
+	"scraperough"	"Plastic_Box.ScrapeRough"
+	"scrapesmooth"	"Plastic_Box.ScrapeSmooth"
+	"impacthard"	"Plastic_Box.ImpactHard"
+	"impactsoft"	"Plastic_Box.ImpactSoft"
 
 //	"strain"		"Plastic_Box.Strain"
 	"break"			"Plastic_Box.Break"
 
-	//"gamematerial"	"I"
+	"gamematerial"	"I"
 }
 
 // smaller generic hard plastic
@@ -926,7 +837,7 @@
  	"base"		"Plastic_Box"
 	"audioroughnessfactor" "0.1"
 
-	//"bulletimpact"	"Plastic_Box.ImpactHard"
+	"bulletimpact"	"Plastic_Box.ImpactHard"
 }
 
 // small med kit, smaller tech items, battery
@@ -936,7 +847,7 @@
 	"base"		"Plastic_Box"
 	"density"	"600"
 
-	//"bulletimpact"	"Plastic_Box.ImpactHard"
+	"bulletimpact"	"Plastic_Box.ImpactHard"
 }
 
 
@@ -952,13 +863,9 @@
 "sand"
 {
 	"base"		"dirt"
-	//"stepleft"	"SolidMetal.StepLeft"
-	//"stepright"	"SolidMetal.StepRight"
-	//"impacthard"	"SolidMetal.ImpactHard"
-	//"impactsoft"	"SolidMetal.ImpactSoft"
-	//"scraperough"	"SolidMetal.ScrapeRough"
-	//"scrapesmooth"	"SolidMetal.ScrapeSmooth"
-	//"bulletimpact"	"SolidMetal.BulletImpact"
+	"stepleft"	"Sand.StepLeft"
+	"stepright"	"Sand.StepRight"
+	"bulletimpact"	"Sand.BulletImpact"
 
 	"audioreflectivity" "0.03"
 }
@@ -971,13 +878,11 @@
 	"elasticity"	"0.2"
 	"friction"		"0.8"
 
-	//"stepleft"	"SolidMetal.StepLeft"
-	//"stepright"	"SolidMetal.StepRight"
-	//"impacthard"	"SolidMetal.ImpactHard"
-	//"impactsoft"	"SolidMetal.ImpactSoft"
-	//"scraperough"	"SolidMetal.ScrapeRough"
-	//"scrapesmooth"	"SolidMetal.ScrapeSmooth"
-	//"bulletimpact"	"SolidMetal.BulletImpact"
+	"stepleft"		"Rubber.StepLeft"
+	"stepright"		"Rubber.StepRight"
+	"impacthard"	"Rubber.ImpactHard"
+	"impactsoft"	"Rubber.ImpactSoft"
+	"bulletimpact"	"Rubber.BulletImpact"
 
 	"audioroughnessfactor" "0.1"
 	"audiohardnessfactor" "0.2"
@@ -990,13 +895,9 @@
 {
 	"base"			"rubber"
 
-	//"stepleft"	"SolidMetal.StepLeft"
-	//"stepright"	"SolidMetal.StepRight"
-	//"impacthard"	"SolidMetal.ImpactHard"
-	//"impactsoft"	"SolidMetal.ImpactSoft"
-	//"scraperough"	"SolidMetal.ScrapeRough"
-	//"scrapesmooth"	"SolidMetal.ScrapeSmooth"
-	//"bulletimpact"	"SolidMetal.BulletImpact"
+	"bulletimpact"	"Rubber_Tire.BulletImpact"
+	"impacthard"	"Rubber_Tire.ImpactHard"
+	"impactsoft"	"Rubber_Tire.ImpactSoft"
 
 //	"strain"		"Rubber_Tire.Strain"
 
@@ -1007,13 +908,9 @@
 {
 	"base"			"rubber"
 
-	//"stepleft"	"SolidMetal.StepLeft"
-	//"stepright"	"SolidMetal.StepRight"
-	//"impacthard"	"SolidMetal.ImpactHard"
-	//"impactsoft"	"SolidMetal.ImpactSoft"
-	//"scraperough"	"SolidMetal.ScrapeRough"
-	//"scrapesmooth"	"SolidMetal.ScrapeSmooth"
-	//"bulletimpact"	"SolidMetal.BulletImpact"
+	"bulletimpact"	"Rubber_Tire.BulletImpact"
+	"impacthard"	"Rubber_Tire.ImpactHard"
+	"impactsoft"	"Rubber_Tire.ImpactSoft"
 
 //	"strain"		"Rubber_Tire.Strain"
 
@@ -1057,13 +954,13 @@
 	"friction"	"0.4"
 	"elasticity"	"0.3"
 
-	//"stepleft"	"SolidMetal.StepLeft"
-	//"stepright"	"SolidMetal.StepRight"
-	//"impacthard"	"SolidMetal.ImpactHard"
-	//"impactsoft"	"SolidMetal.ImpactSoft"
-	//"scraperough"	"SolidMetal.ScrapeRough"
-	//"scrapesmooth"	"SolidMetal.ScrapeSmooth"
-	//"bulletimpact"	"SolidMetal.BulletImpact"
+	"stepleft"		"GlassBottle.StepLeft"
+	"stepright"		"GlassBottle.StepRight"
+	"impacthard"	"GlassBottle.ImpactHard"
+	"impactsoft"	"GlassBottle.ImpactSoft"
+	"scraperough"	"GlassBottle.ScrapeRough"
+	"scrapesmooth"	"GlassBottle.ScrapeSmooth"
+	"bulletimpact"	"GlassBottle.BulletImpact"
 
 	"break"			"GlassBottle.Break"
 }
@@ -1076,13 +973,9 @@
 	"friction"	"0.4"
 	"elasticity"	"0.3"
 
-	//"stepleft"	"SolidMetal.StepLeft"
-	//"stepright"	"SolidMetal.StepRight"
-	//"impacthard"	"SolidMetal.ImpactHard"
-	//"impactsoft"	"SolidMetal.ImpactSoft"
-	//"scraperough"	"SolidMetal.ScrapeRough"
-	//"scrapesmooth"	"SolidMetal.ScrapeSmooth"
-	//"bulletimpact"	"SolidMetal.BulletImpact"
+	"impacthard"	"Pottery.ImpactHard"
+	"impactsoft"	"Pottery.ImpactSoft"
+	"bulletimpact"	"Pottery.BulletImpact"
 
 	"break"			"Pottery.Break"
 }
@@ -1099,13 +992,13 @@
 	"audiohardnessfactor" "1.0"
 	"audioroughnessfactor" "0.4"
 
-	//"stepleft"	"SolidMetal.StepLeft"
-	//"stepright"	"SolidMetal.StepRight"
-	//"impacthard"	"SolidMetal.ImpactHard"
-	//"impactsoft"	"SolidMetal.ImpactSoft"
-	//"scraperough"	"SolidMetal.ScrapeRough"
-	//"scrapesmooth"	"SolidMetal.ScrapeSmooth"
-	//"bulletimpact"	"SolidMetal.BulletImpact"
+	"stepleft"		"Grenade.StepLeft"
+	"stepright"		"Grenade.StepRight"
+	"bulletimpact"	"Grenade.ImpactHard"
+	"scraperough"	"Grenade.ScrapeRough"
+	"scrapesmooth"	"Grenade.ScrapeSmooth"
+	"impacthard"	"Grenade.ImpactHard"
+	"impactsoft"	"Grenade.ImpactSoft"
 	// "roll"		"Grenade.Roll"
 }
 
@@ -1115,13 +1008,10 @@
 "canister"
 {
 	"base"		"metalpanel"
-	//"stepleft"	"SolidMetal.StepLeft"
-	//"stepright"	"SolidMetal.StepRight"
-	//"impacthard"	"SolidMetal.ImpactHard"
-	//"impactsoft"	"SolidMetal.ImpactSoft"
-	//"scraperough"	"SolidMetal.ScrapeRough"
-	//"scrapesmooth"	"SolidMetal.ScrapeSmooth"
-	//"bulletimpact"	"SolidMetal.BulletImpact"
+	"impacthard"	"Canister.ImpactHard"
+	"impactsoft"	"Canister.ImpactSoft"
+	"scraperough"	"Canister.ScrapeRough"
+	"scrapesmooth"	"Canister.ScrapeSmooth"
 	// "roll"		"Canister.Roll"
 }
 
@@ -1130,13 +1020,9 @@
 "metal_barrel"
 {
 	"base"		"metal_box"
-	//"stepleft"	"SolidMetal.StepLeft"
-	//"stepright"	"SolidMetal.StepRight"
-	//"impacthard"	"SolidMetal.ImpactHard"
-	//"impactsoft"	"SolidMetal.ImpactSoft"
-	//"scraperough"	"SolidMetal.ScrapeRough"
-	//"scrapesmooth"	"SolidMetal.ScrapeSmooth"
-	//"bulletimpact"	"SolidMetal.BulletImpact"
+	"impacthard"	"Metal_Barrel.ImpactHard"
+	"impactsoft"	"Metal_Barrel.ImpactSoft"
+	"bulletimpact"	"Metal_Barrel.BulletImpact"
 	// "roll"		"Metal_Barrel.Roll"
 }
 
@@ -1159,13 +1045,7 @@
 	"base"		"metalpanel"
 	"friction"	"0.7"
 	"elasticity"	"0.3"
-	//"stepleft"	"SolidMetal.StepLeft"
-	//"stepright"	"SolidMetal.StepRight"
-	//"impacthard"	"SolidMetal.ImpactHard"
-	//"impactsoft"	"SolidMetal.ImpactSoft"
-	//"scraperough"	"SolidMetal.ScrapeRough"
-	//"scrapesmooth"	"SolidMetal.ScrapeSmooth"
-	//"bulletimpact"	"SolidMetal.BulletImpact"
+	"impacthard"	"Roller.Impact"
 }
 
 // small aluminum can, full
@@ -1175,13 +1055,11 @@
 	"base"		"metal_box"
 	"friction"	"0.3"
 	"elasticity"	"0.99"
-	//"stepleft"	"SolidMetal.StepLeft"
-	//"stepright"	"SolidMetal.StepRight"
-	//"impacthard"	"SolidMetal.ImpactHard"
-	//"impactsoft"	"SolidMetal.ImpactSoft"
-	//"scraperough"	"SolidMetal.ScrapeRough"
-	//"scrapesmooth"	"SolidMetal.ScrapeSmooth"
-	//"bulletimpact"	"SolidMetal.BulletImpact"
+	"impacthard"	"Popcan.ImpactHard"
+	"impactsoft"	"Popcan.ImpactSoft"
+	"scraperough"	"Popcan.ScrapeRough"
+	"scrapesmooth"	"Popcan.ScrapeSmooth"
+	"bulletimpact"	"Popcan.BulletImpact"
 	// strain		// none
 	// break		// none
 }
@@ -1193,13 +1071,8 @@
 	"base"		"popcan"
 	"friction"	"0.3"
 	"elasticity"	"0.99"
-	//"stepleft"	"SolidMetal.StepLeft"
-	//"stepright"	"SolidMetal.StepRight"
-	//"impacthard"	"SolidMetal.ImpactHard"
-	//"impactsoft"	"SolidMetal.ImpactSoft"
-	//"scraperough"	"SolidMetal.ScrapeRough"
-	//"scrapesmooth"	"SolidMetal.ScrapeSmooth"
-	//"bulletimpact"	"SolidMetal.BulletImpact"
+	"impacthard"	"Paintcan.ImpactHard"
+	"impactsoft"	"Paintcan.ImpactSoft"
 
 	//"roll"		"Paintcan.Roll"
 	// strain		// none
@@ -1217,13 +1090,8 @@
 	"base"		"paper"
 	"friction"	"0.8"
 	"elasticity"	"0.1"
-	//"stepleft"	"SolidMetal.StepLeft"
-	//"stepright"	"SolidMetal.StepRight"
-	//"impacthard"	"SolidMetal.ImpactHard"
-	//"impactsoft"	"SolidMetal.ImpactSoft"
-	//"scraperough"	"SolidMetal.ScrapeRough"
-	//"scrapesmooth"	"SolidMetal.ScrapeSmooth"
-	//"bulletimpact"	"SolidMetal.BulletImpact"
+	"impacthard"	"Papercup.Impact"
+	"scraperough"	"Popcan.ScrapeRough"
 }
 
 // accoustic ceiling tiles, sound baffles, crumbly plaster
@@ -1231,13 +1099,13 @@
 {
 	"base"		"cardboard"
 
-	//"stepleft"	"SolidMetal.StepLeft"
-	//"stepright"	"SolidMetal.StepRight"
-	//"impacthard"	"SolidMetal.ImpactHard"
-	//"impactsoft"	"SolidMetal.ImpactSoft"
-	//"scraperough"	"SolidMetal.ScrapeRough"
-	//"scrapesmooth"	"SolidMetal.ScrapeSmooth"
-	//"bulletimpact"	"SolidMetal.BulletImpact"
+	"stepleft"		"ceiling_tile.StepLeft"
+	"stepright"		"ceiling_tile.StepRight"
+	"bulletimpact"	"ceiling_tile.BulletImpact"
+	"scraperough"	"ceiling_tile.ScrapeRough"
+	"scrapesmooth"	"ceiling_tile.ScrapeSmooth"
+	"impacthard"	"ceiling_tile.ImpactHard"
+	"impactsoft"	"ceiling_tile.ImpactSoft"
 
 	"break"			"ceiling_tile.Break"
 }
@@ -1248,19 +1116,19 @@
 "weapon"
 {
 	"base"		"metal"
-	//"stepleft"	"SolidMetal.StepLeft"
-	//"stepright"	"SolidMetal.StepRight"
-	//"impacthard"	"SolidMetal.ImpactHard"
-	//"impactsoft"	"SolidMetal.ImpactSoft"
-	//"scraperough"	"SolidMetal.ScrapeRough"
-	//"scrapesmooth"	"SolidMetal.ScrapeSmooth"
-	//"bulletimpact"	"SolidMetal.BulletImpact"
+	"stepleft"		"weapon.StepLeft"
+	"stepright"		"weapon.StepRight"
+	"bulletimpact"	"weapon.BulletImpact"
+	"scraperough"	"weapon.ScrapeRough"
+	"scrapesmooth"	"weapon.ScrapeSmooth"
+	"impacthard"	"weapon.ImpactHard"
+	"impactsoft"	"weapon.ImpactSoft"
 }
 
 // for invisible collision materials (like sky)
 "default_silent"
 {
-	//"gamematerial"	"I"
+	"gamematerial"	"I"
 }
 
 // special materials for player controller
@@ -1277,13 +1145,13 @@
 
 "player_control_clip"
 {
-	//"gamematerial"	"I"
+	"gamematerial"	"I"
 }
 
 "no_decal"
 {
 	"density"	"900"
-	//"gamematerial"	"I"
+	"gamematerial"	"I"
 }
 
 "foliage"
@@ -1294,7 +1162,7 @@
 	"elasticity"	"0.1"
 	"friction"	"0.8"
 
-	//"gamematerial"	"I"
+	"gamematerial"	"I"
 }
 
  
