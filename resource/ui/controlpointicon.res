@@ -83,7 +83,7 @@
 		"xpos"			   							"0"
 		"ypos"			    						"0"
 		"zpos"			    						"0"
-		"wide"			    						"9"
+		"wide"			    						"20"
 		"tall"			    						"20"
 		"visible"		    						"0"
 		"enabled"		    						"1"
@@ -92,8 +92,7 @@
 		"dulltext"		  							"0"
 		"brighttext"	  							"0"
 		"wrap"			    						"0"
-		"font"			    						"ControlPointTimer"
-		"font_minmode"								"ControlPointTimerSmaller"
+		"font"			    						"m0refont12"
 		
 		if_mvm
 		{
@@ -101,23 +100,19 @@
 		}
 	}
 	
+	
+	
+	
+	
+	//////////////////////////////////REMOVED STUFF//////////////////////////////////
+	
 	"CPTimerBG"
 	{
 		"ControlName"	  							"Panel"
 		"fieldName"		  							"CPTimerBG"
-		"xpos"			   					 		"0"
-		"ypos"			    						"0"
-		"zpos"			 							"-1"
-		"wide"		     					 		"66"
-		"tall"		      							"33"
+		"wide"		     					 		"0"
+		"tall"		      							"0"
 		"visible"		    						"0"
-		"enabled"		    						"1"
-		"image"			    						"../sprites/obj_icons/icon_obj_timer"
-		"scaleImage"	  							"1"
-		
-		if_mvm
-		{
-			"visible"								"0"
-		}
+		"enabled"		    						"0"
 	}
 }

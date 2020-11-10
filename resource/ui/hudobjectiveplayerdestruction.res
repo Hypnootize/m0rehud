@@ -711,8 +711,8 @@
 		{
 			"ControlName"							"EditablePanel"
 			"fieldName"								"BlueStolenContainer"
-			"xpos"									"r45"
-			"ypos"									"r77"
+			"xpos"									"c-110"
+			"ypos"									"r55"
 			"zpos"									"1"
 			"wide"									"30"
 			"tall"									"40"
@@ -813,8 +813,8 @@
 		{
 			"ControlName"							"EditablePanel"
 			"fieldName"								"RedStolenContainer"
-			"xpos"									"r45"
-			"ypos"									"r77"
+			"xpos"									"c80"
+			"ypos"									"r55"
 			"zpos"									"1"
 			"wide"									"30"
 			"tall"									"40"

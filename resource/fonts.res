@@ -257,8 +257,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"m0re Icons"
-				"tall"										"14"
+				"name"										"m0rehud Icons"
+				"tall"										"16"
 				"additive"									"0"
 				"antialias" 								"1"
 			}
@@ -438,8 +438,8 @@ Scheme
 		
 		"12" 
 		{
-			"font" 		"resource/fonts/m0re icons.otf"
-			"name" 		"m0re Icons"
+			"font" 		"resource/fonts/m0rehud icons.ttf"
+			"name" 		"m0rehud Icons"
 		}
 	}
 }
