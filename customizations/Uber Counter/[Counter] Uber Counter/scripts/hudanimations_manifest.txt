@@ -1,0 +1,12 @@
+hudanimations_manifest
+{
+	"file" "scripts/hudanimations.txt"
+	"file" "scripts/animations/hudanimations_health.txt"
+	"file" "scripts/animations/hudanimations_ammo.txt"
+	"file" "scripts/animations/hudanimations_uber.txt"
+	"file" "scripts/animations/hudanimations_spy.txt"
+	"file" "scripts/animations/hudanimations_counter.txt"
+	"file" "scripts/animations/hudanimations_m0re.txt"
+	"file" "scripts/crosshairs/crosshairs_animations.txt"
+	"file" "scripts/hudanimations_tf.txt"
+}

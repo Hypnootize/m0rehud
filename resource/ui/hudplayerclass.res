@@ -1,3 +1,5 @@
+#base "hudubercounter.res"
+
 "Resource/UI/HudPlayerClass.res"
 {
 	"HudPlayerClass"

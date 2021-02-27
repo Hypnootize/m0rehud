@@ -1,0 +1,9 @@
+//=====================================================================================================================================
+// UBER COUNTER INSTRUCTIONS
+//=====================================================================================================================================
+//
+// The Uber counter can be activated by double clicking any of the voice commands menu keys (default binded to Z,X,C)
+// The counter can be restarted at any time by double clicking the key again or stopped entirely by single clicking.
+// Once started it will count to 100 in 50 seconds to more or less cover a standard uber build process duration
+//
+//=====================================================================================================================================
