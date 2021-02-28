@@ -2,7 +2,6 @@
 
 event FillCounter
 {
-	Animate CounterLabel 							Alpha 		"255" 							Linear 	0.1		0.0
 	RunEvent CounterDigitLoop 						0.0
 
 	Animate Counter10 								Alpha 		"255" 							Linear 	5.0 	0.0
@@ -92,7 +91,6 @@ event ClearCounter
 	StopEvent CounterDigit 							0.0
 	StopEvent CounterDigitLoop 						0.0
 
-	Animate CounterLabel 							Alpha 		"0" 							Linear 	0.0 	0.0
 	Animate Counter10 								Alpha 		"0" 							Linear 	0.0 	0.0
 	Animate Counter20								Alpha 		"0" 							Linear 	0.0 	0.0
 	Animate Counter30 								Alpha 		"0" 							Linear 	0.0 	0.0
@@ -119,7 +117,7 @@ event ClearCounter
 
 event MenuOpen
 {
-	StopEvent	MenuClose 							0.0
+	StopEvent MenuClose 							0.0
 
 	Animate HudMenu 								Alpha 			"255"						Linear 	0.0 	0.1
 	Animate HudMenu 								SelectionAlpha 	"255"						Linear 	0.0 	0.1
@@ -130,7 +128,7 @@ event MenuOpen
 
 	Animate HudMenu									Blur			"1"							Linear	0.0		0.01
 	
-	RunEvent ClearUber 								0.0
+	RunEvent ClearCounter 							0.0
 }
 
 event MenuPulse

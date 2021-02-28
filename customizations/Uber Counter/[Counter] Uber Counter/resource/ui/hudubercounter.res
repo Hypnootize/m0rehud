@@ -1,4 +1,4 @@
-"Resource/UI/HudMedicCounterCounter.res"
+"Resource/UI/hudubercounter.res"
 {
     "Counter"
     {
