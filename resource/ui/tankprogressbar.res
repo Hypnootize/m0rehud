@@ -39,7 +39,7 @@
 		"tall"										"10"
 		"visible"									"1"
 		"enabled"									"1"
-		"image"										"../HUD/tournament_panel_red"
+		"image"										"../HUD/tournament_panel_blu"
 		
  		"src_corner_height"							"22"
  		"src_corner_width"							"22"
