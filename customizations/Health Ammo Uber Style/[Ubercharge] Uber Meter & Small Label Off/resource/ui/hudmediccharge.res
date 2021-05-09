@@ -116,12 +116,13 @@
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"ResistIconAnchor"
-		"xpos"										"c-258"
-		"ypos"										"c83"
-		"wide"										"30"
-		"tall"										"30"
+		"xpos"										"cs-0.5"
+		"ypos"										"r83"
+		"wide"										"0"
+		"tall"										"80"
 		"visible"									"1"
 		"enabled"									"1"
+		"proportionaltoparent"						"1"
 	}
 	
 	"ResistIcon"
@@ -130,16 +131,16 @@
 		"fieldName"									"ResistIcon"
 		"xpos"										"0"
 		"ypos"										"0"
-		"wide"										"28"
-		"tall"										"28"
+		"wide"										"18"
+		"tall"										"18"
 		"visible"									"1"
 		"enabled"									"1"
 		"image"										"../HUD/defense_buff_bullet_blue"
 		"scaleImage"								"1"
 		
 		"pin_to_sibling"							"ResistIconAnchor"
-		"pin_corner_to_sibling"						"1"
-		"pin_to_sibling_corner"						"1"
+		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
+		"pin_to_sibling_corner"						"PIN_CENTER_TOP"
 	}
 	
 	"ChargeMeter1"
