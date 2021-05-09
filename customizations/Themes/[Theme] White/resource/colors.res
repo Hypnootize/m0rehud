@@ -40,6 +40,9 @@ Scheme
 		
 		"White"												"255 255 255 255"
 		"Black"												"0 0 0 255"
+
+		"Crosshair"											"255 255 255 255"
+		"Crosshair Flash"									"255 0 0 255"
 	}
 	
 	BaseSettings
