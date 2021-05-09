@@ -138,7 +138,7 @@
 	}
 	"Toggle Contracts"
 	{
-		"label"										"H"
+		"label"										"G"
 		"command"									"engine toggle tf_contract_progress_show 0 1"
 		"tooltip"									"Enable/Disable Contracts"
 		"OnlyInGame"								"1"

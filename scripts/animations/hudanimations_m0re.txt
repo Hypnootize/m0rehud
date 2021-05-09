@@ -2,7 +2,6 @@
 
 event FlagOutline
 {
-	Animate OutlineImage							Alpha		"0"									Linear 	0.0	 	0.0
 }
 
 //===========================================================================================================================
@@ -23,43 +22,22 @@ event HudTournamentSetupPanelClose
 
 event HasNotificationsBlink
 {
-	Animate	Notifications_ShowButtonPanel_SB 		Alpha		"255"								Linear 	0.0 	0.0
-
-	RunEvent HasNotificationsBlinkLoop				2.0
-}
-
-event HasNotificationsBlinkLoop
-{
-	RunEvent HasNotificationsBlink					0.0
 }
 
 event HasNotificationsBlinkStop
 {
-	StopEvent HasNotificationsBlink					0.0
-	StopEvent HasNotificationsBlinkLoop 			0.0
-	
-	Animate	Notifications_ShowButtonPanel_SB 		Alpha		"255"								Linear 	0.0 	0.0
 }
 
 //===========================================================================================================================
 
 event ActiveTimerHighlight
 {
-	Animate TimePanelValue 							FgColor		"255 255 100 255"					Linear 	0.1 	0.1
-	Animate TimePanelValue 							FgColor		"White"								Linear 	0.3 	0.1
-
-	Animate TimePanelValue							FgColor		"255 255 100 255"					Linear 	0.5 	0.1
-	Animate TimePanelValue 							FgColor		"White"								Linear 	0.7 	0.1
-
-	Animate TimePanelValue 							FgColor		"255 255 100 255"					Linear 	0.9 	0.1
-	Animate TimePanelValue 							FgColor		"White"								Linear 	1.1 	0.1
-
-	Animate TimePanelValue 							FgColor		"255 255 100 255"					Linear 	1.3 	0.3
+	Animate TimePanelValue 							FgColor		"255 255 100 255"					Linear 	0.0 	0.0
 }
 
 event ActiveTimerDim
 {
-	Animate TimePanelValue 							FgColor		"White"								Linear 	0.0 	0.4
+	Animate TimePanelValue 							FgColor		"White"								Linear 	0.0 	0.0
 }
 
 //===========================================================================================================================
@@ -80,38 +58,20 @@ event HudTournament_MoveChatWindow
 
 event RDPositiveScorePulse
 {
-	Animate Score 									FgColor		"White"								Linear 	0.0 	0.0
-	Animate Score 									FgColor		"White"								Linear 	0.1 	0.2
 }
 
 event RDNegativeScorePulse
 {
-	Animate Score 									FgColor		"White"								Linear 	0.0 	0.0
-	Animate Score 									FgColor		"White"								Linear 	0.1 	0.2
 }
 
 //===========================================================================================================================
 
 event TeamStatus_PlayerDead
 {
-   SetVisible DeathPanel  							0 0
-   SetVisible SkullPanel 							0 0
-   SetVisible respawntime  							1 0
-
-   Animate DeathPanel 								ypos 		0 									Accel 	0 	0.2
-   Animate SkullPanel								ypos 		0 									Accel 	0 	0.2
-   Animate respawntime 								ypos 		0 									Accel 	0 	0.2
 }
 
 event TeamStatus_PlayerAlive
 {
-   Animate DeathPanel 								ypos 		0 									Accel 	0 	0.2
-   Animate SkullPanel 								ypos 		0 									Accel 	0 	0.2
-   Animate respawntime 								ypos 		0 									Accel 	0 	0.2
-
-   SetVisible DeathPanel 			 				0 			0.2
-   SetVisible SkullPanel  							0 			0.2
-   SetVisible respawntime 							0 			0.2
 }
 
 //===========================================================================================================================

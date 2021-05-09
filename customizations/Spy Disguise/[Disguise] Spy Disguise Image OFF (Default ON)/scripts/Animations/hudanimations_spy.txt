@@ -2,7 +2,6 @@
 
 event HudSpyDisguiseChanged
 {
-	Animate PlayerStatusSpyOutlineImage			Alpha		"0"									Linear 	0.0 0.0
 }
 
 //===========================================================================================================================

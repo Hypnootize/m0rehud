@@ -268,7 +268,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"m0rehud Icons"
+				"name"										"m0rehud Icons V2"
 				"tall"										"16"
 				"additive"									"0"
 				"antialias" 								"1"
@@ -450,7 +450,7 @@ Scheme
 		"12" 
 		{
 			"font" 		"resource/fonts/m0rehud icons.ttf"
-			"name" 		"m0rehud Icons"
+			"name" 		"m0rehud Icons V2"
 		}
 	}
 }

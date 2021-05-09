@@ -207,9 +207,10 @@
 		"playerpanels_kv"
 		{
 			"visible"								"0"
-			"wide"									"25"
-			"tall"									"50"
+			"wide"									"f0"
+			"tall"									"f0"
 			"zpos"									"1"
+			"proportionaltoparent"					"1"
 
 			"color_portrait_bg_red"					"189 59 61 255"
 			"color_portrait_bg_blue"				"90 122 143 255"
@@ -271,7 +272,7 @@
 				"textAlignment"						"Left"
 				"dulltext"							"0"
 				"brighttext"						"0"
-				"bgcolor_override"	  				"80 80 80 255"
+				"bgcolor_override"	  				"45 45 45 255"
 				"proportionaltoparent"				"1"
 			}
 			
@@ -296,35 +297,17 @@
 				"fgcolor_override"	   				"255 255 255 180"
 				"proportionaltoparent"				"1"
 			}
-			
-			"HealthIcon"
-			{
-				"ControlName"						"EditablePanel"
-				"fieldName"							"HealthIcon"
-				"xpos"								"22"
-				"ypos"								"-3"
-				"zpos"								"3"
-				"wide"								"32"
-				"tall"								"32"
-				"visible"							"0"
-				"enabled"							"1"	
-				"HealthBonusPosAdj"					"10"
-				"HealthDeathWarning"				"0.49"
-				"TFFont"							"HudFontSmallest"
-				"HealthDeathWarningColor"			"HUDDeathWarning"
-				"TextColor"							"HudOffWhite"
-			}
-			
+
 			"respawntime"
 			{
 				"ControlName"						"CExLabel"
 				"fieldName"							"respawntime"
 				"font"								"m0refont12Shadow"
 				"xpos"								"cs-0.5"
-				"ypos"								"0"
+				"ypos"								"cs-0.5"
 				"zpos"								"10"
 				"wide"								"f0"
-				"tall"								"15"
+				"tall"								"f0"
 				"autoResize"						"0"
 				"pinCorner"							"0"
 				"visible"							"1"
@@ -341,6 +324,15 @@
 			{
 				"ControlName"						"CExLabel"
 				"fieldName"							"playername"
+				"wide"								"0"
+				"tall"								"0"
+				"visible"							"0"
+				"enabled"							"0"
+			}
+			"HealthIcon"
+			{
+				"ControlName"						"EditablePanel"
+				"fieldName"							"HealthIcon"
 				"wide"								"0"
 				"tall"								"0"
 				"visible"							"0"

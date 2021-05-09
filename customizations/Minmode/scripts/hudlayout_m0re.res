@@ -313,6 +313,12 @@
 		"wide"										"f0"
 		"tall"										"320"
 	}
+
+	"HudAchievementTracker"
+	{
+		"NormalY"									"10"
+		"EngineerY"									"10"
+	}
 	
 	ItemQuickSwitchPanel
 	{

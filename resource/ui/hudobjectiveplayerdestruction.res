@@ -629,7 +629,7 @@
 				"textAlignment"						"east"	
 				"labelText"							"%score%"
 				"font"								"m0refont30"
-				"fgcolor"							"White"		
+				"fgcolor"							"m0reblue"
 				"proportionalToParent"				"1"
 			}	
 		
@@ -647,7 +647,7 @@
 				"textAlignment"						"east"	
 				"labelText"							"%score%"
 				"font"								"m0refont30"
-				"fgcolor"							"Black"		
+				"fgcolor"							"Black"
 				"proportionalToParent"				"1"
 				
 				"pin_to_sibling"					"Score"
@@ -682,7 +682,7 @@
 				"textAlignment"						"west"	
 				"labelText"							"%score%"
 				"font"								"m0refont30"
-				"fgcolor"							"White"	
+				"fgcolor"							"m0rered"
 				"proportionalToParent"				"1"	
 			}	
 		
@@ -700,7 +700,7 @@
 				"textAlignment"						"west"	
 				"labelText"							"%score%"
 				"font"								"m0refont30"
-				"fgcolor"							"Black"		
+				"fgcolor"							"Black"
 				"proportionalToParent"				"1"
 				
 				"pin_to_sibling"					"Score"
