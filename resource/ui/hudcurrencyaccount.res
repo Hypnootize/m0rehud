@@ -1,5 +1,21 @@
 "Resource/UI/HudCurrencyAccount.res"
 {
+	"BorderBG"
+	{
+		"ControlName"								"EditablePanel"
+		"fieldName"									"BorderBG"
+		"xpos"										"0"
+		"ypos"										"0"
+		"zpos"										"0"
+		"wide"										"f0"
+		"tall"										"f0"
+		"visible"									"1"
+		"enabled"									"1"
+		"paitborder"								"1"
+		"border"									"TFThinLineBorder"
+		"proportionaltoparent"						"1"
+	}
+
 	"Currency"
 	{
 		"ControlName"								"CExLabel"
@@ -14,7 +30,7 @@
 		"labelText"									"%currency%"
 		"textAlignment"								"center"
 		"font"										"m0refont16"
-		"fgcolor"									"100 255 0 255"
+		"fgcolor"									"White"
 	}	
 	
 	"CurrencyShadow"

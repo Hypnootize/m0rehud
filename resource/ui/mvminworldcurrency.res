@@ -1,5 +1,21 @@
 "Resource/UI/MvMInWorldCurrency.res"
 {
+	"BorderBG"
+	{
+		"ControlName"								"EditablePanel"
+		"fieldName"									"BorderBG"
+		"xpos"										"0"
+		"ypos"										"0"
+		"zpos"										"0"
+		"wide"										"f0"
+		"tall"										"f0"
+		"visible"									"1"
+		"enabled"									"1"
+		"paitborder"								"1"
+		"border"									"TFThinLineBorder"
+		"proportionaltoparent"						"1"
+	}
+
 	"CurrencyGood"
 	{
 		"ControlName"								"CExLabel"
@@ -14,7 +30,7 @@
 		"labelText"									"%currency%"
 		"textAlignment"								"center"
 		"font"										"m0refont16"
-		"fgcolor"									"255 0 0 255"
+		"fgcolor"									"100 255 0 255"
 	}
 	
 	"CurrencyBad"
@@ -59,15 +75,6 @@
 	
 	//////////////////////////////////REMOVED STUFF//////////////////////////////////
 	
-	"BorderBG"
-	{
-		"ControlName"								"EditablePanel"
-		"fieldName"									"BorderBG"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}	
 	"BackgroundGood"
 	{
 		"ControlName"								"EditablePanel"
