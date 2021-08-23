@@ -4,100 +4,84 @@
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"PlayerStatusHealthBonusImage"
-		"xpos"										"9"
+		"xpos"										"12"
 		"ypos"										"14"
 		"zpos"										"-1"
 		"wide"										"15"
 		"tall"										"15"
 		"visible"									"0"
 		"enabled"									"1"
+		"proportionaltoparent"						"1"
 		"image"										"../hud/health_over_bg"
-		"scaleImage"								"1"	
+		"scaleImage"								"1"
 	}
-	
-	"PlayerStatusHealthValueTarget"
+
+	"PlayerStatusHealthValueTarget"					// Proportional positioning doesn't work :(
 	{
-		"ControlName"								"Label"
+		"ControlName"								"CExLabel"
 		"fieldName"									"PlayerStatusHealthValueTarget"
-		"xpos"										"-3"
-		"ypos"										"10"
+		"xpos"										"0"
+		"ypos"										"0"
 		"zpos"										"20"
 		"wide"										"40"
-		"tall"										"20"
+		"tall"										"40"
 		"visible"									"1"
 		"enabled"									"1"
-		"textAlignment"								"center"	
+		"proportionaltoparent"						"1"
+		"textAlignment"								"center"
 		"labeltext"									"%Health%"
 		"font"										"m0refont24"
-		"fgcolor_override"  						"Health Numbers"
+		"fgcolor"  									"Health Numbers"
 	}
-	
+
 	"PlayerStatusHealthValueTargetShadow"
 	{
-		"ControlName"								"Label"
+		"ControlName"								"CExLabel"
 		"fieldName"									"PlayerStatusHealthValueTargetShadow"
 		"xpos"										"-1"
 		"ypos"										"-1"
 		"zpos"										"20"
 		"wide"										"40"
-		"tall"										"20"
+		"tall"										"40"
 		"visible"									"1"
 		"enabled"									"1"
-		"textAlignment"								"center"	
+		"proportionaltoparent"						"1"
+		"textAlignment"								"center"
 		"labeltext"									"%Health%"
 		"font"										"m0refont24"
-		"fgcolor_override"  						"Black"
-		
+		"fgcolor"  									"Black"
+
 		"pin_to_sibling"							"PlayerStatusHealthValueTarget"
 	}
 
-	"PlayerStatusPlayerLevel"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"PlayerStatusPlayerLevel"
-		"xpos"										"10"
-		"ypos"										"9"
-		"zpos"										"5"
-		"wide"										"12"
-		"tall"										"12"
-		"visible"									"0"
-		"enabled"									"1"
-		"textAlignment"								"center"	
-		"font"										"ScoreboardVerySmall"
-		"fgcolor"									"TFOrange"
-	}
 
-	
-	
-	
-	
-	//////////////////////////////////REMOVED STUFF//////////////////////////////////
-	
+
+	//==================================================================================================================================================
+	// REMOVED ELEMENTS
+	//==================================================================================================================================================
+
 	"PlayerStatusHealthImage"
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"PlayerStatusHealthImage"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
+		"xpos"										"9999"
 	}
 	"PlayerStatusHealthImageBG"
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"PlayerStatusHealthImageBG"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
+		"xpos"										"9999"
 	}
 	"BuildingStatusHealthImageBG"
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"BuildingStatusHealthImageBG"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
+		"xpos"										"9999"
+	}
+	"PlayerStatusPlayerLevel"
+	{
+		"ControlName"								"CExLabel"
+		"fieldName"									"PlayerStatusPlayerLevel"
+		"xpos"										"9999"
 	}
 }

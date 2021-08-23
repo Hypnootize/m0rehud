@@ -9,12 +9,12 @@
 		"wide"										"36"
 		"tall"										"40"
 		"visible"									"1"
-		"enabled"									"1"	
+		"enabled"									"1"
 		"TFFont"									"HudFontSmall"
 		"TextColor"									"HudOffWhite"
 		"autoResize"								"1"
 	}
-	
+
 	"SpectatorGUIHealth"
 	{
 		"ControlName"								"EditablePanel"
@@ -24,10 +24,10 @@
 		"wide"										"128"
 		"tall"										"128"
 		"visible"									"1"
-		"enabled"									"1"	
+		"enabled"									"1"
 		"TFFont"									"HudFontSmall"
 		"TextColor"									"HudOffWhite"
 		"autoResize"								"1"
 		"HealthBonusPosAdj"     					"23"
-	}	
+	}
 }

@@ -1,5 +1,5 @@
 "Resource/UI/HudAchievementTrackerItem.res"
-{	
+{
 	"HudAchievementTrackerItem"
 	{
 		"ControlName"								"EditablePanel"
@@ -8,86 +8,81 @@
 		"ypos"										"0"
 		"zpos"										"3"
 		"wide"										"150"
-		"tall"										"29"
+		"tall"										"30"
 		"visible"									"0"
-		"enabled"									"1"	
-		
-		"PaintBackgroundType"						"2"
+		"enabled"									"1"
 	}
-	
+
 	"AchievementName"
 	{
-		"ControlName"								"Label"
+		"ControlName"								"CExLabel"
 		"fieldName"									"AchievementName"
-		"labeltext"									""
-		"xpos"										"5"
+		"xpos"										"0"
 		"ypos"										"0"
 		"wide"										"170"
 		"tall"										"10"
 		"zpos"										"4"
-		"textinsetx"								"5"
-		"font"										"AchievementTracker_Name"
-		"textAlignment"								"north-west"
-	}
-	
-	"AchievementNameGlow"
-	{
-		"ControlName"								"Label"
-		"fieldName"									"AchievementNameGlow"
+		"font"										"DefaultVerySmall"
 		"labeltext"									""
-		"xpos"										"5"
-		"ypos"										"0"
-		"wide"										"170"
-		"tall"										"10"
-		"zpos"										"4"
-		"fgcolor_override"							"White"
-		"font"										"AchievementTracker_NameGlow"
-		"textinsetx"								"5"
-		"textAlignment"								"north-west"
+		"AllCaps"									"1"
+		"textAlignment"								"west"
+		"fgcolor"									"White"
 	}
-	
+
 	"AchievementDesc"
 	{
-		"ControlName"								"Label"
+		"ControlName"								"CExLabel"
 		"fieldName"									"AchievementDesc"
-		"labeltext"									""
-		"xpos"										"5"
-		"ypos"										"8"
+		"xpos"										"0"
+		"ypos"										"9"
 		"wide"										"100"
 		"tall"										"18"
 		"zpos"										"4"
-		"textinsetx"								"5"
-		"fgcolor_override"							"White"
-		"font"										"AchievementTracker_Desc"
+		"labeltext"									""
+		"font"										"DefaultVerySmall"
 		"wrap"										"1"
-		"TextAlignment"								"north-west"
+		"TextAlignment"								"west"
+		"fgcolor"									"White"
 	}
-	
+
 	"ProgressBarBG"
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"ProgressBarBG"
-		"xpos"										"7"
+		"xpos"										"0"
 		"ypos"										"19"
-		"wide"										"100"
-		"tall"										"6"
-		"fillcolor"	 								"0 0 0 100"
+		"wide"										"80"
+		"tall"										"4"
 		"zpos"										"4"
 		"visible"									"1"
 		"enabled"									"1"
+		"fillcolor"	 								"0 0 0 50"
 	}
-	
+
 	"ProgressBar"
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"ProgressBar"
-		"xpos"										"7"
+		"xpos"										"0"
 		"ypos"										"19"
 		"wide"										"0"
-		"tall"										"6"
-		"fillcolor"									"White"
+		"tall"										"4"
 		"zpos"										"5"
 		"visible"									"1"
 		"enabled"									"1"
+		"fillcolor"									"White"
+	}
+
+
+
+	//==================================================================================================================================================
+	// REMOVED ELEMENTS
+	//==================================================================================================================================================
+
+	"AchievementNameGlow"
+	{
+		"ControlName"								"CExLabel"
+		"fieldName"									"AchievementNameGlow"
+		"xpos"										"9999"
 	}
 }

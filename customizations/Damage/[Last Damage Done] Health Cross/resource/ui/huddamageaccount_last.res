@@ -4,8 +4,8 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"DamageAccountValue"
-		"xpos"										"c-144"
-		"ypos"										"r137"
+		"xpos"										"c-142"
+		"ypos"										"r134"
 		"zpos"										"2"
 		"wide"										"100"
 		"tall"										"26"
@@ -16,7 +16,7 @@
 		"fgcolor"									"Last Damage Done"
 		"font"										"m0refont24"
 	}
-	
+
 	"DamageAccountValueShadow"
 	{
 		"ControlName"								"CExLabel"
@@ -32,7 +32,7 @@
 		"textAlignment"								"west"
 		"fgcolor"									"Black"
 		"font"										"m0refont24"
-		
+
 		"pin_to_sibling"							"DamageAccountValue"
 	}
 }

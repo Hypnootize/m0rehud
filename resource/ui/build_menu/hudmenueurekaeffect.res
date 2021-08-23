@@ -1,134 +1,123 @@
 "Resource/UI/build_menu/HudMenuEurekaEffect.res"
 {
-	"Background"
+	"ItemsAnchor"
 	{
 		"ControlName"		     					"EditablePanel"
-		"fieldName"									"Background"
-		"xpos"										"0"
-		"ypos"										"0"
+		"fieldName"									"ItemsAnchor"
+		"xpos"										"cs-0.5"
+		"ypos"										"r120"
 		"zpos"										"0"
-		"wide"										"103"
-		"tall"										"68"
+		"wide"										"72"
+		"tall"										"40"
 		"visible"		        					"1"
 		"enabled"	          						"1"
-		"border"									"TFThinLineBorder"
+		"proportionaltoparent"						"1"
 	}
-	
+
 	"available_target_1"
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"available_target_1"
-		"xpos"										"8"
-		"ypos"										"8"
-		"zpos"										"10"
-		"wide"										"45"
-		"tall"										"55"
+		"xpos"										"0"
+		"ypos"										"0"
+		"zpos"										"1"
+		"wide"										"35"
+		"tall"										"40"
 		"visible"									"1"
-	}	
-	
+
+		"pin_to_sibling"							"ItemsAnchor"
+	}
+
 	"available_target_2"
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"available_target_2"
-		"xpos"										"55"
-		"ypos"										"8"
+		"xpos"										"2"
+		"ypos"										"0"
 		"zpos"										"1"
-		"wide"										"45"
-		"tall"										"55"
+		"wide"										"35"
+		"tall"										"40"
 		"visible"									"1"
-	}	
+
+		"pin_to_sibling"							"available_target_1"
+		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
+	}
 
 	"unavailable_target_1"
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"unavailable_target_1"
-		"xpos"										"8"
-		"ypos"										"8"
-		"zpos"										"10"
-		"wide"										"45"
-		"tall"										"55"
+		"xpos"										"0"
+		"ypos"										"0"
+		"zpos"										"1"
+		"wide"										"35"
+		"tall"										"40"
 		"visible"									"1"
-	}	
-	
+
+		"pin_to_sibling"							"available_target_1"
+	}
+
 	"unavailable_target_2"
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"unavailable_target_2"
-		"xpos"										"55"
-		"ypos"										"8"
+		"xpos"										"0"
+		"ypos"										"0"
 		"zpos"										"1"
-		"wide"										"45"
-		"tall"										"55"
+		"wide"										"35"
+		"tall"										"40"
 		"visible"									"1"
+
+		"pin_to_sibling"							"available_target_2"
 	}
 
-	
-	
-	
-	
-	//////////////////////////////////REMOVED STUFF//////////////////////////////////
-	
-	"MainBackground"	
+
+
+	//==================================================================================================================================================
+	// REMOVED ELEMENTS
+	//==================================================================================================================================================
+
+	"MainBackground"
 	{
 		"ControlName"								"CIconPanel"
 		"fieldName"									"MainBackground"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
+		"xpos"										"9999"
 	}
-	"BuildIcon"	
+	"BuildIcon"
 	{
 		"ControlName"								"CIconPanel"
 		"fieldName"									"BuildIcon"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
+		"xpos"										"9999"
 	}
-	"BuildIconShadow"	
+	"BuildIconShadow"
 	{
 		"ControlName"								"CIconPanel"
 		"fieldName"									"BuildIconShadow"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
+		"xpos"										"9999"
 	}
 	"Divider"
 	{
 		"ControlName"		     					"ImagePanel"
 		"fieldName"									"Divider"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
+		"xpos"										"9999"
 	}
 	"TitleLabel"
-	{	
+	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"TitleLabel"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
+		"xpos"										"9999"
 	}
 	"TitleLabelDropshadow"
-	{	
+	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"TitleLabelDropshadow"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
+		"xpos"										"9999"
 	}
 	"CancelLabel"
-	{	
+	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"CancelLabel"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
+		"xpos"										"9999"
 	}
 }

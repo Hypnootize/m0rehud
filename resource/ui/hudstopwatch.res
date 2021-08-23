@@ -10,14 +10,14 @@
 		"tall"										"10"
 		"visible"									"0"
 		"enabled"									"0"
-		
+
 		if_comp
 		{
 			"xpos"									"c-60"
-			"ypos"									"20"
+			"ypos"									"32"
 		}
 	}
-	
+
 	"ObjectiveStatusTimePanel"
 	{
 		"ControlName"								"EditablePanel"
@@ -29,12 +29,12 @@
 		"tall"										"15"
 		"visible"									"0"
 		"enabled"									"1"
-		
+
 		if_comp
 		{
 			"xpos"									"5"
 		}
-		
+
 		"pin_to_sibling"							"StopWatchAnchor"
 
 		"TimePanelValue"
@@ -51,12 +51,12 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"textAlignment"							"east"
-			
+
 			if_comp
 			{
 				"font"								"m0refont12"
 			}
-		}	
+		}
 	}
 
 	"StopWatchScoreToBeat"
@@ -72,21 +72,19 @@
 		"zpos"										"4"
 		"wide"										"15"
 		"tall"										"15"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"0"
 		"enabled"									"1"
-		
+
 		"pin_to_sibling"							"ObjectiveStatusTimePanel"
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
 		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
-		
+
 		if_comp
 		{
 			"font"									"m0refont12"
 		}
 	}
-	
+
 	"StopWatchPointsLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -100,16 +98,13 @@
 		"zpos"										"4"
 		"wide"										"42"
 		"tall"										"15"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"wrap"										"0"
-		
+
 		"pin_to_sibling"							"StopWatchScoreToBeat"
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
 		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
-		
+
 		if_comp
 		{
 			"font"									"m0refont12"
@@ -129,86 +124,72 @@
 		"zpos"										"4"
 		"wide"										"123"
 		"tall"										"12"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"0"
 		"enabled"									"1"
 		"wrap"										"1"
 		"centerwrap"								"1"
-		
+
 		"pin_to_sibling"							"ObjectiveStatusTimePanel"
-		
+
 		if_comp
 		{
 			"font"									"m0refont12"
 		}
 	}
-	
+
 	"HudStopWatchBGWhite"
 	{
-		"ControlName"								"ImagePanel"
+		"ControlName"								"EditablePanel"
 		"fieldName"									"HudStopWatchBGWhite"
 		"xpos"										"0"
 		"ypos"										"-2"
 		"zpos"										"-1"
 		"wide"										"2"
-		"tall"										"11"
-		"autoResize"								"0"
-		"pinCorner"									"0"
+		"tall"										"12"
 		"visible"									"1"
 		"enabled"									"1"
-		"fillcolor" 								"White"
-		
+		"paintbackground" 							"1"
+		"PaintBackgroundType" 						"0"
+		"bgcolor_override" 							"White"
+
 		"pin_to_sibling"							"StopWatchPointsLabel"
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
 		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
-		
+
 		if_comp
 		{
-			"wide"									"0"		
+			"wide"									"0"
 		}
 	}
-	
-	
-	
-	
-	
-	//////////////////////////////////REMOVED STUFF//////////////////////////////////
-	
+
+
+
+	//==================================================================================================================================================
+	// REMOVED ELEMENTS
+	//==================================================================================================================================================
+
 	"HudStopWatchBG"
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"HudStopWatchBG"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
+		"xpos"										"9999"
 	}
 	"StopWatchImageCaptureTime"
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"StopWatchImageCaptureTime"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
+		"xpos"										"9999"
 	}
 	"HudStopWatchDescriptionBG"
 	{
 		"ControlName"								"ScalableImagePanel"
 		"fieldName"									"HudStopWatchDescriptionBG"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
+		"xpos"										"9999"
 	}
 	"StopWatchDescriptionLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"StopWatchDescriptionLabel"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
+		"xpos"										"9999"
 	}
 }

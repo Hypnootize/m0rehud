@@ -1,49 +1,44 @@
-#base "huditemeffectmeter_scout.res"
+#base "huditemeffectmeter.res"
 
 "Resource/UI/HudRocketPack.res"
 {
+	"HudItemEffectMeter"
+	{
+		"ypos"										"c172"
+	}
+
 	"ItemEffectMeter"
-	{	
-		"wide"										"70"
+	{
+		"xpos"										"0"
+		"wide"										"p0.497"
 	}
 
 	"ItemEffectMeter2"
-	{	
+	{
 		"ControlName"								"ContinuousProgressBar"
 		"fieldName"									"ItemEffectMeter2"
 		"font"										"Default"
-		"xpos"										"1"
+		"xpos"										"rs1"
 		"ypos"										"0"
 		"zpos"										"2"
-		"wide"										"69"
-		"tall"										"2"				
-		"autoResize"								"0"
-		"pinCorner"									"0"
+		"wide"										"p0.497"
+		"tall"										"2"
 		"visible"									"1"
 		"enabled"									"1"
-		"textAlignment"								"Center"
-		"dulltext"									"0"
-		"brighttext"								"0"
+		"proportionaltoparent"						"1"
 		"fgcolor"									"White"
-		
-		"pin_to_sibling" 							"ItemEffectMeter"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
 	}
 
-	
-	
-	
-	
-	//////////////////////////////////REMOVED STUFF//////////////////////////////////
-	
+
+
+	//==================================================================================================================================================
+	// REMOVED ELEMENTS
+	//==================================================================================================================================================
+
 	"ItemEffectIcon"
 	{
 		"ControlName"								"CTFImagePanel"
 		"fieldName"									"ItemEffectIcon"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
+		"xpos"										"9999"
 	}
 }

@@ -28,9 +28,9 @@
             "enabled"								"1"
             "alpha"									"0"
             "textAlignment"							"center"
-            "porportionaltoparent"					"1" 
+            "porportionaltoparent"					"1"
         }
-       
+
         "Counter1"
         {
             "ControlName"							"CExLabel"
@@ -47,9 +47,9 @@
             "enabled"								"1"
             "alpha"									"0"
             "textAlignment"							"center"
-            "porportionaltoparent"					"1" 
+            "porportionaltoparent"					"1"
         }
-       
+
         "Counter2"
         {
             "ControlName"							"CExLabel"
@@ -66,9 +66,9 @@
             "enabled"								"1"
             "alpha"									"0"
             "textAlignment"							"center"
-            "porportionaltoparent"					"1" 
+            "porportionaltoparent"					"1"
         }
-       
+
         "Counter3"
         {
             "ControlName"							"CExLabel"
@@ -85,9 +85,9 @@
             "enabled"								"1"
             "alpha"									"0"
             "textAlignment"							"center"
-            "porportionaltoparent"					"1" 
+            "porportionaltoparent"					"1"
         }
-       
+
         "Counter4"
         {
             "ControlName"							"CExLabel"
@@ -104,9 +104,9 @@
             "enabled"								"1"
             "alpha"									"0"
             "textAlignment"							"center"
-            "porportionaltoparent"					"1" 
+            "porportionaltoparent"					"1"
         }
-       
+
         "Counter5"
         {
             "ControlName"							"CExLabel"
@@ -123,9 +123,9 @@
             "enabled"								"1"
             "alpha"									"0"
             "textAlignment"							"center"
-            "porportionaltoparent"					"1" 
+            "porportionaltoparent"					"1"
         }
-       
+
         "Counter6"
         {
             "ControlName"							"CExLabel"
@@ -142,9 +142,9 @@
             "enabled"								"1"
             "alpha"									"0"
             "textAlignment"							"center"
-            "porportionaltoparent"					"1" 
+            "porportionaltoparent"					"1"
         }
-       
+
         "Counter7"
         {
             "ControlName"							"CExLabel"
@@ -161,9 +161,9 @@
             "enabled"								"1"
             "alpha"									"0"
             "textAlignment"							"center"
-            "porportionaltoparent"					"1" 
+            "porportionaltoparent"					"1"
         }
-       
+
         "Counter8"
         {
             "ControlName"							"CExLabel"
@@ -180,9 +180,9 @@
             "enabled"								"1"
             "alpha"									"0"
             "textAlignment"							"center"
-            "porportionaltoparent"					"1" 
+            "porportionaltoparent"					"1"
         }
-       
+
         "Counter9"
         {
             "ControlName"							"CExLabel"
@@ -199,9 +199,9 @@
             "enabled"								"1"
             "alpha"									"0"
             "textAlignment"							"center"
-            "porportionaltoparent"					"1" 
+            "porportionaltoparent"					"1"
         }
-        
+
 		"Counter10"
         {
             "ControlName"							"CExLabel"
@@ -218,7 +218,7 @@
             "enabled"								"1"
             "alpha"									"0"
             "textAlignment"							"center"
-            "porportionaltoparent"					"1" 
+            "porportionaltoparent"					"1"
         }
 
         "Counter20"
@@ -237,9 +237,9 @@
             "enabled"								"1"
             "alpha"									"0"
             "textAlignment"							"center"
-            "porportionaltoparent"					"1" 
-        }    
-        
+            "porportionaltoparent"					"1"
+        }
+
         "Counter30"
         {
             "ControlName"							"CExLabel"
@@ -256,9 +256,9 @@
             "enabled"								"1"
             "alpha"									"0"
             "textAlignment"							"center"
-            "porportionaltoparent"					"1" 
+            "porportionaltoparent"					"1"
         }
-     
+
         "Counter40"
         {
             "ControlName"							"CExLabel"
@@ -275,9 +275,9 @@
             "enabled"								"1"
             "alpha"									"0"
             "textAlignment"							"center"
-            "porportionaltoparent"					"1" 
+            "porportionaltoparent"					"1"
         }
-       
+
         "Counter50"
         {
             "ControlName"							"CExLabel"
@@ -294,9 +294,9 @@
             "enabled"								"1"
             "alpha"									"0"
             "textAlignment"							"center"
-            "porportionaltoparent"					"1" 
+            "porportionaltoparent"					"1"
         }
-       
+
         "Counter60"
         {
             "ControlName"							"CExLabel"
@@ -313,9 +313,9 @@
             "enabled"								"1"
             "alpha"									"0"
             "textAlignment"							"center"
-            "porportionaltoparent"					"1" 
+            "porportionaltoparent"					"1"
         }
-       
+
         "Counter70"
         {
             "ControlName"							"CExLabel"
@@ -332,9 +332,9 @@
             "enabled"								"1"
             "alpha"									"0"
             "textAlignment"							"center"
-            "porportionaltoparent"					"1" 
+            "porportionaltoparent"					"1"
         }
-          
+
         "Counter80"
         {
             "ControlName"							"CExLabel"
@@ -351,9 +351,9 @@
             "enabled"								"1"
             "alpha"									"0"
             "textAlignment"							"center"
-            "porportionaltoparent"					"1" 
+            "porportionaltoparent"					"1"
         }
-		
+
         "Counter90"
         {
             "ControlName"							"CExLabel"
@@ -370,9 +370,9 @@
             "enabled"								"1"
             "alpha"									"0"
             "textAlignment"							"center"
-            "porportionaltoparent"					"1" 
+            "porportionaltoparent"					"1"
         }
-       
+
         "Counter100"
         {
             "ControlName"							"CExLabel"
@@ -389,7 +389,7 @@
             "enabled"								"1"
             "alpha"									"0"
             "textAlignment"							"center"
-            "porportionaltoparent"					"1" 
+            "porportionaltoparent"					"1"
         }
     }
 }

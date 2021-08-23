@@ -1,21 +1,30 @@
 "Resource/UI/HudSpellSelection.res"
 {
+	"HudSpellMenu"
+	{
+		"xpos"										"c162"
+		"ypos"										"rs1-4"
+		"wide"										"35"
+		"tall"										"30"
+	}
+
 	"SpellIcon"
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"SpellIcon"
-		"xpos"										"16"
-		"ypos"										"20"
+		"xpos"										"0"
+		"ypos"										"4"
 		"zpos"										"7"
-		"wide"										"24"
-		"tall"										"24"
+		"wide"										"16"
+		"tall"										"16"
 		"visible"									"1"
 		"enabled"									"1"
-		"scaleImage"								"1"	
+		"scaleImage"								"1"
+		"proportionaltoparent"						"1"
 		"image"										"../signs/death_wheel_whammy"
 		"fgcolor"									"White"
 	}
-	
+
 	"CountText"
 	{
 		"ControlName"								"CExLabel"
@@ -23,14 +32,14 @@
 		"font"										"m0refont24"
 		"labelText"									"%counttext%"
 		"textAlignment" 							"center"
-		"xpos"										"40"
-		"ypos"										"22"
+		"xpos"										"rs1"
+		"ypos"										"0"
 		"zpos"										"1"
 		"wide"										"20"
-		"tall"										"19"
+		"tall"										"20"
+		"proportionaltoparent"						"1"
 		"fgcolor"									"White"
 	}
-	
 	"CountTextShadow"
 	{
 		"ControlName"								"CExLabel"
@@ -41,58 +50,51 @@
 		"xpos"										"-1"
 		"ypos"										"-1"
 		"wide"										"20"
-		"tall"										"19"
+		"tall"										"20"
+		"proportionaltoparent"						"1"
 		"fgcolor"									"Black"
-		
+
 		"pin_to_sibling"							"CountText"
 	}
-	
+
 	"ActionText"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"ActionText"
-		"font"										"m0refont11"
+		"font"										"DefaultVerySmall"
 		"labelText"									"%actiontext%"
-		"textAlignment"							 	"west"
-		"xpos"										"18"
-		"ypos"										"48"
-		"wide"										"100"
-		"tall"										"10"
+		"textAlignment"							 	"center"
+		"xpos"										"cs-0.5"
+		"ypos"										"rs1"
+		"wide"										"f0"
+		"tall"										"8"
 		"fgcolor"									"White"
 		"visible"									"1"
+		"proportionaltoparent"						"1"
 	}
-	
-	
-	
-	
-	
-	//////////////////////////////////REMOVED STUFF//////////////////////////////////
-	
+
+
+
+	//==================================================================================================================================================
+	// REMOVED ELEMENTS
+	//==================================================================================================================================================
+
 	"ItemEffectMeterBG"
 	{
 		"ControlName"								"CTFImagePanel"
 		"fieldName"									"ItemEffectMeterBG"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"	
+		"xpos"										"9999"
 	}
 	"Spellbook"
 	{
 		"ControlName"								"CTFImagePanel"
 		"fieldName"									"Spellbook"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"		
+		"xpos"										"9999"
 	}
 	"SpellText"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"SpellText"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"		
+		"xpos"										"9999"
 	}
 }

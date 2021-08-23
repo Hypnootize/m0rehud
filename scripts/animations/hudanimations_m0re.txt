@@ -8,14 +8,14 @@ event FlagOutline
 
 event HudTournamentSetupPanelOpen
 {
-	Animate HudTournamentSetup						Position	"c-70 -26"							Linear 	0.0 	0.001
-	Animate HudTournamentSetup						Position	"c-70 26"							Spline 	0.001	0.1
+	Animate HudTournamentSetup						ypos	"-50"									Linear 	0.0 	0.001
+	Animate HudTournamentSetup						ypos	"32"									Spline 	0.001	0.1
 }
 
 event HudTournamentSetupPanelClose
 {
-	Animate HudTournamentSetup						Position	"c-70 26"							Linear 	0.0 	0.001
-	Animate HudTournamentSetup						Position	"c-70 -26"							Spline 	0.001 	0.6
+	Animate HudTournamentSetup						ypos	"32"									Linear 	0.0 	0.001
+	Animate HudTournamentSetup						ypos	"-50"									Spline 	0.001 	0.6
 }
 
 //===========================================================================================================================

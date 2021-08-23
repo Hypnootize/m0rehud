@@ -12,7 +12,7 @@
 		"visible"	   						 		"1"
 		"enabled"	    							"1"
 	}
-	
+
 	"Countdown"
 	{
 		"ControlName"								"CControlPointCountdown"
@@ -24,11 +24,11 @@
 		"tall"		    							"24"
 		"visible"	    							"1"
 		"enabled"	    							"1"
-	}	
+	}
 
 	"CapPlayerImage"
 	{
-		"ControlName"								"ImagePanel"		
+		"ControlName"								"ImagePanel"
 		"fieldName"	  								"CapPlayerImage"
 		"xpos"		   						 		"0"
 		"ypos"		    							"2"
@@ -42,8 +42,8 @@
 	}
 
 	"CapNumPlayers"
-	{	
-		"ControlName"		  						"Label"
+	{
+		"ControlName"		  						"CExLabel"
 		"fieldName"		    						"CapNumPlayers"
 		"font"			      						"m0refont18"
 		"xpos"			      						"6"
@@ -51,19 +51,15 @@
 		"zpos"			      						"3"
 		"wide"			      						"24"
 		"tall"			      						"22"
-		"autoResize"		  						"0"
-		"pinCorner"		    						"0"
 		"visible"		      						"1"
 		"enabled"		      						"1"
 		"labelText"		    						"#ControlPointIconCappers"
 		"textAlignment"								"west"
-		"dulltext"		    						"0"
-		"brighttext"		  						"0"
 	}
 
 	"OverlayImage"
 	{
-		"ControlName"	    						"ImagePanel"		
+		"ControlName"	    						"ImagePanel"
 		"fieldName"	      							"OverlayImage"
 		"xpos"		        						"18"
 		"ypos"		        						"0"
@@ -75,7 +71,7 @@
 		"image"		        						"capture_icon"
 		"scaleImage"	    						"1"
 	}
-	
+
 	"CPTimerLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -89,30 +85,19 @@
 		"enabled"		    						"1"
 		"labelText"		  							"60"
 		"textAlignment"								"center"
-		"dulltext"		  							"0"
-		"brighttext"	  							"0"
-		"wrap"			    						"0"
 		"font"			    						"m0refont12"
-		
-		if_mvm
-		{
-			"visible"								"0"
-		}
 	}
-	
-	
-	
-	
-	
-	//////////////////////////////////REMOVED STUFF//////////////////////////////////
-	
+
+
+
+	//==================================================================================================================================================
+	// REMOVED ELEMENTS
+	//==================================================================================================================================================
+
 	"CPTimerBG"
 	{
 		"ControlName"	  							"Panel"
 		"fieldName"		  							"CPTimerBG"
-		"wide"		     					 		"0"
-		"tall"		      							"0"
-		"visible"		    						"0"
-		"enabled"		    						"0"
+		"xpos"		     					 		"9999"
 	}
 }

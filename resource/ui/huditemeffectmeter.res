@@ -1,72 +1,60 @@
 "Resource/UI/HudItemEffectMeter.res"
 {
-	HudItemEffectMeter
+	"HudItemEffectMeter"
 	{
 		"fieldName"									"HudItemEffectMeter"
 		"visible"									"1"
 		"enabled"									"1"
 		"xpos"										"cs-0.5"
-		"ypos"										"c185"	
+		"ypos"										"c185"
 		"wide"										"140"
 		"tall"										"10"
 		"MeterFG"									"White"
 		"MeterBG"									"Gray"
 	}
-	
+
 	"ItemEffectMeterLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"ItemEffectMeterLabel"
-		"xpos"										"0"
-		"ypos"										"2"
+		"xpos"										"cs-0.5"
+		"ypos"										"rs1"
 		"zpos"										"2"
-		"wide"										"140"
+		"wide"										"f0"
 		"tall"										"8"
-		"autoResize"								"1"
-		"pinCorner"									"2"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
+		"proportionaltoparent"						"1"
 		"labelText"									"#TF_Ball"
 		"textAlignment"								"center"
-		"dulltext"									"0"
-		"brighttext"								"0"
-		"font"										"TFFontSmall"
-		"fgcolor_override"							"150 150 150 255"
+		"font"										"ScoreboardVerySmall"
+		"fgcolor"									"White"
 	}
 
 	"ItemEffectMeter"
-	{	
+	{
 		"ControlName"								"ContinuousProgressBar"
 		"fieldName"									"ItemEffectMeter"
-		"font"										"Default"
-		"xpos"										"0"
+		"xpos"										"cs-0.5"
 		"ypos"										"0"
 		"zpos"										"2"
-		"wide"										"140"
-		"tall"										"2"				
-		"autoResize"								"0"
-		"pinCorner"									"0"
+		"wide"										"f0"
+		"tall"										"2"
 		"visible"									"1"
 		"enabled"									"1"
-		"textAlignment"								"Center"
-		"dulltext"									"0"
-		"brighttext"								"0"
+		"proportionaltoparent"						"1"
 	}
 
-	
-	
-	
-	
-	//////////////////////////////////REMOVED STUFF//////////////////////////////////
-	
+
+
+	//==================================================================================================================================================
+	// REMOVED ELEMENTS
+	//==================================================================================================================================================
+
 	"ItemEffectMeterBG"
 	{
 		"ControlName"								"CTFImagePanel"
 		"fieldName"									"ItemEffectMeterBG"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
+		"xpos"										"9999"
 	}
 }

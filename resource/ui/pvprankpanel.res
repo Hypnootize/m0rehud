@@ -6,7 +6,7 @@
 		"fieldName"									"ModelContainer"
 		"xpos"										"cs-0.5"
 		"ypos"										"cs-0.5"
-		"zpos"										"3"		
+		"zpos"										"3"
 		"wide"										"f0"
 		"tall"										"f0"
 		"proportionaltoparent"						"1"
@@ -42,7 +42,7 @@
 				}
 			}
 
-			"paintbackground"						"0"	
+			"paintbackground"						"0"
 		}
 
 		"RankModel"
@@ -51,11 +51,9 @@
 			"fieldName"								"RankModel"
 			"xpos"									"cs-0.5"
 			"ypos"									"cs-0.5"
-			"zpos"									"0"		
+			"zpos"									"0"
 			"wide"									"o1"
 			"tall"									"p0.12"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"fov"									"70"
@@ -72,7 +70,7 @@
 			"paintbackground"						"0"
 
 			"render_texture"						"0"
-		
+
 			"model"
 			{
 				"force_pos"							"1"
@@ -97,7 +95,7 @@
 					"default"						"1"
 				}
 			}
-		
+
 			"lights"
 			{
 				"default"
@@ -204,9 +202,9 @@
 
 		"NameLabel"
 		{
-			"ControlName"							"Label"
+			"ControlName"							"CExLabel"
 			"fieldName"								"NameLabel"
-			"xpos"									"0"
+			"xpos"									"9999"		//0
 			"ypos"									"0"
 			"wide"									"f0"
 			"zpos"									"100"
@@ -214,7 +212,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"font"									"Coolvetica15"
-			"fgcolor_override"						"White"
+			"fgcolor"								"White"
 			"textAlignment"							"west"
 			"labelText"								"%name%"
 			"proportionaltoparent"					"1"
@@ -231,7 +229,7 @@
 			"ControlName"							"CAutoFittingLabel"
 			"fieldName"								"DescLine1"
 			"xpos"									"0"
-			"ypos"									"17"
+			"ypos"									"0"
 			"wide"									"f0"
 			"zpos"									"100"
 			"tall"									"14"
@@ -246,18 +244,7 @@
 
 			if_mini
 			{
-				"xpos"								"67"
-				"ypos"								"4"
-				"wide"								"131"
-				"zpos"								"100"
-				"tall"								"20"
-				"visible"							"1"
-				"enabled"							"1"
-				"font"								"Coolvetica15"
-				"fgcolor_override"					"White"
-				"textAlignment"						"north-west"
-				"labelText"							"%desc1%"
-				"proportionaltoparent"				"1"
+				"wide"								"0"
 			}
 
 			"fonts"
@@ -273,7 +260,7 @@
 			"ControlName"							"CAutoFittingLabel"
 			"fieldName"								"DescLine2"
 			"xpos"									"0"
-			"ypos"									"20"
+			"ypos"									"17"
 			"wide"									"f0"
 			"zpos"									"100"
 			"tall"									"14"
@@ -288,18 +275,7 @@
 
 			if_mini
 			{
-				"xpos"								"67"
-				"ypos"								"4"
-				"wide"								"131"
-				"zpos"								"100"
-				"tall"								"20"
-				"visible"							"1"
-				"enabled"							"1"
-				"font"								"Coolvetica15"
-				"fgcolor_override"					"White"
-				"textAlignment"						"north-west"
-				"labelText"							"%desc2%"
-				"proportionaltoparent"				"1"
+				"wide"								"0"
 			}
 
 			"fonts"
@@ -312,7 +288,74 @@
 			"colors"
 			{
 				"1"									"CreditsGreen"
-				"2"									"TanLight"
+				"2"									"White"
+			}
+		}
+
+		"DescLine1Mini"
+		{
+			"ControlName"							"CAutoFittingLabel"
+			"fieldName"								"DescLine1Mini"
+			"xpos"									"67"
+			"ypos"									"4"
+			"wide"									"0"
+			"zpos"									"100"
+			"tall"									"20"
+			"visible"								"1"
+			"enabled"								"1"
+			"font"									"Coolvetica15"
+			"fgcolor_override"						"White"
+			"textAlignment"							"north-west"
+			"labelText"								"%desc1%"
+			"proportionaltoparent"					"1"
+
+			if_mini
+			{
+				"wide"								"131"
+			}
+
+			"fonts"
+			{
+				"0"									"HudFontSmallestBold"
+				"1"									"StorePromotionsTitle"
+				"2"									"FontStorePrice"
+			}
+		}
+
+		"DescLine2Mini"
+		{
+			"ControlName"							"CAutoFittingLabel"
+			"fieldName"								"DescLine2Mini"
+			"xpos"									"67"
+			"ypos"									"4"
+			"wide"									"0"
+			"zpos"									"100"
+			"tall"									"20"
+			"visible"								"1"
+			"enabled"								"1"
+			"font"									"Coolvetica15"
+			"fgcolor_override"						"White"
+			"textAlignment"							"north-west"
+			"labelText"								"%desc2%"
+			"proportionaltoparent"					"1"
+			"AllCaps"								"1"
+
+			if_mini
+			{
+				"wide"								"131"
+			}
+
+			"fonts"
+			{
+				"0"									"HudFontSmallestBold"
+				"1"									"StorePromotionsTitle"
+				"2"									"FontStorePrice"
+			}
+
+			"colors"
+			{
+				"1"									"CreditsGreen"
+				"2"									"White"
 			}
 		}
 
@@ -343,7 +386,7 @@
 				"wide"								"120"
 				"tall"								"20"
 				"proportionaltoparent"				"1"
-				
+
 				if_mini
 				{
 					"xpos"							"cs-0.5"
@@ -354,7 +397,7 @@
 
 				"CurrentXPLabel"
 				{
-					"ControlName"					"Label"
+					"ControlName"					"CExLabel"
 					"fieldName"						"CurrentXPLabel"
 					"xpos"							"0"
 					"ypos"							"rs1"
@@ -364,11 +407,11 @@
 					"visible"						"1"
 					"enabled"						"1"
 					"font"							"ItemFontAttribSmall"
-					"fgcolor_override"				"TanLight"
+					"fgcolor"						"White"
 					"textAlignment"					"south-west"
 					"labelText"						"%current_xp%"
 					"proportionaltoparent"			"1"
-					
+
 					if_mini
 					{
 						"wide"						"100"
@@ -377,7 +420,7 @@
 
 				"NextLevelXPLabel"
 				{
-					"ControlName"					"Label"
+					"ControlName"					"CExLabel"
 					"fieldName"						"NextLevelXPLabel"
 					"xpos"							"rs1"
 					"ypos"							"rs1"
@@ -387,11 +430,11 @@
 					"visible"						"1"
 					"enabled"						"1"
 					"font"							"ItemFontAttribSmall"
-					"fgcolor_override"				"TanLight"
+					"fgcolor"						"White"
 					"textAlignment"					"south-east"
 					"labelText"						"%next_level_xp%"
 					"proportionaltoparent"			"1"
-					
+
 					if_mini
 					{
 						"wide"						"100"
@@ -422,7 +465,7 @@
 
 						"fgcolor_override"			"20 20 20 180"
 						"bgcolor_override"			"Blank"
-						
+
 						if_mini
 						{
 							"wide"					"f0"
@@ -441,7 +484,7 @@
 						"progress"					"0"
 
 						"fgcolor_override"			"Menu Labels"
-						
+
 						if_mini
 						{
 							"fgcolor_override"		"CreditsGreen"
@@ -459,7 +502,7 @@
 						"zpos"						"5"
 						"proportionaltoparent"		"1"
 						"border"					"InnerShadowBorderThin"
-						
+
 						if_mini
 						{
 							"wide"					"f0"
@@ -501,7 +544,7 @@
 				// First column
 				"GamesLabel"
 				{
-					"ControlName"						"Label"
+					"ControlName"						"CExLabel"
 					"fieldName"							"GamesLabel"
 					"xpos"								"10"
 					"ypos"								"0"
@@ -511,7 +554,7 @@
 					"visible"							"1"
 					"enabled"							"1"
 					"font"								"HudFontSmallest"
-					"fgcolor_override"					"TanLight"
+					"fgcolor"							"White"
 					"textAlignment"						"north-west"
 					"labelText"							"%stat_games%"
 					"proportionaltoparent"				"1"
@@ -519,7 +562,7 @@
 
 				"KillsLabel"
 				{
-					"ControlName"						"Label"
+					"ControlName"						"CExLabel"
 					"fieldName"							"KillsLabel"
 					"xpos"								"10"
 					"ypos"								"10"
@@ -529,7 +572,7 @@
 					"visible"							"1"
 					"enabled"							"1"
 					"font"								"HudFontSmallest"
-					"fgcolor_override"					"TanLight"
+					"fgcolor"							"White"
 					"textAlignment"						"north-west"
 					"labelText"							"%stat_kills%"
 					"proportionaltoparent"				"1"
@@ -537,7 +580,7 @@
 
 				"DeathsLabel"
 				{
-					"ControlName"						"Label"
+					"ControlName"						"CExLabel"
 					"fieldName"							"DeathsLabel"
 					"xpos"								"10"
 					"ypos"								"20"
@@ -547,7 +590,7 @@
 					"visible"							"1"
 					"enabled"							"1"
 					"font"								"HudFontSmallest"
-					"fgcolor_override"					"TanLight"
+					"fgcolor"							"White"
 					"textAlignment"						"north-west"
 					"labelText"							"%stat_deaths%"
 					"proportionaltoparent"				"1"
@@ -556,7 +599,7 @@
 				// Second column
 				"DamageLabel"
 				{
-					"ControlName"						"Label"
+					"ControlName"						"CexLabel"
 					"fieldName"							"DamageLabel"
 					"xpos"								"c-20"
 					"ypos"								"0"
@@ -566,7 +609,7 @@
 					"visible"							"1"
 					"enabled"							"1"
 					"font"								"HudFontSmallest"
-					"fgcolor_override"					"TanLight"
+					"fgcolor"							"White"
 					"textAlignment"						"north-west"
 					"labelText"							"%stat_damage%"
 					"proportionaltoparent"				"1"
@@ -574,7 +617,7 @@
 
 				"HealingLabel"
 				{
-					"ControlName"						"Label"
+					"ControlName"						"CExLabel"
 					"fieldName"							"HealingLabel"
 					"xpos"								"c-20"
 					"ypos"								"10"
@@ -584,7 +627,7 @@
 					"visible"							"1"
 					"enabled"							"1"
 					"font"								"HudFontSmallest"
-					"fgcolor_override"					"TanLight"
+					"fgcolor"							"White"
 					"textAlignment"						"north-west"
 					"labelText"							"%stat_healing%"
 					"proportionaltoparent"				"1"
@@ -592,7 +635,7 @@
 
 				"SupportLabel"
 				{
-					"ControlName"						"Label"
+					"ControlName"						"CExLabel"
 					"fieldName"							"SupportLabel"
 					"xpos"								"c-20"
 					"ypos"								"20"
@@ -602,7 +645,7 @@
 					"visible"							"1"
 					"enabled"							"1"
 					"font"								"HudFontSmallest"
-					"fgcolor_override"					"TanLight"
+					"fgcolor"							"White"
 					"textAlignment"						"north-west"
 					"labelText"							"%stat_support%"
 					"proportionaltoparent"				"1"
@@ -611,7 +654,7 @@
 				// Third column
 				"ScoreLabel"
 				{
-					"ControlName"						"Label"
+					"ControlName"						"CExLabel"
 					"fieldName"							"ScoreLabel"
 					"xpos"								"rs1"
 					"ypos"								"0"
@@ -621,7 +664,7 @@
 					"visible"							"1"
 					"enabled"							"1"
 					"font"								"HudFontSmallest"
-					"fgcolor_override"					"TanLight"
+					"fgcolor"							"White"
 					"textAlignment"						"north-west"
 					"labelText"							"%stat_score%"
 					"proportionaltoparent"				"1"

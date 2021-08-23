@@ -1,5 +1,5 @@
 "Resource/UI/HudObjectiveFlagPanel.res"
-{	
+{
 	"ObjectiveStatusFlagPanel"
 	{
 		"ControlName"								"EditablePanel"
@@ -8,48 +8,50 @@
 		"ypos"										"0"
 		"zpos"										"1"
 		"wide"										"f0"
-		"tall"										"480"
+		"tall"										"f0"
 		"visible"									"1"
 		"enabled"									"1"
-		
+
 		"if_hybrid"
 		{
 			"zpos"									"-1"
 		}
 	}
-	
+
+	//==================================================================================================================================================
+	// BLUE
+	//==================================================================================================================================================
+
 	"BlueScore"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"BlueScore"
-		"xpos"										"c-100"
-		"ypos"										"r42"
+		"xpos"										"cs-0.5-70"
+		"ypos"										"rs1-8"
 		"zpos"										"8"
 		"wide"										"50"
 		"tall"										"35"
 		"visible"									"1"
 		"enabled"									"1"
-		"textAlignment"								"east"	
+		"proportionaltoparent"						"1"
+		"textAlignment"								"east"
 		"labelText"									"%bluescore%"
 		"font"										"m0refont36"
 		"fgcolor"									"m0reblue"
-		
+
 		"if_hybrid"
 		{
 			"visible"								"0"
 		}
-		
 		"if_specialdelivery"
 		{
 			"visible"								"0"
 		}
-		
 		"if_mvm"
 		{
 			"visible"								"0"
 		}
-	}	
-	
+	}
 	"BlueScoreShadow"
 	{
 		"ControlName"								"CExLabel"
@@ -61,61 +63,93 @@
 		"tall"										"35"
 		"visible"									"1"
 		"enabled"									"1"
-		"textAlignment"								"east"	
+		"proportionaltoparent"						"1"
+		"textAlignment"								"east"
 		"labelText"									"%bluescore%"
 		"font"										"m0refont36"
 		"fgcolor"									"Black"
-		
+
 		"pin_to_sibling"							"BlueScore"
-		
+
 		"if_hybrid"
 		{
 			"visible"								"0"
 		}
-		
 		"if_specialdelivery"
 		{
 			"visible"								"0"
 		}
-		
 		"if_mvm"
 		{
 			"visible"								"0"
 		}
-	}	
-	
+	}
+
+	"BlueFlag"
+	{
+		"ControlName"								"CTFFlagStatus"
+		"fieldName"									"BlueFlag"
+		"xpos"										"c-95"
+		"ypos"										"r65"
+		"zpos"										"5"
+		"wide"										"160"
+		"tall"										"90"
+		"visible"									"1"
+		"enabled"									"1"
+
+		"if_hybrid"
+		{
+			"visible"								"0"
+		}
+		"if_hybrid_single"
+		{
+			"xpos"									"c-72"
+		}
+		"if_no_flags"
+		{
+			"visible"								"0"
+		}
+		"if_mvm"
+		{
+			"xpos"									"c-82"
+			"ypos"									"r72"
+		}
+	}
+
+	//==================================================================================================================================================
+	// RED
+	//==================================================================================================================================================
+
 	"RedScore"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"RedScore"
-		"xpos"										"c52"
-		"ypos"										"r42"
+		"xpos"										"cs-0.5+70"
+		"ypos"										"rs1-8"
 		"zpos"										"8"
 		"wide"										"50"
 		"tall"										"35"
 		"visible"									"1"
 		"enabled"									"1"
-		"textAlignment"								"west"	
+		"proportionaltoparent"						"1"
+		"textAlignment"								"west"
 		"labelText"									"%redscore%"
 		"font"										"m0refont36"
-		"fgcolor"									"m0rered"	
-		
+		"fgcolor"									"m0rered"
+
 		"if_hybrid"
 		{
 			"visible"								"0"
 		}
-		
 		"if_specialdelivery"
 		{
 			"visible"								"0"
 		}
-		
 		"if_mvm"
 		{
 			"visible"								"0"
 		}
-	}	
-	
+	}
 	"RedScoreShadow"
 	{
 		"ControlName"								"CExLabel"
@@ -127,48 +161,73 @@
 		"tall"										"35"
 		"visible"									"1"
 		"enabled"									"1"
-		"textAlignment"								"west"	
+		"proportionaltoparent"						"1"
+		"textAlignment"								"west"
 		"labelText"									"%redscore%"
 		"font"										"m0refont36"
 		"fgcolor"									"Black"
 
 		"pin_to_sibling"							"RedScore"
-		
+
 		"if_hybrid"
 		{
 			"visible"								"0"
 		}
-		
 		"if_specialdelivery"
 		{
 			"visible"								"0"
 		}
-		
 		"if_mvm"
 		{
 			"visible"								"0"
 		}
 	}
+
+	"RedFlag"
+	{
+		"ControlName"								"CTFFlagStatus"
+		"fieldName"									"RedFlag"
+		"xpos"										"c-55"
+		"ypos"										"r65"
+		"zpos"										"5"
+		"wide"										"160"
+		"tall"										"90"
+		"visible"									"1"
+		"enabled"									"1"
+
+		"if_hybrid"
+		{
+			"visible"								"0"
+		}
+		"if_hybrid_single"
+		{
+			"xpos"									"c-72"
+		}
+		"if_no_flags"
+		{
+			"visible"								"0"
+		}
+	}
+
+	//==================================================================================================================================================
 
 	"PlayingTo"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"PlayingTo"
 		"xpos"										"cs-0.5"
-		"ypos"										"r10"
+		"ypos"										"rs1"
 		"zpos"										"4"
-		"wide"										"140"
+		"wide"										"f0"
 		"tall"										"10"
 		"visible"									"1"
 		"enabled"									"1"
+		"proportionaltoparent"						"1"
 		"labelText"									"#TF_PlayingTo"
 		"textAlignment"								"center"
-		"dulltext"									"0"
-		"brighttext"								"0"
-		"font"										"defaultverysmall"
+		"font"										"DefaultVerySmall"
 		"fgcolor"									"White"
-		"proportionaltoparent"						"1"
-		
+
 		"if_hybrid"
 		{
 			"visible"								"0"
@@ -182,75 +241,13 @@
 			"visible"								"0"
 		}
 	}
-	
-	"BlueFlag"
-	{
-		"ControlName"								"CTFFlagStatus"
-		"fieldName"									"BlueFlag"
-		"xpos"										"c-95"
-		"ypos"										"r63"
-		"zpos"										"5"
-		"wide"										"160"
-		"tall"										"90"
-		"visible"									"1"
-		"enabled"									"1"
-		
-		"if_hybrid"
-		{
-			"visible"								"0"
-		}
-		
-		"if_hybrid_single"
-		{
-			"xpos"									"c-72"
-		}
 
-		"if_no_flags"
-		{
-			"visible"								"0"
-		}
-		
-		"if_mvm"
-		{
-			"xpos"									"c-82"
-			"ypos"									"r72"
-		}
-	}
-	
-	"RedFlag"
-	{
-		"ControlName"								"CTFFlagStatus"
-		"fieldName"									"RedFlag"
-		"xpos"										"c-55"
-		"ypos"										"r63"
-		"zpos"										"5"
-		"wide"										"160"
-		"tall"										"90"
-		"visible"									"1"
-		"enabled"									"1"
-		
-		"if_hybrid"
-		{
-			"visible"								"0"
-		}
-		
-		"if_hybrid_single"
-		{
-			"xpos"									"c-72"
-		}
-
-		"if_no_flags"
-		{
-			"visible"								"0"
-		}
-	}
-	
 	"CaptureFlag"
 	{
 		"ControlName"								"CTFArrowPanel"
 		"fieldName"									"CaptureFlag"
 		"xpos"										"cs-0.5"
-		"ypos"										"r43"
+		"ypos"										"r45"
 		"zpos"										"5"
 		"wide"										"40"
 		"tall"										"40"
@@ -258,26 +255,31 @@
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 	}
-	
+
 	"CarriedImage"
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"CarriedImage"
 		"xpos"										"0"
-		"ypos"										"-12"
+		"ypos"										"-13"
 		"zpos"										"10"
-		"wide"										"25"
-		"tall"										"25"
+		"wide"										"23"
+		"tall"										"23"
 		"visible"									"0"
 		"enabled"									"1"
 		"image"										"../hud/objectives_flagpanel_carried_red"
 		"scaleImage"								"1"
-		
+
 		"pin_to_sibling"							"CaptureFlag"
 		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
 		"pin_to_sibling_corner"						"PIN_CENTER_TOP"
+
+		"if_specialdelivery"
+		{
+			"ypos"									"-11"
+		}
 	}
-	
+
 	"SpecCarriedImage"
 	{
 		"ControlName"								"ImagePanel"
@@ -293,56 +295,76 @@
 		"scaleImage"								"1"
 		"proportionaltoparent"						"1"
 	}
-	
-	
-	
-	
-	
-	//////////////////////////////////REMOVED STUFF//////////////////////////////////
-	
+
+	"PoisonIcon"
+	{
+		"ControlName"								"ImagePanel"
+		"fieldName"									"PoisonIcon"
+		"xpos"										"cs-0.5"
+		"ypos"										"r67"
+		"zpos"										"6"
+		"wide"										"25"
+		"tall"										"o1"
+		"visible"									"0"
+		"enabled"									"1"
+		"image"										"marked_for_death"
+		"scaleImage"								"1"
+		"proportionaltoparent"						"1"
+		"alpha"										"100"
+	}
+
+	"PoisonTimeLabel"
+	{
+		"ControlName"								"CExLabel"
+		"fieldName"									"PoisonTimeLabel"
+		"xpos"										"cs-0.5"
+		"ypos"										"r65"
+		"zpos"										"7"
+		"wide"										"40"
+		"tall"										"20"
+		"visible"									"0"
+		"enabled"									"1"
+		"textAlignment"								"center"
+		"labelText"									"%redscore%"
+		"font"										"m0refont18Shadow"
+		"fgcolor"									"White"
+		"proportionaltoparent"						"1"
+	}
+
+
+
+	//==================================================================================================================================================
+	// REMOVED ELEMENTS
+	//==================================================================================================================================================
+
 	"LeftSideBG"
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"LeftSideBG"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
+		"xpos"										"9999"
 	}
 	"RightSideBG"
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"RightSideBG"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
+		"xpos"										"9999"
 	}
 	"OutlineBG"
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"OutlineBG"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
+		"xpos"										"9999"
 	}
 	"OutlineImage"
 	{
 		"ControlName"								"CTFImagePanel"
 		"fieldName"									"OutlineImage"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
+		"xpos"										"9999"
 	}
 	"PlayingToBG"
 	{
 		"ControlName"								"CTFImagePanel"
 		"fieldName"									"PlayingToBG"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
+		"xpos"										"9999"
 	}
 }

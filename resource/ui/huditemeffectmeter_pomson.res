@@ -1,1 +1,1 @@
-#base "huditemeffectmeter_sodapopper.res"
+#base "huditemeffectmeter_scout.res"

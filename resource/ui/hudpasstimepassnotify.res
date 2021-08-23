@@ -1,4 +1,4 @@
-Resource/UI/HudPasstimePassNotify.res
+"Resource/UI/HudPasstimePassNotify.res"
 {
 	"HudPasstimePassNotify"
 	{
@@ -42,7 +42,7 @@ Resource/UI/HudPasstimePassNotify.res
 			"centerwrap"							"1"
 			"textAlignment" 						"center"
 			"labelText" 							"#Msg_PasstimeInPassRange"
-			"fgcolor_override" 						"White"
+			"fgcolor" 								"White"
 		}
 
 		"TextLockedOn"
@@ -60,7 +60,7 @@ Resource/UI/HudPasstimePassNotify.res
 			"centerwrap"							"1"
 			"textAlignment" 						"center"
 			"labelText" 							"#Msg_PasstimeLockedOn"
-			"fgcolor_override" 						"White"
+			"fgcolor" 								"White"
 		}
 
 		"TextPassIncoming"
@@ -78,7 +78,7 @@ Resource/UI/HudPasstimePassNotify.res
 			"centerwrap"							"1"
 			"textAlignment" 						"center"
 			"labelText" 							"#Msg_PasstimePassIncoming"
-			"fgcolor_override" 						"White"
+			"fgcolor" 								"White"
 		}
 
 		"TextPlayerName"
@@ -95,11 +95,11 @@ Resource/UI/HudPasstimePassNotify.res
 			"enabled" 								"1"
 			"textAlignment" 						"center"
 			"labelText" 							"WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW"
-			"fgcolor_override"						"100 255 0 255"
-		}	
+			"fgcolor"								"100 255 0 255"
+		}
 	}
 
-	PassLockIndicator
+	"PassLockIndicator"
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName" 								"PassLockIndicator"
@@ -112,13 +112,13 @@ Resource/UI/HudPasstimePassNotify.res
 		"enabled"									"1"
 		"scaleImage" 								"1"
 		"image" 									"../passtime/hud/passtime_ball_reticle_incomingpass"
-		
+
 		"pin_to_sibling" 							"TextBox"
 		"pin_corner_to_sibling" 					"0"
 		"pin_to_sibling_corner" 					"1"
 	}
 
-	SpeechIndicator
+	"SpeechIndicator"
 	{
 		"ControlName" 								"ImagePanel"
 		"fieldName" 								"SpeechIndicator"
@@ -131,9 +131,9 @@ Resource/UI/HudPasstimePassNotify.res
 		"enabled" 									"1"
 		"scaleImage" 								"1"
 		"image" 									"../passtime/hud/passtime_pass_to_me_prompt"
-		
+
 		"pin_to_sibling" 							"TextBox"
-		"pin_corner_to_sibling" 					"1"
-		"pin_to_sibling_corner" 					"0"
+		"pin_corner_to_sibling" 					"PIN_TOPRIGHT"
+		"pin_to_sibling_corner" 					"PIN_TOPLEFT"
 	}
 }

@@ -7,10 +7,10 @@
 		"spacer"									"5"
 		"name_width"								"57"
 		"horiz_inset"								"2"
-	}	
+	}
 
 	"CountdownLabel"
-	{	
+	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"CountdownLabel"
 		"font"										"m0refont24Shadow"
@@ -19,11 +19,8 @@
 		"wide"										"40"
 		"tall"										"40"
 		"zpos"										"5"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"0"
 		"enabled"									"1"
-		"wrap"										"0"
 		"labelText"									"%countdown%"
 		"textAlignment"								"center"
 		"proportionaltoparent"						"1"
@@ -61,7 +58,7 @@
 			}
 		}
 
-		"paintbackground"							"0"	
+		"paintbackground"							"0"
 	}
 
 	"MatchDoors"
@@ -70,16 +67,14 @@
 		"fieldName"									"MatchDoors"
 		"xpos"										"0"
 		"ypos"										"0"
-		"zpos"										"2"		
+		"zpos"										"2"
 		"wide"										"f0"
 		"tall"										"f0"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"0"
 		"enabled"									"1"
 		"fov"										"70"
 		"proportionaltoparent"						"1"
-		
+
 		"model"
 		{
 			"modelname"								"models/vgui/versus_doors.mdl"
@@ -103,7 +98,7 @@
 				"name"								"open"
 				"sequence"							"open"
 			}
-			
+
 			"animation"
 			{
 				"name"								"close"
@@ -117,29 +112,6 @@
 			}
 		}
 	}
-	
-	"RankUpLabel"
-	{	
-		"ControlName"								"CExLabel"
-		"fieldName"									"RankUpLabel"
-		"font"										"m0refont24Shadow"
-		"xpos"										"cs-0.5"
-		"ypos"										"80"
-		"wide"										"600"
-		"tall"										"60"
-		"zpos"										"5"
-		"autoResize"								"0"
-		"pinCorner"									"0"
-		"visible"									"1"
-		"enabled"									"1"
-		"wrap"										"0"
-		"centerwrap"								"1"
-		"alpha"										"0"
-		"labelText"									"%rank_possibility%"
-		"textAlignment"								"center"
-		"proportionaltoparent"						"1"
-		"fgcolor"									"TanLight"
-	}
 
 	"ObjectiveStatusTimePanel"
 	{
@@ -148,37 +120,38 @@
 		"xpos"										"cs-0.5"
 		"ypos"										"1"
 		"zpos"										"5"
-		"wide"										"100"
-		"tall"										"50"
+		"wide"										"40"
+		"tall"										"40"
 		"visible"									"1"
 		"enabled"									"1"
-		"delta_item_x"								"38"
-		"delta_item_start_y"						"27"
-		"delta_item_end_y"							"27"
+		"delta_item_x"								"9"
+		"delta_item_start_y"						"29"
+		"delta_item_end_y"							"29"
 		"PositiveColor"								"0 255 0 255"
 		"NegativeColor"								"255 0 0 255"
-		"delta_lifetime"							"2"
+		"delta_lifetime"							"1"
 		"delta_item_font"							"m0refont11"
 		"proportionaltoparent"						"1"
-		
+
 		"TimePanelValue"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"TimePanelValue"
 			"font"									"m0refont16"
 			"fgcolor"								"White"
-			"xpos"									"26"
+			"xpos"									"cs-0.5"
 			"ypos"									"-2"
 			"zpos"									"3"
-			"wide"									"50"
+			"wide"									"f0"
 			"tall"									"15"
 			"visible"								"1"
 			"enabled"								"1"
+			"proportionaltoparent"					"1"
 			"textAlignment"							"center"
 			"labelText"								"0:00"
-		}	
+		}
 	}
-	
+
 	"TeamStatus"
 	{
 		"ControlName"								"CTFTeamStatus"
@@ -216,14 +189,14 @@
 			"color_portrait_bg_blue"				"90 122 143 255"
 			"color_portrait_bg_red_dead"			"15 15 15 255"
 			"color_portrait_bg_blue_dead"			"15 15 15 255"
-			"color_bar_health_high"					"100 200 0 255"
+			"color_bar_health_high"					"75 200 25 255"
 			"color_bar_health_med"					"255 200 0 255"
 			"percentage_health_med"					"0.6"
 			"color_bar_health_low"					"255 40 40 255"
 			"percentage_health_low"					"0.3"
 			"color_portrait_blend_dead_red"			"255 255 255 255"
 			"color_portrait_blend_dead_blue" 		"255 255 255 255"
-			
+
 			"classimage"
 			{
 				"ControlName"						"CTFClassImage"
@@ -231,15 +204,15 @@
 				"xpos"								"cs-0.5"
 				"ypos"								"0"
 				"zpos"								"5"
-				"wide"								"15"
-				"tall"								"15"
+				"wide"								"o1"
+				"tall"								"f0"
 				"visible"							"1"
 				"enabled"							"1"
 				"image"								"../hud/class_scoutred"
-				"scaleImage"						"1"	
+				"scaleImage"						"1"
 				"proportionaltoparent"				"1"
 			}
-			
+
 			"classimagebg"
 			{
 				"ControlName"						"Panel"
@@ -254,45 +227,33 @@
 				"PaintBackgroundType"				"0"
 				"proportionaltoparent"				"1"
 			}
-			
+
 			"healthbar"
-			{	
+			{
 				"ControlName"						"ContinuousProgressBar"
 				"fieldName"							"healthbar"
-				"font"								"Default"
 				"xpos"								"0"
 				"ypos"								"0"
 				"zpos"								"3"
 				"wide"								"f0"
 				"tall"								"f0"
-				"autoResize"						"0"
-				"pinCorner"							"0"
 				"visible"							"1"
 				"enabled"							"1"
-				"textAlignment"						"Left"
-				"dulltext"							"0"
-				"brighttext"						"0"
-				"bgcolor_override"	  				"45 45 45 255"
+				"bgcolor_override"	  				"30 30 30 255"
 				"proportionaltoparent"				"1"
 			}
-			
+
 			"overhealbar"
-			{	
+			{
 				"ControlName"						"ContinuousProgressBar"
 				"fieldName"							"overhealbar"
-				"font"								"Default"
 				"xpos"								"0"
 				"ypos"								"0"
 				"zpos"								"4"
 				"wide"								"f0"
-				"tall"								"f0"				
-				"autoResize"						"0"
-				"pinCorner"							"0"
+				"tall"								"f0"
 				"visible"							"1"
 				"enabled"							"1"
-				"textAlignment"						"Left"
-				"dulltext"							"0"
-				"brighttext"						"0"
 				"bgcolor_override"	   				"Blank"
 				"fgcolor_override"	   				"255 255 255 180"
 				"proportionaltoparent"				"1"
@@ -308,89 +269,62 @@
 				"zpos"								"10"
 				"wide"								"f0"
 				"tall"								"f0"
-				"autoResize"						"0"
-				"pinCorner"							"0"
 				"visible"							"1"
 				"labelText"							"%respawntime%"
 				"textAlignment"						"center"
 				"proportionaltoparent"				"1"
-				"fgcolor_override"					"255 255 0 255"
+				"fgcolor"							"255 255 0 255"
 			}
-			
-			
-			
-			
+
+
+
 			"playername"
 			{
 				"ControlName"						"CExLabel"
 				"fieldName"							"playername"
-				"wide"								"0"
-				"tall"								"0"
-				"visible"							"0"
-				"enabled"							"0"
+				"xpos"								"9999"
 			}
 			"HealthIcon"
 			{
 				"ControlName"						"EditablePanel"
 				"fieldName"							"HealthIcon"
-				"wide"								"0"
-				"tall"								"0"
-				"visible"							"0"
-				"enabled"							"0"
+				"xpos"								"9999"
 			}
 			"ReadyBG"
 			{
 				"ControlName"						"ScalableImagePanel"
 				"fieldName"							"ReadyBG"
-				"wide"								"0"
-				"tall"								"0"
-				"visible"							"0"
-				"enabled"							"0"
+				"xpos"								"9999"
 			}
 			"ReadyImage"
 			{
 				"ControlName"						"ImagePanel"
 				"fieldName"							"ReadyImage"
-				"wide"								"0"
-				"tall"								"0"
-				"visible"							"0"
-				"enabled"							"0"
+				"xpos"								"9999"
 			}
 			"chargeamount"
 			{
 				"ControlName"						"CExLabel"
 				"fieldName"							"chargeamount"
-				"wide"								"0"
-				"tall"								"0"
-				"visible"							"0"
-				"enabled"							"0"
+				"xpos"								"9999"
 			}
 			"specindex"
 			{
 				"ControlName"						"CExLabel"
 				"fieldName"							"specindex"
-				"wide"								"0"
-				"tall"								"0"
-				"visible"							"0"
-				"enabled"							"0"
+				"xpos"								"9999"
 			}
 			"DeathPanel"
 			{
 				"ControlName"						"ImagePanel"
 				"fieldName"							"DeathPanel"
-				"wide"								"0"
-				"tall"								"0"
-				"visible"							"0"
-				"enabled"							"0"
+				"xpos"								"9999"
 			}
 			"SkullPanel"
 			{
 				"ControlName"						"ImagePanel"
 				"fieldName"							"SkullPanel"
-				"wide"								"0"
-				"tall"								"0"
-				"visible"							"0"
-				"enabled"							"0"
+				"xpos"								"9999"
 			}
 		}
 	}
@@ -422,8 +356,6 @@
 			"zpos"									"2"
 			"wide"									"147"
 			"tall"									"36"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"border"								"TFFatLineBorderBlueBGOpaque"
@@ -454,8 +386,6 @@
 			"zpos"									"20"
 			"wide"									"95"
 			"tall"									"30"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"centerwrap"							"1"
@@ -466,13 +396,13 @@
 			"fieldName"								"BlueLeaderAvatar"
 			"xpos"									"11"
 			"ypos"									"10"
-			"zpos"									"5"	
+			"zpos"									"5"
 			"wide"									"35"
 			"tall"									"35"
 			"visible"								"1"
 			"enabled"								"1"
 			"image"									""
-			"scaleImage"							"1"	
+			"scaleImage"							"1"
 			"color_outline"							"52 48 45 255"
 		}
 		"BlueLeaderAvatarBG"
@@ -497,7 +427,6 @@
 			"zpos"									"1"
 			"wide"									"136"
 			"tall"									"205"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"tabPosition"							"0"
@@ -520,8 +449,6 @@
 			"zpos"									"0"
 			"wide"									"139"
 			"tall"									"215"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"border"								"TFFatLineBorderClearBG"
@@ -560,8 +487,6 @@
 			"zpos"									"2"
 			"wide"									"147"
 			"tall"									"36"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"border"								"TFFatLineBorderRedBGOpaque"
@@ -592,8 +517,6 @@
 			"zpos"									"20"
 			"wide"									"95"
 			"tall"									"30"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"centerwrap"							"1"
@@ -610,7 +533,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"image"									""
-			"scaleImage"							"1"	
+			"scaleImage"							"1"
 			"color_outline"							"52 48 45 255"
 		}
 		"RedLeaderAvatarBG"
@@ -635,7 +558,6 @@
 			"zpos"									"1"
 			"wide"									"136"
 			"tall"									"205"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"tabPosition"							"0"
@@ -658,8 +580,6 @@
 			"zpos"									"0"
 			"wide"									"139"
 			"tall"									"215"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"border"								"TFFatLineBorderClearBG"
@@ -670,54 +590,45 @@
 			}
 		}
 	}
-	
-	
-	
-	
-	
-	//////////////////////////////////REMOVED STUFF//////////////////////////////////
-	
+
+
+
+	//==================================================================================================================================================
+	// REMOVED ELEMENTS
+	//==================================================================================================================================================
+
 	"BGFrame"
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"BGFrame"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
+		"xpos"										"9999"
 	}
 	"RoundCounter"
 	{
 		"fieldName"									"RoundCounter"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
+		"xpos"										"9999"
 	}
 	"CountdownLabelShadow"
-	{	
+	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"CountdownLabelShadow"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
+		"xpos"										"9999"
 	}
 	"RoundSignModel"
 	{
 		"ControlName"								"CModelPanel"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
+		"xpos"										"9999"
+	}
+	"RankUpLabel"
+	{
+		"ControlName"								"CExLabel"
+		"fieldName"									"RankUpLabel"
+		"xpos"										"9999"
 	}
 	"RankUpShadowLabel"
-	{	
+	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"RankUpShadowLabel"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
+		"xpos"										"9999"
 	}
 }

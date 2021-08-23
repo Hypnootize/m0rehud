@@ -2,7 +2,7 @@
 
 "Resource/UI/HudItemEffectMeter_SpyKnife.res"
 {
-	HudItemEffectMeter
+	"HudItemEffectMeter"
 	{
 		"ypos"										"c174"
 	}

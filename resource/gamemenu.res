@@ -1,10 +1,13 @@
 "GameMenu"
 {
-	/////////////////////////MAIN MENU/////////////////////////
+	//====================================================================================================================================================
+	// MAIN MENU BUTTONS
+	//====================================================================================================================================================
+
 	"Version"
 	{
-		"label" 									"m0rehud 5.8" 
-		"command" 									"engine showconsole; echo m0rehud by Hypnotize @ www.teamfortress.tv/34115/m0re-hud all credits to m0re"
+		"label" 									"m0rehud 5.9"
+		"command" 									"engine showconsole; echo m0rehud by Hypnotize huds.tf/site/s-m0re-Hud all credits to m0re"
 		"OnlyAtMenu"								"1"
 	}
 	"Servers"
@@ -58,8 +61,11 @@
 		"command" 									"engine replay_confirmquit"
 		"OnlyAtMenu"								"1"
 	}
-	
-	/////////////////////////INGAME ONLY/////////////////////////
+
+	//====================================================================================================================================================
+	// IN GAME BUTTONS
+	//====================================================================================================================================================
+
 	"Scoreboard"
 	{
 		"label"										"Scoreboard"
@@ -80,34 +86,37 @@
 	}
 	"Vote"
 	{
-		"label"										""
+		"label"										"M"
 		"command"									"callvote"
-		"subimage" 									"icon_checkbox"
+		"tooltip"									"Call a Vote"
 		"OnlyInGame" 								"1"
 	}
 	"Mute"
 	{
-		"label"										""
+		"label"										"L"
 		"command"									"OpenMutePlayerDialog"
-		"subimage" 									"glyph_muted"
+		"tooltip"									"Mute a Player"
 		"OnlyInGame" 								"1"
 	}
 	"Report"
 	{
-		"label"										""
+		"label"										"K"
 		"command"									"OpenReportPlayerDialog"
-		"subimage"									"glyph_alert"
+		"tooltip"									"Report a Player"
 		"OnlyInGame"								"1"
 	}
 	"Achievements"
 	{
-		"label"										""
+		"label"										"J"
 		"command"									"OpenAchievementsDialog"
-		"subimage"									"glyph_achievements"
+		"tooltip"									"Achievements"
 		"OnlyInGame"								"1"
 	}
-	
-	/////////////////////////TOOLS BAR/////////////////////////
+
+	//====================================================================================================================================================
+	// TOOLS BAR
+	//====================================================================================================================================================
+
 	"Fix Invisible Players"
 	{
 		"label"										"D"

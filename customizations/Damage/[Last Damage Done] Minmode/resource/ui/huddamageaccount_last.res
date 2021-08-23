@@ -16,7 +16,7 @@
 		"fgcolor"									"Last Damage Done"
 		"font"										"m0refont14"
 	}
-	
+
 	"DamageAccountValueShadow"
 	{
 		"ControlName"								"CExLabel"
@@ -26,13 +26,13 @@
 		"zpos"										"1"
 		"wide"										"102"
 		"tall"										"27"
-		"visible"									"1" 
+		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"%metal%"
 		"textAlignment"								"center"
 		"fgcolor"									"Black"
 		"font"										"m0refont14"
-		
+
 		"pin_to_sibling"							"DamageAccountValue"
 	}
 }

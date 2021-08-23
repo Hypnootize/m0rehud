@@ -10,7 +10,7 @@
 		"delta_lifetime"							"1"
 		"delta_item_font"							"m0refont18"
 	}
-	
+
 	"AccountValue"
 	{
 		"ControlName"								"CExLabel"
@@ -20,19 +20,13 @@
 		"zpos"										"2"
 		"wide"										"200"
 		"tall"										"20"
-		"autoResize"								"1"
-		"pinCorner"									"2"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"labelText"									"%metal%"
 		"textAlignment"								"center"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"font"										"m0refont24"
 		"fgcolor"   								"White"
 	}
-	
 	"AccountValueShadow"
 	{
 		"ControlName"								"CExLabel"
@@ -42,43 +36,32 @@
 		"zpos"										"2"
 		"wide"										"200"
 		"tall"										"20"
-		"autoResize"								"1"
-		"pinCorner"									"2"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"labelText"									"%metal%"
 		"textAlignment"								"center"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"font"										"m0refont24"
 		"fgcolor"   								"Black"
-		
+
 		"pin_to_sibling"							"AccountValue"
 	}
-	
-	
-	
-	
-	
-	//////////////////////////////////REMOVED STUFF//////////////////////////////////
-	
+
+
+
+	//==================================================================================================================================================
+	// REMOVED ELEMENTS
+	//==================================================================================================================================================
+
 	"AccountBG"
 	{
 		"ControlName"								"CTFImagePanel"
 		"fieldName"									"AccountBG"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
+		"xpos"										"9999"
 	}
-	"MetalIcon"	
+	"MetalIcon"
 	{
 		"ControlName"								"CIconPanel"
 		"fieldName"									"MetalIcon"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
+		"xpos"										"9999"
 	}
 }

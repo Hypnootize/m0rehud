@@ -1,91 +1,122 @@
-"Resource/UI/build_menu/base.res"
+"Resource/UI/build_menu/base_active_teleport_target.res"
 {
-	"BuildingIcon"	
+	"Background"
+	{
+		"ControlName"		     					"EditablePanel"
+		"fieldName"									"Background"
+		"xpos"										"0"
+		"ypos"										"0"
+		"zpos"										"0"
+		"wide"										"f0"
+		"tall"										"f0"
+		"visible"		        					"1"
+		"enabled"	          						"1"
+		"proportionaltoparent"						"1"
+		"paintbackground"							"1"
+		"paintbackgroundtype"						"0"
+		"bgcolor_override"							"0 0 0 100"
+	}
+
+	"BuildingIcon"
 	{
 		"ControlName"								"CIconPanel"
 		"fieldName"									"BuildingIcon"
-		"xpos"										"0"
-		"ypos"										"0"
-		"zpos"										"2"
-		"wide"										"40"
-		"tall"										"40"
+		"xpos"										"cs-0.5"
+		"ypos"										"2"
+		"zpos"										"1"
+		"wide"										"f4"
+		"tall"										"o0.98"
 		"visible"									"1"
 		"enabled"									"1"
-		"scaleImage"								"1"	
+		"proportionaltoparent"						"1"
+		"scaleImage"								"1"
 		"icon"										"hud_menu_sentry_build"
 		"iconColor"									"White"
 	}
-	
-	"NumberBg"	
+
+	"CantBuildReason"
 	{
-		"ControlName"								"CIconPanel"
-		"fieldName"									"NumberBg"
-		"xpos"										"12"
-		"ypos"										"35"
+		"ControlName"								"CExLabel"
+		"fieldName"									"CantBuildReason"
+		"font"										"m0refont9"
+		"xpos"										"cs-0.5"
+		"ypos"										"14"
 		"zpos"										"5"
-		"wide"										"18"
-		"tall"										"18"
-		"visible"									"1"
+		"wide"										"f0"
+		"tall"										"f12"
+		"visible"									"0"
 		"enabled"									"1"
-		"scaleImage"								"1"	
-		"icon"										"ico_key_blank"
-		"iconColor"									"White"
+		"proportionaltoparent"						"1"
+		"labelText"									"#Hud_Menu_Build_Unavailable"
+		"textAlignment"								"north"
+		"centerwrap"								"1"
+		"fgcolor"									"255 0 0 255"
 	}
-	
+
+	"ItemNameLabel"
+	{
+		"ControlName"								"CExLabel"
+		"fieldName"									"ItemNameLabel"
+		"font"										"m0refont11"
+		"xpos"										"cs-0.5"
+		"ypos"										"1"
+		"zpos"										"2"
+		"wide"										"f0"
+		"tall"										"10"
+		"visible"									"0"
+		"enabled"									"1"
+		"proportionaltoparent"						"1"
+		"labelText"									"#TF_Object_Sentry"
+		"textAlignment"								"Center"
+		"centerwrap"								"1"
+	}
+
 	"NumberLabel"
-	{	
+	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"NumberLabel"
-		"font"										"m0refont11"
-		"fgcolor"									"Black"
-		"xpos"										"0"
-		"ypos"										"1"
+		"font"										"m0refont12"
+		"fgcolor"									"White"
+		"xpos"										"cs-0.5"
+		"ypos"										"rs1"
 		"zpos"										"6"
-		"wide"										"18"
-		"tall"										"18"
-		"autoResize"								"0"
-		"pinCorner"									"0"
+		"wide"										"f0"
+		"tall"										"12"
 		"visible"									"1"
 		"enabled"									"1"
+		"proportionaltoparent"						"1"
 		"labelText"									"1"
-		"textAlignment"								"Center"
-		"dulltext"									"1"
-		"brighttext"								"0"
-		
-		"pin_to_sibling"							"NumberBg"
+		"textAlignment"								"center"
 	}
-	
-	
-	
-	
-	
-	//////////////////////////////////REMOVED STUFF//////////////////////////////////
-	
+
+
+
+	//==================================================================================================================================================
+	// REMOVED ELEMENTS
+	//==================================================================================================================================================
+
 	"ItemBackground"
 	{
 		"ControlName"								"CIconPanel"
 		"fieldName"									"ItemBackground"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
+		"xpos"										"9999"
 	}
 	"ItemNameLabel"
-	{	
+	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"ItemNameLabel"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
+		"xpos"										"9999"
 	}
 	"ModeLabel"
-	{	
+	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"ModeLabel"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
+		"xpos"										"9999"
+	}
+	"NumberBg"
+	{
+		"ControlName"								"CIconPanel"
+		"fieldName"									"NumberBg"
+		"xpos"										"9999"
 	}
 }

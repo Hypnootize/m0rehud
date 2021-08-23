@@ -1,16 +1,13 @@
-"Resource/UI/HudItemEffectMeter_Killstreak.res"
+"Resource/UI/HudItemEffectMeter_KillStreak.res"
 {
-	HudItemEffectMeter
+	"HudItemEffectMeter"
 	{
 		"fieldName"									"HudItemEffectMeter"
-		"visible"									"0"
-		"enabled"									"0"
-		"wide"										"0"
-		"tall"										"0"
+		"xpos"										"9999"
 	}
-	
+
 	"ItemEffectMeter"								//its here just to remove the console error :)
-	{	
+	{
 		"ControlName"								"ContinuousProgressBar"
 		"fieldName"									"ItemEffectMeter"
 	}

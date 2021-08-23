@@ -23,7 +23,7 @@ event FillCounter
 	Animate Counter90 								Alpha 		"255" 							Linear 	45.0 	0.0
 	Animate Counter90 								Alpha 		"0" 							Linear 	50.0 	0.0
 	Animate Counter100 								Alpha 		"255" 							Linear 	50.0 	0.0
-	
+
 	RunEvent ClearCounter 							55.0
 }
 
@@ -127,7 +127,7 @@ event MenuOpen
 	Animate HudMenu 								TextScan		"1"							Linear 	0.0 	0.1
 
 	Animate HudMenu									Blur			"1"							Linear	0.0		0.01
-	
+
 	RunEvent ClearCounter 							0.0
 }
 
@@ -151,7 +151,7 @@ event MenuClose
 	Animate HudMenu 								FgColor			"0 0 0 0" 					Linear 	0.0 	1
 	Animate HudMenu 								MenuColor		"0 0 0 0" 					Linear 	0.0 	1
 	Animate HudMenu 								ItemColor		"0 0 0 0" 					Linear 	0.0 	1
-	
+
 	RunEvent FillCounter 							0.0
 }
 

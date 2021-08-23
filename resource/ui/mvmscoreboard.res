@@ -1,21 +1,21 @@
 "Resource/UI/MvMScoreboard.res"
-{		
-	"WaveStatusPanel"
+{
+	"RedBar"
 	{
-		"ControlName"								"CWaveStatusPanel"
-		"fieldName"									"WaveStatusPanel"
-		"xpos"										"cs-0.5"
-		"ypos"										"20"
-		"zpos"										"0"
-		"wide"										"600"
-		"tall"										"70"
+		"ControlName"								"EditablePanel"
+		"fieldName"									"RedBar"
+		"xpos"										"0"
+		"ypos"										"0"
+		"wide"										"f0"
+		"tall"										"15"
 		"visible"									"1"
 		"enabled"									"1"
-		
-		"verbose"									"1"
-		"proportionaltoparent"						"0"
+		"proportionaltoparent"						"1"
+		"painbackground"		    				"1"
+		"painbackgroundtype"		    			"0"
+		"bgcolor_override"     						"TF2Red"
 	}
-	
+
 	"PopFileLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -31,6 +31,10 @@
 		"AllCaps"									"1"
 		"fgcolor"									"White"
 		"proportionaltoparent"						"1"
+
+		"pin_to_sibling"							"MvMRedBar"
+		"pin_corner_to_sibling"						"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 	}
 
 	"DifficultyContainer"
@@ -39,11 +43,14 @@
 		"fieldName"									"DifficultyContainer"
 		"xpos"										"5"
 		"ypos"										"0"
+		"zpos"										"1"
 		"wide"										"200"
 		"tall"										"15"
 		"visible"									"1"
 		"proportionaltoparent"						"1"
-		
+
+		"pin_to_sibling"							"MvMRedBar"
+
 		"DifficultyLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -53,13 +60,13 @@
 			"textAlignment"							"west"
 			"xpos"									"0"
 			"ypos"									"0"
-			"wide"									"60"
+			"wide"									"55"
 			"tall"									"15"
 			"AllCaps"								"1"
 			"fgcolor"								"White"
 			"proportionaltoparent"					"1"
 		}
-		
+
 		"DifficultyValue"
 		{
 			"ControlName"							"CExLabel"
@@ -74,22 +81,37 @@
 			"AllCaps"								"1"
 			"fgcolor"								"White"
 			"proportionaltoparent"					"1"
-			
+
 			"pin_to_sibling"						"DifficultyLabel"
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"
 			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}
 	}
-	
+
+	"WaveStatusPanel"
+	{
+		"ControlName"								"CWaveStatusPanel"
+		"fieldName"									"WaveStatusPanel"
+		"xpos"										"cs-0.5"
+		"ypos"										"20"
+		"zpos"										"0"
+		"wide"										"600"
+		"tall"										"70"
+		"visible"									"1"
+		"enabled"									"1"
+
+		"verbose"									"1"
+		"proportionaltoparent"						"0"
+	}
+
 	"MvMPlayerList"
 	{
 		"ControlName"								"SectionedListPanel"
 		"fieldName"									"MvMPlayerList"
 		"xpos"										"cs-0.5"
-		"ypos"										"90"
+		"ypos"										"120"
 		"wide"										"530"
 		"tall"										"150"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"tabPosition"								"0"
@@ -98,7 +120,7 @@
 		"textcolor"									"White"
 		"proportionaltoparent"						"1"
 	}
-	
+
 	"PlaylistBG"
 	{
 		"ControlName"								"EditablePanel"
@@ -114,78 +136,78 @@
 		"paintbackgroundtype"						"0"
 		"bgcolor_override"							"0 0 0 75"
 		"proportionaltoparent"						"1"
-		
+
 		"pin_to_sibling"							"MvMPlayerList"
 	}
-	
+
 	"CreditStatsContainer"
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"CreditStatsContainer"
 		"xpos"										"0"
-		"ypos"										"10"
-		"wide"										"385"
+		"ypos"										"5"
+		"wide"										"524"
 		"tall"										"115"
 		"visible"									"1"
-		
+
 		"pin_to_sibling"							"PlaylistBG"
-		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
-		"pin_to_sibling_corner"						"PIN_CENTER_BOTTOM"
-		
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
+
 		"PreviousWaveCreditInfoPanel"
 		{
 			"ControlName"							"CCreditDisplayPanel"
 			"fieldName"								"PreviousWaveCreditInfoPanel"
 			"xpos"									"0"
 			"ypos"									"0"
-			"wide"									"185"
-			"tall"									"63"
+			"wide"									"131"
+			"tall"									"44"
 			"visible"								"1"
 		}
-		
+
 		"PreviousWaveCreditSpendPanel"
 		{
 			"ControlName"							"CCreditSpendPanel"
 			"fieldName"								"PreviousWaveCreditSpendPanel"
 			"xpos"									"0"
-			"ypos"									"3"
-			"wide"									"185"
-			"tall"									"47"
-			"visible"								"1"
-			
-			"pin_to_sibling"						"PreviousWaveCreditInfoPanel"
-			"pin_corner_to_sibling"					"PIN_TOPLEFT"
-			"pin_to_sibling_corner"					"PIN_BOTTOMLEFT"
-		}
-		
-		"TotalGameCreditInfoPanel"
-		{
-			"ControlName"							"CCreditDisplayPanel"
-			"fieldName"								"TotalGameCreditInfoPanel"
-			"xpos"									"15"
 			"ypos"									"0"
-			"wide"									"185"
-			"tall"									"63"
+			"wide"									"131"
+			"tall"									"44"
 			"visible"								"1"
-			
+
 			"pin_to_sibling"						"PreviousWaveCreditInfoPanel"
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"
 			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}
-		
+
+		"TotalGameCreditInfoPanel"
+		{
+			"ControlName"							"CCreditDisplayPanel"
+			"fieldName"								"TotalGameCreditInfoPanel"
+			"xpos"									"2"
+			"ypos"									"0"
+			"wide"									"131"
+			"tall"									"44"
+			"visible"								"1"
+
+			"pin_to_sibling"						"PreviousWaveCreditSpendPanel"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
+		}
+
 		"TotalGameCreditSpendPanel"
 		{
 			"ControlName"							"CCreditSpendPanel"
 			"fieldName"								"TotalGameCreditSpendPanel"
 			"xpos"									"0"
-			"ypos"									"3"
-			"wide"									"185"
-			"tall"									"47"
+			"ypos"									"0"
+			"wide"									"131"
+			"tall"									"44"
 			"visible"								"1"
-			
+
 			"pin_to_sibling"						"TotalGameCreditInfoPanel"
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"
-			"pin_to_sibling_corner"					"PIN_BOTTOMLEFT"
+			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}
 
 		"RespecStatusLabel"							//NO CLUE WHAT YOU ARE, I DONT PLAY MVM FUCK
@@ -201,36 +223,31 @@
 			"tall"									"20"
 			"fgcolor"								"tanlight"
 		}
-		
+
 		"CreditStatsBackground"
 		{
 			"ControlName"							"ScalableImagePanel"
 			"fieldName"								"CreditStatsBackground"
-			"wide"									"0"
-			"tall"									"0"
-			"visible"								"0"
-			"enabled"								"0"
+			"xpos"									"9999"
 		}
 		"CreditsLabel"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"CreditsLabel"
-			"wide"									"0"
-			"tall"									"0"
-			"visible"								"0"
-			"enabled"								"0"
+			"xpos"									"9999"
 		}
 	}
-	
+
+
+
+	//==================================================================================================================================================
+	// REMOVED ELEMENTS
+	//==================================================================================================================================================
+
 	"PlayerListBackground"
 	{
 		"ControlName"								"ScalableImagePanel"
 		"fieldName"									"PlayerListBackground"
 		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
 	}
 }

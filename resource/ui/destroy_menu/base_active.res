@@ -1,122 +1,115 @@
 "Resource/UI/destroy_menu/base_active.res"
 {
-	"DestroyIcon"	
+	"Background"
+	{
+		"ControlName"		     					"EditablePanel"
+		"fieldName"									"Background"
+		"xpos"										"0"
+		"ypos"										"0"
+		"zpos"										"0"
+		"wide"										"f0"
+		"tall"										"f0"
+		"visible"		        					"1"
+		"enabled"	          						"1"
+		"proportionaltoparent"						"1"
+		"paintbackground"							"1"
+		"paintbackgroundtype"						"0"
+		"bgcolor_override"							"0 0 0 100"
+	}
+
+	"DestroyIcon"
 	{
 		"ControlName"								"CIconPanel"
 		"fieldName"									"DestroyIcon"
-		"xpos"										"0"
-		"ypos"										"0"
+		"xpos"										"cs-0.5"
+		"ypos"										"2"
 		"zpos"										"1"
-		"wide"										"40"
-		"tall"										"40"
+		"wide"										"f4"
+		"tall"										"o1"
 		"visible"									"1"
 		"enabled"									"1"
-		"scaleImage"								"1"	
+		"proportionaltoparent"						"1"
+		"scaleImage"								"1"
 		"icon"										"ico_demolish"
 		"iconColor"									"White"
 	}
-	
-	"BuildingIcon"	
+
+	"BuildingIcon"
 	{
 		"ControlName"								"CIconPanel"
 		"fieldName"									"BuildingIcon"
-		"xpos"										"-2"
-		"ypos"										"2"
-		"zpos"										"3"
-		"wide"										"40"
-		"tall"										"40"
+		"xpos"										"cs-0.5"
+		"ypos"										"4"
+		"zpos"										"1"
+		"wide"										"f8"
+		"tall"										"o1"
 		"visible"									"1"
 		"enabled"									"1"
-		"scaleImage"								"1"	
+		"proportionaltoparent"						"1"
+		"scaleImage"								"1"
 		"icon"										"obj_status_dispenser"
-		"iconColor"									"255 255 255 175"
-		
-		"pin_to_sibling"							"DestroyIcon"
+		"iconColor"									"255 255 255 255"
 	}
-	
+
 	"NotBuiltLabel"
-	{	
+	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"NotBuiltLabel"
-		"font"										"m0refont11"
-		"xpos"										"0"
-		"ypos"										"23"
-		"zpos"										"20"
-		"wide"										"40"
-		"tall"										"40"
-		"autoResize"								"0"
-		"pinCorner"									"0"
+		"font"										"m0refont9"
+		"xpos"										"cs-0.5"
+		"ypos"										"cs-0.5"
+		"zpos"										"5"
+		"wide"										"f0"
+		"tall"										"f0"
 		"visible"									"0"
 		"enabled"									"1"
+		"proportionaltoparent"						"1"
 		"labelText"									"#TF_NotBuilt"
 		"textAlignment"								"Center"
 		"centerwrap"								"1"
-		"dulltext"									"0"
-		"brighttext"								"0"
-		"fgcolor_override"							"255 0 0 255"
+		"fgcolor"									"255 0 0 255"
 	}
-	
-	"NumberBg"	
-	{
-		"ControlName"								"CIconPanel"
-		"fieldName"									"NumberBg"
-		"xpos"										"12"
-		"ypos"										"35"
-		"zpos"										"20"
-		"wide"										"18"
-		"tall"										"18"
-		"visible"									"1"
-		"enabled"									"1"
-		"scaleImage"								"1"	
-		"icon"										"ico_key_blank"
-		"iconColor"									"White"
-	}
-	
+
 	"NumberLabel"
-	{	
+	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"NumberLabel"
-		"font"										"m0refont11"
-		"fgcolor"									"Black"
-		"xpos"										"0"
-		"ypos"										"1"
-		"zpos"										"21"
-		"wide"										"18"
-		"tall"										"18"
-		"autoResize"								"0"
-		"pinCorner"									"0"
+		"font"										"m0refont12"
+		"fgcolor"									"White"
+		"xpos"										"cs-0.5"
+		"ypos"										"rs1"
+		"zpos"										"6"
+		"wide"										"f0"
+		"tall"										"12"
 		"visible"									"1"
 		"enabled"									"1"
+		"proportionaltoparent"						"1"
 		"labelText"									"2"
 		"textAlignment"								"Center"
-		"dulltext"									"1"
-		"brighttext"								"0"
-		
-		"pin_to_sibling"							"NumberBg"
 	}
-	
-	
-	
-	
-	
-	//////////////////////////////////REMOVED STUFF//////////////////////////////////
-	
-	"ItemBackground"	
+
+
+
+	//==================================================================================================================================================
+	// REMOVED ELEMENTS
+	//==================================================================================================================================================
+
+	"ItemBackground"
 	{
 		"ControlName"								"CIconPanel"
 		"fieldName"									"ItemBackground"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
+		"xpos"										"9999"
 	}
 	"ItemNameLabel"
-	{	
+	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"ItemNameLabel"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
+		"xpos"										"9999"
+	}
+	"NumberBg"
+	{
+		"ControlName"								"CIconPanel"
+		"fieldName"									"NumberBg"
+		"xpos"										"9999"
 	}
 }

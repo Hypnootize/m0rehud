@@ -1,8 +1,8 @@
 #base "huditemeffectmeter_demoman.res"
 
-"Resource/UI/HudItemEffectMeter_Scout.res"
+"Resource/UI/HudItemEffectMeter_Organs.res"
 {
-	HudItemEffectMeter
+	"HudItemEffectMeter"
 	{
 		"ypos"										"r36"
 	}

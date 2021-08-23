@@ -2,14 +2,14 @@
 
 "Resource/UI/destroy_menu/sentry_active.res"
 {
-	"BuildingIcon"	
+	"BuildingIcon"
 	{
-		"ypos"										"5"
-		"icon"										"obj_status_sentrygun_1"
+		"xpos"										"cs-0.5+1"
+		"icon"										"obj_status_sentrygun_2"
 	}
-	
+
 	"NumberLabel"
-	{	
+	{
 		"labelText"									"1"
 	}
 }

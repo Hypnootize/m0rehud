@@ -12,7 +12,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 	}
-	
+
 	"BlueScore"
 	{
 		"ControlName"								"CExLabel"
@@ -24,12 +24,11 @@
 		"tall"										"35"
 		"visible"									"1"
 		"enabled"									"1"
-		"textAlignment"								"east"	
+		"textAlignment"								"east"
 		"labelText"									"%bluescore%"
 		"font"										"m0refont30"
 		"fgcolor"									"m0reblue"
-	}	
-	
+	}
 	"BlueScoreShadow"
 	{
 		"ControlName"								"CExLabel"
@@ -41,14 +40,14 @@
 		"tall"										"35"
 		"visible"									"1"
 		"enabled"									"1"
-		"textAlignment"								"east"	
+		"textAlignment"								"east"
 		"labelText"									"%bluescore%"
 		"font"										"m0refont30"
 		"fgcolor"									"Black"
-		
+
 		"pin_to_sibling"							"BlueScore"
-	}	
-	
+	}
+
 	"RedScore"
 	{
 		"ControlName"								"CExLabel"
@@ -60,12 +59,11 @@
 		"tall"										"35"
 		"visible"									"1"
 		"enabled"									"1"
-		"textAlignment"								"west"	
+		"textAlignment"								"west"
 		"labelText"									"%redscore%"
 		"font"										"m0refont30"
-		"fgcolor"									"m0rered"	
-	}	
-	
+		"fgcolor"									"m0rered"
+	}
 	"RedScoreShadow"
 	{
 		"ControlName"								"CExLabel"
@@ -77,11 +75,11 @@
 		"tall"										"35"
 		"visible"									"1"
 		"enabled"									"1"
-		"textAlignment"								"west"	
+		"textAlignment"								"west"
 		"labelText"									"%redscore%"
 		"font"										"m0refont30"
 		"fgcolor"									"Black"
-		
+
 		"pin_to_sibling"							"RedScore"
 	}
 
@@ -101,63 +99,50 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"PlayingTo"
-			"xpos"									"c-70"
+			"xpos"									"cs-0.5"
 			"ypos"									"r45"
 			"zpos"									"4"
 			"wide"									"140"
 			"tall"									"30"
 			"visible"								"1"
 			"enabled"								"1"
+			"proportionaltoparent"					"1"
 			"labelText"								"#TF_PlayingTo"
 			"textAlignment"							"center"
-			"dulltext"								"0"
-			"brighttext"							"0"
-			"font"									"TFFontSmall"
+			"font"									"DefaultVerySmall"
 			"fgcolor"								"White"
-		}	
-		
+		}
+
 		"PlayingToBG"
 		{
 			"ControlName"							"CTFImagePanel"
 			"fieldName"								"PlayingToBG"
-			"wide"									"0"
-			"tall"									"0"
-			"visible"								"0"
-			"enabled"								"0"
+			"xpos"									"9999"
 		}
 	}
-	
-	
-	
-	
-	
-	//////////////////////////////////REMOVED STUFF//////////////////////////////////
-	
+
+
+
+	//==================================================================================================================================================
+	// REMOVED ELEMENTS
+	//==================================================================================================================================================
+
 	"LeftSideBG"
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"LeftSideBG"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
+		"xpos"										"9999"
 	}
 	"RightSideBG"
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"RightSideBG"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
+		"xpos"										"9999"
 	}
 	"OutlineBG"
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"OutlineBG"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
+		"xpos"										"9999"
 	}
 }

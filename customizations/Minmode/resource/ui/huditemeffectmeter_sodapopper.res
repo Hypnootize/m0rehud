@@ -2,7 +2,7 @@
 
 "Resource/UI/HudItemEffectMeter_SodaPopper.res"
 {
-	HudItemEffectMeter
+	"HudItemEffectMeter"
 	{
 		"ypos"										"c58"
 	}
