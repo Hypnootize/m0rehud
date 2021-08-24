@@ -5,7 +5,7 @@
 		"ControlName"		         				"ScalableImagePanel"
 		"fieldName"		           					"TargetIDBG_Spec_Blue"
 		"xpos"		          	   					"5"
-		"ypos"			            				"-23"
+		"ypos"			            				"-21"
 		"zpos"		          	   					"-1"
 		"wide"		          	   					"252"
 		"tall"	 	          	   					"30"
@@ -24,7 +24,7 @@
 		"ControlName"	      	   					"ScalableImagePanel"
 		"fieldName"       		   					"TargetIDBG_Spec_Red"
 		"xpos"		          	   					"5"
-		"ypos"		          	   					"-23"
+		"ypos"		          	   					"-21"
 		"zpos"		          	   					"-1"
 		"wide"		          	   					"252"
 		"tall"	 		             				"30"
@@ -82,7 +82,7 @@
 		"enabled"		           					"1"
 		"font"			           					"m0refont10"
 		"labelText"		        					"%targetdata%"
-		"textAlignment"		     					"west"
+		"textAlignment"		     					"north-west"
 		"fgcolor"     								"White"
 	}
 
