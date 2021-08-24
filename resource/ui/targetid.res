@@ -77,12 +77,12 @@
 		"ypos"			           					"0"
 		"zpos"			           					"1"
 		"wide"			           					"280"
-		"tall"			           					"10"
+		"tall"			           					"11"
 		"visible"		          					"1"
 		"enabled"		           					"1"
 		"font"			           					"m0refont11Shadow"
 		"labelText"		        					"%targetdata%"
-		"textAlignment"		     					"west"
+		"textAlignment"		     					"north-west"
 		"fgcolor"     								"White"
 	}
 
