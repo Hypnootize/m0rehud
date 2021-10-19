@@ -139,7 +139,7 @@
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"MapImage"
-		"xpos"										"9999"
+		"wide"										"0"
 	}
 	"MapInfoType"
 	{
