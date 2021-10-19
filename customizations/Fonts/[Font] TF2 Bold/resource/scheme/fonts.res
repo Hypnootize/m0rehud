@@ -6,7 +6,7 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
+				"name"										"TF2 Build"
 				"tall"										"9"
 				"additive"									"0"
 				"antialias" 								"1"
@@ -16,8 +16,8 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
-				"tall"										"10"
+				"name"										"TF2 Build"
+				"tall"										"9"
 				"additive"									"0"
 				"antialias" 								"1"
 			}
@@ -26,8 +26,8 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
-				"tall"										"11"
+				"name"										"TF2 Build"
+				"tall"										"10"
 				"additive"									"0"
 				"antialias" 								"1"
 			}
@@ -36,8 +36,8 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
-				"tall"										"11"
+				"name"										"TF2 Build"
+				"tall"										"10"
 				"additive"									"0"
 				"antialias" 								"1"
 				"dropshadow" 								"1"
@@ -47,8 +47,8 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
-				"tall"										"12"
+				"name"										"TF2 Build"
+				"tall"										"11"
 				"additive"									"0"
 				"antialias" 								"1"
 			}
@@ -57,8 +57,8 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
-				"tall"										"12"
+				"name"										"TF2 Build"
+				"tall"										"11"
 				"additive"									"0"
 				"antialias" 								"1"
 				"dropshadow" 								"1"
@@ -68,8 +68,8 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
-				"tall"										"14"
+				"name"										"TF2 Build"
+				"tall"										"12"
 				"additive"									"0"
 				"antialias" 								"1"
 			}
@@ -78,8 +78,8 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
-				"tall"										"16"
+				"name"										"TF2 Build"
+				"tall"										"14"
 				"additive"									"0"
 				"antialias" 								"1"
 			}
@@ -88,8 +88,8 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
-				"tall"										"16"
+				"name"										"TF2 Build"
+				"tall"										"14"
 				"additive"									"0"
 				"antialias" 								"1"
 				"dropshadow" 								"1"
@@ -99,8 +99,8 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
-				"tall"										"18"
+				"name"										"TF2 Build"
+				"tall"										"16"
 				"additive"									"0"
 				"antialias" 								"1"
 			}
@@ -109,8 +109,8 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
-				"tall"										"18"
+				"name"										"TF2 Build"
+				"tall"										"16"
 				"additive"									"0"
 				"antialias" 								"1"
 				"dropshadow" 								"1"
@@ -120,8 +120,8 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
-				"tall"										"18"
+				"name"										"TF2 Build"
+				"tall"										"16"
 				"additive"									"0"
 				"antialias" 								"1"
 				"outline" 									"1"
@@ -142,8 +142,8 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
-				"tall"										"20"
+				"name"										"TF2 Build"
+				"tall"										"18"
 				"additive"									"0"
 				"antialias" 								"1"
 			}
@@ -152,8 +152,8 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
-				"tall"										"24"
+				"name"										"TF2 Build"
+				"tall"										"20"
 				"additive"									"0"
 				"antialias" 								"1"
 			}
@@ -162,8 +162,8 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
-				"tall"										"24"
+				"name"										"TF2 Build"
+				"tall"										"20"
 				"additive"									"0"
 				"antialias" 								"1"
 				"dropshadow" 								"1"
@@ -173,8 +173,8 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
-				"tall"										"24"
+				"name"										"TF2 Build"
+				"tall"										"20"
 				"additive"									"0"
 				"antialias" 								"1"
 				"outline" 									"1"
@@ -195,8 +195,8 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
-				"tall"										"26"
+				"name"										"TF2 Build"
+				"tall"										"24"
 				"additive"									"0"
 				"antialias" 								"1"
 			}
@@ -205,8 +205,8 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
-				"tall"										"30"
+				"name"										"TF2 Build"
+				"tall"										"24"
 				"additive"									"0"
 				"antialias" 								"1"
 			}
@@ -215,8 +215,8 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
-				"tall"										"30"
+				"name"										"TF2 Build"
+				"tall"										"24"
 				"additive"									"0"
 				"antialias" 								"1"
 				"outline" 									"1"
@@ -237,8 +237,8 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
-				"tall"										"32"
+				"name"										"TF2 Build"
+				"tall"										"26"
 				"additive"									"0"
 				"antialias" 								"1"
 			}
@@ -247,8 +247,8 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
-				"tall"										"32"
+				"name"										"TF2 Build"
+				"tall"										"26"
 				"additive"									"0"
 				"antialias" 								"1"
 				"dropshadow" 								"1"
@@ -258,8 +258,8 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
-				"tall"										"36"
+				"name"										"TF2 Build"
+				"tall"										"28"
 				"additive"									"0"
 				"antialias" 								"1"
 			}
@@ -268,8 +268,8 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
-				"tall"										"48"
+				"name"										"TF2 Build"
+				"tall"										"38"
 				"additive"									"0"
 				"antialias" 								"1"
 			}
@@ -278,8 +278,8 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
-				"tall"										"72"
+				"name"										"TF2 Build"
+				"tall"										"46"
 				"additive"									"0"
 				"antialias" 								"1"
 			}
@@ -364,36 +364,36 @@
 		{
 			"1"
 			{
-				"name"		  								"Surface-Medium"
-				"tall"      								"14"
+				"name"		  								"TF2 Build"
+				"tall"      								"12"
 				"weight"									"0"
 				"antialias" 								"1"
 			}
 			"2"
 			{
-				"name"		 								"Surface-Medium"
-				"tall"      								"18"
+				"name"		 								"TF2 Build"
+				"tall"      								"16"
 				"weight"									"0"
 				"antialias" 								"1"
 			}
 			"3"
 			{
-				"name"		  								"Surface-Medium"
-				"tall"      								"22"
+				"name"		  								"TF2 Build"
+				"tall"      								"20"
 				"weight"									"0"
 				"antialias" 								"1"
 			}
 			"4"
 			{
-				"name"		  								"Surface-Medium"
-				"tall"      								"24"
+				"name"		  								"TF2 Build"
+				"tall"      								"22"
 				"weight"									"0"
 				"antialias" 								"1"
 			}
 			"5"
 			{
-				"name"										"Surface-Medium"
-				"tall"										"24"
+				"name"										"TF2 Build"
+				"tall"										"22"
 				"weight"									"0"
 				"antialias"									"1"
 			}
@@ -403,8 +403,8 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
-				"tall"										"24"
+				"name"										"TF2 Build"
+				"tall"										"22"
 				"weight"									"0"
 				"antialias" 								"1"
 			}
@@ -413,8 +413,8 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
-				"tall"										"24"
+				"name"										"TF2 Build"
+				"tall"										"22"
 				"weight"									"0"
 				"italic"									"0"
 				"antialias" 								"1"
@@ -424,8 +424,8 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
-				"tall"										"24"
+				"name"										"TF2 Build"
+				"tall"										"22"
 				"weight"									"0"
 				"antialias" 								"1"
 			}
@@ -434,8 +434,8 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
-				"tall"										"24"
+				"name"										"TF2 Build"
+				"tall"										"22"
 				"weight"									"0"
 				"italic"									"0"
 				"antialias" 								"1"
@@ -445,8 +445,8 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
-				"tall"										"16"
+				"name"										"TF2 Build"
+				"tall"										"14"
 				"weight"									"0"
 				"antialias" 								"1"
 			}
@@ -457,8 +457,8 @@
 	{
 		"8" 
 		{
-			"font" 		"resource/scheme/fonts/surface_medium.otf"
-			"name" 		"Surface-Medium"
+			"font" 		"resource/scheme/fonts/TF2 Bold.ttf"
+			"name" 		"TF2 Build"
 		}
 		
 		"9" 

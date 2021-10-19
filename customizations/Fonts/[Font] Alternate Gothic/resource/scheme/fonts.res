@@ -6,7 +6,7 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
+				"name"										"AlternateGothicEF-NoThree"
 				"tall"										"9"
 				"additive"									"0"
 				"antialias" 								"1"
@@ -16,7 +16,7 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
+				"name"										"AlternateGothicEF-NoThree"
 				"tall"										"10"
 				"additive"									"0"
 				"antialias" 								"1"
@@ -26,7 +26,7 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
+				"name"										"AlternateGothicEF-NoThree"
 				"tall"										"11"
 				"additive"									"0"
 				"antialias" 								"1"
@@ -36,7 +36,7 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
+				"name"										"AlternateGothicEF-NoThree"
 				"tall"										"11"
 				"additive"									"0"
 				"antialias" 								"1"
@@ -47,7 +47,7 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
+				"name"										"AlternateGothicEF-NoThree"
 				"tall"										"12"
 				"additive"									"0"
 				"antialias" 								"1"
@@ -57,7 +57,7 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
+				"name"										"AlternateGothicEF-NoThree"
 				"tall"										"12"
 				"additive"									"0"
 				"antialias" 								"1"
@@ -68,7 +68,7 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
+				"name"										"AlternateGothicEF-NoThree"
 				"tall"										"14"
 				"additive"									"0"
 				"antialias" 								"1"
@@ -78,7 +78,7 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
+				"name"										"AlternateGothicEF-NoThree"
 				"tall"										"16"
 				"additive"									"0"
 				"antialias" 								"1"
@@ -88,7 +88,7 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
+				"name"										"AlternateGothicEF-NoThree"
 				"tall"										"16"
 				"additive"									"0"
 				"antialias" 								"1"
@@ -99,7 +99,7 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
+				"name"										"AlternateGothicEF-NoThree"
 				"tall"										"18"
 				"additive"									"0"
 				"antialias" 								"1"
@@ -109,7 +109,7 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
+				"name"										"AlternateGothicEF-NoThree"
 				"tall"										"18"
 				"additive"									"0"
 				"antialias" 								"1"
@@ -120,7 +120,7 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
+				"name"										"AlternateGothicEF-NoThree"
 				"tall"										"18"
 				"additive"									"0"
 				"antialias" 								"1"
@@ -142,7 +142,7 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
+				"name"										"AlternateGothicEF-NoThree"
 				"tall"										"20"
 				"additive"									"0"
 				"antialias" 								"1"
@@ -152,7 +152,7 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
+				"name"										"AlternateGothicEF-NoThree"
 				"tall"										"24"
 				"additive"									"0"
 				"antialias" 								"1"
@@ -162,7 +162,7 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
+				"name"										"AlternateGothicEF-NoThree"
 				"tall"										"24"
 				"additive"									"0"
 				"antialias" 								"1"
@@ -173,7 +173,7 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
+				"name"										"AlternateGothicEF-NoThree"
 				"tall"										"24"
 				"additive"									"0"
 				"antialias" 								"1"
@@ -195,7 +195,7 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
+				"name"										"AlternateGothicEF-NoThree"
 				"tall"										"26"
 				"additive"									"0"
 				"antialias" 								"1"
@@ -205,7 +205,7 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
+				"name"										"AlternateGothicEF-NoThree"
 				"tall"										"30"
 				"additive"									"0"
 				"antialias" 								"1"
@@ -215,7 +215,7 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
+				"name"										"AlternateGothicEF-NoThree"
 				"tall"										"30"
 				"additive"									"0"
 				"antialias" 								"1"
@@ -237,7 +237,7 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
+				"name"										"AlternateGothicEF-NoThree"
 				"tall"										"32"
 				"additive"									"0"
 				"antialias" 								"1"
@@ -247,7 +247,7 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
+				"name"										"AlternateGothicEF-NoThree"
 				"tall"										"32"
 				"additive"									"0"
 				"antialias" 								"1"
@@ -258,7 +258,7 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
+				"name"										"AlternateGothicEF-NoThree"
 				"tall"										"36"
 				"additive"									"0"
 				"antialias" 								"1"
@@ -268,7 +268,7 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
+				"name"										"AlternateGothicEF-NoThree"
 				"tall"										"48"
 				"additive"									"0"
 				"antialias" 								"1"
@@ -278,7 +278,7 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
+				"name"										"AlternateGothicEF-NoThree"
 				"tall"										"72"
 				"additive"									"0"
 				"antialias" 								"1"
@@ -364,35 +364,35 @@
 		{
 			"1"
 			{
-				"name"		  								"Surface-Medium"
+				"name"		  								"AlternateGothicEF-NoThree"
 				"tall"      								"14"
 				"weight"									"0"
 				"antialias" 								"1"
 			}
 			"2"
 			{
-				"name"		 								"Surface-Medium"
+				"name"		 								"AlternateGothicEF-NoThree"
 				"tall"      								"18"
 				"weight"									"0"
 				"antialias" 								"1"
 			}
 			"3"
 			{
-				"name"		  								"Surface-Medium"
+				"name"		  								"AlternateGothicEF-NoThree"
 				"tall"      								"22"
 				"weight"									"0"
 				"antialias" 								"1"
 			}
 			"4"
 			{
-				"name"		  								"Surface-Medium"
+				"name"		  								"AlternateGothicEF-NoThree"
 				"tall"      								"24"
 				"weight"									"0"
 				"antialias" 								"1"
 			}
 			"5"
 			{
-				"name"										"Surface-Medium"
+				"name"										"AlternateGothicEF-NoThree"
 				"tall"										"24"
 				"weight"									"0"
 				"antialias"									"1"
@@ -403,7 +403,7 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
+				"name"										"AlternateGothicEF-NoThree"
 				"tall"										"24"
 				"weight"									"0"
 				"antialias" 								"1"
@@ -413,7 +413,7 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
+				"name"										"AlternateGothicEF-NoThree"
 				"tall"										"24"
 				"weight"									"0"
 				"italic"									"0"
@@ -424,7 +424,7 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
+				"name"										"AlternateGothicEF-NoThree"
 				"tall"										"24"
 				"weight"									"0"
 				"antialias" 								"1"
@@ -434,7 +434,7 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
+				"name"										"AlternateGothicEF-NoThree"
 				"tall"										"24"
 				"weight"									"0"
 				"italic"									"0"
@@ -445,7 +445,7 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
+				"name"										"AlternateGothicEF-NoThree"
 				"tall"										"16"
 				"weight"									"0"
 				"antialias" 								"1"
@@ -457,8 +457,8 @@
 	{
 		"8" 
 		{
-			"font" 		"resource/scheme/fonts/surface_medium.otf"
-			"name" 		"Surface-Medium"
+			"font" 		"resource/scheme/fonts/Alternate_Gothic.ttf"
+			"name" 		"AlternateGothicEF-NoThree"
 		}
 		
 		"9" 

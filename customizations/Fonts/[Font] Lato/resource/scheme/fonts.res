@@ -6,7 +6,7 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
+				"name"										"Lato Bold"
 				"tall"										"9"
 				"additive"									"0"
 				"antialias" 								"1"
@@ -16,7 +16,7 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
+				"name"										"Lato Bold"
 				"tall"										"10"
 				"additive"									"0"
 				"antialias" 								"1"
@@ -26,7 +26,7 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
+				"name"										"Lato Bold"
 				"tall"										"11"
 				"additive"									"0"
 				"antialias" 								"1"
@@ -36,7 +36,7 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
+				"name"										"Lato Bold"
 				"tall"										"11"
 				"additive"									"0"
 				"antialias" 								"1"
@@ -47,7 +47,7 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
+				"name"										"Lato Bold"
 				"tall"										"12"
 				"additive"									"0"
 				"antialias" 								"1"
@@ -57,7 +57,7 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
+				"name"										"Lato Bold"
 				"tall"										"12"
 				"additive"									"0"
 				"antialias" 								"1"
@@ -68,7 +68,7 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
+				"name"										"Lato Bold"
 				"tall"										"14"
 				"additive"									"0"
 				"antialias" 								"1"
@@ -78,7 +78,7 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
+				"name"										"Lato Bold"
 				"tall"										"16"
 				"additive"									"0"
 				"antialias" 								"1"
@@ -88,7 +88,7 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
+				"name"										"Lato Bold"
 				"tall"										"16"
 				"additive"									"0"
 				"antialias" 								"1"
@@ -99,7 +99,7 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
+				"name"										"Lato Bold"
 				"tall"										"18"
 				"additive"									"0"
 				"antialias" 								"1"
@@ -109,7 +109,7 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
+				"name"										"Lato Bold"
 				"tall"										"18"
 				"additive"									"0"
 				"antialias" 								"1"
@@ -120,7 +120,7 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
+				"name"										"Lato Bold"
 				"tall"										"18"
 				"additive"									"0"
 				"antialias" 								"1"
@@ -142,7 +142,7 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
+				"name"										"Lato Bold"
 				"tall"										"20"
 				"additive"									"0"
 				"antialias" 								"1"
@@ -152,8 +152,8 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
-				"tall"										"24"
+				"name"										"Lato Bold"
+				"tall"										"22"
 				"additive"									"0"
 				"antialias" 								"1"
 			}
@@ -162,8 +162,8 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
-				"tall"										"24"
+				"name"										"Lato Bold"
+				"tall"										"22"
 				"additive"									"0"
 				"antialias" 								"1"
 				"dropshadow" 								"1"
@@ -173,8 +173,8 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
-				"tall"										"24"
+				"name"										"Lato Bold"
+				"tall"										"22"
 				"additive"									"0"
 				"antialias" 								"1"
 				"outline" 									"1"
@@ -195,7 +195,7 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
+				"name"										"Lato Bold"
 				"tall"										"26"
 				"additive"									"0"
 				"antialias" 								"1"
@@ -205,8 +205,8 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
-				"tall"										"30"
+				"name"										"Lato Bold"
+				"tall"										"28"
 				"additive"									"0"
 				"antialias" 								"1"
 			}
@@ -215,8 +215,8 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
-				"tall"										"30"
+				"name"										"Lato Bold"
+				"tall"										"28"
 				"additive"									"0"
 				"antialias" 								"1"
 				"outline" 									"1"
@@ -237,8 +237,8 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
-				"tall"										"32"
+				"name"										"Lato Bold"
+				"tall"										"30"
 				"additive"									"0"
 				"antialias" 								"1"
 			}
@@ -247,8 +247,8 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
-				"tall"										"32"
+				"name"										"Lato Bold"
+				"tall"										"30"
 				"additive"									"0"
 				"antialias" 								"1"
 				"dropshadow" 								"1"
@@ -258,8 +258,8 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
-				"tall"										"36"
+				"name"										"Lato Bold"
+				"tall"										"34"
 				"additive"									"0"
 				"antialias" 								"1"
 			}
@@ -268,8 +268,8 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
-				"tall"										"48"
+				"name"										"Lato Bold"
+				"tall"										"44"
 				"additive"									"0"
 				"antialias" 								"1"
 			}
@@ -278,8 +278,8 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
-				"tall"										"72"
+				"name"										"Lato Bold"
+				"tall"										"54"
 				"additive"									"0"
 				"antialias" 								"1"
 			}
@@ -364,36 +364,36 @@
 		{
 			"1"
 			{
-				"name"		  								"Surface-Medium"
-				"tall"      								"14"
+				"name"		  								"Lato Bold"
+				"tall"      								"13"
 				"weight"									"0"
 				"antialias" 								"1"
 			}
 			"2"
 			{
-				"name"		 								"Surface-Medium"
-				"tall"      								"18"
+				"name"		 								"Lato Bold"
+				"tall"      								"16"
 				"weight"									"0"
 				"antialias" 								"1"
 			}
 			"3"
 			{
-				"name"		  								"Surface-Medium"
-				"tall"      								"22"
+				"name"		  								"Lato Bold"
+				"tall"      								"20"
 				"weight"									"0"
 				"antialias" 								"1"
 			}
 			"4"
 			{
-				"name"		  								"Surface-Medium"
-				"tall"      								"24"
+				"name"		  								"Lato Bold"
+				"tall"      								"22"
 				"weight"									"0"
 				"antialias" 								"1"
 			}
 			"5"
 			{
-				"name"										"Surface-Medium"
-				"tall"										"24"
+				"name"										"Lato Bold"
+				"tall"										"22"
 				"weight"									"0"
 				"antialias"									"1"
 			}
@@ -403,7 +403,7 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
+				"name"										"Lato Bold"
 				"tall"										"24"
 				"weight"									"0"
 				"antialias" 								"1"
@@ -413,7 +413,7 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
+				"name"										"Lato Bold"
 				"tall"										"24"
 				"weight"									"0"
 				"italic"									"0"
@@ -424,7 +424,7 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
+				"name"										"Lato Bold"
 				"tall"										"24"
 				"weight"									"0"
 				"antialias" 								"1"
@@ -434,7 +434,7 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
+				"name"										"Lato Bold"
 				"tall"										"24"
 				"weight"									"0"
 				"italic"									"0"
@@ -445,7 +445,7 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
+				"name"										"Lato Bold"
 				"tall"										"16"
 				"weight"									"0"
 				"antialias" 								"1"
@@ -457,8 +457,8 @@
 	{
 		"8" 
 		{
-			"font" 		"resource/scheme/fonts/surface_medium.otf"
-			"name" 		"Surface-Medium"
+			"font" 		"resource/scheme/fonts/Lato.ttf"
+			"name" 		"Lato Bold"
 		}
 		
 		"9" 

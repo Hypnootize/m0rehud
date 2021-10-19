@@ -1,6 +1,6 @@
-Scheme
+"Scheme"
 {
-	Colors
+	"Colors"
 	{
 		"Health Numbers"									"255 255 255 255"
 
@@ -48,7 +48,7 @@ Scheme
 		"Crosshair Flash"									"255 0 0 255"
 	}
 	
-	BaseSettings
+	"BaseSettings"
 	{
 		ProgressBar.FgColor									"255 255 255 255"
 		ProgressBar.BgColor									"0 0 0 50"
