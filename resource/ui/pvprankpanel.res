@@ -224,10 +224,10 @@
 			}
 		}
 
-		"DescLine1"
+		"Desc1MainMenu"
 		{
 			"ControlName"							"CAutoFittingLabel"
-			"fieldName"								"DescLine1"
+			"fieldName"								"Desc1MainMenu"
 			"xpos"									"0"
 			"ypos"									"0"
 			"wide"									"f0"
@@ -255,10 +255,10 @@
 			}
 		}
 
-		"DescLine2"
+		"Desc2MainMenu"
 		{
 			"ControlName"							"CAutoFittingLabel"
-			"fieldName"								"DescLine2"
+			"fieldName"								"Desc2MainMenu"
 			"xpos"									"0"
 			"ypos"									"17"
 			"wide"									"f0"
@@ -292,10 +292,10 @@
 			}
 		}
 
-		"DescLine1Mini"
+		"DescLine1"
 		{
 			"ControlName"							"CAutoFittingLabel"
-			"fieldName"								"DescLine1Mini"
+			"fieldName"								"DescLine1"
 			"xpos"									"67"
 			"ypos"									"4"
 			"wide"									"0"
@@ -322,10 +322,10 @@
 			}
 		}
 
-		"DescLine2Mini"
+		"DescLine2"
 		{
 			"ControlName"							"CAutoFittingLabel"
-			"fieldName"								"DescLine2Mini"
+			"fieldName"								"DescLine2"
 			"xpos"									"67"
 			"ypos"									"4"
 			"wide"									"0"
