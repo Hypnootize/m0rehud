@@ -1,0 +1,10 @@
+event FlagOutline{}
+event HasNotificationsBlink{}
+event HasNotificationsBlinkStop{}
+event CompetitiveGame_LowerChatWindow{}
+event CompetitiveGame_RestoreChatWindow{}
+event HudTournament_MoveChatWindow{}
+event RDPositiveScorePulse{}
+event RDNegativeScorePulse{}
+event TeamStatus_PlayerDead{}
+event TeamStatus_PlayerAlive{}

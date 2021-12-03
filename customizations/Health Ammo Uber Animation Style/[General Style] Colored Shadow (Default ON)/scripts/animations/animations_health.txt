@@ -12,7 +12,7 @@ event HudHealthBonusPulse
 
 	Animate PlayerStatusHealthValueSpecgui 			FgColor 	"Health Buff Spec" 					Linear 	0.0 	0.0
 
-	Animate PlayerStatusHealthValueKiller 			FgColor 	"Health Buff Killer" 				Linear 	0.0 	0.0
+	Animate PlayerStatusHealthValueShadowKiller 	FgColor 	"Health Buff Killer" 				Linear 	0.0 	0.0
 
 	RunEvent HudHealthBonusPulseLoop				0.4
 }
@@ -29,7 +29,7 @@ event HudHealthBonusPulseStop
 
 	Animate PlayerStatusHealthvalueSpecgui 			FgColor 	"Health Numbers" 					Linear	0.0 	0.0
 
-	Animate PlayerStatusHealthValueKiller 			FgColor 	"Health Numbers" 					Linear 	0.0 	0.0
+	Animate PlayerStatusHealthValueShadowKiller 	FgColor 	"Black" 							Linear 	0.0 	0.0
 }
 
 //===========================================================================================================================
@@ -46,7 +46,7 @@ event HudHealthDyingPulse
 
 	Animate PlayerStatusHealthvalueSpecgui 			FgColor 	"Health Hurt Spec" 					Linear 	0.0 	0.0
 
-	Animate PlayerStatusHealthValueKiller 			FgColor 	"Health Hurt Killer" 				Linear 	0.0 	0.0
+	Animate PlayerStatusHealthValueShadowKiller 	FgColor 	"Health Hurt Killer" 				Linear 	0.0 	0.0
 
 	RunEvent HudHealthDyingPulseLoop				0.25
 }
@@ -63,7 +63,7 @@ event HudHealthDyingPulseStop
 
 	Animate PlayerStatusHealthvalueSpecgui 			FgColor 	"Health Numbers" 					Linear 	0.0 	0.0
 
-	Animate PlayerStatusHealthValueKiller 			FgColor 	"Health Numbers" 					Linear 	0.0 	0.0
+	Animate PlayerStatusHealthValueShadowKiller 	FgColor 	"Black" 							Linear 	0.0 	0.0
 }
 
 //===========================================================================================================================

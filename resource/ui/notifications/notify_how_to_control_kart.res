@@ -9,8 +9,8 @@
 		"visible"									"0"
 		"enabled"									"0"
 	}
-	
-	"Notification_Icon"	
+
+	"Notification_Icon"
 	{
 		"ControlName"								"CIconPanel"
 		"fieldName"									"Notification_Icon"
@@ -19,9 +19,9 @@
 		"visible"									"0"
 		"enabled"									"0"
 	}
-	
+
 	"Notification_Label"
-	{	
+	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"Notification_Label"
 		"wide"										"0"

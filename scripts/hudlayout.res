@@ -2,7 +2,7 @@
 // M0REHUD LAYOUT
 //=========================================================
 
-#base "../scripts/layouts/hudlayout_m0re.res"
+#base "../scripts/layouts/layout_m0re.res"
 
 //=========================================================
 // HUD CROSSHAIRS
@@ -20,4 +20,4 @@
 // DEFAULT LAYOUT
 //=========================================================
 
-#base "../scripts/layouts/hudlayout_default.res"
+#base "../scripts/layouts/layout_default.res"

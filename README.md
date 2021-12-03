@@ -1,14 +1,14 @@
 # m0rehud
 
-**m0rehud, competitive hud updated and improved by Hypnotize**
+**m0rehud, competitive HUD updated and improved by Hypnotize**
 
 <a>LINKS</a>
 ====
 
 
-[Screenshot Album](http://imgur.com/a/sxOyM)
+[Screenshots Album](http://imgur.com/a/sxOyM)
 
-[Huds.tf](http://huds.tf/forum/showthread.php?tid=248)
+[HUDS.TF](https://huds.tf/site/s-m0re-Hud)
 
 [TeamFortress.tv](http://www.teamfortress.tv/34115/m0re-hud)
 

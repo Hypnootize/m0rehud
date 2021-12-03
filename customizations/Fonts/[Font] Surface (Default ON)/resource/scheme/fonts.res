@@ -291,7 +291,7 @@
 				"antialias"									"1"
 			}
 		}
-		
+
 		"m0reSymbols"
 		{
 			"1"
@@ -302,7 +302,7 @@
 				"antialias" 								"1"
 			}
 		}
-		
+
 		"Coolvetica11"
 		{
 			"1"
@@ -333,7 +333,7 @@
 				"antialias" 								"1"
 			}
 		}
-		
+
 		"VerdanaMenu"										//Only Used For Create Server Button
 		{
 			"1"
@@ -355,7 +355,7 @@
 				"antialias" 								"1"
 			}
 		}
-		
+
 		"BlocksSharp64"
 		{
 			"1"
@@ -366,7 +366,7 @@
 				"antialias" 								"0"
 			}
 		}
-		
+
 		"Default"
 		{
 			"1"
@@ -405,7 +405,7 @@
 				"antialias"									"1"
 			}
 		}
-		
+
 		"CloseCaption_Normal"
 		{
 			"1"
@@ -459,40 +459,40 @@
 			}
 		}
 	}
-	
+
 	"CustomFontFiles"
 	{
-		"8" 
+		"8"
 		{
 			"font" 		"resource/scheme/fonts/surface_medium.otf"
 			"name" 		"Surface-Medium"
 		}
-		
-		"9" 
+
+		"9"
 		{
 			"font" 		"resource/scheme/fonts/surface_numbers.otf"
 			"name" 		"Surface-Numbers"
 		}
 
-		"10" 
+		"10"
 		{
 			"font" 		"resource/scheme/fonts/surface_numbers_xl.otf"
 			"name" 		"Surface-Numbers-XL"
 		}
-		
-		"11" 
+
+		"11"
 		{
 			"font" 		"resource/scheme/fonts/coolvetica.ttf"
 			"name" 		"Coolvetica"
 		}
-		
-		"12" 
+
+		"12"
 		{
 			"font" 		"resource/scheme/fonts/blocks.ttf"
 			"name" 		"Blocks"
 		}
-		
-		"13" 
+
+		"13"
 		{
 			"font" 		"resource/scheme/fonts/m0rehud icons.ttf"
 			"name" 		"m0rehud Icons V3"

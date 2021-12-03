@@ -1,0 +1,37 @@
+//===========================================================================================================================
+
+event HudTournamentSetupPanelOpen
+{
+	Animate HudTournamentSetup						ypos	"-50"									Linear 	0.0 	0.001
+	Animate HudTournamentSetup						ypos	"32"									Spline 	0.001	0.1
+}
+
+event HudTournamentSetupPanelClose
+{
+	Animate HudTournamentSetup						ypos	"32"									Linear 	0.0 	0.001
+	Animate HudTournamentSetup						ypos	"-50"									Spline 	0.001 	0.6
+}
+
+//===========================================================================================================================
+
+event ActiveTimerHighlight
+{
+	Animate TimePanelValue							FgColor		"255 255 100 255"					Linear 	0.0 	0.0
+}
+
+event ActiveTimerDim
+{
+	Animate TimePanelValue							FgColor		"White"								Linear 	0.0 	0.0
+}
+
+//===========================================================================================================================
+
+event HudSnapShotReminderIn
+{
+	RunEvent HudHealthDyingPulseStop				10.0
+	RunEvent HudHealthBonusPulseStop				10.0
+	RunEvent HudLowAmmoPulseStop					10.0
+	RunEvent HudMedicChargedStop					10.0
+}
+
+//===========================================================================================================================
