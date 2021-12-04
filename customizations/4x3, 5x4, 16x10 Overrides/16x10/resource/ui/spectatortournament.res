@@ -173,7 +173,7 @@
 		"fgcolor"  									"White"
 		"proportionaltoparent"						"1"
 
-		if_mvm
+		"if_mvm"
 		{
 			"ypos"									"70"
 		}
@@ -196,7 +196,7 @@
 		"centerwrap"								"1"
 		"proportionaltoparent"						"1"
 
-		if_mvm
+		"if_mvm"
 		{
 			"visible"								"1"
 		}

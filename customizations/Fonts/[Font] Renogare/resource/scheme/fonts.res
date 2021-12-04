@@ -8,7 +8,6 @@
 			{
 				"name"										"RenogareSoft-Regular"
 				"tall"										"9"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -18,7 +17,6 @@
 			{
 				"name"										"RenogareSoft-Regular"
 				"tall"										"10"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -28,7 +26,6 @@
 			{
 				"name"										"RenogareSoft-Regular"
 				"tall"										"11"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -38,7 +35,6 @@
 			{
 				"name"										"RenogareSoft-Regular"
 				"tall"										"11"
-				"additive"									"0"
 				"antialias" 								"1"
 				"dropshadow" 								"1"
 			}
@@ -49,7 +45,6 @@
 			{
 				"name"										"RenogareSoft-Regular"
 				"tall"										"12"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -59,7 +54,6 @@
 			{
 				"name"										"RenogareSoft-Regular"
 				"tall"										"12"
-				"additive"									"0"
 				"antialias" 								"1"
 				"dropshadow" 								"1"
 			}
@@ -70,7 +64,6 @@
 			{
 				"name"										"RenogareSoft-Regular"
 				"tall"										"14"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -80,7 +73,6 @@
 			{
 				"name"										"RenogareSoft-Regular"
 				"tall"										"16"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -90,7 +82,6 @@
 			{
 				"name"										"RenogareSoft-Regular"
 				"tall"										"16"
-				"additive"									"0"
 				"antialias" 								"1"
 				"dropshadow" 								"1"
 			}
@@ -101,7 +92,6 @@
 			{
 				"name"										"RenogareSoft-Regular"
 				"tall"										"18"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -111,7 +101,6 @@
 			{
 				"name"										"RenogareSoft-Regular"
 				"tall"										"18"
-				"additive"									"0"
 				"antialias" 								"1"
 				"dropshadow" 								"1"
 			}
@@ -122,7 +111,6 @@
 			{
 				"name"										"RenogareSoft-Regular"
 				"tall"										"18"
-				"additive"									"0"
 				"antialias" 								"1"
 				"outline" 									"1"
 			}
@@ -133,7 +121,6 @@
 			{
 				"name"										"Surface-Numbers"
 				"tall"										"18"
-				"additive"									"0"
 				"antialias" 								"1"
 				"outline" 									"1"
 			}
@@ -144,7 +131,6 @@
 			{
 				"name"										"RenogareSoft-Regular"
 				"tall"										"20"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -154,7 +140,6 @@
 			{
 				"name"										"RenogareSoft-Regular"
 				"tall"										"24"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -164,7 +149,6 @@
 			{
 				"name"										"RenogareSoft-Regular"
 				"tall"										"24"
-				"additive"									"0"
 				"antialias" 								"1"
 				"dropshadow" 								"1"
 			}
@@ -175,7 +159,6 @@
 			{
 				"name"										"RenogareSoft-Regular"
 				"tall"										"24"
-				"additive"									"0"
 				"antialias" 								"1"
 				"outline" 									"1"
 			}
@@ -186,7 +169,6 @@
 			{
 				"name"										"Surface-Numbers"
 				"tall"										"24"
-				"additive"									"0"
 				"antialias" 								"1"
 				"outline" 									"1"
 			}
@@ -197,7 +179,6 @@
 			{
 				"name"										"RenogareSoft-Regular"
 				"tall"										"26"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -207,7 +188,6 @@
 			{
 				"name"										"RenogareSoft-Regular"
 				"tall"										"30"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -217,7 +197,6 @@
 			{
 				"name"										"RenogareSoft-Regular"
 				"tall"										"30"
-				"additive"									"0"
 				"antialias" 								"1"
 				"outline" 									"1"
 			}
@@ -228,7 +207,6 @@
 			{
 				"name"										"Surface-Numbers"
 				"tall"										"30"
-				"additive"									"0"
 				"antialias" 								"1"
 				"outline" 									"1"
 			}
@@ -239,7 +217,6 @@
 			{
 				"name"										"RenogareSoft-Regular"
 				"tall"										"32"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -249,7 +226,6 @@
 			{
 				"name"										"RenogareSoft-Regular"
 				"tall"										"32"
-				"additive"									"0"
 				"antialias" 								"1"
 				"dropshadow" 								"1"
 			}
@@ -260,7 +236,6 @@
 			{
 				"name"										"RenogareSoft-Regular"
 				"tall"										"36"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -270,7 +245,6 @@
 			{
 				"name"										"RenogareSoft-Regular"
 				"tall"										"46"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -280,7 +254,6 @@
 			{
 				"name"										"RenogareSoft-Regular"
 				"tall"										"52"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -291,7 +264,6 @@
 			{
 				"name"										"m0rehud Icons V3"
 				"tall"										"18"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -302,7 +274,6 @@
 			{
 				"name"										"Coolvetica"
 				"tall"										"11"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -312,7 +283,6 @@
 			{
 				"name"										"Coolvetica"
 				"tall"										"13"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -322,29 +292,26 @@
 			{
 				"name"										"Coolvetica"
 				"tall"										"15"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
 
-		"VerdanaMenu"										//Only Used For Create Server Button
+		"VerdanaMenu"										//Create Server Button
 		{
 			"1"
 			{
 				"name"										"Verdana"
 				"tall"										"18"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
 
-		"VerdanaSmallest"
+		"VerdanaSmallest"									//Match Status Names
 		{
 			"1"
 			{
 				"name"										"Verdana"
 				"tall"										"6"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -355,8 +322,6 @@
 			{
 				"name"										"Blocks"
 				"tall"										"64"
-				"additive"									"0"
-				"antialias" 								"0"
 			}
 		}
 
@@ -460,25 +425,21 @@
 			"font" 		"resource/scheme/fonts/renogare.ttf"
 			"name" 		"RenogareSoft-Regular"
 		}
-
 		"9"
 		{
 			"font" 		"resource/scheme/fonts/surface_numbers.otf"
 			"name" 		"Surface-Numbers"
 		}
-
 		"10"
 		{
 			"font" 		"resource/scheme/fonts/coolvetica.ttf"
 			"name" 		"Coolvetica"
 		}
-
 		"11"
 		{
 			"font" 		"resource/scheme/fonts/blocks.ttf"
 			"name" 		"Blocks"
 		}
-
 		"12"
 		{
 			"font" 		"resource/scheme/fonts/m0rehud icons.ttf"

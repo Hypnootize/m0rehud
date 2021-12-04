@@ -32,7 +32,7 @@
 		"scaleImage"								"1"
 		"bgcolor_override"							"TanLight"
 
-		if_verbose
+		"if_verbose"
 		{
 			"visible"								"1"
 		}
@@ -54,7 +54,7 @@
 		"textAlignment"								"west"
 		"labelText"									"#TF_MVM_Support"
 
-		if_verbose
+		"if_verbose"
 		{
 			"visible"								"1"
 		}

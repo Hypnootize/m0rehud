@@ -24,7 +24,7 @@
 			"visible"								"1"
 			"proportionaltoparent"					"1"
 
-			if_mini
+			"if_mini"
 			{
 				"xpos"								"cs-0.5-228"
 			}
@@ -59,7 +59,7 @@
 			"fov"									"70"
 			"proportionaltoparent"					"1"
 
-			if_mini
+			"if_mini"
 			{
 				"xpos"								"cs-0.5-228"
 				"ypos"								"cs-0.5"
@@ -84,7 +84,7 @@
 				"origin_z"							"0"
 				"spotlight"							"1"
 
-				if_mini
+				"if_mini"
 				{
 					"origin_x"						"55"
 				}
@@ -121,7 +121,7 @@
 
 			"paintbackground"						"0"
 
-			if_mini
+			"if_mini"
 			{
 				"xpos"								"cs-0.5-228"
 			}
@@ -192,7 +192,7 @@
 		"PaintBackgroundType"						"2"
 		"proportionaltoparent"						"1"
 
-		if_mini
+		"if_mini"
 		{
 			"xpos"									"cs-0.5"
 			"ypos"									"cs-0.5"
@@ -218,7 +218,7 @@
 			"proportionaltoparent"					"1"
 			"AllCaps"								"1"
 
-			if_mini
+			"if_mini"
 			{
 				"visible"							"0"
 			}
@@ -242,7 +242,7 @@
 			"proportionaltoparent"					"1"
 			"AllCaps"								"1"
 
-			if_mini
+			"if_mini"
 			{
 				"wide"								"0"
 			}
@@ -273,7 +273,7 @@
 			"proportionaltoparent"					"1"
 			"AllCaps"								"1"
 
-			if_mini
+			"if_mini"
 			{
 				"wide"								"0"
 			}
@@ -309,7 +309,7 @@
 			"labelText"								"%desc1%"
 			"proportionaltoparent"					"1"
 
-			if_mini
+			"if_mini"
 			{
 				"wide"								"131"
 			}
@@ -340,7 +340,7 @@
 			"proportionaltoparent"					"1"
 			"AllCaps"								"1"
 
-			if_mini
+			"if_mini"
 			{
 				"wide"								"131"
 			}
@@ -369,7 +369,7 @@
 			"tall"									"480"
 			"proportionaltoparent"					"1"
 
-			if_mini
+			"if_mini"
 			{
 				"xpos"								"rs1-10"
 				"ypos"								"0"
@@ -387,7 +387,7 @@
 				"tall"								"20"
 				"proportionaltoparent"				"1"
 
-				if_mini
+				"if_mini"
 				{
 					"xpos"							"cs-0.5"
 					"ypos"							"rs1-3"
@@ -412,7 +412,7 @@
 					"labelText"						"%current_xp%"
 					"proportionaltoparent"			"1"
 
-					if_mini
+					"if_mini"
 					{
 						"wide"						"100"
 					}
@@ -435,7 +435,7 @@
 					"labelText"						"%next_level_xp%"
 					"proportionaltoparent"			"1"
 
-					if_mini
+					"if_mini"
 					{
 						"wide"						"100"
 					}
@@ -466,7 +466,7 @@
 						"fgcolor_override"			"20 20 20 180"
 						"bgcolor_override"			"Blank"
 
-						if_mini
+						"if_mini"
 						{
 							"wide"					"f0"
 						}
@@ -485,7 +485,7 @@
 
 						"fgcolor_override"			"Menu Labels"
 
-						if_mini
+						"if_mini"
 						{
 							"fgcolor_override"		"CreditsGreen"
 						}
@@ -503,7 +503,7 @@
 						"proportionaltoparent"		"1"
 						"border"					"InnerShadowBorderThin"
 
-						if_mini
+						"if_mini"
 						{
 							"wide"					"f0"
 						}

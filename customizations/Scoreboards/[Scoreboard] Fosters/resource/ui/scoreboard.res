@@ -70,7 +70,7 @@
 		"textAlignment"								"west"
 		"fgcolor"   								"255 255 255 255"
 
-		if_mvm
+		"if_mvm"
 		{
 			"visible"								"0"
 		}
@@ -92,7 +92,7 @@
 		"textAlignment"								"east"
 		"fgcolor"   								"255 255 255 255"
 
-		if_mvm
+		"if_mvm"
 		{
 			"visible"								"0"
 		}
@@ -114,7 +114,7 @@
 		"textAlignment"								"center"
 		"fgcolor"									"34 202 66 255"
 
-		if_mvm
+		"if_mvm"
 		{
 			"visible"								"0"
 		}
@@ -169,7 +169,7 @@
 		"textAlignment"								"east"
 		"fgcolor"									"255 255 255 255"
 
-		if_mvm
+		"if_mvm"
 		{
 			"visible"								"0"
 		}
@@ -187,7 +187,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 
-		if_mvm
+		"if_mvm"
 		{
 			"visible"								"0"
 		}
@@ -467,7 +467,7 @@
 
 		"verbose"									"1"
 
-		if_mvm
+		"if_mvm"
 		{
 			"visible"								"1"
 		}

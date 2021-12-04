@@ -26,7 +26,7 @@
 		"proportionaltoparent"						"1"
 		"fgcolor"									"White"
 
-		if_readymode
+		"if_readymode"
 		{
 			"xpos"									"300"
 			"ypos"									"130"
@@ -353,7 +353,7 @@
 		"visible"									"0"
 		"enabled"									"1"
 
-		if_large
+		"if_large"
 		{
 			"ypos"									"65"
 			"tall"									"385"
@@ -447,7 +447,7 @@
 			"linegap"								"4"
 			//"show_columns"						"1"
 
-			if_large
+			"if_large"
 			{
 				"tall"								"315"
 			}
@@ -465,7 +465,7 @@
 			"enabled"								"1"
 			"border"								"TFFatLineBorderClearBG"
 
-			if_large
+			"if_large"
 			{
 				"tall"								"325"
 			}
@@ -484,7 +484,7 @@
 		"visible"									"0"
 		"enabled"									"1"
 
-		if_large
+		"if_large"
 		{
 			"ypos"									"65"
 			"tall"									"385"
@@ -578,7 +578,7 @@
 			"linegap"								"4"
 			//"show_columns"						"1"
 
-			if_large
+			"if_large"
 			{
 				"tall"								"315"
 			}
@@ -596,7 +596,7 @@
 			"enabled"								"1"
 			"border"								"TFFatLineBorderClearBG"
 
-			if_large
+			"if_large"
 			{
 				"tall"								"325"
 			}

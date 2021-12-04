@@ -11,7 +11,7 @@
 		"visible"									"0"
 		"enabled"									"0"
 
-		if_comp
+		"if_comp"
 		{
 			"xpos"									"c-60"
 			"ypos"									"32"
@@ -30,7 +30,7 @@
 		"visible"									"0"
 		"enabled"									"1"
 
-		if_comp
+		"if_comp"
 		{
 			"xpos"									"5"
 		}
@@ -52,7 +52,7 @@
 			"enabled"								"1"
 			"textAlignment"							"east"
 
-			if_comp
+			"if_comp"
 			{
 				"font"								"m0refont12"
 			}
@@ -79,7 +79,7 @@
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
 		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 
-		if_comp
+		"if_comp"
 		{
 			"font"									"m0refont12"
 		}
@@ -105,7 +105,7 @@
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
 		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 
-		if_comp
+		"if_comp"
 		{
 			"font"									"m0refont12"
 		}
@@ -131,7 +131,7 @@
 
 		"pin_to_sibling"							"ObjectiveStatusTimePanel"
 
-		if_comp
+		"if_comp"
 		{
 			"font"									"m0refont12"
 		}
@@ -156,7 +156,7 @@
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
 		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 
-		if_comp
+		"if_comp"
 		{
 			"wide"									"0"
 		}

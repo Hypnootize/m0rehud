@@ -20,15 +20,15 @@
 		"team2_player_delta_y"						"0"
 		"teams_player_delta_x_comp"					"42"
 
-		if_competitive
+		"if_competitive"
 		{
 			"team1_player_base_y"					"50"
 		}
-		if_readymode
+		"if_readymode"
 		{
 			"team1_player_base_y"					"50"
 		}
-		if_mvm
+		"if_mvm"
 		{
 			"team1_player_base_y"					"75"
 		}
@@ -186,15 +186,15 @@
 
 		"pin_to_sibling"							"StatusBar"
 
-		if_competitive
+		"if_competitive"
 		{
 			"visible"								"0"
 		}
-		if_readymode
+		"if_readymode"
 		{
 			"visible"								"0"
 		}
-		if_mvm
+		"if_mvm"
 		{
 			"visible"								"0"
 		}
@@ -223,15 +223,15 @@
 		"pin_corner_to_sibling"						"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 
-		if_competitive
+		"if_competitive"
 		{
 			"visible"								"0"
 		}
-		if_readymode
+		"if_readymode"
 		{
 			"visible"								"0"
 		}
-		if_mvm
+		"if_mvm"
 		{
 			"visible"								"0"
 		}
@@ -255,15 +255,15 @@
 
 		"pin_to_sibling"							"HudTournamentBLUEBG"
 
-		if_competitive
+		"if_competitive"
 		{
 			"visible"								"0"
 		}
-		if_readymode
+		"if_readymode"
 		{
 			"visible"								"0"
 		}
-		if_mvm
+		"if_mvm"
 		{
 			"visible"								"0"
 		}
@@ -289,15 +289,15 @@
 		"pin_corner_to_sibling"						"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 
-		if_competitive
+		"if_competitive"
 		{
 			"visible"								"0"
 		}
-		if_readymode
+		"if_readymode"
 		{
 			"visible"								"0"
 		}
-		if_mvm
+		"if_mvm"
 		{
 			"visible"								"0"
 		}
@@ -326,15 +326,15 @@
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
 		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 
-		if_competitive
+		"if_competitive"
 		{
 			"visible"								"0"
 		}
-		if_readymode
+		"if_readymode"
 		{
 			"visible"								"0"
 		}
-		if_mvm
+		"if_mvm"
 		{
 			"visible"								"0"
 		}
@@ -360,15 +360,15 @@
 		"pin_corner_to_sibling"						"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 
-		if_competitive
+		"if_competitive"
 		{
 			"visible"								"0"
 		}
-		if_readymode
+		"if_readymode"
 		{
 			"visible"								"0"
 		}
-		if_mvm
+		"if_mvm"
 		{
 			"visible"								"0"
 		}
@@ -392,15 +392,15 @@
 
 		"pin_to_sibling"							"HudTournamentRedBG"
 
-		if_competitive
+		"if_competitive"
 		{
 			"visible"								"0"
 		}
-		if_readymode
+		"if_readymode"
 		{
 			"visible"								"0"
 		}
-		if_mvm
+		"if_mvm"
 		{
 			"visible"								"0"
 		}
@@ -429,15 +429,15 @@
 		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
 		"pin_to_sibling_corner"						"PIN_CENTER_BOTTOM"
 
-		if_competitive
+		"if_competitive"
 		{
 			"visible"		              			"0"
 		}
-		if_readymode
+		"if_readymode"
 		{
 			"ypos"									"20"
 		}
-		if_mvm
+		"if_mvm"
 		{
 			"visible"		              			"0"
 		}
@@ -460,17 +460,17 @@
 		"textAlignment"								"center"
 		"fgcolor"									"White"
 
-		if_competitive
+		"if_competitive"
 		{
 			"visible"								"1"
 			"ypos"									"85"
 		}
-		if_readymode
+		"if_readymode"
 		{
 			"visible"								"1"
 			"ypos"									"85"
 		}
-		if_mvm
+		"if_mvm"
 		{
 			"visible"								"1"
 			"ypos"									"105"
@@ -497,12 +497,12 @@
 		"draw_corner_height" 						"3"
 		"proportionaltoparent"						"1"
 
-		if_competitive
+		"if_competitive"
 		{
 			"visible"								"0"
 			"wide"									"0"
 		}
-		if_readymode
+		"if_readymode"
 		{
 			"visible"								"0"
 			"wide"									"0"
@@ -526,11 +526,11 @@
 		"fgcolor"									"White"
 		"proportionaltoparent"						"1"
 
-		if_competitive
+		"if_competitive"
 		{
 			"font"									"m0refont18Shadow"
 		}
-		if_readymode
+		"if_readymode"
 		{
 			"font"									"m0refont18Shadow"
 		}
