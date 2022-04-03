@@ -16,7 +16,7 @@
 		"LightTransparentBlack"								"35 35 35 210"
 		"LightTransparentBlackInactive"						"35 35 35 125"
 
-		"MainTheme"											"165 50 235 255"
+		"MainTheme"											"255 215 100 255"
 	}
 
 	"BaseSettings"

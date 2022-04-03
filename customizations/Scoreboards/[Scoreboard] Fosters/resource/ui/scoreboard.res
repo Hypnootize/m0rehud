@@ -3,7 +3,7 @@
 	"scores"
 	{
 		"ControlName"	        					"CTFClientScoreBoardDialog"
-		"fieldName"	          						"scoreinfo"
+		"fieldName"	          						"scores"
 		"xpos"		            					"0"
 		"ypos"		            					"31"
 		"wide"		            					"f0"
@@ -79,7 +79,7 @@
 	"RedTeamScore"
 	{
 		"ControlName"								"CExLabel"
-		"fieldName"									"BlueTeamScore"
+		"fieldName"									"RedTeamScore"
 		"xpos"										"c-55"
 		"ypos"										"120"
 		"zpos"										"4"
@@ -274,7 +274,7 @@
 		"DuelingLabel"
 		{
 			"ControlName"							"CExLabel"
-			"fieldName"								"DuelingLabel1"
+			"fieldName"								"DuelingLabel"
 			"xpos"									"247"
 			"ypos"									"2"
 			"zpos"									"3"

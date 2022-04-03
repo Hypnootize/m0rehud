@@ -16,7 +16,7 @@
 		"LightTransparentBlack"								"35 35 35 210"
 		"LightTransparentBlackInactive"						"35 35 35 125"
 
-		"MainTheme"											"255 0 127 255"
+		"MainTheme"											"250 185 240 255"
 	}
 
 	"BaseSettings"
@@ -118,9 +118,9 @@
 
 	"Borders"
 	{
-		FrameBorder
+		"FrameBorder"
 		{
-			Left
+			"Left"
 			{
 				"1"
 				{
@@ -134,7 +134,7 @@
 				}
 			}
 
-			Right
+			"Right"
 			{
 				"1"
 				{
@@ -148,7 +148,7 @@
 				}
 			}
 
-			Top
+			"Top"
 			{
 				"1"
 				{
@@ -162,7 +162,7 @@
 				}
 			}
 
-			Bottom
+			"Bottom"
 			{
 				"1"
 				{
