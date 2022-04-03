@@ -235,7 +235,7 @@
 				"xpos"								"0"
 				"ypos"								"0"
 				"zpos"								"3"
-				"wide"								"f0"
+				"wide"								"99999"
 				"tall"								"f0"
 				"visible"							"1"
 				"enabled"							"1"
@@ -289,6 +289,8 @@
 				"ControlName"						"EditablePanel"
 				"fieldName"							"HealthIcon"
 				"xpos"								"9999"
+				"visible"							"0"
+				"enabled"							"0"
 			}
 			"ReadyBG"
 			{
