@@ -6,7 +6,7 @@
 
 	"Version"
 	{
-		"label" 									"m0rehud 6.1"
+		"label" 									"m0rehud 6.2"
 		"command" 									"engine showconsole; echo m0rehud by Hypnotize huds.tf/site/s-m0re-Hud all credits to m0re"
 		"OnlyAtMenu"								"1"
 	}
