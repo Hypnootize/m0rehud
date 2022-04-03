@@ -112,13 +112,13 @@
 	}
 	"TournamentSetupLabel"
 	{
-		"ControlName"								"Label"
-		"fieldName"									"TournamentLabel"
+		"ControlName"								"CExLabel"
+		"fieldName"									"TournamentSetupLabel"
 		"xpos"		          						"9999"
 	}
 	"TournamentTeamNameLabel"
 	{
-		"ControlName"								"Label"
+		"ControlName"								"CExLabel"
 		"fieldName"									"TournamentTeamNameLabel"
 		"xpos"		          						"9999"
 	}

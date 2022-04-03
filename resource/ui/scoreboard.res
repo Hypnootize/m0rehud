@@ -3,7 +3,7 @@
 	"scores"
 	{
 		"ControlName"	        					"CTFClientScoreBoardDialog"
-		"fieldName"	          						"scoreinfo"
+		"fieldName"	          						"scores"
 		"xpos"		            					"0"
 		"ypos"		            					"31"
 		"wide"		            					"f0"

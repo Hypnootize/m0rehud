@@ -3,7 +3,7 @@
 	"HudTeamScore"
 	{
 		"ControlName"								"EditablePanel"
-		"fieldName"									"HudPasstimeTeamScore"
+		"fieldName"									"HudTeamScore"
 		"xpos"										"0"
 		"ypos"										"25"
 		"zpos"										"0"

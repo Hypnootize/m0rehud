@@ -312,7 +312,7 @@
 	"NumberLabel1"
 	{
 		"ControlName"								"CExLabel"
-		"fieldName"									"NumberLabel"
+		"fieldName"									"NumberLabel1"
 		"xpos"										"1"
 		"ypos"										"0"
 		"zpos"										"10"
@@ -334,7 +334,7 @@
 	"NumberLabel2"
 	{
 		"ControlName"								"CExLabel"
-		"fieldName"									"NumberLabel"
+		"fieldName"									"NumberLabel2"
 		"xpos"										"1"
 		"ypos"										"0"
 		"zpos"										"10"
@@ -356,7 +356,7 @@
 	"NumberLabel3"
 	{
 		"ControlName"								"CExLabel"
-		"fieldName"									"NumberLabel"
+		"fieldName"									"NumberLabel3"
 		"xpos"										"1"
 		"ypos"										"0"
 		"zpos"										"10"
@@ -414,19 +414,19 @@
 	"NumberBg1"
 	{
 		"ControlName"								"CIconPanel"
-		"fieldName"									"NumberBg"
+		"fieldName"									"NumberBg1"
 		"xpos"										"9999"
 	}
 	"NumberBg2"
 	{
 		"ControlName"								"CIconPanel"
-		"fieldName"									"NumberBg"
+		"fieldName"									"NumberBg2"
 		"xpos"										"9999"
 	}
 	"NumberBg3"
 	{
 		"ControlName"								"CIconPanel"
-		"fieldName"									"NumberBg"
+		"fieldName"									"NumberBg3"
 		"xpos"										"9999"
 	}
 }

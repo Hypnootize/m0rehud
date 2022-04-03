@@ -19,7 +19,7 @@
 	"NewNumberLabel"
 	{
 		"ControlName"								"CExLabel"
-		"fieldName"									"NumberLabel"
+		"fieldName"									"NewNumberLabel"
 		"xpos"										"0"
 		"ypos"										"rs1"
 		"zpos"										"10"
@@ -61,7 +61,7 @@
 	"ItemNameLabel"
 	{
 		"ControlName"								"CExLabel"
-		"fieldName"									"ItemName"
+		"fieldName"									"ItemNameLabel"
 		"xpos"										"9999"
 	}
 	"NumberBg"

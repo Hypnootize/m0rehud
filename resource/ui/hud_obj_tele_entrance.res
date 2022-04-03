@@ -15,7 +15,7 @@
 	"Icon_Teleport_Entrance"
 	{
 		"ControlName"								"CIconPanel"
-		"fieldName"									"Icon"
+		"fieldName"									"Icon_Teleport_Entrance"
 		"xpos"										"12"
 		"ypos"										"0"
 		"wide"										"28"

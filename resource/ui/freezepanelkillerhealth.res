@@ -75,7 +75,7 @@
 	"BuildingStatusHealthImageBG"
 	{
 		"ControlName"								"ImagePanel"
-		"fieldName"									"PlayerStatusHealthImageBG"
+		"fieldName"									"BuildingStatusHealthImageBG"
 		"xpos"										"9999"
 	}
 }
