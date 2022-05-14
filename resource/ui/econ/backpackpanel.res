@@ -1,4 +1,4 @@
-"Resource/UI/FullLoadoutPanel.res"
+"Resource/UI/BackPackPanel.res"
 {
 	"backpack_panel"
 	{

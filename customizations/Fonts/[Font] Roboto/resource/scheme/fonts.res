@@ -258,12 +258,21 @@
 			}
 		}
 
-		"m0reSymbols"
+		"m0reSymbols18"
 		{
 			"1"
 			{
-				"name"										"m0rehud Icons V3"
+				"name"										"m0rehud Icons V4"
 				"tall"										"18"
+				"antialias" 								"1"
+			}
+		}
+		"m0reSymbols20"
+		{
+			"1"
+			{
+				"name"										"m0rehud Icons V4"
+				"tall"										"20"
 				"antialias" 								"1"
 			}
 		}
@@ -443,7 +452,7 @@
 		"12"
 		{
 			"font" 		"resource/scheme/fonts/m0rehud icons.ttf"
-			"name" 		"m0rehud Icons V3"
+			"name" 		"m0rehud Icons V4"
 		}
 	}
 }

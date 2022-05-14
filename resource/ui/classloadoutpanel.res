@@ -404,9 +404,8 @@
 
 	"CharacterLoadoutButton"
 	{
-		"ControlName"								"CExImageButton"
+		"ControlName"								"CExButton"
 		"fieldName"									"CharacterLoadoutButton"
-		"labelText"									""
 		"xpos"										"c-25"
 		"ypos"										"c90"
 		"zpos"										"2"
@@ -414,32 +413,22 @@
 		"tall"										"25"
 		"visible"									"1"
 		"enabled"									"1"
-		"default"									"0"
+		"textAlignment"								"center"
+		"labeltext"									"P"
+		"font"										"m0reSymbols20"
 		"Command"									"characterloadout"
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
 
-		"SubImage"
-		{
-			"ControlName"							"ImagePanel"
-			"fieldName"								"SubImage"
-			"xpos"									"4"
-			"ypos"									"4"
-			"zpos"									"1"
-			"wide"									"17"
-			"tall"									"17"
-			"visible"								"1"
-			"enabled"								"1"
-			"scaleImage"							"1"
-			"image"									"glyph_items"
-		}
+		"defaultFgColor_override" 					"White"
+		"armedFgColor_override" 					"White"
+		"depressedFgColor_override" 				"White"
 	}
 
 	"TauntLoadoutButton"
 	{
-		"ControlName"								"CExImageButton"
+		"ControlName"								"CExButton"
 		"fieldName"									"TauntLoadoutButton"
-		"labelText"									""
 		"xpos"										"c2"
 		"ypos"										"c90"
 		"zpos"										"2"
@@ -447,25 +436,16 @@
 		"tall"										"25"
 		"visible"									"1"
 		"enabled"									"1"
-		"default"									"0"
+		"textAlignment"								"center"
+		"labeltext"									"Q"
+		"font"										"m0reSymbols20"
 		"Command"									"tauntloadout"
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
 
-		"SubImage"
-		{
-			"ControlName"							"ImagePanel"
-			"fieldName"								"SubImage"
-			"xpos"									"4"
-			"ypos"									"4"
-			"zpos"									"1"
-			"wide"									"17"
-			"tall"									"17"
-			"visible"								"1"
-			"enabled"								"1"
-			"scaleImage"							"1"
-			"image"									"../hud/ico_reel"
-		}
+		"defaultFgColor_override" 					"White"
+		"armedFgColor_override" 					"White"
+		"depressedFgColor_override" 				"White"
 	}
 
 	"BlueButton"

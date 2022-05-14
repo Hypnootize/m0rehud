@@ -2,7 +2,7 @@
 {
 	"PlayerStatusHealthValueSpecgui"
 	{
-		"ControlName"								"CexLabel"
+		"ControlName"								"CExLabel"
 		"fieldName"									"PlayerStatusHealthValueSpecgui"
 		"xpos"			   							"cs-0.5"
 		"ypos"			    						"cs-0.5"
@@ -20,7 +20,7 @@
 
 	"PlayerStatusHealthValueSpecguiShadow"
 	{
-		"ControlName"								"CexLabel"
+		"ControlName"								"CExLabel"
 		"fieldName"									"PlayerStatusHealthValueSpecguiShadow"
 		"xpos"			   						 	"0"
 		"ypos"			    						"0"
