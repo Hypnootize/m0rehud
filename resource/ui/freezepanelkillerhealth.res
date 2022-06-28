@@ -54,6 +54,27 @@
 		"pin_to_sibling"							"PlayerStatusHealthValueKiller"
 	}
 
+	"PlayerStatusHealthValueShadowExtra"
+	{
+		"ControlName"								"CExLabel"
+		"fieldName"									"PlayerStatusHealthValueShadowExtra"
+		"xpos"										"0"
+		"ypos"										"0"
+		"zpos"										"20"
+		"wide"										"f-1"
+		"tall"										"f-1"
+		"visible"									"1"
+		"enabled"									"1"
+		"proportionaltoparent"						"1"
+		"textAlignment"								"center"
+		"labeltext"									"%Health%"
+		"font"										"m0refont24"
+		"fgcolor"  									"Extra Shadow"
+		"alpha"  									"0"
+
+		"pin_to_sibling"							"PlayerStatusHealthValueShadowKiller"
+	}
+
 
 
 	//==================================================================================================================================================
