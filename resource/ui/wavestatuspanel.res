@@ -4,11 +4,12 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"WaveCountLabel"
-		"font"										"HudFontSmallestBold"
-		"font_minmode"								"HudFontSmallest"
+		"font"										"m0refont12"
+		"font_minmode"								"m0refont9"
 		"fgcolor"									"White"
 		"xpos"										"200"
-		"ypos"										"6"
+		"ypos"										"4"
+		"ypos_minmode"								"5"
 		"zpos"										"10"
 		"wide"										"200"
 		"tall"										"15"
@@ -16,6 +17,24 @@
 		"enabled"									"1"
 		"textAlignment"								"center"
 		"labelText"									"%wave_count%"
+	}
+	"WaveCountLabelShadow"
+	{
+		"ControlName"								"CExLabel"
+		"fieldName"									"WaveCountLabelShadow"
+		"font"										"m0refont12"
+		"font_minmode"								"m0refont9"
+		"fgcolor"									"Black"
+		"xpos"										"0"
+		"ypos"										"0"
+		"zpos"										"10"
+		"wide"										"201"
+		"tall"										"16"
+		"visible"									"1"
+		"enabled"									"1"
+		"textAlignment"								"center"
+		"labelText"									"%wave_count%"
+		"pin_to_sibling"							"WaveCountLabel"
 	}
 
 	"SeparatorBar"
@@ -42,8 +61,6 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"SupportLabel"
-		"font"										"HudFontSmallestBold"
-		"fgcolor"									"TanLight"
 		"xpos"										"55"
 		"ypos"										"6"
 		"zpos"										"3"
@@ -51,8 +68,11 @@
 		"tall"										"15"
 		"visible"									"0"
 		"enabled"									"1"
+		"AllCaps"									"1"
 		"textAlignment"								"west"
 		"labelText"									"#TF_MVM_Support"
+		"font"										"m0refont12Shadow"
+		"fgcolor"									"White"
 
 		"if_verbose"
 		{

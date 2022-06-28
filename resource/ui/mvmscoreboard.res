@@ -160,24 +160,20 @@
 			"fieldName"								"PreviousWaveCreditInfoPanel"
 			"xpos"									"0"
 			"ypos"									"0"
-			"wide"									"131"
+			"wide"									"262"
 			"tall"									"44"
 			"visible"								"1"
 		}
-
 		"PreviousWaveCreditSpendPanel"
 		{
 			"ControlName"							"CCreditSpendPanel"
 			"fieldName"								"PreviousWaveCreditSpendPanel"
 			"xpos"									"0"
 			"ypos"									"0"
-			"wide"									"131"
+			"wide"									"262"
 			"tall"									"44"
 			"visible"								"1"
-
 			"pin_to_sibling"						"PreviousWaveCreditInfoPanel"
-			"pin_corner_to_sibling"					"PIN_TOPLEFT"
-			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}
 
 		"TotalGameCreditInfoPanel"
@@ -186,7 +182,7 @@
 			"fieldName"								"TotalGameCreditInfoPanel"
 			"xpos"									"2"
 			"ypos"									"0"
-			"wide"									"131"
+			"wide"									"262"
 			"tall"									"44"
 			"visible"								"1"
 
@@ -201,13 +197,10 @@
 			"fieldName"								"TotalGameCreditSpendPanel"
 			"xpos"									"0"
 			"ypos"									"0"
-			"wide"									"131"
+			"wide"									"262"
 			"tall"									"44"
 			"visible"								"1"
-
 			"pin_to_sibling"						"TotalGameCreditInfoPanel"
-			"pin_corner_to_sibling"					"PIN_TOPLEFT"
-			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}
 
 		"RespecStatusLabel"							//NO CLUE WHAT YOU ARE, I DONT PLAY MVM FUCK

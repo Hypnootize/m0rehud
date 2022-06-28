@@ -15,8 +15,7 @@
 		"AllCaps"									"1"
 		"proportionaltoparent"						"1"
 		"fgcolor"									"White"
-		"paintbackground"							"1"
-		"bgcolor_override"							"0 0 0 100"
+		"paintbackground"							"0"
 	}
 
 	"TableBackground"
@@ -30,7 +29,7 @@
 		"tall"										"f12"
 		"visible"									"1"
 		"proportionaltoparent"						"1"
-		"bgcolor_override"							"0 0 0 50"
+		"bgcolor_override"							"Blank"
 	}
 
 	"UpgradesLabel"
@@ -40,15 +39,13 @@
 		"font"										"m0refont11"
 		"labelText"									"#TF_PVE_Upgrades"
 		"textAlignment"								"west"
-		"xpos"										"-18"
-		"ypos"										"-1"
+		"xpos"										"rs1-40"
+		"ypos"										"13"
 		"wide"										"75"
 		"tall"										"10"
 		"AllCaps"									"0"
 		"proportionaltoparent"						"1"
 		"fgcolor"									"White"
-
-		"pin_to_sibling"							"TableBackground"
 	}
 
 	"UpgradesCountLabel"
