@@ -1,19 +1,17 @@
-<a>LINKS</a>
-====
+![logo](https://i.imgur.com/HFgjCJT.png)
 
+<p align="center">
+  <a href="https://huds.tf/site/s-m0re-Hud"><img src="https://i.imgur.com/WAusE3C.png"></a>
+  <a href="http://www.teamfortress.tv/34115/m0re-hud"><img src="https://i.imgur.com/xTQ26gp.png"></a>
+  <a href="https://gamebanana.com/mods/291596"><img src="https://i.imgur.com/UzXoexI.png"></a>
+</p>
 
-[Screenshots Album](http://imgur.com/a/sxOyM)
+##
 
-[HUD Wiki](https://github.com/Hypnootize/m0rehud/wiki)
+<a href="http://imgur.com/a/sxOyM"><img src="https://i.imgur.com/vVxJdvB.png"></a>
 
-[HUD Installation](https://github.com/Hypnootize/m0rehud/wiki/Installation)
+<a href="https://github.com/Hypnootize/m0rehud/wiki"><img src="https://i.imgur.com/UpvlsG7.png"></a>
 
-[HUD Customization](https://github.com/Hypnootize/m0rehud/wiki/Customization)
+<a href="https://github.com/Hypnootize/m0rehud/wiki/Customization"><img src="https://i.imgur.com/tDsELgW.png"></a>
 
-[Credits](https://github.com/Hypnootize/m0rehud/wiki/Credits)
-
-[HUDS.TF](https://huds.tf/site/s-m0re-Hud)
-
-[TeamFortress.tv](http://www.teamfortress.tv/34115/m0re-hud)
-
-[GameBanana](https://gamebanana.com/mods/291596)
+<a href="https://github.com/Hypnootize/m0rehud/wiki/Credits"><img src="https://i.imgur.com/CjePbm6.png"></a>
