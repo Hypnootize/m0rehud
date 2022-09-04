@@ -1,0 +1,363 @@
+"UnlitGeneric"
+{
+	"$basetexture"				"vgui/replay/thumbnails/digits"
+	"$vertexalpha"				"1"
+	"$alpha"					"1"
+	"$translucent"				"1"
+	"$vertexcolor"				"1"
+	"$ignorez"					"1"
+
+	"$speed"					"0"
+	"$speed_int"				"0"
+
+	"$const_thou"				"1000"
+	"$const_hund"				"100"
+	"$const_ten"				"10"
+
+	"$pastpos"					"[0.0 0.0 0.0]"
+	"$pastposX"					".0"
+	"$pastposY"					".0"
+
+	"$currentposX"				".0"
+	"$currentposY"				".0"
+	"$subposX"					".0"
+	"$subposY"					".0"
+	"$zero"						"0"
+	"$addsvelocity"				"0"
+	"$half"						"0.5"
+	"$initguess"				"1"
+	"$right"					"0.0"
+	"$guessholder"				"0.0"
+	"$timercount"				"0"
+	"$timer1"					"0"
+	"$timer2"					"0"
+	"$timer3"					"0"
+	"$timer4"					"0"
+	"$timer5"					"0"
+	"$five"						"5"
+	"$four"						"4"
+	"$three"					"3"
+	"$two"						"2"
+	"$one"						"1"
+	"$timersumtemp"				"0"
+	"$timersum"					"0"
+	"$timeravg"					"0"
+	"$maxfpsdiv3"				"10"
+	"$playerspeed"				".0"
+	"$playerspeed2"				".0"
+	"$frametime"				".0"
+	"$posx2"					".0"
+	"$posy2"					".0"
+	"$posz2"					".0"
+	"$distmovesumtemp"			".0"
+	"$pastposZ"					".0"
+	"$currentposZ"				".0"
+	"$subposZ"					".0"
+	"$hd2"						".0"
+
+	"Proxies"
+	{
+		"PlayerPosition"
+		{
+			"scale"				"1"
+			"resultVar"			"$pastpos"
+		}
+		"PlayerSpeed"
+		{
+			"scale"				"1"
+			"resultVar"			"$playerspeed"
+		}
+		"Multiply"
+		{
+			"srcVar1"			"$playerspeed"
+			"srcVar2"			"$playerspeed"
+			"resultVar"			"$playerspeed2"
+		}
+		"Clamp"
+		{
+			"srcVar1"			"$zero"
+			"min"				"$pastpos[0]"
+			"max"				"$pastpos[0]"
+			"resultVar"			"$currentposX"
+		}
+		"Clamp"
+		{
+			"srcVar1"			"$zero"
+			"min"				"$pastpos[1]"
+			"max"				"$pastpos[1]"
+			"resultVar"			"$currentposY"
+		}
+		"Clamp"
+		{
+			"srcVar1"			"$zero"
+			"min"				"$pastpos[2]"
+			"max"				"$pastpos[2]"
+			"resultVar"			"$currentposZ"
+		}
+		"Subtract"
+		{
+			"srcVar1"			"$currentposX"
+			"srcVar2"			"$pastposX"
+			"resultVar"			"$subposX"
+		}
+		"Subtract"
+		{
+			"srcVar1"			"$currentposY"
+			"srcVar2"			"$pastposY"
+			"resultVar"			"$subposY"
+		}
+		"Subtract"
+		{
+			"srcVar1"			"$currentposZ"
+			"srcVar2"			"$pastposZ"
+			"resultVar"			"$subposZ"
+		}
+		"Equals"
+		{
+			"srcVar1"			"$currentposX"
+			"resultVar"			"$pastposX"
+		}
+		"Equals"
+		{
+			"srcVar1"			"$currentposY"
+			"resultVar"			"$pastposY"
+		}
+		"Equals"
+		{
+			"srcVar1"			"$currentposZ"
+			"resultVar"			"$pastposZ"
+		}
+		"Multiply"
+		{
+			"srcVar1"			"$subposX"
+			"srcVar2"			"$subposX"
+			"resultVar"			"$posx2"
+		}
+		"Multiply"
+		{
+			"srcVar1"			"$subposY"
+			"srcVar2"			"$subposY"
+			"resultVar"			"$posy2"
+		}
+		"Multiply"
+		{
+			"srcVar1"			"$subposZ"
+			"srcVar2"			"$subposZ"
+			"resultVar"			"$posz2"
+		}
+		"Add"
+		{
+			"srcVar1"			"$posx2"
+			"srcVar2"			"$posy2"
+			"resultVar"			"$distmovesumtemp"
+		}
+		"Add"
+		{
+			"srcVar1"			"$distmovesumtemp"
+			"srcVar2"			"$posz2"
+			"resultVar"			"$distmovesumtemp"
+		}
+		"SelectFirstIfNonZero"
+		{
+			"srcVar1"			"$playerspeed2"
+			"srcVar2"			"$one"
+			"resultVar"			"$playerspeed2"
+		}
+		"SelectFirstIfNonZero"
+		{
+			"srcVar1"			"$distmovesumtemp"
+			"srcVar2"			"$one"
+			"resultVar"			"$distmovesumtemp"
+		}
+		"Add"
+		{
+			"srcVar1"			"$posx2"
+			"srcVar2"			"$posy2"
+			"resultVar"			"$hd2"
+		}
+		"Divide"
+		{
+			"srcVar1"			"$distmovesumtemp"
+			"srcVar2"			"$playerspeed2"
+			"resultVar"			"$frametime"
+		}
+		"Divide"
+		{
+			"srcVar1"			"$hd2"
+			"srcVar2"			"$frametime"
+			"resultVar"			"$addsvelocity"
+		}
+		"LessOrEqual"
+		{
+			"lessEqualVar"		"$one"
+			"greaterVar"		"$playerspeed"
+			"srcVar1"			"$hd2"
+			"srcVar2"			"$one"
+			"resultVar"			"$initguess"
+		}
+		"Divide"
+		{
+			"srcVar1"			"$addsvelocity"
+			"srcVar2"			"$initguess"
+			"resultVar"			"$right"
+		}
+		"Add"
+		{
+			"srcVar1"			"$initguess"
+			"srcVar2"			"$right"
+			"resultVar"			"$right"
+		}
+		"Multiply"
+		{
+			"srcVar1"			"$half"
+			"srcVar2"			"$right"
+			"resultVar"			"$guessholder"
+		}
+		"Divide"
+		{
+			"srcVar1"			"$addsvelocity"
+			"srcVar2"			"$guessholder"
+			"resultVar"			"$right"
+		}
+		"Add"
+		{
+			"srcVar1"			"$guessholder"
+			"srcVar2"			"$right"
+			"resultVar"			"$right"
+		}
+		"Multiply"
+		{
+			"srcVar1"			"$half"
+			"srcVar2"			"$right"
+			"resultVar"			"$guessholder"
+		}
+		"Add"
+		{
+			"srcVar1"			"$guessholder"
+			"srcVar2"			"$half"
+			"resultVar"			"$guessholder"
+		}
+		"Add"
+		{
+			"srcVar1"			"$playerspeed"
+			"srcVar2"			"$one"
+			"resultVar"			"$playerspeed"
+		}
+		"Clamp"
+		{
+			"srcVar1"			"$guessholder"
+			"min"				"$zero"
+			"max"				"$playerspeed"
+			"resultVar"			"$guessholder"
+		}
+		"LessOrEqual"
+		{
+			"lessEqualVar"		"$guessholder"
+			"greaterVar"		"$timer1"
+			"srcVar1"			"$timercount"
+			"srcVar2"			"$zero"
+			"resultVar"			"$timer1"
+		}
+		"LessOrEqual"
+		{
+			"lessEqualVar"		"$guessholder"
+			"greaterVar"		"$timer2"
+			"srcVar1"			"$timercount"
+			"srcVar2"			"$one"
+			"resultVar"			"$timer2"
+		}
+		"LessOrEqual"
+		{
+			"lessEqualVar"		"$guessholder"
+			"greaterVar"		"$timer3"
+			"srcVar1"			"$timercount"
+			"srcVar2"			"$two"
+			"resultVar"			"$timer3"
+		}
+		"LessOrEqual"
+		{
+			"lessEqualVar"		"$guessholder"
+			"greaterVar"		"$timer4"
+			"srcVar1"			"$timercount"
+			"srcVar2"			"$three"
+			"resultVar"			"$timer4"
+		}
+		"LessOrEqual"
+		{
+			"lessEqualVar"		"$guessholder"
+			"greaterVar"		"$timer5"
+			"srcVar1"			"$timercount"
+			"srcVar2"			"$four"
+			"resultVar"			"$timer5"
+		}
+		"Add"
+		{
+			"srcVar1"			"$one"
+			"srcVar2"			"$timercount"
+			"resultVar"			"$timercount"
+		}
+		"Add"
+		{
+			"srcVar1"			"$timer1"
+			"srcVar2"			"$timer2"
+			"resultVar"			"$timersumtemp"
+		}
+		"Add"
+		{
+			"srcVar1"			"$timersumtemp"
+			"srcVar2"			"$timer3"
+			"resultVar"			"$timersumtemp"
+		}
+		"Add"
+		{
+			"srcVar1"			"$timersumtemp"
+			"srcVar2"			"$timer4"
+			"resultVar"			"$timersumtemp"
+		}
+		"Add"
+		{
+			"srcVar1"			"$timersumtemp"
+			"srcVar2"			"$timer5"
+			"resultVar"			"$timersum"
+		}
+		"Divide"
+		{
+			"srcVar1"			"$timersum"
+			"srcVar2"			"$five"
+			"resultVar"			"$timeravg"
+		}
+		"Equals"
+		{
+			"srcVar1"			"$guessholder"
+			"resultVar"			"$timeravg"
+		}
+		"LessOrEqual"
+		{
+			"lessEqualVar"		"$speed"
+			"greaterVar"		"$guessholder"
+			"srcVar1"			"$timercount"
+			"srcVar2"			"$maxfpsdiv3"
+			"resultVar"			"$speed"
+		}
+		"LessOrEqual"
+		{
+			"lessEqualVar"		"$timercount"
+			"greaterVar"		"$zero"
+			"srcVar1"			"$timercount"
+			"srcVar2"			"$maxfpsdiv3"
+			"resultVar"			"$timercount"
+		}
+		"Divide"
+		{
+			"srcVar1"			"$speed"
+			"srcVar2"			"$const_hund"
+			"resultVar"			"$speed_int"
+		}
+		"WrapMinMax"
+		{
+			"srcVar1"			"$speed_int"
+			"maxVal"			"$const_ten"
+			"resultVar"			"$frame"
+		}
+	}
+}

@@ -1,0 +1,1 @@
+"Resource/UI/Speedometer.res" { }
