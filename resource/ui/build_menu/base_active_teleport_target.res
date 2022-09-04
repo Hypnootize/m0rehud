@@ -1,4 +1,4 @@
-"Resource/UI/build_menu/base_active_teleport_target.res"
+"Resource/UI/Build_Menu/Base_Active_Teleport_Target.res"
 {
 	"Background"
 	{

@@ -74,7 +74,6 @@
 			"tall"									"14"
 			"visible"								"0"
 			"enabled"								"1"
-			"tabPosition"							"0"
 			"labelText"								"+"
 			"font"									"HudFontSmallBold"
 			"textAlignment"							"center"

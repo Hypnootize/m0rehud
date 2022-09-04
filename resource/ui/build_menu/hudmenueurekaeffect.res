@@ -1,4 +1,4 @@
-"Resource/UI/build_menu/HudMenuEurekaEffect.res"
+"Resource/UI/Build_Menu/HudMenuEurekaEffect.res"
 {
 	"ItemsAnchor"
 	{

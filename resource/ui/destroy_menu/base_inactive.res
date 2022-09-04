@@ -1,6 +1,6 @@
 #base "base_active.res"
 
-"Resource/UI/destroy_menu/base_inactive.res"
+"Resource/UI/Destroy_Menu/Base_Inactive.res"
 {
 	"DestroyIcon"
 	{

@@ -1,4 +1,4 @@
-"Resource/UI/BackPackPanel.res"
+"Resource/UI/Econ/BackPackPanel.res"
 {
 	"backpack_panel"
 	{
@@ -345,7 +345,6 @@
 		"tall"										"19"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"1"
 		"textHidden"								"0"
 		"editable"									"1"
 		"unicode"									"1"

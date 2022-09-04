@@ -30,7 +30,6 @@
 	{
 		"ControlName"								"ContinuousProgressBar"
 		"fieldName"									"ChargeMeter"
-		"font"										"Default"
 		"xpos"										"cs-0.5"
 		"ypos"										"r88"
 		"zpos"										"2"
@@ -39,7 +38,6 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
-		"textAlignment"								"Left"
 		"fgcolor_override"							"Ubercharge"
 	}
 
@@ -77,7 +75,6 @@
 		"tall"										"2"
 		"visible"									"1"
 		"enabled"									"1"
-		"textAlignment"								"Left"
 	}
 	"ChargeMeter2"
 	{
@@ -90,7 +87,6 @@
 		"tall"										"2"
 		"visible"									"1"
 		"enabled"									"1"
-		"textAlignment"								"Left"
 
 		"pin_to_sibling"							"ChargeMeter1"
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
@@ -107,7 +103,6 @@
 		"tall"										"2"
 		"visible"									"1"
 		"enabled"									"1"
-		"textAlignment"								"Left"
 
 		"pin_to_sibling"							"ChargeMeter2"
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
@@ -124,7 +119,6 @@
 		"tall"										"2"
 		"visible"									"1"
 		"enabled"									"1"
-		"textAlignment"								"Left"
 
 		"pin_to_sibling"							"ChargeMeter3"
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"

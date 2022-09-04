@@ -1,4 +1,4 @@
-"Resource/UI/hud_obj_tele_exit.res"
+"Resource/UI/Hud_Obj_Tele_Exit.res"
 {
 	"BuildingStatusItem"
 	{
@@ -118,7 +118,6 @@
 		{
 			"ControlName"							"CBuildingHealthBar"
 			"fieldName"								"Health"
-			"font"									"Default"
 			"xpos"									"0"
 			"ypos"									"0"
 			"wide"									"8"
@@ -144,7 +143,6 @@
 			{
 				"ControlName"						"ContinuousProgressBar"
 				"fieldName"							"BuildingProgress"
-				"font"								"Default"
 				"xpos"								"0"
 				"ypos"								"cs-0.5"
 				"wide"								"38"
@@ -194,7 +192,6 @@
 			{
 				"ControlName"						"ContinuousProgressBar"
 				"fieldName"							"Upgrade"
-				"font"								"Default"
 				"xpos"								"12"
 				"ypos"								"cs-0.5"
 				"wide"								"30"

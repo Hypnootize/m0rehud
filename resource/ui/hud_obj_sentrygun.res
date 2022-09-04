@@ -1,4 +1,4 @@
-"Resource/UI/hud_obj_sentrygun.res"
+"Resource/UI/Hud_Obj_Sentrygun.res"
 {
 	"BuildingStatusItem"
 	{
@@ -151,7 +151,6 @@
 		{
 			"ControlName"							"CBuildingHealthBar"
 			"fieldName"								"Health"
-			"font"									"Default"
 			"xpos"									"0"
 			"ypos"									"cs-0.5"
 			"wide"									"8"
@@ -177,7 +176,6 @@
 			{
 				"ControlName"						"ContinuousProgressBar"
 				"fieldName"							"BuildingProgress"
-				"font"								"Default"
 				"xpos"								"0"
 				"ypos"								"cs-0.5"
 				"wide"								"38"
@@ -262,7 +260,6 @@
 			{
 				"ControlName"						"ContinuousProgressBar"
 				"fieldName"							"Shells"
-				"font"								"Default"
 				"xpos"								"12"
 				"ypos"								"16"
 				"wide"								"30"
@@ -270,7 +267,6 @@
 				"visible"							"1"
 				"enabled"							"1"
 				"proportionaltoparent"				"1"
-				"textAlignment"						"Left"
 				"alpha" 							"150"
 				"fgcolor_override"					"ProgressOffWhite"
 			}
@@ -296,7 +292,6 @@
 			{
 				"ControlName"						"ContinuousProgressBar"
 				"fieldName"							"Rockets"
-				"font"								"Default"
 				"xpos"								"12"
 				"ypos"								"30"
 				"wide"								"30"
@@ -304,7 +299,6 @@
 				"visible"							"0"
 				"enabled"							"1"
 				"proportionaltoparent"				"1"
-				"textAlignment"						"Left"
 				"alpha" 							"150"
 				"fgcolor_override"					"ProgressOffWhite"
 			}
@@ -330,7 +324,6 @@
 			{
 				"ControlName"						"ContinuousProgressBar"
 				"fieldName"							"Upgrade"
-				"font"								"Default"
 				"xpos"								"12"
 				"ypos"								"30"
 				"wide"								"30"
@@ -338,7 +331,6 @@
 				"visible"							"1"
 				"enabled"							"1"
 				"proportionaltoparent"				"1"
-				"textAlignment"						"Left"
 				"alpha" 							"150"
 				"fgcolor_override"					"ProgressOffWhite"
 			}

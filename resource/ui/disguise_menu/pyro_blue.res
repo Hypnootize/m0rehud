@@ -1,6 +1,6 @@
 #base "scout_red.res"
 
-"Resource/UI/disguise_menu/pyro_blue.res"
+"Resource/UI/Disguise_Menu/Pyro_Blue.res"
 {
 	"ClassIcon"
 	{

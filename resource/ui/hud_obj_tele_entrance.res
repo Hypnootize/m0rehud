@@ -1,4 +1,4 @@
-"Resource/UI/hud_obj_tele_entrance.res"
+"Resource/UI/Hud_Obj_Tele_Entrance.res"
 {
 	"BuildingStatusItem"
 	{
@@ -118,7 +118,6 @@
 		{
 			"ControlName"							"CBuildingHealthBar"
 			"fieldName"								"Health"
-			"font"									"Default"
 			"xpos"									"0"
 			"ypos"									"0"
 			"wide"									"8"
@@ -144,7 +143,6 @@
 			{
 				"ControlName"						"ContinuousProgressBar"
 				"fieldName"							"BuildingProgress"
-				"font"								"Default"
 				"xpos"								"0"
 				"ypos"								"cs-0.5"
 				"wide"								"38"
@@ -207,14 +205,12 @@
 				{
 					"ControlName"					"ContinuousProgressBar"
 					"fieldName"						"Recharge"
-					"font"							"Default"
 					"xpos"							"12"
 					"ypos"							"4"
 					"wide"							"30"
 					"tall"							"9"
 					"visible"						"1"
 					"enabled"						"1"
-					"textAlignment"					"Left"
 					"proportionaltoparent"			"1"
 					"alpha" 						"150"
 					"fgcolor_override"				"ProgressOffWhite"
@@ -272,7 +268,6 @@
 			{
 				"ControlName"						"ContinuousProgressBar"
 				"fieldName"							"Upgrade"
-				"font"								"Default"
 				"xpos"								"12"
 				"ypos"								"16"
 				"wide"								"30"

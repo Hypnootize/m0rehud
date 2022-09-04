@@ -11,7 +11,6 @@
 		"tall"										"2"
 		"visible"									"1"
 		"enabled"									"1"
-		"textAlignment"								"Left"
 		"proportionaltoparent"						"1"
 	}
 }

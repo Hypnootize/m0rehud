@@ -1,4 +1,4 @@
-"Resource/UI/hud_obj_sapper.res"
+"Resource/UI/Hud_Obj_Sapper.res"
 {
 	"BuildingStatusItem"
 	{
@@ -84,7 +84,6 @@
 			{
 				"ControlName"						"ContinuousProgressBar"
 				"fieldName"							"TargetHealth"
-				"font"								"Default"
 				"xpos"								"48"
 				"ypos"								"cs-0.5+6"
 				"wide"								"30"

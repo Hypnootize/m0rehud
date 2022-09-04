@@ -1,4 +1,4 @@
-"Resource/HudLayout.res"
+"Scripts/Layouts/Layout_m0re.res"
 {
 	"HudWeaponAmmo"
 	{

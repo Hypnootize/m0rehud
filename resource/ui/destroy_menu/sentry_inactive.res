@@ -1,6 +1,6 @@
 #base "base_inactive.res"
 
-"Resource/UI/destroy_menu/sentry_inactive.res"
+"Resource/UI/Destroy_Menu/Sentry_Inactive.res"
 {
 	"BuildingIcon"
 	{

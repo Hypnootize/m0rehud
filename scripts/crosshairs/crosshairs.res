@@ -1,4 +1,4 @@
-"Resource/HudLayout.res"
+"Scripts/Crosshairs/Crosshairs.res"
 {
 	//====================================================================================
 	// HUD CROSSHAIR
