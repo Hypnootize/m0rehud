@@ -5,7 +5,7 @@
 		"ControlName"								"ContinuousProgressBar"
 		"fieldName"									"ChargeMeter"
 		"xpos"										"cs-0.5"
-		"ypos"										"c65"
+		"ypos"										"c66"
 		"zpos"										"2"
 		"wide"										"100"
 		"tall"										"1"
@@ -13,7 +13,6 @@
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 	}
-
 	"ChargeLabel"
 	{
 		"ControlName"								"CExLabel"
