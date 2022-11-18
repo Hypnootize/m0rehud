@@ -103,7 +103,7 @@
 		"ControlName"								"EditablePanel"
 		"fieldname"									"MainMenuAnchor"
 		"xpos"										"c-241"
-		"ypos"										"235"
+		"ypos"										"220"
 		"wide"										"10"
 		"tall"										"10"
 		"visible"									"0"
@@ -556,6 +556,47 @@
 		}
 	}
 
+	"Friends"
+	{
+		"ControlName"								"EditablePanel"
+		"fieldname"									"Friends"
+		"xpos"										"0"
+		"ypos"										"3"
+		"zpos"										"15"
+		"wide"										"150"
+		"tall"										"14"
+
+		"pin_to_sibling" 							"DemoUI"
+		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 					"PIN_BOTTOMLEFT"
+
+		"SubButton"
+		{
+			"ControlName"							"CExImageButton"
+			"fieldName"								"SubButton"
+			"xpos"									"0"
+			"ypos"									"0"
+			"wide"									"f0"
+			"tall"									"f0"
+			"visible"								"1"
+			"enabled"								"1"
+			"proportionaltoparent"					"1"
+			"font"									"Coolvetica15"
+			"AllCaps"								"1"
+			"textAlignment"							"west"
+			"default"								"1"
+			"sound_depressed"						"UI/buttonclick.wav"
+			"sound_released"						"UI/buttonclickrelease.wav"
+
+			"paintbackground"						"0"
+			"paintborder"							"0"
+
+			"defaultFgColor_override" 				"White"
+			"armedFgColor_override" 				"Menu Labels"
+			"depressedFgColor_override" 			"Menu Labels"
+		}
+	}
+
 	"Contracker"
 	{
 		"ControlName"								"EditablePanel"
@@ -566,7 +607,7 @@
 		"wide"										"150"
 		"tall"										"14"
 
-		"pin_to_sibling" 							"DemoUI"
+		"pin_to_sibling" 							"Friends"
 		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 					"PIN_BOTTOMLEFT"
 
@@ -1379,59 +1420,133 @@
 	// FRIENDS LIST
 	//==================================================================================================================================================
 
-	"FriendsContainer"
+	"SafeMode"
 	{
 		"ControlName"								"EditablePanel"
-		"fieldname"									"FriendsContainer"
+		"fieldName"									"SafeMode"
 		"xpos"										"rs1"
-		"ypos"										"200"
+		"ypos"										"cs-0.5+65"
 		"zpos"										"11"
-		"wide"										"106"
-		"tall"										"220"
-		"visible"									"1"
-		"proportionaltoparent"						"1"
-		"bgcolor_override"							"0 0 0 50"
+		"wide"										"110"
+		"tall"										"214"
+		"visible"									"0"
 
-		"SteamFriendsList"
+		"CloseButton"
 		{
-			"ControlName"							"CSteamFriendsListPanel"
-			"fieldname"								"SteamFriendsList"
-			"xpos"									"3"
-			"ypos"									"3"
-			"zpos"									"500"
-			"wide"									"106"
-			"tall"									"214"
+			"ControlName"							"CExImageButton"
+			"fieldName"								"CloseButton"
+			"xpos"									"rs1"
+			"ypos"									"0"
+			"zpos"									"1"
+			"wide"									"16"
+			"tall"									"16"
+			"visible"								"1"
+			"enabled"								"1"
+			"proportionaltoparent"					"1"
+			"font"									"m0reSymbols18"
+			"textAlignment"							"center"
+			"labeltext"								"X"
+			"AllCaps"								"1"
+			"default"								"1"
+			"Command"								"engine cl_mainmenu_safemode 0"
+			"actionsignallevel"						"2"
+			"sound_depressed"						"UI/buttonclick.wav"
+
+			"paintbackground"						"1"
+			"RoundedCorners"						"0"
+
+			"defaultBgColor_override" 				"0 0 0 100"
+			"armedBgColor_override" 				"0 0 0 100"
+			"depressedBgColor_override" 			"0 0 0 100"
+
+			"defaultFgColor_override" 				"White"
+			"armedFgColor_override" 				"Menu Labels"
+			"depressedFgColor_override" 			"Menu Labels"
+		}
+
+		"FriendsContainer"
+		{
+			"ControlName"							"EditablePanel"
+			"fieldname"								"FriendsContainer"
+			"xpos"									"cs-0.5"
+			"ypos"									"cs-0.5"
+			"zpos"									"0"
+			"wide"									"f0"
+			"tall"									"f0"
 			"visible"								"1"
 			"proportionaltoparent"					"1"
+			"paintbackground"						"1"
+			"paintbackgroundtype"					"0"
+			"bgcolor_override"						"0 0 0 50"
 
-			"columns_count"							"1"
-			"inset_x"								"0"
-			"inset_y"								"0"
-			"row_gap"								"2"
-			"column_gap"							"0"
-			"restrict_width"						"0"
-
-			"friendpanel_kv"
+			"TitleLabel"
 			{
-				"wide"								"100"
-				"tall"								"20"
+				"ControlName"						"CExLabel"
+				"fieldName"							"TitleLabel"
+				"xpos"								"0"
+				"ypos"								"0"
+				"wide"								"f0"
+				"tall"								"16"
+				"visible"							"1"
+				"enabled"							"1"
+				"proportionaltoparent"				"1"
+				"use_proportional_insets"			"1"
+				"font"								"Coolvetica13"
+				"labelText"							"#TF_Competitive_Friends"
+				"textAlignment"						"west"
+				"textinsetx"						"5"
+				"textinsety"						"3"
+				"fgcolor"							"White"
+				"paintbackground"					"1"
+				"paintbackgroundtype"				"0"
+				"bgcolor_override"					"0 0 0 100"
 			}
 
-			"ScrollBar"
+			"SteamFriendsList"
 			{
-				"ControlName"						"ScrollBar"
-				"FieldName"							"ScrollBar"
-				"xpos"								"rs1-2"
-				"ypos"								"0"
-				"tall"								"f0"
-				"wide"								"3"
-				"zpos"								"1000"
-				"nobuttons"							"1"
+				"ControlName"						"CSteamFriendsListPanel"
+				"fieldname"							"SteamFriendsList"
+				"xpos"								"rs1"
+				"ypos"								"rs1-2"
+				"zpos"								"500"
+				"wide"								"f2"
+				"tall"								"f20"
+				"visible"							"1"
 				"proportionaltoparent"				"1"
 
-				"Slider"
+				"paintbackground"					"0"
+				"paintbackgroundtype"				"0"
+				"bgcolor_override"					"0 0 0 255"
+
+				"columns_count"						"1"
+				"inset_x"							"0"
+				"inset_y"							"0"
+				"row_gap"							"2"
+				"column_gap"						"0"
+				"restrict_width"					"0"
+
+				"friendpanel_kv"
 				{
-					"fgcolor_override"				"White"
+					"wide"							"104"
+					"tall"							"20"
+				}
+
+				"ScrollBar"
+				{
+					"ControlName"					"ScrollBar"
+					"FieldName"						"ScrollBar"
+					"xpos"							"rs1"
+					"ypos"							"0"
+					"tall"							"f0"
+					"wide"							"4"
+					"zpos"							"1000"
+					"nobuttons"						"1"
+					"proportionaltoparent"			"1"
+
+					"Slider"
+					{
+						"fgcolor_override"			"White"
+					}
 				}
 			}
 		}
@@ -1613,7 +1728,7 @@
 		"paintbackground"							"1"
 		"bgcolor_override"							"0 0 0 50"
 		"noitem_textcolor"							"White"
-		"PaintBackgroundType"						"2"
+		"PaintBackgroundType"						"0"
 
 		"text_ypos"									"20"
 		"text_center"								"1"
@@ -1658,5 +1773,14 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"image"										"../vgui/maps/menu_thumb_Missing"
+	}
+	"CPHighlight"
+	{
+		"ControlName"								"ImagePanel"
+		"fieldName"									"CPHighlight"
+		"xpos"										"9999"
+		"visible"									"1"
+		"enabled"									"1"
+		"image"										"../sprites/obj_icons/capture_highlight"
 	}
 }

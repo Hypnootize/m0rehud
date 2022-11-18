@@ -103,7 +103,7 @@
 		"ControlName"								"EditablePanel"
 		"fieldname"									"MainMenuAnchor"
 		"xpos"										"c-241"
-		"ypos"										"235"
+		"ypos"										"220"
 		"wide"										"10"
 		"tall"										"10"
 		"visible"									"0"
@@ -1551,7 +1551,7 @@
 		"paintbackground"							"1"
 		"bgcolor_override"							"0 0 0 50"
 		"noitem_textcolor"							"White"
-		"PaintBackgroundType"						"2"
+		"PaintBackgroundType"						"0"
 
 		"text_ypos"									"20"
 		"text_center"								"1"
@@ -1596,5 +1596,14 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"image"										"../vgui/maps/menu_thumb_Missing"
+	}
+	"CPHighlight"
+	{
+		"ControlName"								"ImagePanel"
+		"fieldName"									"CPHighlight"
+		"xpos"										"9999"
+		"visible"									"1"
+		"enabled"									"1"
+		"image"										"../sprites/obj_icons/capture_highlight"
 	}
 }
