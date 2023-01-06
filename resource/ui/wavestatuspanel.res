@@ -116,7 +116,9 @@
 		"tall"										"12"
 		"visible"									"1"
 		"enabled"									"1"
-		"image"										"../HUD/tournament_panel_tan"
+		"drawcolor"									"Black"
+		"image"										"White"
+		"alpha"										"200"
 
 		"src_corner_height"							"22"
 		"src_corner_width"							"22"
