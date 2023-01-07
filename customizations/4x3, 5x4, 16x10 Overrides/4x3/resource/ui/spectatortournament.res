@@ -161,9 +161,9 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"ReinforcementsLabel"
-		"xpos"										"cs-0.5"
+		"xpos"										"c-100"
 		"ypos"										"50"
-		"wide"										"f0"
+		"wide"										"200"
 		"tall"										"15"
 		"visible"									"1"
 		"enabled"									"1"
@@ -171,7 +171,6 @@
 		"textAlignment"								"center"
 		"font"										"m0refont11"
 		"fgcolor"  									"White"
-		"proportionaltoparent"						"1"
 
 		"if_mvm"
 		{
