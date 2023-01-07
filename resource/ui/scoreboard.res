@@ -341,12 +341,6 @@
 		"pin_to_sibling"							"BlueScoreBG"
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
 		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
-
-		"if_mvm"
-		{
-			"xpos"									"-6"
-			"ypos"									"-15"
-		}
 	}
 
 	"ServerTimeLeft"
@@ -393,11 +387,6 @@
 		"pin_to_sibling"							"RedScoreBG"
 		"pin_corner_to_sibling"						"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"						"PIN_BOTTOMRIGHT"
-
-		"if_mvm"
-		{
-			"visible"								"0"
-		}
 	}
 
 	"SpectatorsInQueue"
@@ -419,11 +408,6 @@
 		"pin_to_sibling"							"RedScoreBG"
 		"pin_corner_to_sibling"						"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"						"PIN_BOTTOMRIGHT"
-
-		"if_mvm"
-		{
-			"visible"								"0"
-		}
 	}
 
 	"ShadedBar"

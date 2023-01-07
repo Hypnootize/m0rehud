@@ -3,7 +3,7 @@
 	"scores"
 	{
 		"ControlName"	        					"CTFClientScoreBoardDialog"
-		"fieldName"	          						"scoreinfo"
+		"fieldName"	          						"scores"
 		"xpos"		            					"0"
 		"ypos"		            					"31"
 		"wide"		            					"f0"
@@ -341,12 +341,6 @@
 		"pin_to_sibling"							"BlueScoreBG"
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
 		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
-
-		"if_mvm"
-		{
-			"xpos"									"-6"
-			"ypos"									"-15"
-		}
 	}
 
 	"ServerTimeLeft"
@@ -367,11 +361,6 @@
 		"pin_to_sibling"							"WhiteBG"
 		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
 		"pin_to_sibling_corner"						"PIN_CENTER_BOTTOM"
-
-		"if_mvm"
-		{
-			"visible"								"0"
-		}
 	}
 
 	"Spectators"
@@ -393,11 +382,6 @@
 		"pin_to_sibling"							"RedScoreBG"
 		"pin_corner_to_sibling"						"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"						"PIN_BOTTOMRIGHT"
-
-		"if_mvm"
-		{
-			"visible"								"0"
-		}
 	}
 
 	"SpectatorsInQueue"
