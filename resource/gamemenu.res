@@ -6,8 +6,8 @@
 
 	"Version"
 	{
-		"label" 									"m0rehud 6.3"
-		"command" 									"engine showconsole; echo m0rehud by Hypnotize https://comfig.app/huds/page/m0rehud/ all credits to m0re"
+		"label" 									"m0rehud 6.4"
+		"command" 									"engine showconsole; echo m0rehud by Hypnotize comfig.app/huds/page/m0rehud all credits to m0re"
 		"OnlyAtMenu"								"1"
 	}
 	"Servers"
