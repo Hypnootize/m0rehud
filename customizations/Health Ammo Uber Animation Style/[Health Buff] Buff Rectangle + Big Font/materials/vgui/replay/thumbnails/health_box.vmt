@@ -1,6 +1,6 @@
 "UnlitGeneric"
 {
-	"$baseTexture"			"vgui\replay\thumbnails\health_border_blu"
+	"$baseTexture"			"vgui\replay\thumbnails\health_box"
 	"$vertexalpha"			"1"
 	"$alpha"				"1"
 	"$translucent"			"1"
