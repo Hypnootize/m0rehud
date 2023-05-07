@@ -1,0 +1,9 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+*.res linguist-language=vdf
+**/*.res linguist-detectable=true
+
+.gitattributes export-ignore
+.gitignore export-ignore
+.github export-ignore
