@@ -1,0 +1,26 @@
+"UnlitGeneric"
+{
+	"$basetexture"					"vgui/replay/thumbnails/digits"
+	"$alpha"						"1"
+	"$translucent"					"1"
+	"$vertexcolor"					"1"
+	"$ignorez"						"1"
+
+	"$speed"						"0"
+
+	"Proxies"
+	{
+		"PlayerSpeed"
+		{
+			"scale"					"1"
+			"resultVar"				"$speed"
+		}
+		"Clamp"
+		{
+			"min"					"0"
+			"max"					"3500"
+			"srcVar1"				"$speed"
+			"resultVar"				"$frame"
+		}
+	}
+}
