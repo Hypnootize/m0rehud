@@ -90,7 +90,6 @@
 			{
 				"name"								"ref"
 				"sequence"							"ref"
-				"default"							"1"
 			}
 
 			"animation"
@@ -185,8 +184,8 @@
 			"zpos"									"1"
 			"proportionaltoparent"					"1"
 
-			"color_portrait_bg_red"					"189 59 61 255"
-			"color_portrait_bg_blue"				"90 122 143 255"
+			"color_portrait_bg_red"					"TF2Red"
+			"color_portrait_bg_blue"				"TF2Blue"
 			"color_portrait_bg_red_dead"			"15 15 15 255"
 			"color_portrait_bg_blue_dead"			"15 15 15 255"
 			"color_bar_health_high"					"75 200 25 255"
@@ -194,8 +193,10 @@
 			"percentage_health_med"					"0.6"
 			"color_bar_health_low"					"255 40 40 255"
 			"percentage_health_low"					"0.3"
-			"color_portrait_blend_dead_red"			"255 255 255 255"
-			"color_portrait_blend_dead_blue" 		"255 255 255 255"
+			"color_portrait_blend_dead_red"			"White"
+			"color_portrait_blend_dead_blue" 		"White"
+			"color_portrait_bg_red_local_player"	"TF2Red"
+			"color_portrait_bg_blue_local_player"	"TF2Blue"
 
 			"PlayerName"
 			{
