@@ -67,7 +67,6 @@
 		"labelText"									"CONTINUE (&E) "
 		"textAlignment"								"center"
 		"command"									"continue"
-		"default"									"1"
 		"font"										"Coolvetica15"
 
 		"paintbackground"							"0"
@@ -96,7 +95,6 @@
 		"labelText"									"WATCH MOVIE"
 		"textAlignment"								"center"
 		"command"									"intro"
-		"default"									"1"
 		"font"										"Coolvetica15"
 
 		"paintbackground"							"0"

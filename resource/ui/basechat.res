@@ -38,7 +38,6 @@
 		"enabled"		          					"1"
 		"labelText"		        					"#chat_filterbutton"
 		"textAlignment"		    					"center"
-		"Default"		          					"0"
 	}
 
 	"HudChatHistory"

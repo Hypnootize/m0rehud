@@ -39,7 +39,6 @@
 				"font"								"Coolvetica15"
 				"AllCaps"							"1"
 				"textAlignment"						"west"
-				"default"							"1"
 				"sound_depressed"					"UI/buttonclick.wav"
 				"sound_released"					"UI/buttonclickrelease.wav"
 
@@ -211,7 +210,6 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"command"									"open_rank_type_menu"
-		"default"									"1"
 		"actionsignallevel" 						"1"
 		"proportionaltoparent"						"1"
 		"sound_depressed"							"UI/buttonclick.wav"
@@ -256,7 +254,6 @@
 			"font"									"Coolvetica15"
 			"AllCaps"								"1"
 			"textAlignment"							"west"
-			"default"								"1"
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
 
@@ -297,7 +294,6 @@
 			"font"									"Coolvetica15"
 			"AllCaps"								"1"
 			"textAlignment"							"west"
-			"default"								"1"
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
 
@@ -338,7 +334,6 @@
 			"font"									"VerdanaMenu"
 			"AllCaps"								"1"
 			"textAlignment"							"west"
-			"default"								"1"
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
 
@@ -379,7 +374,6 @@
 			"font"									"Coolvetica15"
 			"AllCaps"								"1"
 			"textAlignment"							"west"
-			"default"								"1"
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
 
@@ -420,7 +414,6 @@
 			"font"									"Coolvetica15"
 			"AllCaps"								"1"
 			"textAlignment"							"west"
-			"default"								"1"
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
 
@@ -461,7 +454,6 @@
 			"font"									"Coolvetica15"
 			"AllCaps"								"1"
 			"textAlignment"							"west"
-			"default"								"1"
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
 
@@ -502,7 +494,6 @@
 			"font"									"Coolvetica15"
 			"AllCaps"								"1"
 			"textAlignment"							"west"
-			"default"								"1"
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
 
@@ -543,7 +534,6 @@
 			"font"									"Coolvetica15"
 			"AllCaps"								"1"
 			"textAlignment"							"west"
-			"default"								"1"
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
 
@@ -584,7 +574,6 @@
 			"font"									"Coolvetica15"
 			"AllCaps"								"1"
 			"textAlignment"							"west"
-			"default"								"1"
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
 
@@ -625,7 +614,6 @@
 			"font"									"Coolvetica15"
 			"AllCaps"								"1"
 			"textAlignment"							"west"
-			"default"								"1"
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
 
@@ -666,7 +654,6 @@
 			"font"									"Coolvetica15"
 			"AllCaps"								"1"
 			"textAlignment"							"west"
-			"default"								"1"
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
 
@@ -712,7 +699,6 @@
 			"font"									"Coolvetica15"
 			"AllCaps"								"1"
 			"textAlignment"							"west"
-			"default"								"1"
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
 
@@ -754,7 +740,6 @@
 			"font"									"Coolvetica15"
 			"AllCaps"								"1"
 			"textAlignment"							"west"
-			"default"								"1"
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
 
@@ -796,7 +781,6 @@
 			"font"									"Coolvetica15"
 			"AllCaps"								"1"
 			"textAlignment"							"west"
-			"default"								"1"
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
 
@@ -835,7 +819,6 @@
 			"proportionaltoparent"					"1"
 			"font"									"m0reSymbols18"
 			"textAlignment"							"center"
-			"default"								"1"
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
 
@@ -876,7 +859,6 @@
 			"proportionaltoparent"					"1"
 			"font"									"m0reSymbols18"
 			"textAlignment"							"center"
-			"default"								"1"
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
 
@@ -917,7 +899,6 @@
 			"proportionaltoparent"					"1"
 			"font"									"m0reSymbols18"
 			"textAlignment"							"center"
-			"default"								"1"
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
 
@@ -959,7 +940,6 @@
 			"proportionaltoparent"					"1"
 			"font"									"m0reSymbols18"
 			"textAlignment"							"center"
-			"default"								"1"
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
 
@@ -1023,7 +1003,6 @@
 			"labeltext"								"Notification"
 			"AllCaps"								"1"
 			"textAlignment"							"west"
-			"default"								"1"
 			"command"								"noti_show"
 			"actionsignallevel" 					"2"
 			"sound_depressed"						"UI/buttonclick.wav"
@@ -1082,7 +1061,6 @@
 			"proportionaltoparent"					"1"
 			"font"									"m0reSymbols18"
 			"textAlignment"							"center"
-			"default"								"1"
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
 
@@ -1122,7 +1100,6 @@
 			"proportionaltoparent"					"1"
 			"font"									"m0reSymbols18"
 			"textAlignment"							"center"
-			"default"								"1"
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
 
@@ -1162,7 +1139,6 @@
 			"proportionaltoparent"					"1"
 			"font"									"m0reSymbols18"
 			"textAlignment"							"center"
-			"default"								"1"
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
 
@@ -1202,7 +1178,6 @@
 			"proportionaltoparent"					"1"
 			"font"									"m0reSymbols18"
 			"textAlignment"							"center"
-			"default"								"1"
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
 
@@ -1242,7 +1217,6 @@
 			"proportionaltoparent"					"1"
 			"font"									"m0reSymbols18"
 			"textAlignment"							"center"
-			"default"								"1"
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
 
@@ -1282,7 +1256,6 @@
 			"proportionaltoparent"					"1"
 			"font"									"m0reSymbols18"
 			"textAlignment"							"center"
-			"default"								"1"
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
 
@@ -1322,7 +1295,6 @@
 			"proportionaltoparent"					"1"
 			"font"									"m0reSymbols18"
 			"textAlignment"							"center"
-			"default"								"1"
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
 
@@ -1362,7 +1334,6 @@
 			"proportionaltoparent"					"1"
 			"font"									"m0reSymbols18"
 			"textAlignment"							"center"
-			"default"								"1"
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
 
@@ -1407,7 +1378,6 @@
 			"labeltext"								""
 			"font"									"HudFontSmallBold"
 			"textAlignment"							"center"
-			"default"								"0"
 			"actionsignallevel" 					"2"
 
 			"Command"								"noti_hide"

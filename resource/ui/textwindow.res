@@ -81,7 +81,6 @@
 		"labelText"		 							"CONTINUE (&E) "
 		"textAlignment"	 							"center"
 		"command"		 							"okay"
-		"default"		 							"1"
 		"font"										"Coolvetica15"
 
 		"paintbackground"							"0"

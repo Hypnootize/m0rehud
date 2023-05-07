@@ -83,7 +83,6 @@
 		"enabled"									"1"
 		"labeltext"									""
 		"command"									"jointeam blue"
-		"default"									"1"
 		"use_proportional_insets" 					"1"
 		"proportionaltoparent"						"1"
 		"RoundedCorners"							"0"
@@ -152,7 +151,6 @@
 		"labeltext"									""
 		"command"									"jointeam red"
 		"use_proportional_insets" 					"1"
-		"default"									"1"
 		"proportionaltoparent"						"1"
 		"RoundedCorners"							"0"
 		"sound_depressed"							"UI/buttonclick.wav"
@@ -218,7 +216,6 @@
 		"font"			  							"m0refont11"
 		"command"									"jointeam auto"
 		"use_proportional_insets" 					"1"
-		"default"									"1"
 		"proportionaltoparent"						"1"
 		"sound_depressed"							"UI/buttonclick.wav"
 
@@ -258,7 +255,6 @@
 		"font"			  							"m0refont11"
 		"command"									"jointeam spectate"
 		"use_proportional_insets" 					"1"
-		"default"									"1"
 		"proportionaltoparent"						"1"
 		"sound_depressed"							"UI/buttonclick.wav"
 
