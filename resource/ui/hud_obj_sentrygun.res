@@ -187,7 +187,7 @@
 			}
 			"BuildingLabel"
 			{
-				"ControlName"						"CTFLabel"
+				"ControlName"						"CExLabel"
 				"fieldName"							"BuildingLabel"
 				"xpos"								"9999"
 			}

@@ -236,7 +236,7 @@
 				"xpos"								"0"
 				"ypos"								"0"
 				"zpos"								"3"
-				"wide"								"99999"
+				"wide"								"9999"
 				"tall"								"f0"
 				"visible"							"1"
 				"enabled"							"1"

@@ -123,7 +123,7 @@
 	}
 	"MapInfoContinue"
 	{
-		"ControlName"								"CTFButton"
+		"ControlName"								"CExButton"
 		"fieldName"									"MapInfoContinue"
 		"xpos"										"9999"
 	}

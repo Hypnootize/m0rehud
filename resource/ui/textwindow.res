@@ -25,7 +25,7 @@
 		"tall"			 							"200"
 		"visible"		 							"1"
 		"enabled"		 							"1"
-		"textAlignment"	 							"left"
+		"textAlignment"	 							"west"
 		"fgcolor"		 							"White"
 		"proportionaltoparent"						"1"
 	}

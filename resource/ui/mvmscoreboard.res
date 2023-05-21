@@ -32,7 +32,7 @@
 		"fgcolor"									"White"
 		"proportionaltoparent"						"1"
 
-		"pin_to_sibling"							"MvMRedBar"
+		"pin_to_sibling"							"RedBar"
 		"pin_corner_to_sibling"						"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 	}
@@ -41,7 +41,7 @@
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"DifficultyContainer"
-		"xpos"										"5"
+		"xpos"										"-5"
 		"ypos"										"0"
 		"zpos"										"1"
 		"wide"										"200"
@@ -49,7 +49,7 @@
 		"visible"									"1"
 		"proportionaltoparent"						"1"
 
-		"pin_to_sibling"							"MvMRedBar"
+		"pin_to_sibling"							"RedBar"
 
 		"DifficultyLabel"
 		{
