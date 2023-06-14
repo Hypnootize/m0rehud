@@ -106,24 +106,44 @@
 	{
 		"ControlName"	      						"ScalableImagePanel"
 		"fieldName"		       					 	"HudTournamentSetupBG"
-		"xpos"		          						"9999"
+		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"TournamentSetupLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"TournamentSetupLabel"
-		"xpos"		          						"9999"
+		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"TournamentTeamNameLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"TournamentTeamNameLabel"
-		"xpos"		          						"9999"
+		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"HudTournamentNameBG"
 	{
 		"ControlName"								"CTFImagePanel"
 		"fieldName"									"HudTournamentNameBG"
-		"xpos"		          						"9999"
+		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

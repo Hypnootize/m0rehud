@@ -221,12 +221,22 @@
 			"ControlName"							"ScalableImagePanel"
 			"fieldName"								"CreditStatsBackground"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 		"CreditsLabel"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"CreditsLabel"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 	}
 
@@ -241,5 +251,10 @@
 		"ControlName"								"ScalableImagePanel"
 		"fieldName"									"PlayerListBackground"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

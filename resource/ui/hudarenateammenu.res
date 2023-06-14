@@ -205,54 +205,99 @@
 	{
 		"ControlName"								"CTFTeamButton"
 		"fieldName"									"teambutton2"
-		"xpos"			  							"9999"
+		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"teambutton3"
 	{
 		"ControlName"								"CTFTeamButton"
 		"fieldName"									"teambutton3"
-		"xpos"			  							"9999"
+		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"MenuBG"
 	{
 		"ControlName"								"CModelPanel"
 		"fieldName"									"MenuBG"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"autodoor"
 	{
 		"ControlName"								"CModelPanel"
 		"fieldName"									"autodoor"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"spectate"
 	{
 		"ControlName"								"CModelPanel"
 		"fieldName"									"spectate"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"SysMenu"
 	{
 		"ControlName"	  							"Menu"
 		"fieldName"		  							"SysMenu"
-		"xpos"			  							"9999"
+		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"MapInfo"
 	{
 		"ControlName"								"HTML"
 		"fieldName"									"MapInfo"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"CancelButton"
 	{
 		"ControlName"	  							"CExButton"
 		"fieldName"		  							"CancelButton"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"ShadedBar"
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"ShadedBar"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

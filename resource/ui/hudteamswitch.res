@@ -49,11 +49,21 @@
 		"ControlName"								"CTFImagePanel"
 		"fieldName"									"HudTeamSwitchBG"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"SwitchImage"
 	{
 		"ControlName"								"CTFImagePanel"
 		"fieldName"									"SwitchImage"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

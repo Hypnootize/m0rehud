@@ -190,6 +190,11 @@
 				"ControlName"						"CExLabel"
 				"fieldName"							"BuildingLabel"
 				"xpos"								"9999"
+				"ypos"								"9999"
+				"wide"								"0"
+				"tall"								"0"
+				"visible"							"0"
+				"enabled"							"0"
 			}
 		}
 
@@ -347,12 +352,22 @@
 			"ControlName"							"CBuildingStatusAlertTray"
 			"fieldName"								"AlertTray"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 		"WrenchIcon"
 		{
 			"ControlName"							"CIconPanel"
 			"fieldName"								"WrenchIcon"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 	}
 	"Background"
@@ -360,11 +375,21 @@
 		"ControlName"								"CIconPanel"
 		"fieldName"									"Background"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"NotBuiltPanel"
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"NotBuiltPanel"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

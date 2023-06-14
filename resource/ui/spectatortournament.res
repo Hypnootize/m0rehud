@@ -137,24 +137,44 @@
 				"ControlName"						"Panel"
 				"fieldName"							"classimagebg"
 				"xpos"								"9999"
+				"ypos"								"9999"
+				"wide"								"0"
+				"tall"								"0"
+				"visible"							"0"
+				"enabled"							"0"
 			}
 			"ReadyBG"
 			{
 				"ControlName"			       		"ScalableImagePanel"
 				"fieldName"					      	"ReadyBG"
 				"xpos"								"9999"
+				"ypos"								"9999"
+				"wide"								"0"
+				"tall"								"0"
+				"visible"							"0"
+				"enabled"							"0"
 			}
 			"ReadyImage"
 			{
 				"ControlName"						"ImagePanel"
 				"fieldName"							"ReadyImage"
 				"xpos"								"9999"
+				"ypos"								"9999"
+				"wide"								"0"
+				"tall"								"0"
+				"visible"							"0"
+				"enabled"							"0"
 			}
 			"specindex"
 			{
 				"ControlName"						"CExLabel"
 				"fieldName"							"specindex"
 				"xpos"								"9999"
+				"ypos"								"9999"
+				"wide"								"0"
+				"tall"								"0"
+				"visible"							"0"
+				"enabled"							"0"
 			}
 		}
 	}
@@ -255,54 +275,99 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"MapLabel"
-		"xpos"			           					"9999"
+		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"ClassOrTeamLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"ClassOrTeamLabel"
-		"xpos"			           					"9999"
+		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"SwitchCamModeKeyLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"SwitchCamModeKeyLabel"
-		"xpos"			           					"9999"
+		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"SwitchCamModeLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"SwitchCamModeLabel"
-		"xpos"			           					"9999"
+		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"CycleTargetFwdKeyLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"CycleTargetFwdKeyLabel"
-		"xpos"			           					"9999"
+		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"CycleTargetFwdLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"CycleTargetFwdLabel"
-		"xpos"			           					"9999"
+		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"CycleTargetRevKeyLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"CycleTargetRevKeyLabel"
-		"xpos"			           					"9999"
+		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"CycleTargetRevLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"CycleTargetRevLabel"
-		"xpos"			           					"9999"
+		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"TipLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"TipLabel"
-		"xpos"			           					"9999"
+		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

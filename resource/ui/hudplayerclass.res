@@ -256,6 +256,11 @@
 			"ControlName"							"CExLabel"
 			"fieldName"								"CarryingLabelDropShadow"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 	}
 
@@ -270,17 +275,32 @@
 		"ControlName"								"CTFImagePanel"
 		"fieldName"									"PlayerStatusSpyImage"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"PlayerStatusClassImageBG"
 	{
 		"ControlName"								"CTFImagePanel"
 		"fieldName"									"PlayerStatusClassImageBG"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"classmodelpanelBG"
 	{
 		"ControlName"								"CTFImagePanel"
 		"fieldName"									"classmodelpanelBG"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

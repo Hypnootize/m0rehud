@@ -284,12 +284,20 @@
 				"ControlName"						"CExLabel"
 				"fieldName"							"playername"
 				"xpos"								"9999"
+				"ypos"								"9999"
+				"wide"								"0"
+				"tall"								"0"
+				"visible"							"0"
+				"enabled"							"0"
 			}
 			"HealthIcon"
 			{
 				"ControlName"						"EditablePanel"
 				"fieldName"							"HealthIcon"
 				"xpos"								"9999"
+				"ypos"								"9999"
+				"wide"								"0"
+				"tall"								"0"
 				"visible"							"0"
 				"enabled"							"1"
 			}
@@ -298,36 +306,66 @@
 				"ControlName"						"ScalableImagePanel"
 				"fieldName"							"ReadyBG"
 				"xpos"								"9999"
+				"ypos"								"9999"
+				"wide"								"0"
+				"tall"								"0"
+				"visible"							"0"
+				"enabled"							"0"
 			}
 			"ReadyImage"
 			{
 				"ControlName"						"ImagePanel"
 				"fieldName"							"ReadyImage"
 				"xpos"								"9999"
+				"ypos"								"9999"
+				"wide"								"0"
+				"tall"								"0"
+				"visible"							"0"
+				"enabled"							"0"
 			}
 			"chargeamount"
 			{
 				"ControlName"						"CExLabel"
 				"fieldName"							"chargeamount"
 				"xpos"								"9999"
+				"ypos"								"9999"
+				"wide"								"0"
+				"tall"								"0"
+				"visible"							"0"
+				"enabled"							"0"
 			}
 			"specindex"
 			{
 				"ControlName"						"CExLabel"
 				"fieldName"							"specindex"
 				"xpos"								"9999"
+				"ypos"								"9999"
+				"wide"								"0"
+				"tall"								"0"
+				"visible"							"0"
+				"enabled"							"0"
 			}
 			"DeathPanel"
 			{
 				"ControlName"						"ImagePanel"
 				"fieldName"							"DeathPanel"
 				"xpos"								"9999"
+				"ypos"								"9999"
+				"wide"								"0"
+				"tall"								"0"
+				"visible"							"0"
+				"enabled"							"0"
 			}
 			"SkullPanel"
 			{
 				"ControlName"						"ImagePanel"
 				"fieldName"							"SkullPanel"
 				"xpos"								"9999"
+				"ypos"								"9999"
+				"wide"								"0"
+				"tall"								"0"
+				"visible"							"0"
+				"enabled"							"0"
 			}
 		}
 	}
@@ -603,33 +641,63 @@
 		"ControlName"								"EditablePanel"
 		"fieldName"									"BGFrame"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"RoundCounter"
 	{
 		"fieldName"									"RoundCounter"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"CountdownLabelShadow"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"CountdownLabelShadow"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"RoundSignModel"
 	{
 		"ControlName"								"CModelPanel"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"RankUpLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"RankUpLabel"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"RankUpShadowLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"RankUpShadowLabel"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

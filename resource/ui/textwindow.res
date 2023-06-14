@@ -105,24 +105,44 @@
 	{
 		"ControlName"	 							"TextEntry"
 		"fieldName"		 							"TextMessage"
-		"xpos"		 								"9999"
+		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"MessageTitle"
 	{
 		"ControlName"	 							"Label"
 		"fieldName"		 							"MessageTitle"
-		"xpos"		 								"9999"
+		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"MenuBG"
 	{
 		"ControlName"	 							"CTFImagePanel"
 		"fieldName"		 							"MenuBG"
-		"xpos"		 								"9999"
+		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"ShadedBG"
 	{
 		"ControlName"	 							"ImagePanel"
 		"fieldName"		 							"ShadedBG"
-		"xpos"		 								"9999"
+		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

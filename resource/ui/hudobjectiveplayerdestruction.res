@@ -138,24 +138,44 @@
 			"fieldName"								"CarriedProgressBar"
 			"ControlName"							"ImagePanel"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 		"WhiteBG"
 		{
 			"ControlName"							"EditablePanel"
 			"fieldName"								"WhiteBG"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 		"GreenBG"
 		{
 			"ControlName"							"EditablePanel"
 			"fieldName"								"GreenBG"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 		"TeamLeaderImage"
 		{
 			"ControlName"							"CTFImagePanel"
 			"fieldName"								"TeamLeaderImage"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 	}
 
@@ -397,12 +417,22 @@
 					"ControlName"					"CExLabel"
 					"fieldName"						"VictoryLabel"
 					"xpos"							"9999"
+					"ypos"							"9999"
+					"wide"							"0"
+					"tall"							"0"
+					"visible"						"0"
+					"enabled"						"0"
 				}
 				"VictoryLabelShadow"
 				{
 					"ControlName"					"CExLabel"
 					"fieldName"						"VictoryLabelShadow"
 					"xpos"							"9999"
+					"ypos"							"9999"
+					"wide"							"0"
+					"tall"							"0"
+					"visible"						"0"
+					"enabled"						"0"
 				}
 			}
 
@@ -504,12 +534,22 @@
 					"ControlName"					"CExLabel"
 					"fieldName"						"VictoryLabel"
 					"xpos"							"9999"
+					"ypos"							"9999"
+					"wide"							"0"
+					"tall"							"0"
+					"visible"						"0"
+					"enabled"						"0"
 				}
 				"VictoryLabelShadow"
 				{
 					"ControlName"					"CExLabel"
 					"fieldName"						"VictoryLabelShadow"
 					"xpos"							"9999"
+					"ypos"							"9999"
+					"wide"							"0"
+					"tall"							"0"
+					"visible"						"0"
+					"enabled"						"0"
 				}
 			}
 
@@ -518,30 +558,55 @@
 				"fieldName"							"ScoreOutline"
 				"ControlName"						"ImagePanel"
 				"xpos"								"9999"
+				"ypos"								"9999"
+				"wide"								"0"
+				"tall"								"0"
+				"visible"							"0"
+				"enabled"							"0"
 			}
 			"BlueProgressBarFill"
 			{
 				"fieldName"							"BlueProgressBarFill"
 				"ControlName"						"ImagePanel"
 				"xpos"								"9999"
+				"ypos"								"9999"
+				"wide"								"0"
+				"tall"								"0"
+				"visible"							"0"
+				"enabled"							"0"
 			}
 			"BlueProgressBarEscrow"
 			{
 				"fieldName"							"BlueProgressBarEscrow"
 				"ControlName"						"ImagePanel"
 				"xpos"								"9999"
+				"ypos"								"9999"
+				"wide"								"0"
+				"tall"								"0"
+				"visible"							"0"
+				"enabled"							"0"
 			}
 			"RedProgressBarFill"
 			{
 				"fieldName"							"RedProgressBarFill"
 				"ControlName"						"ImagePanel"
 				"xpos"								"9999"
+				"ypos"								"9999"
+				"wide"								"0"
+				"tall"								"0"
+				"visible"							"0"
+				"enabled"							"0"
 			}
 			"RedProgressBarEscrow"
 			{
 				"fieldName"							"RedProgressBarEscrow"
 				"ControlName"						"ImagePanel"
 				"xpos"								"9999"
+				"ypos"								"9999"
+				"wide"								"0"
+				"tall"								"0"
+				"visible"							"0"
+				"enabled"							"0"
 			}
 		}
 
@@ -908,12 +973,22 @@
 			"ControlName"							"CTFImagePanel"
 			"fieldName"								"Background"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 		"CountdownImage"
 		{
 			"ControlName"							"ImagePanel"
 			"fieldName"								"CountdownImage"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 	}
 
@@ -928,5 +1003,10 @@
 		"ControlName"								"CTFImagePanel"
 		"fieldName"									"PlayingToBG"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

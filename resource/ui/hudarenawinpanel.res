@@ -197,6 +197,11 @@
 			"ControlName"							"ScalableImagePanel"
 			"fieldName"								"ArenaStreaksBG"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 	}
 
@@ -814,18 +819,33 @@
 			"ControlName"							"CAvatarImagePanel"
 			"fieldName"								"Player1Avatar"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 		"Player2Avatar"
 		{
 			"ControlName"							"CAvatarImagePanel"
 			"fieldName"								"Player2Avatar"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 		"Player3Avatar"
 		{
 			"ControlName"							"CAvatarImagePanel"
 			"fieldName"								"Player3Avatar"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 	}
 
@@ -1172,18 +1192,33 @@
 			"ControlName"							"CAvatarImagePanel"
 			"fieldName"								"Player1Avatar"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 		"Player2Avatar"
 		{
 			"ControlName"							"CAvatarImagePanel"
 			"fieldName"								"Player2Avatar"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 		"Player3Avatar"
 		{
 			"ControlName"							"CAvatarImagePanel"
 			"fieldName"								"Player3Avatar"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 	}
 
@@ -1198,17 +1233,32 @@
 		"ControlName"								"ImagePanel"
 		"fieldName"									"WinPanelBG"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"WinReasonLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"WinReasonLabel"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"DetailsLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"DetailsLabel"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

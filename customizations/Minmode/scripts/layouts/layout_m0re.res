@@ -1,4 +1,4 @@
-"Scripts/Layouts/Layout_m0re.res"
+"Resource/HudLayout.res"
 {
 	"HudWeaponAmmo"
 	{
@@ -136,16 +136,6 @@
 	"BuildingStatus_Engineer"
 	{
 		"pin_to_sibling"							"BuildingAnchor"
-	}
-
-	"CurrencyStatusPanel"
-	{
-		"xpos"										"c-204"
-		"xpos_minmode"								"c-204"
-		"ypos"										"rs1"
-		"ypos_minmode"								"rs1"
-		"wide"										"60"
-		"tall"										"18"
 	}
 
 	"HudDeathNotice"

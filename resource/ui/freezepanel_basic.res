@@ -117,6 +117,11 @@
 			"ControlName"							"CExLabel"
 			"fieldName"								"FreezeLabel"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 			"alpha"									"0"
 		}
 		"NemesisSubPanel"
@@ -124,6 +129,11 @@
 			"ControlName"							"EditablePanel"
 			"fieldName"								"NemesisSubPanel"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 			"alpha"									"0"
 		}
 	}
@@ -139,6 +149,11 @@
 		"ControlName"								"EditablePanel"
 		"fieldName"									"ScreenshotPanel"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 		"alpha"										"0"
 	}
 	"itempanel"
