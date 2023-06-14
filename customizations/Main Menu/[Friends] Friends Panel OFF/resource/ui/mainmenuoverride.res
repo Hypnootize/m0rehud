@@ -1557,6 +1557,11 @@
 		"ControlName"								"EditablePanel"
 		"fieldName"									"MOTD_Panel"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"MenuThumbMissingFix"
 	{
@@ -1565,7 +1570,7 @@
 		"xpos"										"9999"
 		"visible"									"1"
 		"enabled"									"1"
-		"image"										"../vgui/maps/menu_thumb_Missing"
+		"image"										"maps/menu_thumb_missing"
 	}
 	"CPHighlight"
 	{

@@ -720,21 +720,31 @@
 	{
 		"ControlName" 	         				 	"ImagePanel"
 		"fieldName"		          				 	"PlayerStatusHealthImage"
-		"wide"		    	         				"0"
-		"tall"                   				 	"0"
-		"visible"		             				"0"
-		"enabled"		             				"0"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"PlayerStatusHealthImageBG"
 	{
 		"ControlName"	           				 	"ImagePanel"
 		"fieldName"	  	         				 	"PlayerStatusHealthImageBG"
-		"xpos"		    	          				"9999"
+		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"PlayerStatusMaxHealthValue"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"PlayerStatusMaxHealthValue"
-		"xpos"		    	          				"9999"
+		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }
