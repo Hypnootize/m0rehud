@@ -1,4 +1,4 @@
-hudanimations_manifest
+"HudAnimations_Manifest"
 {
 	"file" "scripts/hudanimations.txt"
 	"file" "scripts/animations/animations_health.txt"
