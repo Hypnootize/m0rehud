@@ -1,3 +1,1 @@
-"Resource/UI/HudDamageAccount.res"
-{
-}
+"Resource/UI/HudDamageAccount.res" { }
