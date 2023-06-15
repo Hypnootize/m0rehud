@@ -20,6 +20,16 @@
 				"antialias" 								"1"
 			}
 		}
+		"m0refont10Shadow"
+		{
+			"1"
+			{
+				"name"										"Rubik SemiBold"
+				"tall"										"10"
+				"antialias" 								"1"
+				"dropshadow" 								"1"
+			}
+		}
 		"m0refont11"
 		{
 			"1"

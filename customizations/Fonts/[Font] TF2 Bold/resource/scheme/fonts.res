@@ -20,6 +20,16 @@
 				"antialias" 								"1"
 			}
 		}
+		"m0refont10Shadow"
+		{
+			"1"
+			{
+				"name"										"TF2 Build"
+				"tall"										"9"
+				"antialias" 								"1"
+				"dropshadow" 								"1"
+			}
+		}
 		"m0refont11"
 		{
 			"1"
