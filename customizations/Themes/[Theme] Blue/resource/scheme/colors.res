@@ -10,7 +10,7 @@
 		"Health Buff Killer"								"0 165 255 255"
 
 		"Health Hurt"										"255 0 0 255"
-		"Health Hurt Target"								"255 0 0 255"
+		"Health Hurt Target"								"255 255 255 255"
 		"Health Hurt Spec"									"255 0 0 255"
 		"Health Hurt Killer"								"255 0 0 255"
 
