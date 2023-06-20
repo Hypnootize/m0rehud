@@ -502,63 +502,22 @@
 		}
 	}
 
-	"CountdownBG"
-	{
-		"ControlName"								"ScalableImagePanel"
-		"fieldName"									"CountdownBG"
-		"xpos"										"cs-0.5"
-		"ypos"										"r57"
-		"zpos"										"1"
-		"wide"										"24"
-		"tall"										"24"
-		"visible"									"0"
-		"enabled"									"1"
-		"proportionaltoparent"						"1"
-
-		"image"										"../HUD/color_panel_red"
-		"src_corner_height"							"23"
-		"src_corner_width"							"23"
-		"draw_corner_width"							"3"
-		"draw_corner_height" 						"3"
-		"proportionaltoparent"						"1"
-
-		"if_competitive"
-		{
-			"visible"								"0"
-			"wide"									"0"
-		}
-		"if_readymode"
-		{
-			"visible"								"0"
-			"wide"									"0"
-		}
-	}
-
 	"CountdownLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"CountdownLabel"
 		"xpos"										"cs-0.5"
-		"ypos"										"r40"
+		"ypos"										"150"
 		"wide"										"32"
 		"tall"										"18"
 		"zpos"										"2"
 		"visible"									"0"
 		"enabled"									"1"
-		"font"										"m0refont18"
+		"font"										"m0refont18Shadow"
 		"labelText"									"%tournamentstatelabel%"
 		"textAlignment"								"center"
 		"fgcolor"									"White"
 		"proportionaltoparent"						"1"
-
-		"if_competitive"
-		{
-			"font"									"m0refont18Shadow"
-		}
-		"if_readymode"
-		{
-			"font"									"m0refont18Shadow"
-		}
 	}
 
 
@@ -593,6 +552,17 @@
 	{
 		"ControlName"								"ScalableImagePanel"
 		"fieldName"									"HudTournamentBG"
+		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
+	}
+	"CountdownBG"
+	{
+		"ControlName"								"ScalableImagePanel"
+		"fieldName"									"CountdownBG"
 		"xpos"										"9999"
 		"ypos"										"9999"
 		"wide"										"0"
