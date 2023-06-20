@@ -4,7 +4,7 @@
 	{
 		"ControlName"		         				"ScalableImagePanel"
 		"fieldName"		           					"TargetIDBG_Spec_Blue"
-		"xpos"		          	   					"5"
+		"xpos"		          	   					"0"
 		"ypos"			            				"-21"
 		"zpos"		          	   					"-1"
 		"wide"		          	   					"252"
@@ -23,7 +23,7 @@
 	{
 		"ControlName"	      	   					"ScalableImagePanel"
 		"fieldName"       		   					"TargetIDBG_Spec_Red"
-		"xpos"		          	   					"5"
+		"xpos"		          	   					"0"
 		"ypos"		          	   					"-21"
 		"zpos"		          	   					"-1"
 		"wide"		          	   					"252"
@@ -42,7 +42,7 @@
 	{
 		"ControlName"           					"ImagePanel"
 		"fieldName"              					"TargetBGshade"
-		"xpos"                   					"5"
+		"xpos"                   					"0"
 		"ypos"                   					"10"
 		"zpos"                   					"-1"
 		"wide"	          		   					"252"
@@ -62,11 +62,11 @@
 		"wide"			           					"640"
 		"tall"			           					"12"
 		"visible"		           					"1"
-		"enabled"		           					"1"
+		"enabled"		           					"0"
 		"font"			           					"m0refont10"
 		"labelText"		         					"%targetname%"
 		"textAlignment"		     					"west"
-		"fgcolor"     								"White"
+		"disabledfgcolor2_override"					"White"
 	}
 
 	"TargetDataLabel"
@@ -79,18 +79,18 @@
 		"wide"			           					"280"
 		"tall"			           					"9"
 		"visible"		          					"1"
-		"enabled"		           					"1"
+		"enabled"		           					"0"
 		"font"			           					"m0refont10Shadow"
 		"labelText"		        					"%targetdata%"
 		"textAlignment"		     					"north-west"
-		"fgcolor"     								"White"
+		"disabledfgcolor2_override"					"White"
 	}
 
 	"SpectatorGUIHealth"
 	{
 		"ControlName"		             			"EditablePanel"
 		"fieldName"		               				"SpectatorGUIHealth"
-		"xpos"			                 			"7"
+		"xpos"			                 			"5"
 		"ypos"			                 			"-4"
 		"wide"			                 			"35"
 		"tall"			                 			"35"

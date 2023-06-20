@@ -4,7 +4,7 @@
 	{
 		"ControlName"		         				"ScalableImagePanel"
 		"fieldName"		           					"TargetIDBG_Spec_Blue"
-		"xpos"		          	   					"5"
+		"xpos"		          	   					"0"
 		"ypos"			            				"-22"
 		"zpos"		          	   					"-1"
 		"wide"		          	   					"252"
@@ -23,7 +23,7 @@
 	{
 		"ControlName"	      	   					"ScalableImagePanel"
 		"fieldName"       		   					"TargetIDBG_Spec_Red"
-		"xpos"		          	   					"5"
+		"xpos"		          	   					"0"
 		"ypos"		          	   					"-22"
 		"zpos"		          	   					"-1"
 		"wide"		          	   					"252"
@@ -42,7 +42,7 @@
 	{
 		"ControlName"           					"ImagePanel"
 		"fieldName"              					"TargetBGshade"
-		"xpos"                   					"5"
+		"xpos"                   					"0"
 		"ypos"                   					"11"
 		"zpos"                   					"-1"
 		"wide"	          		   					"252"
@@ -62,7 +62,7 @@
 		"wide"			           					"640"
 		"tall"			           					"12"
 		"visible"		           					"1"
-		"enabled"		           					"1"				// 0 to enable color change
+		"enabled"		           					"0"
 		"font"			           					"m0refont11"
 		"labelText"		         					"%targetname%"
 		"textAlignment"		     					"west"
@@ -79,7 +79,7 @@
 		"wide"			           					"280"
 		"tall"			           					"11"
 		"visible"		          					"1"
-		"enabled"		           					"1"				// 0 to enable color change
+		"enabled"		           					"0"
 		"font"			           					"m0refont11Shadow"
 		"labelText"		        					"%targetdata%"
 		"textAlignment"		     					"north-west"
@@ -90,7 +90,7 @@
 	{
 		"ControlName"		             			"EditablePanel"
 		"fieldName"		               				"SpectatorGUIHealth"
-		"xpos"			                 			"6"
+		"xpos"			                 			"5"
 		"ypos"			                 			"-5"
 		"wide"			                 			"40"
 		"tall"			                 			"40"
