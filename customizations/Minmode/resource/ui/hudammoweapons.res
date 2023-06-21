@@ -47,10 +47,10 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"AmmoInClipShadow"
-		"xpos"										"-2"
+		"xpos"										"2"
 		"ypos"										"-2"
 		"zpos"										"5"
-		"wide"										"69"
+		"wide"										"70"
 		"tall"										"39"
 		"visible"									"0"
 		"enabled"									"1"
@@ -60,6 +60,8 @@
 		"fgcolor"									"Black"
 
 		"pin_to_sibling"							"AmmoInClip"
+		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
+		"pin_to_sibling_corner"						"PIN_CENTER_TOP"
 	}
 
 	//==================================================================================================================================================
@@ -116,7 +118,7 @@
 		"xpos"										"0"
 		"ypos"    									"0"
 		"zpos"										"5"
-		"wide"										"100"
+		"wide"										"101"
 		"tall"										"40"
 		"visible"									"0"
 		"enabled"									"1"
@@ -136,7 +138,7 @@
 		"xpos"										"-2"
 		"ypos"										"-2"
 		"zpos"										"5"
-		"wide"										"99"
+		"wide"										"100"
 		"tall"										"39"
 		"visible"									"0"
 		"enabled"									"1"
