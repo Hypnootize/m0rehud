@@ -16,7 +16,6 @@
 	// CLASSES ANCHOR
 	// Moves all the class buttons at the same time
 	//==================================================================================================================================================
-
 	"ClassesAnchor"
 	{
 		"ControlName"								"EditablePanel"
@@ -32,7 +31,6 @@
 	//==================================================================================================================================================
 	// LOADOUT EDIT
 	//==================================================================================================================================================
-
 	"EditLoadoutButton"
 	{
 		"ControlName"								"CExButton"
@@ -54,10 +52,10 @@
 
 		"paintbackground"							"0"
 		"fgcolor"									"White"
-		"defaultFgColor_override" 					"White"
-		"armedFgColor_override" 					"Class Selection"
-		"depressedFgColor_override" 				"Class Selection"
-		"selectedFgColor_override" 					"Class Selection"
+		"defaultFgColor_override"					"White"
+		"armedFgColor_override"						"Class Selection"
+		"depressedFgColor_override"					"Class Selection"
+		"selectedFgColor_override"					"Class Selection"
 
 		"pin_to_sibling"							"ClassesAnchor"
 	}
@@ -65,7 +63,6 @@
 	//==================================================================================================================================================
 	// SCOUT
 	//==================================================================================================================================================
-
 	"scout"
 	{
 		"ControlName"								"CExImageButton"
@@ -87,14 +84,14 @@
 
 		"paintbackground"							"0"
 		"fgcolor"									"White"
-		"defaultFgColor_override" 					"White"
-		"armedFgColor_override" 					"Class Selection"
+		"defaultFgColor_override"					"White"
+		"armedFgColor_override"						"Class Selection"
 		"depressedFgColor_override"					"Class Selection"
-		"selectedFgColor_override" 					"Class Selection"
+		"selectedFgColor_override"					"Class Selection"
 
 		"pin_to_sibling"							"EditLoadoutButton"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_BOTTOMLEFT"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
 	}
 	"numScout"
 	{
@@ -138,7 +135,6 @@
 	//==================================================================================================================================================
 	// SOLDIER
 	//==================================================================================================================================================
-
 	"soldier"
 	{
 		"ControlName"								"CExImageButton"
@@ -160,14 +156,14 @@
 
 		"paintbackground"							"0"
 		"fgcolor"									"White"
-		"defaultFgColor_override" 					"White"
-		"armedFgColor_override" 					"Class Selection"
-		"depressedFgColor_override" 				"Class Selection"
-		"selectedFgColor_override" 					"Class Selection"
+		"defaultFgColor_override"					"White"
+		"armedFgColor_override"						"Class Selection"
+		"depressedFgColor_override"					"Class Selection"
+		"selectedFgColor_override"					"Class Selection"
 
 		"pin_to_sibling"							"scout"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_BOTTOMLEFT"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
 	}
 	"numSoldier"
 	{
@@ -211,7 +207,6 @@
 	//==================================================================================================================================================
 	// PYRO
 	//==================================================================================================================================================
-
 	"pyro"
 	{
 		"ControlName"								"CExImageButton"
@@ -233,14 +228,14 @@
 
 		"paintbackground"							"0"
 		"fgcolor"									"White"
-		"defaultFgColor_override" 					"White"
-		"armedFgColor_override" 					"Class Selection"
-		"depressedFgColor_override" 				"Class Selection"
-		"selectedFgColor_override" 					"Class Selection"
+		"defaultFgColor_override"					"White"
+		"armedFgColor_override"						"Class Selection"
+		"depressedFgColor_override"					"Class Selection"
+		"selectedFgColor_override"					"Class Selection"
 
 		"pin_to_sibling"							"soldier"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_BOTTOMLEFT"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
 	}
 	"numPyro"
 	{
@@ -284,7 +279,6 @@
 	//==================================================================================================================================================
 	// DEMOMAN
 	//==================================================================================================================================================
-
 	"demoman"
 	{
 		"ControlName"								"CExImageButton"
@@ -306,14 +300,14 @@
 
 		"paintbackground"							"0"
 		"fgcolor"									"White"
-		"defaultFgColor_override" 					"White"
-		"armedFgColor_override" 					"Class Selection"
-		"depressedFgColor_override" 				"Class Selection"
-		"selectedFgColor_override" 					"Class Selection"
+		"defaultFgColor_override"					"White"
+		"armedFgColor_override"						"Class Selection"
+		"depressedFgColor_override"					"Class Selection"
+		"selectedFgColor_override"					"Class Selection"
 
 		"pin_to_sibling"							"pyro"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_BOTTOMLEFT"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
 	}
 	"numDemoman"
 	{
@@ -357,7 +351,6 @@
 	//==================================================================================================================================================
 	// HEAVY
 	//==================================================================================================================================================
-
 	"heavyweapons"
 	{
 		"ControlName"								"CExImageButton"
@@ -379,14 +372,14 @@
 
 		"paintbackground"							"0"
 		"fgcolor"									"White"
-		"defaultFgColor_override" 					"White"
-		"armedFgColor_override" 					"Class Selection"
-		"depressedFgColor_override" 				"Class Selection"
-		"selectedFgColor_override" 					"Class Selection"
+		"defaultFgColor_override"					"White"
+		"armedFgColor_override"						"Class Selection"
+		"depressedFgColor_override"					"Class Selection"
+		"selectedFgColor_override"					"Class Selection"
 
 		"pin_to_sibling"							"demoman"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_BOTTOMLEFT"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
 	}
 	"numHeavy"
 	{
@@ -430,7 +423,6 @@
 	//==================================================================================================================================================
 	// ENGINEER
 	//==================================================================================================================================================
-
 	"engineer"
 	{
 		"ControlName"								"CExImageButton"
@@ -452,14 +444,14 @@
 
 		"paintbackground"							"0"
 		"fgcolor"									"White"
-		"defaultFgColor_override" 					"White"
-		"armedFgColor_override" 					"Class Selection"
-		"depressedFgColor_override" 				"Class Selection"
-		"selectedFgColor_override" 					"Class Selection"
+		"defaultFgColor_override"					"White"
+		"armedFgColor_override"						"Class Selection"
+		"depressedFgColor_override"					"Class Selection"
+		"selectedFgColor_override"					"Class Selection"
 
 		"pin_to_sibling"							"heavyweapons"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_BOTTOMLEFT"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
 	}
 	"numEngineer"
 	{
@@ -503,7 +495,6 @@
 	//==================================================================================================================================================
 	// MEDIC
 	//==================================================================================================================================================
-
 	"medic"
 	{
 		"ControlName"								"CExImageButton"
@@ -525,14 +516,14 @@
 
 		"paintbackground"							"0"
 		"fgcolor"									"White"
-		"defaultFgColor_override" 					"White"
-		"armedFgColor_override" 					"Class Selection"
-		"depressedFgColor_override" 				"Class Selection"
-		"selectedFgColor_override" 					"Class Selection"
+		"defaultFgColor_override"					"White"
+		"armedFgColor_override"						"Class Selection"
+		"depressedFgColor_override"					"Class Selection"
+		"selectedFgColor_override"					"Class Selection"
 
 		"pin_to_sibling"							"engineer"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_BOTTOMLEFT"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
 	}
 	"numMedic"
 	{
@@ -576,7 +567,6 @@
 	//==================================================================================================================================================
 	// SNIPER
 	//==================================================================================================================================================
-
 	"sniper"
 	{
 		"ControlName"								"CExImageButton"
@@ -598,14 +588,14 @@
 
 		"paintbackground"							"0"
 		"fgcolor"									"White"
-		"defaultFgColor_override" 					"White"
-		"armedFgColor_override" 					"Class Selection"
-		"depressedFgColor_override" 				"Class Selection"
-		"selectedFgColor_override" 					"Class Selection"
+		"defaultFgColor_override"					"White"
+		"armedFgColor_override"						"Class Selection"
+		"depressedFgColor_override"					"Class Selection"
+		"selectedFgColor_override"					"Class Selection"
 
 		"pin_to_sibling"							"medic"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_BOTTOMLEFT"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
 	}
 	"numSniper"
 	{
@@ -649,7 +639,6 @@
 	//==================================================================================================================================================
 	// SPY
 	//==================================================================================================================================================
-
 	"spy"
 	{
 		"ControlName"								"CExImageButton"
@@ -671,14 +660,14 @@
 
 		"paintbackground"							"0"
 		"fgcolor"									"White"
-		"defaultFgColor_override" 					"White"
-		"armedFgColor_override" 					"Class Selection"
-		"depressedFgColor_override" 				"Class Selection"
-		"selectedFgColor_override" 					"Class Selection"
+		"defaultFgColor_override"					"White"
+		"armedFgColor_override"						"Class Selection"
+		"depressedFgColor_override"					"Class Selection"
+		"selectedFgColor_override"					"Class Selection"
 
 		"pin_to_sibling"							"sniper"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_BOTTOMLEFT"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
 	}
 	"numSpy"
 	{
@@ -722,7 +711,6 @@
 	//==================================================================================================================================================
 	// RANDOM
 	//==================================================================================================================================================
-
 	"random"
 	{
 		"xpos"										"0"
@@ -742,20 +730,19 @@
 
 		"paintbackground"							"0"
 		"fgcolor"									"White"
-		"defaultFgColor_override" 					"White"
-		"armedFgColor_override" 					"Class Selection"
-		"depressedFgColor_override" 				"Class Selection"
-		"selectedFgColor_override" 					"Class Selection"
+		"defaultFgColor_override"					"White"
+		"armedFgColor_override"						"Class Selection"
+		"depressedFgColor_override"					"Class Selection"
+		"selectedFgColor_override"					"Class Selection"
 
 		"pin_to_sibling"							"spy"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_BOTTOMLEFT"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
 	}
 
 	//==================================================================================================================================================
 	// 3D PLAYER MODEL
 	//==================================================================================================================================================
-
 	"TFPlayerModel"
 	{
 		"ControlName"								"CTFPlayerModelPanel"
@@ -773,22 +760,22 @@
 		"allow_rot"									"0"
 
 		"paintbackground"							"0"
-		"paintbackgroundenabled" 					"0"
+		"paintbackgroundenabled"					"0"
 
 		"model"
 		{
 			"force_pos"								"1"
 
-			"angles_x" 								"0"
-			"angles_y" 								"180"
-			"angles_z" 								"0"
-			"origin_x" 								"320"
-			"origin_y" 								"10"
-			"origin_z" 								"-40"
+			"angles_x"								"0"
+			"angles_y"								"180"
+			"angles_z"								"0"
+			"origin_x"								"320"
+			"origin_y"								"10"
+			"origin_z"								"-40"
 			"frame_origin_x"						"0"
 			"frame_origin_y"						"0"
 			"frame_origin_z"						"0"
-			"spotlight" 							"1"
+			"spotlight"								"1"
 
 			"modelname"								""
 			"vcd"									"class_select.vcd"

@@ -36,7 +36,6 @@
 		"labelText"									"%wave_count%"
 		"pin_to_sibling"							"WaveCountLabel"
 	}
-
 	"SeparatorBar"
 	{
 		"ControlName"								"Panel"
@@ -56,7 +55,6 @@
 			"visible"								"1"
 		}
 	}
-
 	"SupportLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -79,7 +77,6 @@
 			"visible"								"1"
 		}
 	}
-
 	"ProgressBar"
 	{
 		"ControlName"								"ScalableImagePanel"
@@ -99,9 +96,8 @@
 		"src_corner_height"							"22"
 		"src_corner_width"							"22"
 		"draw_corner_width"							"0"
-		"draw_corner_height" 						"0"
+		"draw_corner_height"						"0"
 	}
-
 	"ProgressBarBG"
 	{
 		"ControlName"								"ScalableImagePanel"
@@ -123,7 +119,7 @@
 		"src_corner_height"							"22"
 		"src_corner_width"							"22"
 		"draw_corner_width"							"0"
-		"draw_corner_height" 						"0"
+		"draw_corner_height"						"0"
 	}
 
 

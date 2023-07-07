@@ -12,7 +12,6 @@
 		"MeterFG"									"White"
 		"MeterBG"									"Gray"
 	}
-
 	"ItemEffectMeterCount"
 	{
 		"ControlName"								"CExLabel"

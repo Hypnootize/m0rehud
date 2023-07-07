@@ -28,7 +28,6 @@
 		"image"										"../hud/health_bg"
 		"scaleImage"								"1"
 	}
-
 	"PlayerStatusHealthBonusImage"
 	{
 		"ControlName"								"ImagePanel"
@@ -43,7 +42,6 @@
 		"image"										"../hud/health_over_bg"
 		"scaleImage"								"1"
 	}
-
 	"PlayerStatusHealthValueTarget"
 	{
 		"ControlName"								"CExLabel"
@@ -59,7 +57,7 @@
 		"textAlignment"								"center"
 		"labeltext"									"%Health%"
 		"font"										"m0refont10"
-		"fgcolor"  									"Health Numbers"
+		"fgcolor"									"Health Numbers"
 	}
 	"PlayerStatusHealthValueTargetShadow"
 	{
@@ -76,7 +74,7 @@
 		"textAlignment"								"center"
 		"labeltext"									"%Health%"
 		"font"										"m0refont10"
-		"fgcolor"  									"Black"
+		"fgcolor"									"Black"
 
 		"pin_to_sibling"							"PlayerStatusHealthValueTarget"
 	}

@@ -15,7 +15,6 @@
 		"image"										"../hud/health_over_bg"
 		"scaleImage"								"1"
 	}
-
 	"PlayerStatusHealthValueKiller"
 	{
 		"ControlName"								"CExLabel"
@@ -31,9 +30,8 @@
 		"textAlignment"								"center"
 		"labeltext"									"%Health%"
 		"font"										"m0refont24"
-		"fgcolor"  									"Health Numbers"
+		"fgcolor"									"Health Numbers"
 	}
-
 	"PlayerStatusHealthValueShadowKiller"
 	{
 		"ControlName"								"CExLabel"
@@ -49,11 +47,10 @@
 		"textAlignment"								"center"
 		"labeltext"									"%Health%"
 		"font"										"m0refont24"
-		"fgcolor"  									"Black"
+		"fgcolor"									"Black"
 
 		"pin_to_sibling"							"PlayerStatusHealthValueKiller"
 	}
-
 	"PlayerStatusHealthValueShadowExtra"
 	{
 		"ControlName"								"CExLabel"
@@ -69,8 +66,8 @@
 		"textAlignment"								"center"
 		"labeltext"									"%Health%"
 		"font"										"m0refont24"
-		"fgcolor"  									"Extra Shadow"
-		"alpha"  									"0"
+		"fgcolor"									"Extra Shadow"
+		"alpha"										"0"
 
 		"pin_to_sibling"							"PlayerStatusHealthValueShadowKiller"
 	}

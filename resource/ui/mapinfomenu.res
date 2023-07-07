@@ -12,7 +12,6 @@
 		"visible"									"1"
 		"enabled"									"1"
 	}
-
 	"MapInfoText"
 	{
 		"ControlName"								"CExRichText"
@@ -30,7 +29,6 @@
 		"paintbackground"							"0"
 		"proportionaltoparent"						"1"
 	}
-
 	"MapInfoTitle"
 	{
 		"ControlName"								"CExLabel"
@@ -46,13 +44,12 @@
 		"textAlignment"								"center"
 		"font"										"Coolvetica15"
 		"fgcolor"									"White"
-		"AllCaps"	 								"1"
+		"AllCaps"									"1"
 
 		"pin_to_sibling"							"MapInfoText"
 		"pin_corner_to_sibling"						"PIN_CENTER_BOTTOM"
 		"pin_to_sibling_corner"						"PIN_CENTER_TOP"
 	}
-
 	"ok"
 	{
 		"ControlName"								"CExButton"
@@ -73,14 +70,13 @@
 		"paintborder"								"0"
 
 		"defaultFgColor_override"					"White"
-		"armedFgColor_override" 					"Menu Labels"
-		"depressedFgColor_override" 				"White"
+		"armedFgColor_override"						"Menu Labels"
+		"depressedFgColor_override"					"White"
 
 		"pin_to_sibling"							"MapInfoText"
 		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
 		"pin_to_sibling_corner"						"PIN_CENTER_BOTTOM"
 	}
-
 	"MapInfoWatchIntro"
 	{
 		"ControlName"								"CExButton"
@@ -101,8 +97,8 @@
 		"paintborder"								"0"
 
 		"defaultFgColor_override"					"White"
-		"armedFgColor_override" 					"Menu Labels"
-		"depressedFgColor_override" 				"White"
+		"armedFgColor_override"						"Menu Labels"
+		"depressedFgColor_override"					"White"
 
 		"pin_to_sibling"							"ok"
 		"pin_corner_to_sibling"						"PIN_CENTER_TOP"

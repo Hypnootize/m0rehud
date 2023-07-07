@@ -15,7 +15,6 @@
 		"mouseinputenabled"							"0"
 		"alpha"										"200"
 	}
-
 	"CTFLogoPanel"
 	{
 		"ControlName"								"CTFLogoPanel"
@@ -33,7 +32,6 @@
 
 		"fgcolor_override"							"White"
 	}
-
 	"QueueText"
 	{
 		"ControlName"								"CExLabel"

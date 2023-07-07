@@ -11,7 +11,6 @@
 		"visible"									"1"
 		"enabled"									"1"
 	}
-
 	"Icon"
 	{
 		"ControlName"								"CIconPanel"
@@ -28,7 +27,6 @@
 		"icon"										"obj_status_sapper"
 		"iconColor"									"255 0 0 255"
 	}
-
 	"BuiltPanel"
 	{
 		"ControlName"								"EditablePanel"
@@ -62,7 +60,6 @@
 			"visible"								"0"
 			"enabled"								"0"
 		}
-
 		"RunningPanel"
 		{
 			"ControlName"							"EditablePanel"
@@ -89,7 +86,6 @@
 				"icon"								"obj_status_sentrygun_1"
 				"iconColor"							"White"
 			}
-
 			"TargetHealth"
 			{
 				"ControlName"						"ContinuousProgressBar"

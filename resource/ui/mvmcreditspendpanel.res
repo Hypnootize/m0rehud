@@ -10,14 +10,13 @@
 		"tall"										"12"
 		"font"										"m0refont10"
 		"labelText"									""
-		"textAlignment" 							"west"
-		"textinsetx" 								"5"
+		"textAlignment"								"west"
+		"textinsetx"								"5"
 		"AllCaps"									"1"
 		"proportionaltoparent"						"1"
 		"fgcolor"									"White"
 		"paintbackground"							"0"
 	}
-
 	"TableBackground"
 	{
 		"ControlName"								"EditablePanel"
@@ -31,7 +30,6 @@
 		"proportionaltoparent"						"1"
 		"bgcolor_override"							"Blank"
 	}
-
 	"UpgradesLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -47,14 +45,13 @@
 		"proportionaltoparent"						"1"
 		"fgcolor"									"White"
 	}
-
 	"UpgradesCountLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"UpgradesCountLabel"
 		"font"										"m0refont11"
 		"labelText"									"%upgrades%"
-		"textAlignment" 							"east"
+		"textAlignment"								"east"
 		"xpos"										"0"
 		"ypos"										"0"
 		"wide"										"35"
@@ -66,14 +63,13 @@
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
 		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 	}
-
 	"BuyBackLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"BuyBackLabel"
 		"font"										"m0refont11"
 		"labelText"									"#TF_PVE_Buybacks"
-		"textAlignment" 							"west"
+		"textAlignment"								"west"
 		"xpos"										"0"
 		"ypos"										"0"
 		"wide"										"75"
@@ -86,14 +82,13 @@
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
 		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
 	}
-
 	"BuyBackCountLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"BuyBackCountLabel"
 		"font"										"m0refont11"
 		"labelText"									"%buybacks%"
-		"textAlignment" 							"east"
+		"textAlignment"								"east"
 		"xpos"										"0"
 		"ypos"										"0"
 		"wide"										"35"
@@ -105,14 +100,13 @@
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
 		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 	}
-
 	"BottleLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"BottleLabel"
 		"font"										"m0refont11"
 		"labelText"									"#TF_PVE_Bottles"
-		"textAlignment" 							"west"
+		"textAlignment"								"west"
 		"xpos"										"0"
 		"ypos"										"0"
 		"wide"										"75"
@@ -125,14 +119,13 @@
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
 		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
 	}
-
 	"BottleCountLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"BottleCountLabel"
 		"font"										"m0refont11"
 		"labelText"									"%bottles%"
-		"textAlignment" 							"east"
+		"textAlignment"								"east"
 		"xpos"										"0"
 		"ypos"										"0"
 		"wide"										"35"

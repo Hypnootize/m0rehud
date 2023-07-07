@@ -15,7 +15,6 @@
 		"scaleImage"								"1"
 		"icon"										"hud_menu_scout_red"
 	}
-
 	"NewNumberLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -33,7 +32,6 @@
 		"font"										"m0refont11"
 		"fgcolor"									"White"
 	}
-
 	"NumberLabel"
 	{
 		"ControlName"								"CExLabel"

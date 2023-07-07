@@ -15,7 +15,6 @@
 		"image"										"../hud/health_over_bg"
 		"scaleImage"								"1"
 	}
-
 	"PlayerStatusHealthValueTarget"					// Proportional positioning doesn't work :(
 	{
 		"ControlName"								"CExLabel"
@@ -31,9 +30,8 @@
 		"textAlignment"								"center"
 		"labeltext"									"%Health%"
 		"font"										"m0refont18"
-		"fgcolor"  									"Health Numbers"
+		"fgcolor"									"Health Numbers"
 	}
-
 	"PlayerStatusHealthValueTargetShadow"
 	{
 		"ControlName"								"CExLabel"
@@ -49,7 +47,7 @@
 		"textAlignment"								"center"
 		"labeltext"									"%Health%"
 		"font"										"m0refont18"
-		"fgcolor"  									"Black"
+		"fgcolor"									"Black"
 
 		"pin_to_sibling"							"PlayerStatusHealthValueTarget"
 	}

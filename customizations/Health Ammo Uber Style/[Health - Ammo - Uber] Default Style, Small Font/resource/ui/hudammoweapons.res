@@ -5,7 +5,6 @@
 	// This element can be used to move all the ammo elements at the same time
 	// By increasing the wide, the gap between clip and reserver will also increase
 	//==================================================================================================================================================
-
 	"AmmoAnchor"
 	{
 		"ControlName"								"EditablePanel"
@@ -22,7 +21,6 @@
 	//==================================================================================================================================================
 	// AMMO IN CLIP
 	//==================================================================================================================================================
-
 	"AmmoInClip"
 	{
 		"ControlName"								"CExLabel"
@@ -43,7 +41,6 @@
 		"pin_corner_to_sibling"						"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 	}
-
 	"AmmoInClipShadow"
 	{
 		"ControlName"								"CExLabel"
@@ -66,19 +63,18 @@
 	//==================================================================================================================================================
 	// AMMO IN RESERVE
 	//==================================================================================================================================================
-
 	"AmmoInReserve"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"AmmoInReserve"
 		"xpos"										"0"
-		"ypos"										"-4"
+		"ypos"										"-2"
 		"zpos"										"7"
 		"wide"										"150"
 		"tall"										"80"
 		"visible"									"0"
 		"enabled"									"1"
-		"font"										"m0refont20"
+		"font"										"m0refont24"
 		"textAlignment"								"west"
 		"labelText"									"%AmmoInReserve%"
 		"fgcolor"									"Ammo In Reserve"
@@ -87,7 +83,6 @@
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
 		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 	}
-
 	"AmmoInReserveShadow"
 	{
 		"ControlName"								"CExLabel"
@@ -99,7 +94,7 @@
 		"tall"										"80"
 		"visible"									"0"
 		"enabled"									"1"
-		"font"										"m0refont20"
+		"font"										"m0refont24"
 		"textAlignment"								"west"
 		"labelText"									"%AmmoInReserve%"
 		"fgcolor"									"Black"
@@ -110,13 +105,12 @@
 	//==================================================================================================================================================
 	// AMMO NO CLIP
 	//==================================================================================================================================================
-
 	"AmmoNoClip"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"AmmonoClip"
 		"xpos"										"0"
-		"ypos"    									"0"
+		"ypos"										"0"
 		"zpos"										"5"
 		"wide"										"150"
 		"tall"										"80"
@@ -131,7 +125,6 @@
 		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
 		"pin_to_sibling_corner"						"PIN_CENTER_TOP"
 	}
-
 	"AmmoNoClipShadow"
 	{
 		"ControlName"								"CExLabel"

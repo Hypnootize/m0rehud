@@ -43,7 +43,6 @@
 			"AnimStatsContainer12v12YPos"			"60"
 		}
 	}
-
 	"RankBorder"
 	{
 		"ControlName"								"EditablePanel"
@@ -93,6 +92,7 @@
 		"fieldName"									"RankModelPanel"
 		"xpos"										"cs-0.5"
 		"ypos"										"r1"
+
 		"zpos"										"9002"
 		"wide"										"2000"
 		"tall"										"2000"
@@ -101,6 +101,7 @@
 		"mouseinputenabled"							"1"
 
 		"matchgroup"								"MatchGroup_Casual_12v12"
+
 		"show_progress"								"0"
 		"instantly_update"							"0"
 
@@ -109,7 +110,6 @@
 			"visible"								"0"
 		}
 	}
-
 	"StatsBgPanel"
 	{
 		"ControlName"								"EditablePanel"
@@ -124,7 +124,6 @@
 		"PaintBackgroundType"						"1"
 		"bgcolor_override"							"0 0 0 250"
 	}
-
 	"DrawingPanel"
 	{
 		"ControlName"								"CDrawingPanel"
@@ -141,7 +140,6 @@
 		"linecolor"									"RedSolid"
 		"team_colors"								"1"
 	}
-
 	"MainStatsContainer"
 	{
 		"Controlname"								"EditablePanel"
@@ -164,7 +162,6 @@
 			"tall"									"f0"
 			"visible"								"1"
 		}
-
 		"StatsLabelPanel"
 		{
 			"ControlName"							"EditablePanel"
@@ -214,7 +211,6 @@
 				"enabled"							"1"
 			}
 		}
-
 		"TeamScoresPanel"
 		{
 			"ControlName"							"EditablePanel"

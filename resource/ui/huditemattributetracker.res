@@ -2,16 +2,15 @@
 {
 	"ItemAttributeTracker"
 	{
-		"fieldName" 								"ItemAttributeTracker"
-		"visible" 									"1"
-		"enabled" 									"1"
+		"fieldName"									"ItemAttributeTracker"
+		"visible"									"1"
+		"enabled"									"1"
 		"xpos"										"0"
 		"ypos"										"0"
 		"wide"										"f0"
 		"tall"										"f0"
 		"stats_buffer_width"						"50"
 	}
-
 	"QuestsStatusContainer"
 	{
 		"ControlName"								"EditablePanel"
@@ -35,10 +34,9 @@
 			"zpos"									"4"
 			"font"									"DefaultVerySmall"
 			"TextAlignment"							"east"
-			"proportionaltoparent" 					"1"
+			"proportionaltoparent"					"1"
 			"fgcolor"								"White"
 		}
-
 		"CallToAction"
 		{
 			"ControlName"							"CExLabel"
@@ -51,10 +49,9 @@
 			"zpos"									"4"
 			"font"									"DefaultVerySmall"
 			"TextAlignment"							"east"
-			"proportionaltoparent" 					"1"
+			"proportionaltoparent"					"1"
 			"fgcolor"								"White"
 		}
-
 		"Image"
 		{
 			"ControlName"							"CTFImagePanel"

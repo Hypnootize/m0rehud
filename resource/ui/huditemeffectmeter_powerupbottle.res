@@ -12,7 +12,6 @@
 		"MeterFG"									"White"
 		"MeterBG"									"Gray"
 	}
-
 	"ItemEffectIcon"
 	{
 		"ControlName"								"CTFImagePanel"
@@ -28,7 +27,6 @@
 		"image"										"../hud/ico_powerup_critboost_red"
 		"scaleImage"								"1"
 	}
-
 	"ItemEffectMeterCount"
 	{
 		"ControlName"								"CExLabel"
@@ -46,7 +44,6 @@
 		"font"										"m0refont20"
 		"fgcolor"									"White"
 	}
-
 	"ItemEffectMeterCountShadow"
 	{
 		"ControlName"								"CExLabel"

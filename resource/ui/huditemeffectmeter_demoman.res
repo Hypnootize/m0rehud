@@ -5,19 +5,18 @@
 		"fieldName"									"HudItemEffectMeter"
 		"visible"									"1"
 		"enabled"									"1"
-		"xpos"										"rs1-4"
+		"xpos"										"c162"
 		"ypos"										"rs1-3"
 		"wide"										"40"
-		"tall"										"30"
+		"tall"										"32"
 		"MeterFG"									"White"
 		"MeterBG"									"Gray"
 	}
-
 	"ItemEffectMeterLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"ItemEffectMeterLabel"
-		"xpos"										"0"
+		"xpos"										"cs-0.5"
 		"ypos"										"rs1"
 		"zpos"										"2"
 		"wide"										"f0"
@@ -26,16 +25,15 @@
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 		"labelText"									"#TF_Ball"
-		"textAlignment"								"east"
+		"textAlignment"								"center"
 		"font"										"ScoreboardVerySmall"
-		"fgcolor" 									"White"
+		"fgcolor"									"White"
 	}
-
 	"ItemEffectMeterCount"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"ItemEffectMeterCount"
-		"xpos"										"0"
+		"xpos"										"cs-0.5"
 		"ypos"										"0"
 		"zpos"										"2"
 		"wide"										"f0"
@@ -44,9 +42,9 @@
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 		"labelText"									"%progresscount%"
-		"textAlignment"								"east"
+		"textAlignment"								"center"
 		"font"										"m0refont24"
-		"fgcolor" 									"White"
+		"fgcolor"									"White"
 	}
 	"ItemEffectMeterCountShadow"
 	{
@@ -61,9 +59,9 @@
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 		"labelText"									"%progresscount%"
-		"textAlignment"								"east"
+		"textAlignment"								"center"
 		"font"										"m0refont24"
-		"fgcolor" 									"Black"
+		"fgcolor"									"Black"
 
 		"pin_to_sibling"							"ItemEffectMeterCount"
 	}

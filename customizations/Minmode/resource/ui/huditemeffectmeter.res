@@ -12,7 +12,6 @@
 		"MeterFG"									"White"
 		"MeterBG"									"Gray"
 	}
-
 	"ItemEffectMeter"
 	{
 		"ControlName"								"ContinuousProgressBar"
@@ -26,7 +25,6 @@
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 	}
-
 	"ItemEffectMeterLabel"
 	{
 		"ControlName"								"CExLabel"

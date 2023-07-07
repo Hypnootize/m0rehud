@@ -8,11 +8,10 @@
 		"xpos"										"rs1-4"
 		"ypos"										"rs1-3"
 		"wide"										"40"
-		"tall"										"30"
+		"tall"										"32"
 		"MeterFG"									"White"
 		"MeterBG"									"Gray"
 	}
-
 	"ItemEffectMeterLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -28,9 +27,8 @@
 		"labelText"									"#TF_Ball"
 		"textAlignment"								"east"
 		"font"										"ScoreboardVerySmall"
-		"fgcolor" 									"White"
+		"fgcolor"									"White"
 	}
-
 	"ItemEffectMeterCount"
 	{
 		"ControlName"								"CExLabel"
@@ -46,7 +44,7 @@
 		"labelText"									"%progresscount%"
 		"textAlignment"								"east"
 		"font"										"m0refont24"
-		"fgcolor" 									"White"
+		"fgcolor"									"White"
 	}
 	"ItemEffectMeterCountShadow"
 	{
@@ -63,7 +61,7 @@
 		"labelText"									"%progresscount%"
 		"textAlignment"								"east"
 		"font"										"m0refont24"
-		"fgcolor" 									"Black"
+		"fgcolor"									"Black"
 
 		"pin_to_sibling"							"ItemEffectMeterCount"
 	}

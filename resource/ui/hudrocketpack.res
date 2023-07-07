@@ -6,13 +6,11 @@
 	{
 		"ypos"										"c185-11"
 	}
-
 	"ItemEffectMeter"
 	{
 		"xpos"										"0"
 		"wide"										"p0.497"
 	}
-
 	"ItemEffectMeter2"
 	{
 		"ControlName"								"ContinuousProgressBar"

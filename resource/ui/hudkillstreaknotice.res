@@ -11,7 +11,6 @@
 		"visible"									"0"
 		"enabled"									"0"
 	}
-
 	"SplashLabel"
 	{
 		"ControlName"								"CExLabel"

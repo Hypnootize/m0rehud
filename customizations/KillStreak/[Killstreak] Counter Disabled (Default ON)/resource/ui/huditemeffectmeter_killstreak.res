@@ -10,7 +10,6 @@
 		"visible"									"0"
 		"enabled"									"0"
 	}
-
 	"ItemEffectMeter"								//its here just to remove the console error :)
 	{
 		"ControlName"								"ContinuousProgressBar"

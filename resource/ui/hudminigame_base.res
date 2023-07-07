@@ -36,7 +36,6 @@
 
 		"pin_to_sibling"							"BlueScore"
 	}
-
 	"RedScore"
 	{
 		"ControlName"								"CExLabel"
@@ -73,7 +72,6 @@
 
 		"pin_to_sibling"							"RedScore"
 	}
-
 	"PlayingTo"
 	{
 		"ControlName"								"CExLabel"

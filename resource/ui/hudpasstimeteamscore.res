@@ -12,7 +12,6 @@
 		"visible"									"1"
 		"enabled"									"1"
 	}
-
 	"BlueScore"
 	{
 		"ControlName"								"CExLabel"
@@ -47,7 +46,6 @@
 
 		"pin_to_sibling"							"BlueScore"
 	}
-
 	"RedScore"
 	{
 		"ControlName"								"CExLabel"
@@ -82,7 +80,6 @@
 
 		"pin_to_sibling"							"RedScore"
 	}
-
 	"PlayingToCluster"
 	{
 		"ControlName"								"EditablePanel"
@@ -112,7 +109,6 @@
 			"font"									"DefaultVerySmall"
 			"fgcolor"								"White"
 		}
-
 		"PlayingToBG"
 		{
 			"ControlName"							"CTFImagePanel"

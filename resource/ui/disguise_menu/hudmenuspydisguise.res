@@ -2,21 +2,20 @@
 {
 	"Background"
 	{
-		"ControlName"		     					"EditablePanel"
+		"ControlName"								"EditablePanel"
 		"fieldName"									"Background"
 		"xpos"										"cs-0.5"
 		"ypos"										"r128"
 		"zpos"										"0"
 		"wide"										"190"
 		"tall"										"53"
-		"visible"		        					"1"
-		"enabled"	          						"1"
+		"visible"									"1"
+		"enabled"									"1"
 		"proportionaltoparent"						"1"
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
 		"bgcolor_override"							"0 0 0 100"
 	}
-
 	"ToggleLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -40,7 +39,6 @@
 
 		"pin_to_sibling"							"Background"
 	}
-
 	"class_item_red_1"
 	{
 		"ControlName"								"EditablePanel"
@@ -54,7 +52,6 @@
 
 		"pin_to_sibling"							"Background"
 	}
-
 	"class_item_blue_1"
 	{
 		"ControlName"								"EditablePanel"
@@ -68,7 +65,6 @@
 
 		"pin_to_sibling"							"class_item_red_1"
 	}
-
 	"class_item_red_2"
 	{
 		"ControlName"								"EditablePanel"
@@ -81,10 +77,9 @@
 		"visible"									"1"
 
 		"pin_to_sibling"							"class_item_red_1"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 	}
-
 	"class_item_blue_2"
 	{
 		"ControlName"								"EditablePanel"
@@ -98,7 +93,6 @@
 
 		"pin_to_sibling"							"class_item_red_2"
 	}
-
 	"class_item_red_3"
 	{
 		"ControlName"								"EditablePanel"
@@ -111,10 +105,9 @@
 		"visible"									"1"
 
 		"pin_to_sibling"							"class_item_red_2"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 	}
-
 	"class_item_blue_3"
 	{
 		"ControlName"								"EditablePanel"
@@ -128,7 +121,6 @@
 
 		"pin_to_sibling"							"class_item_red_3"
 	}
-
 	"class_item_red_4"
 	{
 		"ControlName"								"EditablePanel"
@@ -141,10 +133,9 @@
 		"visible"									"1"
 
 		"pin_to_sibling"							"class_item_red_3"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 	}
-
 	"class_item_blue_4"
 	{
 		"ControlName"								"EditablePanel"
@@ -158,7 +149,6 @@
 
 		"pin_to_sibling"							"class_item_red_4"
 	}
-
 	"class_item_red_5"
 	{
 		"ControlName"								"EditablePanel"
@@ -171,10 +161,9 @@
 		"visible"									"1"
 
 		"pin_to_sibling"							"class_item_red_4"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 	}
-
 	"class_item_blue_5"
 	{
 		"ControlName"								"EditablePanel"
@@ -188,7 +177,6 @@
 
 		"pin_to_sibling"							"class_item_red_5"
 	}
-
 	"class_item_red_6"
 	{
 		"ControlName"								"EditablePanel"
@@ -201,10 +189,9 @@
 		"visible"									"1"
 
 		"pin_to_sibling"							"class_item_red_5"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 	}
-
 	"class_item_blue_6"
 	{
 		"ControlName"								"EditablePanel"
@@ -218,7 +205,6 @@
 
 		"pin_to_sibling"							"class_item_red_6"
 	}
-
 	"class_item_red_7"
 	{
 		"ControlName"								"EditablePanel"
@@ -231,10 +217,9 @@
 		"visible"									"1"
 
 		"pin_to_sibling"							"class_item_red_6"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 	}
-
 	"class_item_blue_7"
 	{
 		"ControlName"								"EditablePanel"
@@ -248,7 +233,6 @@
 
 		"pin_to_sibling"							"class_item_red_7"
 	}
-
 	"class_item_red_8"
 	{
 		"ControlName"								"EditablePanel"
@@ -261,10 +245,9 @@
 		"visible"									"1"
 
 		"pin_to_sibling"							"class_item_red_7"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 	}
-
 	"class_item_blue_8"
 	{
 		"ControlName"								"EditablePanel"
@@ -278,7 +261,6 @@
 
 		"pin_to_sibling"							"class_item_red_8"
 	}
-
 	"class_item_red_9"
 	{
 		"ControlName"								"EditablePanel"
@@ -291,10 +273,9 @@
 		"visible"									"1"
 
 		"pin_to_sibling"							"class_item_red_8"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 	}
-
 	"class_item_blue_9"
 	{
 		"ControlName"								"EditablePanel"
@@ -308,7 +289,6 @@
 
 		"pin_to_sibling"							"class_item_red_9"
 	}
-
 	"NumberLabel1"
 	{
 		"ControlName"								"CExLabel"
@@ -327,10 +307,9 @@
 		"fgcolor"									"White"
 
 		"pin_to_sibling"							"class_item_red_2"
-		"pin_corner_to_sibling" 					"PIN_CENTER_BOTTOM"
-		"pin_to_sibling_corner" 					"PIN_CENTER_BOTTOM"
+		"pin_corner_to_sibling"						"PIN_CENTER_BOTTOM"
+		"pin_to_sibling_corner"						"PIN_CENTER_BOTTOM"
 	}
-
 	"NumberLabel2"
 	{
 		"ControlName"								"CExLabel"
@@ -349,10 +328,9 @@
 		"fgcolor"									"White"
 
 		"pin_to_sibling"							"class_item_red_5"
-		"pin_corner_to_sibling" 					"PIN_CENTER_BOTTOM"
-		"pin_to_sibling_corner" 					"PIN_CENTER_BOTTOM"
+		"pin_corner_to_sibling"						"PIN_CENTER_BOTTOM"
+		"pin_to_sibling_corner"						"PIN_CENTER_BOTTOM"
 	}
-
 	"NumberLabel3"
 	{
 		"ControlName"								"CExLabel"
@@ -371,8 +349,8 @@
 		"fgcolor"									"White"
 
 		"pin_to_sibling"							"class_item_red_8"
-		"pin_corner_to_sibling" 					"PIN_CENTER_BOTTOM"
-		"pin_to_sibling_corner" 					"PIN_CENTER_BOTTOM"
+		"pin_corner_to_sibling"						"PIN_CENTER_BOTTOM"
+		"pin_to_sibling_corner"						"PIN_CENTER_BOTTOM"
 	}
 
 
@@ -394,7 +372,7 @@
 	}
 	"Divider"
 	{
-		"ControlName"		     					"ImagePanel"
+		"ControlName"								"ImagePanel"
 		"fieldName"									"Divider"
 		"xpos"										"9999"
 		"ypos"										"9999"

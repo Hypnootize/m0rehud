@@ -12,7 +12,6 @@
 		"visible"									"0"
 		"enabled"									"1"
 	}
-
 	"TankImage"
 	{
 		"ControlName"								"CTFImagePanel"
@@ -27,7 +26,6 @@
 		"image"										"../hud/leaderboard_class_tank"
 		"scaleImage"								"1"
 	}
-
 	"ProgressBar"
 	{
 		"ControlName"								"ScalableImagePanel"
@@ -41,12 +39,11 @@
 		"enabled"									"1"
 		"image"										"../HUD/tournament_panel_blu"
 
- 		"src_corner_height"							"22"
- 		"src_corner_width"							"22"
- 		"draw_corner_width"							"0"
- 		"draw_corner_height" 						"0"
+		"src_corner_height"							"22"
+		"src_corner_width"							"22"
+		"draw_corner_width"							"0"
+		"draw_corner_height"						"0"
 	}
-
 	"ProgressBarBG"
 	{
 		"ControlName"								"ScalableImagePanel"
@@ -65,6 +62,6 @@
 		"src_corner_height"							"22"
 		"src_corner_width"							"22"
 		"draw_corner_width"							"0"
-		"draw_corner_height" 						"0"
+		"draw_corner_height"						"0"
 	}
 }

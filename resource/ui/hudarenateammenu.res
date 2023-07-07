@@ -14,18 +14,18 @@
 
 	"MapName"
 	{
-		"ControlName"	  							"CExLabel"
-		"fieldName"		  							"MapName"
-		"xpos"			  							"cs-0.5"
-		"ypos"			  							"110"
-		"zpos"			  							"1"
-		"wide"			  							"f0"
-		"tall"			  							"30"
-		"visible"		  							"0"				//1 to enable
-		"enabled"		  							"1"
-		"textAlignment"	  							"center"
-		"font"			  							"m0refont24"
-		"fgcolor"		  							"White"
+		"ControlName"								"CExLabel"
+		"fieldName"									"MapName"
+		"xpos"										"cs-0.5"
+		"ypos"										"110"
+		"zpos"										"1"
+		"wide"										"f0"
+		"tall"										"30"
+		"visible"									"0"				//1 to enable
+		"enabled"									"1"
+		"textAlignment"								"center"
+		"font"										"m0refont24"
+		"fgcolor"									"White"
 		"proportionaltoparent"						"1"
 	}
 
@@ -46,19 +46,18 @@
 		"proportionaltoparent"						"1"
 		"alpha"										"0"
 	}
-	//==================================================================================================================================================
-
+	
 	"WhiteBar"
 	{
-		"ControlName"		  						"EditablePanel"
-		"fieldname"      							"WhiteBar"
-		"xpos"		    	  						"0"
-		"ypos"		    	  						"0"
+		"ControlName"								"EditablePanel"
+		"fieldname"									"WhiteBar"
+		"xpos"										"0"
+		"ypos"										"0"
 		"zpos"										"0"
-		"wide"		    	  						"2"
-		"tall"		    	  						"12"
-		"visible"	    	  						"1"
-		"enabled"		      						"1"
+		"wide"										"2"
+		"tall"										"12"
+		"visible"									"1"
+		"enabled"									"1"
 		"proportionaltoparent"						"1"
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
@@ -67,18 +66,21 @@
 		"pin_to_sibling"							"TeamsAnchor"
 	}
 
+	//==================================================================================================================================================
+	// FIGHT
+	//==================================================================================================================================================
 	"FightButton"
 	{
 		"ControlName"								"CExButton"
 		"fieldname"									"FightButton"
-		"xpos"			  							"0"
-		"ypos"			  							"0"
-		"zpos"			  							"1"
-		"wide"			  							"125"
-		"tall"			  							"12"
+		"xpos"										"0"
+		"ypos"										"0"
+		"zpos"										"1"
+		"wide"										"125"
+		"tall"										"12"
 		"visible"									"1"
 		"enabled"									"1"
-		"use_proportional_insets" 					"1"
+		"use_proportional_insets"					"1"
 		"font"										"m0refont11"
 		"AllCaps"									"1"
 		"labeltext"									"Fight"
@@ -89,9 +91,9 @@
 		"sound_depressed"							"UI/buttonclick.wav"
 
 		"paintbackground"							"1"
-		"defaultBgColor_override"					"TF2Red"
+		"defaultBgColor_override"					"Red"
 		"armedBgColor_override"						"165 40 40 255"
-		"depressedBgColor_override"					"TF2Red"
+		"depressedBgColor_override"					"Red"
 
 		"defaultFgColor_override"					"White"
 		"armedFgColor_override"						"White"
@@ -112,19 +114,19 @@
 	}
 	"FightCount"
 	{
-		"ControlName"	  							"CExLabel"
-		"fieldName"		  							"FightCount"
-		"xpos"			  							"-5"
-		"ypos"			  							"15"
-		"zpos"			  							"2"
-		"wide"			  							"120"
-		"tall"			  							"36"
-		"visible"		  							"1"
-		"enabled"		  							"1"
-		"labelText"		  							"1"
-		"textAlignment"	  							"east"
-		"font"			  							"m0refont36"
-		"fgcolor"		  							"White"
+		"ControlName"								"CExLabel"
+		"fieldName"									"FightCount"
+		"xpos"										"-5"
+		"ypos"										"15"
+		"zpos"										"2"
+		"wide"										"120"
+		"tall"										"36"
+		"visible"									"1"
+		"enabled"									"1"
+		"labelText"									"1"
+		"textAlignment"								"east"
+		"font"										"m0refont36"
+		"fgcolor"									"White"
 		"mouseinputenabled"							"0"
 
 		"pin_to_sibling"							"FightButton"
@@ -132,18 +134,21 @@
 		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 	}
 
+	//==================================================================================================================================================
+	// SPECTATE
+	//==================================================================================================================================================
 	"SpectateButton"
 	{
 		"ControlName"								"CExButton"
 		"fieldname"									"SpectateButton"
-		"xpos"			  							"0"
-		"ypos"			  							"0"
-		"zpos"			  							"1"
-		"wide"			  							"125"
-		"tall"			  							"12"
+		"xpos"										"0"
+		"ypos"										"0"
+		"zpos"										"1"
+		"wide"										"125"
+		"tall"										"12"
 		"visible"									"1"
 		"enabled"									"1"
-		"use_proportional_insets" 					"1"
+		"use_proportional_insets"					"1"
 		"font"										"m0refont11"
 		"AllCaps"									"1"
 		"labeltext"									"Spectate"
@@ -177,19 +182,19 @@
 	}
 	"SpectateCount"
 	{
-		"ControlName"	  							"CExLabel"
-		"fieldName"		  							"SpectateCount"
-		"xpos"			  							"-5"
-		"ypos"			  							"15"
-		"zpos"			  							"2"
-		"wide"			  							"120"
-		"tall"			  							"36"
-		"visible"		  							"1"
-		"enabled"		  							"1"
-		"labelText"		  							"2"
-		"textAlignment"	  							"west"
-		"font"			  							"m0refont36"
-		"fgcolor"		  							"White"
+		"ControlName"								"CExLabel"
+		"fieldName"									"SpectateCount"
+		"xpos"										"-5"
+		"ypos"										"15"
+		"zpos"										"2"
+		"wide"										"120"
+		"tall"										"36"
+		"visible"									"1"
+		"enabled"									"1"
+		"labelText"									"2"
+		"textAlignment"								"west"
+		"font"										"m0refont36"
+		"fgcolor"									"White"
 		"mouseinputenabled"							"0"
 
 		"pin_to_sibling"							"SpectateButton"
@@ -258,8 +263,8 @@
 	}
 	"SysMenu"
 	{
-		"ControlName"	  							"Menu"
-		"fieldName"		  							"SysMenu"
+		"ControlName"								"Menu"
+		"fieldName"									"SysMenu"
 		"xpos"										"9999"
 		"ypos"										"9999"
 		"wide"										"0"
@@ -280,8 +285,8 @@
 	}
 	"CancelButton"
 	{
-		"ControlName"	  							"CExButton"
-		"fieldName"		  							"CancelButton"
+		"ControlName"								"CExButton"
+		"fieldName"									"CancelButton"
 		"xpos"										"9999"
 		"ypos"										"9999"
 		"wide"										"0"

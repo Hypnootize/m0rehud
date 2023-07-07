@@ -3,17 +3,16 @@
 	//====================================================================================================================================================
 	// MAIN MENU BUTTONS
 	//====================================================================================================================================================
-
 	"Version"
 	{
-		"label" 									"m0rehud 6.4"
-		"command" 									"engine showconsole; echo m0rehud by Hypnotize comfig.app/huds/page/m0rehud all credits to m0re"
+		"label"										"m0rehud 6.4"
+		"command"									"engine showconsole; echo m0rehud by Hypnotize comfig.app/huds/page/m0rehud all credits to m0re"
 		"OnlyAtMenu"								"1"
 	}
 	"Servers"
 	{
-		"label" 									"Servers"
-		"command" 									"OpenServerBrowser"
+		"label"										"Servers"
+		"command"									"OpenServerBrowser"
 	}
 	"Create"
 	{
@@ -62,15 +61,14 @@
 	}
 	"Quit"
 	{
-		"label" 									"Quit"
-		"command" 									"engine replay_confirmquit"
+		"label"										"Quit"
+		"command"									"engine replay_confirmquit"
 		"OnlyAtMenu"								"1"
 	}
 
 	//====================================================================================================================================================
 	// IN GAME BUTTONS
 	//====================================================================================================================================================
-
 	"Scoreboard"
 	{
 		"label"										"Scoreboard"
@@ -79,29 +77,29 @@
 	}
 	"Disconnect"
 	{
-		"label" 									"Disconnect"
-		"command" 									"engine disconnect"
-		"OnlyInGame" 								"1"
+		"label"										"Disconnect"
+		"command"									"engine disconnect"
+		"OnlyInGame"								"1"
 	}
 	"QuitGame"
 	{
-		"label" 									"Quit"
-		"command" 									"engine replay_confirmquit"
-		"OnlyInGame" 								"1"
+		"label"										"Quit"
+		"command"									"engine replay_confirmquit"
+		"OnlyInGame"								"1"
 	}
 	"Vote"
 	{
 		"label"										"M"
 		"command"									"callvote"
 		"tooltip"									"Call a Vote"
-		"OnlyInGame" 								"1"
+		"OnlyInGame"								"1"
 	}
 	"Mute"
 	{
 		"label"										"L"
 		"command"									"OpenMutePlayerDialog"
 		"tooltip"									"Mute a Player"
-		"OnlyInGame" 								"1"
+		"OnlyInGame"								"1"
 	}
 	"Report"
 	{
@@ -121,7 +119,6 @@
 	//====================================================================================================================================================
 	// TOOLS BAR
 	//====================================================================================================================================================
-
 	"Fix Invisible Players"
 	{
 		"label"										"D"

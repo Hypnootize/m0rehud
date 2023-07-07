@@ -6,12 +6,10 @@
 	{
 		"icon"										"hud_menu_heavy_blu"
 	}
-
 	"NewNumberLabel"
 	{
 		"labelText"									"2"
 	}
-
 	"NumberLabel"
 	{
 		"labelText"									"5"

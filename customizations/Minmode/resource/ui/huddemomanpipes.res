@@ -30,11 +30,10 @@
 		"font"										"DefaultVerySmall"
 		"fgcolor"									"White"
 
-		"pin_to_sibling" 							"ChargeMeter"
-		"pin_corner_to_sibling" 					"PIN_CENTER_TOP"
-		"pin_to_sibling_corner" 					"PIN_CENTER_BOTTOM"
+		"pin_to_sibling"							"ChargeMeter"
+		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
+		"pin_to_sibling_corner"						"PIN_CENTER_BOTTOM"
 	}
-
 	"PipesPresentPanel"
 	{
 		"ControlName"								"EditablePanel"
@@ -61,7 +60,7 @@
 			"labelText"								"%activepipes%"
 			"textAlignment"							"center"
 			"font"									"m0refont16"
-			"fgcolor"   							"White"
+			"fgcolor"								"White"
 		}
 		"NumPipesLabelDropshadow"
 		{
@@ -81,7 +80,6 @@
 
 			"pin_to_sibling"						"NumPipesLabel"
 		}
-
 		"PipeIcon"
 		{
 			"ControlName"							"CTFImagePanel"

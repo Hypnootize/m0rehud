@@ -45,26 +45,24 @@
 				"image"								"../hud/class_scoutred"
 				"scaleImage"						"1"
 			}
-
 			"HealthIcon"
 			{
 				"ControlName"						"EditablePanel"
 				"fieldName"							"HealthIcon"
-				"xpos"			              		"18"
-				"ypos"				           		"cs-0.5"
-				"zpos"				            	"3"
-				"wide"				            	"20"
-				"tall"				            	"f0"
-				"visible"			            	"1"
-				"enabled"			     	       	"1"
+				"xpos"								"18"
+				"ypos"								"cs-0.5"
+				"zpos"								"3"
+				"wide"								"20"
+				"tall"								"f0"
+				"visible"							"1"
+				"enabled"							"1"
 				"proportionaltoparent"				"1"
-				"HealthBonusPosAdj"	     			"10"
-				"HealthDeathWarning"		 		"0.49"
-				"TFFont"					        "HudFontSmallest"
-				"HealthDeathWarningColor"	        "HUDDeathWarning"
-				"TextColor"					        "HudOffWhite"
+				"HealthBonusPosAdj"					"10"
+				"HealthDeathWarning"				"0.49"
+				"TFFont"							"HudFontSmallest"
+				"HealthDeathWarningColor"			"HUDDeathWarning"
+				"TextColor"							"HudOffWhite"
 			}
-
 			"playername"
 			{
 				"ControlName"						"CExLabel"
@@ -81,16 +79,15 @@
 				"textAlignment"						"west"
 				"fgcolor"							"White"
 			}
-
 			"respawntime"
 			{
 				"ControlName"						"CExLabel"
 				"fieldName"							"respawntime"
-				"xpos"			              		"18"
-				"ypos"				           		"cs-0.5"
-				"zpos"				            	"5"
-				"wide"				            	"20"
-				"tall"				            	"f0"
+				"xpos"								"18"
+				"ypos"								"cs-0.5"
+				"zpos"								"5"
+				"wide"								"20"
+				"tall"								"f0"
 				"visible"							"1"
 				"proportionaltoparent"				"1"
 				"labelText"							"%respawntime%"
@@ -98,7 +95,6 @@
 				"fgcolor"							"White"
 				"font"								"m0refont11"
 			}
-
 			"chargeamount"
 			{
 				"ControlName"						"CExLabel"
@@ -131,7 +127,6 @@
 				"textAlignment"						"east"
 				"fgcolor"							"White"
 			}
-
 			"classimagebg"
 			{
 				"ControlName"						"Panel"
@@ -145,8 +140,8 @@
 			}
 			"ReadyBG"
 			{
-				"ControlName"			       		"ScalableImagePanel"
-				"fieldName"					      	"ReadyBG"
+				"ControlName"						"ScalableImagePanel"
+				"fieldName"							"ReadyBG"
 				"xpos"								"9999"
 				"ypos"								"9999"
 				"wide"								"0"
@@ -178,7 +173,6 @@
 			}
 		}
 	}
-
 	"ReinforcementsLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -192,14 +186,13 @@
 		"labelText"									"#game_respawntime_in_secs"
 		"textAlignment"								"center"
 		"font"										"m0refont11"
-		"fgcolor"  									"White"
+		"fgcolor"									"White"
 
 		"if_mvm"
 		{
 			"ypos"									"70"
 		}
 	}
-
 	"BuyBackLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -222,7 +215,6 @@
 			"visible"								"1"
 		}
 	}
-
 	"spectator_extras"
 	{
 		"ControlName"								"EditablePanel"

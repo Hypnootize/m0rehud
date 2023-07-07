@@ -1,32 +1,9 @@
 "Resource/UI/HudMedicCharge.res"
 {
 	//==================================================================================================================================================
-	// UNDER CROSSHAIR SMALL UBER PERCENTAGE
-	//==================================================================================================================================================
-
-	"ChargeLabel"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"ChargeLabel"
-		"xpos"										"cs-0.5"
-		"ypos"										"c36"
-		"zpos"										"2"
-		"wide"										"100"
-		"tall"										"20"
-		"visible"									"1"
-		"enabled"									"1"
-		"proportionaltoparent"						"1"
-		"labelText"									"#TF_UberchargeMinHUD"
-		"textAlignment"								"center"
-		"font"										"m0refont18Shadow"
-		"fgcolor"   								"Ubercharge"
-	}
-
-	//==================================================================================================================================================
 	// UBER ANCHOR
 	// Moves all the uber elements at the same time
 	//==================================================================================================================================================
-
 	"UberAnchor"
 	{
 		"ControlName"								"EditablePanel"
@@ -42,9 +19,30 @@
 	}
 
 	//==================================================================================================================================================
+	// UNDER CROSSHAIR SMALL UBER PERCENTAGE
+	//==================================================================================================================================================
+	"ChargeLabel"
+	{
+		"ControlName"								"CExLabel"
+		"fieldName"									"ChargeLabel"
+		"xpos"										"cs-0.5"
+		"ypos"										"c36"
+		"zpos"										"2"
+		"wide"										"100"
+		"tall"										"20"
+		"visible"									"1"
+		"enabled"									"1"
+		"proportionaltoparent"						"1"
+		"labelText"									"#TF_UberchargeMinHUD"
+		"textAlignment"								"center"
+		"font"										"m0refont18Shadow"
+		"fgcolor"									"Ubercharge"
+
+	}
+
+	//==================================================================================================================================================
 	// MAIN UBER PERCENTAGE
 	//==================================================================================================================================================
-
 	"ChargeLabelBig"
 	{
 		"ControlName"								"CExLabel"
@@ -60,7 +58,7 @@
 		"labelText"									"#TF_UberchargeMinHUD"
 		"textAlignment"								"center"
 		"font"										"m0refont72"
-		"fgcolor"   								"Ubercharge"
+		"fgcolor"									"Ubercharge"
 
 		"pin_to_sibling"							"UberAnchor"
 		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
@@ -81,7 +79,7 @@
 		"labelText"									"#TF_UberchargeMinHUD"
 		"textAlignment"								"center"
 		"font"										"m0refont72"
-		"fgcolor"  									"Black"
+		"fgcolor"									"Black"
 
 		"pin_to_sibling"							"ChargeLabelBig"
 	}
@@ -100,8 +98,8 @@
 		"labelText"									"#TF_UberchargeMinHUD"
 		"textAlignment"								"center"
 		"font"										"m0refont72"
-		"fgcolor"  									"Black"
-		"alpha"  									"0"
+		"fgcolor"									"Black"
+		"alpha"										"0"
 
 		"pin_to_sibling"							"ChargeLabelBigShadow"
 	}
@@ -109,7 +107,6 @@
 	//==================================================================================================================================================
 	// UBERCHARGE METER
 	//==================================================================================================================================================
-
 	"ChargeMeter"
 	{
 		"ControlName"								"ContinuousProgressBar"
@@ -128,7 +125,6 @@
 	//==================================================================================================================================================
 	// VACCINATOR CHARGES
 	//==================================================================================================================================================
-
 	"IndividualChargesLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -148,7 +144,6 @@
 
 		"pin_to_sibling"							"ChargeLabel"
 	}
-
 	"ChargeMeter1"
 	{
 		"ControlName"								"ContinuousProgressBar"
@@ -213,7 +208,6 @@
 	//==================================================================================================================================================
 	// VACCINATOR RESIST ICON
 	//==================================================================================================================================================
-
 	"ResistIconAnchor"
 	{
 		"ControlName"								"EditablePanel"

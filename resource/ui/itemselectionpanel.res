@@ -37,7 +37,6 @@
 			"deferred_description"					"1"
 			"deferred_icon"							"1"
 		}
-
 		"modelpanels_kv"
 		{
 			"ControlName"							"CItemModelPanel"
@@ -66,13 +65,12 @@
 
 			"itemmodelpanel"
 			{
-				"use_item_rendertarget" 			"0"
+				"use_item_rendertarget"				"0"
 				"allow_rot"							"0"
 			}
 
 			"use_item_sounds"						"1"
 		}
-
 		"duplicatelabels_kv"
 		{
 			"font"									"ItemFontNameSmallest"
@@ -99,9 +97,8 @@
 		"font"										"HudFontSmallestBold"
 		"labelText"									">>"
 		"textAlignment"								"west"
-		"fgcolor" 									"200 80 60 255"
+		"fgcolor"									"200 80 60 255"
 	}
-
 	"ClassLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -117,7 +114,6 @@
 		"labelText"									"#ClassBeingEquipped"
 		"textAlignment"								"west"
 	}
-
 	"NameFilterLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -134,7 +130,6 @@
 		"textAlignment"								"west"
 		"fgcolor"									"StoreDarkTan"
 	}
-
 	"NameFilterTextEntry"
 	{
 		"ControlName"								"TextEntry"
@@ -151,10 +146,9 @@
 		"unicode"									"1"
 		"fgcolor_override"							"117 107 94 255"
 		"bgcolor_override"							"251 235 202 255"
-		"paintbackgroundtype" 						"2"
+		"paintbackgroundtype"						"2"
 		"font"										"HudFontSmallest"
 	}
-
 	"TopLine"
 	{
 		"ControlName"								"ImagePanel"
@@ -168,9 +162,8 @@
 		"enabled"									"1"
 		"image"										"loadout_dotted_line"
 		"tileImage"									"1"
-		"tileVertically" 							"0"
+		"tileVertically"							"0"
 	}
-
 	"BottomLine"
 	{
 		"ControlName"								"ImagePanel"
@@ -184,9 +177,8 @@
 		"enabled"									"1"
 		"image"										"loadout_dotted_line"
 		"tileImage"									"1"
-		"tileVertically" 							"0"
+		"tileVertically"							"0"
 	}
-
 	"ItemSlotLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -202,7 +194,6 @@
 		"labelText"									"#PrimaryWeapon"
 		"textAlignment"								"west"
 	}
-
 	"NoItemsLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -214,12 +205,11 @@
 		"tall"										"30"
 		"visible"									"0"
 		"enabled"									"1"
-		"fgcolor" 									"200 80 60 255"
+		"fgcolor"									"200 80 60 255"
 		"font"										"HudFontSmallBold"
 		"labelText"									"#NoItemsToEquip"
 		"textAlignment"								"center"
 	}
-
 	"CancelButton"
 	{
 		"ControlName"								"CExButton"
@@ -238,7 +228,6 @@
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
 	}
-
 	"OnlyAllowUniqueQuality"
 	{
 		"ControlName"								"CheckButton"
@@ -254,7 +243,6 @@
 		"Font"										"HudFontSmallestBold"
 		"textAlignment"								"east"
 	}
-
 	"ShowBackpack"
 	{
 		"ControlName"								"CExButton"
@@ -273,7 +261,6 @@
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
 	}
-
 	"ShowSelection"
 	{
 		"ControlName"								"CExButton"
@@ -292,7 +279,6 @@
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
 	}
-
 	"PrevPageButton"
 	{
 		"ControlName"								"CExButton"
@@ -320,7 +306,6 @@
 		"Command"									"prevpage"
 		"visible"									"1"
 	}
-
 	"CurPageLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -335,9 +320,8 @@
 		"tall"										"20"
 		"visible"									"1"
 		"enabled"									"1"
-		"fgcolor" 									"200 80 60 255"
+		"fgcolor"									"200 80 60 255"
 	}
-
 	"NextPageButton"
 	{
 		"ControlName"								"CExButton"
@@ -365,7 +349,6 @@
 		"Command"									"nextpage"
 		"visible"									"1"
 	}
-
 	"mouseoveritempanel"
 	{
 		"ControlName"								"CItemModelPanel"

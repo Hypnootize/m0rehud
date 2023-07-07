@@ -17,7 +17,6 @@
 			"ypos"									"32"
 		}
 	}
-
 	"ObjectiveStatusTimePanel"
 	{
 		"ControlName"								"EditablePanel"
@@ -58,7 +57,6 @@
 			}
 		}
 	}
-
 	"StopWatchScoreToBeat"
 	{
 		"ControlName"								"CExLabel"
@@ -84,7 +82,6 @@
 			"font"									"m0refont12"
 		}
 	}
-
 	"StopWatchPointsLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -110,7 +107,6 @@
 			"font"									"m0refont12"
 		}
 	}
-
 	"StopWatchLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -136,7 +132,6 @@
 			"font"									"m0refont12"
 		}
 	}
-
 	"HudStopWatchBGWhite"
 	{
 		"ControlName"								"EditablePanel"
@@ -148,9 +143,9 @@
 		"tall"										"12"
 		"visible"									"1"
 		"enabled"									"1"
-		"paintbackground" 							"1"
-		"PaintBackgroundType" 						"0"
-		"bgcolor_override" 							"White"
+		"paintbackground"							"1"
+		"PaintBackgroundType"						"0"
+		"bgcolor_override"							"White"
 
 		"pin_to_sibling"							"StopWatchPointsLabel"
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"

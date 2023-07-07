@@ -11,7 +11,6 @@
 		"visible"									"1"
 		"enabled"									"1"
 	}
-
 	"Icon_Teleport_Entrance"
 	{
 		"ControlName"								"CIconPanel"
@@ -26,9 +25,8 @@
 		"scaleImage"								"1"
 		"icon"										"obj_status_tele_entrance"
 		"iconColor"									"White"
-		"alpha" 									"150"
+		"alpha"										"150"
 	}
-
 	"BuiltPanel"
 	{
 		"ControlName"								"EditablePanel"
@@ -56,9 +54,8 @@
 			"proportionaltoparent"					"1"
 			"icon"									"obj_status_upgrade_1"
 			"iconColor"								"White"
-			"alpha" 								"150"
+			"alpha"									"150"
 		}
-
 		"Icon_Upgrade_2"
 		{
 			"ControlName"							"CIconPanel"
@@ -74,9 +71,8 @@
 			"proportionaltoparent"					"1"
 			"icon"									"obj_status_upgrade_2"
 			"iconColor"								"White"
-			"alpha" 								"150"
+			"alpha"									"150"
 		}
-
 		"Icon_Upgrade_3"
 		{
 			"ControlName"							"CIconPanel"
@@ -92,9 +88,8 @@
 			"proportionaltoparent"					"1"
 			"icon"									"obj_status_upgrade_3"
 			"iconColor"								"White"
-			"alpha" 								"150"
+			"alpha"									"150"
 		}
-
 		"SapperIcon"
 		{
 			"ControlName"							"CIconPanel"
@@ -113,7 +108,6 @@
 			"paintbackground"						"1"
 			"bgcolor_override"						"200 0 0 150"
 		}
-
 		"Health"
 		{
 			"ControlName"							"CBuildingHealthBar"
@@ -125,9 +119,8 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
-			"alpha" 								"150"
+			"alpha"									"150"
 		}
-
 		"BuildingPanel"
 		{
 			"ControlName"							"EditablePanel"
@@ -150,7 +143,7 @@
 				"visible"							"1"
 				"enabled"							"1"
 				"proportionaltoparent"				"1"
-				"alpha" 							"150"
+				"alpha"								"150"
 			}
 			"BuildingLabel"
 			{
@@ -164,7 +157,6 @@
 				"enabled"							"0"
 			}
 		}
-
 		"RunningPanel"
 		{
 			"ControlName"							"EditablePanel"
@@ -191,9 +183,8 @@
 				"image"								"../hud/hud_obj_status_teleport_64"
 				"drawcolor"							"ProgressOffWhite"
 				"scaleImage"						"1"
-				"alpha" 							"150"
+				"alpha"								"150"
 			}
-
 			"ChargingPanel"
 			{
 				"ControlName"						"EditablePanel"
@@ -204,7 +195,7 @@
 				"tall"								"f0"
 				"visible"							"0"
 				"proportionaltoparent"				"1"
-				"alpha" 							"150"
+				"alpha"								"150"
 
 				"Recharge"
 				{
@@ -217,11 +208,10 @@
 					"visible"						"1"
 					"enabled"						"1"
 					"proportionaltoparent"			"1"
-					"alpha" 						"150"
+					"alpha"							"150"
 					"fgcolor_override"				"ProgressOffWhite"
 				}
 			}
-
 			"FullyChargedPanel"
 			{
 				"ControlName"						"EditablePanel"
@@ -247,11 +237,10 @@
 					"proportionaltoparent"			"1"
 					"labelText"						"%timesused%"
 					"textAlignment"					"west"
-					"alpha" 						"150"
-					"fgcolor" 						"ProgressOffWhite"
+					"alpha"							"150"
+					"fgcolor"						"ProgressOffWhite"
 				}
 			}
-
 			"UpgradeIcon"
 			{
 				"ControlName"						"CIconPanel"
@@ -267,7 +256,7 @@
 				"proportionaltoparent"				"1"
 				"icon"								"ico_metal"
 				"iconColor"							"ProgressOffWhite"
-				"alpha" 							"150"
+				"alpha"								"150"
 			}
 			"Upgrade"
 			{
@@ -280,7 +269,7 @@
 				"visible"							"1"
 				"enabled"							"1"
 				"proportionaltoparent"				"1"
-				"alpha" 							"150"
+				"alpha"								"150"
 				"fgcolor_override"					"ProgressOffWhite"
 			}
 		}

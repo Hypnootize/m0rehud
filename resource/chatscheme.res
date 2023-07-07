@@ -12,7 +12,6 @@
 
 		"Blank"												"0 0 0 0"
 	}
-
 	"BaseSettings"
 	{
 		"Border.Bright"										"200 200 200 196"
@@ -30,8 +29,8 @@
 		"CheckButton.TextColor"								"OffWhite"
 		"CheckButton.SelectedTextColor"						"White"
 		"CheckButton.BgColor"								"TransparentBlack"
-		"CheckButton.Border1"  								"Border.Dark"
-		"CheckButton.Border2"  								"Border.Bright"
+		"CheckButton.Border1"								"Border.Dark"
+		"CheckButton.Border2"								"Border.Bright"
 		"CheckButton.Check"									"White"
 
 		"ComboBoxButton.ArrowColor"							"DullWhite"
@@ -418,145 +417,19 @@
 
 		"FrameBorder"
 		{
-			"backgroundtype" 								"2"
+			"backgroundtype"								"2"
 		}
 
 		"DepressedBorder"
 		{
-			"inset" 										"0 0 1 1"
+			"inset"											"0 0 1 1"
 
 			"Left"
 			{
 				"1"
 				{
-					"color" 								"Border.Dark"
-					"offset" 								"0 1"
-				}
-			}
-			"Right"
-			{
-				"1"
-				{
-					"color" 								"Border.Bright"
-					"offset" 								"1 0"
-				}
-			}
-			"Top"
-			{
-				"1"
-				{
-					"color" 								"Border.Dark"
-					"offset" 								"0 0"
-				}
-			}
-			"Bottom"
-			{
-				"1"
-				{
-					"color" 								"Border.Bright"
-					"offset"								"0 0"
-				}
-			}
-		}
-		"RaisedBorder"
-		{
-			"inset" 										"0 0 1 1"
-
-			"Left"
-			{
-				"1"
-				{
-					"color" 								"Border.Bright"
-					"offset" 								"0 1"
-				}
-			}
-			"Right"
-			{
-				"1"
-				{
-					"color" 								"Border.Dark"
-					"offset" 								"0 0"
-				}
-			}
-			"Top"
-			{
-				"1"
-				{
-					"color" 								"Border.Bright"
-					"offset" 								"0 1"
-				}
-			}
-			"Bottom"
-			{
-				"1"
-				{
-					"color" 								"Border.Dark"
-					"offset" 								"0 0"
-				}
-			}
-		}
-
-		"TitleButtonBorder"
-		{
-			"backgroundtype" 								"0"
-		}
-		"TitleButtonDisabledBorder"
-		{
-			"backgroundtype" 								"0"
-		}
-		"TitleButtonDepressedBorder"
-		{
-			"backgroundtype" 								"0"
-		}
-
-		"ScrollBarButtonBorder"
-		{
-			"inset" 										"2 2 0 0"
-
-			"Left"
-			{
-				"1"
-				{
-					"color" 								"Border.Bright"
-					"offset" 								"0 1"
-				}
-			}
-			"Right"
-			{
-				"1"
-				{
-					"color" 								"Border.Dark"
-					"offset" 								"1 0"
-				}
-			}
-			"Top"
-			{
-				"1"
-				{
-					"color" 								"Border.Bright"
-					"offset" 								"0 0"
-				}
-			}
-			"Bottom"
-			{
-				"1"
-				{
-					"color" 								"Border.Dark"
-					"offset" 								"0 0"
-				}
-			}
-		}
-
-		"ScrollBarButtonDepressedBorder"
-		{
-			"inset" 										"2 2 0 0"
-
-			"Left"
-			{
-				"1"
-				{
-					"color" 								"Border.Dark"
-					"offset" 								"0 1"
+					"color"									"Border.Dark"
+					"offset"								"0 1"
 				}
 			}
 			"Right"
@@ -564,125 +437,244 @@
 				"1"
 				{
 					"color"									"Border.Bright"
-					"offset" 								"1 0"
+					"offset"								"1 0"
 				}
 			}
 			"Top"
 			{
 				"1"
 				{
-					"color" 								"Border.Dark"
-					"offset" 								"0 0"
+					"color"									"Border.Dark"
+					"offset"								"0 0"
 				}
 			}
 			"Bottom"
 			{
 				"1"
 				{
-					"color" 								"Border.Bright"
-					"offset" 								"0 0"
+					"color"									"Border.Bright"
+					"offset"								"0 0"
 				}
 			}
 		}
+		"RaisedBorder"
+		{
+			"inset"											"0 0 1 1"
 
+			"Left"
+			{
+				"1"
+				{
+					"color"									"Border.Bright"
+					"offset"								"0 1"
+				}
+			}
+			"Right"
+			{
+				"1"
+				{
+					"color"									"Border.Dark"
+					"offset"								"0 0"
+				}
+			}
+			"Top"
+			{
+				"1"
+				{
+					"color"									"Border.Bright"
+					"offset"								"0 1"
+				}
+			}
+			"Bottom"
+			{
+				"1"
+				{
+					"color"									"Border.Dark"
+					"offset"								"0 0"
+				}
+			}
+		}
+		"TitleButtonBorder"
+		{
+			"backgroundtype"								"0"
+		}
+		"TitleButtonDisabledBorder"
+		{
+			"backgroundtype"								"0"
+		}
+		"TitleButtonDepressedBorder"
+		{
+			"backgroundtype"								"0"
+		}
+		"ScrollBarButtonBorder"
+		{
+			"inset"											"2 2 0 0"
+
+			"Left"
+			{
+				"1"
+				{
+					"color"									"Border.Bright"
+					"offset"								"0 1"
+				}
+			}
+			"Right"
+			{
+				"1"
+				{
+					"color"									"Border.Dark"
+					"offset"								"1 0"
+				}
+			}
+			"Top"
+			{
+				"1"
+				{
+					"color"									"Border.Bright"
+					"offset"								"0 0"
+				}
+			}
+			"Bottom"
+			{
+				"1"
+				{
+					"color"									"Border.Dark"
+					"offset"								"0 0"
+				}
+			}
+		}
+		"ScrollBarButtonDepressedBorder"
+		{
+			"inset"											"2 2 0 0"
+
+			"Left"
+			{
+				"1"
+				{
+					"color"									"Border.Dark"
+					"offset"								"0 1"
+				}
+			}
+			"Right"
+			{
+				"1"
+				{
+					"color"									"Border.Bright"
+					"offset"								"1 0"
+				}
+			}
+			"Top"
+			{
+				"1"
+				{
+					"color"									"Border.Dark"
+					"offset"								"0 0"
+				}
+			}
+			"Bottom"
+			{
+				"1"
+				{
+					"color"									"Border.Bright"
+					"offset"								"0 0"
+				}
+			}
+		}
 		"TabBorder"
 		{
-			"inset" 										"0 0 1 1"
+			"inset"											"0 0 1 1"
 
 			"Left"
 			{
 				"1"
 				{
-					"color" 								"Border.Bright"
-					"offset" 								"0 1"
+					"color"									"Border.Bright"
+					"offset"								"0 1"
 				}
 			}
 			"Right"
 			{
 				"1"
 				{
-					"color" 								"Border.Dark"
-					"offset" 								"1 0"
+					"color"									"Border.Dark"
+					"offset"								"1 0"
 				}
 			}
 			"Top"
 			{
 				"1"
 				{
-					"color" 								"Border.Bright"
-					"offset" 								"0 0"
+					"color"									"Border.Bright"
+					"offset"								"0 0"
 				}
 			}
 		}
-
 		"TabActiveBorder"
 		{
-			"inset" 										"0 0 1 0"
+			"inset"											"0 0 1 0"
 
 			"Left"
 			{
 				"1"
 				{
-					"color" 								"Border.Bright"
-					"offset" 								"0 0"
+					"color"									"Border.Bright"
+					"offset"								"0 0"
 				}
 			}
 			"Right"
 			{
 				"1"
 				{
-					"color" 								"Border.Dark"
-					"offset" 								"1 0"
+					"color"									"Border.Dark"
+					"offset"								"1 0"
 				}
 			}
 			"Top"
 			{
 				"1"
 				{
-					"color" 								"Border.Bright"
-					"offset" 								"0 0"
+					"color"									"Border.Bright"
+					"offset"								"0 0"
 				}
 			}
 		}
-
 		"ToolTipBorder"
 		{
-			"inset" 										"0 0 1 0"
+			"inset"											"0 0 1 0"
 
 			"Left"
 			{
 				"1"
 				{
-					"color" 								"Border.Dark"
-					"offset" 								"0 0"
+					"color"									"Border.Dark"
+					"offset"								"0 0"
 				}
 			}
 			"Right"
 			{
 				"1"
 				{
-					"color" 								"Border.Dark"
-					"offset" 								"1 0"
+					"color"									"Border.Dark"
+					"offset"								"1 0"
 				}
 			}
 			"Top"
 			{
 				"1"
 				{
-					"color" 								"Border.Dark"
-					"offset" 								"0 0"
+					"color"									"Border.Dark"
+					"offset"								"0 0"
 				}
 			}
 			"Bottom"
 			{
 				"1"
 				{
-					"color" 								"Border.Dark"
-					"offset" 								"0 0"
+					"color"									"Border.Dark"
+					"offset"								"0 0"
 				}
 			}
 		}
-
 		"ButtonKeyFocusBorder"
 		{
 			"inset"											"0 0 1 1"
@@ -691,95 +683,93 @@
 			{
 				"1"
 				{
-					"color" 								"Border.Selection"
-					"offset" 								"0 0"
+					"color"									"Border.Selection"
+					"offset"								"0 0"
 				}
 				"2"
 				{
-					"color" 								"Border.Bright"
-					"offset" 								"0 1"
+					"color"									"Border.Bright"
+					"offset"								"0 1"
 				}
 			}
 			"Top"
 			{
 				"1"
 				{
-					"color" 								"Border.Selection"
-					"offset" 								"0 0"
+					"color"									"Border.Selection"
+					"offset"								"0 0"
 				}
 				"2"
 				{
-					"color" 								"Border.Bright"
-					"offset" 								"1 0"
+					"color"									"Border.Bright"
+					"offset"								"1 0"
 				}
 			}
 			"Right"
 			{
 				"1"
 				{
-					"color" 								"Border.Selection"
-					"offset" 								"0 0"
+					"color"									"Border.Selection"
+					"offset"								"0 0"
 				}
 				"2"
 				{
-					"color" 								"Border.Dark"
-					"offset" 								"1 0"
+					"color"									"Border.Dark"
+					"offset"								"1 0"
 				}
 			}
 			"Bottom"
 			{
 				"1"
 				{
-					"color" 								"Border.Selection"
-					"offset" 								"0 0"
+					"color"									"Border.Selection"
+					"offset"								"0 0"
 				}
 				"2"
 				{
-					"color" 								"Border.Dark"
-					"offset" 								"0 0"
+					"color"									"Border.Dark"
+					"offset"								"0 0"
 				}
 			}
 		}
-
 		"ButtonDepressedBorder"
 		{
-			"inset" 										"2 1 1 1"
+			"inset"											"2 1 1 1"
 
 			"Left"
 			{
 				"1"
 				{
-					"color" 								"Border.Dark"
-					"offset" 								"0 1"
+					"color"									"Border.Dark"
+					"offset"								"0 1"
 				}
 			}
 			"Right"
 			{
 				"1"
 				{
-					"color" 								"Border.Bright"
-					"offset" 								"1 0"
+					"color"									"Border.Bright"
+					"offset"								"1 0"
 				}
 			}
 			"Top"
 			{
 				"1"
 				{
-					"color" 								"Border.Dark"
-					"offset" 								"0 0"
+					"color"									"Border.Dark"
+					"offset"								"0 0"
 				}
 			}
 			"Bottom"
 			{
 				"1"
 				{
-					"color" 								"Border.Bright"
-					"offset" 								"0 0"
+					"color"									"Border.Bright"
+					"offset"								"0 0"
 				}
 			}
 		}
 	}
-
 	"CustomFontFiles"
 	{
 		"1"	"resource/HALFLIFE2.ttf"

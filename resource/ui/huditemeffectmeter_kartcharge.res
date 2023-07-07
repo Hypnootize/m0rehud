@@ -7,17 +7,14 @@
 		"ypos"										"c100"
 		"tall"										"28"
 	}
-
 	"ItemEffectMeterLabel"
 	{
 		"ypos"										"rs1"
 	}
-
 	"ItemEffectMeter"
 	{
 		"ypos"										"18"
 	}
-
 	"ItemEffectMeterCount"
 	{
 		"ControlName"								"CExLabel"

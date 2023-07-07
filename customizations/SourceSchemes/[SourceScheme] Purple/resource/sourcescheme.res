@@ -18,7 +18,6 @@
 
 		"MainTheme"											"165 50 235 255"
 	}
-
 	"BaseSettings"
 	{
 		Border.Bright										"Blank"
@@ -40,10 +39,10 @@
 		CheckButton.HighlightFgColor						"MainTheme"
 		CheckButton.ArmedBgColor							"Blank"
 		CheckButton.DepressedBgColor						"Blank"
-		CheckButton.Border1  								"Blank"
-		CheckButton.Border2  								"Blank"
+		CheckButton.Border1									"Blank"
+		CheckButton.Border2									"Blank"
 		CheckButton.Check									"White"
-		CheckButton.DisabledBgColor	   						"Blank"
+		CheckButton.DisabledBgColor							"Blank"
 
 		ToggleButton.SelectedTextColor						"OffWhite"
 
@@ -115,65 +114,39 @@
 
 		Console.TextColor									"MainTheme"
 	}
-
-	"Borders"
+	"Fonts"
 	{
-		"FrameBorder"
+		//=========================================================================================================================
+		// NETGRAPH FONT
+		//-------------------------------------------------------------------------------------------------------------------------
+		// TF2's Default NetGraph Font is "Lucida Console" 
+		// You can use any font you wish but some valid alternatives are "Microsoft Sans Serif" "Georgia" "Impact" "Arial MT"
+		// The font size can by changed by editing the "tall" value
+		// "outline" if set to "1" will add an outline around the text
+		// "dropshadow" if set to "1" will add a shadow around the text
+		// "antialias" if set to "1" will make the character edges smoother
+		//=========================================================================================================================
+		"DefaultFixedOutline"
 		{
-			"Left"
+			"1"
 			{
-				"1"
-				{
-					"color" 								"Border.DarkSolid"
-					"offset" 								"0 0"
-				}
-				"2"
-				{
-					"color" 								"Border.DarkSolid"
-					"offset" 								"0 0"
-				}
+				"name"										"Lucida Console"
+				"tall"										"10"
+				"outline"									"1"
+				"dropshadow"								"0"
+				"antialias"									"0"
 			}
-
-			"Right"
+		}
+		//=========================================================================================================================
+		// CONSOLE FONT
+		//=========================================================================================================================
+		"ConsoleText"
+		{
+			"1"
 			{
-				"1"
-				{
-					"color" 								"Border.DarkSolid"
-					"offset" 								"0 0"
-				}
-				"2"
-				{
-					"color" 								"Border.DarkSolid"
-					"offset" 								"0 0"
-				}
-			}
-
-			"Top"
-			{
-				"1"
-				{
-					"color" 								"Border.DarkSolid"
-					"offset" 								"0 0"
-				}
-				"2"
-				{
-					"color" 								"Border.DarkSolid"
-					"offset" 								"0 0"
-				}
-			}
-
-			"Bottom"
-			{
-				"1"
-				{
-					"color" 								"Border.DarkSolid"
-					"offset" 								"0 0"
-				}
-				"2"
-				{
-					"color"									"Border.DarkSolid"
-					"offset" 								"0 0"
-				}
+				"name"										"Lucida Console"
+				"tall"										"10"
+				"weight"									"500"
 			}
 		}
 	}

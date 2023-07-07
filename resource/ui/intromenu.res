@@ -13,7 +13,6 @@
 		"paintbackground"							"1"
 		"bgcolor_override"							"0 0 0 200"
 	}
-
 	"VideoPanel"
 	{
 		"ControlName"								"CTFVideoPanel"
@@ -29,7 +28,6 @@
 		"end_delay"									"0"
 		"proportionaltoparent"						"1"
 	}
-
 	"VideoCaption"
 	{
 		"ControlName"								"CExLabel"
@@ -55,7 +53,6 @@
 		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
 		"pin_to_sibling_corner"						"PIN_CENTER_BOTTOM"
 	}
-
 	"Skip"
 	{
 		"ControlName"								"CExButton"
@@ -76,14 +73,13 @@
 		"paintborder"								"0"
 
 		"defaultFgColor_override"					"White"
-		"armedFgColor_override" 					"Menu Labels"
-		"depressedFgColor_override" 				"White"
+		"armedFgColor_override"						"Menu Labels"
+		"depressedFgColor_override"					"White"
 
 		"pin_to_sibling"							"VideoCaption"
 		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
 		"pin_to_sibling_corner"						"PIN_CENTER_BOTTOM"
 	}
-
 	"Back"
 	{
 		"ControlName"								"CExButton"
@@ -104,8 +100,8 @@
 		"paintborder"								"0"
 
 		"defaultFgColor_override"					"White"
-		"armedFgColor_override" 					"Menu Labels"
-		"depressedFgColor_override" 				"White"
+		"armedFgColor_override"						"Menu Labels"
+		"depressedFgColor_override"					"White"
 
 		"pin_to_sibling"							"Skip"
 		"pin_corner_to_sibling"						"PIN_CENTER_TOP"

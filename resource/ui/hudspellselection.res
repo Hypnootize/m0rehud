@@ -2,12 +2,11 @@
 {
 	"HudSpellMenu"
 	{
-		"xpos"										"c162"
+		"xpos"										"c-190"
 		"ypos"										"rs1-4"
 		"wide"										"35"
 		"tall"										"30"
 	}
-
 	"SpellIcon"
 	{
 		"ControlName"								"ImagePanel"
@@ -24,14 +23,13 @@
 		"image"										"../signs/death_wheel_whammy"
 		"fgcolor"									"White"
 	}
-
 	"CountText"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"CountText"
 		"font"										"m0refont24"
 		"labelText"									"%counttext%"
-		"textAlignment" 							"center"
+		"textAlignment"								"center"
 		"xpos"										"rs1"
 		"ypos"										"0"
 		"zpos"										"1"
@@ -46,7 +44,7 @@
 		"fieldName"									"CountTextShadow"
 		"font"										"m0refont24"
 		"labelText"									"%counttext%"
-		"textAlignment" 							"center"
+		"textAlignment"								"center"
 		"xpos"										"-1"
 		"ypos"										"-1"
 		"wide"										"20"
@@ -56,21 +54,20 @@
 
 		"pin_to_sibling"							"CountText"
 	}
-
 	"ActionText"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"ActionText"
-		"font"										"DefaultVerySmall"
-		"labelText"									"%actiontext%"
-		"textAlignment"							 	"center"
 		"xpos"										"cs-0.5"
 		"ypos"										"rs1"
 		"wide"										"f0"
 		"tall"										"8"
-		"fgcolor"									"White"
-		"visible"									"1"
 		"proportionaltoparent"						"1"
+		"visible"									"1"
+		"font"										"DefaultVerySmall"
+		"labelText"									"%actiontext%"
+		"textAlignment"								"center"
+		"fgcolor"									"White"
 	}
 
 

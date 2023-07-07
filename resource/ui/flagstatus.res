@@ -19,7 +19,6 @@
 			"tall"									"50"
 		}
 	}
-
 	"Briefcase"
 	{
 		"ControlName"								"CTFImagePanel"
@@ -44,7 +43,6 @@
 			"tall"									"25"
 		}
 	}
-
 	"StatusIcon"
 	{
 		"ControlName"								"CTFImagePanel"

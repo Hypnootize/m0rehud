@@ -16,7 +16,6 @@
 		"fgcolor"									"Last Damage Done"
 		"font"										"m0refont24"
 	}
-
 	"DamageAccountValueShadow"
 	{
 		"ControlName"								"CExLabel"

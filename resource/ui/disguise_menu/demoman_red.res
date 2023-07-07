@@ -6,7 +6,6 @@
 	{
 		"icon"										"hud_menu_demoman_red"
 	}
-
 	"NumberLabel"
 	{
 		"labelText"									"4"

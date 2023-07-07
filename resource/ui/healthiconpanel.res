@@ -14,7 +14,6 @@
 		"TextColor"									"HudOffWhite"
 		"autoResize"								"1"
 	}
-
 	"SpectatorGUIHealth"
 	{
 		"ControlName"								"EditablePanel"
@@ -28,6 +27,6 @@
 		"TFFont"									"HudFontSmall"
 		"TextColor"									"HudOffWhite"
 		"autoResize"								"1"
-		"HealthBonusPosAdj"     					"23"
+		"HealthBonusPosAdj"							"23"
 	}
 }

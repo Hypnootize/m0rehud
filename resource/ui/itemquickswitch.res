@@ -26,7 +26,7 @@
 			"bgcolor_override"						"59 54 48 0"
 			"PaintBackgroundType"					"0"
 			"paintborder"							"0"
-			"text_forcesize" 						"2"
+			"text_forcesize"						"2"
 
 			"model_xpos"							"25"
 			"model_ypos"							"3"
@@ -41,7 +41,6 @@
 			"noitem_textcolor"						"117 107 94 255"
 		}
 	}
-
 	"TopLine"
 	{
 		"ControlName"								"EditablePanel"
@@ -56,9 +55,8 @@
 		"proportionaltoparent"						"1"
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
-		"bgcolor_override" 							"White"
+		"bgcolor_override"							"White"
 	}
-
 	"ItemSlotLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -77,7 +75,6 @@
 		"fgcolor"									"Black"
 		"pin_to_sibling"							"TopLine"
 	}
-
 	"itemcontainerscroller"
 	{
 		"ControlName"								"EditablePanel"
@@ -89,9 +86,8 @@
 		"proportionaltoparent"						"1"
 		"fgcolor_override"							"White"
 		"paintbackground"							"0"
-		"autohide_buttons" 							"1"
+		"autohide_buttons"							"1"
 	}
-
 	"itemcontainer"
 	{
 		"ControlName"								"EditablePanel"
@@ -116,10 +112,9 @@
 			"wide"									"35"
 			"tall"									"10"
 			"visible"								"1"
-			"fgcolor" 								"White"
+			"fgcolor"								"White"
 		}
 	}
-
 	"loadout_preset_panel"
 	{
 		"ControlName"								"CLoadoutPresetPanel"

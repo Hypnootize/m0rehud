@@ -2,21 +2,20 @@
 {
 	"Background"
 	{
-		"ControlName"		     					"EditablePanel"
+		"ControlName"								"EditablePanel"
 		"fieldName"									"Background"
 		"xpos"										"0"
 		"ypos"										"0"
 		"zpos"										"0"
 		"wide"										"f0"
 		"tall"										"f0"
-		"visible"		        					"1"
-		"enabled"	          						"1"
+		"visible"									"1"
+		"enabled"									"1"
 		"proportionaltoparent"						"1"
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
 		"bgcolor_override"							"0 0 0 100"
 	}
-
 	"DestroyIcon"
 	{
 		"ControlName"								"CIconPanel"
@@ -33,7 +32,6 @@
 		"icon"										"ico_demolish"
 		"iconColor"									"White"
 	}
-
 	"BuildingIcon"
 	{
 		"ControlName"								"CIconPanel"
@@ -50,7 +48,6 @@
 		"icon"										"obj_status_dispenser"
 		"iconColor"									"255 255 255 255"
 	}
-
 	"NotBuiltLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -69,7 +66,6 @@
 		"centerwrap"								"1"
 		"fgcolor"									"255 0 0 255"
 	}
-
 	"NumberLabel"
 	{
 		"ControlName"								"CExLabel"

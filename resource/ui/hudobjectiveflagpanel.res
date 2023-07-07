@@ -21,7 +21,6 @@
 	//==================================================================================================================================================
 	// BLUE
 	//==================================================================================================================================================
-
 	"BlueScore"
 	{
 		"ControlName"								"CExLabel"
@@ -84,7 +83,6 @@
 			"visible"								"0"
 		}
 	}
-
 	"BlueFlag"
 	{
 		"ControlName"								"CTFFlagStatus"
@@ -119,7 +117,6 @@
 	//==================================================================================================================================================
 	// RED
 	//==================================================================================================================================================
-
 	"RedScore"
 	{
 		"ControlName"								"CExLabel"
@@ -182,7 +179,6 @@
 			"visible"								"0"
 		}
 	}
-
 	"RedFlag"
 	{
 		"ControlName"								"CTFFlagStatus"
@@ -241,7 +237,6 @@
 			"visible"								"0"
 		}
 	}
-
 	"CaptureFlag"
 	{
 		"ControlName"								"CTFArrowPanel"
@@ -255,7 +250,6 @@
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 	}
-
 	"CarriedImage"
 	{
 		"ControlName"								"ImagePanel"
@@ -279,7 +273,6 @@
 			"ypos"									"-11"
 		}
 	}
-
 	"SpecCarriedImage"
 	{
 		"ControlName"								"ImagePanel"
@@ -295,7 +288,6 @@
 		"scaleImage"								"1"
 		"proportionaltoparent"						"1"
 	}
-
 	"PoisonIcon"
 	{
 		"ControlName"								"ImagePanel"
@@ -312,7 +304,6 @@
 		"proportionaltoparent"						"1"
 		"alpha"										"100"
 	}
-
 	"PoisonTimeLabel"
 	{
 		"ControlName"								"CExLabel"

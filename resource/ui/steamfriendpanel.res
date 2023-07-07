@@ -11,7 +11,6 @@
 		"mouseinputenabled"							"0"
 		"scaleImage"								"1"
 	}
-
 	"InteractButton"
 	{
 		"fieldName"									"InteractButton"
@@ -34,7 +33,6 @@
 		"border_default"							"NoBorder"
 		"border_armed"								"FriendHighlightBorder"
 	}
-
 	"NameLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -54,7 +52,6 @@
 		"mouseinputenabled"							"0"
 		"fgcolor"									"White"
 	}
-
 	"StatusLabel"
 	{
 		"fieldName"									"StatusLabel"

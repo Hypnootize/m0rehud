@@ -10,11 +10,9 @@
 		"visible"									"1"
 		"enabled"									"1"
 	}
-
 	"specgui"
 	{
 	}
-
 	"ReinforcementsLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -28,14 +26,13 @@
 		"labelText"									"#game_respawntime_in_secs"
 		"textAlignment"								"center"
 		"font"										"m0refont11"
-		"fgcolor"   								"White"
+		"fgcolor"									"White"
 
 		"if_mvm"
 		{
 			"ypos"									"200"
 		}
 	}
-
 	"BuyBackLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -52,7 +49,6 @@
 		"wrap"										"1"
 		"centerwrap"								"1"
 	}
-
 	"spectator_extras"
 	{
 		"ControlName"								"EditablePanel"

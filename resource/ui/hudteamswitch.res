@@ -18,7 +18,6 @@
 		"fgcolor"									"White"
 		"textAlignment"								"center"
 	}
-
 	"BalanceLabel"
 	{
 		"ControlName"								"CExLabel"

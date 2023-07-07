@@ -12,7 +12,6 @@
 		"visible"									"0"
 		"enabled"									"1"
 	}
-
 	"EnemyCountImage"
 	{
 		"ControlName"								"CTFImagePanel"
@@ -26,7 +25,6 @@
 		"enabled"									"1"
 		"scaleImage"								"1"
 	}
-
 	"EnemyCountImageBG"
 	{
 		"ControlName"								"Panel"
@@ -39,10 +37,9 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"scaleImage"								"1"
-		"PaintBackgroundType" 						"0"
+		"PaintBackgroundType"						"0"
 		"bgcolor_override"							"White"
 	}
-
 	"EnemyCountCritImageBG"
 	{
 		"ControlName"								"CTFImagePanel"
@@ -55,10 +52,9 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"scaleImage"								"1"
-		"PaintBackgroundType" 						"0"
+		"PaintBackgroundType"						"0"
 		"image"										"../hud/leaderboard_class_critical"
 	}
-
 	"EnemyCount"
 	{
 		"ControlName"								"CExLabel"

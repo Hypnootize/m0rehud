@@ -17,7 +17,6 @@
 		"font"										"m0refont16"
 		"fgcolor"									"White"
 	}
-
 	"CurrencyShadow"
 	{
 		"ControlName"								"CExLabel"

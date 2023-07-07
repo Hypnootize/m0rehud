@@ -11,7 +11,6 @@
 		"visible"									"1"
 		"enabled"									"1"
 	}
-
 	"Icon_Sentry_1"
 	{
 		"ControlName"								"CIconPanel"
@@ -28,7 +27,6 @@
 		"iconColor"									"White"
 		"alpha"										"150"
 	}
-
 	"BuiltPanel"
 	{
 		"ControlName"								"EditablePanel"
@@ -56,9 +54,8 @@
 			"proportionaltoparent"					"1"
 			"icon"									"obj_status_upgrade_1"
 			"iconColor"								"White"
-			"alpha" 								"150"
+			"alpha"									"150"
 		}
-
 		"Icon_Upgrade_2"
 		{
 			"ControlName"							"CIconPanel"
@@ -74,9 +71,8 @@
 			"proportionaltoparent"					"1"
 			"icon"									"obj_status_upgrade_2"
 			"iconColor"								"White"
-			"alpha" 								"150"
+			"alpha"									"150"
 		}
-
 		"Icon_Upgrade_3"
 		{
 			"ControlName"							"CIconPanel"
@@ -92,9 +88,8 @@
 			"proportionaltoparent"					"1"
 			"icon"									"obj_status_upgrade_3"
 			"iconColor"								"White"
-			"alpha" 								"150"
+			"alpha"									"150"
 		}
-
 		"SapperIcon"
 		{
 			"ControlName"							"CIconPanel"
@@ -113,7 +108,6 @@
 			"paintbackground"						"1"
 			"bgcolor_override"						"200 0 0 150"
 		}
-
 		"Health"
 		{
 			"ControlName"							"CBuildingHealthBar"
@@ -125,9 +119,8 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
-			"alpha" 								"150"
+			"alpha"									"150"
 		}
-
 		"BuildingPanel"
 		{
 			"ControlName"							"EditablePanel"
@@ -150,7 +143,7 @@
 				"visible"							"1"
 				"enabled"							"1"
 				"proportionaltoparent"				"1"
-				"alpha" 							"150"
+				"alpha"								"150"
 			}
 			"BuildingLabel"
 			{
@@ -164,7 +157,6 @@
 				"enabled"							"0"
 			}
 		}
-
 		"RunningPanel"
 		{
 			"ControlName"							"EditablePanel"
@@ -190,7 +182,7 @@
 				"scaleImage"						"1"
 				"image"								"../hud/hud_obj_status_kill_64"
 				"drawcolor"							"ProgressOffWhite"
-				"alpha" 							"150"
+				"alpha"								"150"
 			}
 			"KillsLabel"
 			{
@@ -205,8 +197,8 @@
 				"enabled"							"1"
 				"labelText"							"#Building_hud_sentry_kills_assists"
 				"textAlignment"						"west"
-				"alpha" 							"150"
-				"fgcolor" 							"ProgressOffWhite"
+				"alpha"								"150"
+				"fgcolor"							"ProgressOffWhite"
 			}
 
 			"ShellIcon"
@@ -223,7 +215,7 @@
 				"scaleImage"						"1"
 				"image"								"../hud/hud_obj_status_ammo_64"
 				"drawcolor"							"ProgressOffWhite"
-				"alpha" 							"150"
+				"alpha"								"150"
 			}
 			"Shells"
 			{
@@ -235,8 +227,8 @@
 				"tall"								"9"
 				"visible"							"1"
 				"enabled"							"1"
-				"alpha" 							"150"
-				"fgcolor_override" 					"ProgressOffWhite"
+				"alpha"								"150"
+				"fgcolor_override"					"ProgressOffWhite"
 			}
 		}
 

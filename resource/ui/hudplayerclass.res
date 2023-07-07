@@ -15,7 +15,6 @@
 		"visible"									"1"
 		"enabled"									"1"
 	}
-
 	"PlayerStatusClassImage"
 	{
 		"ControlName"								"CTFClassImage"
@@ -31,7 +30,6 @@
 		"scaleImage"								"1"
 		"alpha"										"0"			// 255 to enable
 	}
-
 	"PlayerStatusSpyOutlineImage"
 	{
 		"ControlName"								"CTFImagePanel"
@@ -46,7 +44,6 @@
 		"image"										"../hud/class_spy_outline"
 		"scaleImage"								"1"
 	}
-
 	"classmodelpanel"
 	{
 		"ControlName"								"CTFPlayerModelPanel"
@@ -67,16 +64,16 @@
 		{
 			"force_pos"								"1"
 
-			"angles_x" 								"0"
-			"angles_y" 								"172"
-			"angles_z" 								"0"
-			"origin_x" 								"200"
-			"origin_y" 								"0"
-			"origin_z" 								"-60"
+			"angles_x"								"0"
+			"angles_y"								"172"
+			"angles_z"								"0"
+			"origin_x"								"200"
+			"origin_y"								"0"
+			"origin_z"								"-60"
 			"frame_origin_x"						"0"
 			"frame_origin_y"						"0"
 			"frame_origin_z"						"0"
-			"spotlight" 							"1"
+			"spotlight"								"1"
 
 			"modelname"								""
 		}
@@ -178,7 +175,6 @@
 			}
 		}
 	}
-
 	"CarryingWeapon"
 	{
 		"ControlName"								"EditablePanel"
@@ -187,7 +183,7 @@
 		"ypos"										"9999"		//r25 to enable
 		"zpos"										"100"
 		"wide"										"500"
-		"tall"	 									"28"
+		"tall"										"28"
 
 		"CarryingBackground"
 		{
@@ -197,7 +193,7 @@
 			"ypos"									"0"
 			"zpos"									"0"
 			"wide"									"f0"
-			"tall"	 								"f0"
+			"tall"									"f0"
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
@@ -210,10 +206,9 @@
 			"src_corner_height"						"15"
 			"src_corner_width"						"15"
 			"draw_corner_width"						"0"
-			"draw_corner_height" 					"0"
+			"draw_corner_height"					"0"
 
 		}
-
 		"CarryingLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -223,7 +218,7 @@
 			"ypos"									"0"
 			"zpos"									"1"
 			"wide"									"200"
-			"tall"	 								"f0"
+			"tall"									"f0"
 			"visible"								"1"
 			"enabled"								"1"
 			"textAlignment"							"North-West"
@@ -232,7 +227,6 @@
 			"labelText"								"%carrying%"
 			"fgcolor"								"White"
 		}
-
 		"OwnerLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -242,7 +236,7 @@
 			"ypos"									"10"
 			"zpos"									"0"
 			"wide"									"200"
-			"tall"	 								"f0"
+			"tall"									"f0"
 			"visible"								"1"
 			"enabled"								"1"
 			"textAlignment"							"North-West"
@@ -250,7 +244,6 @@
 			"auto_wide_tocontents"					"1"
 			"fgcolor"								"White"
 		}
-
 		"CarryingLabelDropShadow"
 		{
 			"ControlName"							"CExLabel"

@@ -10,7 +10,6 @@
 		"delta_lifetime"							"1"
 		"delta_item_font"							"m0refont14"
 	}
-
 	"AccountValue"
 	{
 		"ControlName"								"CExLabel"
@@ -25,7 +24,7 @@
 		"labelText"									"%metal%"
 		"textAlignment"								"center"
 		"font"										"m0refont16"
-		"fgcolor"   								"White"
+		"fgcolor"									"White"
 	}
 	"AccountValueShadow"
 	{
@@ -41,7 +40,7 @@
 		"labelText"									"%metal%"
 		"textAlignment"								"center"
 		"font"										"m0refont16"
-		"fgcolor"   								"Black"
+		"fgcolor"									"Black"
 
 		"pin_to_sibling"							"AccountValue"
 	}

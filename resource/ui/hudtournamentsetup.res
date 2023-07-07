@@ -17,13 +17,12 @@
 		"unicode"									"0"
 		"roundedcorners"							"0"
 		"proportionaltoparent"						"1"
-		"font" 										"m0refont11"
+		"font"										"m0refont11"
 		"fgcolor_override"							"White"
 		"bgcolor_override"							"0 0 0 100"
 		"labelText"									"%teamname%"
 		"textAlignment"								"center"
 	}
-
 	"TournamentReadyButton"
 	{
 		"ControlName"								"CExButton"
@@ -40,13 +39,12 @@
 		"command"									"teamready"
 		"font"										"m0refont11"
 		"fgcolor"									"White"
-		"defaultFgColor_override" 					"White"
+		"defaultFgColor_override"					"White"
 		"armedFgColor_override"						"0 200 0 255"
-		"depressedFgColor_override" 				"0 200 0 255"
-		"selectedFgColor_override" 					"0 200 0 255"
+		"depressedFgColor_override"					"0 200 0 255"
+		"selectedFgColor_override"					"0 200 0 255"
 		"paintbackground"							"0"
 	}
-
 	"TournamentSlash"
 	{
 		"ControlName"								"CExLabel"
@@ -64,11 +62,10 @@
 		"fgcolor"									"White"
 		"mouseinputenabled"							"0"
 
-		"pin_to_sibling" 							"TournamentReadyButton"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
+		"pin_to_sibling"							"TournamentReadyButton"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 	}
-
 	"TournamentNotReadyButton"
 	{
 		"ControlName"								"CExButton"
@@ -85,15 +82,15 @@
 		"command"									"teamnotready"
 		"font"										"m0refont11"
 		"fgcolor"									"White"
-		"defaultFgColor_override" 					"White"
-		"armedFgColor_override" 					"255 50 50 255"
-		"depressedFgColor_override" 				"255 50 50 255"
-		"selectedFgColor_override" 					"255 50 50 255"
+		"defaultFgColor_override"					"White"
+		"armedFgColor_override"						"255 50 50 255"
+		"depressedFgColor_override"					"255 50 50 255"
+		"selectedFgColor_override"					"255 50 50 255"
 		"paintbackground"							"0"
 
-		"pin_to_sibling" 							"Tournamentslash"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
+		"pin_to_sibling"							"Tournamentslash"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 	}
 
 
@@ -104,8 +101,8 @@
 
 	"HudTournamentSetupBG"
 	{
-		"ControlName"	      						"ScalableImagePanel"
-		"fieldName"		       					 	"HudTournamentSetupBG"
+		"ControlName"								"ScalableImagePanel"
+		"fieldName"									"HudTournamentSetupBG"
 		"xpos"										"9999"
 		"ypos"										"9999"
 		"wide"										"0"

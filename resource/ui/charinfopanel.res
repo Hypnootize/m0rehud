@@ -27,7 +27,6 @@
 		"clientinsetx_override"						"0"
 		"sheetinset_bottom"							"40"
 	}
-
 	"BackgroundHeader"
 	{
 		"ControlName"								"ImagePanel"
@@ -42,7 +41,6 @@
 		"image"										"loadout_header"
 		"tileImage"									"1"
 	}
-
 	"BackgroundFooter"
 	{
 		"ControlName"								"ImagePanel"
@@ -57,7 +55,6 @@
 		"image"										"loadout_bottom_gradient"
 		"tileImage"									"1"
 	}
-
 	"FooterLine"
 	{
 		"ControlName"								"ImagePanel"
@@ -72,7 +69,6 @@
 		"image"										"loadout_solid_line"
 		"scaleImage"								"1"
 	}
-
 	"Sheet"
 	{
 		"ControlName"								"EditablePanel"
@@ -81,7 +77,7 @@
 		"tabxdelta"									"10"
 		"tabwidth"									"240"
 		"tabheight"									"20"
-		"transition_time" 							"0"
+		"transition_time"							"0"
 		"yoffset"									"14"
 
 		"HeaderLine"
@@ -98,7 +94,6 @@
 			"image"									"loadout_solid_line"
 			"scaleImage"							"1"
 		}
-
 		"tabskv"
 		{
 			"textinsetx"							"40"
@@ -108,10 +103,9 @@
 			"defaultBgColor_override"				"46 43 42 255"
 			"paintbackground"						"0"
 			"activeborder_override"					"OutlinedGreyBox"
-			"normalborder_override" 				"OutlinedDullGreyBox"
+			"normalborder_override"					"OutlinedDullGreyBox"
 		}
 	}
-
 	"BackButton"
 	{
 		"ControlName"								"CExButton"
@@ -131,7 +125,6 @@
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
 	}
-
 	"CloseButton"
 	{
 		"ControlName"								"CExButton"
@@ -151,7 +144,6 @@
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
 	}
-
 	"NotificationsPresentPanel"
 	{
 		"ControlName"								"CNotificationsPresentPanel"
@@ -164,7 +156,6 @@
 		"visible"									"0"
 		"enabled"									"1"
 	}
-
 	"ReloadSchemeButton"
 	{
 		"ControlName"								"CExButton"

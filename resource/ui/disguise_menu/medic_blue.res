@@ -6,7 +6,6 @@
 	{
 		"icon"										"hud_menu_medic_blu"
 	}
-
 	"NumberLabel"
 	{
 		"labelText"									"7"

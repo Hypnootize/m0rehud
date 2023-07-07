@@ -6,17 +6,14 @@
 	{
 		"visible"									"0"
 	}
-
 	"BuildingIcon"
 	{
 		"visible"									"0"
 	}
-
 	"NotBuiltLabel"
 	{
 		"visible"									"1"
 	}
-
 	"NumberLabel"
 	{
 		"visible"									"0"

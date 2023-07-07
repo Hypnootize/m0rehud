@@ -2,14 +2,14 @@
 {
 	"scores"
 	{
-		"ControlName"	        					"CTFClientScoreBoardDialog"
-		"fieldName"	          						"scores"
-		"xpos"		            					"0"
-		"ypos"		            					"31"
-		"wide"		            					"f0"
-		"tall"			            				"480"
-		"visible"		           					"1"
-		"enabled"		            				"1"
+		"ControlName"								"CTFClientScoreBoardDialog"
+		"fieldName"									"scores"
+		"xpos"										"0"
+		"ypos"										"31"
+		"wide"										"f0"
+		"tall"										"480"
+		"visible"									"1"
+		"enabled"									"1"
 
 		"medal_width"								"12"
 		"avatar_width"								"55"
@@ -20,58 +20,44 @@
 		"score_width"								"20"
 		"ping_width"								"20"
 		"killstreak_width"							"12"
-		"killstreak_image_width" 					"12"
+		"killstreak_image_width"					"12"
 	}
 
 	"BluePlayerList"
 	{
-		"ControlName"	        					"SectionedListPanel"
-		"fieldName"		        					"BluePlayerList"
-		"xpos"			          					"cs-1"
-		"ypos"			          					"c-170"
-		"zpos"			          					"20"
-		"wide"			          					"295"
-		"tall"			          					"340"
-		"visible"		          					"1"
-		"enabled"		          					"1"
-		"linespacing"       						"18"
-		"linegap"       							"0"
-		"fgcolor"		          					"blue"
-
-		"xpos_minmode"        						"c-143"
-		"ypos_minmode"        						"c15"
-		"wide_minmode"        						"286"
-		"tall_minmode"			  					"88"
-		"linespacing_minmode"						"12"
+		"ControlName"								"SectionedListPanel"
+		"fieldName"									"BluePlayerList"
+		"xpos"										"cs-1"
+		"ypos"										"c-170"
+		"zpos"										"20"
+		"wide"										"295"
+		"tall"										"340"
+		"visible"									"1"
+		"enabled"									"1"
+		"linespacing"								"18"
+		"linegap"									"0"
+		"fgcolor"									"blue"
 	}
-
 	"RedPlayerList"
 	{
 		"ControlName"								"SectionedListPanel"
 		"fieldName"									"RedPlayerList"
-		"xpos"			         					"cs-0"
-		"ypos"			          					"c-170"
-		"zpos"			          					"20"
-		"wide"			          					"295"
-		"tall"			          					"340"
-		"visible"		          					"1"
-		"enabled"		          					"1"
-		"linespacing"       						"18"
-		"linegap"       							"0"
+		"xpos"										"cs-0"
+		"ypos"										"c-170"
+		"zpos"										"20"
+		"wide"										"295"
+		"tall"										"340"
+		"visible"									"1"
+		"enabled"									"1"
+		"linespacing"								"18"
+		"linegap"									"0"
 		"textcolor"									"red"
-
-		"xpos_minmode"        						"c-143"
-		"ypos_minmode"        						"c98"
-		"wide_minmode"        						"286"
-		"tall_minmode"			  					"88"
-		"linespacing_minmode"						"12"
 	}
 
 	//==================================================================================================================================================
 	// TOP BAR ANCHOR
 	// Moves the blue and red bars and scores
 	//==================================================================================================================================================
-
 	"TopBarAnchor"
 	{
 		"ControlName"								"EditablePanel"
@@ -88,18 +74,18 @@
 	"WhiteBG"
 	{
 		"ControlName"								"EditablePanel"
-		"fieldname"    								"WhiteBG"
-		"xpos"		    							"0"
-		"ypos"		    							"0"
-		"zpos"          							"-1"
-		"wide"		    							"2"
-		"tall"		    							"15"
-		"visible"	    							"1"
-		"enabled"		    						"1"
-		"proportionaltoparent"		    			"1"
-		"PaintBackground"		    				"1"
-		"PaintBackgroundType"     					"0"
-		"bgcolor_override"     						"White"
+		"fieldname"									"WhiteBG"
+		"xpos"										"0"
+		"ypos"										"0"
+		"zpos"										"-1"
+		"wide"										"2"
+		"tall"										"15"
+		"visible"									"1"
+		"enabled"									"1"
+		"proportionaltoparent"						"1"
+		"PaintBackground"							"1"
+		"PaintBackgroundType"						"0"
+		"bgcolor_override"							"White"
 
 		"pin_to_sibling"							"TopBarAnchor"
 
@@ -112,7 +98,6 @@
 	//==================================================================================================================================================
 	// BLUE
 	//==================================================================================================================================================
-
 	"BlueScoreBG"
 	{
 		"ControlName"								"EditablePanel"
@@ -123,11 +108,10 @@
 		"tall"										"15"
 		"visible"									"1"
 		"enabled"									"1"
-
-		"proportionaltoparent"		    			"1"
-		"PaintBackground"		    				"1"
-		"PaintBackgroundType"     					"0"
-		"bgcolor_override"     						"TF2Blue"
+		"proportionaltoparent"						"1"
+		"PaintBackground"							"1"
+		"PaintBackgroundType"						"0"
+		"bgcolor_override"							"Blue"
 
 		"pin_to_sibling"							"WhiteBG"
 		"pin_corner_to_sibling"						"PIN_TOPRIGHT"
@@ -138,7 +122,6 @@
 			"visible"								"0"
 		}
 	}
-
 	"BlueTeamName"
 	{
 		"ControlName"								"CExLabel"
@@ -152,7 +135,7 @@
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 		"font"										"m0refont11"
-		"fgcolor"   								"White"
+		"fgcolor"									"White"
 		"labelText"									"%blueteamname%"
 		"textAlignment"								"west"
 
@@ -163,7 +146,6 @@
 			"visible"								"0"
 		}
 	}
-
 	"BlueTeamScore"
 	{
 		"ControlName"								"CExLabel"
@@ -176,7 +158,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"font"										"m0refont48"
-		"fgcolor"  									"White"
+		"fgcolor"									"White"
 		"labelText"									"%blueteamscore%"
 		"textAlignment"								"east"
 
@@ -189,7 +171,6 @@
 			"visible"								"0"
 		}
 	}
-
 	"BlueTeamPlayerCount"
 	{
 		"ControlName"								"CExLabel"
@@ -202,7 +183,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"font"										"m0refont11"
-		"fgcolor"  									"White"
+		"fgcolor"									"White"
 		"labelText"									"%blueteamplayercount%"
 		"textAlignment"								"center"
 
@@ -219,7 +200,6 @@
 	//==================================================================================================================================================
 	// RED
 	//==================================================================================================================================================
-
 	"RedScoreBG"
 	{
 		"ControlName"								"EditablePanel"
@@ -231,10 +211,10 @@
 		"visible"									"1"
 		"enabled"									"1"
 
-		"proportionaltoparent"		    			"1"
-		"PaintBackground"		    				"1"
-		"PaintBackgroundType"     					"0"
-		"bgcolor_override"     						"TF2Red"
+		"proportionaltoparent"						"1"
+		"PaintBackground"							"1"
+		"PaintBackgroundType"						"0"
+		"bgcolor_override"							"Red"
 
 		"pin_to_sibling"							"WhiteBG"
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
@@ -245,7 +225,6 @@
 			"visible"								"0"
 		}
 	}
-
 	"RedTeamName"
 	{
 		"ControlName"								"CExLabel"
@@ -258,7 +237,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"font"										"m0refont11"
-		"fgcolor"   								"White"
+		"fgcolor"									"White"
 		"labelText"									"%redteamname%"
 		"textAlignment"								"east"
 
@@ -271,7 +250,6 @@
 			"visible"								"0"
 		}
 	}
-
 	"RedTeamScore"
 	{
 		"ControlName"								"CExLabel"
@@ -284,7 +262,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"font"										"m0refont48"
-		"fgcolor"  									"White"
+		"fgcolor"									"White"
 		"labelText"									"%redteamscore%"
 		"textAlignment"								"west"
 
@@ -295,7 +273,6 @@
 			"visible"								"0"
 		}
 	}
-
 	"RedTeamPlayerCount"
 	{
 		"ControlName"								"CExLabel"
@@ -307,7 +284,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"font"										"m0refont11"
-		"fgcolor"   								"White"
+		"fgcolor"									"White"
 		"labelText"									"%redteamplayercount%"
 		"textAlignment"								"center"
 
@@ -342,21 +319,20 @@
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
 		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
 	}
-
 	"ServerTimeLeft"
 	{
-		"ControlName"		       					"CExLabel"
-		"fieldName"		          					"ServerTimeLeft"
-		"xpos"			           					"0"
-		"ypos"			           					"25"
-		"wide"			            				"f0"
-		"tall"			           					"15"
+		"ControlName"								"CExLabel"
+		"fieldName"									"ServerTimeLeft"
+		"xpos"										"0"
+		"ypos"										"25"
+		"wide"										"f0"
+		"tall"										"15"
 		"visible"									"1"
 		"enabled"									"1"
-		"font"			            				"m0refont11"
-		"fgcolor"               					"White"
-		"labelText"		        					"%servertimeleft%"
-		"textAlignment"     						"center"
+		"font"										"m0refont11"
+		"fgcolor"									"White"
+		"labelText"									"%servertimeleft%"
+		"textAlignment"								"center"
 
 		"pin_to_sibling"							"WhiteBG"
 		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
@@ -367,49 +343,46 @@
 			"visible"								"0"
 		}
 	}
-
 	"Spectators"
 	{
-		"ControlName"	  	     					"CExLabel"
-		"fieldName"	    	      					"Spectators"
-		"xpos"          							"-5"
-		"ypos" 		     							"0"
-		"zpos"		      	     					"4"
-		"wide"		      	      					"f0"
-		"tall"		      	      					"10"
-		"visible"		           					"1"
-		"enabled"	              					"1"
-		"font"		            					"ScoreboardVerySmall"
-		"fgcolor"              						"White"
-		"labelText"		          					"%spectators%"
+		"ControlName"								"CExLabel"
+		"fieldName"									"Spectators"
+		"xpos"										"-5"
+		"ypos"										"0"
+		"zpos"										"4"
+		"wide"										"f0"
+		"tall"										"10"
+		"visible"									"1"
+		"enabled"									"1"
+		"font"										"ScoreboardVerySmall"
+		"fgcolor"									"White"
+		"labelText"									"%spectators%"
 		"textAlignment"								"east"
 
 		"pin_to_sibling"							"RedScoreBG"
 		"pin_corner_to_sibling"						"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"						"PIN_BOTTOMRIGHT"
 	}
-
 	"SpectatorsInQueue"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"SpectatorsInQueue"
-		"xpos"          							"-5"
-		"ypos" 		     							"0"
-		"zpos"		      	     					"4"
-		"wide"		      	      					"f0"
-		"tall"		      	      					"10"
-		"visible"		           					"1"
-		"enabled"	              					"1"
+		"xpos"										"-5"
+		"ypos"										"0"
+		"zpos"										"4"
+		"wide"										"f0"
+		"tall"										"10"
+		"visible"									"1"
+		"enabled"									"1"
 		"font"										"ScoreboardVerySmall"
 		"labelText"									"%waitingtoplay%"
 		"textAlignment"								"east"
-		"fgcolor"              						"White"
+		"fgcolor"									"White"
 
 		"pin_to_sibling"							"RedScoreBG"
 		"pin_corner_to_sibling"						"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"						"PIN_BOTTOMRIGHT"
 	}
-
 	"ShadedBar"
 	{
 		"ControlName"								"ImagePanel"
@@ -428,7 +401,6 @@
 		"pin_corner_to_sibling"						"PIN_BOTTOMLEFT"
 		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
 	}
-
 	"HorizontalLine"
 	{
 		"ControlName"								"ImagePanel"
@@ -447,7 +419,6 @@
 		"pin_corner_to_sibling"						"PIN_BOTTOMLEFT"
 		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 	}
-
 	"MapName"
 	{
 		"ControlName"								"CExLabel"
@@ -468,7 +439,6 @@
 		"pin_corner_to_sibling"						"PIN_BOTTOMRIGHT"
 		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 	}
-
 	"LocalPlayerStatsPanel"
 	{
 		"ControlName"								"EditablePanel"
@@ -494,11 +464,10 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"font"									"m0refont48"
-			"fgcolor" 								"White"
+			"fgcolor"								"White"
 			"labelText"								":"
 			"textAlignment"							"center"
 		}
-
 		"KillsWhite"
 		{
 			"ControlName"							"CExLabel"
@@ -511,15 +480,14 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"font"									"m0refont48"
-			"fgcolor" 								"White"
+			"fgcolor"								"White"
 			"labelText"								"%kills%"
 			"textAlignment"							"east"
 
-			"pin_to_sibling" 						"K/D"
-			"pin_corner_to_sibling" 				"PIN_TOPRIGHT"
-			"pin_to_sibling_corner" 				"PIN_TOPLEFT"
+			"pin_to_sibling"						"K/D"
+			"pin_corner_to_sibling"					"PIN_TOPRIGHT"
+			"pin_to_sibling_corner"					"PIN_TOPLEFT"
 		}
-
 		"DeathsWhite"
 		{
 			"ControlName"							"CExLabel"
@@ -532,15 +500,14 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"font"									"m0refont48"
-			"fgcolor" 								"White"
+			"fgcolor"								"White"
 			"labelText"								"%deaths%"
 			"textAlignment"							"west"
 
-			"pin_to_sibling" 						"K/D"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
+			"pin_to_sibling"						"K/D"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}
-
 		"AssistsLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -553,11 +520,10 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"font"									"ScoreboardVerySmall"
-			"fgcolor" 								"White"
+			"fgcolor"								"White"
 			"labelText"								"#TF_ScoreBoard_AssistsLabel"
 			"textAlignment"							"east"
 		}
-
 		"AssistsWhite"
 		{
 			"ControlName"							"CExLabel"
@@ -570,15 +536,14 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"font"									"ScoreboardVerySmall"
-			"fgcolor" 								"White"
+			"fgcolor"								"White"
 			"labelText"								"%assists%"
 			"textAlignment"							"west"
 
-			"pin_to_sibling" 						"AssistsLabel"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
+			"pin_to_sibling"						"AssistsLabel"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}
-
 		"DestructionLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -591,15 +556,14 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"font"									"ScoreboardVerySmall"
-			"fgcolor" 								"White"
+			"fgcolor"								"White"
 			"labelText"								"#TF_ScoreBoard_DestructionLabel"
 			"textAlignment"							"east"
 
-			"pin_to_sibling" 						"AssistsLabel"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_BOTTOMLEFT"
+			"pin_to_sibling"						"AssistsLabel"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_BOTTOMLEFT"
 		}
-
 		"DestructionWhite"
 		{
 			"ControlName"							"CExLabel"
@@ -612,15 +576,14 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"font"									"ScoreboardVerySmall"
-			"fgcolor" 								"White"
+			"fgcolor"								"White"
 			"labelText"								"%destruction%"
 			"textAlignment"							"west"
 
-			"pin_to_sibling" 						"DestructionLabel"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
+			"pin_to_sibling"						"DestructionLabel"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}
-
 		"CapturesLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -633,15 +596,14 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"font"									"ScoreboardVerySmall"
-			"fgcolor" 								"White"
+			"fgcolor"								"White"
 			"labelText"								"#TF_ScoreBoard_CapturesLabel"
 			"textAlignment"							"east"
 
-			"pin_to_sibling" 						"AssistsWhite"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
+			"pin_to_sibling"						"AssistsWhite"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}
-
 		"CapturesWhite"
 		{
 			"ControlName"							"CExLabel"
@@ -654,15 +616,14 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"font"									"ScoreboardVerySmall"
-			"fgcolor" 								"White"
+			"fgcolor"								"White"
 			"labelText"								"%captures%"
 			"textAlignment"							"west"
 
-			"pin_to_sibling" 						"CapturesLabel"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
+			"pin_to_sibling"						"CapturesLabel"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}
-
 		"DefensesLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -675,15 +636,14 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"font"									"ScoreboardVerySmall"
-			"fgcolor" 								"White"
+			"fgcolor"								"White"
 			"labelText"								"#TF_ScoreBoard_DefensesLabel"
 			"textAlignment"							"east"
 
-			"pin_to_sibling" 						"CapturesLabel"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_BOTTOMLEFT"
+			"pin_to_sibling"						"CapturesLabel"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_BOTTOMLEFT"
 		}
-
 		"DefensesWhite"
 		{
 			"ControlName"							"CExLabel"
@@ -696,15 +656,14 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"font"									"ScoreboardVerySmall"
-			"fgcolor" 								"White"
+			"fgcolor"								"White"
 			"labelText"								"%defenses%"
 			"textAlignment"							"west"
 
-			"pin_to_sibling" 						"DefensesLabel"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
+			"pin_to_sibling"						"DefensesLabel"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}
-
 		"DominationLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -721,11 +680,10 @@
 			"labelText"								"#TF_ScoreBoard_DominationLabel"
 			"textAlignment"							"east"
 
-			"pin_to_sibling" 						"CapturesWhite"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
+			"pin_to_sibling"						"CapturesWhite"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}
-
 		"DominationWhite"
 		{
 			"ControlName"							"CExLabel"
@@ -738,15 +696,14 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"font"									"ScoreboardVerySmall"
-			"fgcolor" 								"White"
+			"fgcolor"								"White"
 			"labelText"								"%dominations%"
 			"textAlignment"							"west"
 
-			"pin_to_sibling" 						"DominationLabel"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
+			"pin_to_sibling"						"DominationLabel"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}
-
 		"RevengeLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -759,15 +716,14 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"font"									"ScoreboardVerySmall"
-			"fgcolor" 								"White"
+			"fgcolor"								"White"
 			"labelText"								"#TF_ScoreBoard_RevengeLabel"
 			"textAlignment"							"east"
 
-			"pin_to_sibling" 						"DominationLabel"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_BOTTOMLEFT"
+			"pin_to_sibling"						"DominationLabel"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_BOTTOMLEFT"
 		}
-
 		"RevengeWhite"
 		{
 			"ControlName"							"CExLabel"
@@ -780,15 +736,14 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"font"									"ScoreboardVerySmall"
-			"fgcolor" 								"White"
+			"fgcolor"								"White"
 			"labelText"								"%Revenge%"
 			"textAlignment"							"west"
 
-			"pin_to_sibling" 						"RevengeLabel"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
+			"pin_to_sibling"						"RevengeLabel"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}
-
 		"HealingLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -801,15 +756,14 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"font"									"ScoreboardVerySmall"
-			"fgcolor" 								"White"
+			"fgcolor"								"White"
 			"labelText"								"#TF_ScoreBoard_HealingLabel"
 			"textAlignment"							"east"
 
-			"pin_to_sibling" 						"DominationWhite"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
+			"pin_to_sibling"						"DominationWhite"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}
-
 		"HealingWhite"
 		{
 			"ControlName"							"CExLabel"
@@ -822,15 +776,14 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"font"									"ScoreboardVerySmall"
-			"fgcolor" 								"White"
+			"fgcolor"								"White"
 			"labelText"								"%healing%"
 			"textAlignment"							"west"
 
-			"pin_to_sibling" 						"HealingLabel"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
+			"pin_to_sibling"						"HealingLabel"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}
-
 		"InvulnLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -843,15 +796,14 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"font"									"ScoreboardVerySmall"
-			"fgcolor" 								"White"
+			"fgcolor"								"White"
 			"labelText"								"#TF_ScoreBoard_InvulnLabel"
 			"textAlignment"							"east"
 
-			"pin_to_sibling" 						"HealingLabel"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_BOTTOMLEFT"
+			"pin_to_sibling"						"HealingLabel"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_BOTTOMLEFT"
 		}
-
 		"InvulnWhite"
 		{
 			"ControlName"							"CExLabel"
@@ -864,15 +816,14 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"font"									"ScoreboardVerySmall"
-			"fgcolor" 								"White"
+			"fgcolor"								"White"
 			"labelText"								"%invulns%"
 			"textAlignment"							"west"
 
-			"pin_to_sibling" 						"InvulnLabel"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
+			"pin_to_sibling"						"InvulnLabel"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}
-
 		"TeleportsLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -885,15 +836,14 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"font"									"ScoreboardVerySmall"
-			"fgcolor" 								"White"
+			"fgcolor"								"White"
 			"labelText"								"#TF_ScoreBoard_TeleportsLabel"
 			"textAlignment"							"east"
 
-			"pin_to_sibling" 						"HealingWhite"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
+			"pin_to_sibling"						"HealingWhite"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}
-
 		"TeleportsWhite"
 		{
 			"ControlName"							"CExLabel"
@@ -906,15 +856,14 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"font"									"ScoreboardVerySmall"
-			"fgcolor" 								"White"
+			"fgcolor"								"White"
 			"labelText"								"%teleports%"
 			"textAlignment"							"west"
 
-			"pin_to_sibling" 						"TeleportsLabel"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
+			"pin_to_sibling"						"TeleportsLabel"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}
-
 		"HeadshotsLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -927,15 +876,14 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"font"									"ScoreboardVerySmall"
-			"fgcolor" 								"White"
+			"fgcolor"								"White"
 			"labelText"								"#TF_ScoreBoard_HeadshotsLabel"
 			"textAlignment"							"east"
 
-			"pin_to_sibling" 						"TeleportsLabel"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_BOTTOMLEFT"
+			"pin_to_sibling"						"TeleportsLabel"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_BOTTOMLEFT"
 		}
-
 		"HeadshotsWhite"
 		{
 			"ControlName"							"CExLabel"
@@ -952,11 +900,10 @@
 			"labelText"								"%headshots%"
 			"textAlignment"							"west"
 
-			"pin_to_sibling" 						"HeadshotsLabel"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
+			"pin_to_sibling"						"HeadshotsLabel"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}
-
 		"BackstabsLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -971,13 +918,12 @@
 			"font"									"ScoreboardVerySmall"
 			"labelText"								"#TF_ScoreBoard_BackstabsLabel"
 			"textAlignment"							"east"
-			"fgcolor" 								"White"
+			"fgcolor"								"White"
 
-			"pin_to_sibling" 						"TeleportsWhite"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
+			"pin_to_sibling"						"TeleportsWhite"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}
-
 		"BackstabsWhite"
 		{
 			"ControlName"							"CExLabel"
@@ -991,14 +937,13 @@
 			"enabled"								"1"
 			"font"									"ScoreboardVerySmall"
 			"labelText"								"%backstabs%"
-			"fgcolor" 								"White"
+			"fgcolor"								"White"
 			"textAlignment"							"west"
 
-			"pin_to_sibling" 						"BackstabsLabel"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
+			"pin_to_sibling"						"BackstabsLabel"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}
-
 		"DamageLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -1011,15 +956,14 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"font"									"ScoreboardVerySmall"
-			"fgcolor" 								"White"
+			"fgcolor"								"White"
 			"labelText"								"#TF_Scoreboard_Damage"
 			"textAlignment"							"east"
 
-			"pin_to_sibling" 						"BackstabsLabel"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_BOTTOMLEFT"
+			"pin_to_sibling"						"BackstabsLabel"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_BOTTOMLEFT"
 		}
-
 		"DamageWhite"
 		{
 			"ControlName"							"CExLabel"
@@ -1032,13 +976,13 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"font"									"ScoreboardVerySmall"
-			"fgcolor" 								"White"
+			"fgcolor"								"White"
 			"labelText"								"%damage%"
 			"textAlignment"							"west"
 
-			"pin_to_sibling" 						"DamageLabel"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
+			"pin_to_sibling"						"DamageLabel"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}
 
 		"Kills"
@@ -1126,7 +1070,6 @@
 			"visible"								"0"
 		}
 	}
-
 	"MvMScoreboard"
 	{
 		"ControlName"								"CTFHudMannVsMachineScoreboard"
@@ -1146,7 +1089,6 @@
 			"visible"								"1"
 		}
 	}
-
 	"LocalPlayerDuelStatsPanel"
 	{
 		"ControlName"								"EditablePanel"
@@ -1176,7 +1118,6 @@
 			"AllCaps"								"1"
 			"proportionaltoparent"					"1"
 		}
-
 		"DuelingIcon"
 		{
 			"ControlName"							"ImagePanel"
@@ -1192,7 +1133,6 @@
 			"scaleImage"							"1"
 			"proportionaltoparent"					"1"
 		}
-
 		"LocalPlayerData"
 		{
 			"ControlName"							"EditablePanel"
@@ -1223,7 +1163,6 @@
 				"bgcolor_override"					"0 0 0 100"
 				"proportionaltoparent"				"1"
 			}
-
 			"AvatarImage"
 			{
 				"ControlName"						"CAvatarImagePanel"
@@ -1240,7 +1179,6 @@
 				"color_outline"						"Blank"
 				"pin_to_sibling"					"AvatarBGPanel"
 			}
-
 			"AvatarTextLabel"
 			{
 				"ControlName"						"CExLabel"
@@ -1261,7 +1199,6 @@
 				"pin_corner_to_sibling"				"PIN_TOPRIGHT"
 				"pin_to_sibling_corner"				"PIN_TOPLEFT"
 			}
-
 			"Score"
 			{
 				"ControlName"						"CExLabel"
@@ -1282,7 +1219,6 @@
 				"pin_to_sibling_corner"				"PIN_BOTTOMLEFT"
 			}
 		}
-
 		"OpponentData"
 		{
 			"ControlName"							"EditablePanel"
@@ -1313,7 +1249,6 @@
 				"bgcolor_override"					"0 0 0 100"
 				"proportionaltoparent"				"1"
 			}
-
 			"AvatarImage"
 			{
 				"ControlName"						"CAvatarImagePanel"
@@ -1330,7 +1265,6 @@
 				"color_outline"						"Blank"
 				"pin_to_sibling"					"AvatarBGPanel"
 			}
-
 			"AvatarTextLabel"
 			{
 				"ControlName"						"CExLabel"
@@ -1351,7 +1285,6 @@
 				"pin_corner_to_sibling"				"PIN_TOPLEFT"
 				"pin_to_sibling_corner"				"PIN_TOPRIGHT"
 			}
-
 			"Score"
 			{
 				"ControlName"						"CExLabel"

@@ -10,8 +10,10 @@
 		"wide"										"190"
 		"tall"										"100"
 		"visible"									"0"
-		"bgcolor_override"							"255 255 255 0"
+		"paintborder"								"0"
+		"paintBackground"							"1"
 		"PaintBackgroundType"						"0"
+		"bgcolor_override"							"0 0 0 100"
 
 		"model_ypos"								"10"
 		"model_center_x"							"1"
@@ -34,7 +36,6 @@
 			"use_item_rendertarget"					"0"
 			"useparentbg"							"1"
 		}
-
 		"ItemLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -50,7 +51,6 @@
 			"labelText"								"#FreezePanel_Item"
 			"textAlignment"							"west"
 		}
-
 		"attriblabel"
 		{
 			"ControlName"							"CExLabel"

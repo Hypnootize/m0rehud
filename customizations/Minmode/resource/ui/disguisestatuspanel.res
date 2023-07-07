@@ -24,7 +24,6 @@
 			"angles_z"								"0"
 		}
 	}
-
 	"DisguiseStatusBG"
 	{
 		"ControlName"								"CTFImagePanel"
@@ -33,7 +32,7 @@
 		"ypos"										"rs1-5"
 		"zpos"										"-1"
 		"wide"										"140"
-		"tall"	 									"12"
+		"tall"										"12"
 		"visible"									"1"
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
@@ -44,12 +43,11 @@
 		"teambg_2"									"../hud/color_panel_red"
 		"teambg_3"									"../hud/color_panel_blu"
 
-		"src_corner_height"	  						"15"
-		"src_corner_width"	  						"15"
-		"draw_corner_width"	 						"0"
-		"draw_corner_height"  						"0"
+		"src_corner_height"							"15"
+		"src_corner_width"							"15"
+		"draw_corner_width"							"0"
+		"draw_corner_height"						"0"
 	}
-
 	"DisguiseNameLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -64,13 +62,12 @@
 		"labelText"									"%disguisename%"
 		"font"										"m0refont11"
 		"textAlignment"								"West"
-		"fgcolor"   								"White"
+		"fgcolor"									"White"
 
-		"pin_to_sibling" 							"DisguiseStatusBG"
-		"pin_corner_to_sibling" 					"PIN_CENTER_LEFT"
-		"pin_to_sibling_corner" 					"PIN_CENTER_LEFT"
+		"pin_to_sibling"							"DisguiseStatusBG"
+		"pin_corner_to_sibling"						"PIN_CENTER_LEFT"
+		"pin_to_sibling_corner"						"PIN_CENTER_LEFT"
 	}
-
 	"WeaponNameLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -85,13 +82,12 @@
 		"labelText"									"%weaponname%"
 		"font"										"m0refont11"
 		"textAlignment"								"West"
-		"fgcolor"   								"White"
+		"fgcolor"									"White"
 
-		"pin_to_sibling" 							"DisguiseStatusBG"
-		"pin_corner_to_sibling" 					"PIN_BOTTOMLEFT"
-		"pin_to_sibling_corner" 					"PIN_TOPLEFT"
+		"pin_to_sibling"							"DisguiseStatusBG"
+		"pin_corner_to_sibling"						"PIN_BOTTOMLEFT"
+		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 	}
-
 	"SpectatorGUIHealth"
 	{
 		"ControlName"								"EditablePanel"
@@ -108,8 +104,8 @@
 		"HealthDeathWarningColor"					"HUDDeathWarning"
 		"TextColor"									"HudOffWhite"
 
-		"pin_to_sibling" 							"DisguiseStatusBG"
-		"pin_corner_to_sibling" 					"PIN_CENTER_LEFT"
-		"pin_to_sibling_corner" 					"PIN_CENTER_LEFT"
+		"pin_to_sibling"							"DisguiseStatusBG"
+		"pin_corner_to_sibling"						"PIN_CENTER_LEFT"
+		"pin_to_sibling_corner"						"PIN_CENTER_LEFT"
 	}
 }

@@ -2,18 +2,17 @@
 {
 	"ItemsAnchor"
 	{
-		"ControlName"		     					"EditablePanel"
+		"ControlName"								"EditablePanel"
 		"fieldName"									"ItemsAnchor"
 		"xpos"										"cs-0.5"
 		"ypos"										"r120"
 		"zpos"										"0"
 		"wide"										"145"
 		"tall"										"40"
-		"visible"		        					"1"
-		"enabled"	          						"1"
+		"visible"									"1"
+		"enabled"									"1"
 		"proportionaltoparent"						"1"
 	}
-
 	"active_item_1"
 	{
 		"ControlName"								"EditablePanel"
@@ -28,7 +27,6 @@
 
 		"pin_to_sibling"							"ItemsAnchor"
 	}
-
 	"active_item_2"
 	{
 		"ControlName"								"EditablePanel"
@@ -42,10 +40,9 @@
 		"proportionaltoparent"						"1"
 
 		"pin_to_sibling"							"active_item_1"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 	}
-
 	"active_item_3"
 	{
 		"ControlName"								"EditablePanel"
@@ -59,10 +56,9 @@
 		"proportionaltoparent"						"1"
 
 		"pin_to_sibling"							"active_item_2"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 	}
-
 	"active_item_4"
 	{
 		"ControlName"								"EditablePanel"
@@ -76,10 +72,9 @@
 		"proportionaltoparent"						"1"
 
 		"pin_to_sibling"							"active_item_3"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 	}
-
 	"already_built_item_1"
 	{
 		"ControlName"								"EditablePanel"
@@ -94,7 +89,6 @@
 
 		"pin_to_sibling"							"active_item_1"
 	}
-
 	"already_built_item_2"
 	{
 		"ControlName"								"EditablePanel"
@@ -109,7 +103,6 @@
 
 		"pin_to_sibling"							"active_item_2"
 	}
-
 	"already_built_item_3"
 	{
 		"ControlName"								"EditablePanel"
@@ -124,7 +117,6 @@
 
 		"pin_to_sibling"							"active_item_3"
 	}
-
 	"already_built_item_4"
 	{
 		"ControlName"								"EditablePanel"
@@ -139,7 +131,6 @@
 
 		"pin_to_sibling"							"active_item_4"
 	}
-
 	"cant_afford_item_1"
 	{
 		"ControlName"								"EditablePanel"
@@ -154,7 +145,6 @@
 
 		"pin_to_sibling"							"active_item_1"
 	}
-
 	"cant_afford_item_2"
 	{
 		"ControlName"								"EditablePanel"
@@ -169,7 +159,6 @@
 
 		"pin_to_sibling"							"active_item_2"
 	}
-
 	"cant_afford_item_3"
 	{
 		"ControlName"								"EditablePanel"
@@ -184,7 +173,6 @@
 
 		"pin_to_sibling"							"active_item_3"
 	}
-
 	"cant_afford_item_4"
 	{
 		"ControlName"								"EditablePanel"
@@ -199,7 +187,6 @@
 
 		"pin_to_sibling"							"active_item_4"
 	}
-
 	"unavailable_item_1"
 	{
 		"ControlName"								"EditablePanel"
@@ -214,7 +201,6 @@
 
 		"pin_to_sibling"							"active_item_1"
 	}
-
 	"unavailable_item_2"
 	{
 		"ControlName"								"EditablePanel"
@@ -229,7 +215,6 @@
 
 		"pin_to_sibling"							"active_item_2"
 	}
-
 	"unavailable_item_3"
 	{
 		"ControlName"								"EditablePanel"
@@ -244,7 +229,6 @@
 
 		"pin_to_sibling"							"active_item_3"
 	}
-
 	"unavailable_item_4"
 	{
 		"ControlName"								"EditablePanel"
@@ -301,7 +285,7 @@
 	}
 	"Divider"
 	{
-		"ControlName"		     					"ImagePanel"
+		"ControlName"								"ImagePanel"
 		"fieldName"									"Divider"
 		"xpos"										"9999"
 		"ypos"										"9999"

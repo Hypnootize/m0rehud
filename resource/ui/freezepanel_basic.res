@@ -9,7 +9,6 @@
 
 		"screenshot_move_panel_to_corner"			"0"
 	}
-
 	"FreezePanelBase"
 	{
 		"ControlName"								"EditablePanel"
@@ -36,9 +35,9 @@
 			"image"									"../hud/color_panel_blu"
 			"scaleImage"							"1"
 			"src_corner_height"						"15"
-			"src_corner_width"	 					"15"
-			"draw_corner_width"	 					"0"
-			"draw_corner_height" 					"0"
+			"src_corner_width"						"15"
+			"draw_corner_width"						"0"
+			"draw_corner_height"					"0"
 		}
 		"FreezePanelBGWhite"
 		{
@@ -56,7 +55,6 @@
 			"PaintBackgroundType"					"0"
 			"bgcolor_override"						"White"
 		}
-
 		"FreezePanelHealth"
 		{
 			"ControlName"							"CTFFreezePanelHealth"
@@ -75,7 +73,6 @@
 			"HealthDeathWarningColor"				"HUDDeathWarning"
 			"TextColor"								"HudOffWhite"
 		}
-
 		"AvatarImage"
 		{
 			"ControlName"							"CAvatarImagePanel"
@@ -92,7 +89,6 @@
 			"scaleImage"							"1"
 			"color_outline"							"Blank"
 		}
-
 		"FreezeLabelKiller"							//Pinned to AvatarImage by default
 		{
 			"ControlName"							"CExLabel"
@@ -108,7 +104,7 @@
 			"labelText"								"%killername%"
 			"font"									"m0refont11"
 			"textAlignment"							"west"
-			"fgcolor"  								"White"
+			"fgcolor"								"White"
 		}
 
 		//REMOVED

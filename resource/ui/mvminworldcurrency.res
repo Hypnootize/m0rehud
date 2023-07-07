@@ -17,7 +17,6 @@
 		"font"										"m0refont16"
 		"fgcolor"									"100 255 0 255"
 	}
-
 	"CurrencyBad"
 	{
 		"ControlName"								"CExLabel"
@@ -35,7 +34,6 @@
 		"font"										"m0refont16"
 		"fgcolor"									"255 0 0 255"
 	}
-
 	"CurrencyShadow"
 	{
 		"ControlName"								"CExLabel"

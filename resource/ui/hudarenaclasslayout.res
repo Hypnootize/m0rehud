@@ -20,9 +20,8 @@
 		"src_corner_height"							"23"
 		"src_corner_width"							"23"
 		"draw_corner_width"							"5"
-		"draw_corner_height" 						"5"
+		"draw_corner_height"						"5"
 	}
-
 	"Title"
 	{
 		"ControlName"								"CExLabel"
@@ -58,7 +57,6 @@
 
 		"pin_to_sibling"							"title"
 	}
-
 	"classImage0"
 	{
 		"ControlName"								"CTFImagePanel"

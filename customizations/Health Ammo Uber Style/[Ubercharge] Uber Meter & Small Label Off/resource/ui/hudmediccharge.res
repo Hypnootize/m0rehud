@@ -4,7 +4,6 @@
 	// UBER ANCHOR
 	// Moves all the uber elements at the same time
 	//==================================================================================================================================================
-
 	"UberAnchor"
 	{
 		"ControlName"								"EditablePanel"
@@ -20,9 +19,30 @@
 	}
 
 	//==================================================================================================================================================
+	// UNDER CROSSHAIR SMALL UBER PERCENTAGE
+	//==================================================================================================================================================
+	"ChargeLabel"
+	{
+		"ControlName"								"CExLabel"
+		"fieldName"									"ChargeLabel"
+		"xpos"										"cs-0.5"
+		"ypos"										"c36"
+		"zpos"										"2"
+		"wide"										"100"
+		"tall"										"0"
+		"visible"									"1"
+		"enabled"									"1"
+		"proportionaltoparent"						"1"
+		"labelText"									"#TF_UberchargeMinHUD"
+		"textAlignment"								"center"
+		"font"										"m0refont18Shadow"
+		"fgcolor"									"Ubercharge"
+
+	}
+
+	//==================================================================================================================================================
 	// MAIN UBER PERCENTAGE
 	//==================================================================================================================================================
-
 	"ChargeLabelBig"
 	{
 		"ControlName"								"CExLabel"
@@ -38,7 +58,7 @@
 		"labelText"									"#TF_UberchargeMinHUD"
 		"textAlignment"								"center"
 		"font"										"m0refont72"
-		"fgcolor"   								"Ubercharge"
+		"fgcolor"									"Ubercharge"
 
 		"pin_to_sibling"							"UberAnchor"
 		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
@@ -59,7 +79,7 @@
 		"labelText"									"#TF_UberchargeMinHUD"
 		"textAlignment"								"center"
 		"font"										"m0refont72"
-		"fgcolor"  									"Black"
+		"fgcolor"									"Black"
 
 		"pin_to_sibling"							"ChargeLabelBig"
 	}
@@ -78,22 +98,39 @@
 		"labelText"									"#TF_UberchargeMinHUD"
 		"textAlignment"								"center"
 		"font"										"m0refont72"
-		"fgcolor"  									"Black"
-		"alpha"  									"0"
+		"fgcolor"									"Black"
+		"alpha"										"0"
 
 		"pin_to_sibling"							"ChargeLabelBigShadow"
 	}
 
 	//==================================================================================================================================================
+	// UBERCHARGE METER
+	//==================================================================================================================================================
+	"ChargeMeter"
+	{
+		"ControlName"								"ContinuousProgressBar"
+		"fieldName"									"ChargeMeter"
+		"xpos"										"0"
+		"ypos"										"rs1"
+		"zpos"										"2"
+		"wide"										"f0"
+		"tall"										"0"
+		"visible"									"1"
+		"enabled"									"1"
+		"proportionaltoparent"						"1"
+		"fgcolor_override"							"Ubercharge"
+	}
+
+	//==================================================================================================================================================
 	// VACCINATOR CHARGES
 	//==================================================================================================================================================
-
 	"IndividualChargesLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"IndividualChargesLabel"
-		"xpos"										"cs-0.5"
-		"ypos"										"c36"
+		"xpos"										"0"
+		"ypos"										"0"
 		"zpos"										"3"
 		"wide"										"100"
 		"tall"										"20"
@@ -104,12 +141,73 @@
 		"textAlignment"								"center"
 		"fgcolor"									"Ubercharge"
 		"font"										"m0refont18Shadow"
+
+		"pin_to_sibling"							"ChargeLabel"
+	}
+	"ChargeMeter1"
+	{
+		"ControlName"								"ContinuousProgressBar"
+		"fieldName"									"ChargeMeter1"
+		"xpos"										"c-69"
+		"ypos"										"r88"
+		"zpos"										"2"
+		"wide"										"0"
+		"tall"										"2"
+		"visible"									"1"
+		"enabled"									"1"
+	}
+	"ChargeMeter2"
+	{
+		"ControlName"								"ContinuousProgressBar"
+		"fieldName"									"ChargeMeter2"
+		"xpos"										"1"
+		"ypos"										"0"
+		"zpos"										"2"
+		"wide"										"0"
+		"tall"										"2"
+		"visible"									"1"
+		"enabled"									"1"
+
+		"pin_to_sibling"							"ChargeMeter1"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
+	}
+	"ChargeMeter3"
+	{
+		"ControlName"								"ContinuousProgressBar"
+		"fieldName"									"ChargeMeter3"
+		"xpos"										"1"
+		"ypos"										"0"
+		"zpos"										"2"
+		"wide"										"0"
+		"tall"										"2"
+		"visible"									"1"
+		"enabled"									"1"
+
+		"pin_to_sibling"							"ChargeMeter2"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
+	}
+	"ChargeMeter4"
+	{
+		"ControlName"								"ContinuousProgressBar"
+		"fieldName"									"ChargeMeter4"
+		"xpos"										"1"
+		"ypos"										"0"
+		"zpos"										"2"
+		"wide"										"0"
+		"tall"										"2"
+		"visible"									"1"
+		"enabled"									"1"
+
+		"pin_to_sibling"							"ChargeMeter3"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 	}
 
 	//==================================================================================================================================================
 	// VACCINATOR RESIST ICON
 	//==================================================================================================================================================
-
 	"ResistIconAnchor"
 	{
 		"ControlName"								"EditablePanel"
@@ -150,72 +248,6 @@
 	{
 		"ControlName"								"CTFImagePanel"
 		"fieldName"									"Background"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	"ChargeLabel"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"ChargeLabel"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	"ChargeMeter"
-	{
-		"ControlName"								"ContinuousProgressBar"
-		"fieldName"									"ChargeMeter"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	"ChargeMeter1"
-	{
-		"ControlName"								"ContinuousProgressBar"
-		"fieldName"									"ChargeMeter1"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	"ChargeMeter2"
-	{
-		"ControlName"								"ContinuousProgressBar"
-		"fieldName"									"ChargeMeter2"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	"ChargeMeter3"
-	{
-		"ControlName"								"ContinuousProgressBar"
-		"fieldName"									"ChargeMeter3"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	"ChargeMeter4"
-	{
-		"ControlName"								"ContinuousProgressBar"
-		"fieldName"									"ChargeMeter4"
 		"xpos"										"9999"
 		"ypos"										"9999"
 		"wide"										"0"

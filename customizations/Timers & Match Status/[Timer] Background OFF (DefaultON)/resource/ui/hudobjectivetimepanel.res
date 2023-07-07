@@ -2,19 +2,19 @@
 {
 	"ServerTimeLimitLabel"
 	{
-		"ControlName" 								"CExLabel"
-		"fieldName" 								"ServerTimeLimitLabel"
-		"xpos" 										"cs-0.5"
-		"ypos" 										"14"
-		"zpos" 										"3"
-		"wide" 										"f0"
+		"ControlName"								"CExLabel"
+		"fieldName"									"ServerTimeLimitLabel"
+		"xpos"										"cs-0.5"
+		"ypos"										"14"
+		"zpos"										"3"
+		"wide"										"f0"
 		"tall"										"15"
-		"visible" 									"1"
-		"enabled" 									"1"
-		"proportionaltoparent" 						"1"
+		"visible"									"1"
+		"enabled"									"1"
+		"proportionaltoparent"						"1"
 		"labelText"									"%servertimeleft%"
 		"textAlignment"								"center"
-		"font" 										"m0refont12"
+		"font"										"m0refont12"
 		"fgcolor"									"White"
 	}
 
@@ -26,8 +26,8 @@
 
 	"TimePanelBG"
 	{
-		"ControlName"	    						"CTFImagePanel"
-		"fieldName"	      							"TimePanelBG"
+		"ControlName"								"CTFImagePanel"
+		"fieldName"									"TimePanelBG"
 		"xpos"										"9999"
 		"ypos"										"9999"
 		"wide"										"0"
@@ -136,8 +136,8 @@
 	}
 	"ServerTimeLimitLabelBG"
 	{
-		"ControlName" 								"ImagePanel"
-		"fieldName" 								"ServerTimeLimitLabelBG"
+		"ControlName"								"ImagePanel"
+		"fieldName"									"ServerTimeLimitLabelBG"
 		"xpos"										"9999"
 		"ypos"										"9999"
 		"wide"										"0"

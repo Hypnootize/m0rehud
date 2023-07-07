@@ -28,23 +28,21 @@
 			{
 				"xpos"								"cs-0.5-228"
 			}
-
 			"ParticleEffects"
 			{
 				"0"
 				{
-					"particle_xpos" 				"c0"
-					"particle_ypos" 				"c0"
-					"particle_scale" 				"3"
+					"particle_xpos"					"c0"
+					"particle_ypos"					"c0"
+					"particle_scale"				"3"
 					"particleName"					"rankup_base"
-					"start_activated" 				"0"
+					"start_activated"				"0"
 					"loop"							"0"
 				}
 			}
 
 			"paintbackground"						"0"
 		}
-
 		"RankModel"
 		{
 			"ControlName"							"CBaseModelPanel"
@@ -88,14 +86,12 @@
 				{
 					"origin_x"						"55"
 				}
-
 				"animation"
 				{
 					"sequence"						"idle"
 					"default"						"1"
 				}
 			}
-
 			"lights"
 			{
 				"default"
@@ -106,7 +102,6 @@
 				}
 			}
 		}
-
 		"AboveModelParticlePanel"
 		{
 			"ControlName"							"CTFParticlePanel"
@@ -125,32 +120,31 @@
 			{
 				"xpos"								"cs-0.5-228"
 			}
-
 			"ParticleEffects"
 			{
 				"0"
 				{
-					"particle_xpos" 				"c0"
-					"particle_ypos" 				"c0"
+					"particle_xpos"					"c0"
+					"particle_ypos"					"c0"
 					"particle_scale"				"5"
 					"particleName"					"rankup_glitter"
-					"start_activated" 				"0"
+					"start_activated"				"0"
 					"loop"							"0"
 				}
 				"1"
 				{
 					"particle_xpos"					"c0"
 					"particle_ypos"					"c0"
-					"particle_scale" 				"4"
+					"particle_scale"				"4"
 					"particleName"					"badgepress_base"
-					"start_activated" 				"0"
+					"start_activated"				"0"
 					"loop"							"0"
 				}
 				"2"
 				{
-					"particle_xpos" 				"c-8"
-					"particle_ypos" 				"c0"
-					"particle_scale" 				"4"
+					"particle_xpos"					"c-8"
+					"particle_ypos"					"c0"
+					"particle_scale"				"4"
 					"particleName"					"rankdown_base"
 					"start_activated"				"0"
 					"loop"							"0"
@@ -159,7 +153,6 @@
 
 			"paintbackground"						"1"
 		}
-
 		"MedalButton"
 		{
 			"ControlName"							"Button"
@@ -178,7 +171,6 @@
 			"backgroundenabled"						"0"
 		}
 	}
-
 	"BGPanel"
 	{
 		"ControlName"								"EditablePanel"
@@ -199,7 +191,6 @@
 			"tall"									"35"
 			"wide"									"505"
 		}
-
 		"NameLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -223,7 +214,6 @@
 				"visible"							"0"
 			}
 		}
-
 		"Desc1MainMenu"
 		{
 			"ControlName"							"CAutoFittingLabel"
@@ -246,7 +236,6 @@
 			{
 				"wide"								"0"
 			}
-
 			"fonts"
 			{
 				"0"									"Coolvetica15"
@@ -254,7 +243,6 @@
 				"2"									"Coolvetica11"
 			}
 		}
-
 		"Desc2MainMenu"
 		{
 			"ControlName"							"CAutoFittingLabel"
@@ -277,21 +265,18 @@
 			{
 				"wide"								"0"
 			}
-
 			"fonts"
 			{
 				"0"									"Coolvetica15"
 				"1"									"Coolvetica13"
 				"2"									"Coolvetica11"
 			}
-
 			"colors"
 			{
 				"1"									"CreditsGreen"
 				"2"									"White"
 			}
 		}
-
 		"DescLine1"
 		{
 			"ControlName"							"CAutoFittingLabel"
@@ -313,7 +298,6 @@
 			{
 				"wide"								"131"
 			}
-
 			"fonts"
 			{
 				"0"									"HudFontSmallestBold"
@@ -321,7 +305,6 @@
 				"2"									"FontStorePrice"
 			}
 		}
-
 		"DescLine2"
 		{
 			"ControlName"							"CAutoFittingLabel"
@@ -344,21 +327,18 @@
 			{
 				"wide"								"131"
 			}
-
 			"fonts"
 			{
 				"0"									"HudFontSmallestBold"
 				"1"									"StorePromotionsTitle"
 				"2"									"FontStorePrice"
 			}
-
 			"colors"
 			{
 				"1"									"CreditsGreen"
 				"2"									"White"
 			}
 		}
-
 		"StatsContainer"
 		{
 			"ControlName"							"EditablePanel"
@@ -376,7 +356,6 @@
 				"wide"								"p0.85"
 				"tall"								"f0"
 			}
-
 			"XPBar"
 			{
 				"Controlname"						"EditablePanel"
@@ -394,7 +373,6 @@
 					"wide"							"p1"
 					"tall"							"30"
 				}
-
 				"CurrentXPLabel"
 				{
 					"ControlName"					"CExLabel"
@@ -417,7 +395,6 @@
 						"wide"						"100"
 					}
 				}
-
 				"NextLevelXPLabel"
 				{
 					"ControlName"					"CExLabel"
@@ -440,7 +417,6 @@
 						"wide"						"100"
 					}
 				}
-
 				"ProgressBarsContainer"
 				{
 					"Controlname"					"EditablePanel"
@@ -471,7 +447,6 @@
 							"wide"					"f0"
 						}
 					}
-
 					"ContinuousProgressBar"
 					{
 						"ControlName"				"ContinuousProgressBar"
@@ -490,7 +465,6 @@
 							"fgcolor_override"		"CreditsGreen"
 						}
 					}
-
 					"Frame"
 					{
 						"Controlname"				"EditablePanel"
@@ -510,7 +484,6 @@
 					}
 				}
 			}
-
 			"Stats"
 			{
 				"ControlName"							"EditablePanel"
@@ -527,7 +500,6 @@
 				{
 					"visible"							"0"
 				}
-
 				"Frame"
 				{
 					"ControlName"						"EditablePanel"
@@ -540,7 +512,6 @@
 					"proportionaltoparent"				"1"
 					"border"							"InnerShadowBorder"
 				}
-
 				// First column
 				"GamesLabel"
 				{
@@ -559,7 +530,6 @@
 					"labelText"							"%stat_games%"
 					"proportionaltoparent"				"1"
 				}
-
 				"KillsLabel"
 				{
 					"ControlName"						"CExLabel"
@@ -577,7 +547,6 @@
 					"labelText"							"%stat_kills%"
 					"proportionaltoparent"				"1"
 				}
-
 				"DeathsLabel"
 				{
 					"ControlName"						"CExLabel"
@@ -595,7 +564,6 @@
 					"labelText"							"%stat_deaths%"
 					"proportionaltoparent"				"1"
 				}
-
 				// Second column
 				"DamageLabel"
 				{
@@ -614,7 +582,6 @@
 					"labelText"							"%stat_damage%"
 					"proportionaltoparent"				"1"
 				}
-
 				"HealingLabel"
 				{
 					"ControlName"						"CExLabel"
@@ -632,7 +599,6 @@
 					"labelText"							"%stat_healing%"
 					"proportionaltoparent"				"1"
 				}
-
 				"SupportLabel"
 				{
 					"ControlName"						"CExLabel"
@@ -650,7 +616,6 @@
 					"labelText"							"%stat_support%"
 					"proportionaltoparent"				"1"
 				}
-
 				// Third column
 				"ScoreLabel"
 				{

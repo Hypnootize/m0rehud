@@ -2,21 +2,20 @@
 {
 	"Background"
 	{
-		"ControlName"		     					"EditablePanel"
+		"ControlName"								"EditablePanel"
 		"fieldName"									"Background"
 		"xpos"										"0"
 		"ypos"										"0"
 		"zpos"										"0"
 		"wide"										"f0"
 		"tall"										"f0"
-		"visible"		        					"1"
-		"enabled"	          						"1"
+		"visible"									"1"
+		"enabled"									"1"
 		"proportionaltoparent"						"1"
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
 		"bgcolor_override"							"0 0 0 100"
 	}
-
 	"BuildingIcon"
 	{
 		"ControlName"								"CIconPanel"
@@ -33,7 +32,6 @@
 		"icon"										"hud_menu_sentry_build"
 		"iconColor"									"White"
 	}
-
 	"CantBuildReason"
 	{
 		"ControlName"								"CExLabel"
@@ -52,7 +50,6 @@
 		"centerwrap"								"1"
 		"fgcolor"									"255 0 0 255"
 	}
-
 	"ItemNameLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -70,7 +67,6 @@
 		"textAlignment"								"Center"
 		"centerwrap"								"1"
 	}
-
 	"NumberLabel"
 	{
 		"ControlName"								"CExLabel"

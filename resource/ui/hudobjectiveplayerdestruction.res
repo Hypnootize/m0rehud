@@ -36,12 +36,11 @@
 			"wide"									"20"
 			"tall"									"20"
 			"visible"								"1"
-			"skip_autoresize" 						"1"
+			"skip_autoresize"						"1"
 			"PaintBackground"						"0"
 			"paintborder"							"0"
 		}
 	}
-
 	"PlayingTo"
 	{
 		"ControlName"								"CExLabel"
@@ -59,7 +58,6 @@
 		"font"										"DefaultVerySmall"
 		"fgcolor"									"White"
 	}
-
 	"CarriedContainer"
 	{
 		"ControlName"								"EditablePanel"
@@ -91,7 +89,6 @@
 			"scaleImage"							"1"
 			"proportionalToParent"					"1"
 		}
-
 		"FlagValue"
 		{
 			"ControlName"							"CExLabel"
@@ -132,7 +129,6 @@
 
 			"pin_to_sibling"						"FlagValue"
 		}
-
 		"CarriedProgressBar"
 		{
 			"fieldName"								"CarriedProgressBar"
@@ -178,7 +174,6 @@
 			"enabled"								"0"
 		}
 	}
-
 	"ScoreContainer"								// ProportionalToParent breaks this
 	{
 		"fieldName"									"ScoreContainer"
@@ -220,7 +215,6 @@
 				"scaleImage"						"1"
 				"proportionalToParent"				"1"
 			}
-
 			"EscrowBlue"
 			{
 				"ControlName"						"CExLabel"
@@ -261,7 +255,6 @@
 
 				"pin_to_sibling"					"EscrowBlue"
 			}
-
 			"FlagImageRed"
 			{
 				"ControlName"						"ImagePanel"
@@ -277,7 +270,6 @@
 				"scaleImage"						"1"
 				"proportionalToParent"				"1"
 			}
-
 			"EscrowRed"
 			{
 				"ControlName"						"CExLabel"
@@ -318,7 +310,6 @@
 
 				"pin_to_sibling"					"EscrowRed"
 			}
-
 			"BlueVictoryContainer"
 			{
 				"fieldName"							"BlueVictoryContainer"
@@ -349,7 +340,6 @@
 					"fgcolor"						"White"
 					"proportionalToParent"			"1"
 				}
-
 				"VictoryLabelShadow2"
 				{
 					"ControlName"					"CExLabel"
@@ -369,7 +359,6 @@
 
 					"pin_to_sibling"				"VictoryLabel2"
 				}
-
 				"VictoryLabelTime"
 				{
 					"ControlName"					"CExLabel"
@@ -387,11 +376,10 @@
 					"fgcolor"						"White"
 					"proportionalToParent"			"1"
 
-					"pin_to_sibling"               	"VictoryLabel2"
-					"pin_corner_to_sibling"        	"PIN_CENTER_TOP"
-					"pin_to_sibling_corner"        	"PIN_CENTER_BOTTOM"
+					"pin_to_sibling"				"VictoryLabel2"
+					"pin_corner_to_sibling"			"PIN_CENTER_TOP"
+					"pin_to_sibling_corner"			"PIN_CENTER_BOTTOM"
 				}
-
 				"VictoryLabelTimeShadow"
 				{
 					"ControlName"					"CExLabel"
@@ -409,9 +397,8 @@
 					"fgcolor"						"Black"
 					"proportionalToParent"			"1"
 
-					"pin_to_sibling"              	"VictoryLabelTime"
+					"pin_to_sibling"				"VictoryLabelTime"
 				}
-
 				"VictoryLabel"
 				{
 					"ControlName"					"CExLabel"
@@ -435,7 +422,6 @@
 					"enabled"						"0"
 				}
 			}
-
 			"RedVictoryContainer"
 			{
 				"fieldName"							"RedVictoryContainer"
@@ -466,7 +452,6 @@
 					"fgcolor"						"White"
 					"proportionalToParent"			"1"
 				}
-
 				"VictoryLabelShadow2"
 				{
 					"ControlName"					"CExLabel"
@@ -486,7 +471,6 @@
 
 					"pin_to_sibling"				"VictoryLabel2"
 				}
-
 				"VictoryLabelTime"
 				{
 					"ControlName"					"CExLabel"
@@ -504,11 +488,10 @@
 					"fgcolor"						"White"
 					"proportionalToParent"			"1"
 
-					"pin_to_sibling"               	"VictoryLabel2"
-					"pin_corner_to_sibling"        	"PIN_CENTER_TOP"
-					"pin_to_sibling_corner"        	"PIN_CENTER_BOTTOM"
+					"pin_to_sibling"				"VictoryLabel2"
+					"pin_corner_to_sibling"			"PIN_CENTER_TOP"
+					"pin_to_sibling_corner"			"PIN_CENTER_BOTTOM"
 				}
-
 				"VictoryLabelTimeShadow"
 				{
 					"ControlName"					"CExLabel"
@@ -526,9 +509,8 @@
 					"fgcolor"						"Black"
 					"proportionalToParent"			"1"
 
-					"pin_to_sibling"              	"VictoryLabelTime"
+					"pin_to_sibling"				"VictoryLabelTime"
 				}
-
 				"VictoryLabel"
 				{
 					"ControlName"					"CExLabel"
@@ -552,7 +534,6 @@
 					"enabled"						"0"
 				}
 			}
-
 			"ScoreOutline"
 			{
 				"fieldName"							"ScoreOutline"
@@ -609,7 +590,6 @@
 				"enabled"							"0"
 			}
 		}
-
 		"BlueScoreValueContainer"
 		{
 			"ControlName"							"EditablePanel"
@@ -660,7 +640,6 @@
 				"pin_to_sibling"					"Score"
 			}
 		}
-
 		"RedScoreValueContainer"
 		{
 			"ControlName"							"EditablePanel"
@@ -712,7 +691,6 @@
 				"pin_to_sibling"					"Score"
 			}
 		}
-
 		"BlueStolenContainer"
 		{
 			"ControlName"							"EditablePanel"
@@ -742,7 +720,6 @@
 				"scaleImage"						"1"
 				"proportionalToParent"				"1"
 			}
-
 			"DroppedIntelContainer"
 			{
 				"ControlName"						"EditablePanel"
@@ -774,7 +751,6 @@
 					"proportionalToParent"			"1"
 				}
 			}
-
 			"IntelValue"
 			{
 				"ControlName"						"CExLabel"
@@ -793,7 +769,6 @@
 				"bgcolor_override"					"Blank"
 				"proportionalToParent"				"1"
 			}
-
 			"IntelValueShadow"
 			{
 				"ControlName"						"CExLabel"
@@ -814,7 +789,6 @@
 				"pin_to_sibling"					"IntelValue"
 			}
 		}
-
 		"RedStolenContainer"
 		{
 			"ControlName"							"EditablePanel"
@@ -844,7 +818,6 @@
 				"scaleImage"						"1"
 				"proportionalToParent"				"1"
 			}
-
 			"DroppedIntelContainer"
 			{
 				"ControlName"						"EditablePanel"
@@ -876,7 +849,6 @@
 					"proportionalToParent"			"1"
 				}
 			}
-
 			"IntelValue"
 			{
 				"ControlName"						"CExLabel"
@@ -895,7 +867,6 @@
 				"bgcolor_override"					"Blank"
 				"proportionalToParent"				"1"
 			}
-
 			"IntelValueShadow"
 			{
 				"ControlName"						"CExLabel"
@@ -917,7 +888,6 @@
 			}
 		}
 	}
-
 	"CountdownContainer"
 	{
 		"ControlName"								"EditablePanel"
@@ -967,7 +937,6 @@
 
 			"pin_to_sibling"						"CountdownLabelTime"
 		}
-
 		"Background"
 		{
 			"ControlName"							"CTFImagePanel"

@@ -5,7 +5,6 @@
 	// This element can be used to move all the ammo elements at the same time
 	// By increasing the wide, the gap between clip and reserver will also increase
 	//==================================================================================================================================================
-
 	"AmmoAnchor"
 	{
 		"ControlName"								"EditablePanel"
@@ -22,7 +21,6 @@
 	//==================================================================================================================================================
 	// AMMO IN CLIP
 	//==================================================================================================================================================
-
 	"AmmoInClip"
 	{
 		"ControlName"								"CExLabel"
@@ -43,7 +41,6 @@
 		"pin_corner_to_sibling"						"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 	}
-
 	"AmmoInClipShadow"
 	{
 		"ControlName"								"CExLabel"
@@ -66,7 +63,6 @@
 	//==================================================================================================================================================
 	// AMMO IN RESERVE
 	//==================================================================================================================================================
-
 	"AmmoInReserve"
 	{
 		"ControlName"								"CExLabel"
@@ -87,7 +83,6 @@
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
 		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 	}
-
 	"AmmoInReserveShadow"
 	{
 		"ControlName"								"CExLabel"
@@ -110,13 +105,12 @@
 	//==================================================================================================================================================
 	// AMMO NO CLIP
 	//==================================================================================================================================================
-
 	"AmmoNoClip"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"AmmonoClip"
 		"xpos"										"0"
-		"ypos"    									"0"
+		"ypos"										"0"
 		"zpos"										"5"
 		"wide"										"150"
 		"tall"										"80"
@@ -131,7 +125,6 @@
 		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
 		"pin_to_sibling_corner"						"PIN_CENTER_TOP"
 	}
-
 	"AmmoNoClipShadow"
 	{
 		"ControlName"								"CExLabel"

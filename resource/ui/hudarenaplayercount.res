@@ -47,7 +47,6 @@
 
 			"pin_to_sibling"						"count"
 		}
-
 		"background"
 		{
 			"ControlName"							"CTFImagePanel"
@@ -71,7 +70,6 @@
 			"enabled"								"0"
 		}
 	}
-
 	"RedTeam"
 	{
 		"ControlName"								"EditablePanel"

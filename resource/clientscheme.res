@@ -2,13 +2,13 @@
 // COLORS SCHEME
 //=========================================================
 
-#base "scheme/colors.res"
+#base "scheme/colors_scheme.res"
 
 //=========================================================
 // FONTS SCHEME
 //=========================================================
 
-#base "scheme/fonts.res"
+#base "scheme/fonts_scheme.res"
 
 //=========================================================
 // CROSSHAIRS SCHEME
@@ -20,4 +20,4 @@
 // DEFAULT TF2 SCHEME
 //=========================================================
 
-#base "scheme/default.res"
+#base "scheme/base_scheme.res"

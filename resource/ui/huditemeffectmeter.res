@@ -12,7 +12,6 @@
 		"MeterFG"									"White"
 		"MeterBG"									"Gray"
 	}
-
 	"ItemEffectMeterLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -30,7 +29,6 @@
 		"font"										"ScoreboardVerySmall"
 		"fgcolor"									"White"
 	}
-
 	"ItemEffectMeter"
 	{
 		"ControlName"								"ContinuousProgressBar"

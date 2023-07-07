@@ -8,7 +8,6 @@
 		"name_width"								"57"
 		"horiz_inset"								"2"
 	}
-
 	"CountdownLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -32,7 +31,6 @@
 			"ypos"									"130"
 		}
 	}
-
 	"FrontParticlePanel"
 	{
 		"ControlName"								"CTFParticlePanel"
@@ -49,18 +47,17 @@
 		{
 			"0"
 			{
-				"particle_xpos" 					"c0"
-				"particle_ypos" 					"c0"
+				"particle_xpos"						"c0"
+				"particle_ypos"						"c0"
 				"particle_scale"					"2"
 				"particleName"						"versus_door_slam"
-				"start_activated" 					"0"
+				"start_activated"					"0"
 				"loop"								"0"
 			}
 		}
 
 		"paintbackground"							"0"
 	}
-
 	"MatchDoors"
 	{
 		"ControlName"								"CModelPanel"
@@ -111,7 +108,6 @@
 			}
 		}
 	}
-
 	"ObjectiveStatusTimePanel"
 	{
 		"ControlName"								"EditablePanel"
@@ -150,7 +146,6 @@
 			"labelText"								"0:00"
 		}
 	}
-
 	"TeamStatus"
 	{
 		"ControlName"								"CTFTeamStatus"
@@ -168,11 +163,11 @@
 		"6v6_gap"									"1"
 		"12v12_gap"									"1"
 
-		"team1_grow_dir" 							"west"
+		"team1_grow_dir"							"west"
 		"team1_base_x"								"c-45"
 		"team1_max_expand"							"150"
 
-		"team2_grow_dir" 							"east"
+		"team2_grow_dir"							"east"
 		"team2_base_x"								"c47"
 		"team2_max_expand"							"150"
 
@@ -184,8 +179,8 @@
 			"zpos"									"1"
 			"proportionaltoparent"					"1"
 
-			"color_portrait_bg_red"					"TF2Red"
-			"color_portrait_bg_blue"				"TF2Blue"
+			"color_portrait_bg_red"					"Red"
+			"color_portrait_bg_blue"				"Blue"
 			"color_portrait_bg_red_dead"			"15 15 15 255"
 			"color_portrait_bg_blue_dead"			"15 15 15 255"
 			"color_bar_health_high"					"75 200 25 255"
@@ -194,9 +189,9 @@
 			"color_bar_health_low"					"255 40 40 255"
 			"percentage_health_low"					"0.3"
 			"color_portrait_blend_dead_red"			"White"
-			"color_portrait_blend_dead_blue" 		"White"
-			"color_portrait_bg_red_local_player"	"TF2Red"
-			"color_portrait_bg_blue_local_player"	"TF2Blue"
+			"color_portrait_blend_dead_blue"		"White"
+			"color_portrait_bg_red_local_player"	"Red"
+			"color_portrait_bg_blue_local_player"	"Blue"
 
 			"classimage"
 			{
@@ -213,7 +208,6 @@
 				"scaleImage"						"1"
 				"proportionaltoparent"				"1"
 			}
-
 			"classimagebg"
 			{
 				"ControlName"						"Panel"
@@ -228,7 +222,6 @@
 				"PaintBackgroundType"				"0"
 				"proportionaltoparent"				"1"
 			}
-
 			"healthbar"
 			{
 				"ControlName"						"ContinuousProgressBar"
@@ -240,10 +233,9 @@
 				"tall"								"2"
 				"visible"							"1"
 				"enabled"							"1"
-				"bgcolor_override"	  				"30 30 30 255"
+				"bgcolor_override"					"30 30 30 255"
 				"proportionaltoparent"				"1"
 			}
-
 			"overhealbar"
 			{
 				"ControlName"						"ContinuousProgressBar"
@@ -255,11 +247,10 @@
 				"tall"								"2"
 				"visible"							"1"
 				"enabled"							"1"
-				"bgcolor_override"	   				"Blank"
-				"fgcolor_override"	   				"255 255 255 180"
+				"bgcolor_override"					"Blank"
+				"fgcolor_override"					"255 255 255 180"
 				"proportionaltoparent"				"1"
 			}
-
 			"respawntime"
 			{
 				"ControlName"						"CExLabel"
@@ -369,7 +360,6 @@
 			}
 		}
 	}
-
 	"BlueTeamPanel"
 	{
 		"ControlName"								"EditablePanel"
@@ -499,7 +489,6 @@
 			}
 		}
 	}
-
 	"RedTeamPanel"
 	{
 		"ControlName"								"EditablePanel"

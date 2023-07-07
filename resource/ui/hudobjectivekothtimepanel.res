@@ -31,7 +31,6 @@
 			"labelText"								"0:00"
 		}
 	}
-
 	"RedTimer"
 	{
 		"ControlName"								"CTFHudTimeStatus"
@@ -63,7 +62,6 @@
 			"labelText"								"0:00"
 		}
 	}
-
 	"ActiveTimerBG"
 	{
 		"ControlName"								"ImagePanel"
@@ -75,7 +73,7 @@
 		"tall"										"16"
 		"visible"									"0"
 		"enabled"									"1"
-		"fillcolor"  								"TransparentLightBlack"
+		"fillcolor"									"TransparentLightBlack"
 		"scaleImage"								"1"
 	}
 }
