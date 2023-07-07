@@ -4,7 +4,6 @@
 	// UBER ANCHOR
 	// Moves all the uber elements at the same time
 	//==================================================================================================================================================
-
 	"UberAnchor"
 	{
 		"ControlName"								"EditablePanel"
@@ -21,7 +20,6 @@
 	//==================================================================================================================================================
 	// UBER PERCENTAGE
 	//==================================================================================================================================================
-
 	"ChargeLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -36,7 +34,7 @@
 		"labelText"									"#TF_UberchargeMinHUD"
 		"textAlignment"								"center"
 		"font"										"m0refont32Shadow"
-		"fgcolor"   								"Ubercharge"
+		"fgcolor"									"Ubercharge"
 
 		"pin_to_sibling"							"UberAnchor"
 		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
@@ -46,7 +44,6 @@
 	//==================================================================================================================================================
 	// VACCINATOR CHARGES
 	//==================================================================================================================================================
-
 	"IndividualChargesLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -65,13 +62,12 @@
 
 		"pin_to_sibling"							"ChargeLabel"
 	}
-
 	"ChargeMeter1"
 	{
 		"ControlName"								"ContinuousProgressBar"
 		"fieldName"									"ChargeMeter1"
-		"xpos"										"c-50"
-		"ypos"										"306"
+		"xpos"										"c-51"
+		"ypos"										"c70"
 		"zpos"										"2"
 		"wide"										"25"
 		"tall"										"2"
@@ -130,19 +126,18 @@
 	//==================================================================================================================================================
 	// VACCINATOR RESIST ICON
 	//==================================================================================================================================================
-
 	"ResistIconAnchor"
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"ResistIconAnchor"
-		"xpos"										"c-20"
-		"ypos"										"c72"
-		"wide"										"30"
+		"xpos"										"cs-0.5"
+		"ypos"										"c55"
+		"wide"										"0"
 		"tall"										"30"
 		"visible"									"1"
 		"enabled"									"1"
+		"proportionaltoparent"						"1"
 	}
-
 	"ResistIcon"
 	{
 		"ControlName"								"ImagePanel"
@@ -155,9 +150,10 @@
 		"enabled"									"1"
 		"image"										"../HUD/defense_buff_bullet_blue"
 		"scaleImage"								"1"
+
 		"pin_to_sibling"							"ResistIconAnchor"
-		"pin_corner_to_sibling"						"1"
-		"pin_to_sibling_corner"						"1"
+		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
+		"pin_to_sibling_corner"						"PIN_CENTER_TOP"
 	}
 
 
