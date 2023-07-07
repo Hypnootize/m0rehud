@@ -79,6 +79,7 @@
 		"zpos"										"1"
 		"wide"										"18"
 		"tall"										"18"
+		"tall_minmode"								"18"
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									""

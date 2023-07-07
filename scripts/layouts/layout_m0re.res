@@ -87,18 +87,21 @@
 	"CMainTargetID"
 	{
 		"ypos"										"c85"
+		"ypos_minmode"								"c30"
 		"tall"										"32"
 		"tall_minmode"								"32"
 	}
 	"CSpectatorTargetID"
 	{
 		"ypos"										"c122"
+		"ypos_minmode"								"c120"
 		"tall"										"32"
 		"tall_minmode"								"32"
 	}
 	"CSecondaryTargetID"
 	{
 		"ypos"										"c122"
+		"ypos_minmode"								"c85"
 		"tall"										"32"
 		"tall_minmode"								"32"
 	}
@@ -159,6 +162,7 @@
 	"HudCloseCaption"
 	{
 		"xpos"										"c-215"
+		"xpos_minmode"								"c-35"
 		"ypos"										"r95"
 		"wide"										"150"
 		"tall"										"50"

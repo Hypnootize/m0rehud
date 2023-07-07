@@ -5,6 +5,7 @@
 	"HudItemEffectMeter"
 	{
 		"ypos"										"c185-11"
+		"ypos_minmode"								"c66"
 	}
 	"ItemEffectMeter"
 	{
@@ -20,6 +21,7 @@
 		"zpos"										"2"
 		"wide"										"p0.497"
 		"tall"										"2"
+		"tall_minmode"								"1"
 		"visible"									"1"
 		"enabled"									"1"
 		"proportionaltoparent"						"1"

@@ -48,7 +48,7 @@
 		"HUDRedTeamSolid"									"189 59 61 255"
 		"HUDDeathWarning"									"255 0 0 255"
 		"HudWhite"											"255 255 255 255"
-		"HudOffWhite"										"200 187 161 255"
+		"HudOffWhite"										"255 255 255 255"
 		"HudBlack"											"65 65 65 255"
 		"ProgressBarBlue"									"90 122 143 255"
 
@@ -84,7 +84,7 @@
 		"StoreGreen"										"76 107 34 255"
 
 		"LowHealthRed"										"255 0 0 255"
-		"ProgressOffWhite"									"251 235 202 255"
+		"ProgressOffWhite"									"255 255 255 255"
 		"ProgressBackground"								"250 234 201 51"
 		"HealthBgGrey"										"72 71 69 255"
 
@@ -93,7 +93,7 @@
 		"LabelDark"											"48 43 42 255"
 		"LabelTransparent"									"109 96 80 180"
 
-		"BuildMenuActive"									"248 231 198 255"
+		"BuildMenuActive"									"255 255 255 255"
 
 		"DisguiseMenuIconRed"								"192 56 63 255"
 		"DisguiseMenuIconBlue"								"92 128 166 255"
@@ -296,7 +296,7 @@
 
 		"HTML.BgColor"										"Blank"
 
-		"ProgressBar.FgColor"								"White"
+		"ProgressBar.FgColor"								"ProgressOffWhite"
 		"ProgressBar.BgColor"								"0 0 0 50"
 
 		"CircularProgressBar.FgColor"						"White"

@@ -18,10 +18,11 @@
 		"nemesis_width"								"15"
 		"class_width"								"15"
 		"score_width"								"20"
-		"ping_width"								"20"
+		"ping_width"								"21"
 		"killstreak_width"							"12"
 		"killstreak_image_width"					"12"
 	}
+
 	"BluePlayerList"
 	{
 		"ControlName"								"SectionedListPanel"
@@ -69,6 +70,7 @@
 		"enabled"									"0"
 		"proportionaltoparent"						"1"
 	}
+
 	"WhiteBG"
 	{
 		"ControlName"								"EditablePanel"
