@@ -278,7 +278,7 @@
 			}
 			"2"
 			{
-				"name"		 								"Rubik SemiBold"
+				"name"										"Rubik SemiBold"
 				"tall"										"18"
 				"weight"									"0"
 				"antialias"									"1"

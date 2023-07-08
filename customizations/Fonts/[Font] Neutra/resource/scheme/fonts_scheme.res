@@ -278,7 +278,7 @@
 			}
 			"2"
 			{
-				"name"		 								"NeutraText-Bold"
+				"name"										"NeutraText-Bold"
 				"tall"										"18"
 				"weight"									"0"
 				"antialias"									"1"

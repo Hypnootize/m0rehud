@@ -278,7 +278,7 @@
 			}
 			"2"
 			{
-				"name"		 								"Surface-Bold"
+				"name"										"Surface-Bold"
 				"tall"										"18"
 				"weight"									"0"
 				"antialias"									"1"

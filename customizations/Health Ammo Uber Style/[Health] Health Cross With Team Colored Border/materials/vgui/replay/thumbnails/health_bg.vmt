@@ -9,6 +9,6 @@
 
 	"UnlitGeneric_DX8"
 	{
-		"$baseTexture" 		"vgui\replay\thumbnails\health_bg_DX8"
+		"$baseTexture"		"vgui\replay\thumbnails\health_bg_DX8"
 	}
 }

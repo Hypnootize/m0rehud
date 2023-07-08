@@ -278,7 +278,7 @@
 			}
 			"2"
 			{
-				"name"		 								"RenogareSoft-Regular"
+				"name"										"RenogareSoft-Regular"
 				"tall"										"18"
 				"weight"									"0"
 				"antialias"									"1"

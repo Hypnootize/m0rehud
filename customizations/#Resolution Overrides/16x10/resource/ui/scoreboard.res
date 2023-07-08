@@ -483,8 +483,8 @@
 			"textAlignment"							"east"
 
 			"pin_to_sibling"						"K/D"
-			"pin_corner_to_sibling" 				"PIN_TOPRIGHT"
-			"pin_to_sibling_corner" 				"PIN_TOPLEFT"
+			"pin_corner_to_sibling"					"PIN_TOPRIGHT"
+			"pin_to_sibling_corner"					"PIN_TOPLEFT"
 		}
 		"DeathsWhite"
 		{
@@ -503,8 +503,8 @@
 			"textAlignment"							"west"
 
 			"pin_to_sibling"						"K/D"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}
 		"AssistsLabel"
 		{
@@ -539,8 +539,8 @@
 			"textAlignment"							"west"
 
 			"pin_to_sibling"						"AssistsLabel"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}
 		"DestructionLabel"
 		{
@@ -559,8 +559,8 @@
 			"textAlignment"							"east"
 
 			"pin_to_sibling"						"AssistsLabel"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_BOTTOMLEFT"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_BOTTOMLEFT"
 		}
 		"DestructionWhite"
 		{
@@ -579,8 +579,8 @@
 			"textAlignment"							"west"
 
 			"pin_to_sibling"						"DestructionLabel"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}
 		"CapturesLabel"
 		{
@@ -599,8 +599,8 @@
 			"textAlignment"							"east"
 
 			"pin_to_sibling"						"AssistsWhite"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}
 		"CapturesWhite"
 		{
@@ -619,8 +619,8 @@
 			"textAlignment"							"west"
 
 			"pin_to_sibling"						"CapturesLabel"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}
 		"DefensesLabel"
 		{
@@ -639,8 +639,8 @@
 			"textAlignment"							"east"
 
 			"pin_to_sibling"						"CapturesLabel"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_BOTTOMLEFT"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_BOTTOMLEFT"
 		}
 		"DefensesWhite"
 		{
@@ -659,8 +659,8 @@
 			"textAlignment"							"west"
 
 			"pin_to_sibling"						"DefensesLabel"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}
 		"DominationLabel"
 		{
@@ -679,8 +679,8 @@
 			"textAlignment"							"east"
 
 			"pin_to_sibling"						"CapturesWhite"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}
 		"DominationWhite"
 		{
@@ -699,8 +699,8 @@
 			"textAlignment"							"west"
 
 			"pin_to_sibling"						"DominationLabel"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}
 		"RevengeLabel"
 		{
@@ -719,8 +719,8 @@
 			"textAlignment"							"east"
 
 			"pin_to_sibling"						"DominationLabel"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_BOTTOMLEFT"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_BOTTOMLEFT"
 		}
 		"RevengeWhite"
 		{
@@ -739,8 +739,8 @@
 			"textAlignment"							"west"
 
 			"pin_to_sibling"						"RevengeLabel"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}
 		"HealingLabel"
 		{
@@ -759,8 +759,8 @@
 			"textAlignment"							"east"
 
 			"pin_to_sibling"						"DominationWhite"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}
 		"HealingWhite"
 		{
@@ -779,8 +779,8 @@
 			"textAlignment"							"west"
 
 			"pin_to_sibling"						"HealingLabel"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}
 		"InvulnLabel"
 		{
@@ -799,8 +799,8 @@
 			"textAlignment"							"east"
 
 			"pin_to_sibling"						"HealingLabel"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_BOTTOMLEFT"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_BOTTOMLEFT"
 		}
 		"InvulnWhite"
 		{
@@ -819,8 +819,8 @@
 			"textAlignment"							"west"
 
 			"pin_to_sibling"						"InvulnLabel"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}
 		"TeleportsLabel"
 		{
@@ -839,8 +839,8 @@
 			"textAlignment"							"east"
 
 			"pin_to_sibling"						"HealingWhite"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}
 		"TeleportsWhite"
 		{
@@ -859,8 +859,8 @@
 			"textAlignment"							"west"
 
 			"pin_to_sibling"						"TeleportsLabel"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}
 		"HeadshotsLabel"
 		{
@@ -879,8 +879,8 @@
 			"textAlignment"							"east"
 
 			"pin_to_sibling"						"TeleportsLabel"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_BOTTOMLEFT"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_BOTTOMLEFT"
 		}
 		"HeadshotsWhite"
 		{
@@ -899,8 +899,8 @@
 			"textAlignment"							"west"
 
 			"pin_to_sibling"						"HeadshotsLabel"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}
 		"BackstabsLabel"
 		{
@@ -919,8 +919,8 @@
 			"fgcolor"								"White"
 
 			"pin_to_sibling"						"TeleportsWhite"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}
 		"BackstabsWhite"
 		{
@@ -939,8 +939,8 @@
 			"textAlignment"							"west"
 
 			"pin_to_sibling"						"BackstabsLabel"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}
 		"DamageLabel"
 		{
@@ -959,8 +959,8 @@
 			"textAlignment"							"east"
 
 			"pin_to_sibling"						"BackstabsLabel"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_BOTTOMLEFT"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_BOTTOMLEFT"
 		}
 		"DamageWhite"
 		{
@@ -979,8 +979,8 @@
 			"textAlignment"							"west"
 
 			"pin_to_sibling"						"DamageLabel"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}
 		"Kills"
 		{

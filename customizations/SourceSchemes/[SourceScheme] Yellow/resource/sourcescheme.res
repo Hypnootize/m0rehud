@@ -119,7 +119,7 @@
 		//=========================================================================================================================
 		// NETGRAPH FONT
 		//-------------------------------------------------------------------------------------------------------------------------
-		// TF2's Default NetGraph Font is "Lucida Console" 
+		// TF2's Default NetGraph Font is "Lucida Console"
 		// You can use any font you wish but some valid alternatives are "Microsoft Sans Serif" "Georgia" "Impact" "Arial MT"
 		// The font size can by changed by editing the "tall" value
 		// "outline" if set to "1" will add an outline around the text

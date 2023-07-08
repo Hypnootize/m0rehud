@@ -278,7 +278,7 @@
 			}
 			"2"
 			{
-				"name"		 								"Days"
+				"name"										"Days"
 				"tall"										"14"
 				"weight"									"0"
 				"antialias"									"1"

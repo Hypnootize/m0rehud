@@ -732,8 +732,8 @@
 		{
 			"1"
 			{
-				"name"										"Trebuchet MS" 	[!$OSX]
-				"name"										"Helvetica" 	[$OSX]
+				"name"										"Trebuchet MS"	[!$OSX]
+				"name"										"Helvetica"	[$OSX]
 				"tall"										"18"
 				"weight"									"900"
 				"antialias"									"1"
@@ -5074,7 +5074,7 @@
 				"1"
 				{
 					"color"									"TanDark"
-					"offset"								 "0 1"
+					"offset"								"0 1"
 				}
 			}
 			Right
