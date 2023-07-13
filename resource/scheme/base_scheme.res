@@ -23,7 +23,7 @@
 		"PartyMember1"										"124 173 255 255"
 		"PartyMember2"										"99 232 167 255"
 		"PartyMember3"										"229 255 121 255"
-		"PartyMember4"										"232 184 99  255"
+		"PartyMember4"										"232 184 99 255"
 		"PartyMember5"										"255 118 108 255"
 		"PartyMember6"										"255 133 255 255"
 
@@ -159,9 +159,9 @@
 		"QualityColorrarity3_GreyedOut"						"51 51 62 255"
 		"QualityColorrarity4_GreyedOut"						"36 20 43 255"
 		"QualityColorVintage_GreyedOut"						"18 25 36 255"
-		"QualityColorUnique_GreyedOut"						"64 54 0  255"
+		"QualityColorUnique_GreyedOut"						"64 54 0 255"
 		"QualityColorCommunity_GreyedOut"					"28 44 19 255"
-		"QualityColorDeveloper_GreyedOut"					"41 4  30  255"
+		"QualityColorDeveloper_GreyedOut"					"41 4 30 255"
 		"QualityColorSelfMade_GreyedOut"					"28 44 74 255"
 		"QualityColorCustomized_GreyedOut"					"71 98 19 255"
 		"QualityColorStrange_GreyedOut"						"52 27 13 255"
@@ -462,6 +462,15 @@
 			{
 				"name"										"Verdana"
 				"tall"										"6"
+				"antialias"									"1"
+			}
+		}
+		"Symbols16"
+		{
+			"1"
+			{
+				"name"										"m0rehud Icons V5"
+				"tall"										"16"
 				"antialias"									"1"
 			}
 		}
