@@ -26,7 +26,7 @@
 			"font"									"m0refont24"
 			"labelText"								"%blue_alive%"
 			"textAlignment"							"center"
-			"fgcolor"								"m0reBlue"
+			"fgcolor"								"HUDBlueTeamSolid"
 		}
 		"CountShadow"
 		{
@@ -96,7 +96,7 @@
 			"font"									"m0refont24"
 			"labelText"								"%red_alive%"
 			"textAlignment"							"center"
-			"fgcolor"								"m0reRed"
+			"fgcolor"								"HUDRedTeamSolid"
 		}
 		"CountShadow"
 		{

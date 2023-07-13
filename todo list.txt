@@ -1,0 +1,24 @@
+//---------------------------
+// Basefile Logging Setup
+//---------------------------
+- Redo resolutions overrides for the scoreboard so they actually make fucking sense
+- Fine tune fonts for each res
+- Test killstreaks, heads counter and add Escape Plan overrides, whenever my internet comes back
+
+Find a way to make the remaining customizations work as well as the crosshairs damage flash
+
+MOVE ALL CUSTOMIZATIONS TO A SEPARATE FOLDER!!!!!!!!!!
+
+Build the customization menu, using the workshop menu probably.
+
+//---------------------------
+// General Stuff
+//---------------------------
+- Tournament Readyup and Spectator borders more inline with the rest of the HUD
+- Add Round Counter Option
+- switch mod_textures to #base
+- Redo Disguise and Taunt Menus, they still overlap with minmode in this version
+- Possibly add color aliases for transparent black and most colors
+- Clean up other menus like I did for backpack
+- Fine tune theme colors
+- Add only numbers versions of other fonts

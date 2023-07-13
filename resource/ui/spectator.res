@@ -1,4 +1,4 @@
-#base "HudInspectPanel.res"
+#base "hudinspectpanel.res"
 
 "Resource/UI/Spectator.res"
 {

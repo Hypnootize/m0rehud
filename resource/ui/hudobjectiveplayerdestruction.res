@@ -617,7 +617,7 @@
 				"textAlignment"						"east"
 				"labelText"							"%score%"
 				"font"								"m0refont30"
-				"fgcolor"							"m0reblue"
+				"fgcolor"							"HUDBlueTeamSolid"
 				"proportionalToParent"				"1"
 			}
 			"ScoreShadow"
@@ -668,7 +668,7 @@
 				"textAlignment"						"west"
 				"labelText"							"%score%"
 				"font"								"m0refont30"
-				"fgcolor"							"m0rered"
+				"fgcolor"							"HUDRedTeamSolid"
 				"proportionalToParent"				"1"
 			}
 			"ScoreShadow"

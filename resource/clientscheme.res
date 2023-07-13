@@ -2,19 +2,21 @@
 // COLORS SCHEME
 //=========================================================
 
+#base "../../../cfg/m0re_theme.txt"
 #base "scheme/colors_scheme.res"
 
 //=========================================================
 // FONTS SCHEME
 //=========================================================
 
+#base "../../../cfg/m0re_font.txt"
 #base "scheme/fonts_scheme.res"
 
 //=========================================================
 // CROSSHAIRS SCHEME
 //=========================================================
 
-#base "../scripts/crosshairs/font/crosshairs.res"
+#base "scheme/crosshairs_scheme.res"
 
 //=========================================================
 // DEFAULT TF2 SCHEME

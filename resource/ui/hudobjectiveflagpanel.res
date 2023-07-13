@@ -36,7 +36,7 @@
 		"textAlignment"								"east"
 		"labelText"									"%bluescore%"
 		"font"										"m0refont36"
-		"fgcolor"									"m0reblue"
+		"fgcolor"									"HUDBlueTeamSolid"
 
 		"if_hybrid"
 		{
@@ -132,7 +132,7 @@
 		"textAlignment"								"west"
 		"labelText"									"%redscore%"
 		"font"										"m0refont36"
-		"fgcolor"									"m0rered"
+		"fgcolor"									"HUDRedTeamSolid"
 
 		"if_hybrid"
 		{

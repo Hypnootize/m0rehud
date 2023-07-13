@@ -1,17 +1,3 @@
-#base "huddamageaccount_last.res"
-
-"Resource/UI/HudDamageAccount.res"
-{
-	"CDamageAccountPanel"
-	{
-		"fieldName"									"CDamageAccountPanel"
-		"text_x"									"0"
-		"text_y"									"0"
-		"delta_item_end_y"							"0"
-		"PositiveColor"								"Heal Numbers"
-		"NegativeColor"								"Damage Numbers"
-		"delta_lifetime"							"2"
-		"delta_item_font"							"m0refont18Outline"
-		"delta_item_font_big"						"m0refont18Outline"
-	}
-}
+#base "../../../../cfg/m0re_damage.txt"
+#base "../../../../cfg/m0re_last_damage.txt"
+#base "huddamageaccount_base.res"

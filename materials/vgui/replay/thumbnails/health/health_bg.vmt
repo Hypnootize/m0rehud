@@ -1,0 +1,14 @@
+"UnlitGeneric"
+{
+	"$baseTexture"			"vgui\replay\thumbnails\health\health_bg_DX9"
+	"$vertexalpha"			"1"
+	"$alpha"				"1"
+	"$translucent"			"1"
+	"$vertexcolor"			"1"
+	"$no_fullbright"		"1"
+
+	"UnlitGeneric_DX8"
+	{
+		"$baseTexture" 		"vgui\replay\thumbnails\health\health_bg_DX8"
+	}
+}

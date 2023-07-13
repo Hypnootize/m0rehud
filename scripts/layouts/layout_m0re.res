@@ -151,8 +151,8 @@
 
 		"TextFont"									"m0refont11"
 
-		"TeamBlue"									"m0reBlue"
-		"TeamRed"									"m0reRed"
+		"TeamBlue"									"HUDBlueTeamSolid"
+		"TeamRed"									"HUDRedTeamSolid"
 		"IconColor"									"White"
 		"LocalPlayerColor"							"HUDBlack"
 

@@ -5,16 +5,10 @@
 #base "layouts/layout_m0re.res"
 
 //=========================================================
-// HUD CROSSHAIRS
-//=========================================================
-
-#base "crosshairs/crosshairs.res"
-
-//=========================================================
 // TRANSPARENT VIEWMODELS
 //=========================================================
 
-#base "transparent%20viewmodels.res"
+#base "../../../cfg/m0re_transparent_viewmodels.txt"
 
 //=========================================================
 // DEFAULT LAYOUT

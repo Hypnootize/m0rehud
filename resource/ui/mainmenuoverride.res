@@ -166,7 +166,7 @@
 		"AllCaps"									"1"
 
 		"font"										"Coolvetica15"
-		"fgcolor"									"255 100 100 255"
+		"fgcolor"									"Red"
 		"labelText"									"No Connection To Steam"
 		"textAlignment"								"west"
 
@@ -186,6 +186,7 @@
 		"image"										"gc_dc"
 		"scaleImage"								"1"
 		"proportionaltoparent"						"1"
+		"drawcolor"									"Red"
 
 		"pin_to_sibling"							"NoGCMessage"
 		"pin_corner_to_sibling"						"PIN_BOTTOMLEFT"
