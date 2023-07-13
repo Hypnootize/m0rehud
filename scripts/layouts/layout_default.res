@@ -493,7 +493,8 @@
 		"fieldName"									"HudMessage"
 		"visible"									"1"
 		"enabled"									"1"
-		"wide"										"480"
+		"wide"										"f0"
+		"tall"										"480"
 	}
 	"HudMenu"
 	{

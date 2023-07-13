@@ -46,7 +46,7 @@
 		"proportionaltoparent"						"1"
 		"alpha"										"0"
 	}
-	
+
 	"WhiteBar"
 	{
 		"ControlName"								"EditablePanel"

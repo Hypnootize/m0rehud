@@ -278,7 +278,7 @@
 			}
 			"2"
 			{
-				"name"		 								"Cerbetica Bold"
+				"name"										"Cerbetica Bold"
 				"tall"										"18"
 				"weight"									"0"
 				"antialias"									"1"

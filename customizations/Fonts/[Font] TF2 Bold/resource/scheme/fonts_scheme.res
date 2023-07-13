@@ -278,7 +278,7 @@
 			}
 			"2"
 			{
-				"name"		 								"TF2 Build"
+				"name"										"TF2 Build"
 				"tall"										"16"
 				"weight"									"0"
 				"antialias"									"1"

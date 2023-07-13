@@ -278,7 +278,7 @@
 			}
 			"2"
 			{
-				"name"		 								"TF2 Secondary"
+				"name"										"TF2 Secondary"
 				"tall"										"18"
 				"weight"									"0"
 				"antialias"									"1"

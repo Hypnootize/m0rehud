@@ -37,6 +37,12 @@
 		"linespacing"								"18"
 		"linegap"									"0"
 		"fgcolor"									"blue"
+
+		"xpos_minmode"								"c-143"
+		"ypos_minmode"								"c15"
+		"wide_minmode"								"286"
+		"tall_minmode"								"88"
+		"linespacing_minmode"						"12"
 	}
 	"RedPlayerList"
 	{
@@ -52,6 +58,12 @@
 		"linespacing"								"18"
 		"linegap"									"0"
 		"textcolor"									"red"
+
+		"xpos_minmode"								"c-143"
+		"ypos_minmode"								"c98"
+		"wide_minmode"								"286"
+		"tall_minmode"								"88"
+		"linespacing_minmode"						"12"
 	}
 
 	//==================================================================================================================================================

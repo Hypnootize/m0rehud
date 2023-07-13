@@ -278,7 +278,7 @@
 			}
 			"2"
 			{
-				"name"		 								"Maven Pro Black"
+				"name"										"Maven Pro Black"
 				"tall"										"18"
 				"weight"									"0"
 				"antialias"									"1"
