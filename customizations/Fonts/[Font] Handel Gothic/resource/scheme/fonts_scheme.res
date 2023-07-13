@@ -278,7 +278,7 @@
 			}
 			"2"
 			{
-				"name"		 								"Handel Gothic BT"
+				"name"										"Handel Gothic BT"
 				"tall"										"14"
 				"weight"									"0"
 				"antialias"									"1"

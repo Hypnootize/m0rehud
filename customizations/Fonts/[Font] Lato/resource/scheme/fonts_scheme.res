@@ -278,7 +278,7 @@
 			}
 			"2"
 			{
-				"name"		 								"Lato Bold"
+				"name"										"Lato Bold"
 				"tall"										"16"
 				"weight"									"0"
 				"antialias"									"1"

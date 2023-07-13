@@ -278,7 +278,7 @@
 			}
 			"2"
 			{
-				"name"		 								"AvenirLTStd-Black"
+				"name"										"AvenirLTStd-Black"
 				"tall"										"18"
 				"weight"									"0"
 				"antialias"									"1"

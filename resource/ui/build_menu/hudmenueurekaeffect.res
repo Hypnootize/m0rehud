@@ -2,15 +2,15 @@
 {
 	"ItemsAnchor"
 	{
-		"ControlName"		     					"EditablePanel"
+		"ControlName"								"EditablePanel"
 		"fieldName"									"ItemsAnchor"
 		"xpos"										"cs-0.5"
 		"ypos"										"r120"
 		"zpos"										"0"
 		"wide"										"72"
 		"tall"										"40"
-		"visible"		        					"1"
-		"enabled"	          						"1"
+		"visible"									"1"
+		"enabled"									"1"
 		"proportionaltoparent"						"1"
 	}
 
@@ -40,8 +40,8 @@
 		"visible"									"1"
 
 		"pin_to_sibling"							"available_target_1"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 	}
 
 	"unavailable_target_1"
@@ -113,7 +113,7 @@
 	}
 	"Divider"
 	{
-		"ControlName"		     					"ImagePanel"
+		"ControlName"								"ImagePanel"
 		"fieldName"									"Divider"
 		"xpos"										"9999"
 		"ypos"										"9999"

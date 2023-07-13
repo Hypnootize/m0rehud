@@ -278,7 +278,7 @@
 			}
 			"2"
 			{
-				"name"		 								"Product Sans"
+				"name"										"Product Sans"
 				"tall"										"18"
 				"weight"									"0"
 				"antialias"									"1"

@@ -278,7 +278,7 @@
 			}
 			"2"
 			{
-				"name"		 								"Catamaran SemiBold"
+				"name"										"Catamaran SemiBold"
 				"tall"										"18"
 				"weight"									"0"
 				"antialias"									"1"

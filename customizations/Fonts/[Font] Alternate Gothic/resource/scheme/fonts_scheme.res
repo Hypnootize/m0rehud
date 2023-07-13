@@ -278,7 +278,7 @@
 			}
 			"2"
 			{
-				"name"		 								"AlternateGothicEF-NoThree"
+				"name"										"AlternateGothicEF-NoThree"
 				"tall"										"18"
 				"weight"									"0"
 				"antialias"									"1"

@@ -335,7 +335,7 @@
 			}
 			"2"
 			{
-				"name"		 								"Surface-Medium"
+				"name"										"Surface-Medium"
 				"tall"										"18"
 				"weight"									"0"
 				"antialias"									"1"

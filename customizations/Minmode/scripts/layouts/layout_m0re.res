@@ -48,11 +48,11 @@
 
 	"CHudAccountPanel"
 	{
-		"xpos"         								"c-100"
+		"xpos"										"c-100"
 		"ypos"										"c53"
 		"ypos_minmode"								"c53"
 		"wide"										"200"
-		"tall"  									"50"
+		"tall"										"50"
 	}
 
 	"CHealthAccountPanel"
@@ -62,7 +62,7 @@
 		"ypos"										"r25"
 		"ypos_minmode"								"r25"
 		"wide"										"f0"
-		"tall"  									"25"
+		"tall"										"25"
 	}
 
 	"HudDamageIndicator"
@@ -96,22 +96,22 @@
 	"CMainTargetID"
 	{
 		"ypos"										"c30"
-		"tall"	 									"30"
-		"tall_minmode"	 							"30"
+		"tall"										"30"
+		"tall_minmode"								"30"
 	}
 
 	"CSpectatorTargetID"
 	{
 		"ypos"										"c120"
-		"tall"	 									"30"
-		"tall_minmode"	 							"30"
+		"tall"										"30"
+		"tall_minmode"								"30"
 	}
 
 	"CSecondaryTargetID"
 	{
 		"ypos"										"c85"
-		"tall"	 									"30"
-		"tall_minmode"	 							"30"
+		"tall"										"30"
+		"tall_minmode"								"30"
 	}
 
 	"BuildingAnchor"
@@ -150,17 +150,17 @@
 
 	"HudDeathNotice"
 	{
-		"xpos"	 									"r640"
-		"ypos"	 									"15"
-		"wide"	 									"628"
-		"tall"	 									"468"
+		"xpos"										"r640"
+		"ypos"										"15"
+		"wide"										"628"
+		"tall"										"468"
 
-		"MaxDeathNotices" 							"12"
-		"IconScale"	  								"0.35"
-		"LineHeight"	  							"12"
-		"LineSpacing"	 							"0"
-		"CornerRadius"	  							"0"
-		"RightJustify"	  							"1"
+		"MaxDeathNotices"							"12"
+		"IconScale"									"0.35"
+		"LineHeight"								"12"
+		"LineSpacing"								"0"
+		"CornerRadius"								"0"
+		"RightJustify"								"1"
 
 		"TextFont"									"m0refont11"
 

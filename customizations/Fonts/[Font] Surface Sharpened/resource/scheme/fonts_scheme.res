@@ -278,7 +278,7 @@
 			}
 			"2"
 			{
-				"name"		 								"SurfaceSharpened-Medium"
+				"name"										"SurfaceSharpened-Medium"
 				"tall"										"18"
 				"weight"									"0"
 				"antialias"									"1"
