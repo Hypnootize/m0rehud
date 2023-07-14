@@ -15,6 +15,7 @@
 		"xpos"										"0"
 		"ypos"										"0"
 		"wide"										"f-1"
+		"tall"										"17"
 		"textAlignment"								"east"
 	}
 }
