@@ -1,9 +1,7 @@
 //---------------------------
 // Basefile Logging Setup
 //---------------------------
-- Redo resolutions overrides for the scoreboard so they actually make fucking sense
 - Fine tune fonts for each res
-- Test killstreaks, heads counter and add Escape Plan overrides, whenever my internet comes back
 
 Find a way to make the remaining customizations work as well as the crosshairs damage flash
 
@@ -20,5 +18,4 @@ Build the customization menu, using the workshop menu probably.
 - Redo Disguise and Taunt Menus, they still overlap with minmode in this version
 - Possibly add color aliases for transparent black and most colors
 - Clean up other menus like I did for backpack
-- Fine tune theme colors
 - Add only numbers versions of other fonts
