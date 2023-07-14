@@ -228,7 +228,7 @@
 		"textAlignment"								"west"
 		"textinsetx"								"2"
 		"labeltext"									"S"
-		"font"										"Symbols18"
+		"font"										"Symbols16"
 		"fgcolor"									"White"
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"2"

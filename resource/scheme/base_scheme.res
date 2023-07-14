@@ -474,6 +474,15 @@
 				"antialias"									"1"
 			}
 		}
+		"Symbols16"
+		{
+			"1"
+			{
+				"name"										"m0rehud Icons V5"
+				"tall"										"16"
+				"antialias"									"1"
+			}
+		}
 		"Symbols20"
 		{
 			"1"
