@@ -93,6 +93,13 @@
 				"name"										"Maven Pro Black"
 			}
 		}
+		"m0refont18Numbers"
+		{
+			"1"
+			{
+				"name"										"Maven Pro Numbers"
+			}
+		}
 		"m0refont20"
 		{
 			"1"
@@ -121,6 +128,13 @@
 				"name"										"Maven Pro Black"
 			}
 		}
+		"m0refont24Numbers"
+		{
+			"1"
+			{
+				"name"										"Maven Pro Numbers"
+			}
+		}
 		"m0refont26"
 		{
 			"1"
@@ -140,6 +154,13 @@
 			"1"
 			{
 				"name"										"Maven Pro Black"
+			}
+		}
+		"m0refont30Numbers"
+		{
+			"1"
+			{
+				"name"										"Maven Pro Numbers"
 			}
 		}
 		"m0refont32"
@@ -246,6 +267,11 @@
 		{
 			"font"		"resource/scheme/fonts/MavenPro.ttf"
 			"name"		"Maven Pro Black"
+		}
+		"31"
+		{
+			"font"		"resource/scheme/fonts/MavenPro_Numbers.ttf"
+			"name"		"Maven Pro Numbers"
 		}
 	}
 }

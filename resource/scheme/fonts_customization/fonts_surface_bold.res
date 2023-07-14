@@ -93,6 +93,13 @@
 				"name"										"Surface-Bold"
 			}
 		}
+		"m0refont18Numbers"
+		{
+			"1"
+			{
+				"name"										"Surface Bold Numbers"
+			}
+		}
 		"m0refont20"
 		{
 			"1"
@@ -121,6 +128,13 @@
 				"name"										"Surface-Bold"
 			}
 		}
+		"m0refont24Numbers"
+		{
+			"1"
+			{
+				"name"										"Surface Bold Numbers"
+			}
+		}
 		"m0refont26"
 		{
 			"1"
@@ -140,6 +154,13 @@
 			"1"
 			{
 				"name"										"Surface-Bold"
+			}
+		}
+		"m0refont30Numbers"
+		{
+			"1"
+			{
+				"name"										"Surface Bold Numbers"
 			}
 		}
 		"m0refont32"
@@ -242,6 +263,11 @@
 		{
 			"font"		"resource/scheme/fonts/surface_bold.otf"
 			"name"		"Surface-Bold"
+		}
+		"31"
+		{
+			"font"		"resource/scheme/fonts/surface_bold_numbers.otf"
+			"name"		"Surface Bold Numbers"
 		}
 	}
 }

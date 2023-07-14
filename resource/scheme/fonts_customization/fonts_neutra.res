@@ -93,6 +93,13 @@
 				"name"										"NeutraText-Bold"
 			}
 		}
+		"m0refont18Numbers"
+		{
+			"1"
+			{
+				"name"										"NeutraText-Numbers"
+			}
+		}
 		"m0refont20"
 		{
 			"1"
@@ -121,6 +128,13 @@
 				"name"										"NeutraText-Bold"
 			}
 		}
+		"m0refont24Numbers"
+		{
+			"1"
+			{
+				"name"										"NeutraText-Numbers"
+			}
+		}
 		"m0refont26"
 		{
 			"1"
@@ -140,6 +154,13 @@
 			"1"
 			{
 				"name"										"NeutraText-Bold"
+			}
+		}
+		"m0refont30Numbers"
+		{
+			"1"
+			{
+				"name"										"NeutraText-Numbers"
 			}
 		}
 		"m0refont32"
@@ -242,6 +263,11 @@
 		{
 			"font"		"resource/scheme/fonts/Neutra.ttf"
 			"name"		"NeutraText-Bold"
+		}
+		"31"
+		{
+			"font"		"resource/scheme/fonts/Neutra_Numbers.ttf"
+			"name"		"NeutraText-Numbers"
 		}
 	}
 }

@@ -93,6 +93,13 @@
 				"name"										"Ubuntu Bold"
 			}
 		}
+		"m0refont18Numbers"
+		{
+			"1"
+			{
+				"name"										"Ubuntu Numbers"
+			}
+		}
 		"m0refont20"
 		{
 			"1"
@@ -121,6 +128,13 @@
 				"name"										"Ubuntu Bold"
 			}
 		}
+		"m0refont24Numbers"
+		{
+			"1"
+			{
+				"name"										"Ubuntu Numbers"
+			}
+		}
 		"m0refont26"
 		{
 			"1"
@@ -140,6 +154,13 @@
 			"1"
 			{
 				"name"										"Ubuntu Bold"
+			}
+		}
+		"m0refont30Numbers"
+		{
+			"1"
+			{
+				"name"										"Ubuntu Numbers"
 			}
 		}
 		"m0refont32"
@@ -242,6 +263,11 @@
 		{
 			"font"		"resource/scheme/fonts/ubuntu.ttf"
 			"name"		"Ubuntu Bold"
+		}
+		"31"
+		{
+			"font"		"resource/scheme/fonts/ubuntu_numbers.ttf"
+			"name"		"Ubuntu Numbers"
 		}
 	}
 }

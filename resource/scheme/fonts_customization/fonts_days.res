@@ -106,6 +106,14 @@
 				"tall"										"15"
 			}
 		}
+		"m0refont18Numbers"
+		{
+			"1"
+			{
+				"name"										"Days-Numbers"
+				"tall"										"15"
+			}
+		}
 		"m0refont20"
 		{
 			"1"
@@ -138,6 +146,14 @@
 				"tall"										"19"
 			}
 		}
+		"m0refont24Numbers"
+		{
+			"1"
+			{
+				"name"										"Days-Numbers"
+				"tall"										"19"
+			}
+		}
 		"m0refont26"
 		{
 			"1"
@@ -159,6 +175,14 @@
 			"1"
 			{
 				"name"										"Days"
+				"tall"										"26"
+			}
+		}
+		"m0refont30Numbers"
+		{
+			"1"
+			{
+				"name"										"Days-Numbers"
 				"tall"										"26"
 			}
 		}
@@ -277,6 +301,11 @@
 		{
 			"font"		"resource/scheme/fonts/Days.ttf"
 			"name"		"Days"
+		}
+		"31"
+		{
+			"font"		"resource/scheme/fonts/Days_Numbers.ttf"
+			"name"		"Days-Numbers"
 		}
 	}
 }

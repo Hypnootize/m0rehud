@@ -93,6 +93,13 @@
 				"name"										"Product Sans Bold"
 			}
 		}
+		"m0refont18Numbers"
+		{
+			"1"
+			{
+				"name"										"Product Sans Bold Numbers"
+			}
+		}
 		"m0refont20"
 		{
 			"1"
@@ -121,6 +128,13 @@
 				"name"										"Product Sans Bold"
 			}
 		}
+		"m0refont24Numbers"
+		{
+			"1"
+			{
+				"name"										"Product Sans Bold Numbers"
+			}
+		}
 		"m0refont26"
 		{
 			"1"
@@ -140,6 +154,13 @@
 			"1"
 			{
 				"name"										"Product Sans Bold"
+			}
+		}
+		"m0refont30Numbers"
+		{
+			"1"
+			{
+				"name"										"Product Sans Bold Numbers"
 			}
 		}
 		"m0refont32"
@@ -240,8 +261,13 @@
 	{
 		"30"
 		{
-			"font"		"resource/scheme/fonts/Product Bold.ttf"
+			"font"		"resource/scheme/fonts/Product_Bold.ttf"
 			"name"		"Product Sans Bold"
+		}
+		"31"
+		{
+			"font"		"resource/scheme/fonts/Product_Bold_Numbers.ttf"
+			"name"		"Product Sans Bold Numbers"
 		}
 	}
 }

@@ -93,6 +93,13 @@
 				"name"										"AvenirLTStd-Black"
 			}
 		}
+		"m0refont18Numbers"
+		{
+			"1"
+			{
+				"name"										"AvenirLTStd-Black-Numbers"
+			}
+		}
 		"m0refont20"
 		{
 			"1"
@@ -124,6 +131,14 @@
 				"tall"										"22"
 			}
 		}
+		"m0refont24Numbers"
+		{
+			"1"
+			{
+				"name"										"AvenirLTStd-Black-Numbers"
+				"tall"										"22"
+			}
+		}
 		"m0refont26"
 		{
 			"1"
@@ -145,6 +160,14 @@
 			"1"
 			{
 				"name"										"AvenirLTStd-Black"
+				"tall"										"28"
+			}
+		}
+		"m0refont30Numbers"
+		{
+			"1"
+			{
+				"name"										"AvenirLTStd-Black-Numbers"
 				"tall"										"28"
 			}
 		}
@@ -253,6 +276,11 @@
 		{
 			"font"		"resource/scheme/fonts/Avenir.ttf"
 			"name"		"AvenirLTStd-Black"
+		}
+		"31"
+		{
+			"font"		"resource/scheme/fonts/Avenir_Numbers.ttf"
+			"name"		"AvenirLTStd-Black-Numbers"
 		}
 	}
 }

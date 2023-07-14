@@ -93,6 +93,13 @@
 				"name"										"TF2 Secondary"
 			}
 		}
+		"m0refont18Numbers"
+		{
+			"1"
+			{
+				"name"										"TF2 Secondary Numbers"
+			}
+		}
 		"m0refont20"
 		{
 			"1"
@@ -121,6 +128,13 @@
 				"name"										"TF2 Secondary"
 			}
 		}
+		"m0refont24Numbers"
+		{
+			"1"
+			{
+				"name"										"TF2 Secondary Numbers"
+			}
+		}
 		"m0refont26"
 		{
 			"1"
@@ -140,6 +154,13 @@
 			"1"
 			{
 				"name"										"TF2 Secondary"
+			}
+		}
+		"m0refont30Numbers"
+		{
+			"1"
+			{
+				"name"										"TF2 Secondary Numbers"
 			}
 		}
 		"m0refont32"
@@ -242,6 +263,11 @@
 		{
 			"font"		"resource/scheme/fonts/TF2.ttf"
 			"name"		"TF2 Secondary"
+		}
+		"31"
+		{
+			"font"		"resource/scheme/fonts/TF2_Numbers.ttf"
+			"name"		"TF2 Secondary Numbers"
 		}
 	}
 }

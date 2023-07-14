@@ -1,8 +1,6 @@
 //---------------------------
 // Basefile Logging Setup
 //---------------------------
-- Fine tune fonts for each res
-
 Find a way to make the remaining customizations work as well as the crosshairs damage flash
 
 MOVE ALL CUSTOMIZATIONS TO A SEPARATE FOLDER!!!!!!!!!!
@@ -18,4 +16,3 @@ Build the customization menu, using the workshop menu probably.
 - Redo Disguise and Taunt Menus, they still overlap with minmode in this version
 - Possibly add color aliases for transparent black and most colors
 - Clean up other menus like I did for backpack
-- Add only numbers versions of other fonts

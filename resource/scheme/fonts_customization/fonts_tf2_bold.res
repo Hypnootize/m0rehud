@@ -106,6 +106,14 @@
 				"tall"										"16"
 			}
 		}
+		"m0refont18Numbers"
+		{
+			"1"
+			{
+				"name"										"TF2 Build Numbers"
+				"tall"										"16"
+			}
+		}
 		"m0refont20"
 		{
 			"1"
@@ -138,6 +146,14 @@
 				"tall"										"20"
 			}
 		}
+		"m0refont24Numbers"
+		{
+			"1"
+			{
+				"name"										"TF2 Build Numbers"
+				"tall"										"20"
+			}
+		}
 		"m0refont26"
 		{
 			"1"
@@ -159,6 +175,14 @@
 			"1"
 			{
 				"name"										"TF2 Build"
+				"tall"										"24"
+			}
+		}
+		"m0refont30Numbers"
+		{
+			"1"
+			{
+				"name"										"TF2 Build Numbers"
 				"tall"										"24"
 			}
 		}
@@ -275,8 +299,13 @@
 	{
 		"30"
 		{
-			"font"		"resource/scheme/fonts/TF2 Bold.ttf"
+			"font"		"resource/scheme/fonts/TF2_Bold.ttf"
 			"name"		"TF2 Build"
+		}
+		"31"
+		{
+			"font"		"resource/scheme/fonts/TF2_Bold_Numbers.ttf"
+			"name"		"TF2 Build Numbers"
 		}
 	}
 }

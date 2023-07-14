@@ -106,6 +106,14 @@
 				"tall"										"15"
 			}
 		}
+		"m0refont18Numbers"
+		{
+			"1"
+			{
+				"name"										"Handel Gothic BT Numbers"
+				"tall"										"15"
+			}
+		}
 		"m0refont20"
 		{
 			"1"
@@ -138,6 +146,14 @@
 				"tall"										"19"
 			}
 		}
+		"m0refont24Numbers"
+		{
+			"1"
+			{
+				"name"										"Handel Gothic BT Numbers"
+				"tall"										"19"
+			}
+		}
 		"m0refont26"
 		{
 			"1"
@@ -159,6 +175,14 @@
 			"1"
 			{
 				"name"										"Handel Gothic BT"
+				"tall"										"26"
+			}
+		}
+		"m0refont30Numbers"
+		{
+			"1"
+			{
+				"name"										"Handel Gothic BT Numbers"
 				"tall"										"26"
 			}
 		}
@@ -275,8 +299,13 @@
 	{
 		"30"
 		{
-			"font"		"resource/scheme/fonts/Handel Gothic.ttf"
+			"font"		"resource/scheme/fonts/Handel_Gothic.ttf"
 			"name"		"Handel Gothic BT"
+		}
+		"31"
+		{
+			"font"		"resource/scheme/fonts/Handel_Gothic_Numbers.ttf"
+			"name"		"Handel Gothic BT Numbers"
 		}
 	}
 }

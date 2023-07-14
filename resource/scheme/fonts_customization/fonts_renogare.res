@@ -93,6 +93,13 @@
 				"name"										"RenogareSoft-Regular"
 			}
 		}
+		"m0refont18Numbers"
+		{
+			"1"
+			{
+				"name"										"Renogare Soft Numbers"
+			}
+		}
 		"m0refont20"
 		{
 			"1"
@@ -121,6 +128,13 @@
 				"name"										"RenogareSoft-Regular"
 			}
 		}
+		"m0refont24Numbers"
+		{
+			"1"
+			{
+				"name"										"Renogare Soft Numbers"
+			}
+		}
 		"m0refont26"
 		{
 			"1"
@@ -140,6 +154,13 @@
 			"1"
 			{
 				"name"										"RenogareSoft-Regular"
+			}
+		}
+		"m0refont30Numbers"
+		{
+			"1"
+			{
+				"name"										"Renogare Soft Numbers"
 			}
 		}
 		"m0refont32"
@@ -244,6 +265,11 @@
 		{
 			"font"		"resource/scheme/fonts/renogare.ttf"
 			"name"		"RenogareSoft-Regular"
+		}
+		"31"
+		{
+			"font"		"resource/scheme/fonts/renogare_numbers.ttf"
+			"name"		"Renogare Soft Numbers"
 		}
 	}
 }

@@ -93,6 +93,13 @@
 				"name"										"SurfaceSharpened-Medium"
 			}
 		}
+		"m0refont18Numbers"
+		{
+			"1"
+			{
+				"name"										"Surface Sharpened Numbers"
+			}
+		}
 		"m0refont20"
 		{
 			"1"
@@ -121,6 +128,13 @@
 				"name"										"SurfaceSharpened-Medium"
 			}
 		}
+		"m0refont24Numbers"
+		{
+			"1"
+			{
+				"name"										"Surface Sharpened Numbers"
+			}
+		}
 		"m0refont26"
 		{
 			"1"
@@ -140,6 +154,13 @@
 			"1"
 			{
 				"name"										"SurfaceSharpened-Medium"
+			}
+		}
+		"m0refont30Numbers"
+		{
+			"1"
+			{
+				"name"										"Surface Sharpened Numbers"
 			}
 		}
 		"m0refont32"
@@ -242,6 +263,11 @@
 		{
 			"font"		"resource/scheme/fonts/surface_sharpened.ttf"
 			"name"		"SurfaceSharpened-Medium"
+		}
+		"31"
+		{
+			"font"		"resource/scheme/fonts/surface_sharpened_numbers.ttf"
+			"name"		"Surface Sharpened Numbers"
 		}
 	}
 }

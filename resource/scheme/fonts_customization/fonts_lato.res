@@ -93,6 +93,13 @@
 				"name"										"Lato Bold"
 			}
 		}
+		"m0refont18Numbers"
+		{
+			"1"
+			{
+				"name"										"Lato Numbers"
+			}
+		}
 		"m0refont20"
 		{
 			"1"
@@ -124,6 +131,14 @@
 				"tall"										"22"
 			}
 		}
+		"m0refont24Numbers"
+		{
+			"1"
+			{
+				"name"										"Lato Numbers"
+				"tall"										"22"
+			}
+		}
 		"m0refont26"
 		{
 			"1"
@@ -145,6 +160,14 @@
 			"1"
 			{
 				"name"										"Lato Bold"
+				"tall"										"28"
+			}
+		}
+		"m0refont30Numbers"
+		{
+			"1"
+			{
+				"name"										"Lato Numbers"
 				"tall"										"28"
 			}
 		}
@@ -258,6 +281,11 @@
 		{
 			"font"		"resource/scheme/fonts/Lato.ttf"
 			"name"		"Lato Bold"
+		}
+		"31"
+		{
+			"font"		"resource/scheme/fonts/Lato_Numbers.ttf"
+			"name"		"Lato Numbers"
 		}
 	}
 }

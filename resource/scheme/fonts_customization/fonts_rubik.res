@@ -93,6 +93,13 @@
 				"name"										"Rubik SemiBold"
 			}
 		}
+		"m0refont18Numbers"
+		{
+			"1"
+			{
+				"name"										"Rubik SemiBold Numbers"
+			}
+		}
 		"m0refont20"
 		{
 			"1"
@@ -124,6 +131,13 @@
 				"tall"										"22"
 			}
 		}
+		"m0refont24Numbers"
+		{
+			"1"
+			{
+				"name"										"Rubik SemiBold Numbers"
+			}
+		}
 		"m0refont26"
 		{
 			"1"
@@ -145,6 +159,14 @@
 			"1"
 			{
 				"name"										"Rubik SemiBold"
+				"tall"										"28"
+			}
+		}
+		"m0refont30Numbers"
+		{
+			"1"
+			{
+				"name"										"Rubik SemiBold Numbers"
 				"tall"										"28"
 			}
 		}
@@ -254,6 +276,11 @@
 		{
 			"font"		"resource/scheme/fonts/Rubik.otf"
 			"name"		"Rubik SemiBold"
+		}
+		"31"
+		{
+			"font"		"resource/scheme/fonts/Rubik_Numbers.otf"
+			"name"		"Rubik SemiBold Numbers"
 		}
 	}
 }
