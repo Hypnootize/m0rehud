@@ -8,87 +8,56 @@
 	{
 		"K/D"
 		{
-			"xpos"									"80"
+			"xpos"									"60"
 		}
-		"Assists"
+		"AssistsLabel"
 		{
-			"xpos"									"3"
-			"wide"									"47"
+			"xpos"									"120"
+			"wide"									"50"
 		}
-		"Destruction"
+		"DestructionLabel"
 		{
-			"xpos"									"3"
-			"wide"									"47"
+			"wide"									"50"
 		}
 		"CapturesLabel"
 		{
-			"xpos"									"-70"
+			"wide"									"50"
 		}
-		"Captures"
+		"DefensesLabel"
 		{
-			"xpos"									"3"
-			"wide"									"47"
-		}
-		"Defenses"
-		{
-			"xpos"									"3"
-			"wide"									"47"
+			"wide"									"50"
 		}
 		"DominationLabel"
 		{
-			"xpos"									"-70"
+			"wide"									"50"
 		}
-		"Domination"
+		"RevengeLabel"
 		{
-			"xpos"									"3"
-			"wide"									"47"
-		}
-		"Revenge"
-		{
-			"xpos"									"3"
-			"wide"									"47"
+			"wide"									"50"
 		}
 		"HealingLabel"
 		{
-			"xpos"									"-70"
+			"wide"									"50"
 		}
-		"Healing"
+		"InvulnLabel"
 		{
-			"xpos"									"3"
-			"wide"									"47"
-		}
-		"Invuln"
-		{
-			"xpos"									"3"
-			"wide"									"47"
+			"wide"									"50"
 		}
 		"TeleportsLabel"
 		{
-			"xpos"									"-70"
+			"wide"									"50"
 		}
-		"Teleports"
+		"HeadshotsLabel"
 		{
-			"xpos"									"3"
-			"wide"									"47"
-		}
-		"Headshots"
-		{
-			"xpos"									"3"
-			"wide"									"47"
+			"wide"									"50"
 		}
 		"BackstabsLabel"
 		{
-			"xpos"									"-70"
+			"wide"									"50"
 		}
-		"Backstabs"
+		"DamageLabel"
 		{
-			"xpos"									"3"
-			"wide"									"47"
-		}
-		"Damage"
-		{
-			"xpos"									"3"
-			"wide"									"47"
+			"wide"									"50"
 		}
 	}
 }
