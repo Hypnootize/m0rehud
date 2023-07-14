@@ -64,4 +64,11 @@
 		"font_minmode"								"m0refont14"
 		"visible"									"1"
 	}
+	"PlayerStatusAnchor"
+	{
+		"xpos"										"-26"
+		"xpos_minmode"								"-50"
+		"ypos"										"-25"
+		"ypos_minmode"								"-18"
+	}
 }
