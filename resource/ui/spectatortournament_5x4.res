@@ -2,6 +2,6 @@
 {
 	"specgui"
 	{
-		"team2_player_base_offset_x"				"175"
+		"team2_player_base_offset_x"				"180"
 	}
 }

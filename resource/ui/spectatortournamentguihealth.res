@@ -5,7 +5,7 @@
 		"ControlName"								"CExLabel"
 		"fieldName"									"PlayerStatusHealthValueSpecGUI"
 		"xpos"										"cs-0.5"
-		"ypos"										"cs-0.5"
+		"ypos"										"cs-0.5-1"
 		"zpos"										"5"
 		"wide"										"f0"
 		"tall"										"f0"
