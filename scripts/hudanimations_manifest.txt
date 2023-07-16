@@ -7,7 +7,10 @@
 	"file" "scripts/animations/animations_uber.txt"
 	"file" "scripts/animations/animations_misc.txt"
 	"file" "scripts/animations/animations_removed.txt"
-	"file" "scripts/animations/animations_crosshairs.txt"
+
+	//"file" "scripts/animations/animations_crosshairs.txt"
+	//"file" "scripts/animations/animations_counter.txt"
+	//"file" "scripts/animations/animations_ammo_flash.txt" //comment animations_ammo.txt if active
 
 	"file" "scripts/hudanimations_tf.txt"
 }

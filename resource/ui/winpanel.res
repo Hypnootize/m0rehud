@@ -274,7 +274,7 @@
 		"proportionaltoparent"						"1"
 		"PaintBackground"							"1"
 		"PaintBackgroundType"						"0"
-		"bgcolor_override"							"0 0 0 100"
+		"bgcolor_override"							"TransparentLightBlack"
 	}
 	//==================================================================================================================================================
 	"WinningTeamLabel"

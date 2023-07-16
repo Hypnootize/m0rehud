@@ -25,7 +25,7 @@
 		"proportionaltoparent"						"1"
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
-		"bgcolor_override"							"0 0 0 50"
+		"bgcolor_override"							"TransparentLightestBlack"
 	}
 	"IconBackgound"
 	{
@@ -41,7 +41,7 @@
 		"proportionaltoparent"						"1"
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
-		"bgcolor_override"							"0 0 0 50"
+		"bgcolor_override"							"TransparentLightestBlack"
 	}
 	"Icon"
 	{

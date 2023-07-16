@@ -11,7 +11,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"paintbackground"							"1"
-		"bgcolor_override"							"0 0 0 200"
+		"bgcolor_override"							"TransparentBlack"
 	}
 	"VideoPanel"
 	{
@@ -47,7 +47,7 @@
 		"centerwrap"								"1"
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
-		"bgcolor_override"							"0 0 0 100"
+		"bgcolor_override"							"TransparentLightBlack"
 
 		"pin_to_sibling"							"VideoPanel"
 		"pin_corner_to_sibling"						"PIN_CENTER_TOP"

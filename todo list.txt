@@ -1,8 +1,6 @@
 //---------------------------
 // Basefile Logging Setup
 //---------------------------
-Find a way to make the remaining customizations work as well as the crosshairs damage flash
-
 MOVE ALL CUSTOMIZATIONS TO A SEPARATE FOLDER!!!!!!!!!!
 
 Build the customization menu, using the workshop menu probably.
@@ -10,9 +8,7 @@ Build the customization menu, using the workshop menu probably.
 //---------------------------
 // General Stuff
 //---------------------------
-- Tournament Readyup and Spectator borders more inline with the rest of the HUD
-- Add Round Counter Option
 - switch mod_textures to #base
 - Redo Disguise and Taunt Menus, they still overlap with minmode in this version
-- Possibly add color aliases for transparent black and most colors
+- Possibly add color aliases for most colors
 - Clean up other menus like I did for backpack

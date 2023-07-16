@@ -85,7 +85,7 @@
 			"proportionaltoparent"					"1"
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"0"
-			"bgcolor_override"						"0 0 0 50"
+			"bgcolor_override"						"TransparentLightestBlack"
 		}
 		"IconBackgound"
 		{
@@ -101,7 +101,7 @@
 			"proportionaltoparent"					"1"
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"0"
-			"bgcolor_override"						"0 0 0 50"
+			"bgcolor_override"						"TransparentLightestBlack"
 		}
 		"NotBuiltLabel"
 		{
@@ -141,7 +141,7 @@
 			"proportionaltoparent"					"1"
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"0"
-			"bgcolor_override"						"0 0 0 50"
+			"bgcolor_override"						"TransparentLightestBlack"
 		}
 		"IconBackgound"
 		{
@@ -157,7 +157,7 @@
 			"proportionaltoparent"					"1"
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"0"
-			"bgcolor_override"						"0 0 0 50"
+			"bgcolor_override"						"TransparentLightestBlack"
 		}
 		"Icon_Upgrade_1"
 		{
@@ -248,10 +248,10 @@
 			"scaleImage"							"1"
 			"proportionaltoparent"					"1"
 			"icon"									"obj_status_icon_wrench"
-			"iconColor"								"0 0 0 255"
+			"iconColor"								"Black"
 			"paintBackground"						"1"
 			"paintBackgroundType"					"0"
-			"bgcolor_override"						"240 70 70 150"
+			"bgcolor_override"						"Red"
 		}
 		"SapperIcon"
 		{
@@ -267,10 +267,10 @@
 			"scaleImage"							"1"
 			"proportionaltoparent"					"1"
 			"icon"									"obj_status_icon_sapper"
-			"iconColor"								"0 0 0 255"
+			"iconColor"								"Black"
 			"paintBackground"						"1"
 			"paintBackgroundType"					"0"
-			"bgcolor_override"						"240 70 70 150"
+			"bgcolor_override"						"Red"
 			"proportionaltoparent"					"1"
 		}
 		"Health"

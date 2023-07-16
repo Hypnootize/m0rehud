@@ -156,7 +156,7 @@
 		"IconColor"									"White"
 		"LocalPlayerColor"							"HUDBlack"
 
-		"BaseBackgroundColor"						"0 0 0 100"
+		"BaseBackgroundColor"						"TransparentLightBlack"
 		"LocalBackgroundColor"						"240 240 240 200"
 	}
 	"HudCloseCaption"

@@ -1388,9 +1388,9 @@
 			"paintbackground"						"1"
 			"RoundedCorners"						"0"
 
-			"defaultBgColor_override"				"0 0 0 100"
-			"armedBgColor_override"					"0 0 0 100"
-			"depressedBgColor_override"				"0 0 0 100"
+			"defaultBgColor_override"				"TransparentLightBlack"
+			"armedBgColor_override"					"TransparentLightBlack"
+			"depressedBgColor_override"				"TransparentLightBlack"
 
 			"defaultFgColor_override"				"White"
 			"armedFgColor_override"					"Menu Labels"
@@ -1409,7 +1409,7 @@
 			"proportionaltoparent"					"1"
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"0"
-			"bgcolor_override"						"0 0 0 50"
+			"bgcolor_override"						"TransparentLightestBlack"
 
 			"TitleLabel"
 			{
@@ -1431,7 +1431,7 @@
 				"fgcolor"							"White"
 				"paintbackground"					"1"
 				"paintbackgroundtype"				"0"
-				"bgcolor_override"					"0 0 0 100"
+				"bgcolor_override"					"TransparentLightBlack"
 			}
 			"SteamFriendsList"
 			{
@@ -1599,7 +1599,7 @@
 		"visible"									"0"
 		"PaintBackground"							"1"
 		"PaintBackgroundType"						"0"
-		"bgcolor_override"							"0 0 0 100"
+		"bgcolor_override"							"TransparentLightBlack"
 
 		"TipSubLabel"
 		{
@@ -1649,7 +1649,7 @@
 		"tall"										"300"
 		"visible"									"0"
 		"paintbackground"							"1"
-		"bgcolor_override"							"0 0 0 50"
+		"bgcolor_override"							"TransparentLightestBlack"
 		"noitem_textcolor"							"White"
 		"PaintBackgroundType"						"0"
 

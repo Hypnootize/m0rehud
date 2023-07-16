@@ -1186,7 +1186,7 @@
 		"tall"										"480"
 		"visible"									"1"
 		"enabled"									"1"
-		"bgcolor_override"							"0 0 0 0"
+		"bgcolor_override"							"Blank"
 		"PaintBackgroundType"						"0"
 	}
 	"HudAlert"
@@ -1208,7 +1208,7 @@
 		"tall"										"480"
 		"visible"									"1"
 		"enabled"									"1"
-		"bgcolor_override"							"0 0 0 0"
+		"bgcolor_override"							"Blank"
 		"PaintBackgroundType"						"0"
 	}
 	"CTFFlagCalloutPanel"

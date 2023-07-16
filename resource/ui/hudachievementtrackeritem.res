@@ -53,7 +53,7 @@
 		"zpos"										"4"
 		"visible"									"1"
 		"enabled"									"1"
-		"fillcolor"									"0 0 0 50"
+		"fillcolor"									"TransparentLightestBlack"
 	}
 	"ProgressBar"
 	{

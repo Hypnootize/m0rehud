@@ -7,7 +7,8 @@ event HudHealthBonusPulse
 
 	Animate	PlayerStatusHealthBonusBG				Alpha		"255"								Linear	0.0		0.0
 
-	Animate PlayerStatusHealthValueShadow			FgColor		"Health Buff"						Linear	0.0		0.0
+	Animate PlayerStatusHealthValue					FgColor		"Health Buff"						Linear	0.0		0.0
+	Animate PlayerStatusHealthValueShadow			FgColor		"Health Shadow Buff"				Linear	0.0		0.0
 	Animate PlayerStatusHealthValueShadowExtra		Alpha		"255"								Linear	0.0		0.0
 
 	Animate PlayerStatusHealthValueTarget			FgColor		"Health Buff Target"				Linear	0.0		0.0
@@ -26,7 +27,8 @@ event HudHealthBonusPulseStop
 
 	Animate	PlayerStatusHealthBonusBG				Alpha		"0"									Linear	0.0		0.0
 
-	Animate PlayerStatusHealthValueShadow			FgColor		"Black"								Linear	0.0		0.0
+	Animate PlayerStatusHealthValue					FgColor		"Health Numbers"					Linear	0.0		0.0
+	Animate PlayerStatusHealthValueShadow			FgColor		"Health Shadow"						Linear	0.0		0.0
 	Animate PlayerStatusHealthValueShadowExtra		Alpha		"0"									Linear	0.0		0.0
 
 	Animate PlayerStatusHealthValueTarget			FgColor		"Health Numbers"					Linear	0.0		0.0
@@ -45,7 +47,8 @@ event HudHealthDyingPulse
 
 	Animate	PlayerStatusHealthDyingBG				Alpha		"255"								Linear	0.0		0.0
 
-	Animate PlayerStatusHealthValueShadow			FgColor		"Health Hurt"						Linear	0.0		0.0
+	Animate PlayerStatusHealthValue					FgColor		"Health Hurt"						Linear	0.0		0.0
+	Animate PlayerStatusHealthValueShadow			FgColor		"Health Shadow Hurt"				Linear	0.0		0.0
 	Animate PlayerStatusHealthValueShadowExtra		Alpha		"255"								Linear	0.0		0.0
 
 	Animate PlayerStatusHealthValueTarget			FgColor		"Health Hurt Target"				Linear	0.0		0.0
@@ -64,7 +67,8 @@ event HudHealthDyingPulseStop
 
 	Animate	PlayerStatusHealthDyingBG				Alpha		"0"									Linear	0.0		0.0
 
-	Animate PlayerStatusHealthValueShadow			FgColor		"Black"								Linear	0.0		0.0
+	Animate PlayerStatusHealthValue					FgColor		"Health Numbers"					Linear	0.0		0.0
+	Animate PlayerStatusHealthValueShadow			FgColor		"Health Shadow"						Linear	0.0		0.0
 	Animate PlayerStatusHealthValueShadowExtra		Alpha		"0"									Linear	0.0		0.0
 
 	Animate PlayerStatusHealthValueTarget			FgColor		"Health Numbers"					Linear	0.0		0.0

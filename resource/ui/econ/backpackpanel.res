@@ -249,7 +249,7 @@
 		"editable"									"1"
 		"unicode"									"1"
 		"fgcolor_override"							"White"
-		"bgcolor_override"							"0 0 0 200"
+		"bgcolor_override"							"TransparentBlack"
 		"font"										"HudFontSmallest"
 
 		"pin_to_sibling"							"NameFilterIcon"

@@ -394,7 +394,7 @@
 		"tall"										"20"
 		"visible"									"1"
 		"enabled"									"1"
-		"fillcolor"									"0 0 0 100"
+		"fillcolor"									"TransparentLightBlack"
 		"PaintBackgroundType"						"0"
 
 		"pin_to_sibling"							"LocalPlayerStatsPanel"
@@ -1087,7 +1087,7 @@
 				"visible"							"1"
 				"PaintBackground"					"1"
 				"PaintBackgroundType"				"0"
-				"bgcolor_override"					"0 0 0 100"
+				"bgcolor_override"					"TransparentLightBlack"
 				"proportionaltoparent"				"1"
 			}
 			"AvatarImage"
@@ -1173,7 +1173,7 @@
 				"visible"							"1"
 				"PaintBackground"					"1"
 				"PaintBackgroundType"				"0"
-				"bgcolor_override"					"0 0 0 100"
+				"bgcolor_override"					"TransparentLightBlack"
 				"proportionaltoparent"				"1"
 			}
 			"AvatarImage"

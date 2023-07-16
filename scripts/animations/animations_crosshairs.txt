@@ -1,14 +1,5 @@
-//=======================================================================================================
-// CROSSHAIR ANIMATION
-//=======================================================================================================
-// Uncomment (by removing the // before Animate) both lines to activate the crosshair flashing on damage
-// You can change the Crosshair and Crosshair flashing color from the resource/colors.res
-//=======================================================================================================
-// For more instructions: https://github.com/Hypnootize/m0rehud/wiki/Crosshairs
-//=======================================================================================================
-
 event DamagedPlayer
 {
-	//	Animate "CustomCrosshair"		FgColor		"Crosshair Flash"			Linear	0.0		0.00001
-	//	Animate "CustomCrosshair"		FgColor		"Crosshair"					Linear	0.10	0.10001
+	Animate "CustomCrosshair"		FgColor		"Crosshair Flash"			Linear	0.0		0.00001
+	Animate "CustomCrosshair"		FgColor		"Crosshair"					Linear	0.10	0.10001
 }
