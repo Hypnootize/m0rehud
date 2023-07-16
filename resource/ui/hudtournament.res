@@ -16,9 +16,9 @@
 		"team1_player_delta_y"						"0"
 		"team2_player_base_offset_x"				"25"
 		"team2_player_base_y"						"0"
-		"team2_player_delta_x"						"42"
+		"team2_player_delta_x"						"46"
 		"team2_player_delta_y"						"0"
-		"teams_player_delta_x_comp"					"42"
+		"teams_player_delta_x_comp"					"46"
 
 		"if_competitive"
 		{
@@ -26,7 +26,7 @@
 		}
 		"if_readymode"
 		{
-			"team1_player_base_y"					"50"
+			"team1_player_base_y"					"1"
 		}
 		"if_mvm"
 		{
@@ -41,88 +41,73 @@
 		"playerpanels_kv"
 		{
 			"visible"								"0"
-			"wide"									"43"
-			"tall"									"28"
+			"wide"									"45"
+			"tall"									"13"
 			"zpos"									"1"
 
 			"color_ready"							"0 255 0 220"
 			"color_notready"						"0 0 0 220"
 
-			"playername"
+			"ClassImageBG"
+			{
+				"ControlName"						"Panel"
+				"fieldName"							"ClassImageBG"
+				"xpos"								"0"
+				"ypos"								"0"
+				"zpos"								"1"
+				"wide"								"13"
+				"tall"								"f1"
+				"visible"							"1"
+				"enabled"							"1"
+				"proportionaltoparent"				"1"
+				"paintBackground"					"1"
+				"bgcolor_override"					"TransparentBlack"
+			}
+			"PlayerName"
 			{
 				"ControlName"						"CExLabel"
-				"fieldName"							"playername"
+				"fieldName"							"PlayerName"
 				"font"								"DefaultVerySmall"
-				"xpos"								"4"
+				"xpos"								"rs1-1"
 				"ypos"								"rs1-3"
 				"zpos"								"5"
-				"wide"								"f8"
+				"wide"								"f15"
 				"tall"								"7"
 				"visible"							"1"
 				"proportionaltoparent"				"1"
 				"labelText"							"%playername%"
 				"textAlignment"						"west"
 			}
-			"classimage"
+			"ClassImage"
 			{
 				"ControlName"						"CTFClassImage"
-				"fieldName"							"classimage"
-				"xpos"								"3"
-				"ypos"								"3"
-				"zpos"								"2"
-				"wide"								"16"
-				"tall"								"16"
+				"fieldName"							"ClassImage"
+				"xpos"								"0"
+				"ypos"								"0"
+				"zpos"								"4"
+				"wide"								"13"
+				"tall"								"13"
 				"visible"							"1"
 				"enabled"							"1"
 				"proportionaltoparent"				"1"
 				"image"								"../hud/class_scoutred"
 				"scaleImage"						"1"
 			}
-			"ReadyBG"
-			{
-				"ControlName"						"ScalableImagePanel"
-				"fieldName"							"ReadyBG"
-				"xpos"								"rs1-4"
-				"ypos"								"4"
-				"zpos"								"-1"
-				"wide"								"15"
-				"tall"								"15"
-				"visible"							"0"
-				"enabled"							"1"
-				"proportionaltoparent"				"1"
-				"image"								"../HUD/tournament_panel_brown"
-
-				"src_corner_height"					"22"
-				"src_corner_width"					"22"
-
-				"draw_corner_width"					"3"
-				"draw_corner_height"				"3"
-			}
 			"ReadyImage"
 			{
 				"ControlName"						"ImagePanel"
 				"fieldName"							"ReadyImage"
-				"xpos"								"rs1-6"
-				"ypos"								"cs-0.5-2"
+				"xpos"								"0"
+				"ypos"								"0"
 				"zpos"								"0"
-				"wide"								"11"
-				"tall"								"11"
+				"wide"								"f0"
+				"tall"								"f0"
 				"visible"							"0"
 				"enabled"							"1"
 				"proportionaltoparent"				"1"
-				"image"								"hud/checkmark"
+				"image"								"white"
 				"scaleImage"						"1"
-			}
-			"classimagebg"
-			{
-				"ControlName"						"Panel"
-				"fieldName"							"classimagebg"
-				"xpos"								"9999"
-				"ypos"								"9999"
-				"wide"								"0"
-				"tall"								"0"
-				"visible"							"0"
-				"enabled"							"0"
+				"drawcolor"							"105 180 75 255"
 			}
 			"respawntime"
 			{
@@ -150,6 +135,17 @@
 			{
 				"ControlName"						"CExLabel"
 				"fieldName"							"chargeamount"
+				"xpos"								"9999"
+				"ypos"								"9999"
+				"wide"								"0"
+				"tall"								"0"
+				"visible"							"0"
+				"enabled"							"0"
+			}
+			"ReadyBG"
+			{
+				"ControlName"						"ScalableImagePanel"
+				"fieldName"							"ReadyBG"
 				"xpos"								"9999"
 				"ypos"								"9999"
 				"wide"								"0"
@@ -422,6 +418,35 @@
 
 	//==================================================================================================================================================
 
+	"ReadyModeBG"
+	{
+		"ControlName"								"EditablePanel"
+		"fieldname"									"ReadyModeBG"
+		"xpos"										"cs-0.5"
+		"ypos"										"0"
+		"zpos"										"-1"
+		"wide"										"f0"
+		"tall"										"15"
+		"visible"									"0"
+		"enabled"									"1"
+		"proportionaltoparent"						"1"
+		"painbackground"							"1"
+		"painbackgroundtype"						"0"
+		"bgcolor_override"							"35 34 32 255"
+
+		"if_competitive"
+		{
+			"visible"								"0"
+		}
+		"if_readymode"
+		{
+			"visible"								"1"
+		}
+		"if_mvm"
+		{
+			"visible"								"0"
+		}
+	}
 	"TournamentConditionLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -449,7 +474,7 @@
 		}
 		"if_readymode"
 		{
-			"ypos"									"20"
+			
 		}
 		"if_mvm"
 		{
@@ -481,7 +506,7 @@
 		"if_readymode"
 		{
 			"visible"								"1"
-			"ypos"									"85"
+			"ypos"									"30"
 		}
 		"if_mvm"
 		{
