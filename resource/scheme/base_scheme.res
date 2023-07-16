@@ -37,8 +37,9 @@
 		"GreenSolid"										"76 107 34 255"
 
 		"Black"												"0 0 0 255"
-		"TransparentBlack"									"0 0 0 196"
-		"TransparentLightBlack"								"0 0 0 90"
+		"TransparentBlack"									"0 0 0 200"
+		"TransparentLightBlack"								"0 0 0 100"
+		"TransparentLightestBlack"							"0 0 0 50"
 		"FooterBGBlack"										"52 48 55 255"
 
 		"HUDBlueTeam"										"90 122 143 255"
@@ -801,7 +802,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2"
+				"name"										"TF2 Edit"
 				"tall"										"24"
 				"weight"									"500"
 				"additive"									"0"
@@ -810,7 +811,7 @@
 			}
 			"2"
 			{
-				"name"										"TF2"
+				"name"										"TF2 Edit"
 				"tall"										"32"
 				"weight"									"500"
 				"additive"									"0"
@@ -819,7 +820,7 @@
 			}
 			"3"
 			{
-				"name"										"TF2"
+				"name"										"TF2 Edit"
 				"tall"										"44"
 				"weight"									"500"
 				"additive"									"0"
@@ -828,7 +829,7 @@
 			}
 			"4"
 			{
-				"name"										"TF2"
+				"name"										"TF2 Edit"
 				"tall"										"48"
 				"weight"									"500"
 				"additive"									"0"
@@ -837,7 +838,7 @@
 			}
 			"5"
 			{
-				"name"										"TF2"
+				"name"										"TF2 Edit"
 				"tall"										"52"
 				"weight"									"500"
 				"additive"									"0"
@@ -849,7 +850,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Build"
+				"name"										"TF2 Build Edit"
 				"tall"										"44"
 				"weight"									"500"
 				"additive"									"0"
@@ -860,7 +861,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Build"
+				"name"										"TF2 Build Edit"
 				"tall"										"35"
 				"weight"									"500"
 				"additive"									"0"
@@ -871,7 +872,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2"
+				"name"										"TF2 Edit"
 				"tall"										"36"
 				"weight"									"500"
 				"additive"									"0"
@@ -882,7 +883,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2"
+				"name"										"TF2 Edit"
 				"tall"										"30"
 				"weight"									"500"
 				"additive"									"0"
@@ -893,7 +894,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Build"
+				"name"										"TF2 Build Edit"
 				"tall"										"30"
 				"weight"									"500"
 				"additive"									"0"
@@ -904,7 +905,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2"
+				"name"										"TF2 Edit"
 				"tall"										"24"
 				"weight"									"500"
 				"additive"									"0"
@@ -915,7 +916,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Secondary"
+				"name"										"TF2 Secondary Edit"
 				"tall"										"24"
 				"weight"									"500"
 				"additive"									"0"
@@ -926,7 +927,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Build"
+				"name"										"TF2 Build Edit"
 				"tall"										"24"
 				"weight"									"500"
 				"additive"									"0"
@@ -937,7 +938,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Build"
+				"name"										"TF2 Build Edit"
 				"tall"										"18"
 				"weight"									"500"
 				"additive"									"0"
@@ -948,7 +949,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2"
+				"name"										"TF2 Edit"
 				"tall"										"18"
 				"weight"									"500"
 				"additive"									"0"
@@ -959,7 +960,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Secondary"
+				"name"										"TF2 Secondary Edit"
 				"tall"										"18"
 				"weight"									"500"
 				"additive"									"0"
@@ -970,7 +971,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Secondary"
+				"name"										"TF2 Secondary Edit"
 				"tall"										"14"
 				"weight"									"500"
 				"additive"									"0"
@@ -981,7 +982,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Build"
+				"name"										"TF2 Build Edit"
 				"tall"										"16"
 				"weight"									"500"
 				"additive"									"0"
@@ -992,7 +993,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Build"
+				"name"										"TF2 Build Edit"
 				"tall"										"14"
 				"weight"									"500"
 				"additive"									"0"
@@ -1003,7 +1004,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Build"
+				"name"										"TF2 Build Edit"
 				"tall"										"14"
 				"weight"									"500"
 				"additive"									"0"
@@ -1015,7 +1016,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Secondary"
+				"name"										"TF2 Secondary Edit"
 				"tall"										"11"
 				"weight"									"500"
 				"additive"									"0"
@@ -1026,7 +1027,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Secondary"
+				"name"										"TF2 Secondary Edit"
 				"tall"										"11"
 				"weight"									"500"
 				"additive"									"0"
@@ -1038,7 +1039,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Build"
+				"name"										"TF2 Build Edit"
 				"tall"										"11"
 				"weight"									"500"
 				"additive"									"0"
@@ -1049,7 +1050,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Build"
+				"name"										"TF2 Build Edit"
 				"tall"										"4"
 				"weight"									"500"
 				"additive"									"0"
@@ -1060,7 +1061,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Build"
+				"name"										"TF2 Build Edit"
 				"tall"										"10"
 				"weight"									"500"
 				"additive"									"0"
@@ -1071,7 +1072,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Build"
+				"name"										"TF2 Build Edit"
 				"tall"										"16"
 				"weight"									"500"
 				"additive"									"0"
@@ -1082,7 +1083,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Build"
+				"name"										"TF2 Build Edit"
 				"tall"										"9"
 				"weight"									"0"
 				"additive"									"0"
@@ -1093,7 +1094,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Secondary"
+				"name"										"TF2 Secondary Edit"
 				"tall"										"9"
 				"weight"									"0"
 				"additive"									"0"
@@ -1104,7 +1105,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Build"
+				"name"										"TF2 Build Edit"
 				"tall"										"6"
 				"weight"									"0"
 				"additive"									"0"
@@ -1115,7 +1116,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Secondary"
+				"name"										"TF2 Secondary Edit"
 				"tall"										"12"
 				"weight"									"400"
 				"additive"									"0"
@@ -1126,7 +1127,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Secondary"
+				"name"										"TF2 Secondary Edit"
 				"tall"										"11"
 				"weight"									"500"
 				"additive"									"0"
@@ -1197,7 +1198,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Secondary"
+				"name"										"TF2 Secondary Edit"
 				"tall"										"18"
 				"weight"									"500"
 				"additive"									"0"
@@ -1208,7 +1209,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2"
+				"name"										"TF2 Edit"
 				"tall"										"16"
 				"weight"									"500"
 				"additive"									"0"
@@ -1263,7 +1264,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2"
+				"name"										"TF2 Edit"
 				"tall"										"15"
 				"weight"									"700"
 				"antialias"									"1"
@@ -1273,7 +1274,7 @@
 			}
 			"2"
 			{
-				"name"										"TF2"
+				"name"										"TF2 Edit"
 				"tall"										"15"
 				"weight"									"700"
 				"antialias"									"1"
@@ -1283,7 +1284,7 @@
 			}
 			"3"
 			{
-				"name"										"TF2"
+				"name"										"TF2 Edit"
 				"tall"										"18"
 				"weight"									"900"
 				"antialias"									"1"
@@ -1292,7 +1293,7 @@
 			}
 			"4"
 			{
-				"name"										"TF2"
+				"name"										"TF2 Edit"
 				"tall"										"21"
 				"weight"									"900"
 				"antialias"									"1"
@@ -1301,7 +1302,7 @@
 			}
 			"5"
 			{
-				"name"										"TF2"
+				"name"										"TF2 Edit"
 				"tall"										"24"
 				"weight"									"1000"
 				"antialias"									"1"
@@ -1451,7 +1452,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2"
+				"name"										"TF2 Edit"
 				"tall"										"24"
 				"antialias"									"1"
 				"weight"									"500"
@@ -1461,7 +1462,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Secondary"
+				"name"										"TF2 Secondary Edit"
 				"tall"										"11"
 				"antialias"									"1"
 				"weight"									"500"
@@ -1471,7 +1472,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2"
+				"name"										"TF2 Edit"
 				"tall"										"12"
 				"antialias"									"1"
 				"weight"									"500"
@@ -1559,7 +1560,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Secondary"
+				"name"										"TF2 Secondary Edit"
 				"tall"										"10"
 				"weight"									"400"
 				"additive"									"0"
@@ -1570,7 +1571,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2"
+				"name"										"TF2 Edit"
 				"tall"										"14"
 				"weight"									"500"
 				"range"										"0x0000 0x007F"
@@ -1582,7 +1583,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Secondary"
+				"name"										"TF2 Secondary Edit"
 				"tall"										"20"
 				"weight"									"500"
 				"range"										"0x0000 0x007F"
@@ -1594,7 +1595,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Secondary"
+				"name"										"TF2 Secondary Edit"
 				"tall"										"20"
 				"weight"									"500"
 				"range"										"0x0000 0x007F"
@@ -1606,7 +1607,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Secondary"
+				"name"										"TF2 Secondary Edit"
 				"tall"										"14"
 				"weight"									"500"
 				"range"										"0x0000 0x007F"
@@ -1618,7 +1619,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Secondary"
+				"name"										"TF2 Secondary Edit"
 				"tall"										"20"
 				"weight"									"500"
 				"range"										"0x0000 0x007F"
@@ -1630,7 +1631,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Secondary"
+				"name"										"TF2 Secondary Edit"
 				"tall"										"34"
 				"weight"									"500"
 				"range"										"0x0000 0x007F"
@@ -1642,7 +1643,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2"
+				"name"										"TF2 Edit"
 				"tall"										"36"
 				"weight"									"500"
 				"additive"									"0"
@@ -1653,7 +1654,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2"
+				"name"										"TF2 Edit"
 				"tall"										"52"
 				"range"										"0x0000 0x00FF"
 				"weight"									"400"
@@ -1662,7 +1663,7 @@
 			}
 			"2"
 			{
-				"name"										"TF2"
+				"name"										"TF2 Edit"
 				"tall"										"72"
 				"range"										"0x0000 0x00FF"
 				"weight"									"400"
@@ -1671,7 +1672,7 @@
 			}
 			"3"
 			{
-				"name"										"TF2"
+				"name"										"TF2 Edit"
 				"tall"										"100"
 				"range"										"0x0000 0x00FF"
 				"weight"									"400"
@@ -1680,7 +1681,7 @@
 			}
 			"4"
 			{
-				"name"										"TF2"
+				"name"										"TF2 Edit"
 				"tall"										"140"
 				"range"										"0x0000 0x00FF"
 				"weight"									"400"
@@ -1689,7 +1690,7 @@
 			}
 			"5"
 			{
-				"name"										"TF2"
+				"name"										"TF2 Edit"
 				"tall"										"180"
 				"range"										"0x0000 0x00FF"
 				"weight"									"400"
@@ -1701,7 +1702,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2"
+				"name"										"TF2 Edit"
 				"tall"										"36"
 				"weight"									"500"
 				"range"										"0x0000 0x007F"
@@ -1713,7 +1714,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Secondary"
+				"name"										"TF2 Secondary Edit"
 				"tall"										"14"
 				"weight"									"400"
 				"additive"									"0"
@@ -1724,7 +1725,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Secondary"
+				"name"										"TF2 Secondary Edit"
 				"tall"										"20"
 				"weight"									"400"
 				"additive"									"0"
@@ -1735,7 +1736,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Secondary"
+				"name"										"TF2 Secondary Edit"
 				"tall"										"14"
 				"weight"									"400"
 				"additive"									"0"
@@ -1746,7 +1747,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Secondary"
+				"name"										"TF2 Secondary Edit"
 				"tall"										"10"
 				"weight"									"400"
 				"additive"									"0"
@@ -1757,7 +1758,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Secondary"
+				"name"										"TF2 Secondary Edit"
 				"tall"										"7"
 				"weight"									"400"
 				"additive"									"0"
@@ -1768,7 +1769,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Secondary"
+				"name"										"TF2 Secondary Edit"
 				"tall"										"10"
 				"weight"									"400"
 				"additive"									"0"
@@ -1779,50 +1780,47 @@
 		{
 			"1"
 			{
-				"name"										"Verdana"
-				"tall"										"12"
-				"weight"									"700"
-				"yres"										"480 599"
-				"dropshadow"								"0"
+				"name"										"Surface-Medium-Edit"
+				"tall"										"11"
+				"antialias"									"1"
+				"dropshadow"								"1"
 			}
-			"2"
+		}
+		"TargetIDSmall"
+		{
+			"1"
 			{
-				"name"										"Verdana"
-				"tall"										"13"
-				"weight"									"700"
-				"yres"										"600 767"
-				"dropshadow"								"0"
+				"name"										"Surface-Medium-Edit"
+				"tall"										"10"
+				"antialias"									"1"
+				"dropshadow"								"1"
 			}
-			"3"
+		}
+		"TargetIDIcons"
+		{
+			"1"
 			{
-				"name"										"Verdana"
-				"tall"										"14"
-				"weight"									"700"
-				"yres"										"768 1023"
-				"dropshadow"								"0"
+				"name"										"Surface-UberIcons"
+				"tall"										"11"
+				"antialias"									"1"
+				"dropshadow"								"1"
 			}
-			"4"
+		}
+		"TargetIDIconsSmall"
+		{
+			"1"
 			{
-				"name"										"Verdana"
-				"tall"										"20"
-				"weight"									"700"
-				"yres"										"1024 1199"
-				"dropshadow"								"0"
-			}
-			"5"
-			{
-				"name"										"Verdana"
-				"tall"										"24"
-				"weight"									"700"
-				"yres"										"1200 10000"
-				"dropshadow"								"0"
+				"name"										"Surface-UberIcons"
+				"tall"										"10"
+				"antialias"									"1"
+				"dropshadow"								"1"
 			}
 		}
 		"ChatFont"
 		{
 			"1"
 			{
-				"name"										"TF2"
+				"name"										"TF2 Edit"
 				"tall"										"12"
 				"weight"									"700"
 				"yres"										"480 599"
@@ -1919,7 +1917,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2"
+				"name"										"TF2 Edit"
 				"tall"										"14"
 				"range"										"0x0000 0x00FF"
 				"weight"									"300"
@@ -1930,7 +1928,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2"
+				"name"										"TF2 Edit"
 				"tall"										"12"
 				"weight"									"500"
 				"range"										"0x0000 0x017F"
@@ -1942,7 +1940,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2"
+				"name"										"TF2 Edit"
 				"tall"										"8"
 				"weight"									"500"
 				"range"										"0x0000 0x017F"
@@ -1988,7 +1986,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Build"
+				"name"										"TF2 Build Edit"
 				"tall"										"36"
 				"weight"									"500"
 			}
@@ -1997,7 +1995,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Build"
+				"name"										"TF2 Build Edit"
 				"tall"										"30"
 				"weight"									"500"
 			}
@@ -2006,7 +2004,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Secondary"
+				"name"										"TF2 Secondary Edit"
 				"tall"										"28"
 				"weight"									"500"
 			}
@@ -2033,7 +2031,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Secondary"
+				"name"										"TF2 Secondary Edit"
 				"tall"										"22"
 				"weight"									"500"
 			}
@@ -2042,7 +2040,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Secondary"
+				"name"										"TF2 Secondary Edit"
 				"tall"										"18"
 				"weight"									"500"
 			}
@@ -2078,7 +2076,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Build"
+				"name"										"TF2 Build Edit"
 				"tall"										"36"
 				"weight"									"500"
 				"additive"									"0"
@@ -2089,7 +2087,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Secondary"
+				"name"										"TF2 Secondary Edit"
 				"tall"										"11"
 				"weight"									"600"
 				"additive"									"0"
@@ -2100,7 +2098,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Secondary"
+				"name"										"TF2 Secondary Edit"
 				"tall"										"18"
 				"weight"									"400"
 				"additive"									"0"
@@ -2184,7 +2182,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Build"
+				"name"										"TF2 Build Edit"
 				"tall"										"8"
 				"weight"									"500"
 				"additive"									"0"
@@ -2195,7 +2193,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Build"
+				"name"										"TF2 Build Edit"
 				"tall"										"9"
 				"weight"									"500"
 				"additive"									"0"
@@ -2206,7 +2204,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Build"
+				"name"										"TF2 Build Edit"
 				"tall"										"12"
 				"weight"									"500"
 				"additive"									"0"
@@ -2217,7 +2215,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Build"
+				"name"										"TF2 Build Edit"
 				"tall"										"18"
 				"weight"									"500"
 				"additive"									"0"
@@ -2228,7 +2226,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Secondary"
+				"name"										"TF2 Secondary Edit"
 				"tall"										"7"
 				"weight"									"500"
 				"additive"									"0"
@@ -2249,7 +2247,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Secondary"
+				"name"										"TF2 Secondary Edit"
 				"tall"										"8"
 				"weight"									"500"
 				"additive"									"0"
@@ -2260,7 +2258,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Secondary"
+				"name"										"TF2 Secondary Edit"
 				"tall"										"11"
 				"weight"									"500"
 				"additive"									"0"
@@ -2271,7 +2269,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Secondary"
+				"name"										"TF2 Secondary Edit"
 				"tall"										"14"
 				"weight"									"500"
 				"additive"									"0"
@@ -2282,7 +2280,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Build"
+				"name"										"TF2 Build Edit"
 				"tall"										"9"
 				"weight"									"500"
 				"additive"									"0"
@@ -2293,7 +2291,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Build"
+				"name"										"TF2 Build Edit"
 				"tall"										"9"
 				"weight"									"500"
 				"blur"										"3"
@@ -2448,7 +2446,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Secondary"
+				"name"										"TF2 Secondary Edit"
 				"tall"										"10"
 				"weight"									"400"
 				"yres"										"480 599"
@@ -2457,7 +2455,7 @@
 			}
 			"2"
 			{
-				"name"										"TF2 Secondary"
+				"name"										"TF2 Secondary Edit"
 				"tall"										"14"
 				"weight"									"400"
 				"additive"									"0"
@@ -2466,7 +2464,7 @@
 			}
 			"3"
 			{
-				"name"										"TF2 Secondary"
+				"name"										"TF2 Secondary Edit"
 				"tall"										"22"
 				"weight"									"400"
 				"additive"									"0"
@@ -2478,7 +2476,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Secondary"
+				"name"										"TF2 Secondary Edit"
 				"tall"										"10"
 				"weight"									"400"
 				"yres"										"480 599"
@@ -2488,7 +2486,7 @@
 			}
 			"2"
 			{
-				"name"										"TF2 Secondary"
+				"name"										"TF2 Secondary Edit"
 				"tall"										"14"
 				"weight"									"400"
 				"additive"									"0"
@@ -2498,7 +2496,7 @@
 			}
 			"3"
 			{
-				"name"										"TF2 Secondary"
+				"name"										"TF2 Secondary Edit"
 				"tall"										"22"
 				"weight"									"400"
 				"additive"									"0"
@@ -2511,7 +2509,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Secondary"
+				"name"										"TF2 Secondary Edit"
 				"tall"										"10"
 				"weight"									"800"
 				"yres"										"480 599"
@@ -2520,7 +2518,7 @@
 			}
 			"2"
 			{
-				"name"										"TF2 Secondary"
+				"name"										"TF2 Secondary Edit"
 				"tall"										"14"
 				"weight"									"800"
 				"additive"									"0"
@@ -2529,7 +2527,7 @@
 			}
 			"3"
 			{
-				"name"										"TF2 Secondary"
+				"name"										"TF2 Secondary Edit"
 				"tall"										"18"
 				"weight"									"800"
 				"additive"									"0"
@@ -2541,7 +2539,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Secondary"
+				"name"										"TF2 Secondary Edit"
 				"tall"										"13"
 				"weight"									"400"
 				"additive"									"0"
@@ -2552,7 +2550,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Secondary"
+				"name"										"TF2 Secondary Edit"
 				"tall"										"16"
 				"weight"									"400"
 				"additive"									"0"
@@ -2563,7 +2561,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Secondary"
+				"name"										"TF2 Secondary Edit"
 				"tall"										"10"
 				"weight"									"400"
 				"additive"									"0"
@@ -2664,7 +2662,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Secondary"
+				"name"										"TF2 Secondary Edit"
 				"tall"										"11"
 				"weight"									"500"
 				"additive"									"0"
@@ -2728,7 +2726,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Build"
+				"name"										"TF2 Build Edit"
 				"tall"										"11"
 				"weight"									"500"
 				"additive"									"0"
@@ -2739,7 +2737,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Build"
+				"name"										"TF2 Build Edit"
 				"tall"										"14"
 				"weight"									"500"
 				"additive"									"0"
@@ -2750,7 +2748,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2"
+				"name"										"TF2 Edit"
 				"tall"										"18"
 				"weight"									"500"
 				"additive"									"0"
@@ -2761,7 +2759,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Build"
+				"name"										"TF2 Build Edit"
 				"tall"										"24"
 				"weight"									"500"
 				"additive"									"0"
@@ -2772,7 +2770,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Secondary"
+				"name"										"TF2 Secondary Edit"
 				"tall"										"18"
 				"weight"									"500"
 				"additive"									"0"
@@ -2783,7 +2781,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Build"
+				"name"										"TF2 Build Edit"
 				"tall"										"14"
 				"weight"									"500"
 				"additive"									"0"
@@ -2794,7 +2792,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Build"
+				"name"										"TF2 Build Edit"
 				"tall"										"24"
 				"weight"									"500"
 				"additive"									"0"
@@ -2805,7 +2803,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Secondary"
+				"name"										"TF2 Secondary Edit"
 				"tall"										"15"
 				"weight"									"500"
 				"range"										"0x0000 0x007F"
@@ -2817,7 +2815,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Secondary"
+				"name"										"TF2 Secondary Edit"
 				"tall"										"9"
 				"weight"									"400"
 				"additive"									"0"
@@ -2828,7 +2826,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Build"
+				"name"										"TF2 Build Edit"
 				"tall"										"11"
 				"weight"									"500"
 				"antialias"									"1"
@@ -2838,7 +2836,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Build"
+				"name"										"TF2 Build Edit"
 				"tall"										"11"
 				"weight"									"500"
 				"blur"										"3"
@@ -2850,7 +2848,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Build"
+				"name"										"TF2 Build Edit"
 				"tall"										"12"
 				"weight"									"500"
 				"additive"									"0"
@@ -3226,90 +3224,90 @@
 		"TFFatLineBorder"
 		{
 			"bordertype"									"scalable_image"
-			"backgroundtype"								"2"
+			"color"											"TransparentLightBlack"
 
 			"image"											"../hud/color_panel_brown"
-			"src_corner_height"								"23"
-			"src_corner_width"								"23"
-			"draw_corner_width"								"5"
-			"draw_corner_height"							"5"
+			"src_corner_height"								"16"
+			"src_corner_width"								"16"
+			"draw_corner_width"								"0"
+			"draw_corner_height"							"0"
 		}
 		"TFFatLineBorderRedBGOpaque"
 		{
 			"bordertype"									"scalable_image"
-			"backgroundtype"								"2"
+			"color"											"HUDRedTeam"
 
-			"image"											"../hud/color_panel_red_opaque"
-			"src_corner_height"								"23"
-			"src_corner_width"								"23"
-			"draw_corner_width"								"5"
-			"draw_corner_height"							"5"
+			"image"											"white"
+			"src_corner_height"								"16"
+			"src_corner_width"								"16"
+			"draw_corner_width"								"0"
+			"draw_corner_height"							"0"
 		}
 		"TFFatLineBorderRedBGOpaque_Store"
 		{
 			"bordertype"									"scalable_image"
-			"backgroundtype"								"2"
+			"color"											"HUDRedTeam"
 
-			"image"											"../hud/color_panel_red_opaque"
-			"src_corner_height"								"24"
-			"src_corner_width"								"24"
-			"draw_corner_width"								"11"
-			"draw_corner_height"							"11"
+			"image"											"white"
+			"src_corner_height"								"16"
+			"src_corner_width"								"16"
+			"draw_corner_width"								"0"
+			"draw_corner_height"							"0"
 		}
 		"TFFatLineBorderRedBG"
 		{
 			"bordertype"									"scalable_image"
-			"backgroundtype"								"2"
+			"color"											"HUDRedTeam"
 
-			"image"											"../hud/color_panel_red"
-			"src_corner_height"								"23"
-			"src_corner_width"								"23"
-			"draw_corner_width"								"5"
-			"draw_corner_height"							"5"
+			"image"											"white"
+			"src_corner_height"								"16"
+			"src_corner_width"								"16"
+			"draw_corner_width"								"0"
+			"draw_corner_height"							"0"
 		}
 		"TFFatLineBorderRedBGMoreOpaque"
 		{
 			"bordertype"									"scalable_image"
-			"backgroundtype"								"2"
+			"color"											"HUDRedTeam"
 
-			"image"											"../hud/color_panel_red_more_opaque"
-			"src_corner_height"								"23"
-			"src_corner_width"								"23"
-			"draw_corner_width"								"5"
-			"draw_corner_height"							"5"
+			"image"											"white"
+			"src_corner_height"								"16"
+			"src_corner_width"								"16"
+			"draw_corner_width"								"0"
+			"draw_corner_height"							"0"
 		}
 		"TFFatLineBorderBlueBG"
 		{
 			"bordertype"									"scalable_image"
-			"backgroundtype"								"2"
+			"color"											"HUDBlueTeam"
 
-			"image"											"../hud/color_panel_blu"
-			"src_corner_height"								"23"
-			"src_corner_width"								"23"
-			"draw_corner_width"								"5"
-			"draw_corner_height"							"5"
+			"image"											"white"
+			"src_corner_height"								"16"
+			"src_corner_width"								"16"
+			"draw_corner_width"								"0"
+			"draw_corner_height"							"0"
 		}
 		"TFFatLineBorderBlueBGMoreOpaque"
 		{
 			"bordertype"									"scalable_image"
-			"backgroundtype"								"2"
+			"color"											"HUDBlueTeam"
 
-			"image"											"../hud/color_panel_blu_more_opaque"
-			"src_corner_height"								"23"
-			"src_corner_width"								"23"
-			"draw_corner_width"								"5"
-			"draw_corner_height"							"5"
+			"image"											"white"
+			"src_corner_height"								"16"
+			"src_corner_width"								"16"
+			"draw_corner_width"								"0"
+			"draw_corner_height"							"0"
 		}
 		"TFFatLineBorderBlueBGOpaque"
 		{
 			"bordertype"									"scalable_image"
-			"backgroundtype"								"2"
+			"color"											"HUDBlueTeam"
 
-			"image"											"../hud/color_panel_blu_opaque"
-			"src_corner_height"								"23"
-			"src_corner_width"								"23"
-			"draw_corner_width"								"5"
-			"draw_corner_height"							"5"
+			"image"											"white"
+			"src_corner_height"								"16"
+			"src_corner_width"								"16"
+			"draw_corner_width"								"0"
+			"draw_corner_height"							"0"
 		}
 		"TFFatLineBorderClearBG"
 		{
@@ -5502,30 +5500,278 @@
 		"2"				"resource/tfd.ttf"
 		"3"
 		{
-			"font"		"resource/TF2.ttf"
-			"name"		"TF2"
+			"font"		"resource/scheme/fonts/TF2_Edit.ttf"
+			"name"		"TF2 Edit"
 
-			"russian"
+			"arabic"
 			{
-				"range"	"0x0000 0xFFFF"
+				"range" "0x021 0xFFFF"
+			}
+			"brazilian"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"bulgarian"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"czech"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"danish"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"dutch"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"english"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"finnish"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"french"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"german"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"greek"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"hebrew"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"hungarian"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"italian"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"japanese"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"korean"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"koreana"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"latvian"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"lithuanian"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"norwegian"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"pirate"
+			{
+				"range" "0x021 0xFFFF"
 			}
 			"polish"
 			{
-				"range"	"0x0000 0xFFFF"
+				"range" "0x021 0xFFFF"
+			}
+			"portuguese"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"romanian"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"russian"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"schinese"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"slovak"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"spanish"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"swedish"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"tchinese"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"thai"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"turkish"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"ukrainian"
+			{
+				"range" "0x021 0xFFFF"
 			}
 		}
 		"4"
 		{
-			"font"		"resource/TF2Secondary.ttf"
-			"name"		"TF2 Secondary"
+			"font"		"resource/scheme/fonts/TF2_Secondary_Edit.ttf"
+			"name"		"TF2 Secondary Edit"
 
-			"russian"
+			"arabic"
 			{
-				"range"	"0x0000 0xFFFF"
+				"range" "0x021 0xFFFF"
+			}
+			"brazilian"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"bulgarian"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"czech"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"danish"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"dutch"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"english"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"finnish"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"french"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"german"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"greek"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"hebrew"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"hungarian"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"italian"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"japanese"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"korean"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"koreana"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"latvian"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"lithuanian"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"norwegian"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"pirate"
+			{
+				"range" "0x021 0xFFFF"
 			}
 			"polish"
 			{
-				"range"	"0x0000 0xFFFF"
+				"range" "0x021 0xFFFF"
+			}
+			"portuguese"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"romanian"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"russian"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"schinese"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"slovak"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"spanish"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"swedish"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"tchinese"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"thai"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"turkish"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"ukrainian"
+			{
+				"range" "0x021 0xFFFF"
 			}
 		}
 		"5"
@@ -5544,20 +5790,140 @@
 		}
 		"6"
 		{
-			"font"		"resource/TF2Build.ttf"
-			"name"		"TF2 Build"
+			"font"		"resource/scheme/fonts/TF2_Build_Edit.ttf"
+			"name"		"TF2 Build Edit Edit"
 
-			"russian"
+			"arabic"
 			{
-				"range"	"0x0000 0xFFFF"
+				"range" "0x021 0xFFFF"
+			}
+			"brazilian"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"bulgarian"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"czech"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"danish"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"dutch"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"english"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"finnish"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"french"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"german"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"greek"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"hebrew"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"hungarian"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"italian"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"japanese"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"korean"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"koreana"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"latvian"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"lithuanian"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"norwegian"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"pirate"
+			{
+				"range" "0x021 0xFFFF"
 			}
 			"polish"
 			{
-				"range"	"0x0000 0xFFFF"
+				"range" "0x021 0xFFFF"
+			}
+			"portuguese"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"romanian"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"russian"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"schinese"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"slovak"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"spanish"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"swedish"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"tchinese"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"thai"
+			{
+				"range" "0x021 0xFFFF"
 			}
 			"turkish"
 			{
-				"range"	"0x0000 0xFFFF"
+				"range" "0x021 0xFFFF"
+			}
+			"ukrainian"
+			{
+				"range" "0x021 0xFFFF"
 			}
 		}
 		"7"
@@ -5624,18 +5990,294 @@
 		}
 		"8"
 		{
+			"font"		"resource/scheme/fonts/surface_medium_edit.otf"
+			"name"		"Surface-Medium-Edit"
+
+			"arabic"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"brazilian"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"bulgarian"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"czech"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"danish"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"dutch"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"english"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"finnish"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"french"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"german"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"greek"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"hebrew"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"hungarian"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"italian"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"japanese"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"korean"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"koreana"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"latvian"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"lithuanian"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"norwegian"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"pirate"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"polish"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"portuguese"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"romanian"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"russian"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"schinese"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"slovak"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"spanish"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"swedish"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"tchinese"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"thai"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"turkish"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"ukrainian"
+			{
+				"range" "0x021 0xFFFF"
+			}
+		}
+		"9"
+		{
 			"font"		"resource/scheme/fonts/coolvetica.ttf"
 			"name"		"Coolvetica"
 		}
-		"9"
+		"10"
 		{
 			"font"		"resource/scheme/fonts/blocks.ttf"
 			"name"		"Blocks"
 		}
-		"10"
+		"11"
 		{
 			"font"		"resource/scheme/fonts/m0rehud_icons.ttf"
 			"name"		"m0rehud Icons V5"
+		}
+		"12"
+		{
+			"font"		"resource/scheme/fonts/surface_uber_icons.ttf"
+			"name"		"Surface-UberIcons"
+
+			"arabic"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"brazilian"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"bulgarian"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"czech"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"danish"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"dutch"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"english"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"finnish"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"french"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"german"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"greek"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"hebrew"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"hungarian"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"italian"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"japanese"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"korean"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"koreana"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"latvian"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"lithuanian"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"norwegian"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"pirate"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"polish"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"portuguese"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"romanian"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"russian"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"schinese"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"slovak"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"spanish"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"swedish"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"tchinese"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"thai"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"turkish"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"ukrainian"
+			{
+				"range" "0x021 0xFFFF"
+			}
 		}
 	}
 }

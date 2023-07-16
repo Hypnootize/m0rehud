@@ -366,7 +366,7 @@
 		{
 			"1"
 			{
-				"name"										"Verdana"
+				"name"										"Verdana Edit"
 				"tall"										"12"
 				"weight"									"700"
 				"yres"										"480 599"
@@ -374,7 +374,7 @@
 			}
 			"2"
 			{
-				"name"										"Verdana"
+				"name"										"Verdana Edit"
 				"tall"										"14"
 				"weight"									"700"
 				"yres"										"600 767"
@@ -382,7 +382,7 @@
 			}
 			"3"
 			{
-				"name"										"Verdana"
+				"name"										"Verdana Edit"
 				"tall"										"15"
 				"weight"									"700"
 				"yres"										"768 1023"
@@ -390,7 +390,7 @@
 			}
 			"4"
 			{
-				"name"										"Verdana"
+				"name"										"Verdana Edit"
 				"tall"										"17"
 				"weight"									"700"
 				"yres"										"1024 1199"
@@ -398,7 +398,7 @@
 			}
 			"5"
 			{
-				"name"										"Verdana"
+				"name"										"Verdana Edit"
 				"tall"										"22"
 				"weight"									"700"
 				"yres"										"1200 10000"
@@ -774,5 +774,143 @@
 	{
 		"1"	"resource/HALFLIFE2.ttf"
 		"2"	"resource/HL2EP2.ttf"
+		"3"
+		{
+			"font"		"resource/scheme/fonts/Verdana_Edit.ttf"
+			"name"		"Verdana Edit"
+
+			"arabic"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"brazilian"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"bulgarian"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"czech"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"danish"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"dutch"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"english"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"finnish"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"french"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"german"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"greek"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"hebrew"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"hungarian"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"italian"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"japanese"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"korean"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"koreana"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"latvian"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"lithuanian"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"norwegian"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"pirate"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"polish"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"portuguese"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"romanian"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"russian"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"schinese"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"slovak"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"spanish"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"swedish"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"tchinese"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"thai"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"turkish"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"ukrainian"
+			{
+				"range" "0x021 0xFFFF"
+			}
+		}
 	}
 }
