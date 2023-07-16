@@ -4,9 +4,9 @@
 	{
 		"playerpanels_kv"
 		{
-			"PlayerName"
+			"HealthBar"
 			{
-				"visible"							"0"
+				"wide"								"9999"
 			}
 		}
 	}

@@ -8,22 +8,21 @@
 			{
 				"visible"							"0"
 			}
-			"classimage"
+			"ClassImage"
 			{
 				"zpos"								"1"
 			}
-			"classimagebg"
+			"ClassImageBG"
 			{
 				"zpos"								"0"
 			}
-			"healthbar"
+			"HealthBar"
 			{
 				"ypos"								"rs1"
 				"zpos"								"2"
-				"wide"								"f0"
 				"tall"								"2"
 			}
-			"overhealbar"
+			"OverhealBar"
 			{
 				"ypos"								"rs1"
 				"zpos"								"3"

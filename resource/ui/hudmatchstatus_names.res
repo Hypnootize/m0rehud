@@ -14,27 +14,26 @@
 			{
 				"visible"							"1"
 			}
-			"classimage"
+			"ClassImage"
 			{
 				"xpos"								"0"
 				"wide"								"9"
 				"tall"								"9"
 			}
-			"classimagebg"
+			"ClassImageBG"
 			{
 				"tall"								"f6"
 			}
-			"healthbar"
+			"HealthBar"
+			{
+				"tall"								"f6"
+			}
+			"OverhealBar"
 			{
 				"wide"								"f0"
 				"tall"								"f6"
 			}
-			"overhealbar"
-			{
-				"wide"								"f0"
-				"tall"								"f6"
-			}
-			"respawntime"
+			"RespawnTime"
 			{
 				"font"								"m0refont11Shadow"
 				"xpos"								"rs1-5"

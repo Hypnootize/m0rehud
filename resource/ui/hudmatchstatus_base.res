@@ -180,7 +180,7 @@
 			"color_portrait_bg_blue"				"Blue"
 			"color_portrait_bg_red_dead"			"15 15 15 255"
 			"color_portrait_bg_blue_dead"			"15 15 15 255"
-			"color_bar_health_high"					"75 200 25 255"
+			"color_bar_health_high"					"105 180 75 255"
 			"color_bar_health_med"					"255 200 0 255"
 			"percentage_health_med"					"0.6"
 			"color_bar_health_low"					"255 40 40 255"
@@ -204,13 +204,13 @@
 				"font"								"VerdanaSmallest"
 				"textinsetx"						"1"
 				"textAlignment"						"west"
-				"bgcolor_override"					"0 0 0 100"
+				"bgcolor_override"					"TransparentLightBlack"
 				"proportionaltoparent"				"1"
 			}
-			"classimage"
+			"ClassImage"
 			{
 				"ControlName"						"CTFClassImage"
-				"fieldName"							"classimage"
+				"fieldName"							"ClassImage"
 				"xpos"								"cs-0.5"
 				"ypos"								"0"
 				"zpos"								"5"
@@ -222,10 +222,10 @@
 				"scaleImage"						"1"
 				"proportionaltoparent"				"1"
 			}
-			"classimagebg"
+			"ClassImageBG"
 			{
 				"ControlName"						"Panel"
-				"fieldName"							"classimagebg"
+				"fieldName"							"ClassImageBG"
 				"xpos"								"0"
 				"ypos"								"0"
 				"zpos"								"2"
@@ -236,10 +236,10 @@
 				"PaintBackgroundType"				"0"
 				"proportionaltoparent"				"1"
 			}
-			"healthbar"
+			"HealthBar"
 			{
 				"ControlName"						"ContinuousProgressBar"
-				"fieldName"							"healthbar"
+				"fieldName"							"HealthBar"
 				"xpos"								"0"
 				"ypos"								"0"
 				"zpos"								"3"
@@ -250,10 +250,10 @@
 				"bgcolor_override"					"30 30 30 255"
 				"proportionaltoparent"				"1"
 			}
-			"overhealbar"
+			"OverhealBar"
 			{
 				"ControlName"						"ContinuousProgressBar"
-				"fieldName"							"overhealbar"
+				"fieldName"							"OverhealBar"
 				"xpos"								"0"
 				"ypos"								"0"
 				"zpos"								"4"
@@ -265,10 +265,10 @@
 				"fgcolor_override"					"255 255 255 180"
 				"proportionaltoparent"				"1"
 			}
-			"respawntime"
+			"RespawnTime"
 			{
 				"ControlName"						"CExLabel"
-				"fieldName"							"respawntime"
+				"fieldName"							"RespawnTime"
 				"font"								"m0refont12Shadow"
 				"xpos"								"cs-0.5"
 				"ypos"								"cs-0.5"
