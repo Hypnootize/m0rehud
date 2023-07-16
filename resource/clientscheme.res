@@ -2,6 +2,7 @@
 // COLORS SCHEME
 //=========================================================
 
+#base "../../../cfg/m0re_alt_theme.txt"
 #base "../../../cfg/m0re_theme.txt"
 #base "scheme/colors_scheme.res"
 
