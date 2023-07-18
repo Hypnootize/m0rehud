@@ -6,7 +6,7 @@
 
 		"labelText"	"?"
 
-		"font"		"Size_18-Outline_OFF"
+		"font"		"Crosshair_Size_18"
 
 		"xpos"		"cs-0.5"
 		"ypos"		"cs-0.5"
@@ -20,7 +20,7 @@
 
 		"labelText"	"?"
 
-		"font"		"Size_18-Outline_OFF"
+		"font"		"Crosshair_Size_18"
 
 		"xpos"		"cs-0.5"
 		"ypos"		"cs-0.5"

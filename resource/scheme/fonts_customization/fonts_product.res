@@ -261,12 +261,12 @@
 	{
 		"30"
 		{
-			"font"		"resource/scheme/fonts/Product.ttf"
+			"font"		"resource/scheme/fonts/optional_fonts/Product.ttf"
 			"name"		"Product Sans"
 		}
 		"30"
 		{
-			"font"		"resource/scheme/fonts/Product_Numbers.ttf"
+			"font"		"resource/scheme/fonts/optional_fonts/Product_Numbers.ttf"
 			"name"		"Product Sans Numbers"
 		}
 	}

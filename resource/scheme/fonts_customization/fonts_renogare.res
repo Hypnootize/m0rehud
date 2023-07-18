@@ -263,12 +263,12 @@
 	{
 		"30"
 		{
-			"font"		"resource/scheme/fonts/renogare.ttf"
+			"font"		"resource/scheme/fonts/optional_fonts/renogare.ttf"
 			"name"		"RenogareSoft-Regular"
 		}
 		"31"
 		{
-			"font"		"resource/scheme/fonts/renogare_numbers.ttf"
+			"font"		"resource/scheme/fonts/optional_fonts/renogare_numbers.ttf"
 			"name"		"Renogare Soft Numbers"
 		}
 	}

@@ -274,12 +274,12 @@
 	{
 		"30"
 		{
-			"font"		"resource/scheme/fonts/Rubik.otf"
+			"font"		"resource/scheme/fonts/optional_fonts/Rubik.otf"
 			"name"		"Rubik SemiBold"
 		}
 		"31"
 		{
-			"font"		"resource/scheme/fonts/Rubik_Numbers.otf"
+			"font"		"resource/scheme/fonts/optional_fonts/Rubik_Numbers.otf"
 			"name"		"Rubik SemiBold Numbers"
 		}
 	}

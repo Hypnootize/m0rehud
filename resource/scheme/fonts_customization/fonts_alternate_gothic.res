@@ -261,12 +261,12 @@
 	{
 		"30"
 		{
-			"font"		"resource/scheme/fonts/Alternate_Gothic.ttf"
+			"font"		"resource/scheme/fonts/optional_fonts/Alternate_Gothic.ttf"
 			"name"		"AlternateGothicEF-NoThree"
 		}
 		"31"
 		{
-			"font"		"resource/scheme/fonts/Alternate_Gothic_Numbers.ttf"
+			"font"		"resource/scheme/fonts/optional_fonts/Alternate_Gothic_Numbers.ttf"
 			"name"		"AlternateGothic-Numbers"
 		}
 	}

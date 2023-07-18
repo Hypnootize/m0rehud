@@ -299,12 +299,12 @@
 	{
 		"30"
 		{
-			"font"		"resource/scheme/fonts/Handel_Gothic.ttf"
+			"font"		"resource/scheme/fonts/optional_fonts/Handel_Gothic.ttf"
 			"name"		"Handel Gothic BT"
 		}
 		"31"
 		{
-			"font"		"resource/scheme/fonts/Handel_Gothic_Numbers.ttf"
+			"font"		"resource/scheme/fonts/optional_fonts/Handel_Gothic_Numbers.ttf"
 			"name"		"Handel Gothic BT Numbers"
 		}
 	}

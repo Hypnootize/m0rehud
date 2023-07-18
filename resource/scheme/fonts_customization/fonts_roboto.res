@@ -263,12 +263,12 @@
 	{
 		"30"
 		{
-			"font"		"resource/scheme/fonts/Roboto.ttf"
+			"font"		"resource/scheme/fonts/optional_fonts/Roboto.ttf"
 			"name"		"Roboto Bold"
 		}
 		"31"
 		{
-			"font"		"resource/scheme/fonts/Roboto_Numbers.ttf"
+			"font"		"resource/scheme/fonts/optional_fonts/Roboto_Numbers.ttf"
 			"name"		"Roboto Numbers"
 		}
 	}

@@ -465,12 +465,21 @@
 				"antialias"									"1"
 			}
 		}
-		"Symbols18"
+		"Symbols10"
 		{
 			"1"
 			{
 				"name"										"m0rehud Icons V5"
-				"tall"										"18"
+				"tall"										"10"
+				"antialias"									"1"
+			}
+		}
+		"Symbols12"
+		{
+			"1"
+			{
+				"name"										"m0rehud Icons V5"
+				"tall"										"12"
 				"antialias"									"1"
 			}
 		}
@@ -480,6 +489,15 @@
 			{
 				"name"										"m0rehud Icons V5"
 				"tall"										"16"
+				"antialias"									"1"
+			}
+		}
+		"Symbols18"
+		{
+			"1"
+			{
+				"name"										"m0rehud Icons V5"
+				"tall"										"18"
 				"antialias"									"1"
 			}
 		}
@@ -2972,6 +2990,11 @@
 					"color"									"Black"
 					"offset"								"0 0"
 				}
+				"3"
+				{
+					"color"									"Black"
+					"offset"								"0 0"
+				}
 			}
 			Right
 			{
@@ -2981,6 +3004,11 @@
 					"offset"								"0 0"
 				}
 				"2"
+				{
+					"color"									"Black"
+					"offset"								"0 0"
+				}
+				"3"
 				{
 					"color"									"Black"
 					"offset"								"0 0"
@@ -2998,6 +3026,11 @@
 					"color"									"Black"
 					"offset"								"0 0"
 				}
+				"3"
+				{
+					"color"									"Black"
+					"offset"								"0 0"
+				}
 			}
 			Bottom
 			{
@@ -3007,6 +3040,11 @@
 					"offset"								"0 0"
 				}
 				"2"
+				{
+					"color"									"Black"
+					"offset"								"0 0"
+				}
+				"3"
 				{
 					"color"									"Black"
 					"offset"								"0 0"

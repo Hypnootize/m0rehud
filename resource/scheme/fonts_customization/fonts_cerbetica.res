@@ -261,12 +261,12 @@
 	{
 		"30"
 		{
-			"font"		"resource/scheme/fonts/Cerbetica.ttf"
+			"font"		"resource/scheme/fonts/optional_fonts/Cerbetica.ttf"
 			"name"		"Cerbetica Bold"
 		}
 		"31"
 		{
-			"font"		"resource/scheme/fonts/Cerbetica_Numbers.ttf"
+			"font"		"resource/scheme/fonts/optional_fonts/Cerbetica_Numbers.ttf"
 			"name"		"Cerbetica-Bold-Numbers"
 		}
 	}

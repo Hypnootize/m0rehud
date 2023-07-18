@@ -279,12 +279,12 @@
 	{
 		"30"
 		{
-			"font"		"resource/scheme/fonts/Lato.ttf"
+			"font"		"resource/scheme/fonts/optional_fonts/Lato.ttf"
 			"name"		"Lato Bold"
 		}
 		"31"
 		{
-			"font"		"resource/scheme/fonts/Lato_Numbers.ttf"
+			"font"		"resource/scheme/fonts/optional_fonts/Lato_Numbers.ttf"
 			"name"		"Lato Numbers"
 		}
 	}

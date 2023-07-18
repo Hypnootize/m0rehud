@@ -261,12 +261,12 @@
 	{
 		"30"
 		{
-			"font"		"resource/scheme/fonts/Neutra.ttf"
+			"font"		"resource/scheme/fonts/optional_fonts/Neutra.ttf"
 			"name"		"NeutraText-Bold"
 		}
 		"31"
 		{
-			"font"		"resource/scheme/fonts/Neutra_Numbers.ttf"
+			"font"		"resource/scheme/fonts/optional_fonts/Neutra_Numbers.ttf"
 			"name"		"NeutraText-Numbers"
 		}
 	}

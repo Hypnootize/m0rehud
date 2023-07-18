@@ -261,12 +261,12 @@
 	{
 		"30"
 		{
-			"font"		"resource/scheme/fonts/ubuntu.ttf"
+			"font"		"resource/scheme/fonts/optional_fonts/ubuntu.ttf"
 			"name"		"Ubuntu Bold"
 		}
 		"31"
 		{
-			"font"		"resource/scheme/fonts/ubuntu_numbers.ttf"
+			"font"		"resource/scheme/fonts/optional_fonts/ubuntu_numbers.ttf"
 			"name"		"Ubuntu Numbers"
 		}
 	}

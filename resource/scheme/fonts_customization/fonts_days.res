@@ -299,12 +299,12 @@
 	{
 		"30"
 		{
-			"font"		"resource/scheme/fonts/Days.ttf"
+			"font"		"resource/scheme/fonts/optional_fonts/Days.ttf"
 			"name"		"Days"
 		}
 		"31"
 		{
-			"font"		"resource/scheme/fonts/Days_Numbers.ttf"
+			"font"		"resource/scheme/fonts/optional_fonts/Days_Numbers.ttf"
 			"name"		"Days-Numbers"
 		}
 	}

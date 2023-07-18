@@ -261,12 +261,12 @@
 	{
 		"30"
 		{
-			"font"		"resource/scheme/fonts/surface_sharpened.ttf"
+			"font"		"resource/scheme/fonts/optional_fonts/surface_sharpened.ttf"
 			"name"		"SurfaceSharpened-Medium"
 		}
 		"31"
 		{
-			"font"		"resource/scheme/fonts/surface_sharpened_numbers.ttf"
+			"font"		"resource/scheme/fonts/optional_fonts/surface_sharpened_numbers.ttf"
 			"name"		"Surface Sharpened Numbers"
 		}
 	}

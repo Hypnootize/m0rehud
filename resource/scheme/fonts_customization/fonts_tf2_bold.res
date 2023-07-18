@@ -437,7 +437,7 @@
 		}
 		"31"
 		{
-			"font"		"resource/scheme/fonts/TF2_Build_Numbers.ttf"
+			"font"		"resource/scheme/fonts/optional_fonts/TF2_Build_Numbers.ttf"
 			"name"		"TF2 Build Numbers"
 		}
 	}

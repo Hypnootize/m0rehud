@@ -274,12 +274,12 @@
 	{
 		"30"
 		{
-			"font"		"resource/scheme/fonts/Avenir.ttf"
+			"font"		"resource/scheme/fonts/optional_fonts/Avenir.ttf"
 			"name"		"AvenirLTStd-Black"
 		}
 		"31"
 		{
-			"font"		"resource/scheme/fonts/Avenir_Numbers.ttf"
+			"font"		"resource/scheme/fonts/optional_fonts/Avenir_Numbers.ttf"
 			"name"		"AvenirLTStd-Black-Numbers"
 		}
 	}

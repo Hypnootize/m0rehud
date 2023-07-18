@@ -261,12 +261,12 @@
 	{
 		"30"
 		{
-			"font"		"resource/scheme/fonts/Noto.ttf"
+			"font"		"resource/scheme/fonts/optional_fonts/Noto.ttf"
 			"name"		"Noto Sans Bold"
 		}
 		"31"
 		{
-			"font"		"resource/scheme/fonts/Noto_Numbers.ttf"
+			"font"		"resource/scheme/fonts/optional_fonts/Noto_Numbers.ttf"
 			"name"		"Noto Sans Numbers"
 		}
 	}

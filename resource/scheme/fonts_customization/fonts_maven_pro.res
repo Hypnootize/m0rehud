@@ -265,12 +265,12 @@
 	{
 		"30"
 		{
-			"font"		"resource/scheme/fonts/MavenPro.ttf"
+			"font"		"resource/scheme/fonts/optional_fonts/MavenPro.ttf"
 			"name"		"Maven Pro Black"
 		}
 		"31"
 		{
-			"font"		"resource/scheme/fonts/MavenPro_Numbers.ttf"
+			"font"		"resource/scheme/fonts/optional_fonts/MavenPro_Numbers.ttf"
 			"name"		"Maven Pro Numbers"
 		}
 	}

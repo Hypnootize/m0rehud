@@ -399,7 +399,7 @@
 		}
 		"31"
 		{
-			"font"		"resource/scheme/fonts/TF2_Numbers.ttf"
+			"font"		"resource/scheme/fonts/optional_fonts/TF2_Numbers.ttf"
 			"name"		"TF2 Secondary Numbers"
 		}
 	}

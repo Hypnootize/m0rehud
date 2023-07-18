@@ -261,12 +261,12 @@
 	{
 		"30"
 		{
-			"font"		"resource/scheme/fonts/surface_bold.otf"
+			"font"		"resource/scheme/fonts/optional_fonts/surface_bold.otf"
 			"name"		"Surface-Bold"
 		}
 		"31"
 		{
-			"font"		"resource/scheme/fonts/surface_bold_numbers.otf"
+			"font"		"resource/scheme/fonts/optional_fonts/surface_bold_numbers.otf"
 			"name"		"Surface Bold Numbers"
 		}
 	}

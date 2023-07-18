@@ -39,6 +39,11 @@
 		"label"										"Advanced"
 		"command"									"opentf2options"
 	}
+	"HUDOptions"
+	{
+		"label"										"HUD Options"
+		"command"									"engine OpenSteamWorkshopDialog"
+	}
 	"DemoUI"
 	{
 		"label"										"DemoUI"
@@ -53,11 +58,6 @@
 	{
 		"label"										"Contracker"
 		"command"									"questlog"
-	}
-	"Streams"
-	{
-		"label"										"Streams"
-		"command"									"watch_stream"
 	}
 	"Quit"
 	{

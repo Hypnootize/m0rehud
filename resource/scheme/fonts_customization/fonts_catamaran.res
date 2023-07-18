@@ -261,12 +261,12 @@
 	{
 		"30"
 		{
-			"font"		"resource/scheme/fonts/Catamaran.ttf"
+			"font"		"resource/scheme/fonts/optional_fonts/Catamaran.ttf"
 			"name"		"Catamaran SemiBold"
 		}
 		"31"
 		{
-			"font"		"resource/scheme/fonts/Catamaran_Numbers.ttf"
+			"font"		"resource/scheme/fonts/optional_fonts/Catamaran_Numbers.ttf"
 			"name"		"Catamaran-SemiBold-Numbers"
 		}
 	}
