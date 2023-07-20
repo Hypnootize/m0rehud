@@ -3,10 +3,6 @@
 //---------------------------
 MOVE ALL CUSTOMIZATIONS TO A SEPARATE FOLDER!!!!!!!!!!
 
-Build the customization menu, redesign once the base is there, possibly split in different files (or at least the crosshairs)
-
-- hp warning option
-
 //---------------------------
 // General Stuff
 //---------------------------

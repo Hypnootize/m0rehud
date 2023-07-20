@@ -1,5 +1,5 @@
 #base "../../../../cfg/m0re_speedometer.txt"
 #base "../../../../cfg/m0re_spy_disguise.txt"
-#base "../../scripts/crosshairs/crosshair.res"
+#base "../../scripts/crosshairs/hudcrosshairs.res"
 #base "ubercounter.res"
 #base "hudplayerclass_base.res"

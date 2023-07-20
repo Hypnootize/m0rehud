@@ -19,7 +19,7 @@
 
 #base "../../../cfg/m0re_hudcrosshair_outline.txt"
 #base "../../../cfg/m0re_hudcrosshair_shadow.txt"
-#base "scheme/crosshairs/crosshairs_scheme.res"
+#base "../scripts/crosshairs/hudcrosshairs_scheme.res"
 
 //=========================================================
 // DEFAULT TF2 SCHEME

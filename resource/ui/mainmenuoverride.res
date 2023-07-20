@@ -1354,10 +1354,10 @@
 	//==================================================================================================================================================
 	// FRIENDS LIST
 	//==================================================================================================================================================
-	"SafeMode"
+	"MOTD_Panel"
 	{
 		"ControlName"								"EditablePanel"
-		"fieldName"									"SafeMode"
+		"fieldName"									"MOTD_Panel"
 		"xpos"										"rs1"
 		"ypos"										"cs-0.5+65"
 		"zpos"										"11"
@@ -1381,7 +1381,7 @@
 			"textAlignment"							"center"
 			"labeltext"								"X"
 			"AllCaps"								"1"
-			"Command"								"engine cl_mainmenu_safemode 0"
+			"Command"								"motd_hide"
 			"actionsignallevel"						"2"
 			"sound_depressed"						"UI/buttonclick.wav"
 
@@ -1676,23 +1676,10 @@
 		}
 	}
 
-
-
 	//==================================================================================================================================================
-	// REMOVED ELEMENTS
+	// PRELOADING
 	//==================================================================================================================================================
 
-	"MOTD_Panel"
-	{
-		"ControlName"								"EditablePanel"
-		"fieldName"									"MOTD_Panel"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
 	"MenuThumbMissingFix"
 	{
 		"ControlName"								"ImagePanel"
