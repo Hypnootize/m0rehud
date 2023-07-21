@@ -65,6 +65,7 @@
 		"fieldName"									"BuiltPanel"
 		"xpos"										"0"
 		"ypos"										"0"
+		"zpos"										"2"
 		"wide"										"f0"
 		"tall"										"f5"
 		"visible"									"0"
@@ -125,11 +126,11 @@
 		{
 			"ControlName"							"CIconPanel"
 			"fieldName"								"SapperIcon"
-			"xpos"									"10"
-			"ypos"									"cs-0.5"
+			"xpos"									"9"
+			"ypos"									"0"
 			"zpos"									"10"
-			"wide"									"34"
-			"tall"									"37"
+			"wide"									"36"
+			"tall"									"f0"
 			"visible"								"0"
 			"enabled"								"1"
 			"scaleImage"							"1"
@@ -192,7 +193,7 @@
 		{
 			"ControlName"							"EditablePanel"
 			"fieldName"								"RunningPanel"
-			"xpos"									"rs1"
+			"xpos"									"rs1+3"
 			"ypos"									"cs-0.5"
 			"wide"									"f44"
 			"tall"									"f0"
@@ -328,23 +329,25 @@
 			}
 		}
 
-
+		"AlertTray"
+		{
+			"ControlName"							"CBuildingStatusAlertTray"
+			"fieldName"								"AlertTray"
+			"xpos"									"9"
+			"ypos"									"0"
+			"zpos"									"2"
+			"wide"									"36"
+			"tall"									"f0"
+			"visible"								"1"
+			"enabled"								"1"
+			"icon"									"obj_eng_status_area_sentry_alrt_m0re"
+			"proportionaltoparent"					"1"
+		}
 
 		//==================================================================================================================================================
 		// REMOVED ELEMENTS
 		//==================================================================================================================================================
 
-		"AlertTray"
-		{
-			"ControlName"							"CBuildingStatusAlertTray"
-			"fieldName"								"AlertTray"
-			"xpos"									"9999"
-			"ypos"									"9999"
-			"wide"									"0"
-			"tall"									"0"
-			"visible"								"0"
-			"enabled"								"0"
-		}
 		"WrenchIcon"
 		{
 			"ControlName"							"CIconPanel"
