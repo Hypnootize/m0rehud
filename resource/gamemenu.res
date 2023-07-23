@@ -171,7 +171,7 @@
 	"Toggle Chat"
 	{
 		"label"										"A"
-		"command"									"engine toggle hud_saytext_time 0 6"
+		"command"									"engine toggle hud_saytext_time 0 12"
 		"tooltip"									"Enable/Disable Chat"
 		"OnlyInGame"								"1"
 	}
