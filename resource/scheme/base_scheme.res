@@ -2230,7 +2230,7 @@
 			"1"
 			{
 				"name"										"TF2 Secondary"
-				"tall"										"7"
+				"tall"										"8"
 				"weight"									"500"
 				"additive"									"0"
 				"antialias"									"1"
@@ -2251,7 +2251,7 @@
 			"1"
 			{
 				"name"										"TF2 Secondary"
-				"tall"										"8"
+				"tall"										"9"
 				"weight"									"500"
 				"additive"									"0"
 				"antialias"									"1"
@@ -2262,7 +2262,7 @@
 			"1"
 			{
 				"name"										"TF2 Secondary"
-				"tall"										"11"
+				"tall"										"12"
 				"weight"									"500"
 				"additive"									"0"
 				"antialias"									"1"
