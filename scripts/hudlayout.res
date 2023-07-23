@@ -14,7 +14,7 @@
 // TRANSPARENT VIEWMODELS
 //=========================================================
 
-#base "transparent%20viewmodels.res"
+#base "transparent_viewmodels.res"
 
 //=========================================================
 // DEFAULT LAYOUT
