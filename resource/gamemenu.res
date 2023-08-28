@@ -5,7 +5,7 @@
 	//====================================================================================================================================================
 	"Version"
 	{
-		"label"										"m0rehud 6.4"
+		"label"										"m0rehud 6.5"
 		"command"									"engine showconsole; echo m0rehud by Hypnotize comfig.app/huds/page/m0rehud all credits to m0re"
 		"OnlyAtMenu"								"1"
 	}
