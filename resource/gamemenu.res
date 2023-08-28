@@ -5,8 +5,8 @@
 	//====================================================================================================================================================
 	"Version"
 	{
-		"label"										"m0rehud 6.4"
-		"command"									"engine showconsole; echo m0rehud by Hypnotize comfig.app/huds/page/m0rehud all credits to m0re"
+		"label"										"m0re Classic"
+		"command"									"engine con_enable 1; toggleconsole"
 		"OnlyAtMenu"								"1"
 	}
 	"Servers"
@@ -54,10 +54,10 @@
 		"label"										"Contracker"
 		"command"									"questlog"
 	}
-	"Streams"
+	"Workshop"
 	{
-		"label"										"Streams"
-		"command"									"watch_stream"
+		"label"										"Workshop"
+		"command"									"engine OpenSteamWorkshopDialog"
 	}
 	"Quit"
 	{
@@ -171,7 +171,7 @@
 	"Toggle Chat"
 	{
 		"label"										"A"
-		"command"									"engine toggle hud_saytext_time 0 6"
+		"command"									"engine toggle hud_saytext_time 0 12"
 		"tooltip"									"Enable/Disable Chat"
 		"OnlyInGame"								"1"
 	}

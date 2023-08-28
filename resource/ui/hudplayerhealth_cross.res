@@ -24,25 +24,58 @@
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"HealthAnchor"
-		"xpos"										"c-175"
-		"ypos"										"c95"
+		"xpos"										"c-163"
+		"ypos"										"c110"
 		"zpos"										"0"
 		"wide"										"2"
-		"tall"										"80"
+		"tall"										"64"
 		"visible"									"0"
 		"enabled"									"1"
 		"alpha"										"0"
 	}
 
 	//==================================================================================================================================================
-	// BUFF - HURT CROSS
+	// CROSS
 	//==================================================================================================================================================
+	"PlayerStatusHealthImageBG"
+	{
+		"ControlName"								"ImagePanel"
+		"fieldName"									"PlayerStatusHealthImageBG"
+		"xpos"										"0"
+		"ypos"										"0"
+		"zpos"										"3"
+		"wide"										"64"
+		"tall"										"64"
+		"visible"									"1"
+		"enabled"									"1"
+		"image"										"replay/thumbnails/health_bg"
+		"scaleImage"								"1"
+
+		"pin_to_sibling"							"HealthAnchor"
+		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
+		"pin_to_sibling_corner"						"PIN_CENTER_TOP"
+	}
+	"PlayerStatusHealthImage"
+	{
+		"ControlName"								"ImagePanel"
+		"fieldName"									"PlayerStatusHealthImage"
+		"xpos"										"-2"
+		"ypos"										"-2"
+		"zpos"										"4"
+		"wide"										"60"
+		"tall"										"60"
+		"visible"									"1"
+		"enabled"									"1"
+		"scaleImage"								"1"
+
+		"pin_to_sibling"							"PlayerStatusHealthImageBG"
+	}
 	"PlayerStatusHealthBonusImage"
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"PlayerStatusHealthBonusImage"
-		"xpos"										"c-205"
-		"ypos"										"c107"
+		"xpos"										"c-195"
+		"ypos"										"c109"
 		"zpos"										"-4"
 		"wide"										"66"
 		"tall"										"66"
@@ -60,57 +93,38 @@
 		"ControlName"								"CExLabel"
 		"fieldName"									"HealthValue"
 		"xpos"										"0"
-		"ypos"										"0"
+		"ypos"										"-10"
 		"zpos"										"5"
-		"wide"										"150"
-		"tall"										"80"
+		"wide"										"60"
+		"tall"										"40"
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"%Health%"
 		"textAlignment"								"center"
-		"font"										"m0refont72"
+		"font"										"m0refont26"
 		"fgcolor"									"Health Numbers"
 
-		"pin_to_sibling"							"HealthAnchor"
+		"pin_to_sibling"							"PlayerStatusHealthImageBG"
 		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
 		"pin_to_sibling_corner"						"PIN_CENTER_TOP"
 	}
-	"HealthValue_Shadow"
+	"HealthValue_Shadow_Cross"
 	{
 		"ControlName"								"CExLabel"
-		"fieldName"									"HealthValue_Shadow"
-		"xpos"										"-2"
-		"ypos"										"-2"
-		"zpos"										"5"
-		"wide"										"150"
-		"tall"										"80"
-		"visible"									"1"
-		"enabled"									"1"
-		"labelText"									"%Health%"
-		"textAlignment"								"center"
-		"font"										"m0refont72"
-		"fgcolor"									"Black"
-
-		"pin_to_sibling"							"HealthValue"
-	}
-	"HealthValue_Shadow_Extra"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"HealthValue_Shadow_Extra"
+		"fieldName"									"HealthValue_Shadow_Cross"
 		"xpos"										"-1"
 		"ypos"										"-1"
 		"zpos"										"5"
-		"wide"										"150"
-		"tall"										"80"
+		"wide"										"60"
+		"tall"										"40"
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"%Health%"
 		"textAlignment"								"center"
-		"font"										"m0refont72"
-		"fgcolor"									"Extra Shadow"
-		"alpha"										"0"
+		"font"										"m0refont26"
+		"fgcolor"									"Black"
 
-		"pin_to_sibling"							"HealthValue_Shadow"
+		"pin_to_sibling"							"HealthValue"
 	}
 
 	//==================================================================================================================================================
@@ -121,8 +135,8 @@
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"PlayerStatusAnchor"
-		"xpos"										"-20"
-		"ypos"										"5"
+		"xpos"										"-26"
+		"ypos"										"-25"
 		"wide"										"0"
 		"tall"										"80"
 		"visible"									"1"
@@ -683,26 +697,6 @@
 	// REMOVED ELEMENTS
 	//==================================================================================================================================================
 
-	"PlayerStatusHealthImage"
-	{
-		"ControlName"								"ImagePanel"
-		"fieldName"									"PlayerStatusHealthImage"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	"PlayerStatusHealthImageBG"
-	{
-		"ControlName"								"ImagePanel"
-		"fieldName"									"PlayerStatusHealthImageBG"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
 	"PlayerStatusMaxHealthValue"
 	{
 		"ControlName"								"CExLabel"

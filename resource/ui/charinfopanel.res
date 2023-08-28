@@ -117,13 +117,22 @@
 		"tall"										"25"
 		"visible"									"1"
 		"enabled"									"1"
-		"labelText"									"Back (&Q)"
+		"labelText"									"Back"
 		"font"										"HudFontSmallBold"
 		"textAlignment"								"center"
 		"proportionaltoparent"						"1"
 		"Command"									"back"
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
+	}
+	"BackShortKey"
+	{
+		"ControlName"								"CExButton"
+		"fieldName"									"BackShortKey"
+		"xpos"										"9999"
+		"labelText"									"&Q"
+		"Command"									"back"
+		"visible"									"1"
 	}
 	"CloseButton"
 	{
@@ -136,13 +145,22 @@
 		"tall"										"25"
 		"visible"									"1"
 		"enabled"									"1"
-		"labelText"									"Close (&E)"
+		"labelText"									"Close"
 		"font"										"HudFontSmallBold"
 		"textAlignment"								"center"
 		"proportionaltoparent"						"1"
 		"Command"									"close"
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
+	}
+	"CloseShortKey"
+	{
+		"ControlName"								"CExButton"
+		"fieldName"									"CloseShortKey"
+		"xpos"										"9999"
+		"labelText"									"&E"
+		"Command"									"close"
+		"visible"									"1"
 	}
 	"NotificationsPresentPanel"
 	{

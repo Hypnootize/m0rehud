@@ -609,10 +609,10 @@
 			"depressedFgColor_override"				"Menu Labels"
 		}
 	}
-	"Streams"
+	"Workshop"
 	{
 		"ControlName"								"EditablePanel"
-		"fieldname"									"Streams"
+		"fieldname"									"Workshop"
 		"xpos"										"0"
 		"ypos"										"3"
 		"zpos"										"15"
@@ -658,7 +658,7 @@
 		"wide"										"150"
 		"tall"										"14"
 
-		"pin_to_sibling"							"Streams"
+		"pin_to_sibling"							"Workshop"
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
 		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
 
@@ -702,7 +702,7 @@
 		"tall"										"14"
 		"visible"									"0"
 
-		"pin_to_sibling"							"Streams"
+		"pin_to_sibling"							"Workshop"
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
 		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
 

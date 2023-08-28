@@ -15,10 +15,10 @@
 		"image"										"../hud/health_over_bg"
 		"scaleImage"								"1"
 	}
-	"PlayerStatusHealthValueTarget"					// Proportional positioning doesn't work :(
+	"HealthValue_Target"							// Proportional positioning doesn't work :(
 	{
 		"ControlName"								"CExLabel"
-		"fieldName"									"PlayerStatusHealthValueTarget"
+		"fieldName"									"HealthValue_Target"
 		"xpos"										"0"
 		"ypos"										"0"
 		"zpos"										"20"
@@ -32,10 +32,10 @@
 		"font"										"m0refont24"
 		"fgcolor"									"Health Numbers"
 	}
-	"PlayerStatusHealthValueTargetShadow"
+	"HealthValue_Target_Shadow"
 	{
 		"ControlName"								"CExLabel"
-		"fieldName"									"PlayerStatusHealthValueTargetShadow"
+		"fieldName"									"HealthValue_Target_Shadow"
 		"xpos"										"-1"
 		"ypos"										"-1"
 		"zpos"										"20"
@@ -49,7 +49,7 @@
 		"font"										"m0refont24"
 		"fgcolor"									"Black"
 
-		"pin_to_sibling"							"PlayerStatusHealthValueTarget"
+		"pin_to_sibling"							"HealthValue_Target"
 	}
 
 

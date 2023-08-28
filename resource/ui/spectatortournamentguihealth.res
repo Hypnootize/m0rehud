@@ -1,9 +1,9 @@
 "Resource/UI/SpectatorTournamentGUIHealth.res"
 {
-	"PlayerStatusHealthValueSpecGUI"
+	"HealthValue_Spectator"
 	{
 		"ControlName"								"CExLabel"
-		"fieldName"									"PlayerStatusHealthValueSpecGUI"
+		"fieldName"									"HealthValue_Spectator"
 		"xpos"										"cs-0.5"
 		"ypos"										"cs-0.5"
 		"zpos"										"5"
@@ -17,10 +17,10 @@
 		"font"										"m0refont11"
 		"fgcolor"									"Health Numbers"
 	}
-	"PlayerStatusHealthValueSpecGUIShadow"
+	"HealthValue_Spectator_Shadow"
 	{
 		"ControlName"								"CExLabel"
-		"fieldName"									"PlayerStatusHealthValueSpecGUIShadow"
+		"fieldName"									"HealthValue_Spectator_Shadow"
 		"xpos"										"0"
 		"ypos"										"0"
 		"zpos"										"5"
@@ -34,7 +34,7 @@
 		"font"										"m0refont11"
 		"fgcolor"									"Black"
 
-		"pin_to_sibling"							"PlayerStatusHealthValueSpecgui"
+		"pin_to_sibling"							"HealthValue_Spectator"
 	}
 
 

@@ -15,10 +15,10 @@
 		"image"										"../hud/health_over_bg"
 		"scaleImage"								"1"
 	}
-	"PlayerStatusHealthValueKiller"
+	"HealthValue_Killer"
 	{
 		"ControlName"								"CExLabel"
-		"fieldName"									"PlayerStatusHealthValueKiller"
+		"fieldName"									"HealthValue_Killer"
 		"xpos"										"cs-0.5"
 		"ypos"										"cs-0.5-1"
 		"zpos"										"20"
@@ -32,10 +32,10 @@
 		"font"										"m0refont24"
 		"fgcolor"									"Health Numbers"
 	}
-	"PlayerStatusHealthValueShadowKiller"
+	"HealthValue_Killer_Shadow"
 	{
 		"ControlName"								"CExLabel"
-		"fieldName"									"PlayerStatusHealthValueShadowKiller"
+		"fieldName"									"HealthValue_Killer_Shadow"
 		"xpos"										"-1"
 		"ypos"										"-1"
 		"zpos"										"20"
@@ -49,12 +49,12 @@
 		"font"										"m0refont24"
 		"fgcolor"									"Black"
 
-		"pin_to_sibling"							"PlayerStatusHealthValueKiller"
+		"pin_to_sibling"							"HealthValue_Killer"
 	}
-	"PlayerStatusHealthValueShadowExtra"
+	"HealthValue_Killer_Shadow_Extra"
 	{
 		"ControlName"								"CExLabel"
-		"fieldName"									"PlayerStatusHealthValueShadowExtra"
+		"fieldName"									"HealthValue_Killer_Shadow_Extra"
 		"xpos"										"0"
 		"ypos"										"0"
 		"zpos"										"20"
@@ -69,7 +69,7 @@
 		"fgcolor"									"Extra Shadow"
 		"alpha"										"0"
 
-		"pin_to_sibling"							"PlayerStatusHealthValueShadowKiller"
+		"pin_to_sibling"							"HealthValue_Killer_Shadow"
 	}
 
 

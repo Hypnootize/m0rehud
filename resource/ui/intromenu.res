@@ -64,7 +64,7 @@
 		"tall"										"20"
 		"visible"									"1"
 		"enabled"									"1"
-		"labelText"									"CONTINUE (&E) "
+		"labelText"									"CONTINUE"
 		"textAlignment"								"center"
 		"command"									"skip"
 		"font"										"Coolvetica15"
@@ -80,6 +80,15 @@
 		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
 		"pin_to_sibling_corner"						"PIN_CENTER_BOTTOM"
 	}
+	"SkipShortKey"
+	{
+		"ControlName"								"CExButton"
+		"fieldName"									"SkipShortKey"
+		"xpos"										"9999"
+		"labelText"									"&E"
+		"Command"									"skip"
+		"visible"									"1"
+	}
 	"Back"
 	{
 		"ControlName"								"CExButton"
@@ -91,7 +100,7 @@
 		"tall"										"20"
 		"visible"									"1"
 		"enabled"									"1"
-		"labelText"									"BACK (&Q) "
+		"labelText"									"BACK"
 		"textAlignment"								"center"
 		"command"									"back"
 		"font"										"Coolvetica15"
@@ -106,6 +115,15 @@
 		"pin_to_sibling"							"Skip"
 		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
 		"pin_to_sibling_corner"						"PIN_CENTER_BOTTOM"
+	}
+	"BackShortKey"
+	{
+		"ControlName"								"CExButton"
+		"fieldName"									"BackShortKey"
+		"xpos"										"9999"
+		"labelText"									"&Q"
+		"Command"									"back"
+		"visible"									"1"
 	}
 
 

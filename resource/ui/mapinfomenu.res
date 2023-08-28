@@ -61,7 +61,7 @@
 		"tall"										"20"
 		"visible"									"1"
 		"enabled"									"1"
-		"labelText"									"CONTINUE (&E) "
+		"labelText"									"CONTINUE"
 		"textAlignment"								"center"
 		"command"									"continue"
 		"font"										"Coolvetica15"
@@ -76,6 +76,15 @@
 		"pin_to_sibling"							"MapInfoText"
 		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
 		"pin_to_sibling_corner"						"PIN_CENTER_BOTTOM"
+	}
+	"OKShortKey"
+	{
+		"ControlName"								"CExButton"
+		"fieldName"									"OKShortKey"
+		"xpos"										"9999"
+		"labelText"									"&E"
+		"Command"									"continue"
+		"visible"									"1"
 	}
 	"MapInfoWatchIntro"
 	{

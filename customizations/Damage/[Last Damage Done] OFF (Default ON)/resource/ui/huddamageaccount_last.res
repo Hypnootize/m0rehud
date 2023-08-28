@@ -1,1 +1,0 @@
-"Resource/UI/HudDamageAccount.res" { }

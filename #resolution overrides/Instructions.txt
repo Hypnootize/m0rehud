@@ -1,0 +1,10 @@
+//=====================================================================================================================================
+// RESOLUTION FIXES
+//=====================================================================================================================================
+// m0rehud is not fully compatible with the 4:3, 5:4 and 16:10 aspect ratios by default
+// Therefore you will be required to apply the needed resolution fixes 
+// this is needed order to make sure the HUD is fully optimized for your resolution
+//
+// You can find a dedicated folder for each aspect ratio with inside a resouce folder, simply copy the resource folder
+// and paste it inside m0rehud's root folder, when your system will ask if you want to replace the files make sure to select YES
+//=====================================================================================================================================
