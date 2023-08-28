@@ -98,7 +98,7 @@
 		"labelText"									"#TF_UberchargeMinHUD"
 		"textAlignment"								"center"
 		"font"										"m0refont48"
-		"fgcolor"									"Black"
+		"fgcolor"									"Extra Shadow"
 		"alpha"										"0"
 
 		"pin_to_sibling"							"ChargeLabelBigShadow"
