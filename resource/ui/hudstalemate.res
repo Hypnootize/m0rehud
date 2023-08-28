@@ -4,16 +4,16 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"StalemateLabel"
-		"font"										"m0refont18Shadow"
 		"xpos"										"cs-0.5"
-		"ypos"										"60"
+		"ypos"										"120"
 		"zpos"										"1"
 		"wide"										"f0"
-		"tall"										"20"
+		"tall"										"16"
 		"visible"									"1"
 		"enabled"									"1"
 		"wrap"										"0"
 		"proportionaltoparent"						"1"
+		"font"										"m0refont16Shadow"
 		"labelText"									"#TF_teambalanced"
 		"textAlignment"								"center"
 	}
@@ -21,9 +21,8 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"ReasonLabel"
-		"font"										"m0refont12Shadow"
 		"xpos"										"cs-0.5"
-		"ypos"										"80"
+		"ypos"										"138"
 		"zpos"										"1"
 		"wide"										"f0"
 		"tall"										"55"
@@ -32,6 +31,7 @@
 		"wrap"										"1"
 		"centerwrap"								"1"
 		"proportionaltoparent"						"1"
+		"font"										"m0refont11Shadow"
 		"labelText"									""
 		"textAlignment"								"north"
 	}
