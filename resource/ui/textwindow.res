@@ -1,9 +1,9 @@
 "Resource/UI/TextWindow.res"
 {
-	"info"
+	"Info"
 	{
 		"ControlName"								"CTFTextWindow"
-		"fieldName"									"info"
+		"fieldName"									"Info"
 		"xpos"										"0"
 		"ypos"										"0"
 		"wide"										"f0"
@@ -11,6 +11,21 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"settitlebarvisible"						"0"
+		"paintBackground"							"0"
+	}
+	"FullScreenBG"
+	{
+		"ControlName"								"Panel"
+		"fieldName"									"FullScreenBG"
+		"xpos"										"0"
+		"ypos"										"0"
+		"zpos"										"0"
+		"wide"										"f0"
+		"tall"										"f0"
+		"visible"									"1"
+		"enabled"									"1"
+		"paintbackground"							"1"
+		"bgcolor_override"							"TransparentMediumBlack"
 	}
 	"TFTextMessage"
 	{
@@ -63,10 +78,10 @@
 		"pin_corner_to_sibling"						"PIN_CENTER_BOTTOM"
 		"pin_to_sibling_corner"						"PIN_CENTER_TOP"
 	}
-	"ok"
+	"OK"
 	{
 		"ControlName"								"CExButton"
-		"fieldName"									"ok"
+		"fieldName"									"OK"
 		"xpos"										"0"
 		"ypos"										"5"
 		"zpos"										"6"

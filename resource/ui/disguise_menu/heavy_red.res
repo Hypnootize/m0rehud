@@ -2,16 +2,24 @@
 
 "Resource/UI/Disguise_Menu/Heavy_Red.res"
 {
+	"TitleBG"
+	{
+		"visible"									"0"
+	}
+	"ItemNameLabel"
+	{
+		"labelText"									"#TF_Class_Name_HWGuy"
+	}
 	"ClassIcon"
 	{
-		"icon"										"hud_menu_heavy_red"
-	}
-	"NewNumberLabel"
-	{
-		"labelText"									"2"
+		"labelText"									"e"
 	}
 	"NumberLabel"
 	{
 		"labelText"									"5"
+	}
+	"NewNumberLabel"
+	{
+		"labelText"									"2"
 	}
 }

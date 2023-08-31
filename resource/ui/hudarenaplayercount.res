@@ -26,7 +26,7 @@
 			"font"									"m0refont24"
 			"labelText"								"%blue_alive%"
 			"textAlignment"							"center"
-			"fgcolor"								"m0reBlue"
+			"fgcolor"								"HUDBlueTeamSolid"
 		}
 		"CountShadow"
 		{
@@ -45,23 +45,23 @@
 			"textAlignment"							"center"
 			"fgcolor"								"Black"
 
-			"pin_to_sibling"						"count"
+			"pin_to_sibling"						"Count"
 		}
-		"background"
+		"Background"
 		{
 			"ControlName"							"CTFImagePanel"
-			"fieldName"								"background"
+			"fieldName"								"Background"
 			"xpos"									"9999"
 			"ypos"									"9999"
 			"wide"									"0"
 			"tall"									"0"
 			"visible"								"0"
 			"enabled"								"0"
-			}
-		"playerimage"
+		}
+		"PlayerImage"
 		{
 			"ControlName"							"ImagePanel"
-			"fieldName"								"playerimage"
+			"fieldName"								"PlayerImage"
 			"xpos"									"9999"
 			"ypos"									"9999"
 			"wide"									"0"
@@ -96,7 +96,7 @@
 			"font"									"m0refont24"
 			"labelText"								"%red_alive%"
 			"textAlignment"							"center"
-			"fgcolor"								"m0reRed"
+			"fgcolor"								"HUDRedTeamSolid"
 		}
 		"CountShadow"
 		{
@@ -115,20 +115,29 @@
 			"textAlignment"							"center"
 			"fgcolor"								"Black"
 
-			"pin_to_sibling"						"count"
+			"pin_to_sibling"						"Count"
 		}
-
-		"background"
+		"Background"
 		{
 			"ControlName"							"CTFImagePanel"
-			"fieldName"								"background"
+			"fieldName"								"Background"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
-		"playerimage"
+		"PlayerImage"
 		{
 			"ControlName"							"ImagePanel"
-			"fieldName"								"playerimage"
+			"fieldName"								"PlayerImage"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 	}
 }

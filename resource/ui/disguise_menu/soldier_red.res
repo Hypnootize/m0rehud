@@ -2,15 +2,23 @@
 
 "Resource/UI/Disguise_Menu/Soldier_Red.res"
 {
+	"TitleBG"
+	{
+		"visible"									"0"
+	}
+	"ItemNameLabel"
+	{
+		"labelText"									"#TF_Class_Name_Soldier"
+	}
 	"ClassIcon"
 	{
-		"icon"										"hud_menu_soldier_red"
+		"labelText"									"b"
 	}
-	"NewNumberLabel"
+	"NumberLabel"
 	{
 		"labelText"									"2"
 	}
-	"NumberLabel"
+	"NewNumberLabel"
 	{
 		"labelText"									"2"
 	}

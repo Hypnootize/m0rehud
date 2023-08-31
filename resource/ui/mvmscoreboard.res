@@ -2,7 +2,7 @@
 {
 	"RedBar"
 	{
-		"ControlName"								"EditablePanel"
+		"ControlName"								"Panel"
 		"fieldName"									"RedBar"
 		"xpos"										"0"
 		"ypos"										"0"

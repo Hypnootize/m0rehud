@@ -1,9 +1,6 @@
-#base "huditemeffectmeter.res"
+// ITEM METER POSITIONING SLOT
+#base "../../cfg/m0re_meter_bottom.txt"
+#base "huditemeffectmeter_#bottom.res"
 
-"Resource/UI/HudItemEffectMeter_Scout.res"
-{
-	"HudItemEffectMeter"
-	{
-		"ypos"										"c185-11"
-	}
-}
+// BASE CONTENT, USE THIS TO MAKE YOUR EDITS!!
+#base "huditemeffectmeter_base.res"

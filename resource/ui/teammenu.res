@@ -1,15 +1,30 @@
 "Resource/UI/TeamMenu.res"
 {
-	"team"
+	"Team"
 	{
 		"ControlName"								"CTeamMenu"
-		"fieldName"									"team"
+		"fieldName"									"Team"
 		"xpos"										"0"
 		"ypos"										"0"
 		"wide"										"f0"
 		"tall"										"480"
 		"visible"									"1"
 		"enabled"									"1"
+		"paintBackground"							"0"
+	}
+	"FullScreenBG"
+	{
+		"ControlName"								"Panel"
+		"fieldName"									"FullScreenBG"
+		"xpos"										"0"
+		"ypos"										"0"
+		"zpos"										"0"
+		"wide"										"f0"
+		"tall"										"f0"
+		"visible"									"1"
+		"enabled"									"1"
+		"paintbackground"							"1"
+		"bgcolor_override"							"TransparentMediumBlack"
 	}
 
 	"MapName"
@@ -35,7 +50,7 @@
 	//==================================================================================================================================================
 	"TeamsAnchor"
 	{
-		"ControlName"								"EditablePanel"
+		"ControlName"								"Panel"
 		"fieldname"									"TeamsAnchor"
 		"xpos"										"cs-0.5"
 		"ypos"										"c-6"
@@ -48,7 +63,7 @@
 	//==================================================================================================================================================
 	"WhiteBar"
 	{
-		"ControlName"								"EditablePanel"
+		"ControlName"								"Panel"
 		"fieldname"									"WhiteBar"
 		"xpos"										"0"
 		"ypos"										"0"

@@ -16,7 +16,7 @@
 		"proportionaltoparent"						"1"
 		"fgcolor"									"White"
 		"paintbackground"							"1"
-		"bgcolor_override"							"0 0 0 100"
+		"bgcolor_override"							"TransparentLightBlack"
 	}
 	"TableBackground"
 	{
@@ -29,7 +29,7 @@
 		"tall"										"f12"
 		"visible"									"1"
 		"proportionaltoparent"						"1"
-		"bgcolor_override"							"0 0 0 50"
+		"bgcolor_override"							"TransparentLightestBlack"
 	}
 	"CreditCollectedTextLabel"
 	{
@@ -140,7 +140,7 @@
 	}
 	"Separator"
 	{
-		"ControlName"								"EditablePanel"
+		"ControlName"								"Panel"
 		"fieldName"									"Separator"
 		"xpos"										"0"
 		"ypos"										"-3"
@@ -152,7 +152,7 @@
 		"proportionaltoparent"						"1"
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
-		"bgcolor_override"							"0 0 0 50"
+		"bgcolor_override"							"TransparentLightestBlack"
 
 		"pin_to_sibling"							"TableBackground"
 		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
@@ -172,7 +172,7 @@
 		"fgcolor"									"White"
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
-		"bgcolor_override"							"0 0 0 50"
+		"bgcolor_override"							"TransparentLightestBlack"
 
 		"pin_to_sibling"							"HeaderLabel"
 		"pin_corner_to_sibling"						"PIN_CENTER_RIGHT"

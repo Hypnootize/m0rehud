@@ -36,7 +36,7 @@
 		"textAlignment"								"east"
 		"labelText"									"%bluescore%"
 		"font"										"m0refont36"
-		"fgcolor"									"m0reblue"
+		"fgcolor"									"HUDBlueTeamSolid"
 
 		"if_hybrid"
 		{
@@ -87,13 +87,14 @@
 	{
 		"ControlName"								"CTFFlagStatus"
 		"fieldName"									"BlueFlag"
-		"xpos"										"c-95"
-		"ypos"										"r65"
+		"xpos"										"cs-1"
+		"ypos"										"rs1-3"
 		"zpos"										"5"
-		"wide"										"160"
-		"tall"										"90"
+		"wide"										"40"
+		"tall"										"40"
 		"visible"									"1"
 		"enabled"									"1"
+		"proportionaltoparent"						"1"
 
 		"if_hybrid"
 		{
@@ -101,7 +102,7 @@
 		}
 		"if_hybrid_single"
 		{
-			"xpos"									"c-72"
+			"xpos"									"cs-0.5"
 		}
 		"if_no_flags"
 		{
@@ -109,8 +110,8 @@
 		}
 		"if_mvm"
 		{
-			"xpos"									"c-82"
-			"ypos"									"r72"
+			"xpos"									"cs-0.5-3"
+			"ypos"									"rs1-12"
 		}
 	}
 
@@ -132,7 +133,7 @@
 		"textAlignment"								"west"
 		"labelText"									"%redscore%"
 		"font"										"m0refont36"
-		"fgcolor"									"m0rered"
+		"fgcolor"									"HUDRedTeamSolid"
 
 		"if_hybrid"
 		{
@@ -183,13 +184,14 @@
 	{
 		"ControlName"								"CTFFlagStatus"
 		"fieldName"									"RedFlag"
-		"xpos"										"c-55"
-		"ypos"										"r65"
+		"xpos"										"cs+0"
+		"ypos"										"rs1-3"
 		"zpos"										"5"
-		"wide"										"160"
-		"tall"										"90"
+		"wide"										"40"
+		"tall"										"40"
 		"visible"									"1"
 		"enabled"									"1"
+		"proportionaltoparent"						"1"
 
 		"if_hybrid"
 		{
@@ -197,7 +199,7 @@
 		}
 		"if_hybrid_single"
 		{
-			"xpos"									"c-72"
+			"xpos"									"cs-0.5"
 		}
 		"if_no_flags"
 		{
@@ -242,7 +244,7 @@
 		"ControlName"								"CTFArrowPanel"
 		"fieldName"									"CaptureFlag"
 		"xpos"										"cs-0.5"
-		"ypos"										"r45"
+		"ypos"										"rs1-3"
 		"zpos"										"5"
 		"wide"										"40"
 		"tall"										"40"
@@ -257,8 +259,8 @@
 		"xpos"										"0"
 		"ypos"										"-13"
 		"zpos"										"10"
-		"wide"										"23"
-		"tall"										"23"
+		"wide"										"20"
+		"tall"										"20"
 		"visible"									"0"
 		"enabled"									"1"
 		"image"										"../hud/objectives_flagpanel_carried_red"
@@ -293,7 +295,7 @@
 		"ControlName"								"ImagePanel"
 		"fieldName"									"PoisonIcon"
 		"xpos"										"cs-0.5"
-		"ypos"										"r67"
+		"ypos"										"r72"
 		"zpos"										"6"
 		"wide"										"25"
 		"tall"										"o1"
@@ -301,15 +303,15 @@
 		"enabled"									"1"
 		"image"										"marked_for_death"
 		"scaleImage"								"1"
+		"drawcolor"									"100 100 100 255"
 		"proportionaltoparent"						"1"
-		"alpha"										"100"
 	}
 	"PoisonTimeLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"PoisonTimeLabel"
 		"xpos"										"cs-0.5"
-		"ypos"										"r65"
+		"ypos"										"r71"
 		"zpos"										"7"
 		"wide"										"40"
 		"tall"										"20"

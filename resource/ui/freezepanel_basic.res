@@ -1,4 +1,4 @@
-#base "HudInspectPanel.res"
+#base "hudinspectpanel.res"
 
 "Resource/UI/FreezePanel_Basic.res"
 {
@@ -41,7 +41,7 @@
 		}
 		"FreezePanelBGWhite"
 		{
-			"ControlName"							"EditablePanel"
+			"ControlName"							"Panel"
 			"fieldName"								"FreezePanelBGWhite"
 			"xpos"									"rs1"
 			"ypos"									"cs-0.5"

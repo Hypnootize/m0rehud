@@ -2,7 +2,8 @@
 // M0REHUD TEXTURES
 //=========================================================
 
-#base "textures/textures_m0re.txt"
+#base "textures/textures_killfeed.txt"
+#base "textures/textures_engineer.txt"
 
 //=========================================================
 // DEFAULT TEXTURES

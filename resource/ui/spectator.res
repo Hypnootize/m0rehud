@@ -1,4 +1,4 @@
-#base "HudInspectPanel.res"
+#base "hudinspectpanel.res"
 
 "Resource/UI/Spectator.res"
 {
@@ -10,7 +10,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 	}
-	"specgui"
+	"SpecGUI"
 	{
 	}
 	"ReinforcementsLabel"
@@ -25,7 +25,7 @@
 		"enabled"									"1"
 		"labelText"									"#game_respawntime_in_secs"
 		"textAlignment"								"center"
-		"font"										"m0refont11"
+		"font"										"m0refont12Shadow"
 		"fgcolor"									"White"
 
 		"if_mvm"
@@ -45,14 +45,14 @@
 		"enabled"									"1"
 		"labelText"									""
 		"textAlignment"								"center"
-		"font"										"m0refont16"
+		"font"										"m0refont16Shadow"
 		"wrap"										"1"
 		"centerwrap"								"1"
 	}
-	"spectator_extras"
+	"Spectator_Extras"
 	{
 		"ControlName"								"EditablePanel"
-		"fieldName"									"spectator_extras"
+		"fieldName"									"Spectator_Extras"
 		"xpos"										"0"
 		"ypos"										"0"
 		"wide"										"f0"

@@ -16,7 +16,7 @@
 		//==============================================================================================================================================
 		"TopBarAnchor"
 		{
-			"ControlName"							"EditablePanel"
+			"ControlName"							"Panel"
 			"fieldname"								"TopBarAnchor"
 			"xpos"									"cs-0.5"
 			"ypos"									"0"
@@ -30,7 +30,7 @@
 		//==============================================================================================================================================
 		"WhiteBG"
 		{
-			"ControlName"							"EditablePanel"
+			"ControlName"							"Panel"
 			"fieldname"								"WhiteBG"
 			"xpos"									"0"
 			"ypos"									"0"
@@ -206,7 +206,7 @@
 	//==================================================================================================================================================
 	"BottomBarAnchor"
 	{
-		"ControlName"								"EditablePanel"
+		"ControlName"								"Panel"
 		"fieldname"									"BottomBarAnchor"
 		"xpos"										"0"
 		"ypos"										"r40"
@@ -228,7 +228,7 @@
 		"tall"										"50"
 		"visible"									"1"
 		"enabled"									"1"
-		"fillcolor"									"0 0 0 100"
+		"fillcolor"									"TransparentLightBlack"
 
 		"pin_to_sibling"							"BottomBarAnchor"
 	}

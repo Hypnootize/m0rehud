@@ -45,7 +45,7 @@
 
 	"WhiteBG"
 	{
-		"ControlName"								"EditablePanel"
+		"ControlName"								"Panel"
 		"fieldName"									"WhiteBG"
 		"xpos"										"9999"
 		"ypos"										"9999"
@@ -56,7 +56,7 @@
 	}
 	"GreenBG"
 	{
-		"ControlName"								"EditablePanel"
+		"ControlName"								"Panel"
 		"fieldName"									"GreenBG"
 		"xpos"										"9999"
 		"ypos"										"9999"

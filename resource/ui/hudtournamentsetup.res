@@ -19,7 +19,7 @@
 		"proportionaltoparent"						"1"
 		"font"										"m0refont11"
 		"fgcolor_override"							"White"
-		"bgcolor_override"							"0 0 0 100"
+		"bgcolor_override"							"TransparentLightBlack"
 		"labelText"									"%teamname%"
 		"textAlignment"								"center"
 	}

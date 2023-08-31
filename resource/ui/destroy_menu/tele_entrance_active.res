@@ -2,9 +2,13 @@
 
 "Resource/UI/Destroy_Menu/Tele_Entrance_Active.res"
 {
-	"BuildingIcon"
+	"ItemNameLabel"
 	{
-		"icon"										"obj_status_tele_entrance"
+		"labelText"									"#TF_Object_Tele_Entrance_360"
+	}
+	"BuildingImage"
+	{
+		"labelText"									"x"
 	}
 	"NumberLabel"
 	{

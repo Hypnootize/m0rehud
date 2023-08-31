@@ -1,4 +1,4 @@
-"Resource/UI/WinPanel.res"
+"Resource/UI/winpanel.res"
 {
 	"TeamScoresPanel"
 	{
@@ -16,7 +16,7 @@
 		//==============================================================================================================================================
 		"TopBarAnchor"
 		{
-			"ControlName"							"EditablePanel"
+			"ControlName"							"Panel"
 			"fieldname"								"TopBarAnchor"
 			"xpos"									"cs-0.5"
 			"ypos"									"0"
@@ -30,7 +30,7 @@
 		//==============================================================================================================================================
 		"WhiteBG"
 		{
-			"ControlName"							"EditablePanel"
+			"ControlName"							"Panel"
 			"fieldname"								"WhiteBG"
 			"xpos"									"0"
 			"ypos"									"0"
@@ -274,7 +274,7 @@
 		"proportionaltoparent"						"1"
 		"PaintBackground"							"1"
 		"PaintBackgroundType"						"0"
-		"bgcolor_override"							"0 0 0 100"
+		"bgcolor_override"							"TransparentLightBlack"
 	}
 	//==================================================================================================================================================
 	"WinningTeamLabel"

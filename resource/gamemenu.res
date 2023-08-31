@@ -5,8 +5,8 @@
 	//====================================================================================================================================================
 	"Version"
 	{
-		"label"										"m0rehud 6.5"
-		"command"									"engine showconsole; echo m0rehud by Hypnotize comfig.app/huds/page/m0rehud all credits to m0re"
+		"label"										"m0rehud 7.0"
+		"command"									"engine showconsole; echo m0rehud by Hypnotize github.com/Hypnootize/m0rehud all credits to m0re"
 		"OnlyAtMenu"								"1"
 	}
 	"Servers"
@@ -22,7 +22,7 @@
 	"Items"
 	{
 		"label"										"Items"
-		"command"									"engine open_charinfo"
+		"command"									"engine open_charinfo; inv_opened"
 	}
 	"Store"
 	{
@@ -39,25 +39,32 @@
 		"label"										"Advanced"
 		"command"									"opentf2options"
 	}
+	"HUDOptions"
+	{
+		"label"										"HUD Options"
+		"command"									"engine cl_mainmenu_safemode 1; mat_queue_mode 0"
+	}
+	"Friends"
+	{
+		"label"										"k"
+		"command"									"motd_show"
+		"tooltip"									"Friends List"
+	}
+	"Workshop"
+	{
+		"label"										"Workshop"
+		"command"									"engine OpenSteamWorkshopDialog"
+		"OnlyAtMenu"								"1"
+	}
 	"DemoUI"
 	{
 		"label"										"DemoUI"
 		"command"									"engine demoui"
 	}
-	"Friends"
-	{
-		"label"										"Friends"
-		"command"									"engine cl_mainmenu_safemode 1"
-	}
 	"Contracker"
 	{
 		"label"										"Contracker"
 		"command"									"questlog"
-	}
-	"Streams"
-	{
-		"label"										"Streams"
-		"command"									"watch_stream"
 	}
 	"Quit"
 	{
@@ -69,9 +76,9 @@
 	//====================================================================================================================================================
 	// IN GAME BUTTONS
 	//====================================================================================================================================================
-	"Scoreboard"
+	"Minmode"
 	{
-		"label"										"Scoreboard"
+		"label"										"Minmode"
 		"command"									"engine toggle cl_hud_minmode"
 		"OnlyInGame"								"1"
 	}
@@ -152,20 +159,6 @@
 		"label"										"G"
 		"command"									"engine toggle tf_contract_progress_show 0 1"
 		"tooltip"									"Enable/Disable Contracts"
-		"OnlyInGame"								"1"
-	}
-	"Enable Captions"
-	{
-		"label"										"E"
-		"command"									"engine closecaption 1;cc_subtitles 0;cc_lang english;cc_predisplay_time 0;cc_emit #subtitles0"
-		"tooltip"									"Enable CloseCaptions"
-		"OnlyInGame"								"1"
-	}
-	"Disable Captions"
-	{
-		"label"										"E"
-		"command"									"engine closecaption 0; cc_predisplay_time 0"
-		"tooltip"									"Disable CloseCaptions"
 		"OnlyInGame"								"1"
 	}
 	"Toggle Chat"

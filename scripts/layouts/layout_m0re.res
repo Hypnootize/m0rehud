@@ -1,5 +1,19 @@
 "Scripts/Layouts/Layout_m0re.res"
 {
+	"FlatScreen"
+	{
+		"ControlName"								"Panel"
+		"fieldName"									"FlatScreen"
+		"xpos"										"cs-0.5"
+		"ypos"										"cs-0.5"
+		"zpos"										"-90"
+		"wide"										"f0"
+		"tall"										"f0"
+		"visible"									"0"
+		"enabled"									"1"
+		"paintbackground"							"1"
+		"bgcolor_override"							"120 120 120 255"
+	}
 	"HudWeaponAmmo"
 	{
 		"xpos"										"0"
@@ -45,7 +59,7 @@
 	"CHudAccountPanel"
 	{
 		"xpos"										"c-100"
-		"ypos"										"c53"
+		"ypos"										"c50"
 		"ypos_minmode"								"c53"
 		"wide"										"200"
 		"tall"										"50"
@@ -87,26 +101,29 @@
 	"CMainTargetID"
 	{
 		"ypos"										"c85"
+		"ypos_minmode"								"c30"
 		"tall"										"32"
 		"tall_minmode"								"32"
 	}
 	"CSpectatorTargetID"
 	{
 		"ypos"										"c110"
+		"ypos_minmode"								"c110"
 		"tall"										"32"
 		"tall_minmode"								"32"
 	}
 	"CSecondaryTargetID"
 	{
 		"ypos"										"c122"
+		"ypos_minmode"								"c85"
 		"tall"										"32"
 		"tall_minmode"								"32"
 	}
 	"BuildingAnchor"
 	{
-		"ControlName"								"EditablePanel"
+		"ControlName"								"Panel"
 		"fieldName"									"BuildingAnchor"
-		"xpos"										"-10"
+		"xpos"										"-9"
 		"ypos"										"135"
 		"zpos"										"0"
 		"wide"										"1"
@@ -148,17 +165,18 @@
 
 		"TextFont"									"m0refont11"
 
-		"TeamBlue"									"m0reBlue"
-		"TeamRed"									"m0reRed"
+		"TeamBlue"									"HUDBlueTeamSolid"
+		"TeamRed"									"HUDRedTeamSolid"
 		"IconColor"									"White"
 		"LocalPlayerColor"							"HUDBlack"
 
-		"BaseBackgroundColor"						"0 0 0 100"
+		"BaseBackgroundColor"						"TransparentLightBlack"
 		"LocalBackgroundColor"						"240 240 240 200"
 	}
 	"HudCloseCaption"
 	{
 		"xpos"										"c-215"
+		"xpos_minmode"								"c-35"
 		"ypos"										"r95"
 		"wide"										"150"
 		"tall"										"50"
@@ -299,10 +317,10 @@
 	}
 	"ItemQuickSwitchPanel"
 	{
-		"xpos"										"c-123"
+		"xpos"										"cs-0.5"
 		"ypos"										"320"
-		"wide"										"246"
-		"tall"										"121"
+		"wide"										"230"
+		"tall"										"120"
 	}
 
 
@@ -314,6 +332,7 @@
 	"HudBowCharge"
 	{
 		"wide"										"0"
+		"wide_minmode"								"0"
 	}
 	"StatPanel"
 	{

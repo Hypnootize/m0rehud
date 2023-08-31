@@ -1,77 +1,108 @@
 //===========================================================================================================================
-
+// HEALTH BUFF ANIMATION START
+//===========================================================================================================================
 event HudHealthBonusPulse
 {
 	Animate	PlayerStatusHealthBonusImage			Alpha		"255"								Linear	0.0		0.2
 	Animate	PlayerStatusHealthBonusImage			Alpha		"0"									Linear	0.2		0.4
 
+	// NORMAL HEALTH --------------------------------------------------------------------------------------------------------
 	Animate	PlayerStatusHealthBonusBG				Alpha		"255"								Linear	0.0		0.0
+	Animate HealthValue								FgColor		"Health Buff"						Linear	0.0		0.0
+	Animate HealthValue_Shadow						FgColor		"Health Shadow Buff"				Linear	0.0		0.0
+	Animate HealthValue_Shadow_Extra				Alpha		"255"								Linear	0.0		0.0
 
-	Animate PlayerStatusHealthValueShadow			FgColor		"Health Buff"						Linear	0.0		0.0
-	Animate PlayerStatusHealthValueShadowExtra		Alpha		"255"								Linear	0.0		0.0
+	// TARGET HEALTH --------------------------------------------------------------------------------------------------------
+	Animate HealthValue_Target						FgColor		"Health Buff Target"				Linear	0.0		0.0
 
-	Animate PlayerStatusHealthValueTarget			FgColor		"Health Buff Target"				Linear	0.0		0.0
+	// SPECTATOR HEALTH -----------------------------------------------------------------------------------------------------
+	Animate HealthValue_Spec_Blue					FgColor		"Health Buff Spec"					Linear	0.0		0.0
+	Animate HealthValue_Spec_Red					FgColor		"Health Buff Spec"					Linear	0.0		0.0
 
-	Animate PlayerStatusHealthValueSpecgui			FgColor		"Health Buff Spec"					Linear	0.0		0.0
-
-	Animate PlayerStatusHealthValueShadowKiller		FgColor		"Health Buff Killer"				Linear	0.0		0.0
+	// KILLER HEALTH --------------------------------------------------------------------------------------------------------
+	Animate HealthValue_Killer_Shadow				FgColor		"Health Buff Killer"				Linear	0.0		0.0
+	Animate HealthValue_Killer_Shadow_Extra			Alpha		"255"								Linear	0.0		0.0
 
 	RunEvent HudHealthBonusPulseLoop				0.4
 }
 
+//===========================================================================================================================
+// HEALTH BUFF ANIMATION STOP
+//===========================================================================================================================
 event HudHealthBonusPulseStop
 {
 	StopEvent HudHealthBonusPulse					0.0
 	StopEvent HudHealthBonusPulseLoop				0.0
 
+	// NORMAL HEALTH --------------------------------------------------------------------------------------------------------
 	Animate	PlayerStatusHealthBonusBG				Alpha		"0"									Linear	0.0		0.0
+	Animate HealthValue								FgColor		"Health Numbers"					Linear	0.0		0.0
+	Animate HealthValue_Shadow						FgColor		"Health Shadow"						Linear	0.0		0.0
+	Animate HealthValue_Shadow_Extra				Alpha		"0"									Linear	0.0		0.0
 
-	Animate PlayerStatusHealthValueShadow			FgColor		"Black"								Linear	0.0		0.0
-	Animate PlayerStatusHealthValueShadowExtra		Alpha		"0"									Linear	0.0		0.0
+	// TARGET HEALTH --------------------------------------------------------------------------------------------------------
+	Animate HealthValue_Target						FgColor		"Health Numbers"					Linear	0.0		0.0
 
-	Animate PlayerStatusHealthValueTarget			FgColor		"Health Numbers"					Linear	0.0		0.0
+	// SPECTATOR HEALTH -----------------------------------------------------------------------------------------------------
+	Animate HealthValue_Spec_Blue					FgColor		"Health Numbers"					Linear	0.0		0.0
+	Animate HealthValue_Spec_Red					FgColor		"Health Numbers"					Linear	0.0		0.0
 
-	Animate PlayerStatusHealthvalueSpecgui			FgColor		"Health Numbers"					Linear	0.0		0.0
-
-	Animate PlayerStatusHealthValueShadowKiller		FgColor		"Black"								Linear	0.0		0.0
+	// KILLER HEALTH --------------------------------------------------------------------------------------------------------
+	Animate HealthValue_Killer_Shadow				FgColor		"Black"								Linear	0.0		0.0
+	Animate HealthValue_Killer_Shadow_Extra			Alpha		"0"									Linear	0.0		0.0
 }
 
 //===========================================================================================================================
-
+// LOW HEALTH ANIMATION START
+//===========================================================================================================================
 event HudHealthDyingPulse
 {
 	Animate	PlayerStatusHealthBonusImage			Alpha		"255"								Linear	0.0		0.075
 	Animate	PlayerStatusHealthBonusImage			Alpha		"0"									Linear	0.125	0.075
 
+	// NORMAL HEALTH --------------------------------------------------------------------------------------------------------
 	Animate	PlayerStatusHealthDyingBG				Alpha		"255"								Linear	0.0		0.0
+	Animate HealthValue								FgColor		"Health Hurt"						Linear	0.0		0.0
+	Animate HealthValue_Shadow						FgColor		"Health Shadow Hurt"				Linear	0.0		0.0
+	Animate HealthValue_Shadow_Extra				Alpha		"255"								Linear	0.0		0.0
 
-	Animate PlayerStatusHealthValueShadow			FgColor		"Health Hurt"						Linear	0.0		0.0
-	Animate PlayerStatusHealthValueShadowExtra		Alpha		"255"								Linear	0.0		0.0
+	// TARGET HEALTH --------------------------------------------------------------------------------------------------------
+	Animate HealthValue_Target						FgColor		"Health Hurt Target"				Linear	0.0		0.0
 
-	Animate PlayerStatusHealthValueTarget			FgColor		"Health Hurt Target"				Linear	0.0		0.0
+	// SPECTATOR HEALTH -----------------------------------------------------------------------------------------------------
+	Animate HealthValue_Spec_Blue					FgColor		"Health Hurt Spec"					Linear	0.0		0.0
+	Animate HealthValue_Spec_Red					FgColor		"Health Hurt Spec"					Linear	0.0		0.0
 
-	Animate PlayerStatusHealthvalueSpecgui			FgColor		"Health Hurt Spec"					Linear	0.0		0.0
-
-	Animate PlayerStatusHealthValueShadowKiller		FgColor		"Health Hurt Killer"				Linear	0.0		0.0
+	// KILLER HEALTH --------------------------------------------------------------------------------------------------------
+	Animate HealthValue_Killer_Shadow				FgColor		"Health Hurt Killer"				Linear	0.0		0.0
+	Animate HealthValue_Killer_Shadow_Extra			Alpha		"255"								Linear	0.0		0.0
 
 	RunEvent HudHealthDyingPulseLoop				0.25
 }
 
+//===========================================================================================================================
+// LOW HEALTH ANIMATION STOP
+//===========================================================================================================================
 event HudHealthDyingPulseStop
 {
 	StopEvent HudHealthDyingPulse					0.0
 	StopEvent HudHealthDyingPulseLoop				0.0
 
+	// NORMAL HEALTH --------------------------------------------------------------------------------------------------------
 	Animate	PlayerStatusHealthDyingBG				Alpha		"0"									Linear	0.0		0.0
+	Animate HealthValue								FgColor		"Health Numbers"					Linear	0.0		0.0
+	Animate HealthValue_Shadow						FgColor		"Health Shadow"						Linear	0.0		0.0
+	Animate HealthValue_Shadow_Extra				Alpha		"0"									Linear	0.0		0.0
 
-	Animate PlayerStatusHealthValueShadow			FgColor		"Black"								Linear	0.0		0.0
-	Animate PlayerStatusHealthValueShadowExtra		Alpha		"0"									Linear	0.0		0.0
+	// TARGET HEALTH --------------------------------------------------------------------------------------------------------
+	Animate HealthValue_Target						FgColor		"Health Numbers"					Linear	0.0		0.0
 
-	Animate PlayerStatusHealthValueTarget			FgColor		"Health Numbers"					Linear	0.0		0.0
+	// SPECTATOR HEALTH -----------------------------------------------------------------------------------------------------
+	Animate HealthValue_Spec_Blue					FgColor		"Health Numbers"					Linear	0.0		0.0
+	Animate HealthValue_Spec_Red					FgColor		"Health Numbers"					Linear	0.0		0.0
 
-	Animate PlayerStatusHealthvalueSpecgui			FgColor		"Health Numbers"					Linear	0.0		0.0
-
-	Animate PlayerStatusHealthValueShadowKiller		FgColor		"Black"								Linear	0.0		0.0
+	// KILLER HEALTH --------------------------------------------------------------------------------------------------------
+	Animate HealthValue_Killer_Shadow				FgColor		"Black"								Linear	0.0		0.0
+	Animate HealthValue_Killer_Shadow_Extra			Alpha		"0"									Linear	0.0		0.0
 }
-
 //===========================================================================================================================

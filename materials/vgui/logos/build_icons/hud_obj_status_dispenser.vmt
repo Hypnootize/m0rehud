@@ -1,0 +1,9 @@
+"UnlitGeneric"
+{
+	"$baseTexture"				"vgui\logos\build_icons\hud_obj_status_dispenser"
+	"$vertexalpha"				"1"
+	"$alpha"					"1"
+	"$translucent"				"1"
+	"$vertexcolor"				"1"
+	"$no_fullbright"			"1"
+}

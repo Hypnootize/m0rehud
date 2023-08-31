@@ -1,0 +1,9 @@
+"UnlitGeneric"
+{
+	"$baseTexture"				"vgui/logos/killfeed_icons_white/d_images_v3"
+	"$vertexalpha"				"1"
+	"$alpha"					"1"
+	"$translucent"				"1"
+	"$vertexcolor"				"1"
+	"$no_fullbright"			"1"
+}

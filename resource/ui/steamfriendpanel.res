@@ -1,8 +1,8 @@
 "Resource/UI/SteamFriendPanel.res"
 {
-	"avatar"
+	"Avatar"
 	{
-		"fieldName"									"avatar"
+		"fieldName"									"Avatar"
 		"xpos"										"1"
 		"ypos"										"1"
 		"wide"										"o1"
@@ -27,7 +27,7 @@
 		"roundedcorners"							"0"
 		"paintbackground"							"1"
 
-		"defaultBgColor_override"					"0 0 0 0"
+		"defaultBgColor_override"					"Blank"
 		"armedBgColor_override"						"94 150 49 5"
 
 		"border_default"							"NoBorder"

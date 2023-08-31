@@ -60,16 +60,16 @@
 			"if_mini"
 			{
 				"xpos"								"cs-0.5-228"
-				"ypos"								"cs-0.5"
-				"wide"								"200"
-				"tall"								"200"
+				"ypos"								"cs-0.5+3"
+				"wide"								"160"
+				"tall"								"160"
 			}
 
 			"paintbackground"						"0"
 
 			"render_texture"						"0"
 
-			"model"
+			"Model"
 			{
 				"force_pos"							"1"
 				"modelname"							""
@@ -92,7 +92,7 @@
 					"default"						"1"
 				}
 			}
-			"lights"
+			"Lights"
 			{
 				"default"
 				{
@@ -494,7 +494,7 @@
 				"tall"									"p0.45"
 				"visible"								"0"
 				"proportionaltoparent"					"1"
-				"bgcolor_override"						"0 0 0 150"
+				"bgcolor_override"						"TransparentMediumBlack"
 
 				"if_mini"
 				{

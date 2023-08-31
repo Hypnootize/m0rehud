@@ -2,21 +2,17 @@
 
 "Resource/UI/Build_Menu/Base_Cant_Afford.res"
 {
+	"ItemNameLabel"
+	{
+		"visible"									"0"
+	}
 	"CantBuildReason"
 	{
 		"visible"									"1"
-		"labelText"									"#Hud_Menu_Build_Cant_Afford"
-	}
-	"BuildingIcon"
-	{
-		"visible"									"0"
+		"labelText"									"Can't Afford"
 	}
 	"CostLabel"
 	{
-		"visible"									"0"
-	}
-	"NumberLabel"
-	{
-		"visible"									"0"
+		"bgcolor_override"							"TransparentLightBlack"
 	}
 }

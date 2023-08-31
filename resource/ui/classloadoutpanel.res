@@ -1,9 +1,11 @@
+#base "reloadscheme.res"
+
 "Resource/UI/ClassLoadoutPanel.res"
 {
-	"class_loadout_panel"
+	"Class_Loadout_Panel"
 	{
 		"ControlName"								"Frame"
-		"fieldName"									"class_loadout_panel"
+		"fieldName"									"Class_Loadout_Panel"
 		"xpos"										"0"
 		"ypos"										"0"
 		"wide"										"f0"
@@ -11,9 +13,9 @@
 		"enabled"									"1"
 		"settitlebarvisible"						"0"
 		"PaintBackgroundType"						"0"
-		"bgcolor_override"							"46 43 42 255"
-		"infocus_bgcolor_override"					"46 43 42 255"
-		"outoffocus_bgcolor_override"				"46 43 42 255"
+		"bgcolor_override"							"TanDarker"
+		"infocus_bgcolor_override"					"TanDarker"
+		"outoffocus_bgcolor_override"				"TanDarker"
 
 		"item_xpos_offcenter_a"						"-310"
 		"item_xpos_offcenter_b"						"165"
@@ -30,7 +32,7 @@
 		"button_ydelta"								"80"
 		"button_override_delete_xpos"				"0"
 
-		"modelpanels_kv"
+		"ModelPanels_KV"
 		{
 			"ControlName"							"CItemModelPanel"
 			"xpos"									"c-70"
@@ -38,7 +40,7 @@
 			"wide"									"140"
 			"tall"									"70"
 			"visible"								"0"
-			"bgcolor_override"						"0 0 0 0"
+			"bgcolor_override"						"Blank"
 			"noitem_textcolor"						"117 107 94 255"
 			"PaintBackgroundType"					"2"
 			"paintborder"							"1"
@@ -56,13 +58,13 @@
 				"font"								"ItemFontAttribLarge"
 				"visible"							"0"
 			}
-			"itemmodelpanel"
+			"ItemModelPanel"
 			{
 				"use_item_rendertarget"				"0"
 				"allow_rot"							"0"
 			}
 		}
-		"itemoptionpanels_kv"
+		"ItemOptionPanels_KV"
 		{
 			"ControlName"							"CExButton"
 			"xpos"									"0"
@@ -79,88 +81,10 @@
 			"sound_released"						"UI/buttonclickrelease.wav"
 		}
 	}
-
-	"CaratLabel"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"CaratLabel"
-		"font"										"HudFontSmallestBold"
-		"labelText"									">>"
-		"textAlignment"								"west"
-		"xpos"										"c-300"
-		"ypos"										"20"
-		"zpos"										"1"
-		"wide"										"20"
-		"tall"										"15"
-		"visible"									"1"
-		"enabled"									"1"
-		"fgcolor"									"200 80 60 255"
-	}
-	"ClassLabel"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"ClassLabel"
-		"font"										"HudFontMediumBold"
-		"labelText"									"#ClassBeingEquipped"
-		"textAlignment"								"west"
-		"xpos"										"c-280"
-		"ypos"										"15"
-		"zpos"										"1"
-		"wide"										"240"
-		"tall"										"25"
-		"visible"									"1"
-		"enabled"									"1"
-	}
-	"TauntCaratLabel"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"TauntCaratLabel"
-		"font"										"HudFontSmallestBold"
-		"labelText"									">>"
-		"textAlignment"								"west"
-		"xpos"										"c-150"
-		"ypos"										"20"
-		"zpos"										"1"
-		"wide"										"20"
-		"tall"										"15"
-		"visible"									"1"
-		"enabled"									"1"
-		"fgcolor"									"200 80 60 255"
-	}
-	"TauntLabel"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"TauntLabel"
-		"font"										"HudFontMediumBold"
-		"labelText"									"#TF_Taunt"
-		"textAlignment"								"west"
-		"xpos"										"c-130"
-		"ypos"										"15"
-		"zpos"										"1"
-		"wide"										"240"
-		"tall"										"25"
-		"visible"									"1"
-		"enabled"									"1"
-	}
-	"TopLine"
-	{
-		"ControlName"								"ImagePanel"
-		"fieldName"									"TopLine"
-		"xpos"										"c-305"
-		"ypos"										"40"
-		"zpos"										"2"
-		"wide"										"610"
-		"tall"										"10"
-		"visible"									"1"
-		"enabled"									"1"
-		"image"										"loadout_dotted_line"
-		"tileImage"									"1"
-		"tileVertically"							"0"
-	}
-	"classmodelpanel"
+	"ClassModelPanel"
 	{
 		"ControlName"								"CTFPlayerModelPanel"
-		"fieldName"									"classmodelpanel"
+		"fieldName"									"ClassModelPanel"
 
 		"xpos"										"c-135"
 		"ypos"										"20"
@@ -174,7 +98,7 @@
 		"fov"										"30"
 		"allow_manip"								"1"
 
-		"model"
+		"Model"
 		{
 			"force_pos"								"1"
 
@@ -192,17 +116,17 @@
 			"modelname"								""
 		}
 	}
-	"mouseoveritempanel"
+	"MouseOverItemPanel"
 	{
 		"ControlName"								"CItemModelPanel"
-		"fieldName"									"mouseoveritempanel"
+		"fieldName"									"MouseOverItemPanel"
 		"xpos"										"c-70"
 		"ypos"										"270"
 		"zpos"										"100"
 		"wide"										"300"
 		"tall"										"300"
 		"visible"									"0"
-		"bgcolor_override"							"0 0 0 0"
+		"bgcolor_override"							"Blank"
 		"noitem_textcolor"							"117 107 94 255"
 		"PaintBackgroundType"						"2"
 		"paintborder"								"1"
@@ -246,10 +170,10 @@
 		"fgcolor"									"255 215 0 255"
 		"centerwrap"								"1"
 	}
-	"loadout_preset_panel"
+	"Loadout_Preset_Panel"
 	{
 		"ControlName"								"CLoadoutPresetPanel"
-		"FieldName"									"loadout_preset_panel"
+		"FieldName"									"Loadout_Preset_Panel"
 		"zpos"										"20"
 		"wide"										"150"
 		"tall"										"25"
@@ -294,7 +218,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"wrap"									"1"
-			"fgcolor"								"46 43 42 255"
+			"fgcolor"								"TanDarker"
 		}
 		"TextLabel"
 		{
@@ -310,7 +234,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"wrap"									"1"
-			"fgcolor"								"46 43 42 255"
+			"fgcolor"								"TanDarker"
 		}
 		"CloseButton"
 		{
@@ -332,9 +256,9 @@
 
 			"paintbackground"						"0"
 
-			"defaultFgColor_override"				"46 43 42 255"
+			"defaultFgColor_override"				"TanDarker"
 			"armedFgColor_override"					"235 226 202 255"
-			"depressedFgColor_override"				"46 43 42 255"
+			"depressedFgColor_override"				"TanDarker"
 
 			"image_drawcolor"						"117 107 94 255"
 			"image_armedcolor"						"200 80 60 255"
@@ -367,28 +291,12 @@
 		"bgcolor_override"							"69 64 63 255"
 		"PaintBackgroundType"						"2"
 	}
-	"TauntHintLabel"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"TauntHintLabel"
-		"font"										"ItemFontAttribLarge"
-		"xpos"										"c90"
-		"ypos"										"20"
-		"zpos"										"1"
-		"wide"										"250"
-		"tall"										"25"
-		"visible"									"1"
-		"enabled"									"1"
-		"labelText"									"#TF_ClassLoadoutTauntInputHint"
-		"textAlignment"								"east"
-		"centerwrap"								"1"
-	}
 	"CharacterLoadoutButton"
 	{
 		"ControlName"								"CExButton"
 		"fieldName"									"CharacterLoadoutButton"
-		"xpos"										"c-25"
-		"ypos"										"c90"
+		"xpos"										"c-28"
+		"ypos"										"32"
 		"zpos"										"2"
 		"wide"										"25"
 		"tall"										"25"
@@ -409,8 +317,8 @@
 	{
 		"ControlName"								"CExButton"
 		"fieldName"									"TauntLoadoutButton"
-		"xpos"										"c2"
-		"ypos"										"c90"
+		"xpos"										"c0"
+		"ypos"										"32"
 		"zpos"										"2"
 		"wide"										"25"
 		"tall"										"25"
@@ -431,11 +339,11 @@
 	{
 		"ControlName"								"CExImageButton"
 		"fieldName"									"BlueButton"
-		"xpos"										"c-25"
-		"ypos"										"r124"
+		"xpos"										"c-39"
+		"ypos"										"32"
 		"zpos"										"20"
-		"wide"										"25"
-		"tall"										"8"
+		"wide"										"8"
+		"tall"										"25"
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									""
@@ -448,19 +356,19 @@
 
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"2"
-		"defaultBgColor_override"					"90 122 143 255"
-		"armedBgColor_override"						"90 122 143 255"
-		"depressedBgColor_override"					"90 122 143 255"
+		"defaultBgColor_override"					"HUDBlueTeam"
+		"armedBgColor_override"						"60 80 100 255"
+		"depressedBgColor_override"					"HUDBlueTeam"
 	}
 	"RedButton"
 	{
 		"ControlName"								"CExImageButton"
 		"fieldName"									"RedButton"
-		"xpos"										"c2"
-		"ypos"										"r124"
+		"xpos"										"c28"
+		"ypos"										"32"
 		"zpos"										"20"
-		"wide"										"25"
-		"tall"										"8"
+		"wide"										"8"
+		"tall"										"25"
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									""
@@ -473,9 +381,9 @@
 
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"2"
-		"defaultBgColor_override"					"189 59 61 255"
-		"armedBgColor_override"						"189 59 61 255"
-		"depressedBgColor_override"					"189 59 61 255"
+		"defaultBgColor_override"					"HUDRedTeam"
+		"armedBgColor_override"						"125 50 50 255"
+		"depressedBgColor_override"					"HUDRedTeam"
 	}
 	"TauntsExplanation"
 	{
@@ -514,7 +422,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"wrap"									"1"
-			"fgcolor"								"46 43 42 255"
+			"fgcolor"								"TanDarker"
 		}
 		"TextLabel"
 		{
@@ -530,7 +438,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"wrap"									"1"
-			"fgcolor"								"46 43 42 255"
+			"fgcolor"								"TanDarker"
 		}
 		"CloseButton"
 		{
@@ -552,9 +460,9 @@
 
 			"paintbackground"						"0"
 
-			"defaultFgColor_override"				"46 43 42 255"
+			"defaultFgColor_override"				"TanDarker"
 			"armedFgColor_override"					"235 226 202 255"
-			"depressedFgColor_override"				"46 43 42 255"
+			"depressedFgColor_override"				"TanDarker"
 
 			"image_drawcolor"						"117 107 94 255"
 			"image_armedcolor"						"200 80 60 255"

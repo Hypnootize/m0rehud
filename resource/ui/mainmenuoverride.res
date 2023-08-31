@@ -1,3 +1,7 @@
+#base "customizations/#customization_menu/hud_resolution_menu_read.res"
+#base "customizations/#customization_menu/hud_resolution_menu.res"
+#base "customizations/#customization_menu/hud_customization.res"
+
 "Resource/UI/MainMenuOverride.res"
 {
 	"MainMenuOverride"
@@ -18,7 +22,7 @@
 		"button_y"									"190"
 		"button_y_delta"							"3"
 
-		"button_kv"
+		"Button_KV"
 		{
 			"xpos"									"0"
 			"ypos"									"190"
@@ -97,7 +101,7 @@
 	//==================================================================================================================================================
 	"MainMenuAnchor"
 	{
-		"ControlName"								"EditablePanel"
+		"ControlName"								"Panel"
 		"fieldname"									"MainMenuAnchor"
 		"xpos"										"c-241"
 		"ypos"										"220"
@@ -166,7 +170,7 @@
 		"AllCaps"									"1"
 
 		"font"										"Coolvetica15"
-		"fgcolor"									"255 100 100 255"
+		"fgcolor"									"Red"
 		"labelText"									"No Connection To Steam"
 		"textAlignment"								"west"
 
@@ -186,6 +190,7 @@
 		"image"										"gc_dc"
 		"scaleImage"								"1"
 		"proportionaltoparent"						"1"
+		"drawcolor"									"Red"
 
 		"pin_to_sibling"							"NoGCMessage"
 		"pin_corner_to_sibling"						"PIN_BOTTOMLEFT"
@@ -492,10 +497,10 @@
 			"depressedFgColor_override"				"Menu Labels"
 		}
 	}
-	"DemoUI"
+	"HUDOptions"
 	{
 		"ControlName"								"EditablePanel"
-		"fieldname"									"DemoUI"
+		"fieldname"									"HUDOptions"
 		"xpos"										"0"
 		"ypos"										"3"
 		"zpos"										"15"
@@ -531,17 +536,56 @@
 			"depressedFgColor_override"				"Menu Labels"
 		}
 	}
-	"Friends"
+	"Workshop"
 	{
 		"ControlName"								"EditablePanel"
-		"fieldname"									"Friends"
+		"fieldname"									"Workshop"
 		"xpos"										"0"
 		"ypos"										"3"
 		"zpos"										"15"
 		"wide"										"150"
 		"tall"										"14"
 
-		"pin_to_sibling"							"DemoUI"
+		"pin_to_sibling"							"HUDOptions"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
+
+		"SubButton"
+		{
+			"ControlName"							"CExImageButton"
+			"fieldName"								"SubButton"
+			"xpos"									"0"
+			"ypos"									"0"
+			"wide"									"f0"
+			"tall"									"f0"
+			"visible"								"1"
+			"enabled"								"1"
+			"proportionaltoparent"					"1"
+			"font"									"Coolvetica15"
+			"AllCaps"								"1"
+			"textAlignment"							"west"
+			"sound_depressed"						"UI/buttonclick.wav"
+			"sound_released"						"UI/buttonclickrelease.wav"
+
+			"paintbackground"						"0"
+			"paintborder"							"0"
+
+			"defaultFgColor_override"				"White"
+			"armedFgColor_override"					"Menu Labels"
+			"depressedFgColor_override"				"Menu Labels"
+		}
+	}
+	"DemoUI"
+	{
+		"ControlName"								"EditablePanel"
+		"fieldname"									"DemoUI"
+		"xpos"										"0"
+		"ypos"										"3"
+		"zpos"										"15"
+		"wide"										"150"
+		"tall"										"14"
+
+		"pin_to_sibling"							"Workshop"
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
 		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
 
@@ -580,46 +624,7 @@
 		"wide"										"150"
 		"tall"										"14"
 
-		"pin_to_sibling"							"Friends"
-		"pin_corner_to_sibling"						"PIN_TOPLEFT"
-		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
-
-		"SubButton"
-		{
-			"ControlName"							"CExImageButton"
-			"fieldName"								"SubButton"
-			"xpos"									"0"
-			"ypos"									"0"
-			"wide"									"f0"
-			"tall"									"f0"
-			"visible"								"1"
-			"enabled"								"1"
-			"proportionaltoparent"					"1"
-			"font"									"Coolvetica15"
-			"AllCaps"								"1"
-			"textAlignment"							"west"
-			"sound_depressed"						"UI/buttonclick.wav"
-			"sound_released"						"UI/buttonclickrelease.wav"
-
-			"paintbackground"						"0"
-			"paintborder"							"0"
-
-			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"Menu Labels"
-			"depressedFgColor_override"				"Menu Labels"
-		}
-	}
-	"Streams"
-	{
-		"ControlName"								"EditablePanel"
-		"fieldname"									"Streams"
-		"xpos"										"0"
-		"ypos"										"3"
-		"zpos"										"15"
-		"wide"										"150"
-		"tall"										"14"
-
-		"pin_to_sibling"							"Contracker"
+		"pin_to_sibling"							"DemoUI"
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
 		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
 
@@ -658,7 +663,7 @@
 		"wide"										"150"
 		"tall"										"14"
 
-		"pin_to_sibling"							"Streams"
+		"pin_to_sibling"							"Contracker"
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
 		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
 
@@ -691,10 +696,10 @@
 	//==================================================================================================================================================
 	// INGAME BUTTONS
 	//==================================================================================================================================================
-	"Scoreboard"
+	"Minmode"
 	{
 		"ControlName"								"EditablePanel"
-		"fieldname"									"Scoreboard"
+		"fieldname"									"Minmode"
 		"xpos"										"0"
 		"ypos"										"3"
 		"zpos"										"15"
@@ -702,7 +707,7 @@
 		"tall"										"14"
 		"visible"									"0"
 
-		"pin_to_sibling"							"Streams"
+		"pin_to_sibling"							"HUDOptions"
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
 		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
 
@@ -742,7 +747,7 @@
 		"tall"										"14"
 		"visible"									"0"
 
-		"pin_to_sibling"							"Scoreboard"
+		"pin_to_sibling"							"Contracker"
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
 		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
 
@@ -1035,7 +1040,7 @@
 	//==================================================================================================================================================
 	"ToolsAnchor"
 	{
-		"ControlName"								"EditablePanel"
+		"ControlName"								"Panel"
 		"fieldname"									"ToolsAnchor"
 		"xpos"										"cs-0.5"
 		"ypos"										"rs1"
@@ -1131,7 +1136,7 @@
 		"wide"										"20"
 		"tall"										"20"
 
-		"pin_to_sibling"							"Toggle Netgraph"
+		"pin_to_sibling"							"ToolsAnchor"
 		"pin_corner_to_sibling"						"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 
@@ -1170,8 +1175,8 @@
 		"tall"										"20"
 
 		"pin_to_sibling"							"ToolsAnchor"
-		"pin_corner_to_sibling"						"PIN_TOPRIGHT"
-		"pin_to_sibling_corner"						"PIN_TOPLEFT"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 
 		"SubButton"
 		{
@@ -1207,7 +1212,7 @@
 		"wide"										"20"
 		"tall"										"20"
 
-		"pin_to_sibling"							"ToolsAnchor"
+		"pin_to_sibling"							"Toggle Netgraph"
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
 		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 
@@ -1235,10 +1240,10 @@
 			"depressedFgColor_override"				"Menu Labels"
 		}
 	}
-	"Enable Captions"
+	"Toggle Chat"
 	{
 		"ControlName"								"EditablePanel"
-		"fieldname"									"Enable Captions"
+		"fieldname"									"Toggle Chat"
 		"xpos"										"0"
 		"ypos"										"0"
 		"zpos"										"16"
@@ -1273,90 +1278,54 @@
 			"depressedFgColor_override"				"Menu Labels"
 		}
 	}
-	"Disable Captions"
-	{
-		"ControlName"								"EditablePanel"
-		"fieldname"									"Disable Captions"
-		"xpos"										"0"
-		"ypos"										"0"
-		"zpos"										"16"
-		"wide"										"20"
-		"tall"										"20"
-
-		"pin_to_sibling"							"Enable Captions"
-		"pin_corner_to_sibling"						"PIN_TOPLEFT"
-		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
-
-		"SubButton"
-		{
-			"ControlName"							"CExImageButton"
-			"fieldName"								"SubButton"
-			"xpos"									"0"
-			"ypos"									"0"
-			"wide"									"f0"
-			"tall"									"f0"
-			"visible"								"1"
-			"enabled"								"1"
-			"proportionaltoparent"					"1"
-			"font"									"Symbols18"
-			"textAlignment"							"center"
-			"sound_depressed"						"UI/buttonclick.wav"
-			"sound_released"						"UI/buttonclickrelease.wav"
-
-			"paintbackground"						"0"
-			"paintborder"							"0"
-
-			"defaultFgColor_override"				"255 100 100 255"
-			"armedFgColor_override"					"Menu Labels"
-			"depressedFgColor_override"				"Menu Labels"
-		}
-	}
-	"Toggle Chat"
-	{
-		"ControlName"								"EditablePanel"
-		"fieldname"									"Toggle Chat"
-		"xpos"										"0"
-		"ypos"										"0"
-		"zpos"										"16"
-		"wide"										"20"
-		"tall"										"20"
-
-		"pin_to_sibling"							"Disable Captions"
-		"pin_corner_to_sibling"						"PIN_TOPLEFT"
-		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
-
-		"SubButton"
-		{
-			"ControlName"							"CExImageButton"
-			"fieldName"								"SubButton"
-			"xpos"									"0"
-			"ypos"									"0"
-			"wide"									"f0"
-			"tall"									"f0"
-			"visible"								"1"
-			"enabled"								"1"
-			"proportionaltoparent"					"1"
-			"font"									"Symbols18"
-			"textAlignment"							"center"
-			"sound_depressed"						"UI/buttonclick.wav"
-			"sound_released"						"UI/buttonclickrelease.wav"
-
-			"paintbackground"						"0"
-			"paintborder"							"0"
-
-			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"Menu Labels"
-			"depressedFgColor_override"				"Menu Labels"
-		}
-	}
 
 	//==================================================================================================================================================
 	// FRIENDS LIST
 	//==================================================================================================================================================
-	"SafeMode"
+	"Friends"
 	{
 		"ControlName"								"EditablePanel"
-		"fieldName"									"SafeMode"
+		"fieldname"									"Friends"
+		"xpos"										"137"
+		"ypos"										"0"
+		"zpos"										"10005"
+		"wide"										"22"
+		"tall"										"19"
+
+		"SubButton"
+		{
+			"ControlName"							"CExImageButton"
+			"fieldName"								"SubButton"
+			"xpos"									"0"
+			"ypos"									"0"
+			"wide"									"f0"
+			"tall"									"f0"
+			"visible"								"1"
+			"enabled"								"1"
+			"proportionaltoparent"					"1"
+			"font"									"Symbols20"
+			"AllCaps"								"0"
+			"textAlignment"							"center"
+			"sound_depressed"						"UI/buttonclick.wav"
+			"sound_released"						"UI/buttonclickrelease.wav"
+
+			"paintbackground"						"1"
+			"paintborder"							"0"
+			"roundedcorners"						"0"
+
+			"defaultFgColor_override"				"White"
+			"armedFgColor_override"					"White"
+			"depressedFgColor_override"				"White"
+
+			"defaultBgColor_override"				"TransparentBlack"
+			"armedBgColor_override"					"Menu Labels"
+			"depressedBgColor_override"				"Menu Labels"
+		}
+	}
+	"MOTD_Panel"
+	{
+		"ControlName"								"EditablePanel"
+		"fieldName"									"MOTD_Panel"
 		"xpos"										"rs1"
 		"ypos"										"cs-0.5+65"
 		"zpos"										"11"
@@ -1380,16 +1349,16 @@
 			"textAlignment"							"center"
 			"labeltext"								"X"
 			"AllCaps"								"1"
-			"Command"								"engine cl_mainmenu_safemode 0"
+			"Command"								"motd_hide"
 			"actionsignallevel"						"2"
 			"sound_depressed"						"UI/buttonclick.wav"
 
 			"paintbackground"						"1"
 			"RoundedCorners"						"0"
 
-			"defaultBgColor_override"				"0 0 0 100"
-			"armedBgColor_override"					"0 0 0 100"
-			"depressedBgColor_override"				"0 0 0 100"
+			"defaultBgColor_override"				"TransparentLightBlack"
+			"armedBgColor_override"					"TransparentLightBlack"
+			"depressedBgColor_override"				"TransparentLightBlack"
 
 			"defaultFgColor_override"				"White"
 			"armedFgColor_override"					"Menu Labels"
@@ -1408,7 +1377,7 @@
 			"proportionaltoparent"					"1"
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"0"
-			"bgcolor_override"						"0 0 0 50"
+			"bgcolor_override"						"TransparentLightestBlack"
 
 			"TitleLabel"
 			{
@@ -1430,7 +1399,7 @@
 				"fgcolor"							"White"
 				"paintbackground"					"1"
 				"paintbackgroundtype"				"0"
-				"bgcolor_override"					"0 0 0 100"
+				"bgcolor_override"					"TransparentLightBlack"
 			}
 			"SteamFriendsList"
 			{
@@ -1455,7 +1424,7 @@
 				"column_gap"						"0"
 				"restrict_width"					"0"
 
-				"friendpanel_kv"
+				"FriendPanel_KV"
 				{
 					"wide"							"104"
 					"tall"							"20"
@@ -1521,9 +1490,9 @@
 
 			"paintbackground"						"0"
 
-			"defaultFgColor_override"				"46 43 42 255"
-			"armedFgColor_override"					"235 226 202 255"
-			"depressedFgColor_override"				"46 43 42 255"
+			"defaultFgColor_override"				"TanDarker"
+			"armedFgColor_override"					"White"
+			"depressedFgColor_override"				"TanDarker"
 
 			"image_drawcolor"						"117 107 94 255"
 			"image_armedcolor"						"200 80 60 255"
@@ -1598,7 +1567,7 @@
 		"visible"									"0"
 		"PaintBackground"							"1"
 		"PaintBackgroundType"						"0"
-		"bgcolor_override"							"0 0 0 100"
+		"bgcolor_override"							"TransparentLightBlack"
 
 		"TipSubLabel"
 		{
@@ -1637,10 +1606,10 @@
 			"fgcolor"								"White"
 		}
 	}
-	"mouseoveritempanel"
+	"MouseOverItemPanel"
 	{
 		"ControlName"								"CItemModelPanel"
-		"fieldName"									"mouseoveritempanel"
+		"fieldName"									"MouseOverItemPanel"
 		"xpos"										"c-70"
 		"ypos"										"270"
 		"zpos"										"100"
@@ -1648,7 +1617,7 @@
 		"tall"										"300"
 		"visible"									"0"
 		"paintbackground"							"1"
-		"bgcolor_override"							"0 0 0 50"
+		"bgcolor_override"							"TransparentLightestBlack"
 		"noitem_textcolor"							"White"
 		"PaintBackgroundType"						"0"
 
@@ -1675,23 +1644,10 @@
 		}
 	}
 
-
-
 	//==================================================================================================================================================
-	// REMOVED ELEMENTS
+	// PRELOADING
 	//==================================================================================================================================================
 
-	"MOTD_Panel"
-	{
-		"ControlName"								"EditablePanel"
-		"fieldName"									"MOTD_Panel"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
 	"MenuThumbMissingFix"
 	{
 		"ControlName"								"ImagePanel"

@@ -1,15 +1,29 @@
 "Resource/UI/ClassSelection.res"
 {
-	"class"
+	"Class"
 	{
 		"ControlName"								"Frame"
-		"fieldName"									"class"
+		"fieldName"									"Class"
 		"xpos"										"0"
 		"ypos"										"0"
 		"wide"										"f0"
 		"tall"										"480"
 		"visible"									"1"
 		"enabled"									"1"
+	}
+	"FullScreenBG"
+	{
+		"ControlName"								"Panel"
+		"fieldName"									"FullScreenBG"
+		"xpos"										"0"
+		"ypos"										"0"
+		"zpos"										"0"
+		"wide"										"f0"
+		"tall"										"f0"
+		"visible"									"1"
+		"enabled"									"1"
+		"paintbackground"							"1"
+		"bgcolor_override"							"TransparentMediumBlack"
 	}
 
 	//==================================================================================================================================================
@@ -18,7 +32,7 @@
 	//==================================================================================================================================================
 	"ClassesAnchor"
 	{
-		"ControlName"								"EditablePanel"
+		"ControlName"								"Panel"
 		"fieldname"									"ClassesAnchor"
 		"xpos"										"c15"
 		"ypos"										"c-65"
@@ -63,10 +77,10 @@
 	//==================================================================================================================================================
 	// SCOUT
 	//==================================================================================================================================================
-	"scout"
+	"Scout"
 	{
 		"ControlName"								"CExImageButton"
-		"fieldName"									"scout"
+		"fieldName"									"Scout"
 		"xpos"										"0"
 		"ypos"										"7"
 		"zpos"										"6"
@@ -93,10 +107,10 @@
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
 		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
 	}
-	"numScout"
+	"NumScout"
 	{
 		"ControlName"								"CExLabel"
-		"fieldName"									"numScout"
+		"fieldName"									"NumScout"
 		"xpos"										"0"
 		"ypos"										"0"
 		"wide"										"50"
@@ -135,10 +149,10 @@
 	//==================================================================================================================================================
 	// SOLDIER
 	//==================================================================================================================================================
-	"soldier"
+	"Soldier"
 	{
 		"ControlName"								"CExImageButton"
-		"fieldName"									"soldier"
+		"fieldName"									"Soldier"
 		"xpos"										"0"
 		"ypos"										"0"
 		"zpos"										"6"
@@ -165,10 +179,10 @@
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
 		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
 	}
-	"numSoldier"
+	"NumSoldier"
 	{
 		"ControlName"								"CExLabel"
-		"fieldName"									"numSoldier"
+		"fieldName"									"NumSoldier"
 		"xpos"										"0"
 		"ypos"										"0"
 		"wide"										"50"
@@ -207,10 +221,10 @@
 	//==================================================================================================================================================
 	// PYRO
 	//==================================================================================================================================================
-	"pyro"
+	"Pyro"
 	{
 		"ControlName"								"CExImageButton"
-		"fieldName"									"pyro"
+		"fieldName"									"Pyro"
 		"xpos"										"0"
 		"ypos"										"0"
 		"zpos"										"6"
@@ -237,10 +251,10 @@
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
 		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
 	}
-	"numPyro"
+	"NumPyro"
 	{
 		"ControlName"								"CExLabel"
-		"fieldName"									"numPyro"
+		"fieldName"									"NumPyro"
 		"xpos"										"0"
 		"ypos"										"0"
 		"wide"										"50"
@@ -279,10 +293,10 @@
 	//==================================================================================================================================================
 	// DEMOMAN
 	//==================================================================================================================================================
-	"demoman"
+	"Demoman"
 	{
 		"ControlName"								"CExImageButton"
-		"fieldName"									"demoman"
+		"fieldName"									"Demoman"
 		"xpos"										"0"
 		"ypos"										"0"
 		"zpos"										"6"
@@ -309,10 +323,10 @@
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
 		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
 	}
-	"numDemoman"
+	"NumDemoman"
 	{
 		"ControlName"								"CExLabel"
-		"fieldName"									"numDemoman"
+		"fieldName"									"NumDemoman"
 		"xpos"										"0"
 		"ypos"										"0"
 		"wide"										"50"
@@ -351,10 +365,10 @@
 	//==================================================================================================================================================
 	// HEAVY
 	//==================================================================================================================================================
-	"heavyweapons"
+	"HeavyWeapons"
 	{
 		"ControlName"								"CExImageButton"
-		"fieldName"									"heavyweapons"
+		"fieldName"									"HeavyWeapons"
 		"xpos"										"0"
 		"ypos"										"0"
 		"zpos"										"6"
@@ -381,10 +395,10 @@
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
 		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
 	}
-	"numHeavy"
+	"NumHeavy"
 	{
 		"ControlName"								"CExLabel"
-		"fieldName"									"numHeavy"
+		"fieldName"									"NumHeavy"
 		"xpos"										"0"
 		"ypos"										"0"
 		"wide"										"50"
@@ -423,10 +437,10 @@
 	//==================================================================================================================================================
 	// ENGINEER
 	//==================================================================================================================================================
-	"engineer"
+	"Engineer"
 	{
 		"ControlName"								"CExImageButton"
-		"fieldName"									"engineer"
+		"fieldName"									"Engineer"
 		"xpos"										"0"
 		"ypos"										"0"
 		"zpos"										"6"
@@ -453,10 +467,10 @@
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
 		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
 	}
-	"numEngineer"
+	"NumEngineer"
 	{
 		"ControlName"								"CExLabel"
-		"fieldName"									"numEngineer"
+		"fieldName"									"NumEngineer"
 		"xpos"										"0"
 		"ypos"										"0"
 		"wide"										"50"
@@ -495,10 +509,10 @@
 	//==================================================================================================================================================
 	// MEDIC
 	//==================================================================================================================================================
-	"medic"
+	"Medic"
 	{
 		"ControlName"								"CExImageButton"
-		"fieldName"									"medic"
+		"fieldName"									"Medic"
 		"xpos"										"0"
 		"ypos"										"0"
 		"zpos"										"6"
@@ -525,10 +539,10 @@
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
 		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
 	}
-	"numMedic"
+	"NumMedic"
 	{
 		"ControlName"								"CExLabel"
-		"fieldName"									"numMedic"
+		"fieldName"									"NumMedic"
 		"xpos"										"0"
 		"ypos"										"0"
 		"wide"										"50"
@@ -567,10 +581,10 @@
 	//==================================================================================================================================================
 	// SNIPER
 	//==================================================================================================================================================
-	"sniper"
+	"Sniper"
 	{
 		"ControlName"								"CExImageButton"
-		"fieldName"									"sniper"
+		"fieldName"									"Sniper"
 		"xpos"										"0"
 		"ypos"										"0"
 		"zpos"										"6"
@@ -597,10 +611,10 @@
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
 		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
 	}
-	"numSniper"
+	"NumSniper"
 	{
 		"ControlName"								"CExLabel"
-		"fieldName"									"numSniper"
+		"fieldName"									"NumSniper"
 		"xpos"										"0"
 		"ypos"										"0"
 		"wide"										"50"
@@ -639,10 +653,10 @@
 	//==================================================================================================================================================
 	// SPY
 	//==================================================================================================================================================
-	"spy"
+	"Spy"
 	{
 		"ControlName"								"CExImageButton"
-		"fieldName"									"spy"
+		"fieldName"									"Spy"
 		"xpos"										"0"
 		"ypos"										"0"
 		"zpos"										"6"
@@ -669,10 +683,10 @@
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
 		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
 	}
-	"numSpy"
+	"NumSpy"
 	{
 		"ControlName"								"CExLabel"
-		"fieldName"									"numSpy"
+		"fieldName"									"NumSpy"
 		"xpos"										"0"
 		"ypos"										"0"
 		"wide"										"50"
@@ -711,7 +725,7 @@
 	//==================================================================================================================================================
 	// RANDOM
 	//==================================================================================================================================================
-	"random"
+	"Random"
 	{
 		"xpos"										"0"
 		"ypos"										"7"
@@ -762,7 +776,7 @@
 		"paintbackground"							"0"
 		"paintbackgroundenabled"					"0"
 
-		"model"
+		"Model"
 		{
 			"force_pos"								"1"
 

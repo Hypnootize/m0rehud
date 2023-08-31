@@ -1,46 +1,7 @@
-#base "huditemeffectmeter.res"
+// ITEM METER POSITIONING SLOT
+#base "../../cfg/m0re_meter_middle.txt"
+#base "huditemeffectmeter_#middle.res"
 
-"Resource/UI/HudRocketPack.res"
-{
-	"HudItemEffectMeter"
-	{
-		"ypos"										"c185-11"
-	}
-	"ItemEffectMeter"
-	{
-		"xpos"										"0"
-		"wide"										"p0.497"
-	}
-	"ItemEffectMeter2"
-	{
-		"ControlName"								"ContinuousProgressBar"
-		"fieldName"									"ItemEffectMeter2"
-		"xpos"										"rs1"
-		"ypos"										"0"
-		"zpos"										"2"
-		"wide"										"p0.497"
-		"tall"										"2"
-		"visible"									"1"
-		"enabled"									"1"
-		"proportionaltoparent"						"1"
-		"fgcolor"									"White"
-	}
-
-
-
-	//==================================================================================================================================================
-	// REMOVED ELEMENTS
-	//==================================================================================================================================================
-
-	"ItemEffectIcon"
-	{
-		"ControlName"								"CTFImagePanel"
-		"fieldName"									"ItemEffectIcon"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-}
+// BASE CONTENT
+#base "../../cfg/m0re_meter_jetpack.txt"
+#base "hudrocketpack_base.res"

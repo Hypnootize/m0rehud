@@ -28,12 +28,13 @@
 	{
 		"ControlName"								"Button"
 		"fieldName"									"ChatFiltersButton"
-		"xpos"										"160"
+		"xpos"										"rs1-5"
 		"ypos"										"0"
 		"wide"										"30"
 		"tall"										"5"
 		"visible"									"1"
 		"enabled"									"1"
+		"proportionaltoparent"						"1"
 		"labelText"									"#chat_filterbutton"
 		"textAlignment"								"center"
 	}

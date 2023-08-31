@@ -2,7 +2,7 @@
 {
 	"StopWatchAnchor"
 	{
-		"ControlName"								"EditablePanel"
+		"ControlName"								"Panel"
 		"fieldname"									"StopWatchAnchor"
 		"xpos"										"c-150"
 		"ypos"										"0"
@@ -40,7 +40,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"TimePanelValue"
-			"font"									"m0refont16"
+			"font"									"m0refont16Shadow"
 			"fgcolor"								"White"
 			"xpos"									"0"
 			"ypos"									"0"
@@ -53,7 +53,7 @@
 
 			"if_comp"
 			{
-				"font"								"m0refont12"
+				"font"								"m0refont12Shadow"
 			}
 		}
 	}
@@ -61,7 +61,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"StopWatchScoreToBeat"
-		"font"										"m0refont16"
+		"font"										"m0refont16Shadow"
 		"fgcolor"									"White"
 		"labelText"									"%scoretobeat%"
 		"textAlignment"								"center"
@@ -79,14 +79,14 @@
 
 		"if_comp"
 		{
-			"font"									"m0refont12"
+			"font"									"m0refont12Shadow"
 		}
 	}
 	"StopWatchPointsLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"StopWatchPointsLabel"
-		"font"										"m0refont16"
+		"font"										"m0refont16Shadow"
 		"fgcolor"									"White"
 		"labelText"									"%pointslabel%"
 		"textAlignment"								"west"
@@ -104,14 +104,14 @@
 
 		"if_comp"
 		{
-			"font"									"m0refont12"
+			"font"									"m0refont12Shadow"
 		}
 	}
 	"StopWatchLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"StopWatchLabel"
-		"font"										"m0refont11"
+		"font"										"m0refont11Shadow"
 		"fgcolor"									"White"
 		"labelText"									"%stopwatchlabel%"
 		"textAlignment"								"center"
@@ -126,15 +126,10 @@
 		"centerwrap"								"1"
 
 		"pin_to_sibling"							"ObjectiveStatusTimePanel"
-
-		"if_comp"
-		{
-			"font"									"m0refont12"
-		}
 	}
 	"HudStopWatchBGWhite"
 	{
-		"ControlName"								"EditablePanel"
+		"ControlName"								"Panel"
 		"fieldName"									"HudStopWatchBGWhite"
 		"xpos"										"0"
 		"ypos"										"-2"

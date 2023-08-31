@@ -1,9 +1,9 @@
 "Resource/UI/HudArenaClassLayout.res"
 {
-	"localPlayerBG"
+	"LocalPlayerBG"
 	{
 		"ControlName"								"CTFImagePanel"
-		"fieldName"									"localPlayerBG"
+		"fieldName"									"LocalPlayerBG"
 		"xpos"										"0"
 		"ypos"										"135"
 		"zpos"										"2"
@@ -57,10 +57,10 @@
 
 		"pin_to_sibling"							"title"
 	}
-	"classImage0"
+	"ClassImage0"
 	{
 		"ControlName"								"CTFImagePanel"
-		"fieldName"									"classImage0"
+		"fieldName"									"ClassImage0"
 		"xpos"										"0"
 		"ypos"										"125"
 		"zpos"										"3"
@@ -71,10 +71,10 @@
 		"image"										""
 		"scaleImage"								"1"
 	}
-	"classImage1"
+	"ClassImage1"
 	{
 		"ControlName"								"CTFImagePanel"
-		"fieldName"									"classImage1"
+		"fieldName"									"ClassImage1"
 		"xpos"										"0"
 		"ypos"										"0"
 		"zpos"										"3"
@@ -85,10 +85,10 @@
 		"image"										""
 		"scaleImage"								"1"
 	}
-	"classImage2"
+	"ClassImage2"
 	{
 		"ControlName"								"CTFImagePanel"
-		"fieldName"									"classImage2"
+		"fieldName"									"ClassImage2"
 		"xpos"										"0"
 		"ypos"										"0"
 		"zpos"										"3"
@@ -99,10 +99,10 @@
 		"image"										""
 		"scaleImage"								"1"
 	}
-	"classImage3"
+	"ClassImage3"
 	{
 		"ControlName"								"CTFImagePanel"
-		"fieldName"									"classImage3"
+		"fieldName"									"ClassImage3"
 		"xpos"										"0"
 		"ypos"										"0"
 		"zpos"										"3"
@@ -113,10 +113,10 @@
 		"image"										""
 		"scaleImage"								"1"
 	}
-	"classImage4"
+	"ClassImage4"
 	{
 		"ControlName"								"CTFImagePanel"
-		"fieldName"									"classImage4"
+		"fieldName"									"ClassImage4"
 		"xpos"										"0"
 		"ypos"										"0"
 		"zpos"										"3"
@@ -127,10 +127,10 @@
 		"image"										""
 		"scaleImage"								"1"
 	}
-	"classImage5"
+	"ClassImage5"
 	{
 		"ControlName"								"CTFImagePanel"
-		"fieldName"									"classImage5"
+		"fieldName"									"ClassImage5"
 		"xpos"										"0"
 		"ypos"										"0"
 		"zpos"										"3"
@@ -141,10 +141,10 @@
 		"image"										""
 		"scaleImage"								"1"
 	}
-	"classImage6"
+	"ClassImage6"
 	{
 		"ControlName"								"CTFImagePanel"
-		"fieldName"									"classImage6"
+		"fieldName"									"ClassImage6"
 		"xpos"										"0"
 		"ypos"										"0"
 		"zpos"										"3"
@@ -155,10 +155,10 @@
 		"image"										""
 		"scaleImage"								"1"
 	}
-	"classImage7"
+	"ClassImage7"
 	{
 		"ControlName"								"CTFImagePanel"
-		"fieldName"									"classImage7"
+		"fieldName"									"ClassImage7"
 		"xpos"										"0"
 		"ypos"										"0"
 		"zpos"										"3"
@@ -169,10 +169,10 @@
 		"image"										""
 		"scaleImage"								"1"
 	}
-	"classImage8"
+	"ClassImage8"
 	{
 		"ControlName"								"CTFImagePanel"
-		"fieldName"									"classImage8"
+		"fieldName"									"ClassImage8"
 		"xpos"										"0"
 		"ypos"										"0"
 		"zpos"										"3"
@@ -183,10 +183,10 @@
 		"image"										""
 		"scaleImage"								"1"
 	}
-	"classImage9"
+	"ClassImage9"
 	{
 		"ControlName"								"CTFImagePanel"
-		"fieldName"									"classImage9"
+		"fieldName"									"ClassImage9"
 		"xpos"										"0"
 		"ypos"										"0"
 		"zpos"										"3"
@@ -197,10 +197,10 @@
 		"image"										""
 		"scaleImage"								"1"
 	}
-	"classImage10"
+	"ClassImage10"
 	{
 		"ControlName"								"CTFImagePanel"
-		"fieldName"									"classImage10"
+		"fieldName"									"ClassImage10"
 		"xpos"										"0"
 		"ypos"										"0"
 		"zpos"										"3"
@@ -211,10 +211,10 @@
 		"image"										""
 		"scaleImage"								"1"
 	}
-	"classImage11"
+	"ClassImage11"
 	{
 		"ControlName"								"CTFImagePanel"
-		"fieldName"									"classImage11"
+		"fieldName"									"ClassImage11"
 		"xpos"										"0"
 		"ypos"										"0"
 		"zpos"										"3"

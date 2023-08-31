@@ -1,9 +1,9 @@
 "Resource/UI/HudArenaTeamMenu.res"
 {
-	"team"
+	"Team"
 	{
 		"ControlName"								"CTeamMenu"
-		"fieldName"									"team"
+		"fieldName"									"Team"
 		"xpos"										"0"
 		"ypos"										"0"
 		"wide"										"f0"
@@ -46,7 +46,7 @@
 		"proportionaltoparent"						"1"
 		"alpha"										"0"
 	}
-
+	
 	"WhiteBar"
 	{
 		"ControlName"								"EditablePanel"

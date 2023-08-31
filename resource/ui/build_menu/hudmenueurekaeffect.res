@@ -1,75 +1,75 @@
 "Resource/UI/Build_Menu/HudMenuEurekaEffect.res"
 {
-	"ItemsAnchor"
+	"BuildingsAnchor"
 	{
-		"ControlName"								"EditablePanel"
-		"fieldName"									"ItemsAnchor"
-		"xpos"										"cs-0.5"
-		"ypos"										"r120"
+		"ControlName"								"Panel"
+		"fieldName"									"BuildingsAnchor"
+		"xpos"										"c190"
+		"xpos_minmode"								"c130"
+		"ypos"										"c120"
+		"ypos_minmode"								"c50"
 		"zpos"										"0"
-		"wide"										"72"
-		"tall"										"40"
+		"wide"										"1"
+		"tall"										"1"
 		"visible"									"1"
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 	}
-
-	"available_target_1"
+	"Available_Target_1"
 	{
 		"ControlName"								"EditablePanel"
-		"fieldName"									"available_target_1"
+		"fieldName"									"Available_Target_1"
 		"xpos"										"0"
 		"ypos"										"0"
 		"zpos"										"1"
-		"wide"										"35"
-		"tall"										"40"
+		"wide"										"105"
+		"tall"										"18"
 		"visible"									"1"
 
-		"pin_to_sibling"							"ItemsAnchor"
+		"pin_to_sibling"							"BuildingsAnchor"
+		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
+		"pin_to_sibling_corner"						"PIN_CENTER_TOP"
 	}
-
-	"available_target_2"
+	"Available_Target_2"
 	{
 		"ControlName"								"EditablePanel"
-		"fieldName"									"available_target_2"
-		"xpos"										"2"
-		"ypos"										"0"
+		"fieldName"									"Available_Target_2"
+		"xpos"										"0"
+		"ypos"										"2"
 		"zpos"										"1"
-		"wide"										"35"
-		"tall"										"40"
+		"wide"										"105"
+		"tall"										"18"
 		"visible"									"1"
 
-		"pin_to_sibling"							"available_target_1"
-		"pin_corner_to_sibling"						"PIN_TOPLEFT"
-		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
+		"pin_to_sibling"							"Available_Target_1"
+		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 					"PIN_BOTTOMLEFT"
 	}
-
-	"unavailable_target_1"
+	"Unavailable_Target_1"
 	{
 		"ControlName"								"EditablePanel"
-		"fieldName"									"unavailable_target_1"
+		"fieldName"									"Unavailable_Target_1"
 		"xpos"										"0"
 		"ypos"										"0"
 		"zpos"										"1"
-		"wide"										"35"
-		"tall"										"40"
+		"wide"										"105"
+		"tall"										"18"
 		"visible"									"1"
 
-		"pin_to_sibling"							"available_target_1"
+		"pin_to_sibling"							"Available_Target_1"
 	}
-
-	"unavailable_target_2"
+	"Unavailable_Target_2"
 	{
 		"ControlName"								"EditablePanel"
-		"fieldName"									"unavailable_target_2"
+		"fieldName"									"Unavailable_Target_2"
 		"xpos"										"0"
 		"ypos"										"0"
 		"zpos"										"1"
-		"wide"										"35"
-		"tall"										"40"
+		"wide"										"105"
+		"tall"										"18"
 		"visible"									"1"
 
-		"pin_to_sibling"							"available_target_2"
+		"pin_to_sibling"							"Available_Target_2"
 	}
 
 
@@ -113,7 +113,7 @@
 	}
 	"Divider"
 	{
-		"ControlName"								"ImagePanel"
+		"ControlName"		     					"ImagePanel"
 		"fieldName"									"Divider"
 		"xpos"										"9999"
 		"ypos"										"9999"

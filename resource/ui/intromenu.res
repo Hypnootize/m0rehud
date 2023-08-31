@@ -1,17 +1,30 @@
 "Resource/UI/IntroMenu.res"
 {
-	"intro"
+	"Intro"
 	{
 		"ControlName"								"CTFIntroMenu"
-		"fieldName"									"intro"
+		"fieldName"									"Intro"
 		"xpos"										"0"
 		"ypos"										"0"
 		"wide"										"f0"
 		"tall"										"480"
 		"visible"									"1"
 		"enabled"									"1"
+		"paintbackground"							"0"
+	}
+	"FullScreenBG"
+	{
+		"ControlName"								"Panel"
+		"fieldName"									"FullScreenBG"
+		"xpos"										"0"
+		"ypos"										"0"
+		"zpos"										"0"
+		"wide"										"f0"
+		"tall"										"f0"
+		"visible"									"1"
+		"enabled"									"1"
 		"paintbackground"							"1"
-		"bgcolor_override"							"0 0 0 200"
+		"bgcolor_override"							"TransparentMediumBlack"
 	}
 	"VideoPanel"
 	{
@@ -47,7 +60,7 @@
 		"centerwrap"								"1"
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
-		"bgcolor_override"							"0 0 0 100"
+		"bgcolor_override"							"TransparentLightBlack"
 
 		"pin_to_sibling"							"VideoPanel"
 		"pin_corner_to_sibling"						"PIN_CENTER_TOP"

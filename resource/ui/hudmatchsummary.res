@@ -84,7 +84,6 @@
 		{
 			"show_model"							"0"
 		}
-
 	}
 	"RankModelPanel"
 	{
@@ -92,7 +91,6 @@
 		"fieldName"									"RankModelPanel"
 		"xpos"										"cs-0.5"
 		"ypos"										"r1"
-
 		"zpos"										"9002"
 		"wide"										"2000"
 		"tall"										"2000"

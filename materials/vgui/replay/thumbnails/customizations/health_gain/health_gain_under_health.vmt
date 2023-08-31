@@ -1,0 +1,9 @@
+"UnlitGeneric"
+{
+	"$baseTexture"			"vgui\replay\thumbnails\customizations\health_gain\health_gain_under_health"
+	"$vertexalpha"			"1"
+	"$alpha"				"1"
+	"$translucent"			"1"
+	"$vertexcolor"			"1"
+	"$no_fullbright"		"1"
+}

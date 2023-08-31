@@ -1,0 +1,94 @@
+"sprites/640_hud"
+{
+	"TextureData"
+	{
+		"obj_status_sentrygun_1"
+		{
+			"file"			"vgui/logos/build_icons/hud_obj_status_sentry_1"
+			"x"				"0"
+			"y"				"0"
+			"width"			"128"
+			"height"		"128"
+		}
+		"obj_status_sentrygun_2"
+		{
+			"file"			"vgui/logos/build_icons/hud_obj_status_sentry_2"
+			"x"				"0"
+			"y"				"0"
+			"width"			"128"
+			"height"		"128"
+		}
+		"obj_status_sentrygun_3"
+		{
+			"file"			"vgui/logos/build_icons/hud_obj_status_sentry_3"
+			"x"				"0"
+			"y"				"0"
+			"width"			"128"
+			"height"		"128"
+		}
+		"obj_status_dispenser"
+		{
+			"file"			"vgui/logos/build_icons/hud_obj_status_dispenser"
+			"x"				"0"
+			"y"				"0"
+			"width"			"128"
+			"height"		"128"
+		}
+		"obj_status_tele_entrance"
+		{
+			"file"			"vgui/logos/build_icons/hud_obj_status_tele_entrance"
+			"x"				"0"
+			"y"				"0"
+			"width"			"128"
+			"height"		"128"
+		}
+		"obj_status_tele_exit"
+		{
+			"file"			"vgui/logos/build_icons/hud_obj_status_tele_exit"
+			"x"				"0"
+			"y"				"0"
+			"width"			"128"
+			"height"		"128"
+		}
+		"obj_status_upgrade_1"
+		{
+			"file"			"vgui/logos/build_icons/obj_status_upgrade_1"
+			"x"				"0"
+			"y"				"0"
+			"width"			"64"
+			"height"		"64"
+		}
+		"obj_status_upgrade_2"
+		{
+			"file"			"vgui/logos/build_icons/obj_status_upgrade_2"
+			"x"				"0"
+			"y"				"0"
+			"width"			"64"
+			"height"		"64"
+		}
+		"obj_status_upgrade_3"
+		{
+			"file"			"vgui/logos/build_icons/obj_status_upgrade_3"
+			"x"				"0"
+			"y"				"0"
+			"width"			"64"
+			"height"		"64"
+		}
+		"obj_status_sapper"
+		{
+			"file"			"vgui/logos/build_icons/hud_obj_status_sapper"
+			"x"				"0"
+			"y"				"0"
+			"width"			"64"
+			"height"		"64"
+		}
+		"obj_eng_status_area_sentry_alrt"
+		{
+			"file"			"vgui/logos/build_icons/eng_status_area_sentry_alrt"
+			"x"				"0"
+			"y"				"0"
+			"width"			"62"
+			"height"		"110"
+		}
+	}
+}
