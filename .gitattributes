@@ -1,9 +1,12 @@
 # Auto detect text files and perform LF normalization
 * text=auto
 
-*.res linguist-language=vdf
-**/*.res linguist-detectable=true
+*.vdf linguist-detectable=true
+*.res linguist-detectable=true linguist-language=vdf
+*.txt linguist-detectable=true linguist-language=vdf
+*.vmt linguist-detectable=true linguist-language=vdf
+
+resource/chat_english.txt diff
 
 .gitattributes export-ignore
 .gitignore export-ignore
-.github export-ignore
