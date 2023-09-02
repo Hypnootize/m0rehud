@@ -1,19 +1,5 @@
 "Scripts/Layouts/Layout_m0re.res"
 {
-	"FlatScreen"
-	{
-		"ControlName"								"Panel"
-		"fieldName"									"FlatScreen"
-		"xpos"										"cs-0.5"
-		"ypos"										"cs-0.5"
-		"zpos"										"-90"
-		"wide"										"f0"
-		"tall"										"f0"
-		"visible"									"0"
-		"enabled"									"1"
-		"paintbackground"							"1"
-		"bgcolor_override"							"120 120 120 255"
-	}
 	"HudWeaponAmmo"
 	{
 		"xpos"										"0"
