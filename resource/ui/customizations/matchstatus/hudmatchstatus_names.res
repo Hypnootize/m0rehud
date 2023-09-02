@@ -39,7 +39,7 @@
 				"xpos"								"rs1-5"
 				"ypos"								"0"
 				"wide"								"f0"
-				"tall"								"f6"
+				"tall"								"f7"
 				"textAlignment"						"east"
 			}
 		}

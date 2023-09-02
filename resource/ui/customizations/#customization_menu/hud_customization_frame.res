@@ -95,7 +95,7 @@
 			"visible"									"1"
 			"enabled"									"1"
 			"proportionaltoparent"						"1"
-			"labelText"									"HUD wiki for more informations"
+			"labelText"									"HUD wiki for more information"
 			"font"										"ItemFontNameSmallest"
 			"textAlignment"								"center"
 			"urlText"									"https://github.com/Hypnootize/m0rehud/wiki/CUSTOMIZATIONS"
@@ -124,6 +124,14 @@
 			"Command"									"engine customization_reset; hudcrosshair_reset"
 			"actionsignallevel"							"2"
 			"sound_depressed"							"UI/buttonclick.wav"
+
+			"defaultBgColor_override"					"200 170 65 255"
+			"armedBgColor_override"						"150 120 50 255"
+			"depressedBgColor_override"					"150 120 50 255"
+
+			"defaultFgColor_override"					"White"
+			"armedFgColor_override"						"White"
+			"depressedFgColor_override"					"White"
 
 			"pin_to_sibling"							"GitHubWiki"
 			"pin_corner_to_sibling"						"PIN_TOPLEFT"
@@ -368,7 +376,7 @@
 			"visible"									"1"
 			"enabled"									"1"
 			"proportionaltoparent"						"1"
-			"labelText"									"Apply Changes"
+			"labelText"									"Reload to Apply Changes"
 			"font"										"HudFontSmallBold"
 			"textAlignment"								"center"
 			"Command"									"engine cl_mainmenu_safemode 0; mat_queue_mode -1; hud_reloadscheme"

@@ -22,7 +22,7 @@
 	"Items"
 	{
 		"label"										"Items"
-		"command"									"engine open_charinfo; inv_opened"
+		"command"									"engine open_charinfo"
 	}
 	"Store"
 	{
