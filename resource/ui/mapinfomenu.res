@@ -36,7 +36,7 @@
 		"ypos"										"cs-0.5"
 		"zpos"										"3"
 		"wide"										"200"
-		"tall"										"200"
+		"tall"										"260"
 		"visible"									"1"
 		"enabled"									"1"
 		"textAlignment"								"center"

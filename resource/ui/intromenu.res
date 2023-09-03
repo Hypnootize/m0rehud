@@ -31,7 +31,7 @@
 		"ControlName"								"CTFVideoPanel"
 		"fieldName"									"VideoPanel"
 		"xpos"										"cs-0.5"
-		"ypos"										"c-183"
+		"ypos"										"c-153"
 		"zpos"										"6"
 		"wide"										"300"
 		"tall"										"225"
