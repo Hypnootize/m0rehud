@@ -10,7 +10,7 @@
 
 	//"file" "scripts/animations/hudanimations_crosshairs.txt"
 	//"file" "scripts/animations/hudanimations_counter.txt"
-	//"file" "scripts/animations/hudanimations_ammo_flash.txt" //comment animations_ammo.txt if active
+	//"file" "scripts/animations/hudanimations_ammo_flash.txt" //comment hudanimations_ammo.txt if active
 
 	"file" "scripts/hudanimations_tf.txt"
 }
