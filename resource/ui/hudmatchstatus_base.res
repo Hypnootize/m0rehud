@@ -205,8 +205,8 @@
 			"percentage_health_low"					"0.3"
 			"color_portrait_blend_dead_red"			"White"
 			"color_portrait_blend_dead_blue"		"White"
-			"color_portrait_bg_red_local_player"	"Red"
-			"color_portrait_bg_blue_local_player"	"Blue"
+			"color_portrait_bg_red_local_player"	"15 15 15 255"
+			"color_portrait_bg_blue_local_player"	"15 15 15 255"
 
 			"PlayerName"
 			{

@@ -4,6 +4,9 @@
 	{
 		"PlayerPanels_KV"
 		{
+			"color_portrait_bg_red_local_player"	"195 169 168 255"
+			"color_portrait_bg_blue_local_player"	"168 169 195 255"
+
 			"PlayerName"
 			{
 				"visible"							"0"
