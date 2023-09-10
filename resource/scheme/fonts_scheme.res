@@ -280,30 +280,30 @@
 				"antialias"									"1"
 			}
 		}
-		"Coolvetica11"
+		"Coolvetica12"
 		{
 			"1"
 			{
-				"name"										"Coolvetica"
-				"tall"										"11"
+				"name"										"CoolveticaRG-Bold"
+				"tall"										"12"
 				"antialias"									"1"
 			}
 		}
-		"Coolvetica13"
+		"Coolvetica14"
 		{
 			"1"
 			{
-				"name"										"Coolvetica"
-				"tall"										"13"
+				"name"										"CoolveticaRG-Bold"
+				"tall"										"14"
 				"antialias"									"1"
 			}
 		}
-		"Coolvetica15"
+		"Coolvetica16"
 		{
 			"1"
 			{
-				"name"										"Coolvetica"
-				"tall"										"15"
+				"name"										"CoolveticaRG-Bold"
+				"tall"										"16"
 				"antialias"									"1"
 			}
 		}
@@ -2974,7 +2974,7 @@
 		"11"
 		{
 			"font"		"resource/scheme/fonts/coolvetica.ttf"
-			"name"		"Coolvetica"
+			"name"		"CoolveticaRG-Bold"
 		}
 		"12"
 		{

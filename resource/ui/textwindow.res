@@ -31,7 +31,6 @@
 	{
 		"ControlName"								"CExRichText"
 		"fieldName"									"TFTextMessage"
-		"font"										"m0refont11"
 		"xpos"										"cs-0.5"
 		"ypos"										"cs-0.5"
 		"zpos"										"1"
@@ -39,6 +38,7 @@
 		"tall"										"260"
 		"visible"									"1"
 		"enabled"									"1"
+		"font"										"m0refont11"
 		"textAlignment"								"west"
 		"fgcolor"									"White"
 		"proportionaltoparent"						"1"
@@ -74,7 +74,7 @@
 		"labelText"									"#TF_WELCOME"
 		"textAlignment"								"center"
 		"AllCaps"									"1"
-		"font"										"Coolvetica15"
+		"font"										"Coolvetica16"
 		"fgcolor"									"White"
 
 		"pin_to_sibling"							"TFTextMessage"
@@ -95,7 +95,7 @@
 		"labelText"									"CONTINUE (&E) "
 		"textAlignment"								"center"
 		"command"									"okay"
-		"font"										"Coolvetica15"
+		"font"										"Coolvetica16"
 
 		"paintbackground"							"0"
 		"paintborder"								"0"

@@ -31,12 +31,12 @@
 	}
 	"Settings"
 	{
-		"label"										"Options"
+		"label"										"Settings"
 		"command"									"OpenOptionsDialog"
 	}
 	"Advanced"
 	{
-		"label"										"Advanced"
+		"label"										"Adv. Settings"
 		"command"									"opentf2options"
 	}
 	"HUDOptions"
@@ -78,7 +78,7 @@
 	//====================================================================================================================================================
 	"Minmode"
 	{
-		"label"										"Minmode"
+		"label"										"Toggle Minmode"
 		"command"									"engine toggle cl_hud_minmode"
 		"OnlyInGame"								"1"
 	}

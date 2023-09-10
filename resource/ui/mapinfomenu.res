@@ -31,7 +31,6 @@
 	{
 		"ControlName"								"CExRichText"
 		"fieldName"									"MapInfoText"
-		"font"										"m0refont11"
 		"xpos"										"cs-0.5"
 		"ypos"										"cs-0.5"
 		"zpos"										"3"
@@ -39,6 +38,7 @@
 		"tall"										"260"
 		"visible"									"1"
 		"enabled"									"1"
+		"font"										"m0refont11"
 		"textAlignment"								"center"
 		"fgcolor"									"White"
 		"paintbackground"							"0"
@@ -57,7 +57,7 @@
 		"enabled"									"1"
 		"labelText"									"%mapname%"
 		"textAlignment"								"center"
-		"font"										"Coolvetica15"
+		"font"										"Coolvetica16"
 		"fgcolor"									"White"
 		"AllCaps"									"1"
 
@@ -79,7 +79,7 @@
 		"labelText"									"CONTINUE (&E) "
 		"textAlignment"								"center"
 		"command"									"continue"
-		"font"										"Coolvetica15"
+		"font"										"Coolvetica16"
 
 		"paintbackground"							"0"
 		"paintborder"								"0"
@@ -106,7 +106,7 @@
 		"labelText"									"WATCH MOVIE"
 		"textAlignment"								"center"
 		"command"									"intro"
-		"font"										"Coolvetica15"
+		"font"										"Coolvetica16"
 
 		"paintbackground"							"0"
 		"paintborder"								"0"

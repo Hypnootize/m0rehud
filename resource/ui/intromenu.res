@@ -80,7 +80,7 @@
 		"labelText"									"CONTINUE (&E) "
 		"textAlignment"								"center"
 		"command"									"skip"
-		"font"										"Coolvetica15"
+		"font"										"Coolvetica16"
 
 		"paintbackground"							"0"
 		"paintborder"								"0"
@@ -107,7 +107,7 @@
 		"labelText"									"BACK (&Q) "
 		"textAlignment"								"center"
 		"command"									"back"
-		"font"										"Coolvetica15"
+		"font"										"Coolvetica16"
 
 		"paintbackground"							"0"
 		"paintborder"								"0"

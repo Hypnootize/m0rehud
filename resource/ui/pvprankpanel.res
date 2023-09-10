@@ -178,10 +178,9 @@
 		"xpos"										"0"
 		"ypos"										"0"
 		"zpos"										"-1"
-		"wide"										"200"
-		"tall"										"50"
+		"wide"										"f0"
+		"tall"										"f0"
 		"visible"									"1"
-		"PaintBackgroundType"						"2"
 		"proportionaltoparent"						"1"
 
 		"if_mini"
@@ -199,10 +198,10 @@
 			"ypos"									"0"
 			"wide"									"f0"
 			"zpos"									"100"
-			"tall"									"14"
+			"tall"									"17"
 			"visible"								"1"
 			"enabled"								"1"
-			"font"									"Coolvetica15"
+			"font"									"Coolvetica16"
 			"fgcolor"								"White"
 			"textAlignment"							"west"
 			"labelText"								"%name%"
@@ -222,10 +221,10 @@
 			"ypos"									"0"
 			"wide"									"f0"
 			"zpos"									"100"
-			"tall"									"14"
+			"tall"									"17"
 			"visible"								"1"
 			"enabled"								"1"
-			"font"									"Coolvetica15"
+			"font"									"Coolvetica16"
 			"fgcolor_override"						"White"
 			"textAlignment"							"west"
 			"labelText"								"%desc1%"
@@ -238,9 +237,9 @@
 			}
 			"fonts"
 			{
-				"0"									"Coolvetica15"
-				"1"									"Coolvetica13"
-				"2"									"Coolvetica11"
+				"0"									"Coolvetica16"
+				"1"									"Coolvetica14"
+				"2"									"Coolvetica12"
 			}
 		}
 		"Desc2MainMenu"
@@ -251,10 +250,10 @@
 			"ypos"									"17"
 			"wide"									"f0"
 			"zpos"									"100"
-			"tall"									"14"
+			"tall"									"17"
 			"visible"								"1"
 			"enabled"								"1"
-			"font"									"Coolvetica15"
+			"font"									"Coolvetica16"
 			"fgcolor_override"						"White"
 			"textAlignment"							"north-west"
 			"labelText"								"%desc2%"
@@ -267,9 +266,9 @@
 			}
 			"fonts"
 			{
-				"0"									"Coolvetica15"
-				"1"									"Coolvetica13"
-				"2"									"Coolvetica11"
+				"0"									"Coolvetica16"
+				"1"									"Coolvetica14"
+				"2"									"Coolvetica12"
 			}
 			"colors"
 			{
@@ -344,9 +343,9 @@
 			"ControlName"							"EditablePanel"
 			"fieldName"								"StatsContainer"
 			"xpos"									"-1"
-			"ypos"									"29"
+			"ypos"									"rs1"
 			"wide"									"f0"
-			"tall"									"480"
+			"tall"									"f0"
 			"proportionaltoparent"					"1"
 
 			"if_mini"
@@ -361,7 +360,7 @@
 				"Controlname"						"EditablePanel"
 				"fieldName"							"XPBar"
 				"xpos"								"0"
-				"ypos"								"0"
+				"ypos"								"rs1"
 				"wide"								"120"
 				"tall"								"20"
 				"proportionaltoparent"				"1"
@@ -422,10 +421,18 @@
 					"Controlname"					"EditablePanel"
 					"fieldName"						"ProgressBarsContainer"
 					"xpos"							"0"
-					"ypos"							"rs1-10"
-					"wide"							"p1"
+					"ypos"							"rs1"
+					"wide"							"f0"
 					"tall"							"7"
 					"proportionaltoparent"			"1"
+
+					"if_mini"
+					{
+						"xpos"						"0"
+						"ypos"						"rs1-10"
+						"wide"						"p1"
+						"tall"						"7"
+					}
 
 					"ProgressBar"
 					{
