@@ -262,10 +262,5 @@
 			"font"		"resource/scheme/fonts/fonts_optional/ubuntu_numbers.ttf"
 			"name"		"Ubuntu Numbers"
 		}
-		"252"
-		{
-			"font"		"resource/scheme/fonts/fonts_optional/roboto.ttf"
-			"name"		"Roboto Bold"
-		}
 	}
 }
