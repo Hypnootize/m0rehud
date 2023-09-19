@@ -11,6 +11,7 @@
 //=========================================================
 
 #base "../cfg/m0re_font.txt"
+
 #base "scheme/fonts/fonts_customization/font_paths.res"
 #base "ui/customizations/#customization_menu/font_showcase.res"
 #base "scheme/fonts_scheme.res"
