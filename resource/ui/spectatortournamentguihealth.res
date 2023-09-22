@@ -4,7 +4,7 @@
 	{
 		"ControlName"								"Panel"
 		"fieldName"									"HealthValueSpec_BG_Blue"
-		"xpos"										"cs-0.5+19"
+		"xpos"										"40"
 		"ypos"										"cs-0.5"
 		"zpos"										"0"
 		"wide"										"22"
@@ -59,7 +59,7 @@
 	{
 		"ControlName"								"Panel"
 		"fieldName"									"HealthValueSpec_BG_Red"
-		"xpos"										"cs-0.5-19"
+		"xpos"										"1"
 		"ypos"										"cs-0.5"
 		"zpos"										"0"
 		"wide"										"22"

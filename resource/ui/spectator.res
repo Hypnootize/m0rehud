@@ -30,7 +30,7 @@
 
 		"if_mvm"
 		{
-			"ypos"									"200"
+			"ypos"									"90"
 		}
 	}
 	"BuyBackLabel"

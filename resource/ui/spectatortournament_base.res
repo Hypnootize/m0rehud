@@ -24,6 +24,11 @@
 			"tall"									"15"
 			"zpos"									"1"
 
+			"if_mvm"
+			{
+				"wide"								"127"
+			}
+
 			"color_ready"							"0 255 0 220"
 			"color_notready"						"0 0 0 220"
 
@@ -41,6 +46,11 @@
 				"proportionaltoparent"				"1"
 				"paintBackground"					"1"
 				"bgcolor_override"					"TransparentBlack"
+
+				"if_mvm"
+				{
+					"xpos"							"0"
+				}
 			}
 			"ClassImage"
 			{
@@ -56,6 +66,11 @@
 				"proportionaltoparent"				"1"
 				"image"								"../hud/class_scoutred"
 				"scaleImage"						"1"
+
+				"if_mvm"
+				{
+					"xpos"							"0"
+				}
 			}
 			"Separator_Blue"
 			{
@@ -91,6 +106,11 @@
 				"paintBackground"					"1"
 				"bgcolor_override"					"Gray"
 
+				"if_mvm"
+				{
+					"visible"						"0"
+				}
+
 				"pin_to_sibling"					"ClassImageBG"
 				"pin_corner_to_sibling"				"PIN_TOPRIGHT"
 				"pin_to_sibling_corner"				"PIN_TOPLEFT"
@@ -102,7 +122,7 @@
 				"xpos"								"rs1-3"
 				"ypos"								"0"
 				"zpos"								"5"
-				"wide"								"85"
+				"wide"								"84"
 				"tall"								"f0"
 				"visible"							"1"
 				"proportionaltoparent"				"1"
@@ -118,7 +138,7 @@
 				"xpos"								"3"
 				"ypos"								"0"
 				"zpos"								"5"
-				"wide"								"85"
+				"wide"								"84"
 				"tall"								"f0"
 				"visible"							"1"
 				"proportionaltoparent"				"1"
@@ -126,15 +146,20 @@
 				"labelText"							"%playername%"
 				"textAlignment"						"east"
 				"fgcolor"							"White"
+
+				"if_mvm"
+				{
+					"visible"						"0"
+				}
 			}
 			"HealthIcon"
 			{
 				"ControlName"						"EditablePanel"
 				"fieldName"							"HealthIcon"
-				"xpos"								"0"
+				"xpos"								"cs-0.5"
 				"ypos"								"0"
 				"zpos"								"3"
-				"wide"								"f0"
+				"wide"								"62"
 				"tall"								"f0"
 				"visible"							"1"
 				"enabled"							"1"
@@ -146,6 +171,11 @@
 				"TextColor"							"HudOffWhite"
 				"paintBackground"					"0"
 				"bgcolor_override"					"0 0 0 125"
+
+				"if_mvm"
+				{
+					"xpos"							"-24"
+				}
 			}
 			"RespawnTime_Blue"
 			{
@@ -162,6 +192,12 @@
 				"textAlignment"						"center"
 				"fgcolor"							"White"
 				"font"								"m0refont11"
+
+				"if_mvm"
+				{
+					"xpos"							"17"
+					"wide"							"21"
+				}
 			}
 			"RespawnTime_Red"
 			{
@@ -178,6 +214,11 @@
 				"textAlignment"						"center"
 				"fgcolor"							"White"
 				"font"								"m0refont11"
+
+				"if_mvm"
+				{
+					"visible"						"0"
+				}
 			}
 			"ChargeAmountCoverBlue"
 			{
@@ -226,6 +267,11 @@
 				"font"								"BlocksSharp64"
 				"textAlignment"						"east"
 				"fgcolor"							"White"
+
+				"if_mvm"
+				{
+					"visible"						"0"
+				}
 			}
 			"ChargeAmountRed"
 			{
@@ -242,6 +288,11 @@
 				"font"								"m0refont10"
 				"textAlignment"						"center"
 				"fgcolor"							"Black"
+
+				"if_mvm"
+				{
+					"visible"						"0"
+				}
 			}
 			"BottomLine"
 			{
@@ -310,7 +361,7 @@
 
 		"if_mvm"
 		{
-			"ypos"									"70"
+			"ypos"									"90"
 		}
 	}
 	"BuyBackLabel"
@@ -318,7 +369,7 @@
 		"ControlName"								"CExLabel"
 		"fieldName"									"BuyBackLabel"
 		"xpos"										"cs-0.5"
-		"ypos"										"16"
+		"ypos"										"2"
 		"wide"										"380"
 		"tall"										"14"
 		"visible"									"0"
