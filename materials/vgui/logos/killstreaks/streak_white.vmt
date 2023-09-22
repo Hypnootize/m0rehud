@@ -1,6 +1,6 @@
 "UnlitGeneric"
 {
-	"$baseTexture"				"vgui/logos/killstreaks/whiteks"
+	"$baseTexture"				"vgui/logos/killstreaks/streak_white"
 	"$vertexalpha"				"1"
 	"$alpha"					"1"
 	"$translucent"				"1"

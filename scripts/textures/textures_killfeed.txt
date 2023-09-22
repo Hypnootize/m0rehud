@@ -1246,8 +1246,7 @@
 		}
 		"leaderboard_dominated"
 		{
-			"file"			"vgui/logos/killstreaks/whitedom"
-			"negfile"		"vgui/logos/killstreaks/blackdom"
+			"file"			"vgui/logos/killfeed_icons_white/dom_image"
 			"x"				"0"
 			"y"				"0"
 			"width"			"64"
@@ -1255,8 +1254,8 @@
 		}
 		"leaderboard_streak"
 		{
-			"file"			"vgui/logos/killstreaks/blackks"
-			"negfile"		"vgui/logos/killstreaks/blackks"
+			"file"			"vgui/logos/killstreaks/streak_white"
+			"negfile"		"vgui/logos/killstreaks/streak_black"
 			"x"				"0"
 			"y"				"0"
 			"width"			"64"
@@ -1264,7 +1263,7 @@
 		}
 		"leaderboard_streak_dneg"
 		{
-			"file"			"vgui/logos/killstreaks/whiteks"
+			"file"			"vgui/logos/killstreaks/streak_black"
 			"x"				"0"
 			"y"				"0"
 			"width"			"64"
