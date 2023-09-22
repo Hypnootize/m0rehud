@@ -34,7 +34,7 @@
 			"model_wide"							"48"
 			"model_tall"							"24"
 
-			"text_center"							"0"
+			"text_center"							"1"
 			"text_xpos"								"35"
 			"text_wide"								"180"
 			"name_only"								"1"
