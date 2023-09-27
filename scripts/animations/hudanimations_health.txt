@@ -16,8 +16,7 @@ event HudHealthBonusPulse
 	Animate HealthValue_Target						FgColor		"Health Buff Target"				Linear	0.0		0.0
 
 	// SPECTATOR HEALTH -----------------------------------------------------------------------------------------------------
-	Animate HealthValue_Spec_Blue					FgColor		"Health Buff Spec"					Linear	0.0		0.0
-	Animate HealthValue_Spec_Red					FgColor		"Health Buff Spec"					Linear	0.0		0.0
+	Animate HealthValue_Spec						FgColor		"Health Buff Spec"					Linear	0.0		0.0
 
 	// KILLER HEALTH --------------------------------------------------------------------------------------------------------
 	Animate HealthValue_Killer_Shadow				FgColor		"Health Buff Killer"				Linear	0.0		0.0
@@ -44,8 +43,7 @@ event HudHealthBonusPulseStop
 	Animate HealthValue_Target						FgColor		"Health Numbers"					Linear	0.0		0.0
 
 	// SPECTATOR HEALTH -----------------------------------------------------------------------------------------------------
-	Animate HealthValue_Spec_Blue					FgColor		"Health Numbers"					Linear	0.0		0.0
-	Animate HealthValue_Spec_Red					FgColor		"Health Numbers"					Linear	0.0		0.0
+	Animate HealthValue_Spec						FgColor		"Health Numbers"					Linear	0.0		0.0
 
 	// KILLER HEALTH --------------------------------------------------------------------------------------------------------
 	Animate HealthValue_Killer_Shadow				FgColor		"Black"								Linear	0.0		0.0
@@ -70,8 +68,7 @@ event HudHealthDyingPulse
 	Animate HealthValue_Target						FgColor		"Health Hurt Target"				Linear	0.0		0.0
 
 	// SPECTATOR HEALTH -----------------------------------------------------------------------------------------------------
-	Animate HealthValue_Spec_Blue					FgColor		"Health Hurt Spec"					Linear	0.0		0.0
-	Animate HealthValue_Spec_Red					FgColor		"Health Hurt Spec"					Linear	0.0		0.0
+	Animate HealthValue_Spec						FgColor		"Health Hurt Spec"					Linear	0.0		0.0
 
 	// KILLER HEALTH --------------------------------------------------------------------------------------------------------
 	Animate HealthValue_Killer_Shadow				FgColor		"Health Hurt Killer"				Linear	0.0		0.0
@@ -98,8 +95,7 @@ event HudHealthDyingPulseStop
 	Animate HealthValue_Target						FgColor		"Health Numbers"					Linear	0.0		0.0
 
 	// SPECTATOR HEALTH -----------------------------------------------------------------------------------------------------
-	Animate HealthValue_Spec_Blue					FgColor		"Health Numbers"					Linear	0.0		0.0
-	Animate HealthValue_Spec_Red					FgColor		"Health Numbers"					Linear	0.0		0.0
+	Animate HealthValue_Spec						FgColor		"Health Numbers"					Linear	0.0		0.0
 
 	// KILLER HEALTH --------------------------------------------------------------------------------------------------------
 	Animate HealthValue_Killer_Shadow				FgColor		"Black"								Linear	0.0		0.0

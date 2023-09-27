@@ -1,13 +1,13 @@
 "Resource/UI/SpectatorTournamentGUIHealth.res"
 {
-	"HealthValueSpec_BG_Blue"
+	"HealthValueSpec_BG"
 	{
 		"ControlName"								"Panel"
-		"fieldName"									"HealthValueSpec_BG_Blue"
-		"xpos"										"40"
+		"fieldName"									"HealthValueSpec_BG"
+		"xpos"										"cs-0.5"
 		"ypos"										"cs-0.5"
 		"zpos"										"0"
-		"wide"										"22"
+		"wide"										"f0"
 		"tall"										"f0"
 		"visible"									"1"
 		"enabled"									"1"
@@ -16,14 +16,14 @@
 		"paintBackgroundtype"						"0"
 		"bgcolor_override"							"TransparentBlack"
 	}
-	"HealthValue_Spec_Blue"
+	"HealthValue_Spec"
 	{
 		"ControlName"								"CExLabel"
-		"fieldName"									"HealthValue_Spec_Blue"
+		"fieldName"									"HealthValue_Spec"
 		"xpos"										"0"
 		"ypos"										"0"
 		"zpos"										"5"
-		"wide"										"22"
+		"wide"										"f0"
 		"tall"										"f0"
 		"visible"									"1"
 		"enabled"									"1"
@@ -33,16 +33,16 @@
 		"font"										"m0refont11"
 		"fgcolor"									"Health Numbers"
 
-		"pin_to_sibling"							"HealthValueSpec_BG_Blue"
+		"pin_to_sibling"							"HealthValueSpec_BG"
 	}
-	"HealthValueSpec_Blue_Shadow"
+	"HealthValueSpec_Shadow"
 	{
 		"ControlName"								"CExLabel"
-		"fieldName"									"HealthValueSpec_Blue_Shadow"
+		"fieldName"									"HealthValueSpec_Shadow"
 		"xpos"										"-1"
 		"ypos"										"-1"
 		"zpos"										"4"
-		"wide"										"22"
+		"wide"										"f0"
 		"tall"										"f0"
 		"visible"									"1"
 		"enabled"									"1"
@@ -52,62 +52,7 @@
 		"font"										"m0refont11"
 		"fgcolor"									"Black"
 
-		"pin_to_sibling"							"HealthValue_Spec_Blue"
-	}
-
-	"HealthValueSpec_BG_Red"
-	{
-		"ControlName"								"Panel"
-		"fieldName"									"HealthValueSpec_BG_Red"
-		"xpos"										"1"
-		"ypos"										"cs-0.5"
-		"zpos"										"0"
-		"wide"										"22"
-		"tall"										"f0"
-		"visible"									"1"
-		"enabled"									"1"
-		"proportionaltoparent"						"1"
-		"paintBackground"							"1"
-		"paintBackgroundtype"						"0"
-		"bgcolor_override"							"TransparentBlack"
-	}
-	"HealthValue_Spec_Red"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"HealthValue_Spec_Red"
-		"xpos"										"0"
-		"ypos"										"0"
-		"zpos"										"5"
-		"wide"										"22"
-		"tall"										"f0"
-		"visible"									"1"
-		"enabled"									"1"
-		"proportionaltoparent"						"1"
-		"textAlignment"								"center"
-		"labeltext"									"%Health%"
-		"font"										"m0refont11"
-		"fgcolor"									"Health Numbers"
-
-		"pin_to_sibling"							"HealthValueSpec_BG_Red"
-	}
-	"HealthValue_Spec_Red_Shadow"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"HealthValue_Spec_Red_Shadow"
-		"xpos"										"-1"
-		"ypos"										"-1"
-		"zpos"										"4"
-		"wide"										"22"
-		"tall"										"f0"
-		"visible"									"1"
-		"enabled"									"1"
-		"proportionaltoparent"						"1"
-		"textAlignment"								"center"
-		"labeltext"									"%Health%"
-		"font"										"m0refont11"
-		"fgcolor"									"Black"
-
-		"pin_to_sibling"							"HealthValue_Spec_Red"
+		"pin_to_sibling"							"HealthValue_Spec"
 	}
 
 
