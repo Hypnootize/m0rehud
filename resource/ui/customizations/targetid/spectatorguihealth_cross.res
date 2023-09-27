@@ -7,11 +7,12 @@
 	"PlayerStatusHealthImageBG"
 	{
 		"xpos"										"7"
+		"xpos_minmode"								"8"
 	}
 	"PlayerStatusHealthBonusImage"
 	{
 		"xpos"										"7"
-		"xpos_minmode"								"8"
+		"xpos_minmode"								"9"
 		"ypos"										"12"
 		"ypos_minmode"								"10"
 		"wide"										"20"
@@ -22,7 +23,7 @@
 	"HealthValue_Target"
 	{
 		"xpos"										"3"
-		"xpos_minmode"								"3"
+		"xpos_minmode"								"4"
 		"wide"										"27"
 		"wide_minmode"								"27"
 		"tall"										"42"
