@@ -511,7 +511,7 @@
 		"if_mvm"
 		{
 			"visible"								"1"
-			"ypos"									"105"
+			"ypos"									"95"
 		}
 	}
 	"CountdownLabel"

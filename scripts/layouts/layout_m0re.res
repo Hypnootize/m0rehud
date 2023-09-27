@@ -128,12 +128,12 @@
 	}
 	"CurrencyStatusPanel"
 	{
-		"xpos"										"c-204"
-		"xpos_minmode"								"c-204"
-		"ypos"										"rs1"
-		"ypos_minmode"								"rs1"
-		"wide"										"60"
-		"tall"										"18"
+		"xpos"										"0"
+		"xpos_minmode"								"0"
+		"ypos"										"0"
+		"ypos_minmode"								"0"
+		"wide"										"f0"
+		"tall"										"f0"
 	}
 	"HudDeathNotice"
 	{
@@ -194,6 +194,13 @@
 		"xpos"										"0"
 		"ypos"										"0"
 		"zpos"										"10"
+		"wide"										"f0"
+		"tall"										"f0"
+	}
+	"PVEWinPanel"
+	{
+		"xpos"										"0"
+		"ypos"										"0"
 		"wide"										"f0"
 		"tall"										"f0"
 	}
