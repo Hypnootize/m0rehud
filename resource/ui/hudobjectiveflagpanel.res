@@ -110,8 +110,8 @@
 		}
 		"if_mvm"
 		{
-			"xpos"									"cs-0.5-3"
-			"ypos"									"rs1-12"
+			"xpos"									"cs-0.5"
+			"ypos"									"rs1-7"
 		}
 	}
 

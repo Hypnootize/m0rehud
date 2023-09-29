@@ -16,8 +16,8 @@
 
 		"if_mvm"
 		{
-			"wide"									"50"
-			"tall"									"50"
+			"wide"									"44"
+			"tall"									"44"
 		}
 	}
 	"Briefcase"
@@ -37,8 +37,8 @@
 
 		"if_mvm"
 		{
-			"wide"									"25"
-			"tall"									"25"
+			"wide"									"22"
+			"tall"									"22"
 		}
 	}
 	"StatusIcon"

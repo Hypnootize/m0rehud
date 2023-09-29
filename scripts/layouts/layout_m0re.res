@@ -164,6 +164,7 @@
 		"xpos"										"c-215"
 		"xpos_minmode"								"c-35"
 		"ypos"										"r95"
+		"ypos_minmode"								"r105"
 		"wide"										"150"
 		"tall"										"50"
 
