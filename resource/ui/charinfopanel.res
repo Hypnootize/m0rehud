@@ -1,4 +1,4 @@
-#base "reloadscheme.res"
+#base "../dev/reloadscheme.res"
 
 "Resource/UI/CharInfoPanel.res"
 {
