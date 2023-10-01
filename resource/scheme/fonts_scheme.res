@@ -329,7 +329,7 @@
 		{
 			"1"
 			{
-				"name"										"m0rehud Icons V7"
+				"name"										"m0rehud Icons V8"
 				"tall"										"10"
 				"antialias"									"1"
 			}
@@ -338,7 +338,7 @@
 		{
 			"1"
 			{
-				"name"										"m0rehud Icons V7"
+				"name"										"m0rehud Icons V8"
 				"tall"										"12"
 				"antialias"									"1"
 			}
@@ -347,7 +347,7 @@
 		{
 			"1"
 			{
-				"name"										"m0rehud Icons V7"
+				"name"										"m0rehud Icons V8"
 				"tall"										"14"
 				"antialias"									"1"
 			}
@@ -356,7 +356,7 @@
 		{
 			"1"
 			{
-				"name"										"m0rehud Icons V7"
+				"name"										"m0rehud Icons V8"
 				"tall"										"16"
 				"antialias"									"1"
 			}
@@ -365,7 +365,7 @@
 		{
 			"1"
 			{
-				"name"										"m0rehud Icons V7"
+				"name"										"m0rehud Icons V8"
 				"tall"										"18"
 				"antialias"									"1"
 			}
@@ -374,7 +374,7 @@
 		{
 			"1"
 			{
-				"name"										"m0rehud Icons V7"
+				"name"										"m0rehud Icons V8"
 				"tall"										"20"
 				"antialias"									"1"
 			}
@@ -383,7 +383,7 @@
 		{
 			"1"
 			{
-				"name"										"m0rehud Icons V7"
+				"name"										"m0rehud Icons V8"
 				"tall"										"32"
 				"antialias"									"1"
 			}
@@ -2984,7 +2984,7 @@
 		"13"
 		{
 			"font"		"resource/scheme/fonts/m0rehud_icons.ttf"
-			"name"		"m0rehud Icons V7"
+			"name"		"m0rehud Icons V8"
 		}
 		"14"
 		{
