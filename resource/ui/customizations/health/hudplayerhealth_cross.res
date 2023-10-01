@@ -2,7 +2,7 @@
 {
 	"HealthAnchor"
 	{
-		"xpos"										"c-163"
+		"xpos"										"c-175"
 		"ypos"										"c110"
 		"zpos"										"0"
 		"tall"										"64"
@@ -17,7 +17,7 @@
 	}
 	"PlayerStatusHealthBonusImage"
 	{
-		"xpos"										"c-195"
+		"xpos"										"c-207"
 		"xpos_minmode"								"c-109"
 		"ypos"										"c109"
 		"ypos_minmode"								"c47"
