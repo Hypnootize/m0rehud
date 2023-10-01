@@ -58,9 +58,6 @@
 		"labelText"									"%waveheader%"
 		"textAlignment"								"center"
 		"fgcolor"									"White"
-		"paintbackground"							"0"
-		"paintbackgroundtype"						"0"
-		"bgcolor_override"							"Red"
 
 		"pin_to_sibling"							"WaveFailHeaderShadow"
 	}
@@ -327,7 +324,7 @@
 		"ControlName"								"CExImageButton"
 		"fieldName"									"VoteButton"
 		"xpos"										"0"
-		"ypos"										"0"
+		"ypos"										"2"
 		"zpos"										"999"
 		"wide"										"440"
 		"tall"										"16"
