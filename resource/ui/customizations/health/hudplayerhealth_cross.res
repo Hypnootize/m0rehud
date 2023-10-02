@@ -1,9 +1,15 @@
 "Resource/UI/Customizations/Health/HudPlayerHealth_Cross.res"
 {
+	"HudPlayerHealth"
+	{
+		"HealthBonusPosAdj_minmode"					"25"
+	}
 	"HealthAnchor"
 	{
 		"xpos"										"c-175"
-		"ypos"										"c110"
+		"xpos_minmode"								"c-95"
+		"ypos"										"c106"
+		"ypos_minmode"								"c51"
 		"zpos"										"0"
 		"tall"										"64"
 	}
@@ -18,13 +24,13 @@
 	"PlayerStatusHealthBonusImage"
 	{
 		"xpos"										"c-207"
-		"xpos_minmode"								"c-109"
-		"ypos"										"c109"
-		"ypos_minmode"								"c47"
+		"xpos_minmode"								"c-112"
+		"ypos"										"c105"
+		"ypos_minmode"								"c49"
 		"wide"										"66"
-		"wide_minmode"								"30"
+		"wide_minmode"								"36"
 		"tall"										"66"
-		"tall_minmode"								"30"
+		"tall_minmode"								"37"
 	}
 	"HealthValue"
 	{
@@ -66,9 +72,9 @@
 	}
 	"PlayerStatusAnchor"
 	{
-		"xpos"										"-26"
-		"xpos_minmode"								"-50"
-		"ypos"										"-25"
+		"xpos"										"-23"
+		"xpos_minmode"								"-49"
+		"ypos"										"-28"
 		"ypos_minmode"								"-18"
 	}
 }

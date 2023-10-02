@@ -2,10 +2,10 @@
 {
 	"DamageAccountValue"
 	{
-		"xpos"										"c-150"
+		"xpos"										"c-149"
 		"xpos_minmode"								"c-77"
-		"ypos"										"r135"
-		"ypos_minmode"								"r199"
+		"ypos"										"r140"
+		"ypos_minmode"								"r194"
 		"visible"									"1"
 		"textAlignment"								"west"
 	}

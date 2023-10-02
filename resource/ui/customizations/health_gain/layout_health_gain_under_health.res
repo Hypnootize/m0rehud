@@ -5,6 +5,6 @@
 		"xpos"										"c-188"
 		"xpos_minmode"								"c-104"
 		"ypos"										"c170"
-		"ypos_minmode"								"c80"
+		"ypos_minmode"								"c83"
 	}
 }
