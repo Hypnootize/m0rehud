@@ -1,6 +1,6 @@
 //===========================================================================================================================
 
-event HudLowAmmoPulse
+event HudLowAmmoPulseFlash
 {
 	Animate AmmoInClipShadow						FgColor		"Ammo In Clip Shadow Low"			Linear	0.0		0.0
 	Animate AmmoInReserveShadow						FgColor		"Ammo In Reserve Shadow Low"		Linear	0.0		0.0
@@ -18,9 +18,9 @@ event HudLowAmmoPulse
 	RunEvent HudLowAmmoPulseLoop					0.25
 }
 
-event HudLowAmmoPulseStop
+event HudLowAmmoPulseStopFlash
 {
-	StopEvent HudLowAmmoPulse						0.0
+	StopEvent HudLowAmmoPulseFlash					0.0
 	StopEvent HudLowAmmoPulseLoop					0.0
 
 	Animate AmmoInClipShadow						FgColor		"Black"								Linear	0.0		0.0

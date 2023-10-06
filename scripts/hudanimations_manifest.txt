@@ -2,15 +2,27 @@
 {
 	"file" "scripts/hudanimations.txt"
 
+	"file" "cfg/m0re_animation_style.txt"
+	"file" "cfg/m0re_low_ammo_style.txt"
+
 	"file" "scripts/animations/hudanimations_health.txt"
+	"file" "scripts/animations/hudanimations_health_shadow.txt"
+	"file" "scripts/animations/hudanimations_health_number.txt"
+
 	"file" "scripts/animations/hudanimations_ammo.txt"
+	"file" "scripts/animations/hudanimations_ammo_shadow.txt"
+	"file" "scripts/animations/hudanimations_ammo_number.txt"
+	"file" "scripts/animations/hudanimations_ammo_flash.txt"
+
 	"file" "scripts/animations/hudanimations_uber.txt"
+	"file" "scripts/animations/hudanimations_uber_shadow.txt"
+	"file" "scripts/animations/hudanimations_uber_number.txt"
+
 	"file" "scripts/animations/hudanimations_misc.txt"
 	"file" "scripts/animations/hudanimations_removed.txt"
 
-	//"file" "scripts/animations/hudanimations_crosshairs.txt"
-	//"file" "scripts/animations/hudanimations_counter.txt"
-	//"file" "scripts/animations/hudanimations_ammo_flash.txt" //comment hudanimations_ammo.txt if active
+	"file" "scripts/animations/hudanimations_counter.txt"
+	"file" "cfg/m0re_uber_counter.txt"
 
 	"file" "scripts/hudanimations_tf.txt"
 }

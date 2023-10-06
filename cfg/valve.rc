@@ -1,21 +1,15 @@
-// load the base configuration
-//exec default.cfg
 r_decal_cullsize 1
 
-// Setup custom controller
 exec joystick.cfg
-
-// run a user script file if present
 exec autoexec.cfg
 exec m0re_customizations.cfg
+exec m0re_animations.cfg
 exec m0re_crosshairs.cfg
 
-//
-// stuff command line statements
-//
+alias "m0re_firstrun" "exec m0re_first_run"
+exec m0re_has_run.txt
+m0re_firstrun
+
 stuffcmds
-
-// display the startup level
 startupmenu
-
 sv_unlockedchapters 99
