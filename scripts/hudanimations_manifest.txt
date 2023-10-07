@@ -5,6 +5,7 @@
 	"file" "cfg/m0re_animation_style.txt"
 	"file" "cfg/m0re_low_ammo_style.txt"
 	"file" "cfg/m0re_uber_counter.txt"
+	"file" "cfg/m0re_hudcrosshair_animation.txt"
 
 	"file" "scripts/animations/hudanimations_health.txt"
 	"file" "scripts/animations/hudanimations_health_shadow.txt"
@@ -23,6 +24,8 @@
 	"file" "scripts/animations/hudanimations_removed.txt"
 
 	"file" "scripts/animations/hudanimations_counter.txt"
+
+	"file" "scripts/animations/hudanimations_crosshairs.txt"
 
 	"file" "scripts/hudanimations_tf.txt"
 }
