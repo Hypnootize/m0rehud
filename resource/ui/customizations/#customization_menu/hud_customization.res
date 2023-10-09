@@ -10,9 +10,9 @@
 #base "hud_customization_aspect_ratio.res"
 
 //==============================================================
-// THEMES
+// COLORS
 //==============================================================
-#base "hud_customization_themes.res"
+#base "hud_customization_colors.res"
 
 //==============================================================
 // FONTS

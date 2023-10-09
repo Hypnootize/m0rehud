@@ -7,15 +7,15 @@
 		//=========================================================================================================================
 		"Health Shadow Buff"								"0 210 215 255"
 		"Health Buff BG"									"0 210 215 255"
-		"Health Buff Target"								"0 210 215 255"
-		"Health Buff Spec"									"0 210 215 255"
-		"Health Buff Killer"								"0 210 215 255"
+		"Health_Buff_Target"								"0 210 215 255"
+		"Health_Buff_Spec"									"0 210 215 255"
+		"Health_Buff_Killer"								"0 210 215 255"
 
 		"Ubercharge Shadow Full"							"0 210 215 255"
 		"Ubercharge Meter Full"								"0 210 215 255"
 
-		"Menu Labels"										"0 210 215 255"
-		"Class Selection"									"0 210 215 255"
+		"Menu_Accent"										"0 210 215 255"
+		"Class_Selection"									"0 210 215 255"
 
 		//=========================================================================================================================
 		// SOURCE COLORS

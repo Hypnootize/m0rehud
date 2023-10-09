@@ -169,7 +169,7 @@
 		"scaleImage"								"1"
 		"image"										"replay/thumbnails/health/health_box"
 		"alpha"										"0"
-		"drawcolor"									"Health Buff BG"
+		"drawcolor"									"Health_Buff"
 	}
 	"PlayerStatusHealthDyingBG"
 	{
@@ -189,7 +189,7 @@
 		"scaleImage"								"1"
 		"image"										"replay/thumbnails/health/health_box"
 		"alpha"										"0"
-		"drawcolor"									"Health Hurt BG"
+		"drawcolor"									"Health_Hurt"
 	}
 
 	//==================================================================================================================================================
@@ -212,7 +212,7 @@
 		"textAlignment"								"center"
 		"font"										"m0refont72"
 		"font_minmode"								"m0refont32"
-		"fgcolor"									"Health Numbers"
+		"fgcolor"									"Health_Numbers"
 
 		"pin_to_sibling"							"HealthAnchor"
 		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
@@ -237,7 +237,7 @@
 		"textAlignment"								"center"
 		"font"										"m0refont72"
 		"font_minmode"								"m0refont32"
-		"fgcolor"									"Black"
+		"fgcolor"									"Main_Shadow"
 
 		"pin_to_sibling"							"HealthValue"
 	}
@@ -258,7 +258,7 @@
 		"textAlignment"								"center"
 		"font"										"m0refont72"
 		"font_minmode"								"m0refont32"
-		"fgcolor"									"Extra Shadow"
+		"fgcolor"									"Extra_Shadow"
 		"alpha"										"0"
 
 		"pin_to_sibling"							"HealthValue_Shadow"

@@ -5,6 +5,7 @@ exec autoexec.cfg
 exec m0re_customizations.cfg
 exec m0re_animations.cfg
 exec m0re_crosshairs.cfg
+exec m0re_color_picker.cfg
 
 alias "m0re_firstrun" "exec m0re_first_run"
 exec m0re_has_run.txt

@@ -91,7 +91,7 @@
 		"labelText"									"#TF_UberchargeMinHUD"
 		"textAlignment"								"center"
 		"font"										"m0refont72"
-		"fgcolor"									"Black"
+		"fgcolor"									"Main_Shadow"
 
 		"pin_to_sibling"							"ChargeLabelBig"
 	}
@@ -111,7 +111,7 @@
 		"labelText"									"#TF_UberchargeMinHUD"
 		"textAlignment"								"center"
 		"font"										"m0refont72"
-		"fgcolor"									"Extra Shadow"
+		"fgcolor"									"Extra_Shadow"
 		"alpha"										"0"
 
 		"pin_to_sibling"							"ChargeLabelBigShadow"
@@ -133,7 +133,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
-		"fgcolor_override"							"Ubercharge"
+		"fgcolor_override"							"White"
 	}
 
 	//==================================================================================================================================================

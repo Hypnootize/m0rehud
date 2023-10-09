@@ -30,7 +30,7 @@
 		"textAlignment"								"center"
 		"labeltext"									"%Health%"
 		"font"										"m0refont24"
-		"fgcolor"									"Health Numbers"
+		"fgcolor"									"Health_Numbers"
 	}
 	"HealthValue_Killer_Shadow"
 	{
@@ -47,7 +47,7 @@
 		"textAlignment"								"center"
 		"labeltext"									"%Health%"
 		"font"										"m0refont24"
-		"fgcolor"									"Black"
+		"fgcolor"									"Main_Shadow"
 
 		"pin_to_sibling"							"HealthValue_Killer"
 	}
@@ -66,7 +66,7 @@
 		"textAlignment"								"center"
 		"labeltext"									"%Health%"
 		"font"										"m0refont24"
-		"fgcolor"									"Extra Shadow"
+		"fgcolor"									"Extra_Shadow"
 		"alpha"										"0"
 
 		"pin_to_sibling"							"HealthValue_Killer_Shadow"

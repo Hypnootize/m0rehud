@@ -14,14 +14,14 @@
 		"proportionaltoparent"						"1"
 		"paintBackground"							"1"
 		"paintBackgroundtype"						"0"
-		"bgcolor_override"							"TransparentBlack"
+		"bgcolor_override"							"TransparentLightBlack"
 	}
 	"HealthValue_Spec"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"HealthValue_Spec"
 		"xpos"										"0"
-		"ypos"										"0"
+		"ypos"										"1"
 		"zpos"										"5"
 		"wide"										"f0"
 		"tall"										"f0"
@@ -31,7 +31,7 @@
 		"textAlignment"								"center"
 		"labeltext"									"%Health%"
 		"font"										"m0refont11"
-		"fgcolor"									"Health Numbers"
+		"fgcolor"									"Health_Numbers"
 
 		"pin_to_sibling"							"HealthValueSpec_BG"
 	}

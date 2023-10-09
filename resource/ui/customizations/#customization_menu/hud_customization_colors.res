@@ -1,7 +1,7 @@
 // Remember, manual positioning or the scrollbar get's angry!
 // Using + positioning to keep the gaps accurate
 
-"Resource/UI/Customizations/#Customization_Menu/HUD_Customization_Themes.res"
+"Resource/UI/Customizations/#Customization_Menu/HUD_Customization_Colors.res"
 {
 	"SafeMode"
 	{

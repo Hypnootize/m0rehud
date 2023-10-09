@@ -7,15 +7,15 @@
 		//=========================================================================================================================
 		"Health Shadow Buff"								"250 185 240 255"
 		"Health Buff BG"									"250 185 240 255"
-		"Health Buff Target"								"250 185 240 255"
-		"Health Buff Spec"									"250 185 240 255"
-		"Health Buff Killer"								"250 185 240 255"
+		"Health_Buff_Target"								"250 185 240 255"
+		"Health_Buff_Spec"									"250 185 240 255"
+		"Health_Buff_Killer"								"250 185 240 255"
 
 		"Ubercharge Shadow Full"							"250 185 240 255"
 		"Ubercharge Meter Full"								"250 185 240 255"
 
-		"Menu Labels"										"250 185 240 255"
-		"Class Selection"									"250 185 240 255"
+		"Menu_Accent"										"250 185 240 255"
+		"Class_Selection"									"250 185 240 255"
 
 		//=========================================================================================================================
 		// SOURCE COLORS

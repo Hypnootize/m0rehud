@@ -2,7 +2,6 @@
 // COLORS SCHEME
 //=========================================================
 
-#base "../cfg/m0re_alt_theme.txt"
 #base "../cfg/m0re_theme.txt"
 #base "scheme/colors_scheme.res"
 
@@ -26,6 +25,5 @@
 // CROSSHAIRS SCHEME
 //=========================================================
 
-#base "../cfg/m0re_hudcrosshair_outline.txt"
-#base "../cfg/m0re_hudcrosshair_shadow.txt"
-#base "../scripts/crosshairs/hudcrosshairs_scheme.res"
+#base "../cfg/m0re_crosshair_edge.txt"
+#base "scheme/crosshairs_scheme.res"

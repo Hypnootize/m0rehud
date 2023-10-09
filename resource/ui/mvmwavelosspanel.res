@@ -344,8 +344,8 @@
 		"depressedFgColor_override"					"White"
 
 		"defaultBgColor_override"					"TransparentBlack"
-		"armedBgColor_override"						"Menu Labels"
-		"depressedBgColor_override"					"Menu Labels"
+		"armedBgColor_override"						"Menu_Accent"
+		"depressedBgColor_override"					"Menu_Accent"
 
 		"pin_to_sibling"							"PanelBackground"
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
@@ -376,8 +376,8 @@
 		"depressedFgColor_override"					"White"
 
 		"defaultBgColor_override"					"TransparentBlack"
-		"armedBgColor_override"						"Menu Labels"
-		"depressedBgColor_override"					"Menu Labels"
+		"armedBgColor_override"						"Menu_Accent"
+		"depressedBgColor_override"					"Menu_Accent"
 
 		"pin_to_sibling"							"VoteButton"
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"

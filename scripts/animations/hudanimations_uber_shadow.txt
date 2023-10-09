@@ -4,15 +4,15 @@
 event HudMedicChargedShadow
 {
 	// SMALL UBER LABEL -----------------------------------------------------------------------------------------------------
-	Animate ChargeLabel								FgColor		"Ubercharge Meter Full"				Linear	0.0		0.0
+	Animate ChargeLabel								FgColor		"Ubercharge_Full"					Linear	0.0		0.0
 
 	// BIG UBER LABEL -------------------------------------------------------------------------------------------------------
-	Animate ChargeLabelBig							FgColor		"Ubercharge Full"					Linear	0.0		0.0
-	Animate ChargeLabelBigShadow					FgColor		"Ubercharge Shadow Full"			Linear	0.0		0.0
+	Animate ChargeLabelBig							FgColor		"Ubercharge"						Linear	0.0		0.0
+	Animate ChargeLabelBigShadow					FgColor		"Ubercharge_Full"					Linear	0.0		0.0
 	Animate ChargeLabelBigShadowExtra				Alpha		"255"								Linear	0.0		0.0
 
 	// UBER METER -----------------------------------------------------------------------------------------------------------
-	Animate ChargeMeter								FgColor		"Ubercharge Meter Full"				Linear	0.0		0.0
+	Animate ChargeMeter								FgColor		"Ubercharge_Full"					Linear	0.0		0.0
 
 	RunEvent HudMedicChargedLoop					0.6
 }
@@ -29,11 +29,11 @@ event HudMedicChargedStopShadow
 
 	// BIG UBER LABEL -------------------------------------------------------------------------------------------------------
 	Animate	ChargeLabelBig							FgColor		"Ubercharge"						Linear	0.0		0.0001
-	Animate	ChargeLabelBigShadow					FgColor		"Ubercharge Shadow"					Linear	0.0		0.0001
+	Animate	ChargeLabelBigShadow					FgColor		"Main_Shadow"						Linear	0.0		0.0001
 	Animate ChargeLabelBigShadowExtra				Alpha		"0"									Linear	0.0		0.0001
 
 	// UBER METER -----------------------------------------------------------------------------------------------------------
-	Animate	ChargeMeter								FgColor		"Ubercharge"						Linear	0.0		0.0001
+	Animate	ChargeMeter								FgColor		"White"								Linear	0.0		0.0001
 }
 
 //===========================================================================================================================

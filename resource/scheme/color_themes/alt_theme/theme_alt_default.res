@@ -2,10 +2,10 @@
 {
 	"Colors"
 	{
-		"Health Buff"										"0 185 0 255"
+		"Health_Buff"										"0 185 0 255"
 		"Health Buff BG"									"0 185 0 255"
 		"Health Shadow Buff"								"0 0 0 255"
-		"Health Hurt"										"255 0 0 255"
+		"Health_Hurt"										"255 0 0 255"
 		"Health Shadow Hurt"								"0 0 0 255"
 
 		"Extra Shadow"										"0 0 0 0"
