@@ -2,7 +2,7 @@
 // COLORS SCHEME
 //=========================================================
 
-#base "../cfg/m0re_theme.txt"
+#base "ui/customizations/colors/color_customization.res"
 #base "scheme/colors_scheme.res"
 
 //=========================================================

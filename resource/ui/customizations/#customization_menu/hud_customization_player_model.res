@@ -9,7 +9,7 @@
 				"ControlName"							"EditablePanel"
 				"fieldName"								"HUD_Player_Model_Style_Selection"
 				"xpos"									"266"
-				"ypos"									"624"
+				"ypos"									"658"
 				"zpos"									"0"
 				"wide"									"193"
 				"tall"									"70"

@@ -9,7 +9,7 @@
 				"ControlName"							"EditablePanel"
 				"fieldName"								"HUD_Transparent_Viewmodels_Style_Selection"
 				"xpos"									"462"
-				"ypos"									"624"
+				"ypos"									"658"
 				"zpos"									"0"
 				"wide"									"129"
 				"tall"									"70"

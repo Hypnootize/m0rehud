@@ -66,7 +66,7 @@
 		"textAlignment"								"center"
 		"labeltext"									"%Health%"
 		"font"										"m0refont24"
-		"fgcolor"									"Extra_Shadow"
+		"fgcolor"									"Extra_Health_Shadow"
 		"alpha"										"0"
 
 		"pin_to_sibling"							"HealthValue_Killer_Shadow"

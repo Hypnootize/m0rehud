@@ -9,7 +9,7 @@
 				"ControlName"							"EditablePanel"
 				"fieldName"								"HUD_Disguise_Style_Selection"
 				"xpos"									"2"
-				"ypos"									"697"
+				"ypos"									"731"
 				"zpos"									"0"
 				"wide"									"261"
 				"tall"									"70"

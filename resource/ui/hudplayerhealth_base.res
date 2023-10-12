@@ -258,7 +258,7 @@
 		"textAlignment"								"center"
 		"font"										"m0refont72"
 		"font_minmode"								"m0refont32"
-		"fgcolor"									"Extra_Shadow"
+		"fgcolor"									"Extra_Health_Shadow"
 		"alpha"										"0"
 
 		"pin_to_sibling"							"HealthValue_Shadow"

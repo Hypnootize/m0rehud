@@ -9,7 +9,7 @@
 				"ControlName"							"EditablePanel"
 				"fieldName"								"HUD_Scoreboard_Style_Selection"
 				"xpos"									"2"
-				"ypos"									"624"
+				"ypos"									"658"
 				"zpos"									"0"
 				"wide"									"261"
 				"tall"									"70"

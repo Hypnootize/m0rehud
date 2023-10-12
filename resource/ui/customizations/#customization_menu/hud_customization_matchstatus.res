@@ -9,7 +9,7 @@
 				"ControlName"							"EditablePanel"
 				"fieldName"								"HUD_MatchStatus_Style_Selection"
 				"xpos"									"2"
-				"ypos"									"415"
+				"ypos"									"446"
 				"zpos"									"0"
 				"wide"									"f8"
 				"tall"									"70"
