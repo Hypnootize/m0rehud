@@ -54,7 +54,6 @@
 	{
 		"label"										"Workshop"
 		"command"									"engine OpenSteamWorkshopDialog"
-		"OnlyAtMenu"								"1"
 	}
 	"DemoUI"
 	{
@@ -76,12 +75,6 @@
 	//====================================================================================================================================================
 	// IN GAME BUTTONS
 	//====================================================================================================================================================
-	"Minmode"
-	{
-		"label"										"Toggle Minmode"
-		"command"									"engine toggle cl_hud_minmode"
-		"OnlyInGame"								"1"
-	}
 	"Disconnect"
 	{
 		"label"										"Disconnect"

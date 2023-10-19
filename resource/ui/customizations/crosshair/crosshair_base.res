@@ -1,4 +1,4 @@
-"Scripts/Crosshairs/Crosshairs.res"
+"Resource/UI/Customizations/Crosshair/Crosshair_Base.res"
 {
 	"CustomCrosshair"
 	{

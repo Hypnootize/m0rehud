@@ -8,18 +8,17 @@
 			{
 				"ControlName"							"EditablePanel"
 				"fieldName"								"HUD_TargetID_Style_Selection"
-				"xpos"									"2"
-				"ypos"									"520"
+				"xpos"									"3"
+				"ypos"									"628"
 				"zpos"									"0"
-				"wide"									"f8"
+				"wide"									"f12"
 				"tall"									"60"
 				"visible"								"1"
 				"enabled"								"1"
 				"proportionaltoparent"					"1"
 				"paintBackground"						"1"
-				"paintBackgroundType"					"2"
-				"roundedcorners"						"3"
-				"bgcolor_override"						"FooterBGBlack"
+				"paintBackgroundType"					"0"
+				"bgcolor_override"						"Black"
 
 				"Title"
 				{
@@ -34,14 +33,13 @@
 					"enabled"							"1"
 					"proportionaltoparent"				"1"
 					"use_proportional_insets"			"1"
-					"labelText"							"TargetID Style:"
-					"font"								"ItemFontNameSmallest"
+					"labelText"							"TargetID Customization:"
+					"font"								"FontStorePrice"
 					"textAlignment"						"west"
 					"textinsetx"						"5"
 					"fgcolor"							"White"
 					"paintbackground"					"1"
-					"paintBackgroundType"				"2"
-					"roundedcorners"					"3"
+					"paintBackgroundType"				"0"
 					"bgcolor_override"					"StoreGreen"
 				}
 //=================================================================================================================================
@@ -120,7 +118,7 @@
 							"fgcolor"					"White"
 							"paintbackground"			"1"
 							"paintbackgroundtype"		"0"
-							"bgcolor_override"			"Black"
+							"bgcolor_override"			"FooterBGBlack"
 						}
 						"TargetID_HP_Image"
 						{
@@ -182,7 +180,7 @@
 						"proportionaltoparent"			"1"
 						"paintbackground"				"1"
 						"paintbackgroundtype"			"0"
-						"bgcolor_override"				"Black"
+						"bgcolor_override"				"FooterBGBlack"
 
 						"pin_to_sibling"				"TargetID_HP_Numbers"
 						"pin_corner_to_sibling"			"PIN_BOTTOMLEFT"
@@ -228,7 +226,7 @@
 							"fgcolor"					"White"
 							"paintbackground"			"1"
 							"paintbackgroundtype"		"0"
-							"bgcolor_override"			"Black"
+							"bgcolor_override"			"FooterBGBlack"
 						}
 						"TargetID_HP_Image"
 						{
@@ -356,7 +354,7 @@
 							"fgcolor"					"White"
 							"paintbackground"			"1"
 							"paintbackgroundtype"		"0"
-							"bgcolor_override"			"Black"
+							"bgcolor_override"			"FooterBGBlack"
 						}
 						"TargetID_Medigun_Image"
 						{
@@ -386,7 +384,7 @@
 							"visible"					"1"
 							"enabled"					"1"
 							"font"						""
-							"command"					"engine targetid_names"
+							"command"					"engine targetid_uber_clear"
 							"labeltext"					""
 							"sound_depressed"			"UI/buttonclick.wav"
 							"proportionaltoparent"		"1"
@@ -418,7 +416,7 @@
 						"proportionaltoparent"			"1"
 						"paintbackground"				"1"
 						"paintbackgroundtype"			"0"
-						"bgcolor_override"				"Black"
+						"bgcolor_override"				"FooterBGBlack"
 
 						"pin_to_sibling"				"TargetID_Medigun_Names"
 						"pin_corner_to_sibling"			"PIN_BOTTOMLEFT"
@@ -464,7 +462,7 @@
 							"fgcolor"					"White"
 							"paintbackground"			"1"
 							"paintbackgroundtype"		"0"
-							"bgcolor_override"			"Black"
+							"bgcolor_override"			"FooterBGBlack"
 						}
 						"TargetID_Medigun_Image"
 						{
@@ -473,8 +471,8 @@
 							"xpos"						"cs-0.5"
 							"ypos"						"cs-0.5-2"
 							"zpos"						"0"
-							"wide"						"90"
-							"tall"						"45"
+							"wide"						"66"
+							"tall"						"33"
 							"visible"					"1"
 							"enabled"					"1"
 							"mouseinputenabled"			"0"
@@ -522,7 +520,7 @@
 					"xpos"								"2"
 					"ypos"								"0"
 					"zpos"								"20"
-					"wide"								"196"
+					"wide"								"192"
 					"tall"								"f18"
 					"visible"							"1"
 					"enabled"							"1"
@@ -564,7 +562,7 @@
 						"xpos"							"0"
 						"ypos"							"rs1"
 						"zpos"							"1"
-						"wide"							"97"
+						"wide"							"95"
 						"tall"							"f12"
 						"visible"						"1"
 						"enabled"						"1"
@@ -592,7 +590,7 @@
 							"fgcolor"					"White"
 							"paintbackground"			"1"
 							"paintbackgroundtype"		"0"
-							"bgcolor_override"			"Black"
+							"bgcolor_override"			"FooterBGBlack"
 						}
 						"TargetID_Background_Image"
 						{
@@ -622,7 +620,7 @@
 							"visible"					"1"
 							"enabled"					"1"
 							"font"						""
-							"command"					"engine targetid_bg_on"
+							"command"					"engine targetid_bg_clear"
 							"labeltext"					""
 							"sound_depressed"			"UI/buttonclick.wav"
 							"proportionaltoparent"		"1"
@@ -654,7 +652,7 @@
 						"proportionaltoparent"			"1"
 						"paintbackground"				"1"
 						"paintbackgroundtype"			"0"
-						"bgcolor_override"				"Black"
+						"bgcolor_override"				"FooterBGBlack"
 
 						"pin_to_sibling"				"TargetID_Background_ON"
 						"pin_corner_to_sibling"			"PIN_BOTTOMLEFT"
@@ -668,7 +666,7 @@
 						"xpos"							"0"
 						"ypos"							"0"
 						"zpos"							"1"
-						"wide"							"98"
+						"wide"							"96"
 						"tall"							"f12"
 						"visible"						"1"
 						"enabled"						"1"
@@ -700,7 +698,7 @@
 							"fgcolor"					"White"
 							"paintbackground"			"1"
 							"paintbackgroundtype"		"0"
-							"bgcolor_override"			"Black"
+							"bgcolor_override"			"FooterBGBlack"
 						}
 						"TargetID_Background_Image"
 						{

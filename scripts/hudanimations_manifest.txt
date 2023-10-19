@@ -12,6 +12,7 @@
 	"file" "cfg/m0re_animation_style.txt"
 	"file" "cfg/m0re_uber_counter.txt"
 	"file" "cfg/m0re_crosshair_animation.txt"
+	"file" "cfg/m0re_hitmarker_animation.txt"
 
 	//===============================================================
 	// HEALTH-AMMO-UBER DEFAULT ANIMATIONS
@@ -36,16 +37,13 @@
 	//===============================================================
 	"file" "scripts/animations/hudanimations_uber_shadow.txt"
 	"file" "scripts/animations/hudanimations_uber_number.txt"
-
+	"file" "scripts/animations/hudanimations_uber_counter.txt"
+	
 	//===============================================================
-	// UBERCHARGE COUNTER ANIMATION
-	//===============================================================
-	"file" "scripts/animations/hudanimations_counter.txt"
-
-	//===============================================================
-	// CROSSHAIR FLASH ANIMATION
+	// CROSSHAIR & HITMARKER FLASH ANIMATION
 	//===============================================================
 	"file" "scripts/animations/hudanimations_crosshairs.txt"
+	"file" "scripts/animations/hudanimations_hitmarker.txt"
 
 	//===============================================================
 	// OTHER ANIMATIONS

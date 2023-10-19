@@ -696,46 +696,6 @@
 	//==================================================================================================================================================
 	// INGAME BUTTONS
 	//==================================================================================================================================================
-	"Minmode"
-	{
-		"ControlName"								"EditablePanel"
-		"fieldname"									"Minmode"
-		"xpos"										"0"
-		"ypos"										"0"
-		"zpos"										"15"
-		"wide"										"150"
-		"tall"										"17"
-		"visible"									"0"
-
-		"pin_to_sibling"							"HUDOptions"
-		"pin_corner_to_sibling"						"PIN_TOPLEFT"
-		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
-
-		"SubButton"
-		{
-			"ControlName"							"CExImageButton"
-			"fieldName"								"SubButton"
-			"xpos"									"0"
-			"ypos"									"0"
-			"wide"									"f0"
-			"tall"									"f0"
-			"visible"								"1"
-			"enabled"								"1"
-			"proportionaltoparent"					"1"
-			"font"									"Coolvetica16"
-			"AllCaps"								"1"
-			"textAlignment"							"west"
-			"sound_depressed"						"UI/buttonclick.wav"
-			"sound_released"						"UI/buttonclickrelease.wav"
-
-			"paintbackground"						"0"
-			"paintborder"							"0"
-
-			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"Menu_Accent"
-			"depressedFgColor_override"				"Menu_Accent"
-		}
-	}
 	"Disconnect"
 	{
 		"ControlName"								"EditablePanel"

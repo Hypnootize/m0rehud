@@ -8,8 +8,8 @@
 			{
 				"ControlName"							"EditablePanel"
 				"fieldName"								"HUD_Scoreboard_Style_Selection"
-				"xpos"									"2"
-				"ypos"									"658"
+				"xpos"									"3"
+				"ypos"									"840"
 				"zpos"									"0"
 				"wide"									"261"
 				"tall"									"70"
@@ -17,9 +17,8 @@
 				"enabled"								"1"
 				"proportionaltoparent"					"1"
 				"paintBackground"						"1"
-				"paintBackgroundType"					"2"
-				"roundedcorners"						"3"
-				"bgcolor_override"						"FooterBGBlack"
+				"paintBackgroundType"					"0"
+				"bgcolor_override"						"Black"
 
 				"Title"
 				{
@@ -34,14 +33,13 @@
 					"enabled"							"1"
 					"proportionaltoparent"				"1"
 					"use_proportional_insets"			"1"
-					"labelText"							"Scoreboard Style:"
-					"font"								"ItemFontNameSmallest"
+					"labelText"							"Scoreboard Customization:"
+					"font"								"FontStorePrice"
 					"textAlignment"						"west"
 					"textinsetx"						"5"
 					"fgcolor"							"White"
 					"paintbackground"					"1"
-					"paintBackgroundType"				"2"
-					"roundedcorners"					"3"
+					"paintBackgroundType"				"0"
 					"bgcolor_override"					"StoreGreen"
 				}
 //=================================================================================================================================
@@ -120,7 +118,7 @@
 							"fgcolor"					"White"
 							"paintbackground"			"1"
 							"paintbackgroundtype"		"0"
-							"bgcolor_override"			"Black"
+							"bgcolor_override"			"FooterBGBlack"
 						}
 						"Scoreboard_Image"
 						{
@@ -150,7 +148,7 @@
 							"visible"					"1"
 							"enabled"					"1"
 							"font"						""
-							"command"					"engine scoreboard_default"
+							"command"					"engine scoreboard_style_clear"
 							"labeltext"					""
 							"sound_depressed"			"UI/buttonclick.wav"
 							"proportionaltoparent"		"1"
@@ -182,7 +180,7 @@
 						"proportionaltoparent"			"1"
 						"paintbackground"				"1"
 						"paintbackgroundtype"			"0"
-						"bgcolor_override"				"Black"
+						"bgcolor_override"				"FooterBGBlack"
 
 						"pin_to_sibling"				"Scoreboard_m0re"
 						"pin_corner_to_sibling"			"PIN_BOTTOMLEFT"
@@ -228,7 +226,7 @@
 							"fgcolor"					"White"
 							"paintbackground"			"1"
 							"paintbackgroundtype"		"0"
-							"bgcolor_override"			"Black"
+							"bgcolor_override"			"FooterBGBlack"
 						}
 						"Scoreboard_Image"
 						{
@@ -356,7 +354,7 @@
 							"fgcolor"					"White"
 							"paintbackground"			"1"
 							"paintbackgroundtype"		"0"
-							"bgcolor_override"			"Black"
+							"bgcolor_override"			"FooterBGBlack"
 						}
 						"Scoreboard_Image"
 						{
@@ -386,7 +384,7 @@
 							"visible"					"1"
 							"enabled"					"1"
 							"font"						""
-							"command"					"engine scoreboard_12v12"
+							"command"					"engine scoreboard_size_clear"
 							"labeltext"					""
 							"sound_depressed"			"UI/buttonclick.wav"
 							"proportionaltoparent"		"1"
@@ -418,7 +416,7 @@
 						"proportionaltoparent"			"1"
 						"paintbackground"				"1"
 						"paintbackgroundtype"			"0"
-						"bgcolor_override"				"Black"
+						"bgcolor_override"				"FooterBGBlack"
 
 						"pin_to_sibling"				"Scoreboard_12v12"
 						"pin_corner_to_sibling"			"PIN_BOTTOMLEFT"
@@ -464,7 +462,7 @@
 							"fgcolor"					"White"
 							"paintbackground"			"1"
 							"paintbackgroundtype"		"0"
-							"bgcolor_override"			"Black"
+							"bgcolor_override"			"FooterBGBlack"
 						}
 						"Scoreboard_Image"
 						{

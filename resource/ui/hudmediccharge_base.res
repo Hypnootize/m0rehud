@@ -30,7 +30,7 @@
 		"fieldName"									"ChargeLabel"
 		"xpos"										"cs-0.5"
 		"xpos_minmode"								"0"
-		"ypos"										"c50"
+		"ypos"										"c45"
 		"ypos_minmode"								"0"
 		"zpos"										"2"
 		"wide"										"100"

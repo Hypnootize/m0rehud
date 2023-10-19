@@ -32,3 +32,6 @@ event HudMedicChargedStop
 {
 	RunEvent HudMedicChargedStopShadow			0.0
 }
+event UberTimer
+{
+}

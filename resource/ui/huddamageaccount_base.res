@@ -11,6 +11,7 @@
 		"delta_lifetime"							"2"
 		"delta_item_font"							"m0refont18Outline"
 		"delta_item_font_big"						"m0refont18Outline"
+		"alpha"										"255"
 	}
 	"DamageAccountValue"
 	{
@@ -27,6 +28,7 @@
 		"tall_minmode"								"15"
 		"visible"									"0"
 		"enabled"									"1"
+		"alpha"										"255"
 		"labelText"									"%metal%"
 		"textAlignment"								"center"
 		"fgcolor"									"Last_Damage_Done"
@@ -47,6 +49,7 @@
 		"tall_minmode"								"16"
 		"visible"									"0"
 		"enabled"									"1"
+		"alpha"										"255"
 		"labelText"									"%metal%"
 		"textAlignment"								"center"
 		"fgcolor"									"Black"

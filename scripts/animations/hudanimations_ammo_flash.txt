@@ -2,9 +2,9 @@
 
 event HudLowAmmoPulseFlash
 {
-	Animate AmmoInClipShadow						FgColor		"Ammo_In_Clip_Low"					Linear	0.0		0.0
-	Animate AmmoInReserveShadow						FgColor		"Ammo_In_Reserve_Low"				Linear	0.0		0.0
-	Animate AmmoNoClipShadow						FgColor		"Ammo_In_Clip_Low"					Linear	0.0		0.0
+	Animate AmmoInClipShadow						FgColor		"255 0 0 255"						Linear	0.0		0.0
+	Animate AmmoInReserveShadow						FgColor		"255 0 0 255"						Linear	0.0		0.0
+	Animate AmmoNoClipShadow						FgColor		"255 0 0 255"						Linear	0.0		0.0
 
 	Animate	AmmoInClip								FgColor		"255 50 140 255"					Linear	0.0		0.075
 	Animate	AmmoInClip								FgColor		"255 100 200 255"					Linear	0.125	0.075

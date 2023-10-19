@@ -8,8 +8,8 @@
 			{
 				"ControlName"							"EditablePanel"
 				"fieldName"								"HUD_Heads_Style_Selection"
-				"xpos"									"198"
-				"ypos"									"584"
+				"xpos"									"135"
+				"ypos"									"692"
 				"zpos"									"0"
 				"wide"									"129"
 				"tall"									"70"
@@ -17,9 +17,8 @@
 				"enabled"								"1"
 				"proportionaltoparent"					"1"
 				"paintBackground"						"1"
-				"paintBackgroundType"					"2"
-				"roundedcorners"						"3"
-				"bgcolor_override"						"FooterBGBlack"
+				"paintBackgroundType"					"0"
+				"bgcolor_override"						"Black"
 
 				"Title"
 				{
@@ -35,13 +34,12 @@
 					"proportionaltoparent"				"1"
 					"use_proportional_insets"			"1"
 					"labelText"							"Heads Counter Style:"
-					"font"								"ItemFontNameSmallest"
+					"font"								"FontStorePrice"
 					"textAlignment"						"west"
 					"textinsetx"						"5"
 					"fgcolor"							"White"
 					"paintbackground"					"1"
-					"paintBackgroundType"				"2"
-					"roundedcorners"					"3"
+					"paintBackgroundType"				"0"
 					"bgcolor_override"					"StoreGreen"
 				}
 // UNDER AMMO ------------------------------------------------------------------------------------------------------------------------
@@ -110,7 +108,7 @@
 						"visible"						"1"
 						"enabled"						"1"
 						"font"							""
-						"command"						"engine heads_under_ammo"
+						"command"						"engine heads_clear"
 						"labeltext"						""
 						"sound_depressed"				"UI/buttonclick.wav"
 						"proportionaltoparent"			"1"
