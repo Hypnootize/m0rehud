@@ -5,7 +5,7 @@
 		"ControlName"									"EditablePanel"
 		"fieldName"										"SafeMode"
 		"xpos"											"cs-0.5"
-		"ypos"											"cs-0.5+10"
+		"ypos"											"cs-0.5+5"
 		"wide"											"600"
 		"tall"											"430"
 		"zpos"											"50"
