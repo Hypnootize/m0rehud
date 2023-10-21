@@ -6,7 +6,7 @@
 	"Version"
 	{
 		"label"										"m0rehud 7.1"
-		"command"									"engine showconsole; echo m0rehud by Hypnotize github.com/Hypnootize/m0rehud all credits to m0re"
+		"command"									"engine showconsole; echo m0rehud by Hypnotize, created by m0re. Download new versions @ github.com/Hypnootize/m0rehud"
 		"OnlyAtMenu"								"1"
 	}
 	"Servers"
