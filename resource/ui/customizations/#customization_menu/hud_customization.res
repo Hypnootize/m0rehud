@@ -138,3 +138,4 @@
 // MENU FRAME
 //==============================================================
 #base "hud_customization_frame.res"
+#base "hud_customization_infos.res"

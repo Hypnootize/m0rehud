@@ -98,7 +98,7 @@
 						"labelText"						"Enable"
 						"font"							"ItemFontNameSmallest"
 						"textAlignment"					"center"
-						"Command"						"engine hitmarker_visible"
+						"Command"						"engine m0_hitmarker_visible"
 						"sound_depressed"				"UI/buttonclick.wav"
 
 						"paintbackground"				"1"
@@ -131,7 +131,7 @@
 						"labelText"						"Disable"
 						"font"							"ItemFontNameSmallest"
 						"textAlignment"					"center"
-						"Command"						"engine hitmarker_invisible"
+						"Command"						"engine m0_hitmarker_invisible"
 						"sound_depressed"				"UI/buttonclick.wav"
 
 						"paintbackground"				"1"
@@ -209,7 +209,7 @@
 						"labelText"						"0"
 						"font"							"Crosshair_Showcase"
 						"textAlignment"					"center"
-						"Command"						"engine hitmarker_style_1"
+						"Command"						"engine m0_hitmarker_style_1"
 						"sound_depressed"				"UI/buttonclick.wav"
 
 						"paintbackground"				"1"
@@ -242,7 +242,7 @@
 						"labelText"						"4"
 						"font"							"Crosshair_Showcase"
 						"textAlignment"					"center"
-						"Command"						"engine hitmarker_style_2"
+						"Command"						"engine m0_hitmarker_style_2"
 						"sound_depressed"				"UI/buttonclick.wav"
 
 						"paintbackground"				"1"
@@ -279,7 +279,7 @@
 						"labelText"						"6"
 						"font"							"Crosshair_Showcase"
 						"textAlignment"					"center"
-						"Command"						"engine hitmarker_style_3"
+						"Command"						"engine m0_hitmarker_style_3"
 						"sound_depressed"				"UI/buttonclick.wav"
 
 						"paintbackground"				"1"
@@ -316,7 +316,7 @@
 						"labelText"						"8"
 						"font"							"Crosshair_Showcase"
 						"textAlignment"					"center"
-						"Command"						"engine hitmarker_style_4"
+						"Command"						"engine m0_hitmarker_style_4"
 						"sound_depressed"				"UI/buttonclick.wav"
 
 						"paintbackground"				"1"
@@ -353,7 +353,7 @@
 						"labelText"						">"
 						"font"							"Crosshair_Showcase"
 						"textAlignment"					"center"
-						"Command"						"engine hitmarker_style_5"
+						"Command"						"engine m0_hitmarker_style_5"
 						"sound_depressed"				"UI/buttonclick.wav"
 
 						"paintbackground"				"1"
@@ -390,7 +390,7 @@
 						"labelText"						"?"
 						"font"							"Crosshair_Showcase"
 						"textAlignment"					"center"
-						"Command"						"engine hitmarker_style_6"
+						"Command"						"engine m0_hitmarker_style_6"
 						"sound_depressed"				"UI/buttonclick.wav"
 
 						"paintbackground"				"1"
@@ -427,7 +427,7 @@
 						"labelText"						"F"
 						"font"							"Crosshair_Showcase"
 						"textAlignment"					"center"
-						"Command"						"engine hitmarker_style_7"
+						"Command"						"engine m0_hitmarker_style_7"
 						"sound_depressed"				"UI/buttonclick.wav"
 
 						"paintbackground"				"1"
@@ -464,7 +464,7 @@
 						"labelText"						"J"
 						"font"							"Crosshair_Showcase"
 						"textAlignment"					"center"
-						"Command"						"engine hitmarker_style_8"
+						"Command"						"engine m0_hitmarker_style_8"
 						"sound_depressed"				"UI/buttonclick.wav"
 
 						"paintbackground"				"1"
@@ -501,7 +501,7 @@
 						"labelText"						"N"
 						"font"							"Crosshair_Showcase"
 						"textAlignment"					"center"
-						"Command"						"engine hitmarker_style_9"
+						"Command"						"engine m0_hitmarker_style_9"
 						"sound_depressed"				"UI/buttonclick.wav"
 
 						"paintbackground"				"1"
@@ -538,7 +538,7 @@
 						"labelText"						"Q"
 						"font"							"Crosshair_Showcase"
 						"textAlignment"					"center"
-						"Command"						"engine hitmarker_style_10"
+						"Command"						"engine m0_hitmarker_style_10"
 						"sound_depressed"				"UI/buttonclick.wav"
 
 						"paintbackground"				"1"
@@ -575,7 +575,7 @@
 						"labelText"						"U"
 						"font"							"Crosshair_Showcase"
 						"textAlignment"					"center"
-						"Command"						"engine hitmarker_style_11"
+						"Command"						"engine m0_hitmarker_style_11"
 						"sound_depressed"				"UI/buttonclick.wav"
 
 						"paintbackground"				"1"
@@ -612,7 +612,7 @@
 						"labelText"						"X"
 						"font"							"Crosshair_Showcase"
 						"textAlignment"					"center"
-						"Command"						"engine hitmarker_style_12"
+						"Command"						"engine m0_hitmarker_style_12"
 						"sound_depressed"				"UI/buttonclick.wav"
 
 						"paintbackground"				"1"
@@ -649,7 +649,7 @@
 						"labelText"						"["
 						"font"							"Crosshair_Showcase"
 						"textAlignment"					"center"
-						"Command"						"engine hitmarker_style_13"
+						"Command"						"engine m0_hitmarker_style_13"
 						"sound_depressed"				"UI/buttonclick.wav"
 
 						"paintbackground"				"1"
@@ -686,7 +686,7 @@
 						"labelText"						"]"
 						"font"							"Crosshair_Showcase"
 						"textAlignment"					"center"
-						"Command"						"engine hitmarker_style_14"
+						"Command"						"engine m0_hitmarker_style_14"
 						"sound_depressed"				"UI/buttonclick.wav"
 
 						"paintbackground"				"1"
@@ -723,7 +723,7 @@
 						"labelText"						"a"
 						"font"							"Crosshair_Showcase"
 						"textAlignment"					"center"
-						"Command"						"engine hitmarker_style_15"
+						"Command"						"engine m0_hitmarker_style_15"
 						"sound_depressed"				"UI/buttonclick.wav"
 
 						"paintbackground"				"1"
@@ -760,7 +760,7 @@
 						"labelText"						"k"
 						"font"							"Crosshair_Showcase"
 						"textAlignment"					"center"
-						"Command"						"engine hitmarker_style_16"
+						"Command"						"engine m0_hitmarker_style_16"
 						"sound_depressed"				"UI/buttonclick.wav"
 
 						"paintbackground"				"1"
@@ -797,7 +797,7 @@
 						"labelText"						"l"
 						"font"							"Crosshair_Showcase"
 						"textAlignment"					"center"
-						"Command"						"engine hitmarker_style_17"
+						"Command"						"engine m0_hitmarker_style_17"
 						"sound_depressed"				"UI/buttonclick.wav"
 
 						"paintbackground"				"1"
@@ -834,7 +834,7 @@
 						"labelText"						"n"
 						"font"							"Crosshair_Showcase"
 						"textAlignment"					"center"
-						"Command"						"engine hitmarker_style_18"
+						"Command"						"engine m0_hitmarker_style_18"
 						"sound_depressed"				"UI/buttonclick.wav"
 
 						"paintbackground"				"1"
@@ -871,7 +871,7 @@
 						"labelText"						"o"
 						"font"							"Crosshair_Showcase"
 						"textAlignment"					"center"
-						"Command"						"engine hitmarker_style_19"
+						"Command"						"engine m0_hitmarker_style_19"
 						"sound_depressed"				"UI/buttonclick.wav"
 
 						"paintbackground"				"1"
@@ -908,7 +908,7 @@
 						"labelText"						"r"
 						"font"							"Crosshair_Showcase"
 						"textAlignment"					"center"
-						"Command"						"engine hitmarker_style_20"
+						"Command"						"engine m0_hitmarker_style_20"
 						"sound_depressed"				"UI/buttonclick.wav"
 
 						"paintbackground"				"1"
@@ -945,7 +945,7 @@
 						"labelText"						"u"
 						"font"							"Crosshair_Showcase"
 						"textAlignment"					"center"
-						"Command"						"engine hitmarker_style_21"
+						"Command"						"engine m0_hitmarker_style_21"
 						"sound_depressed"				"UI/buttonclick.wav"
 
 						"paintbackground"				"1"
@@ -982,7 +982,7 @@
 						"labelText"						"x"
 						"font"							"Crosshair_Showcase"
 						"textAlignment"					"center"
-						"Command"						"engine hitmarker_style_22"
+						"Command"						"engine m0_hitmarker_style_22"
 						"sound_depressed"				"UI/buttonclick.wav"
 
 						"paintbackground"				"1"
@@ -1064,7 +1064,7 @@
 						"labelText"						"10"
 						"font"							"ItemFontNameSmallest"
 						"textAlignment"					"center"
-						"Command"						"engine hitmarker_size_10"
+						"Command"						"engine m0_hitmarker_size_10"
 						"sound_depressed"				"UI/buttonclick.wav"
 
 						"paintbackground"				"1"
@@ -1097,7 +1097,7 @@
 						"labelText"						"12"
 						"font"							"ItemFontNameSmallest"
 						"textAlignment"					"center"
-						"Command"						"engine hitmarker_size_12"
+						"Command"						"engine m0_hitmarker_size_12"
 						"sound_depressed"				"UI/buttonclick.wav"
 
 						"paintbackground"				"1"
@@ -1134,7 +1134,7 @@
 						"labelText"						"14"
 						"font"							"ItemFontNameSmallest"
 						"textAlignment"					"center"
-						"Command"						"engine hitmarker_size_14"
+						"Command"						"engine m0_hitmarker_size_14"
 						"sound_depressed"				"UI/buttonclick.wav"
 
 						"paintbackground"				"1"
@@ -1171,7 +1171,7 @@
 						"labelText"						"16"
 						"font"							"ItemFontNameSmallest"
 						"textAlignment"					"center"
-						"Command"						"engine hitmarker_size_16"
+						"Command"						"engine m0_hitmarker_size_16"
 						"sound_depressed"				"UI/buttonclick.wav"
 
 						"paintbackground"				"1"
@@ -1208,7 +1208,7 @@
 						"labelText"						"18"
 						"font"							"ItemFontNameSmallest"
 						"textAlignment"					"center"
-						"Command"						"engine hitmarker_size_18"
+						"Command"						"engine m0_hitmarker_size_18"
 						"sound_depressed"				"UI/buttonclick.wav"
 
 						"paintbackground"				"1"
@@ -1245,7 +1245,7 @@
 						"labelText"						"20"
 						"font"							"ItemFontNameSmallest"
 						"textAlignment"					"center"
-						"Command"						"engine hitmarker_size_20"
+						"Command"						"engine m0_hitmarker_size_20"
 						"sound_depressed"				"UI/buttonclick.wav"
 
 						"paintbackground"				"1"
@@ -1282,7 +1282,7 @@
 						"labelText"						"22"
 						"font"							"ItemFontNameSmallest"
 						"textAlignment"					"center"
-						"Command"						"engine hitmarker_size_22"
+						"Command"						"engine m0_hitmarker_size_22"
 						"sound_depressed"				"UI/buttonclick.wav"
 
 						"paintbackground"				"1"
@@ -1319,7 +1319,7 @@
 						"labelText"						"24"
 						"font"							"ItemFontNameSmallest"
 						"textAlignment"					"center"
-						"Command"						"engine hitmarker_size_24"
+						"Command"						"engine m0_hitmarker_size_24"
 						"sound_depressed"				"UI/buttonclick.wav"
 
 						"paintbackground"				"1"
@@ -1356,7 +1356,7 @@
 						"labelText"						"26"
 						"font"							"ItemFontNameSmallest"
 						"textAlignment"					"center"
-						"Command"						"engine hitmarker_size_26"
+						"Command"						"engine m0_hitmarker_size_26"
 						"sound_depressed"				"UI/buttonclick.wav"
 
 						"paintbackground"				"1"
@@ -1393,7 +1393,7 @@
 						"labelText"						"28"
 						"font"							"ItemFontNameSmallest"
 						"textAlignment"					"center"
-						"Command"						"engine hitmarker_size_28"
+						"Command"						"engine m0_hitmarker_size_28"
 						"sound_depressed"				"UI/buttonclick.wav"
 
 						"paintbackground"				"1"
@@ -1430,7 +1430,7 @@
 						"labelText"						"30"
 						"font"							"ItemFontNameSmallest"
 						"textAlignment"					"center"
-						"Command"						"engine hitmarker_size_30"
+						"Command"						"engine m0_hitmarker_size_30"
 						"sound_depressed"				"UI/buttonclick.wav"
 
 						"paintbackground"				"1"
@@ -1467,7 +1467,7 @@
 						"labelText"						"32"
 						"font"							"ItemFontNameSmallest"
 						"textAlignment"					"center"
-						"Command"						"engine hitmarker_size_30"
+						"Command"						"engine m0_hitmarker_size_30"
 						"sound_depressed"				"UI/buttonclick.wav"
 
 						"paintbackground"				"1"

@@ -99,7 +99,7 @@
 			"labelText"									"Reset Everything To Default"
 			"font"										"FontStorePrice"
 			"textAlignment"								"center"
-			"Command"									"engine customization_reset"
+			"Command"									"engine m0_customization_reset"
 			"actionsignallevel"							"2"
 			"sound_depressed"							"UI/buttonclick.wav"
 
