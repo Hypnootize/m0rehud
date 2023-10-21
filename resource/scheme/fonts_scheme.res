@@ -1289,6 +1289,7 @@
 				"tall"										"24"
 				"range"										"0x0000 0x017F"
 				"antialias"									"1"
+				"dropshadow"								"1"
 			}
 		}
 		"CloseCaption_Italic"
@@ -1300,6 +1301,7 @@
 				"italic"									"1"
 				"range"										"0x0000 0x017F"
 				"antialias"									"1"
+				"dropshadow"								"1"
 			}
 		}
 		"CloseCaption_Bold"
@@ -1310,6 +1312,7 @@
 				"tall"										"24"
 				"range"										"0x0000 0x017F"
 				"antialias"									"1"
+				"dropshadow"								"1"
 			}
 		}
 		"CloseCaption_BoldItalic"
@@ -1321,6 +1324,7 @@
 				"italic"									"1"
 				"range"										"0x0000 0x017F"
 				"antialias"									"1"
+				"dropshadow"								"1"
 			}
 		}
 		"CloseCaption_Small"
@@ -1331,6 +1335,7 @@
 				"tall"										"16"
 				"range"										"0x0000 0x017F"
 				"antialias"									"1"
+				"dropshadow"								"1"
 			}
 		}
 		"Marlett"
