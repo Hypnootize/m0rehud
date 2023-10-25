@@ -11,6 +11,27 @@
 		"visible"									"1"
 		"enabled"									"1"
 	}
+	//=====================================================================================
+	// CUSTOM BACKGROUND IMAGE
+	//-------------------------------------------------------------------------------------
+	// Check out the dedicated wiki page on how to enable custom backgrounds
+	// https://github.com/Hypnootize/m0rehud/wiki/LOADING-SCREEN
+	//=====================================================================================
+	"CustomBackground"
+	{
+		"ControlName"								"ImagePanel"
+		"fieldName"									"CustomBackground"
+		"xpos"										"0"
+		"ypos"										"0"
+		"zpos"										"1"
+		"wide"										"f0"
+		"tall"										"f0"
+		"visible"									"0"
+		"enabled"									"1"
+		"image"										"replay/thumbnails/menu/loading_bg"
+		"scaleImage"								"1"
+	}
+	//=====================================================================================
 	"MainBackground"
 	{
 		"ControlName"								"ImagePanel"
@@ -30,6 +51,7 @@
 		"fieldName"									"MapInfo"
 		"xpos"										"0"
 		"ypos"										"0"
+		"zpos"										"0"
 		"wide"										"f0"
 		"tall"										"480"
 		"visible"									"0"
@@ -223,7 +245,7 @@
 		"fieldName"									"StatData"
 		"xpos"										"0"
 		"ypos"										"105"
-		"zpos"										"1"
+		"zpos"										"50"
 		"wide"										"f0"
 		"tall"										"f0"
 		"visible"									"1"
