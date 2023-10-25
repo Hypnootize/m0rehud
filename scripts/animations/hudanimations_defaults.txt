@@ -1,6 +1,6 @@
 event HudHealthBonusPulse
 {
-	RunEvent HudHealthBonusPulseShadow			0.0
+	RunEvent HudHealthBonusPulseLoop			0.0
 }
 event HudHealthBonusPulseLoop
 {
@@ -12,7 +12,7 @@ event HudHealthBonusPulseStop
 }
 event HudHealthDyingPulse
 {
-	RunEvent HudHealthDyingPulseShadow			0.0
+	RunEvent HudHealthDyingPulseLoop			0.0
 }
 event HudHealthDyingPulseLoop
 {
@@ -25,7 +25,7 @@ event HudHealthDyingPulseStop
 //===========================================================================================================================
 event HudLowAmmoPulse
 {
-	RunEvent HudLowAmmoPulseShadow				0.0
+	RunEvent HudLowAmmoPulseLoop				0.0
 }
 event HudLowAmmoPulseLoop
 {
@@ -38,7 +38,7 @@ event HudLowAmmoPulseStop
 //===========================================================================================================================
 event HudMedicCharged
 {
-	RunEvent HudMedicChargedShadow				0.0
+	RunEvent HudMedicChargedLoop				0.0
 }
 event HudMedicChargedLoop
 {

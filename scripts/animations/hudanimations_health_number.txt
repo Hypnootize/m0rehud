@@ -32,6 +32,7 @@ event HudHealthBonusPulseStopNumber
 {
 	StopEvent HudHealthBonusPulseNumber				0.0
 	StopEvent HudHealthBonusPulseLoop				0.0
+	StopEvent HudHealthBonusPulse					0.0
 
 	// NORMAL HEALTH --------------------------------------------------------------------------------------------------------
 	Animate	PlayerStatusHealthBonusBG				Alpha		"0"									Linear	0.0		0.0

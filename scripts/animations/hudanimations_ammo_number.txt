@@ -25,6 +25,7 @@ event HudLowAmmoPulseStopNumber
 {
 	StopEvent HudLowAmmoPulseNumber					0.0
 	StopEvent HudLowAmmoPulseLoop					0.0
+	StopEvent HudLowAmmoPulse						0.0
 
 	// AMMO IN CLIP ---------------------------------------------------------------------------------------------------------
 	Animate AmmoInClip								FgColor		"Ammo_In_Clip"						Linear	0.0		0.0

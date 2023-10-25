@@ -23,6 +23,7 @@ event HudMedicChargedStopNumber
 {
 	StopEvent HudMedicChargedNumber					0.0
 	StopEvent HudMedicChargedLoop					0.0
+	StopEvent HudMedicCharged						0.0
 
 	// SMALL UBER LABEL -----------------------------------------------------------------------------------------------------
 	Animate	ChargeLabel								FgColor		"Ubercharge"						Linear	0.0		0.0001
