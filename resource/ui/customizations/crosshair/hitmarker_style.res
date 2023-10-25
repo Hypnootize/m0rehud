@@ -1,1 +1,1 @@
-#base "../../../../cfg/m0re_hitmarker_style.txt"
+#base "../../../../../../cfg/m0re_hitmarker_style.txt"
