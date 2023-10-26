@@ -52,8 +52,8 @@
 				"paintborder"						"0"
 
 				"defaultFgColor_override"			"White"
-				"armedFgColor_override"				"Menu Labels"
-				"depressedFgColor_override"			"Menu Labels"
+				"armedFgColor_override"				"Menu_Accent"
+				"depressedFgColor_override"			"Menu_Accent"
 			}
 		}
 		"SaxxySettings"
@@ -259,8 +259,8 @@
 			"paintborder"							"0"
 
 			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"Menu Labels"
-			"depressedFgColor_override"				"Menu Labels"
+			"armedFgColor_override"					"Menu_Accent"
+			"depressedFgColor_override"				"Menu_Accent"
 		}
 	}
 	"Servers"
@@ -298,8 +298,8 @@
 			"paintborder"							"0"
 
 			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"Menu Labels"
-			"depressedFgColor_override"				"Menu Labels"
+			"armedFgColor_override"					"Menu_Accent"
+			"depressedFgColor_override"				"Menu_Accent"
 		}
 	}
 	"Create"
@@ -337,8 +337,8 @@
 			"paintborder"							"0"
 
 			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"Menu Labels"
-			"depressedFgColor_override"				"Menu Labels"
+			"armedFgColor_override"					"Menu_Accent"
+			"depressedFgColor_override"				"Menu_Accent"
 		}
 	}
 	"Items"
@@ -376,8 +376,8 @@
 			"paintborder"							"0"
 
 			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"Menu Labels"
-			"depressedFgColor_override"				"Menu Labels"
+			"armedFgColor_override"					"Menu_Accent"
+			"depressedFgColor_override"				"Menu_Accent"
 		}
 	}
 	"Store"
@@ -415,8 +415,8 @@
 			"paintborder"							"0"
 
 			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"Menu Labels"
-			"depressedFgColor_override"				"Menu Labels"
+			"armedFgColor_override"					"Menu_Accent"
+			"depressedFgColor_override"				"Menu_Accent"
 		}
 	}
 	"Settings"
@@ -454,8 +454,8 @@
 			"paintborder"							"0"
 
 			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"Menu Labels"
-			"depressedFgColor_override"				"Menu Labels"
+			"armedFgColor_override"					"Menu_Accent"
+			"depressedFgColor_override"				"Menu_Accent"
 		}
 	}
 	"Advanced"
@@ -493,8 +493,8 @@
 			"paintborder"							"0"
 
 			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"Menu Labels"
-			"depressedFgColor_override"				"Menu Labels"
+			"armedFgColor_override"					"Menu_Accent"
+			"depressedFgColor_override"				"Menu_Accent"
 		}
 	}
 	"HUDOptions"
@@ -532,8 +532,8 @@
 			"paintborder"							"0"
 
 			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"Menu Labels"
-			"depressedFgColor_override"				"Menu Labels"
+			"armedFgColor_override"					"Menu_Accent"
+			"depressedFgColor_override"				"Menu_Accent"
 		}
 	}
 	"Workshop"
@@ -571,8 +571,8 @@
 			"paintborder"							"0"
 
 			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"Menu Labels"
-			"depressedFgColor_override"				"Menu Labels"
+			"armedFgColor_override"					"Menu_Accent"
+			"depressedFgColor_override"				"Menu_Accent"
 		}
 	}
 	"DemoUI"
@@ -610,8 +610,8 @@
 			"paintborder"							"0"
 
 			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"Menu Labels"
-			"depressedFgColor_override"				"Menu Labels"
+			"armedFgColor_override"					"Menu_Accent"
+			"depressedFgColor_override"				"Menu_Accent"
 		}
 	}
 	"Contracker"
@@ -649,8 +649,8 @@
 			"paintborder"							"0"
 
 			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"Menu Labels"
-			"depressedFgColor_override"				"Menu Labels"
+			"armedFgColor_override"					"Menu_Accent"
+			"depressedFgColor_override"				"Menu_Accent"
 		}
 	}
 	"Quit"
@@ -688,54 +688,14 @@
 			"paintborder"							"0"
 
 			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"Menu Labels"
-			"depressedFgColor_override"				"Menu Labels"
+			"armedFgColor_override"					"Menu_Accent"
+			"depressedFgColor_override"				"Menu_Accent"
 		}
 	}
 
 	//==================================================================================================================================================
 	// INGAME BUTTONS
 	//==================================================================================================================================================
-	"Minmode"
-	{
-		"ControlName"								"EditablePanel"
-		"fieldname"									"Minmode"
-		"xpos"										"0"
-		"ypos"										"0"
-		"zpos"										"15"
-		"wide"										"150"
-		"tall"										"17"
-		"visible"									"0"
-
-		"pin_to_sibling"							"HUDOptions"
-		"pin_corner_to_sibling"						"PIN_TOPLEFT"
-		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
-
-		"SubButton"
-		{
-			"ControlName"							"CExImageButton"
-			"fieldName"								"SubButton"
-			"xpos"									"0"
-			"ypos"									"0"
-			"wide"									"f0"
-			"tall"									"f0"
-			"visible"								"1"
-			"enabled"								"1"
-			"proportionaltoparent"					"1"
-			"font"									"Coolvetica16"
-			"AllCaps"								"1"
-			"textAlignment"							"west"
-			"sound_depressed"						"UI/buttonclick.wav"
-			"sound_released"						"UI/buttonclickrelease.wav"
-
-			"paintbackground"						"0"
-			"paintborder"							"0"
-
-			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"Menu Labels"
-			"depressedFgColor_override"				"Menu Labels"
-		}
-	}
 	"Disconnect"
 	{
 		"ControlName"								"EditablePanel"
@@ -772,8 +732,8 @@
 			"paintborder"							"0"
 
 			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"Menu Labels"
-			"depressedFgColor_override"				"Menu Labels"
+			"armedFgColor_override"					"Menu_Accent"
+			"depressedFgColor_override"				"Menu_Accent"
 		}
 	}
 	"QuitGame"
@@ -812,8 +772,8 @@
 			"paintborder"							"0"
 
 			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"Menu Labels"
-			"depressedFgColor_override"				"Menu Labels"
+			"armedFgColor_override"					"Menu_Accent"
+			"depressedFgColor_override"				"Menu_Accent"
 		}
 	}
 	"Vote"
@@ -849,8 +809,8 @@
 			"paintborder"							"0"
 
 			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"Menu Labels"
-			"depressedFgColor_override"				"Menu Labels"
+			"armedFgColor_override"					"Menu_Accent"
+			"depressedFgColor_override"				"Menu_Accent"
 		}
 	}
 	"Mute"
@@ -888,8 +848,8 @@
 			"paintborder"							"0"
 
 			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"Menu Labels"
-			"depressedFgColor_override"				"Menu Labels"
+			"armedFgColor_override"					"Menu_Accent"
+			"depressedFgColor_override"				"Menu_Accent"
 		}
 	}
 	"Report"
@@ -927,8 +887,8 @@
 			"paintborder"							"0"
 
 			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"Menu Labels"
-			"depressedFgColor_override"				"Menu Labels"
+			"armedFgColor_override"					"Menu_Accent"
+			"depressedFgColor_override"				"Menu_Accent"
 		}
 	}
 	"Achievements"
@@ -967,8 +927,8 @@
 			"paintborder"							"0"
 
 			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"Menu Labels"
-			"depressedFgColor_override"				"Menu Labels"
+			"armedFgColor_override"					"Menu_Accent"
+			"depressedFgColor_override"				"Menu_Accent"
 		}
 	}
 
@@ -1033,8 +993,8 @@
 			"paintborder"							"0"
 
 			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"Menu Labels"
-			"depressedFgColor_override"				"Menu Labels"
+			"armedFgColor_override"					"Menu_Accent"
+			"depressedFgColor_override"				"Menu_Accent"
 		}
 	}
 
@@ -1087,8 +1047,8 @@
 			"paintborder"							"0"
 
 			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"Menu Labels"
-			"depressedFgColor_override"				"Menu Labels"
+			"armedFgColor_override"					"Menu_Accent"
+			"depressedFgColor_override"				"Menu_Accent"
 		}
 	}
 	"Reload Sound"
@@ -1125,8 +1085,8 @@
 			"paintborder"							"0"
 
 			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"Menu Labels"
-			"depressedFgColor_override"				"Menu Labels"
+			"armedFgColor_override"					"Menu_Accent"
+			"depressedFgColor_override"				"Menu_Accent"
 		}
 	}
 	"Reload Hud"
@@ -1163,8 +1123,8 @@
 			"paintborder"							"0"
 
 			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"Menu Labels"
-			"depressedFgColor_override"				"Menu Labels"
+			"armedFgColor_override"					"Menu_Accent"
+			"depressedFgColor_override"				"Menu_Accent"
 		}
 	}
 	"Toggle Netgraph"
@@ -1201,8 +1161,8 @@
 			"paintborder"							"0"
 
 			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"Menu Labels"
-			"depressedFgColor_override"				"Menu Labels"
+			"armedFgColor_override"					"Menu_Accent"
+			"depressedFgColor_override"				"Menu_Accent"
 		}
 	}
 	"Toggle Contracts"
@@ -1239,8 +1199,8 @@
 			"paintborder"							"0"
 
 			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"Menu Labels"
-			"depressedFgColor_override"				"Menu Labels"
+			"armedFgColor_override"					"Menu_Accent"
+			"depressedFgColor_override"				"Menu_Accent"
 		}
 	}
 	"Toggle Chat"
@@ -1277,8 +1237,8 @@
 			"paintborder"							"0"
 
 			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"Menu Labels"
-			"depressedFgColor_override"				"Menu Labels"
+			"armedFgColor_override"					"Menu_Accent"
+			"depressedFgColor_override"				"Menu_Accent"
 		}
 	}
 
@@ -1321,8 +1281,8 @@
 			"depressedFgColor_override"				"White"
 
 			"defaultBgColor_override"				"TransparentBlack"
-			"armedBgColor_override"					"Menu Labels"
-			"depressedBgColor_override"				"Menu Labels"
+			"armedBgColor_override"					"Menu_Accent"
+			"depressedBgColor_override"				"Menu_Accent"
 		}
 	}
 	"MOTD_Panel"
@@ -1364,8 +1324,8 @@
 			"depressedBgColor_override"				"TransparentLightBlack"
 
 			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"Menu Labels"
-			"depressedFgColor_override"				"Menu Labels"
+			"armedFgColor_override"					"Menu_Accent"
+			"depressedFgColor_override"				"Menu_Accent"
 		}
 		"FriendsContainer"
 		{

@@ -465,7 +465,7 @@
 						"proportionaltoparent"		"1"
 						"progress"					"0"
 
-						"fgcolor_override"			"Menu Labels"
+						"fgcolor_override"			"Menu_Accent"
 
 						"if_mini"
 						{

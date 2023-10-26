@@ -1,0 +1,39 @@
+event MenuPulse
+{
+	Animate HudMenu								Blur			"7"									Linear	0.0		0.1
+	Animate HudMenu								Blur			"2"									Deaccel	0.1		0.1
+	Animate HudMenu								Blur			"7"									Linear	0.2		0.1
+	Animate HudMenu								Blur			"2"									Deaccel	0.3		0.1
+	Animate HudMenu								Blur			"7"									Linear	0.4		0.1
+	Animate HudMenu								Blur			"2"									Deaccel	0.5		0.1
+	Animate HudMenu								Blur			"1"									Deaccel	0.6		0.4
+
+	RunEvent UberTimerHide						0.2
+}
+event MenuClose
+{
+	Animate HudMenu								Alpha			"0"									Linear	0.0		0.2
+	Animate HudMenu								SelectionAlpha	"0"									Linear	0.0		0.2
+	Animate HudMenu								FgColor			"Blank"								Linear	0.0		0.2
+	Animate HudMenu								MenuColor		"Blank"								Linear	0.0		0.2
+	Animate HudMenu								ItemColor		"Blank"								Linear	0.0		0.2
+
+	RunEvent UberTimer							0.0
+}
+event UberTimerRun
+{
+	Animate UberCounterBG						Tall			"2"									Linear	0.1		0.001
+	Animate UberCounter							BgColor			"White"								Linear	0.0		0.001
+	Animate UberCounter							Wide			"40"								Linear	0.0		55.0
+	Animate UberCounter							BgColor			"BrightYellow"						Linear	40.0	0.001
+	Animate UberCounter							BgColor			"Red"								Linear	55.0	0.001
+
+	RunEvent UberTimerHide						60.0
+}
+event UberTimerHide
+{
+	StopEvent UberTimerRun						0.0
+
+	Animate UberCounterBG						Tall			"0"									Linear	0.0		0.0
+	Animate UberCounter							Wide			"0"									Linear	0.0		0.0
+}

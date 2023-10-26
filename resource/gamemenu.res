@@ -6,7 +6,7 @@
 	"Version"
 	{
 		"label"										"m0rehud 7.1"
-		"command"									"engine showconsole; echo m0rehud by Hypnotize github.com/Hypnootize/m0rehud all credits to m0re"
+		"command"									"engine showconsole; echo m0rehud by Hypnotize, created by m0re. Download new versions @ github.com/Hypnootize/m0rehud"
 		"OnlyAtMenu"								"1"
 	}
 	"Servers"
@@ -54,7 +54,6 @@
 	{
 		"label"										"Workshop"
 		"command"									"engine OpenSteamWorkshopDialog"
-		"OnlyAtMenu"								"1"
 	}
 	"DemoUI"
 	{
@@ -76,12 +75,6 @@
 	//====================================================================================================================================================
 	// IN GAME BUTTONS
 	//====================================================================================================================================================
-	"Minmode"
-	{
-		"label"										"Toggle Minmode"
-		"command"									"engine toggle cl_hud_minmode"
-		"OnlyInGame"								"1"
-	}
 	"Disconnect"
 	{
 		"label"										"Disconnect"

@@ -1,0 +1,53 @@
+event HudHealthBonusPulse
+{
+	RunEvent HudHealthBonusPulseLoop			0.0
+}
+event HudHealthBonusPulseLoop
+{
+	RunEvent HudHealthBonusPulseShadow			0.0
+}
+event HudHealthBonusPulseStop
+{
+	RunEvent HudHealthBonusPulseStopShadow		0.0
+}
+event HudHealthDyingPulse
+{
+	RunEvent HudHealthDyingPulseLoop			0.0
+}
+event HudHealthDyingPulseLoop
+{
+	RunEvent HudHealthDyingPulseShadow			0.0
+}
+event HudHealthDyingPulseStop
+{
+	RunEvent HudHealthDyingPulseStopShadow		0.0
+}
+//===========================================================================================================================
+event HudLowAmmoPulse
+{
+	RunEvent HudLowAmmoPulseLoop				0.0
+}
+event HudLowAmmoPulseLoop
+{
+	RunEvent HudLowAmmoPulseShadow				0.0
+}
+event HudLowAmmoPulseStop
+{
+	RunEvent HudLowAmmoPulseStopShadow			0.0
+}
+//===========================================================================================================================
+event HudMedicCharged
+{
+	RunEvent HudMedicChargedLoop				0.0
+}
+event HudMedicChargedLoop
+{
+	RunEvent HudMedicChargedShadow				0.0
+}
+event HudMedicChargedStop
+{
+	RunEvent HudMedicChargedStopShadow			0.0
+}
+event UberTimer
+{
+}

@@ -8,18 +8,17 @@
 			{
 				"ControlName"							"EditablePanel"
 				"fieldName"								"HUD_Aspect_Ratio_Selection"
-				"xpos"									"2"
+				"xpos"									"3"
 				"ypos"									"0"
 				"zpos"									"0"
-				"wide"									"f8"
+				"wide"									"f12"
 				"tall"									"50"
 				"visible"								"1"
 				"enabled"								"1"
 				"proportionaltoparent"					"1"
 				"paintBackground"						"1"
-				"paintBackgroundType"					"2"
-				"roundedcorners"						"3"
-				"bgcolor_override"						"FooterBGBlack"
+				"paintBackgroundType"					"0"
+				"bgcolor_override"						"Black"
 
 				"Title"
 				{
@@ -35,15 +34,15 @@
 					"proportionaltoparent"				"1"
 					"use_proportional_insets"			"1"
 					"labelText"							"Select your aspect ratio:"
-					"font"								"ItemFontNameSmallest"
+					"font"								"FontStorePrice"
 					"textAlignment"						"west"
 					"textinsetx"						"5"
 					"fgcolor"							"White"
 					"paintbackground"					"1"
-					"paintBackgroundType"				"2"
-					"roundedcorners"					"3"
+					"paintBackgroundType"				"0"
 					"bgcolor_override"					"StoreGreen"
 				}
+// 16:9 ----------------------------------------------------------------------------------------------------------------------------------
 				"16x9"
 				{
 					"ControlName"						"EditablePanel"
@@ -51,7 +50,7 @@
 					"xpos"								"2"
 					"ypos"								"rs1-2"
 					"zpos"								"20"
-					"wide"								"145"
+					"wide"								"144"
 					"tall"								"f18"
 					"visible"							"1"
 					"enabled"							"1"
@@ -113,7 +112,7 @@
 						"visible"						"1"
 						"enabled"						"1"
 						"font"							""
-						"command"						"engine res_16x9"
+						"command"						"engine m0_res_16x9"
 						"labeltext"						""
 						"sound_depressed"				"UI/buttonclick.wav"
 						"proportionaltoparent"			"1"
@@ -130,6 +129,7 @@
 						"depressedFgColor_override"		"White"
 					}
 				}
+// 16:10 ----------------------------------------------------------------------------------------------------------------------------------
 				"16x10"
 				{
 					"ControlName"						"EditablePanel"
@@ -137,7 +137,7 @@
 					"xpos"								"2"
 					"ypos"								"0"
 					"zpos"								"20"
-					"wide"								"145"
+					"wide"								"144"
 					"tall"								"f18"
 					"visible"							"1"
 					"enabled"							"1"
@@ -203,7 +203,7 @@
 						"visible"						"1"
 						"enabled"						"1"
 						"font"							""
-						"command"						"engine res_16x10"
+						"command"						"engine m0_res_16x10"
 						"labeltext"						""
 						"sound_depressed"				"UI/buttonclick.wav"
 						"proportionaltoparent"			"1"
@@ -220,6 +220,7 @@
 						"depressedFgColor_override"		"White"
 					}
 				}
+// 4:3 ----------------------------------------------------------------------------------------------------------------------------------
 				"4x3"
 				{
 					"ControlName"						"EditablePanel"
@@ -227,7 +228,7 @@
 					"xpos"								"2"
 					"ypos"								"0"
 					"zpos"								"20"
-					"wide"								"146"
+					"wide"								"145"
 					"tall"								"f18"
 					"visible"							"1"
 					"enabled"							"1"
@@ -293,7 +294,7 @@
 						"visible"						"1"
 						"enabled"						"1"
 						"font"							""
-						"command"						"engine res_4x3"
+						"command"						"engine m0_res_4x3"
 						"labeltext"						""
 						"sound_depressed"				"UI/buttonclick.wav"
 						"proportionaltoparent"			"1"
@@ -310,6 +311,7 @@
 						"depressedFgColor_override"		"White"
 					}
 				}
+// 5:4 ----------------------------------------------------------------------------------------------------------------------------------
 				"5x4"
 				{
 					"ControlName"						"EditablePanel"
@@ -317,7 +319,7 @@
 					"xpos"								"2"
 					"ypos"								"0"
 					"zpos"								"20"
-					"wide"								"146"
+					"wide"								"145"
 					"tall"								"f18"
 					"visible"							"1"
 					"enabled"							"1"
@@ -383,7 +385,7 @@
 						"visible"						"1"
 						"enabled"						"1"
 						"font"							""
-						"command"						"engine res_5x4"
+						"command"						"engine m0_res_5x4"
 						"labeltext"						""
 						"sound_depressed"				"UI/buttonclick.wav"
 						"proportionaltoparent"			"1"

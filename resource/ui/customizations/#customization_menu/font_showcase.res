@@ -288,7 +288,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2Crosshairs_m0re"
+				"name"										"TF2Crosshairs_m0re_V2"
 				"tall"										"10"
 				"antialias"									"1"
 			}

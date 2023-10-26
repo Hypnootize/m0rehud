@@ -1,0 +1,9 @@
+"UnlitGeneric"
+{
+	"$baseTexture"			"vgui\replay\thumbnails\customizations\health\health_warning_75"
+	"$vertexalpha"			"1"
+	"$alpha"				"1"
+	"$translucent"			"1"
+	"$vertexcolor"			"1"
+	"$no_fullbright"		"1"
+}

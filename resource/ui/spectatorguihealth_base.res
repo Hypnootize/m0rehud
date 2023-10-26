@@ -67,7 +67,7 @@
 		"labeltext"									"%Health%"
 		"font"										"m0refont24"
 		"font_minmode"								"m0refont18"
-		"fgcolor"									"Health Numbers"
+		"fgcolor"									"Health_Numbers"
 	}
 	"HealthValue_Target_Shadow"
 	{

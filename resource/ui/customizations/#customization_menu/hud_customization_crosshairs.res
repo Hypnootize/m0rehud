@@ -8,8 +8,8 @@
 			{
 				"ControlName"							"EditablePanel"
 				"fieldName"								"HUD_Crosshair_Selection"
-				"xpos"									"2"
-				"ypos"									"770"
+				"xpos"									"3"
+				"ypos"									"988"
 				"zpos"									"0"
 				"wide"									"f8"
 				"tall"									"83"
@@ -17,9 +17,8 @@
 				"enabled"								"1"
 				"proportionaltoparent"					"1"
 				"paintBackground"						"1"
-				"paintBackgroundType"					"2"
-				"roundedcorners"						"3"
-				"bgcolor_override"						"FooterBGBlack"
+				"paintBackgroundType"					"0"
+				"bgcolor_override"						"Black"
 
 				"Title"
 				{
@@ -35,13 +34,12 @@
 					"proportionaltoparent"				"1"
 					"use_proportional_insets"			"1"
 					"labelText"							"HUD Crosshair Customization:"
-					"font"								"ItemFontNameSmallest"
+					"font"								"FontStorePrice"
 					"textAlignment"						"west"
 					"textinsetx"						"5"
 					"fgcolor"							"White"
 					"paintbackground"					"1"
-					"paintBackgroundType"				"2"
-					"roundedcorners"					"3"
+					"paintBackgroundType"				"0"
 					"bgcolor_override"					"StoreGreen"
 				}
 //=================================================================================================================================
@@ -54,7 +52,7 @@
 					"xpos"								"2"
 					"ypos"								"rs1-2"
 					"zpos"								"20"
-					"wide"								"50"
+					"wide"								"63"
 					"tall"								"f18"
 					"visible"							"1"
 					"enabled"							"1"
@@ -100,7 +98,7 @@
 						"labelText"						"Enable"
 						"font"							"ItemFontNameSmallest"
 						"textAlignment"					"center"
-						"Command"						"engine hudcrosshair_visible"
+						"Command"						"engine m0_xhair_visible"
 						"sound_depressed"				"UI/buttonclick.wav"
 
 						"paintbackground"				"1"
@@ -133,7 +131,7 @@
 						"labelText"						"Disable"
 						"font"							"ItemFontNameSmallest"
 						"textAlignment"					"center"
-						"Command"						"engine hudcrosshair_invisible"
+						"Command"						"engine m0_xhair_invisible"
 						"sound_depressed"				"UI/buttonclick.wav"
 
 						"paintbackground"				"1"
@@ -211,7 +209,7 @@
 						"labelText"						"!"
 						"font"							"Crosshair_Showcase"
 						"textAlignment"					"center"
-						"Command"						"engine hudcrosshair_style_1"
+						"Command"						"engine m0_xhair_style_1"
 						"sound_depressed"				"UI/buttonclick.wav"
 
 						"paintbackground"				"1"
@@ -244,7 +242,7 @@
 						"labelText"						"#"
 						"font"							"Crosshair_Showcase"
 						"textAlignment"					"center"
-						"Command"						"engine hudcrosshair_style_2"
+						"Command"						"engine m0_xhair_style_2"
 						"sound_depressed"				"UI/buttonclick.wav"
 
 						"paintbackground"				"1"
@@ -281,7 +279,7 @@
 						"labelText"						"$"
 						"font"							"Crosshair_Showcase"
 						"textAlignment"					"center"
-						"Command"						"engine hudcrosshair_style_3"
+						"Command"						"engine m0_xhair_style_3"
 						"sound_depressed"				"UI/buttonclick.wav"
 
 						"paintbackground"				"1"
@@ -318,7 +316,7 @@
 						"labelText"						"%"
 						"font"							"Crosshair_Showcase"
 						"textAlignment"					"center"
-						"Command"						"engine hudcrosshair_style_4"
+						"Command"						"engine m0_xhair_style_4"
 						"sound_depressed"				"UI/buttonclick.wav"
 
 						"paintbackground"				"1"
@@ -355,7 +353,7 @@
 						"labelText"						"'"
 						"font"							"Crosshair_Showcase"
 						"textAlignment"					"center"
-						"Command"						"engine hudcrosshair_style_5"
+						"Command"						"engine m0_xhair_style_5"
 						"sound_depressed"				"UI/buttonclick.wav"
 
 						"paintbackground"				"1"
@@ -392,7 +390,7 @@
 						"labelText"						"("
 						"font"							"Crosshair_Showcase"
 						"textAlignment"					"center"
-						"Command"						"engine hudcrosshair_style_6"
+						"Command"						"engine m0_xhair_style_6"
 						"sound_depressed"				"UI/buttonclick.wav"
 
 						"paintbackground"				"1"
@@ -429,7 +427,7 @@
 						"labelText"						")"
 						"font"							"Crosshair_Showcase"
 						"textAlignment"					"center"
-						"Command"						"engine hudcrosshair_style_7"
+						"Command"						"engine m0_xhair_style_7"
 						"sound_depressed"				"UI/buttonclick.wav"
 
 						"paintbackground"				"1"
@@ -466,7 +464,7 @@
 						"labelText"						"*"
 						"font"							"Crosshair_Showcase"
 						"textAlignment"					"center"
-						"Command"						"engine hudcrosshair_style_8"
+						"Command"						"engine m0_xhair_style_8"
 						"sound_depressed"				"UI/buttonclick.wav"
 
 						"paintbackground"				"1"
@@ -503,7 +501,7 @@
 						"labelText"						"+"
 						"font"							"Crosshair_Showcase"
 						"textAlignment"					"center"
-						"Command"						"engine hudcrosshair_style_9"
+						"Command"						"engine m0_xhair_style_9"
 						"sound_depressed"				"UI/buttonclick.wav"
 
 						"paintbackground"				"1"
@@ -540,7 +538,7 @@
 						"labelText"						","
 						"font"							"Crosshair_Showcase"
 						"textAlignment"					"center"
-						"Command"						"engine hudcrosshair_style_10"
+						"Command"						"engine m0_xhair_style_10"
 						"sound_depressed"				"UI/buttonclick.wav"
 
 						"paintbackground"				"1"
@@ -577,7 +575,7 @@
 						"labelText"						"-"
 						"font"							"Crosshair_Showcase"
 						"textAlignment"					"center"
-						"Command"						"engine hudcrosshair_style_11"
+						"Command"						"engine m0_xhair_style_11"
 						"sound_depressed"				"UI/buttonclick.wav"
 
 						"paintbackground"				"1"
@@ -614,7 +612,7 @@
 						"labelText"						"."
 						"font"							"Crosshair_Showcase"
 						"textAlignment"					"center"
-						"Command"						"engine hudcrosshair_style_12"
+						"Command"						"engine m0_xhair_style_12"
 						"sound_depressed"				"UI/buttonclick.wav"
 
 						"paintbackground"				"1"
@@ -651,7 +649,7 @@
 						"labelText"						"/"
 						"font"							"Crosshair_Showcase"
 						"textAlignment"					"center"
-						"Command"						"engine hudcrosshair_style_13"
+						"Command"						"engine m0_xhair_style_13"
 						"sound_depressed"				"UI/buttonclick.wav"
 
 						"paintbackground"				"1"
@@ -688,7 +686,7 @@
 						"labelText"						"0"
 						"font"							"Crosshair_Showcase"
 						"textAlignment"					"center"
-						"Command"						"engine hudcrosshair_style_14"
+						"Command"						"engine m0_xhair_style_14"
 						"sound_depressed"				"UI/buttonclick.wav"
 
 						"paintbackground"				"1"
@@ -725,7 +723,7 @@
 						"labelText"						"1"
 						"font"							"Crosshair_Showcase"
 						"textAlignment"					"center"
-						"Command"						"engine hudcrosshair_style_15"
+						"Command"						"engine m0_xhair_style_15"
 						"sound_depressed"				"UI/buttonclick.wav"
 
 						"paintbackground"				"1"
@@ -762,7 +760,7 @@
 						"labelText"						"2"
 						"font"							"Crosshair_Showcase"
 						"textAlignment"					"center"
-						"Command"						"engine hudcrosshair_style_16"
+						"Command"						"engine m0_xhair_style_16"
 						"sound_depressed"				"UI/buttonclick.wav"
 
 						"paintbackground"				"1"
@@ -799,7 +797,7 @@
 						"labelText"						"3"
 						"font"							"Crosshair_Showcase"
 						"textAlignment"					"center"
-						"Command"						"engine hudcrosshair_style_17"
+						"Command"						"engine m0_xhair_style_17"
 						"sound_depressed"				"UI/buttonclick.wav"
 
 						"paintbackground"				"1"
@@ -836,7 +834,7 @@
 						"labelText"						"4"
 						"font"							"Crosshair_Showcase"
 						"textAlignment"					"center"
-						"Command"						"engine hudcrosshair_style_18"
+						"Command"						"engine m0_xhair_style_18"
 						"sound_depressed"				"UI/buttonclick.wav"
 
 						"paintbackground"				"1"
@@ -873,7 +871,7 @@
 						"labelText"						"5"
 						"font"							"Crosshair_Showcase"
 						"textAlignment"					"center"
-						"Command"						"engine hudcrosshair_style_19"
+						"Command"						"engine m0_xhair_style_19"
 						"sound_depressed"				"UI/buttonclick.wav"
 
 						"paintbackground"				"1"
@@ -910,7 +908,7 @@
 						"labelText"						"6"
 						"font"							"Crosshair_Showcase"
 						"textAlignment"					"center"
-						"Command"						"engine hudcrosshair_style_20"
+						"Command"						"engine m0_xhair_style_20"
 						"sound_depressed"				"UI/buttonclick.wav"
 
 						"paintbackground"				"1"
@@ -947,7 +945,7 @@
 						"labelText"						"7"
 						"font"							"Crosshair_Showcase"
 						"textAlignment"					"center"
-						"Command"						"engine hudcrosshair_style_21"
+						"Command"						"engine m0_xhair_style_21"
 						"sound_depressed"				"UI/buttonclick.wav"
 
 						"paintbackground"				"1"
@@ -984,7 +982,7 @@
 						"labelText"						"8"
 						"font"							"Crosshair_Showcase"
 						"textAlignment"					"center"
-						"Command"						"engine hudcrosshair_style_22"
+						"Command"						"engine m0_xhair_style_22"
 						"sound_depressed"				"UI/buttonclick.wav"
 
 						"paintbackground"				"1"
@@ -1021,7 +1019,7 @@
 						"labelText"						"9"
 						"font"							"Crosshair_Showcase"
 						"textAlignment"					"center"
-						"Command"						"engine hudcrosshair_style_23"
+						"Command"						"engine m0_xhair_style_23"
 						"sound_depressed"				"UI/buttonclick.wav"
 
 						"paintbackground"				"1"
@@ -1058,7 +1056,7 @@
 						"labelText"						":"
 						"font"							"Crosshair_Showcase"
 						"textAlignment"					"center"
-						"Command"						"engine hudcrosshair_style_24"
+						"Command"						"engine m0_xhair_style_24"
 						"sound_depressed"				"UI/buttonclick.wav"
 
 						"paintbackground"				"1"
@@ -1095,7 +1093,7 @@
 						"labelText"						"<"
 						"font"							"Crosshair_Showcase"
 						"textAlignment"					"center"
-						"Command"						"engine hudcrosshair_style_25"
+						"Command"						"engine m0_xhair_style_25"
 						"sound_depressed"				"UI/buttonclick.wav"
 
 						"paintbackground"				"1"
@@ -1132,7 +1130,7 @@
 						"labelText"						"="
 						"font"							"Crosshair_Showcase"
 						"textAlignment"					"center"
-						"Command"						"engine hudcrosshair_style_26"
+						"Command"						"engine m0_xhair_style_26"
 						"sound_depressed"				"UI/buttonclick.wav"
 
 						"paintbackground"				"1"
@@ -1169,7 +1167,7 @@
 						"labelText"						">"
 						"font"							"Crosshair_Showcase"
 						"textAlignment"					"center"
-						"Command"						"engine hudcrosshair_style_27"
+						"Command"						"engine m0_xhair_style_27"
 						"sound_depressed"				"UI/buttonclick.wav"
 
 						"paintbackground"				"1"
@@ -1206,7 +1204,7 @@
 						"labelText"						"?"
 						"font"							"Crosshair_Showcase"
 						"textAlignment"					"center"
-						"Command"						"engine hudcrosshair_style_28"
+						"Command"						"engine m0_xhair_style_28"
 						"sound_depressed"				"UI/buttonclick.wav"
 
 						"paintbackground"				"1"
@@ -1243,7 +1241,7 @@
 						"labelText"						"@"
 						"font"							"Crosshair_Showcase"
 						"textAlignment"					"center"
-						"Command"						"engine hudcrosshair_style_29"
+						"Command"						"engine m0_xhair_style_29"
 						"sound_depressed"				"UI/buttonclick.wav"
 
 						"paintbackground"				"1"
@@ -1280,7 +1278,7 @@
 						"labelText"						"A"
 						"font"							"Crosshair_Showcase"
 						"textAlignment"					"center"
-						"Command"						"engine hudcrosshair_style_30"
+						"Command"						"engine m0_xhair_style_30"
 						"sound_depressed"				"UI/buttonclick.wav"
 
 						"paintbackground"				"1"
@@ -1317,7 +1315,7 @@
 						"labelText"						"B"
 						"font"							"Crosshair_Showcase"
 						"textAlignment"					"center"
-						"Command"						"engine hudcrosshair_style_31"
+						"Command"						"engine m0_xhair_style_31"
 						"sound_depressed"				"UI/buttonclick.wav"
 
 						"paintbackground"				"1"
@@ -1354,7 +1352,7 @@
 						"labelText"						"C"
 						"font"							"Crosshair_Showcase"
 						"textAlignment"					"center"
-						"Command"						"engine hudcrosshair_style_32"
+						"Command"						"engine m0_xhair_style_32"
 						"sound_depressed"				"UI/buttonclick.wav"
 
 						"paintbackground"				"1"
@@ -1391,7 +1389,7 @@
 						"labelText"						"D"
 						"font"							"Crosshair_Showcase"
 						"textAlignment"					"center"
-						"Command"						"engine hudcrosshair_style_33"
+						"Command"						"engine m0_xhair_style_33"
 						"sound_depressed"				"UI/buttonclick.wav"
 
 						"paintbackground"				"1"
@@ -1428,7 +1426,7 @@
 						"labelText"						"E"
 						"font"							"Crosshair_Showcase"
 						"textAlignment"					"center"
-						"Command"						"engine hudcrosshair_style_34"
+						"Command"						"engine m0_xhair_style_34"
 						"sound_depressed"				"UI/buttonclick.wav"
 
 						"paintbackground"				"1"
@@ -1465,7 +1463,7 @@
 						"labelText"						"F"
 						"font"							"Crosshair_Showcase"
 						"textAlignment"					"center"
-						"Command"						"engine hudcrosshair_style_35"
+						"Command"						"engine m0_xhair_style_35"
 						"sound_depressed"				"UI/buttonclick.wav"
 
 						"paintbackground"				"1"
@@ -1502,7 +1500,7 @@
 						"labelText"						"G"
 						"font"							"Crosshair_Showcase"
 						"textAlignment"					"center"
-						"Command"						"engine hudcrosshair_style_36"
+						"Command"						"engine m0_xhair_style_36"
 						"sound_depressed"				"UI/buttonclick.wav"
 
 						"paintbackground"				"1"
@@ -1539,7 +1537,7 @@
 						"labelText"						"H"
 						"font"							"Crosshair_Showcase"
 						"textAlignment"					"center"
-						"Command"						"engine hudcrosshair_style_37"
+						"Command"						"engine m0_xhair_style_37"
 						"sound_depressed"				"UI/buttonclick.wav"
 
 						"paintbackground"				"1"
@@ -1576,7 +1574,7 @@
 						"labelText"						"I"
 						"font"							"Crosshair_Showcase"
 						"textAlignment"					"center"
-						"Command"						"engine hudcrosshair_style_38"
+						"Command"						"engine m0_xhair_style_38"
 						"sound_depressed"				"UI/buttonclick.wav"
 
 						"paintbackground"				"1"
@@ -1613,7 +1611,7 @@
 						"labelText"						"J"
 						"font"							"Crosshair_Showcase"
 						"textAlignment"					"center"
-						"Command"						"engine hudcrosshair_style_39"
+						"Command"						"engine m0_xhair_style_39"
 						"sound_depressed"				"UI/buttonclick.wav"
 
 						"paintbackground"				"1"
@@ -1650,7 +1648,7 @@
 						"labelText"						"K"
 						"font"							"Crosshair_Showcase"
 						"textAlignment"					"center"
-						"Command"						"engine hudcrosshair_style_40"
+						"Command"						"engine m0_xhair_style_40"
 						"sound_depressed"				"UI/buttonclick.wav"
 
 						"paintbackground"				"1"
@@ -1687,7 +1685,7 @@
 						"labelText"						"L"
 						"font"							"Crosshair_Showcase"
 						"textAlignment"					"center"
-						"Command"						"engine hudcrosshair_style_41"
+						"Command"						"engine m0_xhair_style_41"
 						"sound_depressed"				"UI/buttonclick.wav"
 
 						"paintbackground"				"1"
@@ -1724,7 +1722,7 @@
 						"labelText"						"M"
 						"font"							"Crosshair_Showcase"
 						"textAlignment"					"center"
-						"Command"						"engine hudcrosshair_style_42"
+						"Command"						"engine m0_xhair_style_42"
 						"sound_depressed"				"UI/buttonclick.wav"
 
 						"paintbackground"				"1"
@@ -1761,7 +1759,7 @@
 						"labelText"						"N"
 						"font"							"Crosshair_Showcase"
 						"textAlignment"					"center"
-						"Command"						"engine hudcrosshair_style_43"
+						"Command"						"engine m0_xhair_style_43"
 						"sound_depressed"				"UI/buttonclick.wav"
 
 						"paintbackground"				"1"
@@ -1798,7 +1796,7 @@
 						"labelText"						"O"
 						"font"							"Crosshair_Showcase"
 						"textAlignment"					"center"
-						"Command"						"engine hudcrosshair_style_44"
+						"Command"						"engine m0_xhair_style_44"
 						"sound_depressed"				"UI/buttonclick.wav"
 
 						"paintbackground"				"1"
@@ -1835,7 +1833,7 @@
 						"labelText"						"P"
 						"font"							"Crosshair_Showcase"
 						"textAlignment"					"center"
-						"Command"						"engine hudcrosshair_style_45"
+						"Command"						"engine m0_xhair_style_45"
 						"sound_depressed"				"UI/buttonclick.wav"
 
 						"paintbackground"				"1"
@@ -1872,7 +1870,7 @@
 						"labelText"						"Q"
 						"font"							"Crosshair_Showcase"
 						"textAlignment"					"center"
-						"Command"						"engine hudcrosshair_style_46"
+						"Command"						"engine m0_xhair_style_46"
 						"sound_depressed"				"UI/buttonclick.wav"
 
 						"paintbackground"				"1"
@@ -1909,7 +1907,7 @@
 						"labelText"						"R"
 						"font"							"Crosshair_Showcase"
 						"textAlignment"					"center"
-						"Command"						"engine hudcrosshair_style_47"
+						"Command"						"engine m0_xhair_style_47"
 						"sound_depressed"				"UI/buttonclick.wav"
 
 						"paintbackground"				"1"
@@ -1946,7 +1944,7 @@
 						"labelText"						"S"
 						"font"							"Crosshair_Showcase"
 						"textAlignment"					"center"
-						"Command"						"engine hudcrosshair_style_48"
+						"Command"						"engine m0_xhair_style_48"
 						"sound_depressed"				"UI/buttonclick.wav"
 
 						"paintbackground"				"1"
@@ -1983,7 +1981,7 @@
 						"labelText"						"T"
 						"font"							"Crosshair_Showcase"
 						"textAlignment"					"center"
-						"Command"						"engine hudcrosshair_style_49"
+						"Command"						"engine m0_xhair_style_49"
 						"sound_depressed"				"UI/buttonclick.wav"
 
 						"paintbackground"				"1"
@@ -2020,7 +2018,7 @@
 						"labelText"						"U"
 						"font"							"Crosshair_Showcase"
 						"textAlignment"					"center"
-						"Command"						"engine hudcrosshair_style_50"
+						"Command"						"engine m0_xhair_style_50"
 						"sound_depressed"				"UI/buttonclick.wav"
 
 						"paintbackground"				"1"
@@ -2057,7 +2055,7 @@
 						"labelText"						"V"
 						"font"							"Crosshair_Showcase"
 						"textAlignment"					"center"
-						"Command"						"engine hudcrosshair_style_51"
+						"Command"						"engine m0_xhair_style_51"
 						"sound_depressed"				"UI/buttonclick.wav"
 
 						"paintbackground"				"1"
@@ -2094,7 +2092,7 @@
 						"labelText"						"W"
 						"font"							"Crosshair_Showcase"
 						"textAlignment"					"center"
-						"Command"						"engine hudcrosshair_style_52"
+						"Command"						"engine m0_xhair_style_52"
 						"sound_depressed"				"UI/buttonclick.wav"
 
 						"paintbackground"				"1"
@@ -2131,7 +2129,7 @@
 						"labelText"						"X"
 						"font"							"Crosshair_Showcase"
 						"textAlignment"					"center"
-						"Command"						"engine hudcrosshair_style_53"
+						"Command"						"engine m0_xhair_style_53"
 						"sound_depressed"				"UI/buttonclick.wav"
 
 						"paintbackground"				"1"
@@ -2168,7 +2166,7 @@
 						"labelText"						"Y"
 						"font"							"Crosshair_Showcase"
 						"textAlignment"					"center"
-						"Command"						"engine hudcrosshair_style_54"
+						"Command"						"engine m0_xhair_style_54"
 						"sound_depressed"				"UI/buttonclick.wav"
 
 						"paintbackground"				"1"
@@ -2205,7 +2203,7 @@
 						"labelText"						"Z"
 						"font"							"Crosshair_Showcase"
 						"textAlignment"					"center"
-						"Command"						"engine hudcrosshair_style_55"
+						"Command"						"engine m0_xhair_style_55"
 						"sound_depressed"				"UI/buttonclick.wav"
 
 						"paintbackground"				"1"
@@ -2242,7 +2240,7 @@
 						"labelText"						"["
 						"font"							"Crosshair_Showcase"
 						"textAlignment"					"center"
-						"Command"						"engine hudcrosshair_style_56"
+						"Command"						"engine m0_xhair_style_56"
 						"sound_depressed"				"UI/buttonclick.wav"
 
 						"paintbackground"				"1"
@@ -2279,7 +2277,7 @@
 						"labelText"						"]"
 						"font"							"Crosshair_Showcase"
 						"textAlignment"					"center"
-						"Command"						"engine hudcrosshair_style_57"
+						"Command"						"engine m0_xhair_style_57"
 						"sound_depressed"				"UI/buttonclick.wav"
 
 						"paintbackground"				"1"
@@ -2316,7 +2314,7 @@
 						"labelText"						"^"
 						"font"							"Crosshair_Showcase"
 						"textAlignment"					"center"
-						"Command"						"engine hudcrosshair_style_58"
+						"Command"						"engine m0_xhair_style_58"
 						"sound_depressed"				"UI/buttonclick.wav"
 
 						"paintbackground"				"1"
@@ -2353,7 +2351,7 @@
 						"labelText"						"_"
 						"font"							"Crosshair_Showcase"
 						"textAlignment"					"center"
-						"Command"						"engine hudcrosshair_style_59"
+						"Command"						"engine m0_xhair_style_59"
 						"sound_depressed"				"UI/buttonclick.wav"
 
 						"paintbackground"				"1"
@@ -2390,7 +2388,7 @@
 						"labelText"						"`"
 						"font"							"Crosshair_Showcase"
 						"textAlignment"					"center"
-						"Command"						"engine hudcrosshair_style_60"
+						"Command"						"engine m0_xhair_style_60"
 						"sound_depressed"				"UI/buttonclick.wav"
 
 						"paintbackground"				"1"
@@ -2427,7 +2425,7 @@
 						"labelText"						"a"
 						"font"							"Crosshair_Showcase"
 						"textAlignment"					"center"
-						"Command"						"engine hudcrosshair_style_61"
+						"Command"						"engine m0_xhair_style_61"
 						"sound_depressed"				"UI/buttonclick.wav"
 
 						"paintbackground"				"1"
@@ -2464,7 +2462,7 @@
 						"labelText"						"b"
 						"font"							"Crosshair_Showcase"
 						"textAlignment"					"center"
-						"Command"						"engine hudcrosshair_style_62"
+						"Command"						"engine m0_xhair_style_62"
 						"sound_depressed"				"UI/buttonclick.wav"
 
 						"paintbackground"				"1"
@@ -2501,7 +2499,7 @@
 						"labelText"						"c"
 						"font"							"Crosshair_Showcase"
 						"textAlignment"					"center"
-						"Command"						"engine hudcrosshair_style_63"
+						"Command"						"engine m0_xhair_style_63"
 						"sound_depressed"				"UI/buttonclick.wav"
 
 						"paintbackground"				"1"
@@ -2538,7 +2536,7 @@
 						"labelText"						"d"
 						"font"							"Crosshair_Showcase"
 						"textAlignment"					"center"
-						"Command"						"engine hudcrosshair_style_64"
+						"Command"						"engine m0_xhair_style_64"
 						"sound_depressed"				"UI/buttonclick.wav"
 
 						"paintbackground"				"1"
@@ -2575,7 +2573,7 @@
 						"labelText"						"e"
 						"font"							"Crosshair_Showcase"
 						"textAlignment"					"center"
-						"Command"						"engine hudcrosshair_style_65"
+						"Command"						"engine m0_xhair_style_65"
 						"sound_depressed"				"UI/buttonclick.wav"
 
 						"paintbackground"				"1"
@@ -2612,7 +2610,7 @@
 						"labelText"						"f"
 						"font"							"Crosshair_Showcase"
 						"textAlignment"					"center"
-						"Command"						"engine hudcrosshair_style_66"
+						"Command"						"engine m0_xhair_style_66"
 						"sound_depressed"				"UI/buttonclick.wav"
 
 						"paintbackground"				"1"
@@ -2649,7 +2647,7 @@
 						"labelText"						"g"
 						"font"							"Crosshair_Showcase"
 						"textAlignment"					"center"
-						"Command"						"engine hudcrosshair_style_67"
+						"Command"						"engine m0_xhair_style_67"
 						"sound_depressed"				"UI/buttonclick.wav"
 
 						"paintbackground"				"1"
@@ -2686,7 +2684,7 @@
 						"labelText"						"h"
 						"font"							"Crosshair_Showcase"
 						"textAlignment"					"center"
-						"Command"						"engine hudcrosshair_style_68"
+						"Command"						"engine m0_xhair_style_68"
 						"sound_depressed"				"UI/buttonclick.wav"
 
 						"paintbackground"				"1"
@@ -2723,7 +2721,7 @@
 						"labelText"						"i"
 						"font"							"Crosshair_Showcase"
 						"textAlignment"					"center"
-						"Command"						"engine hudcrosshair_style_69"
+						"Command"						"engine m0_xhair_style_69"
 						"sound_depressed"				"UI/buttonclick.wav"
 
 						"paintbackground"				"1"
@@ -2760,7 +2758,7 @@
 						"labelText"						"j"
 						"font"							"Crosshair_Showcase"
 						"textAlignment"					"center"
-						"Command"						"engine hudcrosshair_style_70"
+						"Command"						"engine m0_xhair_style_70"
 						"sound_depressed"				"UI/buttonclick.wav"
 
 						"paintbackground"				"1"
@@ -2797,7 +2795,7 @@
 						"labelText"						"k"
 						"font"							"Crosshair_Showcase"
 						"textAlignment"					"center"
-						"Command"						"engine hudcrosshair_style_71"
+						"Command"						"engine m0_xhair_style_71"
 						"sound_depressed"				"UI/buttonclick.wav"
 
 						"paintbackground"				"1"
@@ -2834,7 +2832,7 @@
 						"labelText"						"l"
 						"font"							"Crosshair_Showcase"
 						"textAlignment"					"center"
-						"Command"						"engine hudcrosshair_style_72"
+						"Command"						"engine m0_xhair_style_72"
 						"sound_depressed"				"UI/buttonclick.wav"
 
 						"paintbackground"				"1"
@@ -2871,7 +2869,7 @@
 						"labelText"						"m"
 						"font"							"Crosshair_Showcase"
 						"textAlignment"					"center"
-						"Command"						"engine hudcrosshair_style_73"
+						"Command"						"engine m0_xhair_style_73"
 						"sound_depressed"				"UI/buttonclick.wav"
 
 						"paintbackground"				"1"
@@ -2908,7 +2906,7 @@
 						"labelText"						"n"
 						"font"							"Crosshair_Showcase"
 						"textAlignment"					"center"
-						"Command"						"engine hudcrosshair_style_74"
+						"Command"						"engine m0_xhair_style_74"
 						"sound_depressed"				"UI/buttonclick.wav"
 
 						"paintbackground"				"1"
@@ -2945,7 +2943,7 @@
 						"labelText"						"o"
 						"font"							"Crosshair_Showcase"
 						"textAlignment"					"center"
-						"Command"						"engine hudcrosshair_style_75"
+						"Command"						"engine m0_xhair_style_75"
 						"sound_depressed"				"UI/buttonclick.wav"
 
 						"paintbackground"				"1"
@@ -2982,7 +2980,7 @@
 						"labelText"						"p"
 						"font"							"Crosshair_Showcase"
 						"textAlignment"					"center"
-						"Command"						"engine hudcrosshair_style_76"
+						"Command"						"engine m0_xhair_style_76"
 						"sound_depressed"				"UI/buttonclick.wav"
 
 						"paintbackground"				"1"
@@ -3019,7 +3017,7 @@
 						"labelText"						"q"
 						"font"							"Crosshair_Showcase"
 						"textAlignment"					"center"
-						"Command"						"engine hudcrosshair_style_77"
+						"Command"						"engine m0_xhair_style_77"
 						"sound_depressed"				"UI/buttonclick.wav"
 
 						"paintbackground"				"1"
@@ -3056,7 +3054,7 @@
 						"labelText"						"r"
 						"font"							"Crosshair_Showcase"
 						"textAlignment"					"center"
-						"Command"						"engine hudcrosshair_style_78"
+						"Command"						"engine m0_xhair_style_78"
 						"sound_depressed"				"UI/buttonclick.wav"
 
 						"paintbackground"				"1"
@@ -3093,7 +3091,7 @@
 						"labelText"						"s"
 						"font"							"Crosshair_Showcase"
 						"textAlignment"					"center"
-						"Command"						"engine hudcrosshair_style_79"
+						"Command"						"engine m0_xhair_style_79"
 						"sound_depressed"				"UI/buttonclick.wav"
 
 						"paintbackground"				"1"
@@ -3130,7 +3128,7 @@
 						"labelText"						"t"
 						"font"							"Crosshair_Showcase"
 						"textAlignment"					"center"
-						"Command"						"engine hudcrosshair_style_80"
+						"Command"						"engine m0_xhair_style_80"
 						"sound_depressed"				"UI/buttonclick.wav"
 
 						"paintbackground"				"1"
@@ -3167,7 +3165,7 @@
 						"labelText"						"u"
 						"font"							"Crosshair_Showcase"
 						"textAlignment"					"center"
-						"Command"						"engine hudcrosshair_style_81"
+						"Command"						"engine m0_xhair_style_81"
 						"sound_depressed"				"UI/buttonclick.wav"
 
 						"paintbackground"				"1"
@@ -3204,7 +3202,7 @@
 						"labelText"						"v"
 						"font"							"Crosshair_Showcase"
 						"textAlignment"					"center"
-						"Command"						"engine hudcrosshair_style_82"
+						"Command"						"engine m0_xhair_style_82"
 						"sound_depressed"				"UI/buttonclick.wav"
 
 						"paintbackground"				"1"
@@ -3241,7 +3239,7 @@
 						"labelText"						"w"
 						"font"							"Crosshair_Showcase"
 						"textAlignment"					"center"
-						"Command"						"engine hudcrosshair_style_83"
+						"Command"						"engine m0_xhair_style_83"
 						"sound_depressed"				"UI/buttonclick.wav"
 
 						"paintbackground"				"1"
@@ -3278,7 +3276,7 @@
 						"labelText"						"x"
 						"font"							"Crosshair_Showcase"
 						"textAlignment"					"center"
-						"Command"						"engine hudcrosshair_style_84"
+						"Command"						"engine m0_xhair_style_84"
 						"sound_depressed"				"UI/buttonclick.wav"
 
 						"paintbackground"				"1"
@@ -3315,7 +3313,7 @@
 						"labelText"						"y"
 						"font"							"Crosshair_Showcase"
 						"textAlignment"					"center"
-						"Command"						"engine hudcrosshair_style_85"
+						"Command"						"engine m0_xhair_style_85"
 						"sound_depressed"				"UI/buttonclick.wav"
 
 						"paintbackground"				"1"
@@ -3352,7 +3350,7 @@
 						"labelText"						"z"
 						"font"							"Crosshair_Showcase"
 						"textAlignment"					"center"
-						"Command"						"engine hudcrosshair_style_86"
+						"Command"						"engine m0_xhair_style_86"
 						"sound_depressed"				"UI/buttonclick.wav"
 
 						"paintbackground"				"1"
@@ -3389,7 +3387,7 @@
 						"labelText"						"|"
 						"font"							"Crosshair_Showcase"
 						"textAlignment"					"center"
-						"Command"						"engine hudcrosshair_style_87"
+						"Command"						"engine m0_xhair_style_87"
 						"sound_depressed"				"UI/buttonclick.wav"
 
 						"paintbackground"				"1"
@@ -3426,7 +3424,7 @@
 						"labelText"						"~"
 						"font"							"Crosshair_Showcase"
 						"textAlignment"					"center"
-						"Command"						"engine hudcrosshair_style_88"
+						"Command"						"engine m0_xhair_style_88"
 						"sound_depressed"				"UI/buttonclick.wav"
 
 						"paintbackground"				"1"
@@ -3458,7 +3456,7 @@
 					"xpos"								"2"
 					"ypos"								"0"
 					"zpos"								"20"
-					"wide"								"65"
+					"wide"								"69"
 					"tall"								"f18"
 					"visible"							"1"
 					"enabled"							"1"
@@ -3508,7 +3506,7 @@
 						"labelText"						"10"
 						"font"							"ItemFontNameSmallest"
 						"textAlignment"					"center"
-						"Command"						"engine hudcrosshair_size_10"
+						"Command"						"engine m0_xhair_size_10"
 						"sound_depressed"				"UI/buttonclick.wav"
 
 						"paintbackground"				"1"
@@ -3532,7 +3530,7 @@
 						"xpos"							"1"
 						"ypos"							"0"
 						"zpos"							"20"
-						"wide"							"15"
+						"wide"							"16"
 						"tall"							"16"
 						"visible"						"1"
 						"enabled"						"1"
@@ -3541,7 +3539,7 @@
 						"labelText"						"12"
 						"font"							"ItemFontNameSmallest"
 						"textAlignment"					"center"
-						"Command"						"engine hudcrosshair_size_12"
+						"Command"						"engine m0_xhair_size_12"
 						"sound_depressed"				"UI/buttonclick.wav"
 
 						"paintbackground"				"1"
@@ -3569,7 +3567,7 @@
 						"xpos"							"1"
 						"ypos"							"0"
 						"zpos"							"20"
-						"wide"							"15"
+						"wide"							"16"
 						"tall"							"16"
 						"visible"						"1"
 						"enabled"						"1"
@@ -3578,7 +3576,7 @@
 						"labelText"						"14"
 						"font"							"ItemFontNameSmallest"
 						"textAlignment"					"center"
-						"Command"						"engine hudcrosshair_size_14"
+						"Command"						"engine m0_xhair_size_14"
 						"sound_depressed"				"UI/buttonclick.wav"
 
 						"paintbackground"				"1"
@@ -3606,7 +3604,7 @@
 						"xpos"							"1"
 						"ypos"							"0"
 						"zpos"							"20"
-						"wide"							"15"
+						"wide"							"16"
 						"tall"							"16"
 						"visible"						"1"
 						"enabled"						"1"
@@ -3615,7 +3613,7 @@
 						"labelText"						"16"
 						"font"							"ItemFontNameSmallest"
 						"textAlignment"					"center"
-						"Command"						"engine hudcrosshair_size_16"
+						"Command"						"engine m0_xhair_size_16"
 						"sound_depressed"				"UI/buttonclick.wav"
 
 						"paintbackground"				"1"
@@ -3652,7 +3650,7 @@
 						"labelText"						"18"
 						"font"							"ItemFontNameSmallest"
 						"textAlignment"					"center"
-						"Command"						"engine hudcrosshair_size_18"
+						"Command"						"engine m0_xhair_size_18"
 						"sound_depressed"				"UI/buttonclick.wav"
 
 						"paintbackground"				"1"
@@ -3680,7 +3678,7 @@
 						"xpos"							"1"
 						"ypos"							"0"
 						"zpos"							"20"
-						"wide"							"15"
+						"wide"							"16"
 						"tall"							"16"
 						"visible"						"1"
 						"enabled"						"1"
@@ -3689,7 +3687,7 @@
 						"labelText"						"20"
 						"font"							"ItemFontNameSmallest"
 						"textAlignment"					"center"
-						"Command"						"engine hudcrosshair_size_20"
+						"Command"						"engine m0_xhair_size_20"
 						"sound_depressed"				"UI/buttonclick.wav"
 
 						"paintbackground"				"1"
@@ -3717,7 +3715,7 @@
 						"xpos"							"1"
 						"ypos"							"0"
 						"zpos"							"20"
-						"wide"							"15"
+						"wide"							"16"
 						"tall"							"16"
 						"visible"						"1"
 						"enabled"						"1"
@@ -3726,7 +3724,7 @@
 						"labelText"						"22"
 						"font"							"ItemFontNameSmallest"
 						"textAlignment"					"center"
-						"Command"						"engine hudcrosshair_size_22"
+						"Command"						"engine m0_xhair_size_22"
 						"sound_depressed"				"UI/buttonclick.wav"
 
 						"paintbackground"				"1"
@@ -3754,7 +3752,7 @@
 						"xpos"							"1"
 						"ypos"							"0"
 						"zpos"							"20"
-						"wide"							"15"
+						"wide"							"16"
 						"tall"							"16"
 						"visible"						"1"
 						"enabled"						"1"
@@ -3763,7 +3761,7 @@
 						"labelText"						"24"
 						"font"							"ItemFontNameSmallest"
 						"textAlignment"					"center"
-						"Command"						"engine hudcrosshair_size_24"
+						"Command"						"engine m0_xhair_size_24"
 						"sound_depressed"				"UI/buttonclick.wav"
 
 						"paintbackground"				"1"
@@ -3800,7 +3798,7 @@
 						"labelText"						"26"
 						"font"							"ItemFontNameSmallest"
 						"textAlignment"					"center"
-						"Command"						"engine hudcrosshair_size_26"
+						"Command"						"engine m0_xhair_size_26"
 						"sound_depressed"				"UI/buttonclick.wav"
 
 						"paintbackground"				"1"
@@ -3828,7 +3826,7 @@
 						"xpos"							"1"
 						"ypos"							"0"
 						"zpos"							"20"
-						"wide"							"15"
+						"wide"							"16"
 						"tall"							"17"
 						"visible"						"1"
 						"enabled"						"1"
@@ -3837,7 +3835,7 @@
 						"labelText"						"28"
 						"font"							"ItemFontNameSmallest"
 						"textAlignment"					"center"
-						"Command"						"engine hudcrosshair_size_28"
+						"Command"						"engine m0_xhair_size_28"
 						"sound_depressed"				"UI/buttonclick.wav"
 
 						"paintbackground"				"1"
@@ -3865,7 +3863,7 @@
 						"xpos"							"1"
 						"ypos"							"0"
 						"zpos"							"20"
-						"wide"							"15"
+						"wide"							"16"
 						"tall"							"17"
 						"visible"						"1"
 						"enabled"						"1"
@@ -3874,7 +3872,7 @@
 						"labelText"						"30"
 						"font"							"ItemFontNameSmallest"
 						"textAlignment"					"center"
-						"Command"						"engine hudcrosshair_size_30"
+						"Command"						"engine m0_xhair_size_30"
 						"sound_depressed"				"UI/buttonclick.wav"
 
 						"paintbackground"				"1"
@@ -3902,7 +3900,7 @@
 						"xpos"							"1"
 						"ypos"							"0"
 						"zpos"							"20"
-						"wide"							"15"
+						"wide"							"16"
 						"tall"							"17"
 						"visible"						"1"
 						"enabled"						"1"
@@ -3911,7 +3909,7 @@
 						"labelText"						"32"
 						"font"							"ItemFontNameSmallest"
 						"textAlignment"					"center"
-						"Command"						"engine hudcrosshair_size_30"
+						"Command"						"engine m0_xhair_size_30"
 						"sound_depressed"				"UI/buttonclick.wav"
 
 						"paintbackground"				"1"
@@ -4016,7 +4014,7 @@
 						"labelText"						"No Character Edge"
 						"font"							"ItemFontNameSmallest"
 						"textAlignment"					"center"
-						"Command"						"engine hudcrosshair_outline_off; hudcrosshair_shadow_off"
+						"Command"						"engine m0_xhair_edge_clear"
 						"sound_depressed"				"UI/buttonclick.wav"
 
 						"paintbackground"				"1"
@@ -4049,7 +4047,7 @@
 						"labelText"						"Add Outline"
 						"font"							"ItemFontNameSmallest"
 						"textAlignment"					"center"
-						"Command"						"engine hudcrosshair_outline_on"
+						"Command"						"engine m0_xhair_outline"
 						"sound_depressed"				"UI/buttonclick.wav"
 
 						"paintbackground"				"1"
@@ -4082,7 +4080,7 @@
 						"labelText"						"Add Dropshadow"
 						"font"							"ItemFontNameSmallest"
 						"textAlignment"					"center"
-						"Command"						"engine hudcrosshair_shadow_on"
+						"Command"						"engine m0_xhair_shadow"
 						"sound_depressed"				"UI/buttonclick.wav"
 
 						"paintbackground"				"1"
@@ -4101,16 +4099,16 @@
 					}
 				}
 //=================================================================================================================================
-// CROSSHAIR COLOR
+// CROSSHAIR FLASH ON HIT
 //=================================================================================================================================
-				"HUD_Crosshair_Color"
+				"HUD_Crosshair_Flash"
 				{
 					"ControlName"						"EditablePanel"
-					"fieldName"							"HUD_Crosshair_Color"
+					"fieldName"							"HUD_Crosshair_Flash"
 					"xpos"								"2"
 					"ypos"								"0"
 					"zpos"								"20"
-					"wide"								"79"
+					"wide"								"60"
 					"tall"								"f18"
 					"visible"							"1"
 					"enabled"							"1"
@@ -4123,10 +4121,10 @@
 					"pin_corner_to_sibling"				"PIN_TOPLEFT"
 					"pin_to_sibling_corner"				"PIN_TOPRIGHT"
 
-					"HUD_Crosshair_Color_Label"
+					"HUD_Crosshair_Flash_Label"
 					{
 						"ControlName"					"CExLabel"
-						"fieldName"						"HUD_Crosshair_Color_Label"
+						"fieldName"						"HUD_Crosshair_Flash_Label"
 						"xpos"							"cs-0.5"
 						"ypos"							"0"
 						"zpos"							"1"
@@ -4137,55 +4135,87 @@
 						"mouseinputenabled"				"0"
 						"proportionaltoparent"			"1"
 						"font"							"ItemFontNameSmallest"
-						"labeltext"						"Color:"
+						"labeltext"						"Flash On Hit:"
 						"textAlignment"					"center"
 						"fgcolor"						"White"
 						"paintbackground"				"1"
 						"paintbackgroundtype"			"0"
 						"bgcolor_override"				"80 74 74 255"
 					}
-					"Crosshair_White"
+					"HUD_Crosshair_Flash_Enable"
 					{
 						"ControlName"					"CExButton"
-						"fieldName"						"Crosshair_White"
-						"xpos"							"1"
-						"ypos"							"13"
+						"fieldName"						"HUD_Crosshair_Flash_Enable"
+						"xpos"							"cs-0.5"
+						"ypos"							"14"
 						"zpos"							"20"
-						"wide"							"12"
-						"tall"							"16"
+						"wide"							"f4"
+						"tall"							"24"
 						"visible"						"1"
 						"enabled"						"1"
 						"proportionaltoparent"			"1"
+						"use_proportional_insets"		"1"
 						"actionsignallevel"				"5"
-						"labelText"						""
-						"Command"						"engine hudcrosshair_color_white"
+						"labelText"						"ON"
+						"font"							"HudFontSmallestBold"
+						"textAlignment"					"east"
+						"textinsetx"					"12"
+						"Command"						"engine m0_xhair_animation_on"
 						"sound_depressed"				"UI/buttonclick.wav"
 
 						"paintbackground"				"1"
 						"paintborder"					"1"
 
 						"border_default"				"NoBorder"
-						"border_armed"					"BorderSelectionBlack"
+						"border_armed"					"BorderSelectionWhite"
 
-						"defaultBgColor_override"		"m0reWhite"
-						"armedBgColor_override"			"m0reWhite"
-						"depressedBgColor_override"		"m0reWhite"
+						"defaultFgColor_override"		"White"
+						"armedFgColor_override"			"White"
+						"depressedFgColor_override"		"White"
+
+						"defaultBgColor_override"		"CreditsGreen"
+						"armedBgColor_override"			"CreditsGreen"
+						"depressedBgColor_override"		"CreditsGreen"
 					}
-					"Crosshair_Grey"
+					"HUD_Crosshair_Flash_Enabled_Image"
 					{
-						"ControlName"					"CExButton"
-						"fieldName"						"Crosshair_Grey"
-						"xpos"							"1"
+						"ControlName"					"ImagePanel"
+						"fieldName"						"HUD_Crosshair_Flash_Enabled_Image"
+						"xpos"							"-2"
 						"ypos"							"0"
+						"zpos"							"21"
+						"wide"							"20"
+						"tall"							"20"
+						"visible"						"1"
+						"enabled"						"1"
+						"mouseinputenabled"				"0"
+						"scaleImage"					"1"
+						"proportionaltoparent"			"1"
+						"image"							"replay/thumbnails/customizations/colors/crosshair_flash_enabled"
+
+						"pin_to_sibling"				"HUD_Crosshair_Flash_Enable"
+						"pin_corner_to_sibling"			"PIN_CENTER_LEFT"
+						"pin_to_sibling_corner"			"PIN_CENTER_LEFT"
+					}
+					"HUD_Crosshair_Flash_Disable"
+					{
+						"ControlName"					"CExButton"
+						"fieldName"						"HUD_Crosshair_Flash_Disable"
+						"xpos"							"cs-0.5"
+						"ypos"							"rs1-2"
 						"zpos"							"20"
-						"wide"							"12"
-						"tall"							"16"
+						"wide"							"f4"
+						"tall"							"23"
 						"visible"						"1"
 						"enabled"						"1"
 						"proportionaltoparent"			"1"
+						"use_proportional_insets"		"1"
 						"actionsignallevel"				"5"
-						"labelText"						""
-						"Command"						"engine hudcrosshair_color_grey"
+						"labelText"						"OFF"
+						"font"							"HudFontSmallestBold"
+						"textAlignment"					"east"
+						"textinsetx"					"7"
+						"Command"						"engine m0_xhair_animation_clear"
 						"sound_depressed"				"UI/buttonclick.wav"
 
 						"paintbackground"				"1"
@@ -4194,509 +4224,33 @@
 						"border_default"				"NoBorder"
 						"border_armed"					"BorderSelectionWhite"
 
-						"defaultBgColor_override"		"m0reGrey"
-						"armedBgColor_override"			"m0reGrey"
-						"depressedBgColor_override"		"m0reGrey"
+						"defaultFgColor_override"		"White"
+						"armedFgColor_override"			"White"
+						"depressedFgColor_override"		"White"
 
-						"pin_to_sibling"				"Crosshair_White"
-						"pin_corner_to_sibling"			"PIN_TOPLEFT"
-						"pin_to_sibling_corner"			"PIN_TOPRIGHT"
+						"defaultBgColor_override"		"Red"
+						"armedBgColor_override"			"Red"
+						"depressedBgColor_override"		"Red"
 					}
-					"Crosshair_Black"
+					"HUD_Crosshair_Flash_Disabled_Image"
 					{
-						"ControlName"					"CExButton"
-						"fieldName"						"Crosshair_Black"
-						"xpos"							"1"
+						"ControlName"					"ImagePanel"
+						"fieldName"						"HUD_Crosshair_Flash_Disabled_Image"
+						"xpos"							"-2"
 						"ypos"							"0"
-						"zpos"							"20"
-						"wide"							"12"
-						"tall"							"16"
+						"zpos"							"21"
+						"wide"							"20"
+						"tall"							"19"
 						"visible"						"1"
 						"enabled"						"1"
+						"mouseinputenabled"				"0"
+						"scaleImage"					"1"
 						"proportionaltoparent"			"1"
-						"actionsignallevel"				"5"
-						"labelText"						""
-						"Command"						"engine hudcrosshair_color_black"
-						"sound_depressed"				"UI/buttonclick.wav"
-
-						"paintbackground"				"1"
-						"paintborder"					"1"
-
-						"border_default"				"NoBorder"
-						"border_armed"					"BorderSelectionWhite"
-
-						"defaultBgColor_override"		"m0reBlack"
-						"armedBgColor_override"			"m0reBlack"
-						"depressedBgColor_override"		"m0reBlack"
-
-						"pin_to_sibling"				"Crosshair_Grey"
-						"pin_corner_to_sibling"			"PIN_TOPLEFT"
-						"pin_to_sibling_corner"			"PIN_TOPRIGHT"
-					}
-					"Crosshair_Red_Dark"
-					{
-						"ControlName"					"CExButton"
-						"fieldName"						"Crosshair_Red_Dark"
-						"xpos"							"1"
-						"ypos"							"0"
-						"zpos"							"20"
-						"wide"							"12"
-						"tall"							"16"
-						"visible"						"1"
-						"enabled"						"1"
-						"proportionaltoparent"			"1"
-						"actionsignallevel"				"5"
-						"labelText"						""
-						"Command"						"engine hudcrosshair_color_reddark"
-						"sound_depressed"				"UI/buttonclick.wav"
-
-						"paintbackground"				"1"
-						"paintborder"					"1"
-
-						"border_default"				"NoBorder"
-						"border_armed"					"BorderSelectionWhite"
-
-						"defaultBgColor_override"		"m0reRedDark"
-						"armedBgColor_override"			"m0reRedDark"
-						"depressedBgColor_override"		"m0reRedDark"
-
-						"pin_to_sibling"				"Crosshair_Black"
-						"pin_corner_to_sibling"			"PIN_TOPLEFT"
-						"pin_to_sibling_corner"			"PIN_TOPRIGHT"
-					}
-					"Crosshair_Red"
-					{
-						"ControlName"					"CExButton"
-						"fieldName"						"Crosshair_Red"
-						"xpos"							"1"
-						"ypos"							"0"
-						"zpos"							"20"
-						"wide"							"12"
-						"tall"							"16"
-						"visible"						"1"
-						"enabled"						"1"
-						"proportionaltoparent"			"1"
-						"actionsignallevel"				"5"
-						"labelText"						""
-						"Command"						"engine hudcrosshair_color_red"
-						"sound_depressed"				"UI/buttonclick.wav"
-
-						"paintbackground"				"1"
-						"paintborder"					"1"
-
-						"border_default"				"NoBorder"
-						"border_armed"					"BorderSelectionWhite"
-
-						"defaultBgColor_override"		"m0reRed"
-						"armedBgColor_override"			"m0reRed"
-						"depressedBgColor_override"		"m0reRed"
-
-						"pin_to_sibling"				"Crosshair_Red_Dark"
-						"pin_corner_to_sibling"			"PIN_TOPLEFT"
-						"pin_to_sibling_corner"			"PIN_TOPRIGHT"
-					}
-					"Crosshair_Orange"
-					{
-						"ControlName"					"CExButton"
-						"fieldName"						"Crosshair_Orange"
-						"xpos"							"1"
-						"ypos"							"0"
-						"zpos"							"20"
-						"wide"							"12"
-						"tall"							"16"
-						"visible"						"1"
-						"enabled"						"1"
-						"proportionaltoparent"			"1"
-						"actionsignallevel"				"5"
-						"labelText"						""
-						"Command"						"engine hudcrosshair_color_orange"
-						"sound_depressed"				"UI/buttonclick.wav"
-
-						"paintbackground"				"1"
-						"paintborder"					"1"
-
-						"border_default"				"NoBorder"
-						"border_armed"					"BorderSelectionWhite"
-
-						"defaultBgColor_override"		"m0reOrange"
-						"armedBgColor_override"			"m0reOrange"
-						"depressedBgColor_override"		"m0reOrange"
-
-						"pin_to_sibling"				"Crosshair_Red"
-						"pin_corner_to_sibling"			"PIN_TOPLEFT"
-						"pin_to_sibling_corner"			"PIN_TOPRIGHT"
-					}
-					"Crosshair_Yellow"
-					{
-						"ControlName"					"CExButton"
-						"fieldName"						"Crosshair_Yellow"
-						"xpos"							"0"
-						"ypos"							"1"
-						"zpos"							"20"
-						"wide"							"12"
-						"tall"							"16"
-						"visible"						"1"
-						"enabled"						"1"
-						"proportionaltoparent"			"1"
-						"actionsignallevel"				"5"
-						"labelText"						""
-						"Command"						"engine hudcrosshair_color_yellow"
-						"sound_depressed"				"UI/buttonclick.wav"
-
-						"paintbackground"				"1"
-						"paintborder"					"1"
-
-						"border_default"				"NoBorder"
-						"border_armed"					"BorderSelectionBlack"
-
-						"defaultBgColor_override"		"m0reYellow"
-						"armedBgColor_override"			"m0reYellow"
-						"depressedBgColor_override"		"m0reYellow"
-
-						"pin_to_sibling"				"Crosshair_White"
-						"pin_corner_to_sibling"			"PIN_TOPLEFT"
-						"pin_to_sibling_corner"			"PIN_BOTTOMLEFT"
-					}
-					"Crosshair_Green_Pale"
-					{
-						"ControlName"					"CExButton"
-						"fieldName"						"Crosshair_Green_Pale"
-						"xpos"							"1"
-						"ypos"							"0"
-						"zpos"							"20"
-						"wide"							"12"
-						"tall"							"16"
-						"visible"						"1"
-						"enabled"						"1"
-						"proportionaltoparent"			"1"
-						"actionsignallevel"				"5"
-						"labelText"						""
-						"Command"						"engine hudcrosshair_color_greenpale"
-						"sound_depressed"				"UI/buttonclick.wav"
-
-						"paintbackground"				"1"
-						"paintborder"					"1"
-
-						"border_default"				"NoBorder"
-						"border_armed"					"BorderSelectionWhite"
-
-						"defaultBgColor_override"		"m0reGreenPale"
-						"armedBgColor_override"			"m0reGreenPale"
-						"depressedBgColor_override"		"m0reGreenPale"
-
-						"pin_to_sibling"				"Crosshair_Yellow"
-						"pin_corner_to_sibling"			"PIN_TOPLEFT"
-						"pin_to_sibling_corner"			"PIN_TOPRIGHT"
-					}
-					"Crosshair_Green"
-					{
-						"ControlName"					"CExButton"
-						"fieldName"						"Crosshair_Green"
-						"xpos"							"1"
-						"ypos"							"0"
-						"zpos"							"20"
-						"wide"							"12"
-						"tall"							"16"
-						"visible"						"1"
-						"enabled"						"1"
-						"proportionaltoparent"			"1"
-						"actionsignallevel"				"5"
-						"labelText"						""
-						"Command"						"engine hudcrosshair_color_green"
-						"sound_depressed"				"UI/buttonclick.wav"
-
-						"paintbackground"				"1"
-						"paintborder"					"1"
-
-						"border_default"				"NoBorder"
-						"border_armed"					"BorderSelectionWhite"
-
-						"defaultBgColor_override"		"m0reGreen"
-						"armedBgColor_override"			"m0reGreen"
-						"depressedBgColor_override"		"m0reGreen"
-
-						"pin_to_sibling"				"Crosshair_Green_Pale"
-						"pin_corner_to_sibling"			"PIN_TOPLEFT"
-						"pin_to_sibling_corner"			"PIN_TOPRIGHT"
-					}
-					"Crosshair_Green_Dark"
-					{
-						"ControlName"					"CExButton"
-						"fieldName"						"Crosshair_Green_Dark"
-						"xpos"							"1"
-						"ypos"							"0"
-						"zpos"							"20"
-						"wide"							"12"
-						"tall"							"16"
-						"visible"						"1"
-						"enabled"						"1"
-						"proportionaltoparent"			"1"
-						"actionsignallevel"				"5"
-						"labelText"						""
-						"Command"						"engine hudcrosshair_color_greendark"
-						"sound_depressed"				"UI/buttonclick.wav"
-
-						"paintbackground"				"1"
-						"paintborder"					"1"
-
-						"border_default"				"NoBorder"
-						"border_armed"					"BorderSelectionWhite"
-
-						"defaultBgColor_override"		"m0reGreenDark"
-						"armedBgColor_override"			"m0reGreenDark"
-						"depressedBgColor_override"		"m0reGreenDark"
-
-						"pin_to_sibling"				"Crosshair_Green"
-						"pin_corner_to_sibling"			"PIN_TOPLEFT"
-						"pin_to_sibling_corner"			"PIN_TOPRIGHT"
-					}
-					"Crosshair_Teal"
-					{
-						"ControlName"					"CExButton"
-						"fieldName"						"Crosshair_Teal"
-						"xpos"							"1"
-						"ypos"							"0"
-						"zpos"							"20"
-						"wide"							"12"
-						"tall"							"16"
-						"visible"						"1"
-						"enabled"						"1"
-						"proportionaltoparent"			"1"
-						"actionsignallevel"				"5"
-						"labelText"						""
-						"Command"						"engine hudcrosshair_color_teal"
-						"sound_depressed"				"UI/buttonclick.wav"
-
-						"paintbackground"				"1"
-						"paintborder"					"1"
-
-						"border_default"				"NoBorder"
-						"border_armed"					"BorderSelectionWhite"
-
-						"defaultBgColor_override"		"m0reTeal"
-						"armedBgColor_override"			"m0reTeal"
-						"depressedBgColor_override"		"m0reTeal"
-
-						"pin_to_sibling"				"Crosshair_Green_Dark"
-						"pin_corner_to_sibling"			"PIN_TOPLEFT"
-						"pin_to_sibling_corner"			"PIN_TOPRIGHT"
-					}
-					"Crosshair_Cyan"
-					{
-						"ControlName"					"CExButton"
-						"fieldName"						"Crosshair_Cyan"
-						"xpos"							"1"
-						"ypos"							"0"
-						"zpos"							"20"
-						"wide"							"12"
-						"tall"							"16"
-						"visible"						"1"
-						"enabled"						"1"
-						"proportionaltoparent"			"1"
-						"actionsignallevel"				"5"
-						"labelText"						""
-						"Command"						"engine hudcrosshair_color_cyan"
-						"sound_depressed"				"UI/buttonclick.wav"
-
-						"paintbackground"				"1"
-						"paintborder"					"1"
-
-						"border_default"				"NoBorder"
-						"border_armed"					"BorderSelectionWhite"
-
-						"defaultBgColor_override"		"m0reCyan"
-						"armedBgColor_override"			"m0reCyan"
-						"depressedBgColor_override"		"m0reCyan"
-
-						"pin_to_sibling"				"Crosshair_Teal"
-						"pin_corner_to_sibling"			"PIN_TOPLEFT"
-						"pin_to_sibling_corner"			"PIN_TOPRIGHT"
-					}
-					"Crosshair_Blue"
-					{
-						"ControlName"					"CExButton"
-						"fieldName"						"Crosshair_Blue"
-						"xpos"							"0"
-						"ypos"							"1"
-						"zpos"							"20"
-						"wide"							"12"
-						"tall"							"17"
-						"visible"						"1"
-						"enabled"						"1"
-						"proportionaltoparent"			"1"
-						"actionsignallevel"				"5"
-						"labelText"						""
-						"Command"						"engine hudcrosshair_color_blue"
-						"sound_depressed"				"UI/buttonclick.wav"
-
-						"paintbackground"				"1"
-						"paintborder"					"1"
-
-						"border_default"				"NoBorder"
-						"border_armed"					"BorderSelectionWhite"
-
-						"defaultBgColor_override"		"m0reBlue"
-						"armedBgColor_override"			"m0reBlue"
-						"depressedBgColor_override"		"m0reBlue"
-
-						"pin_to_sibling"				"Crosshair_Yellow"
-						"pin_corner_to_sibling"			"PIN_TOPLEFT"
-						"pin_to_sibling_corner"			"PIN_BOTTOMLEFT"
-					}
-					"Crosshair_Blu"
-					{
-						"ControlName"					"CExButton"
-						"fieldName"						"Crosshair_Blu"
-						"xpos"							"1"
-						"ypos"							"0"
-						"zpos"							"20"
-						"wide"							"12"
-						"tall"							"17"
-						"visible"						"1"
-						"enabled"						"1"
-						"proportionaltoparent"			"1"
-						"actionsignallevel"				"5"
-						"labelText"						""
-						"Command"						"engine hudcrosshair_color_blu"
-						"sound_depressed"				"UI/buttonclick.wav"
-
-						"paintbackground"				"1"
-						"paintborder"					"1"
-
-						"border_default"				"NoBorder"
-						"border_armed"					"BorderSelectionWhite"
-
-						"defaultBgColor_override"		"m0reBlu"
-						"armedBgColor_override"			"m0reBlu"
-						"depressedBgColor_override"		"m0reBlu"
-
-						"pin_to_sibling"				"Crosshair_Blue"
-						"pin_corner_to_sibling"			"PIN_TOPLEFT"
-						"pin_to_sibling_corner"			"PIN_TOPRIGHT"
-					}
-					"Crosshair_Purple"
-					{
-						"ControlName"					"CExButton"
-						"fieldName"						"Crosshair_Purple"
-						"xpos"							"1"
-						"ypos"							"0"
-						"zpos"							"20"
-						"wide"							"12"
-						"tall"							"17"
-						"visible"						"1"
-						"enabled"						"1"
-						"proportionaltoparent"			"1"
-						"actionsignallevel"				"5"
-						"labelText"						""
-						"Command"						"engine hudcrosshair_color_purple"
-						"sound_depressed"				"UI/buttonclick.wav"
-
-						"paintbackground"				"1"
-						"paintborder"					"1"
-
-						"border_default"				"NoBorder"
-						"border_armed"					"BorderSelectionWhite"
-
-						"defaultBgColor_override"		"m0rePurple"
-						"armedBgColor_override"			"m0rePurple"
-						"depressedBgColor_override"		"m0rePurple"
-
-						"pin_to_sibling"				"Crosshair_Blu"
-						"pin_corner_to_sibling"			"PIN_TOPLEFT"
-						"pin_to_sibling_corner"			"PIN_TOPRIGHT"
-					}
-					"Crosshair_Violet"
-					{
-						"ControlName"					"CExButton"
-						"fieldName"						"Crosshair_Violet"
-						"xpos"							"1"
-						"ypos"							"0"
-						"zpos"							"20"
-						"wide"							"12"
-						"tall"							"17"
-						"visible"						"1"
-						"enabled"						"1"
-						"proportionaltoparent"			"1"
-						"actionsignallevel"				"5"
-						"labelText"						""
-						"Command"						"engine hudcrosshair_color_violet"
-						"sound_depressed"				"UI/buttonclick.wav"
-
-						"paintbackground"				"1"
-						"paintborder"					"1"
-
-						"border_default"				"NoBorder"
-						"border_armed"					"BorderSelectionWhite"
-
-						"defaultBgColor_override"		"m0reViolet"
-						"armedBgColor_override"			"m0reViolet"
-						"depressedBgColor_override"		"m0reViolet"
-
-						"pin_to_sibling"				"Crosshair_Purple"
-						"pin_corner_to_sibling"			"PIN_TOPLEFT"
-						"pin_to_sibling_corner"			"PIN_TOPRIGHT"
-					}
-					"Crosshair_Pink"
-					{
-						"ControlName"					"CExButton"
-						"fieldName"						"Crosshair_Pink"
-						"xpos"							"1"
-						"ypos"							"0"
-						"zpos"							"20"
-						"wide"							"12"
-						"tall"							"17"
-						"visible"						"1"
-						"enabled"						"1"
-						"proportionaltoparent"			"1"
-						"actionsignallevel"				"5"
-						"labelText"						""
-						"Command"						"engine hudcrosshair_color_pink"
-						"sound_depressed"				"UI/buttonclick.wav"
-
-						"paintbackground"				"1"
-						"paintborder"					"1"
-
-						"border_default"				"NoBorder"
-						"border_armed"					"BorderSelectionWhite"
-
-						"defaultBgColor_override"		"m0rePink"
-						"armedBgColor_override"			"m0rePink"
-						"depressedBgColor_override"		"m0rePink"
-
-						"pin_to_sibling"				"Crosshair_Violet"
-						"pin_corner_to_sibling"			"PIN_TOPLEFT"
-						"pin_to_sibling_corner"			"PIN_TOPRIGHT"
-					}
-					"Crosshair_Magenta"
-					{
-						"ControlName"					"CExButton"
-						"fieldName"						"Crosshair_Magenta"
-						"xpos"							"1"
-						"ypos"							"0"
-						"zpos"							"20"
-						"wide"							"12"
-						"tall"							"17"
-						"visible"						"1"
-						"enabled"						"1"
-						"proportionaltoparent"			"1"
-						"actionsignallevel"				"5"
-						"labelText"						""
-						"Command"						"engine hudcrosshair_color_magenta"
-						"sound_depressed"				"UI/buttonclick.wav"
-
-						"paintbackground"				"1"
-						"paintborder"					"1"
-
-						"border_default"				"NoBorder"
-						"border_armed"					"BorderSelectionWhite"
-
-						"defaultBgColor_override"		"m0reMagenta"
-						"armedBgColor_override"			"m0reMagenta"
-						"depressedBgColor_override"		"m0reMagenta"
-
-						"pin_to_sibling"				"Crosshair_Pink"
-						"pin_corner_to_sibling"			"PIN_TOPLEFT"
-						"pin_to_sibling_corner"			"PIN_TOPRIGHT"
+						"image"							"replay/thumbnails/customizations/colors/crosshair_flash_disabled"
+
+						"pin_to_sibling"				"HUD_Crosshair_Flash_Disable"
+						"pin_corner_to_sibling"			"PIN_CENTER_LEFT"
+						"pin_to_sibling_corner"			"PIN_CENTER_LEFT"
 					}
 				}
 			}

@@ -72,8 +72,8 @@
 			"depressedFgColor_override"				"White"
 
 			"defaultBgColor_override"				"TransparentBlack"
-			"armedBgColor_override"					"Menu Labels"
-			"depressedBgColor_override"				"Menu Labels"
+			"armedBgColor_override"					"Menu_Accent"
+			"depressedBgColor_override"				"Menu_Accent"
 		}
 		"PartySlot0"
 		{

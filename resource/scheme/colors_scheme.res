@@ -7,90 +7,84 @@
 		//==================================================================================
 		// HEALTH
 		//----------------------------------------------------------------------------------
-		"Health Numbers"									"255 255 255 255"
-		"Health Shadow"										"0 0 0 255"
+		"Health_Numbers"									"255 255 255 255"
 
-		"Health Buff"										"255 255 255 255"
-		"Health Shadow Buff"								"0 185 0 255"
-		"Health Buff BG"									"0 185 0 255"
-		"Health Buff Target"								"0 215 0 255"
-		"Health Buff Spec"									"0 215 0 255"
-		"Health Buff Killer"								"0 215 0 255"
+		"Health_Buff"										"0 185 0 255"
+		"Health_Shadow_Buff"								"0 185 0 255"
+		"Health_Buff_Target"								"0 215 0 255"
+		"Health_Buff_Killer"								"0 215 0 255"
 
-		"Health Hurt"										"255 255 255 255"
-		"Health Shadow Hurt"								"255 0 0 255"
-		"Health Hurt BG"									"255 0 0 255"
-		"Health Hurt Target"								"255 255 255 255"
-		"Health Hurt Spec"									"255 0 0 255"
-		"Health Hurt Killer"								"255 0 0 255"
-
-		"Extra Shadow"										"0 0 0 255"
+		"Health_Hurt"										"255 0 0 255"
+		"Health_Shadow_Hurt"								"255 0 0 255"
+		"Health_Hurt_Target"								"255 255 255 255"
+		"Health_Hurt_Killer"								"255 0 0 255"
 
 		//----------------------------------------------------------------------------------
 		// AMMO
 		//----------------------------------------------------------------------------------
-		"Ammo In Clip"										"255 255 255 255"
-		"Ammo In Clip Shadow"								"0 0 0 255"
-		"Ammo In Reserve"									"255 255 255 255"
-		"Ammo In Reserve Shadow"							"0 0 0 255"
-		"Ammo No Clip"										"255 255 255 255"
-		"Ammo No Clip Shadow"								"0 0 0 255"
+		"Ammo_In_Clip"										"255 255 255 255"
+		"Ammo_In_Reserve"									"255 255 255 255"
 
-		"Ammo In Clip Low"									"255 255 255 255"
-		"Ammo In Clip Shadow Low"							"255 0 0 255"
-		"Ammo In Reserve Low"								"255 255 255 255"
-		"Ammo In Reserve Shadow Low"						"255 0 0 255"
-		"Ammo No Clip Low"									"255 255 255 255"
-		"Ammo No Clip Shadow Low"							"255 0 0 255"
+		"Ammo_In_Clip_Low"									"255 0 0 255"
+		"Ammo_In_Clip_Shadow_Low"							"255 0 0 255"
+		"Ammo_In_Reserve_Low"								"255 0 0 255"
+		"Ammo_In_Reserve_Shadow_Low"						"255 0 0 255"
 
 		//----------------------------------------------------------------------------------
 		// UBER
 		//----------------------------------------------------------------------------------
 		"Ubercharge"										"255 255 255 255"
-		"Ubercharge Shadow"									"0 0 0 255"
-		"Ubercharge Full"									"255 255 255 255"
-		"Ubercharge Shadow Full"							"255 0 127 255"
-		"Ubercharge Meter Full"								"255 0 127 255"
+		"Ubercharge_Full"									"255 0 127 255"
+		"Ubercharge_Shadow_Full"							"255 0 127 255"
+
+		//----------------------------------------------------------------------------------
+		// SHADOWS
+		//----------------------------------------------------------------------------------
+		"Main_Shadow"										"0 0 0 255"
+		"Extra_Health_Shadow"								"0 0 0 255"
+		"Extra_Uber_Shadow"									"0 0 0 255"
 
 		//----------------------------------------------------------------------------------
 		// +HEALTH AND DAMAGE
 		//----------------------------------------------------------------------------------
-		"Health Gained"										"0 255 0 255"
-		"Health Lost"										"255 0 0 255"
+		"Health_Gained"										"0 255 0 255"
+		"Health_Lost"										"255 0 0 255"
 
-		"Heal Numbers"										"0 255 0 255"
-		"Last Damage Done"									"255 255 255 255"
+		"Heal_Numbers"										"0 255 0 255"
+		"Last_Damage_Done"									"255 255 255 255"
 
 		//----------------------------------------------------------------------------------
 		// MENUS
 		//----------------------------------------------------------------------------------
-		"Menu Labels"										"255 0 127 255"
-		"Class Selection"									"0 215 0 255"
+		"Menu_Accent"										"255 0 127 255"
+		"Class_Selection"									"0 215 0 255"
 
 		//----------------------------------------------------------------------------------
 		// CROSSHAIRS
 		//----------------------------------------------------------------------------------
 		"Crosshair"											"255 255 255 255"
-		"Crosshair Flash"									"255 0 0 255"
+		"Crosshair_Flash"									"255 0 0 255"
+		"Hitmarker"											"255 0 0 255"
 
 		//==================================================================================
-		// M0RE THEME COLORS
+		// M0RE COLOR SCALE PRESETS
 		//==================================================================================
 		"m0reWhite"											"255 255 255 255"
-		"m0reGrey"											"100 100 100 255"
+		"m0reGrey"											"150 152 154 255"
 		"m0reBlack"											"0 0 0 255"
-		"m0reRedDark"										"150 50 50 255"
-		"m0reRed"											"210 40 40 255"
-		"m0reOrange"										"255 165 75 255"
-		"m0reYellow"										"255 215 100 255"
-		"m0reGreenPale"										"180 200 100 255"
+		"m0reMaroon"										"150 50 50 255"
+		"m0reRed"											"255 0 0 255"
+		"m0reSalmon"										"250 125 115 255"
+		"m0reOrange"										"255 155 75 255"
+		"m0reYellow"										"255 190 0 255"
+		"m0reOlive"											"180 200 100 255"
 		"m0reGreen"											"0 215 0 255"
-		"m0reGreenDark"										"0 100 0 255"
+		"m0reForest"										"0 135 55 255"
 		"m0reTeal"											"100 180 170 255"
-		"m0reCyan"											"0 210 215 255"
-		"m0reBlue"											"0 165 255 255"
-		"m0reBlu"											"70 70 180 255"
-		"m0rePurple"										"165 50 235 255"
+		"m0reCyan"											"0 195 200 255"
+		"m0reBlue"											"0 170 255 255"
+		"m0reNavy"											"90 120 200 255"
+		"m0rePurple"										"150 50 235 255"
 		"m0reViolet"										"190 150 210 255"
 		"m0rePink"											"250 185 240 255"
 		"m0reMagenta"										"255 0 127 255"

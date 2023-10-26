@@ -111,8 +111,6 @@
 				"TFFont"							"HudFontSmallest"
 				"HealthDeathWarningColor"			"HUDDeathWarning"
 				"TextColor"							"HudOffWhite"
-				"paintBackground"					"0"
-				"bgcolor_override"					"0 0 0 125"
 
 				"pin_to_sibling"					"Separator"
 				"pin_corner_to_sibling"				"PIN_TOPLEFT"
@@ -150,7 +148,7 @@
 				"labelText"							"%chargeamount%"
 				"font"								"BlocksSharp64"
 				"textAlignment"						"east"
-				"fgcolor"							"White"
+				"fgcolor"							"220 220 220 255"
 			}
 			"ChargeAmount"
 			{

@@ -1,0 +1,9 @@
+"UnlitGeneric"
+{
+	"$baseTexture"			"vgui\replay\thumbnails\menu\loading_bg"
+	"$vertexalpha"			"1"
+	"$alpha"				"1"
+	"$translucent"			"1"
+	"$vertexcolor"			"1"
+	"$no_fullbright"		"1"
+}

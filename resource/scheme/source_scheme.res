@@ -190,7 +190,7 @@
 		"Menu.FgColor"										"SS_RightClick_Menu_Text"
 		"Menu.BgColor"										"SS_RightClick_Menu_BG"
 		"Menu.ArmedFgColor"									"SS_RightClick_Menu_Text_Armed"
-		"Menu.ArmedBgColor"									"SS_RightClick_Menu_Text_Armed"
+		"Menu.ArmedBgColor"									"SS_RightClick_Menu_BG_Armed"
 		"Menu.DividerColor"									"SS_RightClick_Menu_Divider"
 
 		"PropertySheet.TextColor"							"SS_Sheet_Text"
