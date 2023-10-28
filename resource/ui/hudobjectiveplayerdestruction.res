@@ -69,7 +69,6 @@
 		"tall"										"13"
 		"visible"									"0"
 		"enabled"									"1"
-		"proportionaltoparent"						"1"
 		"PaintBackground"							"1"
 		"PaintBackgroundtype"						"0"
 		"bgcolor_override"							"100 255 0 100"
@@ -899,7 +898,6 @@
 		"tall"										"110"
 		"visible"									"0"
 		"enabled"									"1"
-		"proportionaltoparent"						"1"
 
 		"CountdownLabelTime"
 		{
