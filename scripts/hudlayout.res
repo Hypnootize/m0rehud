@@ -1070,7 +1070,7 @@
 		"xpos"										"0"
 		"ypos"										"0"
 		"wide"										"f0"
-		"tall"										"50"
+		"tall"										"100"
 	}
 	"HudAchievementTracker"
 	{
