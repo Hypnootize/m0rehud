@@ -309,6 +309,14 @@
 		"wide"										"f0"
 		"tall"										"320"
 	}
+	"HudArenaPlayerCount"
+	{
+		"xpos"										"0"
+		"ypos"										"0"
+		"zpos"										"6"
+		"wide"										"f0"
+		"tall"										"f0"
+	}
 	"HudAchievementTracker"
 	{
 		"NormalY"									"4"
