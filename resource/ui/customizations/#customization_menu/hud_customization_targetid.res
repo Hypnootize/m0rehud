@@ -113,7 +113,7 @@
 							"mouseinputenabled"			"0"
 							"proportionaltoparent"		"1"
 							"font"						"DefaultVerySmall"
-							"labeltext"					"Health_Numbers"
+							"labeltext"					"Health Numbers"
 							"textAlignment"				"center"
 							"fgcolor"					"White"
 							"paintbackground"			"1"
