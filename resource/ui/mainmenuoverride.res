@@ -1,5 +1,3 @@
-#base "customizations/#customization_menu/hud_resolution_menu_read.res"
-#base "customizations/#customization_menu/hud_resolution_menu.res"
 #base "customizations/#customization_menu/hud_customization.res"
 #base "../dev/preload.res"
 #base "../dev/reloadmenu.res"
