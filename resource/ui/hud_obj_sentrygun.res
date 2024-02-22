@@ -15,7 +15,7 @@
 	{
 		"ControlName"								"CIconPanel"
 		"fieldName"									"Icon_Sentry_1"
-		"xpos"										"6"
+		"xpos"										"7"
 		"ypos"										"cs-0.5-4"
 		"zpos"										"1"
 		"wide"										"20"
@@ -31,8 +31,8 @@
 	{
 		"ControlName"								"CIconPanel"
 		"fieldName"									"Icon_Sentry_2"
-		"xpos"										"5"
-		"ypos"										"cs-0.5-1"
+		"xpos"										"6"
+		"ypos"										"cs-0.5-3"
 		"zpos"										"1"
 		"wide"										"20"
 		"tall"										"20"
@@ -47,7 +47,7 @@
 	{
 		"ControlName"								"CIconPanel"
 		"fieldName"									"Icon_Sentry_3"
-		"xpos"										"5"
+		"xpos"										"7"
 		"ypos"										"cs-0.5-1"
 		"zpos"										"1"
 		"wide"										"20"
