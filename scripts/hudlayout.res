@@ -2,9 +2,9 @@
 // CUSTOMIZATIONS
 //=========================================================
 
-#base "../cfg/m0re_health_gain.txt"
-#base "../cfg/m0re_damage_indicator.txt"
-#base "../cfg/m0re_scope_charge.txt"
+#base "../cfg/m0rehud/m0re_health_gain.txt"
+#base "../cfg/m0rehud/m0re_damage_indicator.txt"
+#base "../cfg/m0rehud/m0re_scope_charge.txt"
 
 //=========================================================
 // M0REHUD LAYOUT
@@ -16,7 +16,7 @@
 // TRANSPARENT VIEWMODELS
 //=========================================================
 
-#base "../cfg/m0re_transparent_viewmodels.txt"
+#base "../cfg/m0rehud/m0re_transparent_viewmodels.txt"
 
 //=========================================================
 // DEV TOOLS

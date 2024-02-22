@@ -9,7 +9,7 @@
 // FONTS SCHEME
 //=========================================================
 
-#base "../cfg/m0re_font.txt"
+#base "../cfg/m0rehud/m0re_font.txt"
 
 #base "scheme/fonts/fonts_customization/font_paths.res"
 #base "ui/customizations/#customization_menu/font_showcase.res"
@@ -25,5 +25,5 @@
 // CROSSHAIRS SCHEME
 //=========================================================
 
-#base "../cfg/m0re_crosshair_edge.txt"
+#base "../cfg/m0rehud/m0re_crosshair_edge.txt"
 #base "scheme/crosshairs_scheme.res"

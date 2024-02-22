@@ -8,11 +8,11 @@
 	//===============================================================
 	// CUSTOMIZATIONS
 	//===============================================================
-	"file" "cfg/m0re_low_ammo_style.txt"
-	"file" "cfg/m0re_animation_style.txt"
-	"file" "cfg/m0re_uber_counter.txt"
-	"file" "cfg/m0re_crosshair_animation.txt"
-	"file" "cfg/m0re_hitmarker_animation.txt"
+	"file" "cfg/m0rehud/m0re_low_ammo_style.txt"
+	"file" "cfg/m0rehud/m0re_animation_style.txt"
+	"file" "cfg/m0rehud/m0re_uber_counter.txt"
+	"file" "cfg/m0rehud/m0re_crosshair_animation.txt"
+	"file" "cfg/m0rehud/m0re_hitmarker_animation.txt"
 
 	//===============================================================
 	// HEALTH-AMMO-UBER DEFAULT ANIMATIONS
