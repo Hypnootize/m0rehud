@@ -487,14 +487,52 @@
 		}
 		"TFFatLineBorderClearBG"
 		{
-			"bordertype"									"scalable_image"
-			"backgroundtype"								"2"
+			"inset"											"0 0 1 1"
 
-			"image"											"../hud/color_panel_clear"
-			"src_corner_height"								"23"
-			"src_corner_width"								"23"
-			"draw_corner_width"								"5"
-			"draw_corner_height"							"5"
+			Left
+			{
+				"1"
+				{
+					"color"									"White"
+				}
+				"2"
+				{
+					"color"									"White"
+				}
+			}
+			Right
+			{
+				"1"
+				{
+					"color"									"White"
+				}
+				"2"
+				{
+					"color"									"White"
+				}
+			}
+			Top
+			{
+				"1"
+				{
+					"color"									"White"
+				}
+				"2"
+				{
+					"color"									"White"
+				}
+			}
+			Bottom
+			{
+				"1"
+				{
+					"color"									"White"
+				}
+				"2"
+				{
+					"color"									"White"
+				}
+			}
 		}
 		"ToolTipBorder"
 		{
