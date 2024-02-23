@@ -57,13 +57,14 @@
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"OverlayImage"
-		"xpos"										"18"
-		"ypos"										"0"
+		"xpos"										"rs1+1"
+		"ypos"										"-1"
 		"zpos"										"4"
-		"wide"										"6"
-		"tall"										"6"
+		"wide"										"12"
+		"tall"										"12"
 		"visible"									"0"
 		"enabled"									"1"
+		"proportionaltoparent"						"1"
 		"image"										"capture_icon"
 		"scaleImage"								"1"
 	}
