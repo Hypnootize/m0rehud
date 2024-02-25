@@ -52,7 +52,7 @@
 		"visible"									"0"
 		"enabled"									"1"
 		"PaintBackgroundType"						"0"
-		"bgcolor_override"							"0 0 0 225"
+		"bgcolor_override"							"0 0 0 175"
 	}
 	"RankBorder"
 	{
@@ -64,11 +64,9 @@
 		"wide"										"510"
 		"tall"										"43"
 		"visible"									"0"
-		"PaintBackgroundType"						"0"
-		"PaintBackground"							"1"
-		"bgcolor_override"							"DarkBrown"
-		"PaintBorder"								"0"
-		"border"									"TFFatLineBorderClearBG"
+		"PaintBackground"							"0"
+		"PaintBorder"								"1"
+		"border"									"ReplayDefaultBorder"
 		"proportionaltoparent"						"1"
 
 		"if_uses_xp"
@@ -251,10 +249,10 @@
 					"ControlName"					"CExLabel"
 					"fieldName"						"BlueTeamScore"
 					"xpos"							"5"
-					"ypos"							"103"
+					"ypos"							"98"	// shifting up by 1 seems a little better for surface numbers
 					"zpos"							"4"
 					"wide"							"p.19"
-					"tall"							"30"
+					"tall"							"36"
 					"visible"						"1"
 					"enabled"						"1"
 					"font"							"m0refont48"
@@ -264,7 +262,7 @@
 
 					"if_large"
 					{
-						"ypos"						"40"
+						"ypos"						"38"
 					}
 				}
 				"BlueTeamScoreDropshadow"
@@ -272,10 +270,10 @@
 					"ControlName"					"CExLabel"
 					"fieldName"						"BlueTeamScoreDropshadow"
 					"xpos"							"6"
-					"ypos"							"104"
+					"ypos"							"99"
 					"zpos"							"3"
 					"wide"							"p.19"
-					"tall"							"0"	//30
+					"tall"							"0"	//36
 					"visible"						"1"
 					"enabled"						"1"
 					"font"							"m0refont48"
@@ -285,7 +283,7 @@
 
 					"if_large"
 					{
-						"ypos"						"41"
+						"ypos"						"39"
 					}
 				}
 				"BlueTeamWinner"
@@ -293,10 +291,10 @@
 					"ControlName"					"CExLabel"
 					"fieldName"						"BlueTeamWinner"
 					"xpos"							"5"
-					"ypos"							"103"
+					"ypos"							"99"
 					"zpos"							"4"
 					"wide"							"p.19"
-					"tall"							"30"
+					"tall"							"36"
 					"visible"						"1"
 					"enabled"						"1"
 					"font"							"m0refont24"
@@ -306,7 +304,7 @@
 
 					"if_large"
 					{
-						"ypos"						"40"
+						"ypos"						"39"
 					}
 				}
 				"BlueTeamWinnerDropshadow"
@@ -314,10 +312,10 @@
 					"ControlName"					"CExLabel"
 					"fieldName"						"BlueTeamWinnerDropshadow"
 					"xpos"							"6"
-					"ypos"							"104"
+					"ypos"							"100"
 					"zpos"							"3"
 					"wide"							"p.19"
-					"tall"							"0"	//30
+					"tall"							"0"	//36
 					"visible"						"1"
 					"enabled"						"1"
 					"font"							"m0refont24"
@@ -327,7 +325,7 @@
 
 					"if_large"
 					{
-						"ypos"						"41"
+						"ypos"						"40"
 					}
 				}
 				"BlueLabel"
@@ -549,10 +547,10 @@
 					"ControlName"					"CExLabel"
 					"fieldName"						"RedTeamScore"
 					"xpos"							"r5-p.19"
-					"ypos"							"103"
+					"ypos"							"98"
 					"zpos"							"4"
 					"wide"							"p.19"
-					"tall"							"30"
+					"tall"							"36"
 					"visible"						"1"
 					"enabled"						"1"
 					"font"							"m0refont48"
@@ -562,7 +560,7 @@
 
 					"if_large"
 					{
-						"ypos"						"40"
+						"ypos"						"38"
 					}
 				}
 				"RedTeamScoreDropshadow"
@@ -570,10 +568,10 @@
 					"ControlName"					"CExLabel"
 					"fieldName"						"RedTeamScoreDropshadow"
 					"xpos"							"r4-p.19"
-					"ypos"							"104"
+					"ypos"							"99"
 					"zpos"							"3"
 					"wide"							"p.19"
-					"tall"							"0"	//30
+					"tall"							"0"	//36
 					"visible"						"1"
 					"enabled"						"1"
 					"font"							"m0refont48"
@@ -583,7 +581,7 @@
 
 					"if_large"
 					{
-						"ypos"						"41"
+						"ypos"						"39"
 					}
 				}
 				"RedTeamWinner"
@@ -591,10 +589,10 @@
 					"ControlName"					"CExLabel"
 					"fieldName"						"RedTeamWinner"
 					"xpos"							"r5-p.19"
-					"ypos"							"103"
+					"ypos"							"99"
 					"zpos"							"4"
 					"wide"							"p.19"
-					"tall"							"30"
+					"tall"							"36"
 					"visible"						"1"
 					"enabled"						"1"
 					"font"							"m0refont24"
@@ -604,7 +602,7 @@
 
 					"if_large"
 					{
-						"ypos"						"40"
+						"ypos"						"39"
 					}
 				}
 				"RedTeamWinnerDropshadow"
@@ -612,10 +610,10 @@
 					"ControlName"					"CExLabel"
 					"fieldName"						"RedTeamWinnerDropshadow"
 					"xpos"							"r4-p.19"
-					"ypos"							"104"
+					"ypos"							"100"
 					"zpos"							"3"
 					"wide"							"p.19"
-					"tall"							"0"	//30
+					"tall"							"0"	//36
 					"visible"						"1"
 					"enabled"						"1"
 					"font"							"m0refont24"
@@ -625,7 +623,7 @@
 
 					"if_large"
 					{
-						"ypos"						"41"
+						"ypos"						"40"
 					}
 				}
 				"RedLabel"
