@@ -48,24 +48,6 @@
 		"enabled"									"1"
 		"image"										"../sprites/obj_icons/icon_obj_blu_locked"
 	}
-	"CPIconBluCap"
-	{
-		"ControlName"								"ImagePanel"
-		"fieldName"									"CPIconBluCap"
-		"xpos"										"9999"
-		"visible"									"1"
-		"enabled"									"1"
-		"image"										"../sprites/obj_icons/icon_obj_cap_blu"
-	}
-	"CPIconBluCapUp"
-	{
-		"ControlName"								"ImagePanel"
-		"fieldName"									"CPIconBluCapUp"
-		"xpos"										"9999"
-		"visible"									"1"
-		"enabled"									"1"
-		"image"										"../sprites/obj_icons/icon_obj_cap_blu_up"
-	}
 	"CPIconRed"
 	{
 		"ControlName"								"ImagePanel"
@@ -83,24 +65,6 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"image"										"../sprites/obj_icons/icon_obj_red_locked"
-	}
-	"CPIconRedCap"
-	{
-		"ControlName"								"ImagePanel"
-		"fieldName"									"CPIconRedCap"
-		"xpos"										"9999"
-		"visible"									"1"
-		"enabled"									"1"
-		"image"										"../sprites/obj_icons/icon_obj_cap_red"
-	}
-	"CPIconRedCapUp"
-	{
-		"ControlName"								"ImagePanel"
-		"fieldName"									"CPIconRedCapUp"
-		"xpos"										"9999"
-		"visible"									"1"
-		"enabled"									"1"
-		"image"										"../sprites/obj_icons/icon_obj_cap_red_up"
 	}
 	"CPIconNeutral"
 	{
@@ -453,28 +417,63 @@
 		"enabled"									"1"
 		"image"										"../sprites/obj_icons/icon_obj_blu_mannhattan_locked"
 	}
-	"CPIconMP"
-	{
-		"ControlName"								"ImagePanel"
-		"fieldName"									"CPIconMP"
-		"xpos"										"9999"
-		"visible"									"1"
-		"enabled"									"1"
-		"image"										"../sprites/obj_icons/icon_obj_mp"
-	}
-	"CPIconTimer"
-	{
-		"ControlName"								"ImagePanel"
-		"fieldName"									"CPIconTimer"
-		"xpos"										"9999"
-		"visible"									"1"
-		"enabled"									"1"
-		"image"										"../sprites/obj_icons/icon_obj_timer"
-	}
 	//===================================================================================================
 	// PAYLOAD ICONS
 	//===================================================================================================
-
+	"CartPointBlu"
+	{
+		"ControlName"								"ImagePanel"
+		"fieldName"									"CartPointBlu"
+		"xpos"										"9999"
+		"visible"									"1"
+		"enabled"									"1"
+		"image"										"../hud/cart_point_blue"
+	}
+	"CartPointBluOpaque"
+	{
+		"ControlName"								"ImagePanel"
+		"fieldName"									"CartPointBluOpaque"
+		"xpos"										"9999"
+		"visible"									"1"
+		"enabled"									"1"
+		"image"										"../hud/cart_point_blue_opaque"
+	}
+	"CartPointNeutral"
+	{
+		"ControlName"								"ImagePanel"
+		"fieldName"									"CartPointNeutral"
+		"xpos"										"9999"
+		"visible"									"1"
+		"enabled"									"1"
+		"image"										"../hud/cart_point_neutral"
+	}
+	"CartPointNeutralOpaque"
+	{
+		"ControlName"								"ImagePanel"
+		"fieldName"									"CartPointNeutralOpaque"
+		"xpos"										"9999"
+		"visible"									"1"
+		"enabled"									"1"
+		"image"										"../hud/cart_point_neutral_opaque"
+	}
+	"CartPointRed"
+	{
+		"ControlName"								"ImagePanel"
+		"fieldName"									"CartPointRed"
+		"xpos"										"9999"
+		"visible"									"1"
+		"enabled"									"1"
+		"image"										"../hud/cart_point_red"
+	}
+	"CartPointRedOpaque"
+	{
+		"ControlName"								"ImagePanel"
+		"fieldName"									"CartPointRedOpaque"
+		"xpos"										"9999"
+		"visible"									"1"
+		"enabled"									"1"
+		"image"										"../hud/cart_point_red_opaque"
+	}
 	//===================================================================================================
 	// MVM ICONS
 	//===================================================================================================
