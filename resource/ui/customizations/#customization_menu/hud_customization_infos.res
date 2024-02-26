@@ -9,7 +9,7 @@
 				"ControlName"							"EditablePanel"
 				"fieldName"								"HUD_More_Information_Panel"
 				"xpos"									"3"
-				"ypos"									"1075"
+				"ypos"									"1115"
 				"zpos"									"0"
 				"wide"									"f12"
 				"tall"									"30"

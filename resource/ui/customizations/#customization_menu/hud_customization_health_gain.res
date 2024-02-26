@@ -9,7 +9,7 @@
 				"ControlName"							"EditablePanel"
 				"fieldName"								"HUD_Health_Gain_Style_Selection"
 				"xpos"									"rs1-9"
-				"ypos"									"406"
+				"ypos"									"446"
 				"zpos"									"0"
 				"wide"									"140"
 				"tall"									"70"

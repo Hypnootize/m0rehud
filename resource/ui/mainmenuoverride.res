@@ -929,6 +929,46 @@
 			"depressedFgColor_override"				"Menu_Accent"
 		}
 	}
+	"Fix_Glitches"
+	{
+		"ControlName"								"EditablePanel"
+		"fieldname"									"Fix_Glitches"
+		"xpos"										"2"
+		"ypos"										"0"
+		"zpos"										"15"
+		"wide"										"20"
+		"tall"										"17"
+		"visible"									"1"
+		"command"									"OpenAchievementsDialog"
+
+		"pin_to_sibling"							"Achievements"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
+
+		"SubButton"
+		{
+			"ControlName"							"CExImageButton"
+			"fieldName"								"SubButton"
+			"xpos"									"0"
+			"ypos"									"0"
+			"wide"									"f0"
+			"tall"									"f0"
+			"visible"								"1"
+			"enabled"								"1"
+			"proportionaltoparent"					"1"
+			"font"									"Symbols18"
+			"textAlignment"							"center"
+			"sound_depressed"						"UI/buttonclick.wav"
+			"sound_released"						"UI/buttonclickrelease.wav"
+
+			"paintbackground"						"0"
+			"paintborder"							"0"
+
+			"defaultFgColor_override"				"White"
+			"armedFgColor_override"					"Menu_Accent"
+			"depressedFgColor_override"				"Menu_Accent"
+		}
+	}
 
 	//==================================================================================================================================================
 	// NOTIFICATIONS BUTTON
@@ -984,250 +1024,6 @@
 			"textAlignment"							"west"
 			"command"								"noti_show"
 			"actionsignallevel"						"2"
-			"sound_depressed"						"UI/buttonclick.wav"
-			"sound_released"						"UI/buttonclickrelease.wav"
-
-			"paintbackground"						"0"
-			"paintborder"							"0"
-
-			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"Menu_Accent"
-			"depressedFgColor_override"				"Menu_Accent"
-		}
-	}
-
-	//==================================================================================================================================================
-	// TOOL BAR
-	//==================================================================================================================================================
-	"ToolsAnchor"
-	{
-		"ControlName"								"Panel"
-		"fieldname"									"ToolsAnchor"
-		"xpos"										"cs-0.5"
-		"ypos"										"rs1"
-		"wide"										"1"
-		"tall"										"20"
-		"visible"									"0"
-		"enabled"									"0"
-		"proportionaltoparent"						"1"
-	}
-	"Fix Invisible Players"
-	{
-		"ControlName"								"EditablePanel"
-		"fieldname"									"Fix Invisible Players"
-		"xpos"										"0"
-		"ypos"										"0"
-		"zpos"										"16"
-		"wide"										"20"
-		"tall"										"20"
-
-		"pin_to_sibling"							"Reload Sound"
-		"pin_corner_to_sibling"						"PIN_TOPRIGHT"
-		"pin_to_sibling_corner"						"PIN_TOPLEFT"
-
-		"SubButton"
-		{
-			"ControlName"							"CExImageButton"
-			"fieldName"								"SubButton"
-			"xpos"									"0"
-			"ypos"									"0"
-			"wide"									"f0"
-			"tall"									"f0"
-			"visible"								"1"
-			"enabled"								"1"
-			"proportionaltoparent"					"1"
-			"font"									"Symbols18"
-			"textAlignment"							"center"
-			"sound_depressed"						"UI/buttonclick.wav"
-			"sound_released"						"UI/buttonclickrelease.wav"
-
-			"paintbackground"						"0"
-			"paintborder"							"0"
-
-			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"Menu_Accent"
-			"depressedFgColor_override"				"Menu_Accent"
-		}
-	}
-	"Reload Sound"
-	{
-		"ControlName"								"EditablePanel"
-		"fieldname"									"Reload Sound"
-		"xpos"										"0"
-		"ypos"										"0"
-		"zpos"										"16"
-		"wide"										"20"
-		"tall"										"20"
-
-		"pin_to_sibling"							"Reload Hud"
-		"pin_corner_to_sibling"						"PIN_TOPRIGHT"
-		"pin_to_sibling_corner"						"PIN_TOPLEFT"
-
-		"SubButton"
-		{
-			"ControlName"							"CExImageButton"
-			"fieldName"								"SubButton"
-			"xpos"									"0"
-			"ypos"									"0"
-			"wide"									"f0"
-			"tall"									"f0"
-			"visible"								"1"
-			"enabled"								"1"
-			"proportionaltoparent"					"1"
-			"font"									"Symbols18"
-			"textAlignment"							"center"
-			"sound_depressed"						"UI/buttonclick.wav"
-			"sound_released"						"UI/buttonclickrelease.wav"
-
-			"paintbackground"						"0"
-			"paintborder"							"0"
-
-			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"Menu_Accent"
-			"depressedFgColor_override"				"Menu_Accent"
-		}
-	}
-	"Reload Hud"
-	{
-		"ControlName"								"EditablePanel"
-		"fieldname"									"Reload Hud"
-		"xpos"										"0"
-		"ypos"										"0"
-		"zpos"										"16"
-		"wide"										"20"
-		"tall"										"20"
-
-		"pin_to_sibling"							"ToolsAnchor"
-		"pin_corner_to_sibling"						"PIN_TOPRIGHT"
-		"pin_to_sibling_corner"						"PIN_TOPLEFT"
-
-		"SubButton"
-		{
-			"ControlName"							"CExImageButton"
-			"fieldName"								"SubButton"
-			"xpos"									"0"
-			"ypos"									"0"
-			"wide"									"f0"
-			"tall"									"f0"
-			"visible"								"1"
-			"enabled"								"1"
-			"proportionaltoparent"					"1"
-			"font"									"Symbols18"
-			"textAlignment"							"center"
-			"sound_depressed"						"UI/buttonclick.wav"
-			"sound_released"						"UI/buttonclickrelease.wav"
-
-			"paintbackground"						"0"
-			"paintborder"							"0"
-
-			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"Menu_Accent"
-			"depressedFgColor_override"				"Menu_Accent"
-		}
-	}
-	"Toggle Netgraph"
-	{
-		"ControlName"								"EditablePanel"
-		"fieldname"									"Toggle Netgraph"
-		"xpos"										"0"
-		"ypos"										"0"
-		"zpos"										"16"
-		"wide"										"20"
-		"tall"										"20"
-
-		"pin_to_sibling"							"ToolsAnchor"
-		"pin_corner_to_sibling"						"PIN_TOPLEFT"
-		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
-
-		"SubButton"
-		{
-			"ControlName"							"CExImageButton"
-			"fieldName"								"SubButton"
-			"xpos"									"0"
-			"ypos"									"0"
-			"wide"									"f0"
-			"tall"									"f0"
-			"visible"								"1"
-			"enabled"								"1"
-			"proportionaltoparent"					"1"
-			"font"									"Symbols18"
-			"textAlignment"							"center"
-			"sound_depressed"						"UI/buttonclick.wav"
-			"sound_released"						"UI/buttonclickrelease.wav"
-
-			"paintbackground"						"0"
-			"paintborder"							"0"
-
-			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"Menu_Accent"
-			"depressedFgColor_override"				"Menu_Accent"
-		}
-	}
-	"Toggle Contracts"
-	{
-		"ControlName"								"EditablePanel"
-		"fieldname"									"Toggle Contracts"
-		"xpos"										"0"
-		"ypos"										"0"
-		"zpos"										"16"
-		"wide"										"20"
-		"tall"										"20"
-
-		"pin_to_sibling"							"Toggle Netgraph"
-		"pin_corner_to_sibling"						"PIN_TOPLEFT"
-		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
-
-		"SubButton"
-		{
-			"ControlName"							"CExImageButton"
-			"fieldName"								"SubButton"
-			"xpos"									"0"
-			"ypos"									"0"
-			"wide"									"f0"
-			"tall"									"f0"
-			"visible"								"1"
-			"enabled"								"1"
-			"proportionaltoparent"					"1"
-			"font"									"Symbols18"
-			"textAlignment"							"center"
-			"sound_depressed"						"UI/buttonclick.wav"
-			"sound_released"						"UI/buttonclickrelease.wav"
-
-			"paintbackground"						"0"
-			"paintborder"							"0"
-
-			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"Menu_Accent"
-			"depressedFgColor_override"				"Menu_Accent"
-		}
-	}
-	"Toggle Chat"
-	{
-		"ControlName"								"EditablePanel"
-		"fieldname"									"Toggle Chat"
-		"xpos"										"0"
-		"ypos"										"0"
-		"zpos"										"16"
-		"wide"										"20"
-		"tall"										"20"
-
-		"pin_to_sibling"							"Toggle Contracts"
-		"pin_corner_to_sibling"						"PIN_TOPLEFT"
-		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
-
-		"SubButton"
-		{
-			"ControlName"							"CExImageButton"
-			"fieldName"								"SubButton"
-			"xpos"									"0"
-			"ypos"									"0"
-			"wide"									"f0"
-			"tall"									"f0"
-			"visible"								"1"
-			"enabled"								"1"
-			"proportionaltoparent"					"1"
-			"font"									"Symbols18"
-			"textAlignment"							"center"
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
 

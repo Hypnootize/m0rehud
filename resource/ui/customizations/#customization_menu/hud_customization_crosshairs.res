@@ -9,7 +9,7 @@
 				"ControlName"							"EditablePanel"
 				"fieldName"								"HUD_Crosshair_Selection"
 				"xpos"									"3"
-				"ypos"									"988"
+				"ypos"									"1028"
 				"zpos"									"0"
 				"wide"									"f8"
 				"tall"									"83"

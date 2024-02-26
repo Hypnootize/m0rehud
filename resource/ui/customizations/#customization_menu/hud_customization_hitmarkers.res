@@ -9,7 +9,7 @@
 				"ControlName"							"EditablePanel"
 				"fieldName"								"HUD_Hitmarker_Selection"
 				"xpos"									"rs1-9"
-				"ypos"									"914"
+				"ypos"									"954"
 				"zpos"									"0"
 				"wide"									"323"
 				"tall"									"70"

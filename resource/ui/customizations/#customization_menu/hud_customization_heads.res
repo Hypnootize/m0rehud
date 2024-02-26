@@ -9,7 +9,7 @@
 				"ControlName"							"EditablePanel"
 				"fieldName"								"HUD_Heads_Style_Selection"
 				"xpos"									"135"
-				"ypos"									"692"
+				"ypos"									"732"
 				"zpos"									"0"
 				"wide"									"129"
 				"tall"									"70"

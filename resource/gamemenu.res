@@ -115,50 +115,11 @@
 		"tooltip"									"Achievements"
 		"OnlyInGame"								"1"
 	}
-
-	//====================================================================================================================================================
-	// TOOLS BAR
-	//====================================================================================================================================================
-	"Fix Invisible Players"
+	"Fix_Glitches"
 	{
-		"label"										"D"
-		"command"									"engine stop; record fix"
-		"tooltip"									"Fix Invisible Players"
-		"OnlyInGame"								"1"
-	}
-	"Reload Sound"
-	{
-		"label"										"B"
-		"command"									"engine snd_restart"
-		"tooltip"									"Reload Sound"
-		"OnlyInGame"								"1"
-	}
-	"Reload Hud"
-	{
-		"label"										"C"
-		"command"									"engine hud_reloadscheme"
-		"tooltip"									"Reload Hud"
-		"OnlyInGame"								"1"
-	}
-	"Toggle Netgraph"
-	{
-		"label"										"F"
-		"command"									"engine toggle net_graph 0 1"
-		"tooltip"									"Enable/Disable NetGraph"
-		"OnlyInGame"								"1"
-	}
-	"Toggle Contracts"
-	{
-		"label"										"G"
-		"command"									"engine toggle tf_contract_progress_show 0 1"
-		"tooltip"									"Enable/Disable Contracts"
-		"OnlyInGame"								"1"
-	}
-	"Toggle Chat"
-	{
-		"label"										"A"
-		"command"									"engine toggle hud_saytext_time 0 12"
-		"tooltip"									"Enable/Disable Chat"
+		"label"										"%"
+		"command"									"engine stop; record fix; hud_reloadscheme; snd_restart"
+		"tooltip"									"Fix Visual/Sound Glitches"
 		"OnlyInGame"								"1"
 	}
 }

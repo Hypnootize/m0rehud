@@ -12,7 +12,7 @@
 				"ControlName"							"EditablePanel"
 				"fieldName"								"HUD_Colors_Selection"
 				"xpos"									"3"
-				"ypos"									"54"
+				"ypos"									"94"
 				"zpos"									"0"
 				"wide"									"f12"
 				"tall"									"144"

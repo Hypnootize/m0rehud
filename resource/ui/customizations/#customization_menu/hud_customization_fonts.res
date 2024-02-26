@@ -12,7 +12,7 @@
 				"ControlName"							"EditablePanel"
 				"fieldName"								"HUD_Font_Selection"
 				"xpos"									"3"
-				"ypos"									"202"
+				"ypos"									"242"
 				"zpos"									"0"
 				"wide"									"f12"
 				"tall"									"68"

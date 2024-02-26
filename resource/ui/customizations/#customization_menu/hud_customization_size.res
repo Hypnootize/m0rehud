@@ -9,7 +9,7 @@
 				"ControlName"							"EditablePanel"
 				"fieldName"								"HUD_Size_Selection"
 				"xpos"									"3"
-				"ypos"									"274"
+				"ypos"									"314"
 				"zpos"									"0"
 				"wide"									"f12"
 				"tall"									"54"
