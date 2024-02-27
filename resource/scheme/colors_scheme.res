@@ -433,11 +433,11 @@
 		"SectionedListPanel.OutOfFocusSelectedTextColor"	"Black"
 		"SectionedListPanel.OutOfFocusSelectedBgColor"		"255 255 255 32"
 
-		"Slider.NobColor"									"108 108 108 255"
-		"Slider.TextColor"									"127 140 127 255"
-		"Slider.TrackColor"									"31 31 31 255"
-		"Slider.DisabledTextColor1"							"117 117 117 255"
-		"Slider.DisabledTextColor2"							"30 30 30 255"
+		"Slider.NobColor"									"White"
+		"Slider.TextColor"									"Gray"
+		"Slider.TrackColor"									"FooterBGBlack"
+		"Slider.DisabledTextColor1"							"Gray"
+		"Slider.DisabledTextColor2"							"Black"
 
 		"TextEntry.TextColor"								"Gray"
 		"TextEntry.BgColor"									"Blank"

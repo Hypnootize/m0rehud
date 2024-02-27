@@ -9,7 +9,7 @@
 				"ControlName"							"EditablePanel"
 				"fieldName"								"HUD_Scope_Style_Selection"
 				"xpos"									"rs1-9"
-				"ypos"									"806"
+				"ypos"									"842"
 				"zpos"									"0"
 				"wide"									"129"
 				"tall"									"70"

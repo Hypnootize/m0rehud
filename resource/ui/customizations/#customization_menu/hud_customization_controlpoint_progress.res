@@ -9,7 +9,7 @@
 				"ControlName"							"EditablePanel"
 				"fieldName"								"HUD_CP_Progress_Selection"
 				"xpos"									"267"
-				"ypos"									"732"
+				"ypos"									"768"
 				"zpos"									"0"
 				"wide"									"129"
 				"tall"									"70"

@@ -8,8 +8,8 @@
 			{
 				"ControlName"							"EditablePanel"
 				"fieldName"								"HUD_Speedometer_Style_Selection"
-				"xpos"									"rs1-9"
-				"ypos"									"880"
+				"xpos"									"267"
+				"ypos"									"842"
 				"zpos"									"0"
 				"wide"									"190"
 				"tall"									"70"
