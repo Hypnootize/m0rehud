@@ -1,6 +1,6 @@
 #base "customizations/#customization_menu/hud_customization.res"
-#base "../dev/preload.res"
-#base "../dev/reloadmenu.res"
+#base "../dev/texture_preload.res"
+#base "../dev/reload_menu.res"
 
 "Resource/UI/MainMenuOverride.res"
 {

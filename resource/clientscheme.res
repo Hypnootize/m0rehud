@@ -1,14 +1,12 @@
 //=========================================================
 // COLORS SCHEME
 //=========================================================
-
 #base "ui/customizations/colors/color_customization.res"
 #base "scheme/colors_scheme.res"
 
 //=========================================================
 // FONTS SCHEME
 //=========================================================
-
 #base "../cfg/m0rehud/m0re_font.txt"
 
 #base "scheme/fonts/fonts_customization/font_paths.res"
@@ -18,12 +16,20 @@
 //=========================================================
 // BORDERS SCHEME
 //=========================================================
-
 #base "scheme/borders_scheme.res"
 
 //=========================================================
 // CROSSHAIRS SCHEME
 //=========================================================
-
 #base "../cfg/m0rehud/m0re_crosshair_edge.txt"
 #base "scheme/crosshairs_scheme.res"
+
+
+
+
+
+
+//=========================================================
+// DEV TOOLS
+//=========================================================
+//#base "dev/font_sizes.res"

@@ -1,6 +1,6 @@
 // Flat gray background to take cleaner screenshots
 
-"Resource/DEV/FlatScreen.res"
+"Resource/DEV/Flat_Screen.res"
 {
 	"FlatScreen"
 	{
@@ -11,7 +11,7 @@
 		"zpos"										"-99"
 		"wide"										"f0"
 		"tall"										"f0"
-		"visible"									"0"
+		"visible"									"1"
 		"enabled"									"1"
 		"paintBackground"							"1"
 		"paintBackgroundtype"						"0"
