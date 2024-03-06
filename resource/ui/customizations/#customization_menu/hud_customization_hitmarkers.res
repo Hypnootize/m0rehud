@@ -275,7 +275,7 @@
 						"visible"						"1"
 						"enabled"						"1"
 						"proportionaltoparent"			"1"
-						"actionsignallevel"				"0"
+						"actionsignallevel"				"5"
 						"labelText"						"6"
 						"font"							"Crosshair_Showcase"
 						"textAlignment"					"center"

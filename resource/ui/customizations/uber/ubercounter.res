@@ -1,4 +1,4 @@
-"Resource/UI/UberCounter.res"
+"Resource/UI/Customizations/Uber/UberCounter.res"
 {
 	"UberCounterBG"
 	{
