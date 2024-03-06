@@ -16,6 +16,11 @@
 		"textAlignment"								"center"
 		"font"										"m0refont12"
 		"fgcolor"									"White"
+
+		"if_match"
+		{
+			"ypos"									"19"
+		}
 	}
 
 

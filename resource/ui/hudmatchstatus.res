@@ -105,6 +105,17 @@
 			}
 		}
 	}
+	"RoundCounter"
+	{
+		"fieldName"									"RoundCounter"
+		"xpos"										"cs-0.5"
+		"ypos"										"-2"
+		"zpos"										"1"
+		"wide"										"80"
+		"tall"										"100"
+		"visible"									"1"
+		"enabled"									"1"
+	}
 	"ObjectiveStatusTimePanel"
 	{
 		"ControlName"								"EditablePanel"
@@ -141,6 +152,13 @@
 			"proportionaltoparent"					"1"
 			"textAlignment"							"center"
 			"labelText"								"0:00"
+
+			"if_match"
+			{
+				"ypos"								"5"
+				"tall"								"16"
+				"font"								"m0refont14"
+			}
 		}
 	}
 	"TeamStatus"
@@ -623,16 +641,6 @@
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"BGFrame"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	"RoundCounter"
-	{
-		"fieldName"									"RoundCounter"
 		"xpos"										"9999"
 		"ypos"										"9999"
 		"wide"										"0"

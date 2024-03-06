@@ -14,7 +14,7 @@
 		"if_comp"
 		{
 			"xpos"									"c-60"
-			"ypos"									"32"
+			"ypos"									"35"
 		}
 	}
 	"ObjectiveStatusTimePanel"
