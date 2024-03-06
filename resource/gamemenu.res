@@ -5,7 +5,7 @@
 	//====================================================================================================================================================
 	"Version"
 	{
-		"label"										"m0rehud 7.1"
+		"label"										"m0rehud 7.2"
 		"command"									"engine showconsole; echo m0rehud by Hypnotize, created by m0re. Download new versions @ github.com/Hypnootize/m0rehud"
 		"OnlyAtMenu"								"1"
 	}
