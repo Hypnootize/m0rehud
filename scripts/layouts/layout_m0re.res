@@ -42,6 +42,13 @@
 		"wide_minmode"								"f0"
 		"tall"										"f0"
 	}
+	"HudBossHealth"
+	{
+		"xpos"										"cs-0.5"
+		"ypos"										"65"
+		"wide"										"172"
+		"tall"										"50"
+	}
 	"CHudAccountPanel"
 	{
 		"xpos"										"c-100"
@@ -308,6 +315,14 @@
 		"ypos"										"r260"
 		"wide"										"f0"
 		"tall"										"320"
+	}
+	"HudArenaPlayerCount"
+	{
+		"xpos"										"0"
+		"ypos"										"0"
+		"zpos"										"6"
+		"wide"										"f0"
+		"tall"										"f0"
 	}
 	"HudAchievementTracker"
 	{

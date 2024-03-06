@@ -9,7 +9,7 @@
 				"ControlName"							"EditablePanel"
 				"fieldName"								"HUD_Aspect_Ratio_Selection"
 				"xpos"									"3"
-				"ypos"									"0"
+				"ypos"									"40"
 				"zpos"									"0"
 				"wide"									"f12"
 				"tall"									"50"

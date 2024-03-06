@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+	"$baseTexture"				"vgui\replay\thumbnails\boss\boss_bar"
+	"$translucent"				"1"
+	"$vertexcolor"				"1"
+	"$color"					"{90 122 143}"
+}

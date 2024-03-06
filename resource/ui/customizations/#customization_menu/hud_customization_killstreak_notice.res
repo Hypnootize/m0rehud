@@ -9,7 +9,7 @@
 				"ControlName"							"EditablePanel"
 				"fieldName"								"HUD_Killstreak_Notice_Selection"
 				"xpos"									"3"
-				"ypos"									"914"
+				"ypos"									"1008"
 				"zpos"									"0"
 				"wide"									"129"
 				"tall"									"70"

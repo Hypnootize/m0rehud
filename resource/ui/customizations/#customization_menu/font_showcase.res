@@ -92,6 +92,24 @@
 				"antialias"									"1"
 			}
 		}
+		"Showcase_Harabara"
+		{
+			"1"
+			{
+				"name"										"Harabara Bold"
+				"tall"										"11"
+				"antialias"									"1"
+			}
+		}
+		"Showcase_Helvetica"
+		{
+			"1"
+			{
+				"name"										"HelveticaNeueLT-BoldExt"
+				"tall"										"10"
+				"antialias"									"1"
+			}
+		}
 		"Showcase_Lato"
 		{
 			"1"
@@ -133,6 +151,15 @@
 			"1"
 			{
 				"name"										"Noto Sans Bold"
+				"tall"										"11"
+				"antialias"									"1"
+			}
+		}
+		"Showcase_Octosquares"
+		{
+			"1"
+			{
+				"name"										"TT Octosquares Trl Bd"
 				"tall"										"11"
 				"antialias"									"1"
 			}
@@ -187,6 +214,15 @@
 			"1"
 			{
 				"name"										"Sansation Bold"
+				"tall"										"11"
+				"antialias"									"1"
+			}
+		}
+		"Showcase_Slate"
+		{
+			"1"
+			{
+				"name"										"SlatePro-BoldCondensed"
 				"tall"										"11"
 				"antialias"									"1"
 			}
@@ -251,6 +287,24 @@
 			{
 				"name"										"Ubuntu Bold"
 				"tall"										"11"
+				"antialias"									"1"
+			}
+		}
+		"Showcase_Verlag"
+		{
+			"1"
+			{
+				"name"										"Verlag-Black"
+				"tall"										"11"
+				"antialias"									"1"
+			}
+		}
+		"Showcase_VHS"
+		{
+			"1"
+			{
+				"name"										"EASVHS Regular"
+				"tall"										"10"
 				"antialias"									"1"
 			}
 		}

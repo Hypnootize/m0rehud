@@ -8,8 +8,8 @@
 			{
 				"ControlName"							"EditablePanel"
 				"fieldName"								"HUD_Damage_Indicators_Style_Selection"
-				"xpos"									"267"
-				"ypos"									"766"
+				"xpos"									"rs1-9"
+				"ypos"									"768"
 				"zpos"									"0"
 				"wide"									"190"
 				"tall"									"70"

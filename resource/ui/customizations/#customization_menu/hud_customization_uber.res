@@ -9,7 +9,7 @@
 				"ControlName"							"EditablePanel"
 				"fieldName"								"HUD_Uber_Selection"
 				"xpos"									"3"
-				"ypos"									"406"
+				"ypos"									"446"
 				"zpos"									"0"
 				"wide"									"237"
 				"tall"									"70"

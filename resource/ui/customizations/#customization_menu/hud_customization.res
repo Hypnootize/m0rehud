@@ -1,8 +1,7 @@
 //==============================================================
-// FIRST TIME WARNING
+// ASPECT RATIO
 //==============================================================
-#base "hud_customization_intro_read.res"
-#base "hud_customization_intro.res"
+#base "hud_customization_quick_settings.res"
 
 //==============================================================
 // ASPECT RATIO
@@ -80,9 +79,9 @@
 #base "hud_customization_controlpoint_progress.res"
 
 //==============================================================
-// 3D PLAYER MODEL
+// DAMAGE INDICATORS
 //==============================================================
-#base "hud_customization_player_model.res"
+#base "hud_customization_damage_indicators.res"
 
 //==============================================================
 // DISGUISE
@@ -90,9 +89,9 @@
 #base "hud_customization_disguise.res"
 
 //==============================================================
-// DAMAGE INDICATORS
+// SPEEDOMETER
 //==============================================================
-#base "hud_customization_damage_indicators.res"
+#base "hud_customization_speedometer.res"
 
 //==============================================================
 // SCOPE CHARGE
@@ -105,14 +104,14 @@
 #base "hud_customization_scoreboard.res"
 
 //==============================================================
-// TRANSPARENT VIEWMODELS
+// VIEWMODELS
 //==============================================================
-#base "hud_customization_transparent_viewmodels.res"
+#base "hud_customization_viewmodels.res"
 
 //==============================================================
-// SPEEDOMETER
+// 3D PLAYER MODEL
 //==============================================================
-#base "hud_customization_speedometer.res"
+#base "hud_customization_player_model.res"
 
 //==============================================================
 // CAPTIONS
@@ -125,14 +124,19 @@
 #base "hud_customization_killstreak_notice.res"
 
 //==============================================================
-// CROSSHAIRS
+// HITMARKERS
+//==============================================================
+#base "hud_customization_hitmarkers.res"
+
+//==============================================================
+// HUD CROSSHAIRS
 //==============================================================
 #base "hud_customization_crosshairs.res"
 
 //==============================================================
-// HITMARKERS
+// TF2 CROSSHAIRS
 //==============================================================
-#base "hud_customization_hitmarkers.res"
+#base "hud_customization_tf2_crosshairs.res"
 
 //==============================================================
 // MENU FRAME

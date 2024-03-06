@@ -84,6 +84,31 @@
 			"pin_corner_to_sibling"						"PIN_TOPRIGHT"
 			"pin_to_sibling_corner"						"PIN_TOPLEFT"
 		}
+		"TroubleShooting"
+		{
+			"ControlName"								"URLLabel"
+			"fieldname"									"TroubleShooting"
+			"xpos"										"2"
+			"ypos"										"0"
+			"zpos"										"20"
+			"wide"										"100"
+			"tall"										"20"
+			"visible"									"1"
+			"enabled"									"1"
+			"proportionaltoparent"						"1"
+			"labelText"									"TROUBLESHOOTING"
+			"font"										"FontStorePrice"
+			"textAlignment"								"center"
+			"urlText"									"https://github.com/Hypnootize/m0rehud/wiki/TROUBLESHOOTING#customizations-and-resolution-menu"
+			"FgColor_override"							"White"
+			"paintbackground"							"1"
+			"paintbackgroundtype"						"2"
+			"bgcolor_override"							"Blue"
+
+			"pin_to_sibling"							"GitHubWiki"
+			"pin_corner_to_sibling"						"PIN_TOPRIGHT"
+			"pin_to_sibling_corner"						"PIN_TOPLEFT"
+		}
 		"ResetAllButton"
 		{
 			"ControlName"								"CExButton"
@@ -111,7 +136,7 @@
 			"armedFgColor_override"						"White"
 			"depressedFgColor_override"					"White"
 
-			"pin_to_sibling"							"GitHubWiki"
+			"pin_to_sibling"							"TroubleShooting"
 			"pin_corner_to_sibling"						"PIN_TOPRIGHT"
 			"pin_to_sibling_corner"						"PIN_TOPLEFT"
 		}

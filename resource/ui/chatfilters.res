@@ -25,6 +25,7 @@
 		"proportionaltoparent"						"1"
 		"labelText"									"#filter_joinleave"
 		"textAlignment"								"west"
+		"font"										"Filters"
 	}
 	"NameChange_Button"
 	{
@@ -39,6 +40,7 @@
 		"proportionaltoparent"						"1"
 		"labelText"									"#filter_namechange"
 		"textAlignment"								"west"
+		"font"										"Filters"
 
 		"pin_to_sibling"							"JoinLeave_Button"
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
@@ -57,6 +59,7 @@
 		"proportionaltoparent"						"1"
 		"labelText"									"#filter_publicchat"
 		"textAlignment"								"west"
+		"font"										"Filters"
 
 		"pin_to_sibling"							"NameChange_Button"
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
@@ -75,6 +78,7 @@
 		"proportionaltoparent"						"1"
 		"labelText"									"#filter_servermsg"
 		"textAlignment"								"west"
+		"font"										"Filters"
 
 		"pin_to_sibling"							"JoinLeave_Button"
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
@@ -93,6 +97,7 @@
 		"proportionaltoparent"						"1"
 		"labelText"									"#filter_teamchange"
 		"textAlignment"								"west"
+		"font"										"Filters"
 
 		"pin_to_sibling"							"ServerMSG_Button"
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
@@ -111,6 +116,7 @@
 		"proportionaltoparent"						"1"
 		"labelText"									"#filter_achievement"
 		"textAlignment"								"west"
+		"font"										"Filters"
 
 		"pin_to_sibling"							"TeamChange_Button"
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"

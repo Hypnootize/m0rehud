@@ -9,7 +9,7 @@
 				"ControlName"							"EditablePanel"
 				"fieldName"								"HUD_Captions_Selection"
 				"xpos"									"135"
-				"ypos"									"914"
+				"ypos"									"1008"
 				"zpos"									"0"
 				"wide"									"129"
 				"tall"									"70"

@@ -2,9 +2,9 @@
 
 <div align="center">
 
-## SELECT THE VERSION YOU WOULD LIKE TO DOWNLOAD:
-
-<a href="https://github.com/Hypnootize/m0rehud/archive/refs/heads/master.zip"><img src="https://i.imgur.com/XDkUVKU.png"></a> &nbsp;&nbsp; <a href="https://github.com/Hypnootize/m0rehud/archive/refs/heads/classic.zip"><img src="https://i.imgur.com/tPTVfEY.png"></a>
+# IMPORTANT
+### This is a m0rehud version optimized for Linux, when installing the HUD make sure to keep the original folder name `m0rehud-linux` or many HUD features might not work!
+#### current version is based on m0rehud 7.2 (06/03/24)
 ##
 <a href="http://imgur.com/a/sxOyM"><img src="https://i.imgur.com/vVxJdvB.png"></a>
 <a href="https://github.com/Hypnootize/m0rehud/wiki"><img src="https://i.imgur.com/UpvlsG7.png"></a>
@@ -15,5 +15,3 @@
 <a href="https://tf2huds.dev/hud/m0re-Hud"><img src="https://i.imgur.com/lF9XotO.png"></a>
 <a href="http://www.teamfortress.tv/34115/m0re-hud"><img src="https://i.imgur.com/xTQ26gp.png"></a>
 <a href="https://gamebanana.com/mods/291596"><img src="https://i.imgur.com/UzXoexI.png"></a>
-
-</div>

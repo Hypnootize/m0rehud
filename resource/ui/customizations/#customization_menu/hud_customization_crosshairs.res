@@ -9,7 +9,7 @@
 				"ControlName"							"EditablePanel"
 				"fieldName"								"HUD_Crosshair_Selection"
 				"xpos"									"3"
-				"ypos"									"988"
+				"ypos"									"1082"
 				"zpos"									"0"
 				"wide"									"f8"
 				"tall"									"83"
@@ -119,8 +119,8 @@
 					{
 						"ControlName"					"CExButton"
 						"fieldName"						"HUD_Crosshair_Disable"
-						"xpos"							"cs-0.5"
-						"ypos"							"rs1-2"
+						"xpos"							"0"
+						"ypos"							"2"
 						"zpos"							"20"
 						"wide"							"f4"
 						"tall"							"23"
@@ -147,6 +147,10 @@
 						"defaultBgColor_override"		"Red"
 						"armedBgColor_override"			"Red"
 						"depressedBgColor_override"		"Red"
+
+						"pin_to_sibling"				"HUD_Crosshair_Enable"
+						"pin_corner_to_sibling"			"PIN_TOPLEFT"
+						"pin_to_sibling_corner"			"PIN_BOTTOMLEFT"
 					}
 				}
 //=================================================================================================================================

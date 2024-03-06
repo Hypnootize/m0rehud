@@ -1,4 +1,4 @@
-#base "../../dev/reloadscheme.res"
+#base "../../dev/reload_scheme.res"
 
 "Resource/UI/Econ/InspectionPanel.res"
 {

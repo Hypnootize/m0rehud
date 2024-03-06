@@ -9,7 +9,7 @@
 				"ControlName"							"EditablePanel"
 				"fieldName"								"HUD_Ammo_Selection"
 				"xpos"									"rs1-9"
-				"ypos"									"332"
+				"ypos"									"372"
 				"zpos"									"0"
 				"wide"									"113"
 				"tall"									"70"
