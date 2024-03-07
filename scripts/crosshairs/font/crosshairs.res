@@ -6,7 +6,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2Crosshairs"
+				"name"										"TF2Crosshairs_m0re_V3"
 				"tall"										"10"
 				"antialias"									"1"
 			}
@@ -15,7 +15,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2Crosshairs"
+				"name"										"TF2Crosshairs_m0re_V3"
 				"tall"										"11"
 				"antialias"									"1"
 			}
@@ -24,7 +24,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2Crosshairs"
+				"name"										"TF2Crosshairs_m0re_V3"
 				"tall"										"12"
 				"antialias"									"1"
 			}
@@ -33,7 +33,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2Crosshairs"
+				"name"										"TF2Crosshairs_m0re_V3"
 				"tall"										"13"
 				"antialias"									"1"
 			}
@@ -42,7 +42,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2Crosshairs"
+				"name"										"TF2Crosshairs_m0re_V3"
 				"tall"										"14"
 				"antialias"									"1"
 			}
@@ -51,7 +51,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2Crosshairs"
+				"name"										"TF2Crosshairs_m0re_V3"
 				"tall"										"15"
 				"antialias"									"1"
 			}
@@ -60,7 +60,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2Crosshairs"
+				"name"										"TF2Crosshairs_m0re_V3"
 				"tall"										"16"
 				"antialias"									"1"
 			}
@@ -69,7 +69,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2Crosshairs"
+				"name"										"TF2Crosshairs_m0re_V3"
 				"tall"										"17"
 				"antialias"									"1"
 			}
@@ -78,7 +78,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2Crosshairs"
+				"name"										"TF2Crosshairs_m0re_V3"
 				"tall"										"18"
 				"antialias"									"1"
 			}
@@ -87,7 +87,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2Crosshairs"
+				"name"										"TF2Crosshairs_m0re_V3"
 				"tall"										"19"
 				"antialias"									"1"
 			}
@@ -96,7 +96,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2Crosshairs"
+				"name"										"TF2Crosshairs_m0re_V3"
 				"tall"										"20"
 				"antialias"									"1"
 			}
@@ -105,7 +105,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2Crosshairs"
+				"name"										"TF2Crosshairs_m0re_V3"
 				"tall"										"21"
 				"antialias"									"1"
 			}
@@ -114,7 +114,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2Crosshairs"
+				"name"										"TF2Crosshairs_m0re_V3"
 				"tall"										"22"
 				"antialias"									"1"
 			}
@@ -123,7 +123,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2Crosshairs"
+				"name"										"TF2Crosshairs_m0re_V3"
 				"tall"										"23"
 				"antialias"									"1"
 			}
@@ -132,7 +132,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2Crosshairs"
+				"name"										"TF2Crosshairs_m0re_V3"
 				"tall"										"24"
 				"antialias"									"1"
 			}
@@ -141,7 +141,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2Crosshairs"
+				"name"										"TF2Crosshairs_m0re_V3"
 				"tall"										"25"
 				"antialias"									"1"
 			}
@@ -150,7 +150,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2Crosshairs"
+				"name"										"TF2Crosshairs_m0re_V3"
 				"tall"										"26"
 				"antialias"									"1"
 			}
@@ -159,7 +159,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2Crosshairs"
+				"name"										"TF2Crosshairs_m0re_V3"
 				"tall"										"27"
 				"antialias"									"1"
 			}
@@ -168,7 +168,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2Crosshairs"
+				"name"										"TF2Crosshairs_m0re_V3"
 				"tall"										"28"
 				"antialias"									"1"
 			}
@@ -177,7 +177,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2Crosshairs"
+				"name"										"TF2Crosshairs_m0re_V3"
 				"tall"										"29"
 				"antialias"									"1"
 			}
@@ -186,7 +186,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2Crosshairs"
+				"name"										"TF2Crosshairs_m0re_V3"
 				"tall"										"30"
 				"antialias"									"1"
 			}
@@ -196,7 +196,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2Crosshairs"
+				"name"										"TF2Crosshairs_m0re_V3"
 				"tall"										"10"
 				"antialias"									"1"
 				"outline"									"1"
@@ -206,7 +206,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2Crosshairs"
+				"name"										"TF2Crosshairs_m0re_V3"
 				"tall"										"11"
 				"antialias"									"1"
 				"outline"									"1"
@@ -216,7 +216,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2Crosshairs"
+				"name"										"TF2Crosshairs_m0re_V3"
 				"tall"										"12"
 				"antialias"									"1"
 				"outline"									"1"
@@ -226,7 +226,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2Crosshairs"
+				"name"										"TF2Crosshairs_m0re_V3"
 				"tall"										"13"
 				"antialias"									"1"
 				"outline"									"1"
@@ -236,7 +236,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2Crosshairs"
+				"name"										"TF2Crosshairs_m0re_V3"
 				"tall"										"14"
 				"antialias"									"1"
 				"outline"									"1"
@@ -246,7 +246,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2Crosshairs"
+				"name"										"TF2Crosshairs_m0re_V3"
 				"tall"										"15"
 				"antialias"									"1"
 				"outline"									"1"
@@ -256,7 +256,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2Crosshairs"
+				"name"										"TF2Crosshairs_m0re_V3"
 				"tall"										"16"
 				"antialias"									"1"
 				"outline"									"1"
@@ -266,7 +266,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2Crosshairs"
+				"name"										"TF2Crosshairs_m0re_V3"
 				"tall"										"17"
 				"antialias"									"1"
 				"outline"									"1"
@@ -276,7 +276,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2Crosshairs"
+				"name"										"TF2Crosshairs_m0re_V3"
 				"tall"										"18"
 				"antialias"									"1"
 				"outline"									"1"
@@ -286,7 +286,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2Crosshairs"
+				"name"										"TF2Crosshairs_m0re_V3"
 				"tall"										"19"
 				"antialias"									"1"
 				"outline"									"1"
@@ -296,7 +296,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2Crosshairs"
+				"name"										"TF2Crosshairs_m0re_V3"
 				"tall"										"20"
 				"antialias"									"1"
 				"outline"									"1"
@@ -306,7 +306,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2Crosshairs"
+				"name"										"TF2Crosshairs_m0re_V3"
 				"tall"										"21"
 				"antialias"									"1"
 				"outline"									"1"
@@ -316,7 +316,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2Crosshairs"
+				"name"										"TF2Crosshairs_m0re_V3"
 				"tall"										"22"
 				"antialias"									"1"
 				"outline"									"1"
@@ -326,7 +326,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2Crosshairs"
+				"name"										"TF2Crosshairs_m0re_V3"
 				"tall"										"23"
 				"antialias"									"1"
 				"outline"									"1"
@@ -336,7 +336,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2Crosshairs"
+				"name"										"TF2Crosshairs_m0re_V3"
 				"tall"										"24"
 				"antialias"									"1"
 				"outline"									"1"
@@ -346,7 +346,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2Crosshairs"
+				"name"										"TF2Crosshairs_m0re_V3"
 				"tall"										"25"
 				"antialias"									"1"
 				"outline"									"1"
@@ -356,7 +356,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2Crosshairs"
+				"name"										"TF2Crosshairs_m0re_V3"
 				"tall"										"26"
 				"antialias"									"1"
 				"outline"									"1"
@@ -366,7 +366,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2Crosshairs"
+				"name"										"TF2Crosshairs_m0re_V3"
 				"tall"										"27"
 				"antialias"									"1"
 				"outline"									"1"
@@ -376,7 +376,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2Crosshairs"
+				"name"										"TF2Crosshairs_m0re_V3"
 				"tall"										"28"
 				"antialias"									"1"
 				"outline"									"1"
@@ -386,7 +386,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2Crosshairs"
+				"name"										"TF2Crosshairs_m0re_V3"
 				"tall"										"29"
 				"antialias"									"1"
 				"outline"									"1"
@@ -396,7 +396,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2Crosshairs"
+				"name"										"TF2Crosshairs_m0re_V3"
 				"tall"										"30"
 				"antialias"									"1"
 				"outline"									"1"
@@ -409,7 +409,7 @@
 		"100"
 		{
 			"font"	"scripts/crosshairs/font/TF2Crosshairs.ttf"
-			"name"	"TF2Crosshairs"
+			"name"	"TF2Crosshairs_m0re_V3"
 		}
 	}
 }

@@ -120,6 +120,16 @@
 				"outline"									"1"
 			}
 		}
+		"m0refont18Numbers"
+		{
+			"1"
+			{
+				"name"										"Surface-Numbers"
+				"tall"										"18"
+				"antialias"									"1"
+				"outline"									"1"
+			}
+		}
 		"m0refont20"
 		{
 			"1"
@@ -153,6 +163,16 @@
 			"1"
 			{
 				"name"										"Surface-Medium"
+				"tall"										"24"
+				"antialias"									"1"
+				"outline"									"1"
+			}
+		}
+		"m0refont24Numbers"
+		{
+			"1"
+			{
+				"name"										"Surface-Numbers"
 				"tall"										"24"
 				"antialias"									"1"
 				"outline"									"1"
@@ -2882,20 +2902,25 @@
 		}
 		"9"
 		{
+			"font"		"resource/scheme/fonts/surface_numbers.otf"
+			"name"		"Surface-Numbers"
+		}
+		"10"
+		{
 			"font"		"resource/scheme/fonts/surface_numbers_xl.otf"
 			"name"		"Surface-Numbers-XL"
 		}
-		"10"
+		"11"
 		{
 			"font"		"resource/scheme/fonts/coolvetica.ttf"
 			"name"		"Coolvetica"
 		}
-		"11"
+		"12"
 		{
 			"font"		"resource/scheme/fonts/blocks.ttf"
 			"name"		"Blocks"
 		}
-		"12"
+		"13"
 		{
 			"font"		"resource/scheme/fonts/m0rehud icons.ttf"
 			"name"		"m0rehud Icons V5"
