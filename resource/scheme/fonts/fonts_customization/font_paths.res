@@ -304,23 +304,23 @@
 		}
 		"260"
 		{
-			"font"		"resource/scheme/fonts/fonts_optional/Verlag.otf"
-			"name"		"Verlag-Black"
+			"font"		"resource/scheme/fonts/fonts_optional/VCR_OSD_Mono.ttf"
+			"name"		"VCR OSD Mono"
 		}
 		"261"
 		{
-			"font"		"resource/scheme/fonts/fonts_optional/Verlag_Numbers.otf"
-			"name"		"Verlag Black Numbers"
+			"font"		"resource/scheme/fonts/fonts_optional/VCR_OSD_Mono_Numbers.ttf"
+			"name"		"VCR OSD Mono Numbers"
 		}
 		"262"
 		{
-			"font"		"resource/scheme/fonts/fonts_optional/VHS.ttf"
-			"name"		"EASVHS Regular"
+			"font"		"resource/scheme/fonts/fonts_optional/Verlag.otf"
+			"name"		"Verlag-Black"
 		}
 		"263"
 		{
-			"font"		"resource/scheme/fonts/fonts_optional/VHS_Numbers.ttf"
-			"name"		"EASVHS Numbers"
+			"font"		"resource/scheme/fonts/fonts_optional/Verlag_Numbers.otf"
+			"name"		"Verlag Black Numbers"
 		}
 	}
 }

@@ -290,21 +290,21 @@
 				"antialias"									"1"
 			}
 		}
+		"Showcase_VCR"
+		{
+			"1"
+			{
+				"name"										"VCR OSD Mono"
+				"tall"										"10"
+				"antialias"									"1"
+			}
+		}
 		"Showcase_Verlag"
 		{
 			"1"
 			{
 				"name"										"Verlag-Black"
 				"tall"										"11"
-				"antialias"									"1"
-			}
-		}
-		"Showcase_VHS"
-		{
-			"1"
-			{
-				"name"										"EASVHS Regular"
-				"tall"										"10"
 				"antialias"									"1"
 			}
 		}
@@ -342,7 +342,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2Crosshairs_m0re_V2"
+				"name"										"TF2Crosshairs_m0re_V3"
 				"tall"										"10"
 				"antialias"									"1"
 			}
