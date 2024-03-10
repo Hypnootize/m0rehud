@@ -115,11 +115,11 @@
 		"tooltip"									"Achievements"
 		"OnlyInGame"								"1"
 	}
-	"Fix_Glitches"
+	"HUD_Sound_Reload"
 	{
 		"label"										"%"
-		"command"									"engine stop; record fix; hud_reloadscheme; snd_restart"
-		"tooltip"									"Fix Visual/Sound Glitches"
+		"command"									"engine hud_reloadscheme; snd_restart"
+		"tooltip"									"Reload HUD and Sound"
 		"OnlyInGame"								"1"
 	}
 }
