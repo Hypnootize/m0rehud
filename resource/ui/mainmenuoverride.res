@@ -929,10 +929,10 @@
 			"depressedFgColor_override"				"Menu_Accent"
 		}
 	}
-	"Fix_Glitches"
+	"HUD_Sound_Reload"
 	{
 		"ControlName"								"EditablePanel"
-		"fieldname"									"Fix_Glitches"
+		"fieldname"									"HUD_Sound_Reload"
 		"xpos"										"2"
 		"ypos"										"0"
 		"zpos"										"15"
