@@ -6,7 +6,7 @@
 
 <a href="https://github.com/Hypnootize/m0rehud/archive/refs/heads/master.zip"><img src="https://i.imgur.com/XDkUVKU.png"></a> &nbsp;&nbsp; <a href="https://github.com/Hypnootize/m0rehud/archive/refs/heads/classic.zip"><img src="https://i.imgur.com/tPTVfEY.png"></a>
 ##
-<a href="http://imgur.com/a/sxOyM"><img src="https://i.imgur.com/vVxJdvB.png"></a>
+<a href="../screenshots/showcase.md"><img src="https://i.imgur.com/vVxJdvB.png"></a>
 <a href="https://github.com/Hypnootize/m0rehud/wiki"><img src="https://i.imgur.com/UpvlsG7.png"></a>
 <a href="https://github.com/Hypnootize/m0rehud/wiki/CUSTOMIZATIONS"><img src="https://i.imgur.com/I3oEZKa.png"></a>
 <a href="https://github.com/Hypnootize/m0rehud/wiki/CREDITS"><img src="https://i.imgur.com/CjePbm6.png"></a>
