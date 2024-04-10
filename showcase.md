@@ -64,7 +64,7 @@
 ![Destroy Menu](../screenshots/20_Destroy_Menu.jpg?raw=true)
 
 ## EUREKA EFFECT MENU
-![Eureka Effect](../screenshots/21_Eureka_Effect.jpg?raw=true)
+![Eureka Effect](../screenshots/21_Eureka_Effect_Menu.jpg?raw=true)
 
 ## DISGUISE MENU
 ![Disguise Menu](../screenshots/22_Disguise_Menu.jpg?raw=true)
@@ -100,7 +100,7 @@
 ![Pass Time](../screenshots/32_Pass_Time.jpg?raw=true)
 
 ## VERSUS SAXTON HALE
-![VHS](../screenshots/33_VHS.jpg?raw=true)
+![VSH](../screenshots/33_VSH.jpg?raw=true)
 
 ## HALLOWEEN
 ![Halloween](../screenshots/34_Halloween.jpg?raw=true)
