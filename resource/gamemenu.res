@@ -101,13 +101,6 @@
 		"tooltip"									"Mute a Player"
 		"OnlyInGame"								"1"
 	}
-	"Report"
-	{
-		"label"										"K"
-		"command"									"OpenReportPlayerDialog"
-		"tooltip"									"Report a Player"
-		"OnlyInGame"								"1"
-	}
 	"Achievements"
 	{
 		"label"										"J"
@@ -120,6 +113,13 @@
 		"label"										"%"
 		"command"									"engine hud_reloadscheme; snd_restart"
 		"tooltip"									"Reload HUD and Sound"
+		"OnlyInGame"								"1"
+	}
+	"Fix_Visual_Glitches"
+	{
+		"label"										"D"
+		"command"									"engine stop; ds_record"
+		"tooltip"									"Fix Visual Glitches"
 		"OnlyInGame"								"1"
 	}
 }
