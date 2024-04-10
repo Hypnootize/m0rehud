@@ -27,7 +27,7 @@
 		"enabled"									"1"
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
-		"bgcolor_override"							"TransparentMediumBlack"
+		"bgcolor_override"							"TransparentLightBlack"
 		"proportionaltoparent"						"1"
 
 		"if_multiple_trains_top"
