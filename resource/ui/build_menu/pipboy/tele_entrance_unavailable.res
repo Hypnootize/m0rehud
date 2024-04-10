@@ -1,1 +1,0 @@
-#base "../tele_entrance_unavailable.res"

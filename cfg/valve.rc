@@ -1,9 +1,0 @@
-r_decal_cullsize 1
-
-exec joystick.cfg
-exec autoexec.cfg
-exec m0re_customization.cfg
-
-stuffcmds
-startupmenu
-sv_unlockedchapters 99

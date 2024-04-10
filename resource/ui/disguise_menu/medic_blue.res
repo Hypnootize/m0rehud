@@ -1,1 +1,0 @@
-#base "medic_red.res"

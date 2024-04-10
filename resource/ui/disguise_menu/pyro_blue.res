@@ -1,1 +1,0 @@
-#base "pyro_red.res"

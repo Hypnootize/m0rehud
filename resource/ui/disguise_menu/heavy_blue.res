@@ -1,1 +1,0 @@
-#base "heavy_red.res"
