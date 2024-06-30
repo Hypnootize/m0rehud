@@ -479,7 +479,7 @@
 		{
 			"ControlName"							"CExImageButton"
 			"fieldName"								"ResumeButton"
-			"xpos"									"rs1-48"
+			"xpos"									"0"
 			"ypos"									"0"
 			"zpos"									"100"
 			"wide"									"24"
@@ -500,6 +500,8 @@
 
 			"defaultFgColor_override"				"White"
 			"armedFgColor_override"					"White"
+
+			"alpha"									"0"
 		}
 		"FindAGameButton"
 		{
