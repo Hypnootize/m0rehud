@@ -12,6 +12,15 @@
 		"enabled"									"1"
 		"image"										"../sprites/obj_icons/capture_highlight"
 	}
+	"CPWarning"
+	{
+		"ControlName"								"ImagePanel"
+		"fieldName"									"CPWarning"
+		"xpos"										"9999"
+		"visible"									"1"
+		"enabled"									"1"
+		"image"										"../sprites/obj_icons/warning_highlight"
+	}
 	"CPCapMask"
 	{
 		"ControlName"								"ImagePanel"
