@@ -1035,6 +1035,49 @@
 			"depressedFgColor_override"				"Menu_Accent"
 		}
 	}
+	//==================================================================================================================================================
+	// QUICKPLAY
+	//==================================================================================================================================================
+	"Quickplay"
+	{
+		"ControlName"								"EditablePanel"
+		"fieldname"									"Quickplay"
+		"xpos"										"rs1-48"
+		"ypos"										"0"
+		"zpos"										"10005"
+		"wide"										"24"
+		"tall"										"19"
+
+		"SubButton"
+		{
+			"ControlName"							"CExImageButton"
+			"fieldName"								"SubButton"
+			"xpos"									"0"
+			"ypos"									"0"
+			"wide"									"f0"
+			"tall"									"f0"
+			"visible"								"1"
+			"enabled"								"1"
+			"proportionaltoparent"					"1"
+			"font"									"Symbols20"
+			"AllCaps"								"0"
+			"textAlignment"							"center"
+			"sound_depressed"						"UI/buttonclick.wav"
+			"sound_released"						"UI/buttonclickrelease.wav"
+
+			"paintbackground"						"1"
+			"paintborder"							"0"
+			"RoundedCorners"						"0"
+
+			"defaultFgColor_override"				"White"
+			"armedFgColor_override"					"White"
+			"depressedFgColor_override"				"White"
+
+			"defaultBgColor_override"				"0 150 135 255"
+			"armedBgColor_override"					"0 100 90 255"
+			"depressedBgColor_override"				"0 150 135 255"
+		}
+	}
 
 	//==================================================================================================================================================
 	// FRIENDS LIST

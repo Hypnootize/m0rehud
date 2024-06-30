@@ -288,7 +288,7 @@
 		{
 			"1"
 			{
-				"name"										"m0rehud Icons V11"
+				"name"										"m0rehud Icons V12"
 				"tall"										"14"
 				"antialias"									"1"
 			}
@@ -808,7 +808,7 @@
 		"3"
 		{
 			"font"	"resource/scheme/fonts/m0rehud_icons.ttf"
-			"name"	"m0rehud Icons V11"
+			"name"	"m0rehud Icons V12"
 		}
 	}
 }

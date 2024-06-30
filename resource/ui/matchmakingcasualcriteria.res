@@ -122,7 +122,7 @@
 			"xpos"									"cs-0.5"
 			"ypos"									"27"
 			"wide"									"f6"
-			"tall"									"f30"
+			"tall"									"f28"
 			"visible"								"1"
 			"proportionaltoparent"					"1"
 			"restrict_width"						"0"
