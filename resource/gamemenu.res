@@ -124,7 +124,7 @@
 	"Fix_Visual_Glitches"
 	{
 		"label"										"D"
-		"command"									"engine stop; ds_record"
+		"command"									"record m0re_fix_visual_glitches; stop"
 		"tooltip"									"Fix Visual Glitches"
 		"OnlyInGame"								"1"
 	}
