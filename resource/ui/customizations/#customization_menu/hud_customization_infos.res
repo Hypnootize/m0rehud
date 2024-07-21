@@ -58,7 +58,7 @@
 				}
 				"GitHubWiki"
 				{
-					"ControlName"						"URLLabel"
+					"ControlName"						"CExButton"
 					"fieldname"							"GitHubWiki"
 					"xpos"								"rs1"
 					"ypos"								"rs1"
@@ -71,11 +71,9 @@
 					"labelText"							"HUD WIKI"
 					"font"								"FontStorePrice"
 					"textAlignment"						"center"
-					"urlText"							"https://github.com/Hypnootize/m0rehud/wiki/CUSTOMIZATIONS"
-					"FgColor_override"					"White"
+					"command"							"url https://github.com/Hypnootize/m0rehud/wiki/CUSTOMIZATIONS"
 					"paintbackground"					"1"
-					"paintbackgroundtype"				"0"
-					"bgcolor_override"					"TanDark"
+					"roundedcorners"					"0"
 				}
 			}
 		}

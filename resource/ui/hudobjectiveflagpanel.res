@@ -50,6 +50,10 @@
 		{
 			"visible"								"0"
 		}
+		"if_no_flags"
+		{
+			"visible"								"0"
+		}
 	}
 	"BlueScoreShadow"
 	{
@@ -82,6 +86,10 @@
 		{
 			"visible"								"0"
 		}
+		"if_no_flags"
+		{
+			"visible"								"0"
+		}
 	}
 	"BlueFlag"
 	{
@@ -99,6 +107,9 @@
 		"if_hybrid"
 		{
 			"visible"								"0"
+			"ypos"									"rs1-25"
+			"wide"									"26"
+			"tall"									"26"
 		}
 		"if_hybrid_single"
 		{
@@ -147,6 +158,10 @@
 		{
 			"visible"								"0"
 		}
+		"if_no_flags"
+		{
+			"visible"								"0"
+		}
 	}
 	"RedScoreShadow"
 	{
@@ -176,6 +191,10 @@
 			"visible"								"0"
 		}
 		"if_mvm"
+		{
+			"visible"								"0"
+		}
+		"if_no_flags"
 		{
 			"visible"								"0"
 		}
@@ -235,6 +254,10 @@
 			"visible"								"0"
 		}
 		"if_specialdelivery"
+		{
+			"visible"								"0"
+		}
+		"if_no_flags"
 		{
 			"visible"								"0"
 		}
