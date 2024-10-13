@@ -274,6 +274,17 @@
 		"visible"									"0"
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
+
+		"if_hybrid"
+		{
+			"ypos"									"rs1-25"
+			"wide"									"26"
+			"tall"									"26"
+		}
+		"if_hybrid_single"
+		{
+			"xpos"									"cs-0.5"
+		}
 	}
 	"CarriedImage"
 	{
@@ -296,6 +307,12 @@
 		"if_specialdelivery"
 		{
 			"ypos"									"-11"
+		}
+		"if_hybrid"
+		{
+			"wide"									"18"
+			"tall"									"18"
+			"ypos"									"-8"
 		}
 	}
 	"SpecCarriedImage"
