@@ -214,69 +214,12 @@
 				"antialias"									"1"
 			}
 		}
-		"m0refont72"
+		"m0refont58"
 		{
 			"1"
 			{
 				"name"										"Surface-Medium"
-				"tall"										"72"
-				"yres"										"400 500"
-				"antialias"									"1"
-			}
-			"2"
-			{
-				"name"										"Surface-Medium"
-				"tall"										"88"
-				"yres"										"501 600"
-				"antialias"									"1"
-			}
-			"3"
-			{
-				"name"										"Surface-Medium"
-				"tall"										"95"
-				"yres"										"601 679"
-				"antialias"									"1"
-			}
-			"4"
-			{
-				"name"										"Surface-Medium"
-				"tall"										"103"
-				"yres"										"680 720"
-				"antialias"									"1"
-			}
-			"5"
-			{
-				"name"										"Surface-Medium"
-				"tall"										"110"
-				"yres"										"721 799"
-				"antialias"									"1"
-			}
-			"6"
-			{
-				"name"										"Surface-Medium"
-				"tall"										"117"
-				"yres"										"800 899"
-				"antialias"									"1"
-			}
-			"7"
-			{
-				"name"										"Surface-Medium"
-				"tall"										"123"
-				"yres"										"900 1030"
-				"antialias"									"1"
-			}
-			"8"
-			{
-				"name"										"Surface-Medium"
-				"tall"										"130"
-				"yres"										"1031 1199"
-				"antialias"									"1"
-			}
-			"9"
-			{
-				"name"										"Surface-Numbers-XL"
-				"tall"										"999"
-				"yres"										"1200 6000"
+				"tall"										"58"
 				"antialias"									"1"
 			}
 		}
@@ -388,9 +331,8 @@
 			"5"
 			{
 				"name"										"Surface-Medium"
-				"tall"										"32"
+				"tall"										"9"
 				"range"										"0x0000 0x017F"
-				"yres"										"1200 6000"
 				"antialias"									"1"
 			}
 			"6"
@@ -432,7 +374,6 @@
 			{
 				"name"										"Verdana"
 				"tall"										"12"
-				"weight"									"0"
 				"range"										"0x0000 0x017F"
 				"yres"										"480 599"
 			}
@@ -440,7 +381,6 @@
 			{
 				"name"										"Verdana"
 				"tall"										"13"
-				"weight"									"0"
 				"range"										"0x0000 0x017F"
 				"yres"										"600 767"
 			}
@@ -448,7 +388,6 @@
 			{
 				"name"										"Verdana"
 				"tall"										"14"
-				"weight"									"0"
 				"range"										"0x0000 0x017F"
 				"yres"										"768 1023"
 				"antialias"									"1"
@@ -457,7 +396,6 @@
 			{
 				"name"										"Verdana"
 				"tall"										"20"
-				"weight"									"0"
 				"range"										"0x0000 0x017F"
 				"yres"										"1024 1199"
 				"antialias"									"1"
@@ -465,10 +403,8 @@
 			"5"
 			{
 				"name"										"Verdana"
-				"tall"										"22"
-				"weight"									"0"
+				"tall"										"9"
 				"range"										"0x0000 0x017F"
-				"yres"										"1200 6000"
 				"antialias"									"1"
 			}
 			"6"
@@ -485,7 +421,6 @@
 			{
 				"name"										"Verdana"
 				"tall"										"12"
-				"weight"									"0"
 				"range"										"0x0000 0x017F"
 				"yres"										"480 599"
 			}
@@ -493,7 +428,6 @@
 			{
 				"name"										"Verdana"
 				"tall"										"12"
-				"weight"									"0"
 				"range"										"0x0000 0x017F"
 				"yres"										"600 767"
 			}
@@ -501,7 +435,6 @@
 			{
 				"name"										"Verdana"
 				"tall"										"12"
-				"weight"									"0"
 				"range"										"0x0000 0x017F"
 				"yres"										"768 1023"
 				"antialias"									"1"
@@ -510,7 +443,6 @@
 			{
 				"name"										"Verdana"
 				"tall"										"14"
-				"weight"									"0"
 				"range"										"0x0000 0x017F"
 				"yres"										"1024 1199"
 				"antialias"									"1"
@@ -518,10 +450,8 @@
 			"5"
 			{
 				"name"										"Verdana"
-				"tall"										"16"
-				"weight"									"0"
+				"tall"										"9"
 				"range"										"0x0000 0x017F"
-				"yres"										"1200 6000"
 				"antialias"									"1"
 			}
 		}
@@ -564,10 +494,9 @@
 			"5"
 			{
 				"name"										"Verdana"
-				"tall"										"30"
+				"tall"										"18"
 				"weight"									"900"
 				"range"										"0x0000 0x017F"
-				"yres"										"1200 6000"
 				"antialias"									"1"
 			}
 			"6"
@@ -641,9 +570,9 @@
 			"5"
 			{
 				"name"										"Verdana"
-				"tall"										"24"
+				"tall"										"12"
 				"weight"									"700"
-				"yres"										"1200 10000"
+				"antialias"									"1"
 			}
 		}
 		"HudFontGiant"
@@ -687,11 +616,10 @@
 			"5"
 			{
 				"name"										"TF2"
-				"tall"										"52"
+				"tall"										"24"
 				"weight"									"500"
 				"additive"									"0"
 				"antialias"									"1"
-				"yres"										"1200 10000"
 			}
 		}
 		"HudFontGiantBold"
@@ -766,6 +694,15 @@
 			{
 				"name"										"TF2 Secondary"
 				"tall"										"24"
+				"weight"									"500"
+				"yres"										"1 1199"
+				"additive"									"0"
+				"antialias"									"1"
+			}
+			"2"
+			{
+				"name"										"TF2 Secondary"
+				"tall"										"10"
 				"weight"									"500"
 				"additive"									"0"
 				"antialias"									"1"
@@ -2413,7 +2350,7 @@
 			"1"
 			{
 				"name"										"TF2 Secondary"
-				"tall"										"10"
+				"tall"										"12"
 				"weight"									"400"
 				"additive"									"0"
 				"antialias"									"1"
@@ -2907,20 +2844,15 @@
 		}
 		"10"
 		{
-			"font"		"resource/scheme/fonts/surface_numbers_xl.otf"
-			"name"		"Surface-Numbers-XL"
-		}
-		"11"
-		{
 			"font"		"resource/scheme/fonts/coolvetica.ttf"
 			"name"		"Coolvetica"
 		}
-		"12"
+		"11"
 		{
 			"font"		"resource/scheme/fonts/blocks.ttf"
 			"name"		"Blocks"
 		}
-		"13"
+		"12"
 		{
 			"font"		"resource/scheme/fonts/m0rehud icons.ttf"
 			"name"		"m0rehud Icons V5"

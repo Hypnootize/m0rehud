@@ -68,7 +68,7 @@
 		"enabled"									"1"
 		"labelText"									"%Health%"
 		"textAlignment"								"center"
-		"font"										"m0refont72"
+		"font"										"m0refont58"
 		"fgcolor"									"Health Numbers"
 
 		"pin_to_sibling"							"HealthAnchor"
@@ -88,7 +88,7 @@
 		"enabled"									"1"
 		"labelText"									"%Health%"
 		"textAlignment"								"center"
-		"font"										"m0refont72"
+		"font"										"m0refont58"
 		"fgcolor"									"Black"
 
 		"pin_to_sibling"							"HealthValue"
@@ -106,7 +106,7 @@
 		"enabled"									"1"
 		"labelText"									"%Health%"
 		"textAlignment"								"center"
-		"font"										"m0refont72"
+		"font"										"m0refont58"
 		"fgcolor"									"Extra Shadow"
 		"alpha"										"0"
 

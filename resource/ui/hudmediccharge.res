@@ -57,7 +57,7 @@
 		"proportionaltoparent"						"1"
 		"labelText"									"#TF_UberchargeMinHUD"
 		"textAlignment"								"center"
-		"font"										"m0refont72"
+		"font"										"m0refont58"
 		"fgcolor"									"Ubercharge"
 
 		"pin_to_sibling"							"UberAnchor"
@@ -78,7 +78,7 @@
 		"proportionaltoparent"						"1"
 		"labelText"									"#TF_UberchargeMinHUD"
 		"textAlignment"								"center"
-		"font"										"m0refont72"
+		"font"										"m0refont58"
 		"fgcolor"									"Black"
 
 		"pin_to_sibling"							"ChargeLabelBig"
@@ -97,7 +97,7 @@
 		"proportionaltoparent"						"1"
 		"labelText"									"#TF_UberchargeMinHUD"
 		"textAlignment"								"center"
-		"font"										"m0refont72"
+		"font"										"m0refont58"
 		"fgcolor"									"Extra Shadow"
 		"alpha"										"0"
 
