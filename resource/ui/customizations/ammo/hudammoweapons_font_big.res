@@ -2,11 +2,11 @@
 {
 	"AmmoInClip"
 	{
-		"font"										"m0refont72"
+		"font"										"m0refont58"
 	}
 	"AmmoInClipShadow"
 	{
-		"font"										"m0refont72"
+		"font"										"m0refont58"
 	}
 	"AmmoInReserve"
 	{
@@ -19,10 +19,10 @@
 	}
 	"AmmoNoClip"
 	{
-		"font"										"m0refont72"
+		"font"										"m0refont58"
 	}
 	"AmmoNoClipShadow"
 	{
-		"font"										"m0refont72"
+		"font"										"m0refont58"
 	}
 }

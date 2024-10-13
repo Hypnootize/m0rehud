@@ -435,7 +435,7 @@
 
 		"Slider.NobColor"									"White"
 		"Slider.TextColor"									"Gray"
-		"Slider.TrackColor"									"FooterBGBlack"
+		"Slider.TrackColor"									"Black"
 		"Slider.DisabledTextColor1"							"Gray"
 		"Slider.DisabledTextColor2"							"Black"
 

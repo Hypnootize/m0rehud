@@ -198,7 +198,7 @@
 				"name"										"Cerbetica Bold"
 			}
 		}
-		"m0refont72"
+		"m0refont58"
 		{
 			"1"
 			{

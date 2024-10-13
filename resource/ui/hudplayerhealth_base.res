@@ -210,7 +210,7 @@
 		"enabled"									"1"
 		"labelText"									"%Health%"
 		"textAlignment"								"center"
-		"font"										"m0refont72"
+		"font"										"m0refont58"
 		"font_minmode"								"m0refont32"
 		"fgcolor"									"Health_Numbers"
 
@@ -235,7 +235,7 @@
 		"enabled"									"1"
 		"labelText"									"%Health%"
 		"textAlignment"								"center"
-		"font"										"m0refont72"
+		"font"										"m0refont58"
 		"font_minmode"								"m0refont32"
 		"fgcolor"									"Main_Shadow"
 
@@ -256,7 +256,7 @@
 		"enabled"									"1"
 		"labelText"									"%Health%"
 		"textAlignment"								"center"
-		"font"										"m0refont72"
+		"font"										"m0refont58"
 		"font_minmode"								"m0refont32"
 		"fgcolor"									"Extra_Health_Shadow"
 		"alpha"										"0"
@@ -280,7 +280,7 @@
 		"enabled"									"1"
 		"labelText"									"%Health%"
 		"textAlignment"								"center"
-		"font"										"m0refont72"
+		"font"										"m0refont58"
 		"font_minmode"								"m0refont32"
 		"fgcolor"									"Black"
 
