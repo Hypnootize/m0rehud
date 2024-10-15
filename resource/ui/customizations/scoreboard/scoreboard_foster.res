@@ -2,12 +2,14 @@
 {
 	"scores"
 	{
-		"avatar_width"								"50"
 		"medal_width"								"0"
+		"medal_column_width"						"0"
+		"avatar_width"								"28"
 		"spacer"									"1"
 		"nemesis_width"								"14"
 		"class_width"								"14"
-		"ping_width"								"25"
+		"score_width"								"20"
+		"ping_width"								"20"
 	}
 	"BluePlayerList"
 	{

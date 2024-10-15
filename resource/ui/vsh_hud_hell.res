@@ -25,8 +25,8 @@
 		"enabled"									"1"
 		"proportionalToParent"						"1"
 
-		"Players_Alive"	
-		{	
+		"Players_Alive"
+		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"Players_Alive"
 			"xpos"									"cs-0.9"
@@ -41,9 +41,9 @@
 			"font"									"m0refont12Shadow"
 			"fgcolor"								"White"
 			"proportionalToParent"					"1"
-		}	
-		"CountdownLabelTime"	
-		{	
+		}
+		"CountdownLabelTime"
+		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"CountdownLabelTime"
 			"xpos"									"cs+0.8"
@@ -58,8 +58,8 @@
 			"font"									"m0refont12Shadow"
 			"fgcolor"								"White"
 			"proportionalToParent"					"1"
-		}	
-		"CountdownLabelTimeShadow"	
+		}
+		"CountdownLabelTimeShadow"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"CountdownLabelTimeShadow"
@@ -75,7 +75,7 @@
 			"font"									"m0refont16"
 			"fgcolor"								"Black"
 			"proportionalToParent"					"1"
-			"pin_to_sibling"						"Score"
+			"pin_to_sibling"						"CountdownLabelTime"
 		}
 	}
 }
