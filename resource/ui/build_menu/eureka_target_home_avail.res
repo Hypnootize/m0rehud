@@ -4,14 +4,14 @@
 {
 	"ItemNameLabel"
 	{
-		"labelText"									"#Hud_Menu_Teleport_Base"
+		"LabelText"									"#Hud_Menu_Teleport_Base"
 	}
 	"BuildingImage"
 	{
-		"labelText"									"z"
+		"LabelText"									"z"
 	}
 	"NumberLabel"
 	{
-		"labelText"									"1"
+		"LabelText"									"1"
 	}
 }

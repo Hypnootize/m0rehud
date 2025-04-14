@@ -1,0 +1,10 @@
+"UnlitGeneric"
+{
+	"$basetexture"				"vgui/replay/thumbnails/portraits/heavy"
+	"$vertexalpha"				"1"
+	"$alpha"					"1"
+	"$translucent"				"1"
+	"$vertexcolor"				"1"
+	"$no_fullbright"			"1"
+	"$color"					"{160 162 165}"
+}

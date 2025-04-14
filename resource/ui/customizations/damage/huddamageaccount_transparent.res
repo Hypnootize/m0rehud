@@ -2,6 +2,6 @@
 {
 	"CDamageAccountPanel"
 	{
-		"alpha"										"125"
+		"Alpha"										"125"
 	}
 }

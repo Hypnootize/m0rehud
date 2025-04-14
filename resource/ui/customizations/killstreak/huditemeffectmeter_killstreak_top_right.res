@@ -2,26 +2,26 @@
 {
 	"HudItemEffectMeter"
 	{
-		"xpos"										"rs1-9"
-		"ypos"										"0"
-		"wide"										"50"
+		"XPos"										"rs1-9"
+		"YPos"										"0"
+		"Wide"										"50"
 	}
 	"ItemEffectMeterIcon"
 	{
-		"xpos"										"rs1"
-		"labelText"									"s"
+		"XPos"										"rs1"
+		"LabelText"									"s"
 	}
 	"ItemEffectMeterIconShadow"
 	{
-		"labelText"									"s"
+		"LabelText"									"s"
 	}
 	"ItemEffectMeterCount"
 	{
-		"xpos"										"0"
-		"textAlignment"								"east"
+		"XPos"										"0"
+		"TextAlignment"								"east"
 	}
 	"ItemEffectMeterCountShadow"
 	{
-		"textAlignment"								"east"
+		"TextAlignment"								"east"
 	}
 }

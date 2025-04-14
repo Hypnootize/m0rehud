@@ -2,17 +2,17 @@
 {
 	"DamageAccountValue"
 	{
-		"xpos"										"c-149"
-		"xpos_minmode"								"c-77"
-		"ypos"										"r140"
-		"ypos_minmode"								"r194"
-		"visible"									"1"
-		"textAlignment"								"west"
+		"XPos"										"c-149"
+		"XPos_Minmode"								"c-77"
+		"YPos"										"r140"
+		"YPos_Minmode"								"r194"
+		"Visible"									"1"
+		"TextAlignment"								"west"
 	}
 	"DamageAccountValueShadow"
 	{
-		"visible"									"1"
-		"textAlignment"								"west"
-		"fgcolor"									"Black"
+		"Visible"									"1"
+		"TextAlignment"								"west"
+		"FGColor"									"Black"
 	}
 }

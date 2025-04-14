@@ -3,9 +3,9 @@
 	"QuestNotificationPanel"
 	{
 		"ControlName"								"EditablePanel"
-		"fieldName"									"QuestNotificationPanel"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
+		"FieldName"									"QuestNotificationPanel"
+		"Wide"										"0"
+		"Tall"										"0"
+		"Visible"									"0"
 	}
 }

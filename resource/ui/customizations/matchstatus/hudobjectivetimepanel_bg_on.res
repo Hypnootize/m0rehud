@@ -2,10 +2,10 @@
 {
 	"TimePanelBG"
 	{
-		"tall"										"14"
+		"Tall"										"14"
 	}
 	"ServerTimeLimitLabelBG"
 	{
-		"tall"										"15"
+		"Tall"										"15"
 	}
 }

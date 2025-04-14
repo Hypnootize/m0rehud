@@ -119,7 +119,7 @@
 			"1"
 			{
 				"name"										"Rubik SemiBold"
-				"tall"										"22"
+				"Tall"										"22"
 			}
 		}
 		"m0refont24Shadow"
@@ -127,7 +127,7 @@
 			"1"
 			{
 				"name"										"Rubik SemiBold"
-				"tall"										"22"
+				"Tall"										"22"
 			}
 		}
 		"m0refont24Outline"
@@ -135,7 +135,7 @@
 			"1"
 			{
 				"name"										"Rubik SemiBold"
-				"tall"										"22"
+				"Tall"										"22"
 			}
 		}
 		"m0refont24Numbers"
@@ -150,7 +150,7 @@
 			"1"
 			{
 				"name"										"Rubik SemiBold"
-				"tall"										"24"
+				"Tall"										"24"
 			}
 		}
 		"m0refont30"
@@ -158,7 +158,7 @@
 			"1"
 			{
 				"name"										"Rubik SemiBold"
-				"tall"										"28"
+				"Tall"										"28"
 			}
 		}
 		"m0refont30Outline"
@@ -166,7 +166,7 @@
 			"1"
 			{
 				"name"										"Rubik SemiBold"
-				"tall"										"28"
+				"Tall"										"28"
 			}
 		}
 		"m0refont30Numbers"
@@ -174,7 +174,7 @@
 			"1"
 			{
 				"name"										"Rubik SemiBold Numbers"
-				"tall"										"28"
+				"Tall"										"28"
 			}
 		}
 		"m0refont32"
@@ -182,7 +182,7 @@
 			"1"
 			{
 				"name"										"Rubik SemiBold"
-				"tall"										"30"
+				"Tall"										"30"
 			}
 		}
 		"m0refont32Shadow"
@@ -190,7 +190,7 @@
 			"1"
 			{
 				"name"										"Rubik SemiBold"
-				"tall"										"30"
+				"Tall"										"30"
 			}
 		}
 		"m0refont36"
@@ -198,7 +198,7 @@
 			"1"
 			{
 				"name"										"Rubik SemiBold"
-				"tall"										"32"
+				"Tall"										"32"
 			}
 		}
 		"m0refont48"
@@ -206,7 +206,7 @@
 			"1"
 			{
 				"name"										"Rubik SemiBold"
-				"tall"										"44"
+				"Tall"										"44"
 			}
 		}
 		"m0refont58"
@@ -214,7 +214,7 @@
 			"1"
 			{
 				"name"										"Rubik SemiBold"
-				"tall"										"52"
+				"Tall"										"52"
 			}
 		}
 		"Default"
@@ -238,7 +238,7 @@
 			"5"
 			{
 				"name"										"Rubik SemiBold"
-				"tall"										"24"
+				"Tall"										"24"
 			}
 		}
 		"CloseCaption_Normal"

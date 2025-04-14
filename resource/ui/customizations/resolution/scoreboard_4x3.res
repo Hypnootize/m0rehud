@@ -8,56 +8,56 @@
 	{
 		"K/D"
 		{
-			"xpos"									"60"
+			"XPos"									"60"
 		}
 		"AssistsLabel"
 		{
-			"xpos"									"120"
-			"wide"									"57"
+			"XPos"									"120"
+			"Wide"									"57"
 		}
 		"DestructionLabel"
 		{
-			"wide"									"57"
+			"Wide"									"57"
 		}
 		"CapturesLabel"
 		{
-			"wide"									"57"
+			"Wide"									"57"
 		}
 		"DefensesLabel"
 		{
-			"wide"									"57"
+			"Wide"									"57"
 		}
 		"DominationLabel"
 		{
-			"wide"									"57"
+			"Wide"									"57"
 		}
 		"RevengeLabel"
 		{
-			"wide"									"57"
+			"Wide"									"57"
 		}
 		"HealingLabel"
 		{
-			"wide"									"57"
+			"Wide"									"57"
 		}
 		"InvulnLabel"
 		{
-			"wide"									"57"
+			"Wide"									"57"
 		}
 		"TeleportsLabel"
 		{
-			"wide"									"57"
+			"Wide"									"57"
 		}
 		"HeadshotsLabel"
 		{
-			"wide"									"57"
+			"Wide"									"57"
 		}
 		"BackstabsLabel"
 		{
-			"wide"									"57"
+			"Wide"									"57"
 		}
 		"DamageLabel"
 		{
-			"wide"									"57"
+			"Wide"									"57"
 		}
 	}
 }

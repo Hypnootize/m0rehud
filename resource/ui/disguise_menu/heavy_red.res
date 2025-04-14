@@ -4,22 +4,22 @@
 {
 	"TitleBG"
 	{
-		"visible"									"0"
+		"Visible"									"0"
 	}
 	"ItemNameLabel"
 	{
-		"labelText"									"#TF_Class_Name_HWGuy"
+		"LabelText"									"#TF_Class_Name_HWGuy"
 	}
 	"ClassIcon"
 	{
-		"labelText"									"e"
+		"LabelText"									"e"
 	}
 	"NumberLabel"
 	{
-		"labelText"									"5"
+		"LabelText"									"5"
 	}
 	"NewNumberLabel"
 	{
-		"labelText"									"2"
+		"LabelText"									"2"
 	}
 }

@@ -4,22 +4,22 @@
 {
 	"TitleBG"
 	{
-		"visible"									"0"
+		"Visible"									"0"
 	}
 	"ItemNameLabel"
 	{
-		"labelText"									"#TF_Class_Name_Spy"
+		"LabelText"									"#TF_Class_Name_Spy"
 	}
 	"ClassIcon"
 	{
-		"labelText"									"i"
+		"LabelText"									"i"
 	}
 	"NumberLabel"
 	{
-		"labelText"									"9"
+		"LabelText"									"9"
 	}
 	"NewNumberLabel"
 	{
-		"labelText"									"3"
+		"LabelText"									"3"
 	}
 }

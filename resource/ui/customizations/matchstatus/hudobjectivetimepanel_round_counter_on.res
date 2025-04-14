@@ -4,21 +4,21 @@
 	{
 		"if_match"
 		{
-			"wide"									"0"
+			"Wide"									"0"
 		}
 	}
 	"ServerTimeLimitLabel"
 	{
 		"if_match"
 		{
-			"ypos"									"20"
+			"YPos"									"20"
 		}
 	}
 	"ServerTimeLimitLabelBG"
 	{
 		"if_match"
 		{
-			"wide"									"0"
+			"Wide"									"0"
 		}
 	}
 }

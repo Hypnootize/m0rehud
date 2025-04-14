@@ -196,7 +196,7 @@
 			"1"
 			{
 				"name"										"Roboto Bold"
-				"tall"										"42"
+				"Tall"										"42"
 			}
 		}
 		"m0refont58"
@@ -204,7 +204,7 @@
 			"1"
 			{
 				"name"										"Roboto Bold"
-				"tall"										"54"
+				"Tall"										"54"
 			}
 		}
 		"Default"

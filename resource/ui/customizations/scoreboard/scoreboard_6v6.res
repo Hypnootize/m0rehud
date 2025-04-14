@@ -2,16 +2,16 @@
 {
 	"BluePlayerList"
 	{
-		"xpos"										"cs-0.5"
-		"ypos"										"c15"
-		"tall"										"85"
+		"XPos"										"cs-0.5"
+		"YPos"										"c15"
+		"Tall"										"85"
 		"linespacing"								"12"
 	}
 	"RedPlayerList"
 	{
-		"xpos"										"cs-0.5"
-		"ypos"										"c98"
-		"tall"										"85"
+		"XPos"										"cs-0.5"
+		"YPos"										"c98"
+		"Tall"										"85"
 		"linespacing"								"12"
 	}
 }

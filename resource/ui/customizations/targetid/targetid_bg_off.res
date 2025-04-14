@@ -2,17 +2,17 @@
 {
 	"TargetIDBG_Spec_Blue"
 	{
-		"ypos"										"9999"
-		"ypos_minmode"								"9999"
+		"YPos"										"9999"
+		"YPos_Minmode"								"9999"
 	}
 	"TargetIDBG_Spec_Red"
 	{
-		"ypos"										"9999"
-		"ypos_minmode"								"9999"
+		"YPos"										"9999"
+		"YPos_Minmode"								"9999"
 	}
 	"TargetBGshade"
 	{
-		"ypos"										"9999"
-		"ypos_minmode"								"9999"
+		"YPos"										"9999"
+		"YPos_Minmode"								"9999"
 	}
 }

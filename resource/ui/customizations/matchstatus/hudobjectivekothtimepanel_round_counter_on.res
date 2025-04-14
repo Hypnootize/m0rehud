@@ -4,7 +4,7 @@
 	{
 		"if_match"
 		{
-			"zpos"									"5"
+			"ZPos"									"5"
 		}
 	}
 	"BlueTimer"
@@ -13,10 +13,10 @@
 		{
 			"if_match"
 			{
-				"xpos"								"cs-0.5+5"
-				"ypos"								"cs-0.5-7"
-				"tall"								"16"
-				"font"								"m0refont14Shadow"
+				"XPos"								"cs-0.5+5"
+				"YPos"								"cs-0.5-7"
+				"Tall"								"16"
+				"Font"								"m0refont14Shadow"
 			}
 		}
 	}
@@ -26,10 +26,10 @@
 		{
 			"if_match"
 			{
-				"xpos"								"cs-0.5-5"
-				"ypos"								"cs-0.5-7"
-				"tall"								"16"
-				"font"								"m0refont14Shadow"
+				"XPos"								"cs-0.5-5"
+				"YPos"								"cs-0.5-7"
+				"Tall"								"16"
+				"Font"								"m0refont14Shadow"
 			}
 		}
 	}

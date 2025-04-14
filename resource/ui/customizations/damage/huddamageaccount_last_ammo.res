@@ -2,14 +2,14 @@
 {
 	"DamageAccountValue"
 	{
-		"xpos"										"c103"
-		"xpos_minmode"								"c50"
-		"ypos"										"r155"
-		"ypos_minmode"								"r200"
-		"visible"									"1"
+		"XPos"										"c103"
+		"XPos_Minmode"								"c50"
+		"YPos"										"r155"
+		"YPos_Minmode"								"r200"
+		"Visible"									"1"
 	}
 	"DamageAccountValueShadow"
 	{
-		"visible"									"1"
+		"Visible"									"1"
 	}
 }

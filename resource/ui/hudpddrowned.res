@@ -6,14 +6,14 @@
 	{
 		"CarriedImage"
 		{
-			"image"									"../hud/hud_skull"
+			"Image"									"../hud/hud_skull"
 		}
 	}
 	"CountdownContainer"
 	{
 		"Background"
 		{
-			"image"									"../hud/hud_invasion_greenbg"
+			"Image"									"../hud/hud_invasion_greenbg"
 			"teambg_2"								"../hud/hud_invasion_greenbg"
 			"teambg_3"								"../hud/hud_invasion_greenbg"
 		}
@@ -24,11 +24,11 @@
 		{
 			"FlagImageBlue"
 			{
-				"image"								"../hud/hud_skull"
+				"Image"								"../hud/hud_skull"
 			}
 			"FlagImageRed"
 			{
-				"image"								"../hud/hud_skull"
+				"Image"								"../hud/hud_skull"
 			}
 		}
 	}

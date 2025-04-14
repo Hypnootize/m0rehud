@@ -2,20 +2,20 @@
 {
 	"ChargeMeter"
 	{
-		"wide"										"100"
-		"wide_minmode"								"70"
-		"tall"										"5"
-		"tall_minmode"								"4"
+		"Wide"										"100"
+		"Wide_Minmode"								"70"
+		"Tall"										"5"
+		"Tall_Minmode"								"4"
 	}
 	"ChargeLabel"
 	{
-		"wide"										"100"
-		"wide_minmode"								"70"
-		"tall"										"5"
-		"tall_minmode"								"4"
-		"textAlignment"								"center"
-		"font"										"VerdanaSmallest"
-		"font_minmode"								"VerdanaSmallest"
-		"disabledfgcolor2_override"					"Black"
+		"Wide"										"100"
+		"Wide_Minmode"								"70"
+		"Tall"										"5"
+		"Tall_Minmode"								"4"
+		"TextAlignment"								"center"
+		"Font"										"VerdanaSmallest"
+		"Font_Minmode"								"VerdanaSmallest"
+		"DisabledFGColor2_Override"					"Black"
 	}
 }

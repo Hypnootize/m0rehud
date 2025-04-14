@@ -10,7 +10,7 @@
 			"1"
 			{
 				"name"										"Surface-Medium"
-				"tall"										"9"
+				"Tall"										"9"
 				"antialias"									"1"
 			}
 		}
@@ -19,7 +19,7 @@
 			"1"
 			{
 				"name"										"Surface-Medium"
-				"tall"										"10"
+				"Tall"										"10"
 				"antialias"									"1"
 			}
 		}
@@ -28,7 +28,7 @@
 			"1"
 			{
 				"name"										"Surface-Medium"
-				"tall"										"10"
+				"Tall"										"10"
 				"antialias"									"1"
 				"dropshadow"								"1"
 			}
@@ -38,7 +38,7 @@
 			"1"
 			{
 				"name"										"Surface-Medium"
-				"tall"										"11"
+				"Tall"										"11"
 				"antialias"									"1"
 			}
 		}
@@ -47,7 +47,7 @@
 			"1"
 			{
 				"name"										"Surface-Medium"
-				"tall"										"11"
+				"Tall"										"11"
 				"antialias"									"1"
 				"dropshadow"								"1"
 			}
@@ -57,7 +57,7 @@
 			"1"
 			{
 				"name"										"Surface-Medium"
-				"tall"										"12"
+				"Tall"										"12"
 				"antialias"									"1"
 			}
 		}
@@ -66,7 +66,7 @@
 			"1"
 			{
 				"name"										"Surface-Medium"
-				"tall"										"12"
+				"Tall"										"12"
 				"antialias"									"1"
 				"dropshadow"								"1"
 			}
@@ -76,7 +76,7 @@
 			"1"
 			{
 				"name"										"Surface-Medium"
-				"tall"										"14"
+				"Tall"										"14"
 				"antialias"									"1"
 			}
 		}
@@ -85,7 +85,7 @@
 			"1"
 			{
 				"name"										"Surface-Medium"
-				"tall"										"14"
+				"Tall"										"14"
 				"antialias"									"1"
 				"dropshadow"								"1"
 			}
@@ -95,7 +95,7 @@
 			"1"
 			{
 				"name"										"Surface-Medium"
-				"tall"										"16"
+				"Tall"										"16"
 				"antialias"									"1"
 			}
 		}
@@ -104,7 +104,7 @@
 			"1"
 			{
 				"name"										"Surface-Medium"
-				"tall"										"16"
+				"Tall"										"16"
 				"antialias"									"1"
 				"dropshadow"								"1"
 			}
@@ -114,7 +114,7 @@
 			"1"
 			{
 				"name"										"Surface-Medium"
-				"tall"										"18"
+				"Tall"										"18"
 				"antialias"									"1"
 			}
 		}
@@ -123,7 +123,7 @@
 			"1"
 			{
 				"name"										"Surface-Medium"
-				"tall"										"18"
+				"Tall"										"18"
 				"antialias"									"1"
 				"dropshadow"								"1"
 			}
@@ -133,7 +133,7 @@
 			"1"
 			{
 				"name"										"Surface-Medium"
-				"tall"										"18"
+				"Tall"										"18"
 				"antialias"									"1"
 				"outline"									"1"
 			}
@@ -143,7 +143,7 @@
 			"1"
 			{
 				"name"										"Surface-Numbers"
-				"tall"										"18"
+				"Tall"										"18"
 				"antialias"									"1"
 				"outline"									"1"
 			}
@@ -153,7 +153,7 @@
 			"1"
 			{
 				"name"										"Surface-Medium"
-				"tall"										"20"
+				"Tall"										"20"
 				"antialias"									"1"
 			}
 		}
@@ -162,7 +162,7 @@
 			"1"
 			{
 				"name"										"Surface-Medium"
-				"tall"										"24"
+				"Tall"										"24"
 				"antialias"									"1"
 			}
 		}
@@ -171,7 +171,7 @@
 			"1"
 			{
 				"name"										"Surface-Medium"
-				"tall"										"24"
+				"Tall"										"24"
 				"antialias"									"1"
 				"dropshadow"								"1"
 			}
@@ -181,7 +181,7 @@
 			"1"
 			{
 				"name"										"Surface-Medium"
-				"tall"										"24"
+				"Tall"										"24"
 				"antialias"									"1"
 				"outline"									"1"
 			}
@@ -191,7 +191,7 @@
 			"1"
 			{
 				"name"										"Surface-Numbers"
-				"tall"										"24"
+				"Tall"										"24"
 				"antialias"									"1"
 				"outline"									"1"
 			}
@@ -201,7 +201,7 @@
 			"1"
 			{
 				"name"										"Surface-Medium"
-				"tall"										"26"
+				"Tall"										"26"
 				"antialias"									"1"
 			}
 		}
@@ -210,7 +210,7 @@
 			"1"
 			{
 				"name"										"Surface-Medium"
-				"tall"										"30"
+				"Tall"										"30"
 				"antialias"									"1"
 			}
 		}
@@ -219,7 +219,7 @@
 			"1"
 			{
 				"name"										"Surface-Medium"
-				"tall"										"30"
+				"Tall"										"30"
 				"antialias"									"1"
 				"outline"									"1"
 			}
@@ -229,7 +229,7 @@
 			"1"
 			{
 				"name"										"Surface-Numbers"
-				"tall"										"30"
+				"Tall"										"30"
 				"antialias"									"1"
 				"outline"									"1"
 			}
@@ -239,7 +239,7 @@
 			"1"
 			{
 				"name"										"Surface-Medium"
-				"tall"										"32"
+				"Tall"										"32"
 				"antialias"									"1"
 			}
 		}
@@ -248,7 +248,7 @@
 			"1"
 			{
 				"name"										"Surface-Medium"
-				"tall"										"32"
+				"Tall"										"32"
 				"antialias"									"1"
 				"dropshadow"								"1"
 			}
@@ -258,7 +258,7 @@
 			"1"
 			{
 				"name"										"Surface-Medium"
-				"tall"										"36"
+				"Tall"										"36"
 				"antialias"									"1"
 			}
 		}
@@ -267,7 +267,7 @@
 			"1"
 			{
 				"name"										"Surface-Medium"
-				"tall"										"48"
+				"Tall"										"48"
 				"antialias"									"1"
 			}
 		}
@@ -276,34 +276,43 @@
 			"1"
 			{
 				"name"										"Surface-Medium"
-				"tall"										"58"
+				"Tall"										"58"
 				"antialias"									"1"
 			}
 		}
-		"Coolvetica12"
+		"Uber_Spec_7"											//SpectatorGUI Health
 		{
 			"1"
 			{
-				"name"										"CoolveticaRG-Bold"
-				"tall"										"12"
+				"name"										"Square Font Edit"
+				"Tall"										"7"
 				"antialias"									"1"
 			}
 		}
-		"Coolvetica14"
+		"Uber_Spec_8"											//SpectatorGUI Health
 		{
 			"1"
 			{
-				"name"										"CoolveticaRG-Bold"
-				"tall"										"14"
+				"name"										"Square Font Edit"
+				"Tall"										"8"
 				"antialias"									"1"
 			}
 		}
-		"Coolvetica16"
+		"Uber_Spec"											//SpectatorGUI Health
 		{
 			"1"
 			{
-				"name"										"CoolveticaRG-Bold"
-				"tall"										"16"
+				"name"										"Square Font Edit"
+				"Tall"										"9"
+				"antialias"									"1"
+			}
+		}
+		"Uber_Spec_10"											//SpectatorGUI Health
+		{
+			"1"
+			{
+				"name"										"Square Font Edit"
+				"Tall"										"10"
 				"antialias"									"1"
 			}
 		}
@@ -312,7 +321,7 @@
 			"1"
 			{
 				"name"										"Verdana"
-				"tall"										"18"
+				"Tall"										"18"
 				"antialias"									"1"
 			}
 		}
@@ -321,7 +330,7 @@
 			"1"
 			{
 				"name"										"Verdana"
-				"tall"										"6"
+				"Tall"										"6"
 				"antialias"									"1"
 			}
 		}
@@ -329,8 +338,8 @@
 		{
 			"1"
 			{
-				"name"										"m0rehud Icons V12"
-				"tall"										"10"
+				"name"										"m0rehud Icons V13"
+				"Tall"										"10"
 				"antialias"									"1"
 			}
 		}
@@ -338,8 +347,8 @@
 		{
 			"1"
 			{
-				"name"										"m0rehud Icons V12"
-				"tall"										"12"
+				"name"										"m0rehud Icons V13"
+				"Tall"										"12"
 				"antialias"									"1"
 			}
 		}
@@ -347,8 +356,8 @@
 		{
 			"1"
 			{
-				"name"										"m0rehud Icons V12"
-				"tall"										"14"
+				"name"										"m0rehud Icons V13"
+				"Tall"										"14"
 				"antialias"									"1"
 			}
 		}
@@ -356,8 +365,8 @@
 		{
 			"1"
 			{
-				"name"										"m0rehud Icons V12"
-				"tall"										"16"
+				"name"										"m0rehud Icons V13"
+				"Tall"										"16"
 				"antialias"									"1"
 			}
 		}
@@ -365,8 +374,8 @@
 		{
 			"1"
 			{
-				"name"										"m0rehud Icons V12"
-				"tall"										"18"
+				"name"										"m0rehud Icons V13"
+				"Tall"										"18"
 				"antialias"									"1"
 			}
 		}
@@ -374,8 +383,17 @@
 		{
 			"1"
 			{
-				"name"										"m0rehud Icons V12"
-				"tall"										"20"
+				"name"										"m0rehud Icons V13"
+				"Tall"										"20"
+				"antialias"									"1"
+			}
+		}
+		"Symbols24"
+		{
+			"1"
+			{
+				"name"										"m0rehud Icons V13"
+				"Tall"										"24"
 				"antialias"									"1"
 			}
 		}
@@ -383,8 +401,17 @@
 		{
 			"1"
 			{
-				"name"										"m0rehud Icons V12"
-				"tall"										"28"
+				"name"										"m0rehud Icons V13"
+				"Tall"										"28"
+				"antialias"									"1"
+			}
+		}
+		"Symbols35"
+		{
+			"1"
+			{
+				"name"										"m0rehud Icons V13"
+				"Tall"										"35"
 				"antialias"									"1"
 			}
 		}
@@ -393,7 +420,7 @@
 			"1"
 			{
 				"name"										"Blocks"
-				"tall"										"64"
+				"Tall"										"64"
 			}
 		}
 		//=================================================================================================
@@ -404,7 +431,7 @@
 			"1"
 			{
 				"name"										"Surface-Medium"
-				"tall"										"14"
+				"Tall"										"14"
 				"range"										"0x0000 0x017F"
 				"yres"										"480 599"
 				"antialias"									"1"
@@ -412,7 +439,7 @@
 			"2"
 			{
 				"name"										"Surface-Medium"
-				"tall"										"18"
+				"Tall"										"18"
 				"range"										"0x0000 0x017F"
 				"yres"										"600 767"
 				"antialias"									"1"
@@ -420,7 +447,7 @@
 			"3"
 			{
 				"name"										"Surface-Medium"
-				"tall"										"22"
+				"Tall"										"22"
 				"range"										"0x0000 0x017F"
 				"yres"										"768 1023"
 				"antialias"									"1"
@@ -428,7 +455,7 @@
 			"4"
 			{
 				"name"										"Surface-Medium"
-				"tall"										"24"
+				"Tall"										"24"
 				"range"										"0x0000 0x017F"
 				"yres"										"1024 1199"
 				"antialias"									"1"
@@ -436,21 +463,21 @@
 			"5"
 			{
 				"name"										"Surface-Medium"
-				"tall"										"9"
+				"Tall"										"9"
 				"range"										"0x0000 0x017F"
 				"antialias"									"1"
 			}
 			"6"
 			{
 				"name"										"Verdana"
-				"tall"										"12"
+				"Tall"										"12"
 				"range"										"0x0000 0x00FF"
 				"weight"									"900"
 			}
 			"7"
 			{
 				"name"										"Arial"
-				"tall"										"12"
+				"Tall"										"12"
 				"range"										"0x0000 0x00FF"
 				"weight"									"800"
 			}
@@ -460,7 +487,7 @@
 			"1"
 			{
 				"name"										"Tahoma"
-				"tall"										"12"
+				"Tall"										"12"
 				"weight"									"500"
 				"underline"									"1"
 				"range"										"0x0000 0x017F"
@@ -468,7 +495,7 @@
 			"2"
 			{
 				"name"										"Arial"
-				"tall"										"11"
+				"Tall"										"11"
 				"range"										"0x0000 0x00FF"
 				"weight"									"800"
 			}
@@ -478,7 +505,7 @@
 			"1"
 			{
 				"name"										"Verdana"
-				"tall"										"12"
+				"Tall"										"12"
 				"weight"									"0"
 				"range"										"0x0000 0x017F"
 				"yres"										"480 599"
@@ -486,7 +513,7 @@
 			"2"
 			{
 				"name"										"Verdana"
-				"tall"										"13"
+				"Tall"										"13"
 				"weight"									"0"
 				"range"										"0x0000 0x017F"
 				"yres"										"600 767"
@@ -494,7 +521,7 @@
 			"3"
 			{
 				"name"										"Verdana"
-				"tall"										"14"
+				"Tall"										"14"
 				"weight"									"0"
 				"range"										"0x0000 0x017F"
 				"yres"										"768 1023"
@@ -503,7 +530,7 @@
 			"4"
 			{
 				"name"										"Verdana"
-				"tall"										"20"
+				"Tall"										"20"
 				"weight"									"0"
 				"range"										"0x0000 0x017F"
 				"yres"										"1024 1199"
@@ -512,7 +539,7 @@
 			"5"
 			{
 				"name"										"Verdana"
-				"tall"										"9"
+				"Tall"										"9"
 				"weight"									"0"
 				"range"										"0x0000 0x017F"
 				"antialias"									"1"
@@ -520,7 +547,7 @@
 			"6"
 			{
 				"name"										"Arial"
-				"tall"										"12"
+				"Tall"										"12"
 				"range"										"0x0000 0x00FF"
 				"weight"									"0"
 			}
@@ -530,7 +557,7 @@
 			"1"
 			{
 				"name"										"Verdana"
-				"tall"										"12"
+				"Tall"										"12"
 				"weight"									"0"
 				"range"										"0x0000 0x017F"
 				"yres"										"480 599"
@@ -538,7 +565,7 @@
 			"2"
 			{
 				"name"										"Verdana"
-				"tall"										"12"
+				"Tall"										"12"
 				"weight"									"0"
 				"range"										"0x0000 0x017F"
 				"yres"										"600 767"
@@ -546,7 +573,7 @@
 			"3"
 			{
 				"name"										"Verdana"
-				"tall"										"12"
+				"Tall"										"12"
 				"weight"									"0"
 				"range"										"0x0000 0x017F"
 				"yres"										"768 1023"
@@ -555,7 +582,7 @@
 			"4"
 			{
 				"name"										"Verdana"
-				"tall"										"14"
+				"Tall"										"14"
 				"weight"									"0"
 				"range"										"0x0000 0x017F"
 				"yres"										"1024 1199"
@@ -564,7 +591,7 @@
 			"5"
 			{
 				"name"										"Verdana"
-				"tall"										"9"
+				"Tall"										"9"
 				"weight"									"0"
 				"range"										"0x0000 0x017F"
 				"antialias"									"1"
@@ -575,7 +602,7 @@
 			"1"
 			{
 				"name"										"Verdana"
-				"tall"										"18"
+				"Tall"										"18"
 				"weight"									"900"
 				"range"										"0x0000 0x017F"
 				"yres"										"480 599"
@@ -583,7 +610,7 @@
 			"2"
 			{
 				"name"										"Verdana"
-				"tall"										"21"
+				"Tall"										"21"
 				"weight"									"900"
 				"range"										"0x0000 0x017F"
 				"yres"										"600 767"
@@ -591,7 +618,7 @@
 			"3"
 			{
 				"name"										"Verdana"
-				"tall"										"22"
+				"Tall"										"22"
 				"weight"									"900"
 				"range"										"0x0000 0x017F"
 				"yres"										"768 1023"
@@ -600,7 +627,7 @@
 			"4"
 			{
 				"name"										"Verdana"
-				"tall"										"28"
+				"Tall"										"28"
 				"weight"									"900"
 				"range"										"0x0000 0x017F"
 				"yres"										"1024 1199"
@@ -609,7 +636,7 @@
 			"5"
 			{
 				"name"										"Verdana"
-				"tall"										"18"
+				"Tall"										"18"
 				"weight"									"900"
 				"range"										"0x0000 0x017F"
 				"antialias"									"1"
@@ -617,14 +644,14 @@
 			"6"
 			{
 				"name"										"Verdana"
-				"tall"										"20"
+				"Tall"										"20"
 				"range"										"0x0000 0x00FF"
 				"weight"									"900"
 			}
 			"7"
 			{
 				"name"										"Arial"
-				"tall"										"20"
+				"Tall"										"20"
 				"range"										"0x0000 0x00FF"
 				"weight"									"800"
 			}
@@ -635,7 +662,7 @@
 			{
 				"name"										"Trebuchet MS" 	[!$OSX]
 				"name"										"Helvetica" 	[$OSX]
-				"tall"										"18"
+				"Tall"										"18"
 				"weight"									"900"
 				"antialias"									"1"
 				"additive"									"1"
@@ -646,7 +673,7 @@
 			"1"
 			{
 				"name"										"Verdana"
-				"tall"										"6"
+				"Tall"										"6"
 				"weight"									"500"
 				"additive"									"0"
 				"antialias"									"1"
@@ -657,7 +684,7 @@
 			"1"
 			{
 				"name"										"Verdana"
-				"tall"										"12"
+				"Tall"										"12"
 				"weight"									"700"
 				"yres"										"480 599"
 				"antialias"									"1"
@@ -665,7 +692,7 @@
 			"2"
 			{
 				"name"										"Verdana"
-				"tall"										"13"
+				"Tall"										"13"
 				"weight"									"700"
 				"yres"										"600 767"
 				"antialias"									"1"
@@ -673,7 +700,7 @@
 			"3"
 			{
 				"name"										"Verdana"
-				"tall"										"14"
+				"Tall"										"14"
 				"weight"									"700"
 				"yres"										"768 1023"
 				"antialias"									"1"
@@ -681,7 +708,7 @@
 			"4"
 			{
 				"name"										"Verdana"
-				"tall"										"20"
+				"Tall"										"20"
 				"weight"									"700"
 				"yres"										"1024 1199"
 				"antialias"									"1"
@@ -689,7 +716,7 @@
 			"5"
 			{
 				"name"										"Verdana"
-				"tall"										"12"
+				"Tall"										"12"
 				"weight"									"700"
 				"antialias"									"1"
 			}
@@ -698,8 +725,8 @@
 		{
 			"1"
 			{
-				"name"										"TF2"
-				"tall"										"24"
+				"name"										"CoolveticaRG-Bold"
+				"Tall"										"24"
 				"weight"									"500"
 				"additive"									"0"
 				"antialias"									"1"
@@ -707,8 +734,8 @@
 			}
 			"2"
 			{
-				"name"										"TF2"
-				"tall"										"32"
+				"name"										"CoolveticaRG-Bold"
+				"Tall"										"32"
 				"weight"									"500"
 				"additive"									"0"
 				"antialias"									"1"
@@ -716,8 +743,8 @@
 			}
 			"3"
 			{
-				"name"										"TF2"
-				"tall"										"44"
+				"name"										"CoolveticaRG-Bold"
+				"Tall"										"44"
 				"weight"									"500"
 				"additive"									"0"
 				"antialias"									"1"
@@ -725,8 +752,8 @@
 			}
 			"4"
 			{
-				"name"										"TF2"
-				"tall"										"48"
+				"name"										"CoolveticaRG-Bold"
+				"Tall"										"48"
 				"weight"									"500"
 				"additive"									"0"
 				"antialias"									"1"
@@ -734,8 +761,8 @@
 			}
 			"5"
 			{
-				"name"										"TF2"
-				"tall"										"24"
+				"name"										"CoolveticaRG-Bold"
+				"Tall"										"24"
 				"weight"									"500"
 				"additive"									"0"
 				"antialias"									"1"
@@ -745,8 +772,8 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Build"
-				"tall"										"44"
+				"name"										"CoolveticaRG-Bold"
+				"Tall"										"44"
 				"weight"									"500"
 				"additive"									"0"
 				"antialias"									"1"
@@ -756,8 +783,8 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Build"
-				"tall"										"35"
+				"name"										"CoolveticaRG-Bold"
+				"Tall"										"35"
 				"weight"									"500"
 				"additive"									"0"
 				"antialias"									"1"
@@ -767,8 +794,8 @@
 		{
 			"1"
 			{
-				"name"										"TF2"
-				"tall"										"36"
+				"name"										"CoolveticaRG-Bold"
+				"Tall"										"36"
 				"weight"									"500"
 				"additive"									"0"
 				"antialias"									"1"
@@ -778,8 +805,8 @@
 		{
 			"1"
 			{
-				"name"										"TF2"
-				"tall"										"30"
+				"name"										"CoolveticaRG-Bold"
+				"Tall"										"30"
 				"weight"									"500"
 				"additive"									"0"
 				"antialias"									"1"
@@ -789,8 +816,8 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Build"
-				"tall"										"30"
+				"name"										"CoolveticaRG-Bold"
+				"Tall"										"30"
 				"weight"									"500"
 				"additive"									"0"
 				"antialias"									"1"
@@ -800,8 +827,8 @@
 		{
 			"1"
 			{
-				"name"										"TF2"
-				"tall"										"24"
+				"name"										"CoolveticaRG-Bold"
+				"Tall"										"24"
 				"weight"									"500"
 				"additive"									"0"
 				"antialias"									"1"
@@ -811,8 +838,8 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Secondary"
-				"tall"										"24"
+				"name"										"CoolveticaRG-Bold"
+				"Tall"										"24"
 				"weight"									"500"
 				"yres"										"1 1199"
 				"additive"									"0"
@@ -820,8 +847,8 @@
 			}
 			"2"
 			{
-				"name"										"TF2 Secondary"
-				"tall"										"10"
+				"name"										"CoolveticaRG-Bold"
+				"Tall"										"10"
 				"weight"									"500"
 				"additive"									"0"
 				"antialias"									"1"
@@ -831,8 +858,8 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Build"
-				"tall"										"24"
+				"name"										"CoolveticaRG-Bold"
+				"Tall"										"24"
 				"weight"									"500"
 				"additive"									"0"
 				"antialias"									"1"
@@ -842,8 +869,8 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Build"
-				"tall"										"18"
+				"name"										"CoolveticaRG-Bold"
+				"Tall"										"18"
 				"weight"									"500"
 				"additive"									"0"
 				"antialias"									"1"
@@ -853,8 +880,8 @@
 		{
 			"1"
 			{
-				"name"										"TF2"
-				"tall"										"18"
+				"name"										"CoolveticaRG-Bold"
+				"Tall"										"18"
 				"weight"									"500"
 				"additive"									"0"
 				"antialias"									"1"
@@ -864,8 +891,8 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Secondary"
-				"tall"										"18"
+				"name"										"CoolveticaRG-Bold"
+				"Tall"										"18"
 				"weight"									"500"
 				"additive"									"0"
 				"antialias"									"1"
@@ -875,8 +902,8 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Secondary"
-				"tall"										"14"
+				"name"										"CoolveticaRG-Bold"
+				"Tall"										"14"
 				"weight"									"500"
 				"additive"									"0"
 				"antialias"									"1"
@@ -886,8 +913,8 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Build"
-				"tall"										"16"
+				"name"										"CoolveticaRG-Bold"
+				"Tall"										"16"
 				"weight"									"500"
 				"additive"									"0"
 				"antialias"									"1"
@@ -897,8 +924,8 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Build"
-				"tall"										"14"
+				"name"										"CoolveticaRG-Bold"
+				"Tall"										"14"
 				"weight"									"500"
 				"additive"									"0"
 				"antialias"									"1"
@@ -908,8 +935,8 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Build"
-				"tall"										"14"
+				"name"										"CoolveticaRG-Bold"
+				"Tall"										"14"
 				"weight"									"500"
 				"additive"									"0"
 				"antialias"									"1"
@@ -920,8 +947,8 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Secondary"
-				"tall"										"11"
+				"name"										"CoolveticaRG-Bold"
+				"Tall"										"11"
 				"weight"									"500"
 				"additive"									"0"
 				"antialias"									"1"
@@ -931,8 +958,8 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Secondary"
-				"tall"										"11"
+				"name"										"CoolveticaRG-Bold"
+				"Tall"										"11"
 				"weight"									"500"
 				"additive"									"0"
 				"antialias"									"1"
@@ -943,8 +970,8 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Build"
-				"tall"										"11"
+				"name"										"CoolveticaRG-Bold"
+				"Tall"										"12"
 				"weight"									"500"
 				"additive"									"0"
 				"antialias"									"1"
@@ -954,8 +981,8 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Build"
-				"tall"										"7"
+				"name"										"CoolveticaRG-Bold"
+				"Tall"										"7"
 				"weight"									"500"
 				"additive"									"0"
 				"antialias"									"1"
@@ -965,8 +992,8 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Build"
-				"tall"										"4"
+				"name"										"CoolveticaRG-Bold"
+				"Tall"										"4"
 				"weight"									"500"
 				"additive"									"0"
 				"antialias"									"1"
@@ -976,8 +1003,8 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Build"
-				"tall"										"10"
+				"name"										"CoolveticaRG-Bold"
+				"Tall"										"10"
 				"weight"									"500"
 				"additive"									"0"
 				"antialias"									"1"
@@ -987,8 +1014,8 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Build"
-				"tall"										"16"
+				"name"										"CoolveticaRG-Bold"
+				"Tall"										"16"
 				"weight"									"500"
 				"additive"									"0"
 				"antialias"									"1"
@@ -998,8 +1025,8 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Build"
-				"tall"										"9"
+				"name"										"CoolveticaRG-Bold"
+				"Tall"										"9"
 				"weight"									"0"
 				"additive"									"0"
 				"antialias"									"1"
@@ -1009,8 +1036,8 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Secondary"
-				"tall"										"9"
+				"name"										"CoolveticaRG-Bold"
+				"Tall"										"9"
 				"weight"									"0"
 				"additive"									"0"
 				"antialias"									"1"
@@ -1020,8 +1047,8 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Build"
-				"tall"										"6"
+				"name"										"CoolveticaRG-Bold"
+				"Tall"										"6"
 				"weight"									"0"
 				"additive"									"0"
 				"antialias"									"1"
@@ -1031,8 +1058,8 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Secondary"
-				"tall"										"12"
+				"name"										"CoolveticaRG-Bold"
+				"Tall"										"12"
 				"weight"									"400"
 				"additive"									"0"
 				"antialias"									"1"
@@ -1042,8 +1069,8 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Secondary"
-				"tall"										"11"
+				"name"										"CoolveticaRG-Bold"
+				"Tall"										"11"
 				"weight"									"500"
 				"additive"									"0"
 				"antialias"									"1"
@@ -1113,8 +1140,8 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Secondary"
-				"tall"										"18"
+				"name"										"CoolveticaRG-Bold"
+				"Tall"										"18"
 				"weight"									"500"
 				"additive"									"0"
 				"antialias"									"1"
@@ -1124,8 +1151,8 @@
 		{
 			"1"
 			{
-				"name"										"TF2"
-				"tall"										"16"
+				"name"										"CoolveticaRG-Bold"
+				"Tall"										"16"
 				"weight"									"500"
 				"additive"									"0"
 				"antialias"									"1"
@@ -1136,7 +1163,7 @@
 			"1"
 			{
 				"name"										"Verdana"
-				"tall"										"8"
+				"Tall"										"8"
 				"weight"									"500"
 				"additive"									"0"
 				"antialias"									"1"
@@ -1147,7 +1174,7 @@
 			"1"
 			{
 				"name"										"Verdana"
-				"tall"										"9"
+				"Tall"										"9"
 				"weight"									"500"
 				"additive"									"0"
 				"antialias"									"1"
@@ -1158,7 +1185,7 @@
 			"1"
 			{
 				"name"										"Verdana"
-				"tall"										"8"
+				"Tall"										"8"
 				"weight"									"500"
 				"additive"									"0"
 				"antialias"									"1"
@@ -1169,7 +1196,7 @@
 			"1"
 			{
 				"name"										"Verdana"
-				"tall"										"8"
+				"Tall"										"8"
 				"weight"									"500"
 				"additive"									"0"
 				"antialias"									"1"
@@ -1179,8 +1206,8 @@
 		{
 			"1"
 			{
-				"name"										"TF2"
-				"tall"										"15"
+				"name"										"CoolveticaRG-Bold"
+				"Tall"										"15"
 				"weight"									"700"
 				"antialias"									"1"
 				"yres"										"1 599"
@@ -1189,8 +1216,8 @@
 			}
 			"2"
 			{
-				"name"										"TF2"
-				"tall"										"15"
+				"name"										"CoolveticaRG-Bold"
+				"Tall"										"15"
 				"weight"									"700"
 				"antialias"									"1"
 				"yres"										"600 767"
@@ -1199,8 +1226,8 @@
 			}
 			"3"
 			{
-				"name"										"TF2"
-				"tall"										"18"
+				"name"										"CoolveticaRG-Bold"
+				"Tall"										"18"
 				"weight"									"900"
 				"antialias"									"1"
 				"yres"										"768 1023"
@@ -1208,8 +1235,8 @@
 			}
 			"4"
 			{
-				"name"										"TF2"
-				"tall"										"21"
+				"name"										"CoolveticaRG-Bold"
+				"Tall"										"21"
 				"weight"									"900"
 				"antialias"									"1"
 				"yres"										"1024 1199"
@@ -1217,8 +1244,8 @@
 			}
 			"5"
 			{
-				"name"										"TF2"
-				"tall"										"24"
+				"name"										"CoolveticaRG-Bold"
+				"Tall"										"24"
 				"weight"									"1000"
 				"antialias"									"1"
 				"yres"										"1200 10000"
@@ -1230,7 +1257,7 @@
 			"1"
 			{
 				"name"										"Courier New"
-				"tall"										"14"
+				"Tall"										"14"
 				"weight"									"400"
 				"outline"									"1"
 				"range"										"0x0000 0x017F"
@@ -1241,7 +1268,7 @@
 			"1"
 			{
 				"name"										"tfd"
-				"tall"										"28"
+				"Tall"										"28"
 				"weight"									"0"
 				"additive"									"0"
 				"antialias"									"1"
@@ -1252,7 +1279,7 @@
 			"1"
 			{
 				"name"										"Team Fortress"
-				"tall"										"28"
+				"Tall"										"28"
 				"weight"									"0"
 				"additive"									"1"
 				"antialias"									"1"
@@ -1263,7 +1290,7 @@
 			"1"
 			{
 				"name"										"Courier New"
-				"tall"										"90"
+				"Tall"										"90"
 				"weight"									"900"
 				"range"										"0x0000 0x007F"
 				"antialias"									"1"
@@ -1275,7 +1302,7 @@
 			"1"
 			{
 				"name"										"Team Fortress"
-				"tall"										"28"
+				"Tall"										"28"
 				"weight"									"0"
 				"additive"									"1"
 				"antialias"									"1"
@@ -1283,7 +1310,7 @@
 			"2"
 			{
 				"name"										"Verdana"
-				"tall"										"28"
+				"Tall"										"28"
 				"weight"									"0"
 				"additive"									"1"
 				"antialias"									"1"
@@ -1294,7 +1321,7 @@
 			"1"
 			{
 				"name"										"Surface-Medium"
-				"tall"										"24"
+				"Tall"										"12"
 				"range"										"0x0000 0x017F"
 				"antialias"									"1"
 				"dropshadow"								"1"
@@ -1305,7 +1332,7 @@
 			"1"
 			{
 				"name"										"Surface-Medium"
-				"tall"										"24"
+				"Tall"										"12"
 				"italic"									"1"
 				"range"										"0x0000 0x017F"
 				"antialias"									"1"
@@ -1317,7 +1344,7 @@
 			"1"
 			{
 				"name"										"Surface-Medium"
-				"tall"										"24"
+				"Tall"										"12"
 				"range"										"0x0000 0x017F"
 				"antialias"									"1"
 				"dropshadow"								"1"
@@ -1328,7 +1355,7 @@
 			"1"
 			{
 				"name"										"Surface-Medium"
-				"tall"										"24"
+				"Tall"										"12"
 				"italic"									"1"
 				"range"										"0x0000 0x017F"
 				"antialias"									"1"
@@ -1340,7 +1367,7 @@
 			"1"
 			{
 				"name"										"Surface-Medium"
-				"tall"										"16"
+				"Tall"										"10"
 				"range"										"0x0000 0x017F"
 				"antialias"									"1"
 				"dropshadow"								"1"
@@ -1351,7 +1378,7 @@
 			"1"
 			{
 				"name"										"Marlett"
-				"tall"										"20"
+				"Tall"										"20"
 				"weight"									"0"
 				"symbol"									"1"
 				"range"										"0x0000 0x007F"
@@ -1362,7 +1389,7 @@
 			"1"
 			{
 				"name"										"Marlett"
-				"tall"										"14"
+				"Tall"										"14"
 				"weight"									"0"
 				"symbol"									"1"
 				"range"										"0x0000 0x007F"
@@ -1372,8 +1399,8 @@
 		{
 			"1"
 			{
-				"name"										"TF2"
-				"tall"										"24"
+				"name"										"CoolveticaRG-Bold"
+				"Tall"										"24"
 				"antialias"									"1"
 				"weight"									"500"
 			}
@@ -1382,8 +1409,8 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Secondary"
-				"tall"										"11"
+				"name"										"CoolveticaRG-Bold"
+				"Tall"										"11"
 				"antialias"									"1"
 				"weight"									"500"
 			}
@@ -1392,8 +1419,8 @@
 		{
 			"1"
 			{
-				"name"										"TF2"
-				"tall"										"12"
+				"name"										"CoolveticaRG-Bold"
+				"Tall"										"12"
 				"antialias"									"1"
 				"weight"									"500"
 			}
@@ -1403,7 +1430,7 @@
 			"1"
 			{
 				"name"										"Verdana"
-				"tall"										"13"
+				"Tall"										"13"
 				"weight"									"800"
 				"additive"									"0"
 				"antialias"									"1"
@@ -1413,8 +1440,8 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Professor"
-				"tall"										"28"
+				"name"										"CoolveticaRG-Bold"
+				"Tall"										"28"
 				"antialias"									"1"
 				"custom"									"1"		[$OSX]
 				"weight"									"500"
@@ -1424,8 +1451,8 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Professor"
-				"tall"										"40"
+				"name"										"CoolveticaRG-Bold"
+				"Tall"										"40"
 				"antialias"									"1"
 				"custom"									"1"		[$OSX]
 				"weight"									"500"
@@ -1435,8 +1462,8 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Professor"
-				"tall"										"24"
+				"name"										"CoolveticaRG-Bold"
+				"Tall"										"24"
 				"antialias"									"1"
 				"custom"									"1"		[$OSX]
 				"weight"									"500"
@@ -1446,9 +1473,9 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Professor"
-				"tall"										"14"	[!$OSX]
-				"tall"										"15"	[$OSX]
+				"name"										"CoolveticaRG-Bold"
+				"Tall"										"14"	[!$OSX]
+				"Tall"										"15"	[$OSX]
 				"antialias"									"1"
 				"custom"									"1"		[$OSX]
 				"weight"									"500"
@@ -1459,7 +1486,7 @@
 			"1"
 			{
 				"name"										"Verdana"
-				"tall"										"6"
+				"Tall"										"6"
 				"weight"									"400"
 				"additive"									"0"
 				"antialias"									"1"
@@ -1470,7 +1497,7 @@
 			"1"
 			{
 				"name"										"Verdana"
-				"tall"										"8"
+				"Tall"										"8"
 				"weight"									"400"
 				"additive"									"0"
 				"antialias"									"1"
@@ -1480,8 +1507,8 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Secondary"
-				"tall"										"10"
+				"name"										"CoolveticaRG-Bold"
+				"Tall"										"10"
 				"weight"									"400"
 				"additive"									"0"
 				"antialias"									"1"
@@ -1491,8 +1518,8 @@
 		{
 			"1"
 			{
-				"name"										"TF2"
-				"tall"										"14"
+				"name"										"CoolveticaRG-Bold"
+				"Tall"										"14"
 				"weight"									"500"
 				"range"										"0x0000 0x007F"
 				"antialias"									"1"
@@ -1503,8 +1530,8 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Secondary"
-				"tall"										"20"
+				"name"										"CoolveticaRG-Bold"
+				"Tall"										"20"
 				"weight"									"500"
 				"range"										"0x0000 0x007F"
 				"antialias"									"1"
@@ -1515,8 +1542,8 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Secondary"
-				"tall"										"20"
+				"name"										"CoolveticaRG-Bold"
+				"Tall"										"20"
 				"weight"									"500"
 				"range"										"0x0000 0x007F"
 				"antialias"									"1"
@@ -1527,8 +1554,8 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Secondary"
-				"tall"										"14"
+				"name"										"CoolveticaRG-Bold"
+				"Tall"										"14"
 				"weight"									"500"
 				"range"										"0x0000 0x007F"
 				"antialias"									"1"
@@ -1539,8 +1566,8 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Secondary"
-				"tall"										"20"
+				"name"										"CoolveticaRG-Bold"
+				"Tall"										"20"
 				"weight"									"500"
 				"range"										"0x0000 0x007F"
 				"antialias"									"1"
@@ -1551,8 +1578,8 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Secondary"
-				"tall"										"34"
+				"name"										"CoolveticaRG-Bold"
+				"Tall"										"34"
 				"weight"									"500"
 				"range"										"0x0000 0x007F"
 				"antialias"									"1"
@@ -1563,8 +1590,8 @@
 		{
 			"1"
 			{
-				"name"										"TF2"
-				"tall"										"36"
+				"name"										"CoolveticaRG-Bold"
+				"Tall"										"36"
 				"weight"									"500"
 				"additive"									"0"
 				"antialias"									"1"
@@ -1574,8 +1601,8 @@
 		{
 			"1"
 			{
-				"name"										"TF2"
-				"tall"										"52"
+				"name"										"CoolveticaRG-Bold"
+				"Tall"										"52"
 				"range"										"0x0000 0x00FF"
 				"weight"									"400"
 				"yres"										"1 599"
@@ -1583,8 +1610,8 @@
 			}
 			"2"
 			{
-				"name"										"TF2"
-				"tall"										"72"
+				"name"										"CoolveticaRG-Bold"
+				"Tall"										"72"
 				"range"										"0x0000 0x00FF"
 				"weight"									"400"
 				"yres"										"600 767"
@@ -1592,8 +1619,8 @@
 			}
 			"3"
 			{
-				"name"										"TF2"
-				"tall"										"100"
+				"name"										"CoolveticaRG-Bold"
+				"Tall"										"100"
 				"range"										"0x0000 0x00FF"
 				"weight"									"400"
 				"yres"										"768 1023"
@@ -1601,8 +1628,8 @@
 			}
 			"4"
 			{
-				"name"										"TF2"
-				"tall"										"140"
+				"name"										"CoolveticaRG-Bold"
+				"Tall"										"140"
 				"range"										"0x0000 0x00FF"
 				"weight"									"400"
 				"yres"										"1024 1199"
@@ -1610,8 +1637,8 @@
 			}
 			"5"
 			{
-				"name"										"TF2"
-				"tall"										"180"
+				"name"										"CoolveticaRG-Bold"
+				"Tall"										"180"
 				"range"										"0x0000 0x00FF"
 				"weight"									"400"
 				"yres"										"1200 10000"
@@ -1622,8 +1649,8 @@
 		{
 			"1"
 			{
-				"name"										"TF2"
-				"tall"										"36"
+				"name"										"CoolveticaRG-Bold"
+				"Tall"										"36"
 				"weight"									"500"
 				"range"										"0x0000 0x007F"
 				"antialias"									"1"
@@ -1634,8 +1661,8 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Secondary"
-				"tall"										"14"
+				"name"										"CoolveticaRG-Bold"
+				"Tall"										"14"
 				"weight"									"400"
 				"additive"									"0"
 				"antialias"									"1"
@@ -1645,8 +1672,8 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Secondary"
-				"tall"										"20"
+				"name"										"CoolveticaRG-Bold"
+				"Tall"										"20"
 				"weight"									"400"
 				"additive"									"0"
 				"antialias"									"1"
@@ -1656,8 +1683,8 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Secondary"
-				"tall"										"14"
+				"name"										"CoolveticaRG-Bold"
+				"Tall"										"14"
 				"weight"									"400"
 				"additive"									"0"
 				"antialias"									"1"
@@ -1667,8 +1694,8 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Secondary"
-				"tall"										"10"
+				"name"										"CoolveticaRG-Bold"
+				"Tall"										"10"
 				"weight"									"400"
 				"additive"									"0"
 				"antialias"									"1"
@@ -1678,8 +1705,8 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Secondary"
-				"tall"										"7"
+				"name"										"CoolveticaRG-Bold"
+				"Tall"										"7"
 				"weight"									"400"
 				"additive"									"0"
 				"antialias"									"1"
@@ -1689,8 +1716,8 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Secondary"
-				"tall"										"10"
+				"name"										"CoolveticaRG-Bold"
+				"Tall"										"10"
 				"weight"									"400"
 				"additive"									"0"
 				"antialias"									"1"
@@ -1701,17 +1728,37 @@
 			"1"
 			{
 				"name"										"Surface-Medium"
-				"tall"										"11"
+				"Tall"										"11"
 				"antialias"									"1"
 				"dropshadow"								"1"
 			}
 		}
-		"TargetIDSmall"
+		"TargetID_Big"
 		{
 			"1"
 			{
 				"name"										"Surface-Medium"
-				"tall"										"10"
+				"Tall"										"18"
+				"antialias"									"1"
+				"dropshadow"								"1"
+			}
+		}
+		"TargetID_Minmode"
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"Tall"										"10"
+				"antialias"									"1"
+				"dropshadow"								"1"
+			}
+		}
+		"TargetID_Big_Minmode"
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"Tall"										"14"
 				"antialias"									"1"
 				"dropshadow"								"1"
 			}
@@ -1721,17 +1768,37 @@
 			"1"
 			{
 				"name"										"Surface-UberIcons"
-				"tall"										"11"
+				"Tall"										"11"
 				"antialias"									"1"
 				"dropshadow"								"1"
 			}
 		}
-		"TargetIDIconsSmall"
+		"TargetIDIcons_Big"
 		{
 			"1"
 			{
 				"name"										"Surface-UberIcons"
-				"tall"										"10"
+				"Tall"										"18"
+				"antialias"									"1"
+				"dropshadow"								"1"
+			}
+		}
+		"TargetIDIcons_Minmode"
+		{
+			"1"
+			{
+				"name"										"Surface-UberIcons"
+				"Tall"										"10"
+				"antialias"									"1"
+				"dropshadow"								"1"
+			}
+		}
+		"TargetIDIcons_Big_Minmode"
+		{
+			"1"
+			{
+				"name"										"Surface-UberIcons"
+				"Tall"										"14"
 				"antialias"									"1"
 				"dropshadow"								"1"
 			}
@@ -1740,8 +1807,8 @@
 		{
 			"1"
 			{
-				"name"										"TF2"
-				"tall"										"12"
+				"name"										"CoolveticaRG-Bold"
+				"Tall"										"12"
 				"weight"									"700"
 				"yres"										"480 599"
 				"dropshadow"								"1"
@@ -1749,7 +1816,7 @@
 			"2"
 			{
 				"name"										"Verdana"
-				"tall"										"13"
+				"Tall"										"13"
 				"weight"									"700"
 				"yres"										"600 767"
 				"dropshadow"								"1"
@@ -1757,7 +1824,7 @@
 			"3"
 			{
 				"name"										"Verdana"
-				"tall"										"14"
+				"Tall"										"14"
 				"weight"									"700"
 				"yres"										"768 1023"
 				"dropshadow"								"1"
@@ -1765,7 +1832,7 @@
 			"4"
 			{
 				"name"										"Verdana"
-				"tall"										"20"
+				"Tall"										"20"
 				"weight"									"700"
 				"yres"										"1024 1199"
 				"dropshadow"								"1"
@@ -1773,7 +1840,7 @@
 			"5"
 			{
 				"name"										"Verdana"
-				"tall"										"24"
+				"Tall"										"24"
 				"weight"									"700"
 				"yres"										"1200 10000"
 				"dropshadow"								"1"
@@ -1784,7 +1851,7 @@
 			"1"
 			{
 				"name"										"Verdana"
-				"tall"										"10"
+				"Tall"										"10"
 				"weight"									"700"
 				"yres"										"480 599"
 				"dropshadow"								"1"
@@ -1792,7 +1859,7 @@
 			"2"
 			{
 				"name"										"Verdana"
-				"tall"										"10"
+				"Tall"										"10"
 				"weight"									"700"
 				"yres"										"600 767"
 				"dropshadow"								"1"
@@ -1800,7 +1867,7 @@
 			"3"
 			{
 				"name"										"Verdana"
-				"tall"										"13"
+				"Tall"										"13"
 				"weight"									"700"
 				"yres"										"768 1023"
 				"dropshadow"								"1"
@@ -1808,7 +1875,7 @@
 			"4"
 			{
 				"name"										"Verdana"
-				"tall"										"14"
+				"Tall"										"14"
 				"weight"									"700"
 				"yres"										"1024 1199"
 				"dropshadow"								"1"
@@ -1816,7 +1883,7 @@
 			"5"
 			{
 				"name"										"Verdana"
-				"tall"										"15"
+				"Tall"										"15"
 				"weight"									"700"
 				"yres"										"1200 10000"
 				"dropshadow"								"1"
@@ -1827,7 +1894,7 @@
 			"1"
 			{
 				"name"										"Arial Black"
-				"tall"										"8"
+				"Tall"										"8"
 				"range"										"0x0000 0x00FF"
 				"weight"									"300"
 				"antialias"									"1"
@@ -1837,8 +1904,8 @@
 		{
 			"1"
 			{
-				"name"										"TF2"
-				"tall"										"14"
+				"name"										"CoolveticaRG-Bold"
+				"Tall"										"14"
 				"range"										"0x0000 0x00FF"
 				"weight"									"300"
 				"antialias"									"1"
@@ -1848,8 +1915,8 @@
 		{
 			"1"
 			{
-				"name"										"TF2"
-				"tall"										"12"
+				"name"										"CoolveticaRG-Bold"
+				"Tall"										"12"
 				"weight"									"500"
 				"range"										"0x0000 0x017F"
 				"TextColor"									"Black"
@@ -1860,8 +1927,8 @@
 		{
 			"1"
 			{
-				"name"										"TF2"
-				"tall"										"8"
+				"name"										"CoolveticaRG-Bold"
+				"Tall"										"8"
 				"weight"									"500"
 				"range"										"0x0000 0x017F"
 				"TextColor"									"Black"
@@ -1873,7 +1940,7 @@
 			"1"
 			{
 				"name"										"Verdana"
-				"tall"										"8"
+				"Tall"										"8"
 				"weight"									"0"
 				"additive"									"1"
 				"antialias"									"1"
@@ -1884,7 +1951,7 @@
 			"1"
 			{
 				"name"										"Verdana"
-				"tall"										"9"
+				"Tall"										"9"
 				"weight"									"400"
 				"additive"									"0"
 				"antialias"									"1"
@@ -1895,8 +1962,8 @@
 			"1"
 			{
 				"name"										"Verdana"
-				"tall"										"11"	[!$OSX]
-				"tall"										"9"		[$OSX]
+				"Tall"										"11"	[!$OSX]
+				"Tall"										"9"		[$OSX]
 				"weight"									"800"
 				"additive"									"0"
 				"antialias"									"1"
@@ -1906,8 +1973,8 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Build"
-				"tall"										"36"
+				"name"										"CoolveticaRG-Bold"
+				"Tall"										"36"
 				"weight"									"500"
 			}
 		}
@@ -1915,8 +1982,8 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Build"
-				"tall"										"30"
+				"name"										"CoolveticaRG-Bold"
+				"Tall"										"30"
 				"weight"									"500"
 			}
 		}
@@ -1924,8 +1991,8 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Secondary"
-				"tall"										"28"
+				"name"										"CoolveticaRG-Bold"
+				"Tall"										"28"
 				"weight"									"500"
 			}
 		}
@@ -1934,7 +2001,7 @@
 			"1"
 			{
 				"name"										"Trebuchet MS"
-				"tall"										"22"
+				"Tall"										"22"
 				"weight"									"900"
 			}
 		}
@@ -1943,7 +2010,7 @@
 			"1"
 			{
 				"name"										"Trebuchet MS"
-				"tall"										"18"
+				"Tall"										"18"
 				"weight"									"900"
 			}
 		}
@@ -1951,8 +2018,8 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Secondary"
-				"tall"										"22"
+				"name"										"CoolveticaRG-Bold"
+				"Tall"										"22"
 				"weight"									"500"
 			}
 		}
@@ -1960,8 +2027,8 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Secondary"
-				"tall"										"18"
+				"name"										"CoolveticaRG-Bold"
+				"Tall"										"18"
 				"weight"									"500"
 			}
 		}
@@ -1970,7 +2037,7 @@
 			"1"
 			{
 				"name"										"Verdana"
-				"tall"										"22"
+				"Tall"										"22"
 				"weight"									"900"
 			}
 		}
@@ -1979,7 +2046,7 @@
 			"1"
 			{
 				"name"										"Verdana"
-				"tall"										"18"
+				"Tall"										"18"
 				"weight"									"900"
 			}
 		}
@@ -1988,7 +2055,7 @@
 			"1"
 			{
 				"name"										"Verdana"
-				"tall"										"15"
+				"Tall"										"15"
 				"weight"									"900"
 			}
 		}
@@ -1996,8 +2063,8 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Build"
-				"tall"										"36"
+				"name"										"CoolveticaRG-Bold"
+				"Tall"										"36"
 				"weight"									"500"
 				"additive"									"0"
 				"antialias"									"1"
@@ -2007,8 +2074,8 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Secondary"
-				"tall"										"11"
+				"name"										"CoolveticaRG-Bold"
+				"Tall"										"11"
 				"weight"									"600"
 				"additive"									"0"
 				"antialias"									"1"
@@ -2018,8 +2085,8 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Secondary"
-				"tall"										"18"
+				"name"										"CoolveticaRG-Bold"
+				"Tall"										"18"
 				"weight"									"400"
 				"additive"									"0"
 				"antialias"									"1"
@@ -2030,7 +2097,7 @@
 			"1"
 			{
 				"name"										"Trebuchet MS"
-				"tall"										"14"
+				"Tall"										"14"
 				"weight"									"900"
 				"antialias"									"1"
 			}
@@ -2040,7 +2107,7 @@
 			"1"
 			{
 				"name"										"Verdana"
-				"tall"										"10"
+				"Tall"										"10"
 				"weight"									"600"
 				"additive"									"0"
 				"antialias"									"1"
@@ -2051,7 +2118,7 @@
 			"1"
 			{
 				"name"										"Verdana"
-				"tall"										"10"
+				"Tall"										"10"
 				"weight"									"500"
 				"additive"									"0"
 				"antialias"									"1"
@@ -2062,7 +2129,7 @@
 			"1"
 			{
 				"name"										"Verdana"
-				"tall"										"7"
+				"Tall"										"7"
 				"weight"									"400"
 				"additive"									"0"
 				"antialias"									"1"
@@ -2073,7 +2140,7 @@
 			"1"
 			{
 				"name"										"Verdana"
-				"tall"										"10"
+				"Tall"										"10"
 				"weight"									"0"
 				"range"										"0x0000 0x017F"
 				"yres"										"480 599"
@@ -2082,7 +2149,7 @@
 			"2"
 			{
 				"name"										"Verdana"
-				"tall"										"12"
+				"Tall"										"12"
 				"weight"									"0"
 				"range"										"0x0000 0x017F"
 				"yres"										"600 1199"
@@ -2091,7 +2158,7 @@
 			"3"
 			{
 				"name"										"Verdana"
-				"tall"										"15"
+				"Tall"										"15"
 				"weight"									"0"
 				"range"										"0x0000 0x017F"
 				"yres"										"1200 6000"
@@ -2102,8 +2169,8 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Build"
-				"tall"										"8"
+				"name"										"CoolveticaRG-Bold"
+				"Tall"										"8"
 				"weight"									"500"
 				"additive"									"0"
 				"antialias"									"1"
@@ -2113,8 +2180,8 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Build"
-				"tall"										"9"
+				"name"										"CoolveticaRG-Bold"
+				"Tall"										"9"
 				"weight"									"500"
 				"additive"									"0"
 				"antialias"									"1"
@@ -2124,8 +2191,8 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Build"
-				"tall"										"12"
+				"name"										"CoolveticaRG-Bold"
+				"Tall"										"12"
 				"weight"									"500"
 				"additive"									"0"
 				"antialias"									"1"
@@ -2135,8 +2202,8 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Build"
-				"tall"										"18"
+				"name"										"CoolveticaRG-Bold"
+				"Tall"										"18"
 				"weight"									"500"
 				"additive"									"0"
 				"antialias"									"1"
@@ -2146,8 +2213,8 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Secondary"
-				"tall"										"8"
+				"name"										"CoolveticaRG-Bold"
+				"Tall"										"8"
 				"weight"									"500"
 				"additive"									"0"
 				"antialias"									"1"
@@ -2158,7 +2225,7 @@
 			"1"
 			{
 				"name"										"Verdana"
-				"tall"										"8"
+				"Tall"										"8"
 				"antialias"									"1"
 				"weight"									"500"
 			}
@@ -2167,8 +2234,8 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Secondary"
-				"tall"										"9"
+				"name"										"CoolveticaRG-Bold"
+				"Tall"										"9"
 				"weight"									"500"
 				"additive"									"0"
 				"antialias"									"1"
@@ -2178,8 +2245,8 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Secondary"
-				"tall"										"12"
+				"name"										"CoolveticaRG-Bold"
+				"Tall"										"12"
 				"weight"									"500"
 				"additive"									"0"
 				"antialias"									"1"
@@ -2189,8 +2256,8 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Secondary"
-				"tall"										"14"
+				"name"										"CoolveticaRG-Bold"
+				"Tall"										"14"
 				"weight"									"500"
 				"additive"									"0"
 				"antialias"									"1"
@@ -2200,8 +2267,8 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Build"
-				"tall"										"9"
+				"name"										"CoolveticaRG-Bold"
+				"Tall"										"9"
 				"weight"									"500"
 				"additive"									"0"
 				"antialias"									"1"
@@ -2211,8 +2278,8 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Build"
-				"tall"										"9"
+				"name"										"CoolveticaRG-Bold"
+				"Tall"										"9"
 				"weight"									"500"
 				"blur"										"3"
 				"additive"									"1"
@@ -2224,7 +2291,7 @@
 			"1"
 			{
 				"name"										"Verdana"
-				"tall"										"7"
+				"Tall"										"7"
 				"weight"									"0"
 				"additive"									"1"
 				"antialias"									"1"
@@ -2235,7 +2302,7 @@
 			"1"
 			{
 				"name"										"Verdana"
-				"tall"										"7"
+				"Tall"										"7"
 				"weight"									"0"
 				"additive"									"1"
 				"antialias"									"1"
@@ -2246,7 +2313,7 @@
 			"1"
 			{
 				"name"										"Verdana"
-				"tall"										"7"
+				"Tall"										"7"
 				"weight"									"0"
 				"antialias"									"1"
 			}
@@ -2256,7 +2323,7 @@
 			"1"
 			{
 				"name"										"Verdana"
-				"tall"										"7"
+				"Tall"										"7"
 				"weight"									"0"
 				"blur"										"3"
 				"additive"									"1"
@@ -2268,7 +2335,7 @@
 			"1"
 			{
 				"name"										"Verdana"
-				"tall"										"7"
+				"Tall"										"7"
 				"weight"									"0"
 				"antialias"									"1"
 			}
@@ -2278,8 +2345,8 @@
 			"1"
 			{
 				"name"										"OCR A Extended"	[$WINDOWS]
-				"name"										"ocra"
-				"tall"										"10"
+				"name"										"CoolveticaRG-Bold"
+				"Tall"										"10"
 				"weight"									"400"
 				"yres"										"480 599"
 				"additive"									"0"
@@ -2288,8 +2355,8 @@
 			"2"
 			{
 				"name"										"OCR A Extended"	[$WINDOWS]
-				"name"										"ocra"
-				"tall"										"14"
+				"name"										"CoolveticaRG-Bold"
+				"Tall"										"14"
 				"weight"									"400"
 				"additive"									"0"
 				"yres"										"600 1023"
@@ -2298,8 +2365,8 @@
 			"3"
 			{
 				"name"										"OCR A Extended"	[$WINDOWS]
-				"name"										"ocra"
-				"tall"										"18"
+				"name"										"CoolveticaRG-Bold"
+				"Tall"										"18"
 				"weight"									"400"
 				"additive"									"0"
 				"yres"										"1024 6000"
@@ -2311,8 +2378,8 @@
 			"1"
 			{
 				"name"										"OCR A Extended"	[$WINDOWS]
-				"name"										"ocra"
-				"tall"										"10"
+				"name"										"CoolveticaRG-Bold"
+				"Tall"										"10"
 				"weight"									"800"
 				"yres"										"480 599"
 				"additive"									"0"
@@ -2321,8 +2388,8 @@
 			"2"
 			{
 				"name"										"OCR A Extended"	[$WINDOWS]
-				"name"										"ocra"
-				"tall"										"14"
+				"name"										"CoolveticaRG-Bold"
+				"Tall"										"14"
 				"weight"									"800"
 				"additive"									"0"
 				"yres"										"600 1023"
@@ -2331,8 +2398,8 @@
 			"3"
 			{
 				"name"										"OCR A Extended"	[$WINDOWS]
-				"name"										"ocra"
-				"tall"										"18"
+				"name"										"CoolveticaRG-Bold"
+				"Tall"										"18"
 				"weight"									"800"
 				"additive"									"0"
 				"yres"										"1024 6000"
@@ -2344,8 +2411,8 @@
 			"1"
 			{
 				"name"										"OCR A Extended"	[$WINDOWS]
-				"name"										"ocra"
-				"tall"										"16"
+				"name"										"CoolveticaRG-Bold"
+				"Tall"										"16"
 				"weight"									"400"
 				"additive"									"0"
 				"antialias"									"1"
@@ -2355,8 +2422,8 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Professor"
-				"tall"										"20"
+				"name"										"CoolveticaRG-Bold"
+				"Tall"										"20"
 				"antialias"									"1"
 				"custom"									"1"	[$OSX]
 				"weight"									"500"
@@ -2366,8 +2433,8 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Secondary"
-				"tall"										"10"
+				"name"										"CoolveticaRG-Bold"
+				"Tall"										"10"
 				"weight"									"400"
 				"yres"										"480 599"
 				"additive"									"0"
@@ -2375,8 +2442,8 @@
 			}
 			"2"
 			{
-				"name"										"TF2 Secondary"
-				"tall"										"14"
+				"name"										"CoolveticaRG-Bold"
+				"Tall"										"14"
 				"weight"									"400"
 				"additive"									"0"
 				"yres"										"600 1023"
@@ -2384,8 +2451,8 @@
 			}
 			"3"
 			{
-				"name"										"TF2 Secondary"
-				"tall"										"22"
+				"name"										"CoolveticaRG-Bold"
+				"Tall"										"22"
 				"weight"									"400"
 				"additive"									"0"
 				"yres"										"1024 6000"
@@ -2396,8 +2463,8 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Secondary"
-				"tall"										"10"
+				"name"										"CoolveticaRG-Bold"
+				"Tall"										"10"
 				"weight"									"400"
 				"yres"										"480 599"
 				"additive"									"0"
@@ -2406,8 +2473,8 @@
 			}
 			"2"
 			{
-				"name"										"TF2 Secondary"
-				"tall"										"14"
+				"name"										"CoolveticaRG-Bold"
+				"Tall"										"14"
 				"weight"									"400"
 				"additive"									"0"
 				"yres"										"600 1023"
@@ -2416,8 +2483,8 @@
 			}
 			"3"
 			{
-				"name"										"TF2 Secondary"
-				"tall"										"22"
+				"name"										"CoolveticaRG-Bold"
+				"Tall"										"22"
 				"weight"									"400"
 				"additive"									"0"
 				"yres"										"1024 6000"
@@ -2429,8 +2496,8 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Secondary"
-				"tall"										"10"
+				"name"										"CoolveticaRG-Bold"
+				"Tall"										"10"
 				"weight"									"800"
 				"yres"										"480 599"
 				"additive"									"0"
@@ -2438,8 +2505,8 @@
 			}
 			"2"
 			{
-				"name"										"TF2 Secondary"
-				"tall"										"14"
+				"name"										"CoolveticaRG-Bold"
+				"Tall"										"14"
 				"weight"									"800"
 				"additive"									"0"
 				"yres"										"600 1023"
@@ -2447,8 +2514,8 @@
 			}
 			"3"
 			{
-				"name"										"TF2 Secondary"
-				"tall"										"18"
+				"name"										"CoolveticaRG-Bold"
+				"Tall"										"18"
 				"weight"									"800"
 				"additive"									"0"
 				"yres"										"1024 6000"
@@ -2459,8 +2526,8 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Secondary"
-				"tall"										"13"
+				"name"										"CoolveticaRG-Bold"
+				"Tall"										"13"
 				"weight"									"400"
 				"additive"									"0"
 				"antialias"									"1"
@@ -2470,8 +2537,8 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Secondary"
-				"tall"										"16"
+				"name"										"CoolveticaRG-Bold"
+				"Tall"										"16"
 				"weight"									"400"
 				"additive"									"0"
 				"antialias"									"1"
@@ -2481,8 +2548,8 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Secondary"
-				"tall"										"12"
+				"name"										"CoolveticaRG-Bold"
+				"Tall"										"12"
 				"weight"									"400"
 				"additive"									"0"
 				"antialias"									"1"
@@ -2493,7 +2560,7 @@
 			"1"
 			{
 				"name"										"Verdana"
-				"tall"										"8"
+				"Tall"										"8"
 				"weight"									"400"
 				"additive"									"0"
 				"antialias"									"1"
@@ -2504,7 +2571,7 @@
 			"1"
 			{
 				"name"										"Verdana"
-				"tall"										"8"
+				"Tall"										"8"
 				"weight"									"0"
 				"antialias"									"1"
 			}
@@ -2514,7 +2581,7 @@
 			"1"
 			{
 				"name"										"Verdana"
-				"tall"										"8"
+				"Tall"										"8"
 				"weight"									"400"
 				"antialias"									"1"
 				"additive"									"0"
@@ -2525,7 +2592,7 @@
 			"1"
 			{
 				"name"										"Trebuchet MS"
-				"tall"										"9"
+				"Tall"										"9"
 				"weight"									"400"
 				"antialias"									"1"
 				"additive"									"0"
@@ -2537,7 +2604,7 @@
 			"1"
 			{
 				"name"										"Verdana"
-				"tall"										"12"
+				"Tall"										"12"
 				"weight"									"0"
 				"range"										"0x0000 0x017F"
 				"yres"										"480 599"
@@ -2545,7 +2612,7 @@
 			"2"
 			{
 				"name"										"Verdana"
-				"tall"										"12"
+				"Tall"										"12"
 				"weight"									"0"
 				"range"										"0x0000 0x017F"
 				"yres"										"600 767"
@@ -2553,7 +2620,7 @@
 			"3"
 			{
 				"name"										"Verdana"
-				"tall"										"12"
+				"Tall"										"12"
 				"weight"									"0"
 				"range"										"0x0000 0x017F"
 				"yres"										"768 1023"
@@ -2562,7 +2629,7 @@
 			"4"
 			{
 				"name"										"Verdana"
-				"tall"										"14"
+				"Tall"										"14"
 				"weight"									"0"
 				"range"										"0x0000 0x017F"
 				"yres"										"1024 1199"
@@ -2571,7 +2638,7 @@
 			"5"
 			{
 				"name"										"Verdana"
-				"tall"										"16"
+				"Tall"										"16"
 				"weight"									"0"
 				"range"										"0x0000 0x017F"
 				"yres"										"1200 6000"
@@ -2582,8 +2649,8 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Secondary"
-				"tall"										"11"
+				"name"										"CoolveticaRG-Bold"
+				"Tall"										"11"
 				"weight"									"500"
 				"additive"									"0"
 				"antialias"									"1"
@@ -2594,7 +2661,7 @@
 			"1"
 			{
 				"name"										"Verdana"
-				"tall"										"12"
+				"Tall"										"12"
 				"weight"									"0"
 				"range"										"0x0000 0x017F"
 				"yres"										"480 599"
@@ -2602,7 +2669,7 @@
 			"2"
 			{
 				"name"										"Verdana"
-				"tall"										"13"
+				"Tall"										"13"
 				"weight"									"0"
 				"range"										"0x0000 0x017F"
 				"yres"										"600 767"
@@ -2610,7 +2677,7 @@
 			"3"
 			{
 				"name"										"Verdana"
-				"tall"										"14"
+				"Tall"										"14"
 				"weight"									"0"
 				"range"										"0x0000 0x017F"
 				"yres"										"768 1023"
@@ -2619,7 +2686,7 @@
 			"4"
 			{
 				"name"										"Verdana"
-				"tall"										"20"
+				"Tall"										"20"
 				"weight"									"0"
 				"range"										"0x0000 0x017F"
 				"yres"										"1024 1199"
@@ -2628,7 +2695,7 @@
 			"5"
 			{
 				"name"										"Verdana"
-				"tall"										"22"
+				"Tall"										"22"
 				"weight"									"0"
 				"range"										"0x0000 0x017F"
 				"yres"										"1200 6000"
@@ -2637,7 +2704,7 @@
 			"6"
 			{
 				"name"										"Arial"
-				"tall"										"12"
+				"Tall"										"12"
 				"range"										"0x0000 0x00FF"
 				"weight"									"0"
 			}
@@ -2646,8 +2713,8 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Build"
-				"tall"										"11"
+				"name"										"CoolveticaRG-Bold"
+				"Tall"										"11"
 				"weight"									"500"
 				"additive"									"0"
 				"antialias"									"1"
@@ -2657,8 +2724,8 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Build"
-				"tall"										"14"
+				"name"										"CoolveticaRG-Bold"
+				"Tall"										"14"
 				"weight"									"500"
 				"additive"									"0"
 				"antialias"									"1"
@@ -2668,8 +2735,8 @@
 		{
 			"1"
 			{
-				"name"										"TF2"
-				"tall"										"18"
+				"name"										"CoolveticaRG-Bold"
+				"Tall"										"18"
 				"weight"									"500"
 				"additive"									"0"
 				"antialias"									"1"
@@ -2679,8 +2746,8 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Build"
-				"tall"										"24"
+				"name"										"CoolveticaRG-Bold"
+				"Tall"										"24"
 				"weight"									"500"
 				"additive"									"0"
 				"antialias"									"1"
@@ -2690,8 +2757,8 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Secondary"
-				"tall"										"18"
+				"name"										"CoolveticaRG-Bold"
+				"Tall"										"18"
 				"weight"									"500"
 				"additive"									"0"
 				"antialias"									"1"
@@ -2701,8 +2768,8 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Build"
-				"tall"										"14"
+				"name"										"CoolveticaRG-Bold"
+				"Tall"										"14"
 				"weight"									"500"
 				"additive"									"0"
 				"antialias"									"1"
@@ -2712,8 +2779,8 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Build"
-				"tall"										"24"
+				"name"										"CoolveticaRG-Bold"
+				"Tall"										"24"
 				"weight"									"500"
 				"additive"									"0"
 				"antialias"									"1"
@@ -2723,8 +2790,8 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Secondary"
-				"tall"										"15"
+				"name"										"CoolveticaRG-Bold"
+				"Tall"										"15"
 				"weight"									"500"
 				"range"										"0x0000 0x007F"
 				"antialias"									"1"
@@ -2735,8 +2802,8 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Secondary"
-				"tall"										"9"
+				"name"										"CoolveticaRG-Bold"
+				"Tall"										"9"
 				"weight"									"400"
 				"additive"									"0"
 				"antialias"									"1"
@@ -2746,8 +2813,8 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Build"
-				"tall"										"11"
+				"name"										"CoolveticaRG-Bold"
+				"Tall"										"11"
 				"weight"									"500"
 				"antialias"									"1"
 			}
@@ -2756,8 +2823,8 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Build"
-				"tall"										"11"
+				"name"										"CoolveticaRG-Bold"
+				"Tall"										"11"
 				"weight"									"500"
 				"blur"										"3"
 				"additive"									"1"
@@ -2768,8 +2835,8 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Build"
-				"tall"										"12"
+				"name"										"CoolveticaRG-Bold"
+				"Tall"										"12"
 				"weight"									"500"
 				"additive"									"0"
 				"antialias"									"1"
@@ -2781,8 +2848,8 @@
 			"1"
 			{
 				"name"										"OCR A Extended"	[$WINDOWS]
-				"name"										"ocra"
-				"tall"										"7"
+				"name"										"CoolveticaRG-Bold"
+				"Tall"										"7"
 				"weight"									"0"
 				"blur"										"3"
 				"additive"									"1"
@@ -2794,8 +2861,8 @@
 			"1"
 			{
 				"name"										"OCR A Extended"	[$WINDOWS]
-				"name"										"ocra"
-				"tall"										"7"
+				"name"										"CoolveticaRG-Bold"
+				"Tall"										"7"
 				"weight"									"400"
 				"additive"									"0"
 				"antialias"									"1"
@@ -2806,8 +2873,8 @@
 			"1"
 			{
 				"name"										"OCR A Extended"	[$WINDOWS]
-				"name"										"ocra"
-				"tall"										"10"
+				"name"										"CoolveticaRG-Bold"
+				"Tall"										"10"
 				"weight"									"400"
 				"additive"									"0"
 				"antialias"									"1"
@@ -2818,8 +2885,8 @@
 			"1"
 			{
 				"name"										"OCR A Extended"	[$WINDOWS]
-				"name"										"ocra"
-				"tall"										"14"
+				"name"										"CoolveticaRG-Bold"
+				"Tall"										"14"
 				"weight"									"400"
 				"additive"									"0"
 				"antialias"									"1"
@@ -2830,8 +2897,8 @@
 			"1"
 			{
 				"name"										"OCR A Extended"	[$WINDOWS]
-				"name"										"ocra"
-				"tall"										"30"
+				"name"										"CoolveticaRG-Bold"
+				"Tall"										"30"
 				"weight"									"400"
 				"additive"									"0"
 				"antialias"									"1"
@@ -2849,154 +2916,37 @@
 		"2"				"resource/tfd.ttf"
 		"3"
 		{
-			"font"		"resource/TF2.ttf"
-			"name"		"TF2"
-
-			"russian"
-			{
-				"range"	"0x0000 0xFFFF"
-			}
-			"polish"
-			{
-				"range"	"0x0000 0xFFFF"
-			}
+			"Font"		"resource/scheme/fonts/surface_medium.otf"
+			"name"		"Surface-Medium"
 		}
 		"4"
 		{
-			"font"		"resource/TF2Secondary.ttf"
-			"name"		"TF2 Secondary"
-
-			"russian"
-			{
-				"range"	"0x0000 0xFFFF"
-			}
-			"polish"
-			{
-				"range"	"0x0000 0xFFFF"
-			}
+			"Font"		"resource/scheme/fonts/surface_numbers.otf"
+			"name"		"Surface-Numbers"
 		}
 		"5"
 		{
-			"font"		"resource/TF2Professor.ttf"
-			"name"		"TF2 Professor"
-
-			"russian"
-			{
-				"range"	"0x0000 0x00FF"
-			}
-			"polish"
-			{
-				"range"	"0x0000 0x00FF"
-			}
+			"Font"		"resource/scheme/fonts/coolvetica.ttf"
+			"name"		"CoolveticaRG-Bold"
 		}
 		"6"
 		{
-			"font"		"resource/TF2Build.ttf"
-			"name"		"TF2 Build"
-
-			"russian"
-			{
-				"range"	"0x0000 0xFFFF"
-			}
-			"polish"
-			{
-				"range"	"0x0000 0xFFFF"
-			}
-			"turkish"
-			{
-				"range"	"0x0000 0xFFFF"
-			}
+			"Font"		"resource/scheme/fonts/blocks.ttf"
+			"name"		"Blocks"
 		}
 		"7"
 		{
-			"font"		"resource/ocra.ttf"
-			"name"		"ocra"
-
-			"turkish"
-			{
-				"range"	"0x0000 0x007E"
-			}
-			"swedish"
-			{
-				"range"	"0x0000 0x007E"
-			}
-			"spanish"
-			{
-				"range"	"0x0000 0x007E"
-			}
-			"romanian"
-			{
-				"range"	"0x0000 0x007E"
-			}
-			"polish"
-			{
-				"range"	"0x0000 0x007E"
-			}
-			"norwegian"
-			{
-				"range"	"0x0000 0x007E"
-			}
-			"danish"
-			{
-				"range"	"0x0000 0x007E"
-			}
-			"hungarian"
-			{
-				"range"	"0x0000 0x007E"
-			}
-			"german"
-			{
-				"range"	"0x0000 0x007E"
-			}
-			"french"
-			{
-				"range"	"0x0000 0x007E"
-			}
-			"finnish"
-			{
-				"range"	"0x0000 0x007E"
-			}
-			"czech"
-			{
-				"range"	"0x0000 0x007E"
-			}
-			"bulgarian"
-			{
-				"range"	"0x0000 0x007E"
-			}
-			"russian"
-			{
-				"range"	"0x0000 0x007E"
-			}
+			"Font"		"resource/scheme/fonts/m0rehud_icons.ttf"
+			"name"		"m0rehud Icons V13"
 		}
 		"8"
 		{
-			"font"		"resource/scheme/fonts/surface_medium.otf"
-			"name"		"Surface-Medium"
+			"Font"		"resource/scheme/fonts/square_edit.ttf"
+			"name"		"Square Font Edit"
 		}
 		"9"
 		{
-			"font"		"resource/scheme/fonts/surface_numbers.otf"
-			"name"		"Surface-Numbers"
-		}
-		"10"
-		{
-			"font"		"resource/scheme/fonts/coolvetica.ttf"
-			"name"		"CoolveticaRG-Bold"
-		}
-		"11"
-		{
-			"font"		"resource/scheme/fonts/blocks.ttf"
-			"name"		"Blocks"
-		}
-		"12"
-		{
-			"font"		"resource/scheme/fonts/m0rehud_icons.ttf"
-			"name"		"m0rehud Icons V12"
-		}
-		"13"
-		{
-			"font"		"resource/scheme/fonts/surface_uber_icons.ttf"
+			"Font"		"resource/scheme/fonts/surface_uber_icons.ttf"
 			"name"		"Surface-UberIcons"
 
 			"arabic"

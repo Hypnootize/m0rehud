@@ -1,6 +1,6 @@
 "UnlitGeneric"
 {
-	"$baseTexture"			"vgui\replay\thumbnails\customizations\colors\hudcrosshair"
+	"$baseTexture"			"vgui/replay/thumbnails/customizations/colors/hudcrosshair"
 	"$vertexalpha"			"1"
 	"$alpha"				"1"
 	"$translucent"			"1"

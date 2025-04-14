@@ -1,6 +1,6 @@
 "UnlitGeneric"
 {
-	"$baseTexture"			"vgui\replay\thumbnails\customizations\matchstatus\match_status_timer_bg"
+	"$baseTexture"			"vgui/replay/thumbnails/customizations/matchstatus/match_status_timer_bg"
 	"$vertexalpha"			"1"
 	"$alpha"				"1"
 	"$translucent"			"1"

@@ -9,28 +9,28 @@
 
 			"PlayerName"
 			{
-				"visible"							"0"
+				"Visible"							"0"
 			}
 			"ClassImage"
 			{
-				"zpos"								"1"
+				"ZPos"								"1"
 			}
 			"ClassImageBG"
 			{
-				"zpos"								"0"
+				"ZPos"								"0"
 			}
 			"HealthBar"
 			{
-				"ypos"								"rs1"
-				"zpos"								"2"
-				"tall"								"2"
+				"YPos"								"rs1"
+				"ZPos"								"2"
+				"Tall"								"2"
 			}
 			"OverhealBar"
 			{
-				"ypos"								"rs1"
-				"zpos"								"3"
-				"wide"								"f0"
-				"tall"								"2"
+				"YPos"								"rs1"
+				"ZPos"								"3"
+				"Wide"								"f0"
+				"Tall"								"2"
 			}
 		}
 	}

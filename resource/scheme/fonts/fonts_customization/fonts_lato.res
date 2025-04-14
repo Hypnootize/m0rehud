@@ -119,7 +119,7 @@
 			"1"
 			{
 				"name"										"Lato Bold"
-				"tall"										"22"
+				"Tall"										"22"
 			}
 		}
 		"m0refont24Shadow"
@@ -127,7 +127,7 @@
 			"1"
 			{
 				"name"										"Lato Bold"
-				"tall"										"22"
+				"Tall"										"22"
 			}
 		}
 		"m0refont24Outline"
@@ -135,7 +135,7 @@
 			"1"
 			{
 				"name"										"Lato Bold"
-				"tall"										"22"
+				"Tall"										"22"
 			}
 		}
 		"m0refont24Numbers"
@@ -143,7 +143,7 @@
 			"1"
 			{
 				"name"										"Lato Numbers"
-				"tall"										"22"
+				"Tall"										"22"
 			}
 		}
 		"m0refont26"
@@ -151,7 +151,7 @@
 			"1"
 			{
 				"name"										"Lato Bold"
-				"tall"										"24"
+				"Tall"										"24"
 			}
 		}
 		"m0refont30"
@@ -159,7 +159,7 @@
 			"1"
 			{
 				"name"										"Lato Bold"
-				"tall"										"28"
+				"Tall"										"28"
 			}
 		}
 		"m0refont30Outline"
@@ -167,7 +167,7 @@
 			"1"
 			{
 				"name"										"Lato Bold"
-				"tall"										"28"
+				"Tall"										"28"
 			}
 		}
 		"m0refont30Numbers"
@@ -175,7 +175,7 @@
 			"1"
 			{
 				"name"										"Lato Numbers"
-				"tall"										"28"
+				"Tall"										"28"
 			}
 		}
 		"m0refont32"
@@ -183,7 +183,7 @@
 			"1"
 			{
 				"name"										"Lato Bold"
-				"tall"										"30"
+				"Tall"										"30"
 			}
 		}
 		"m0refont32Shadow"
@@ -191,7 +191,7 @@
 			"1"
 			{
 				"name"										"Lato Bold"
-				"tall"										"30"
+				"Tall"										"30"
 			}
 		}
 		"m0refont36"
@@ -199,7 +199,7 @@
 			"1"
 			{
 				"name"										"Lato Bold"
-				"tall"										"34"
+				"Tall"										"34"
 			}
 		}
 		"m0refont48"
@@ -207,7 +207,7 @@
 			"1"
 			{
 				"name"										"Lato Bold"
-				"tall"										"44"
+				"Tall"										"43"
 			}
 		}
 		"m0refont58"
@@ -215,7 +215,7 @@
 			"1"
 			{
 				"name"										"Lato Bold"
-				"tall"										"54"
+				"Tall"										"52"
 			}
 		}
 		"Default"
@@ -223,27 +223,27 @@
 			"1"
 			{
 				"name"										"Lato Bold"
-				"tall"										"13"
+				"Tall"										"13"
 			}
 			"2"
 			{
 				"name"										"Lato Bold"
-				"tall"										"16"
+				"Tall"										"16"
 			}
 			"3"
 			{
 				"name"										"Lato Bold"
-				"tall"										"20"
+				"Tall"										"20"
 			}
 			"4"
 			{
 				"name"										"Lato Bold"
-				"tall"										"22"
+				"Tall"										"22"
 			}
 			"5"
 			{
 				"name"										"Lato Bold"
-				"tall"										"22"
+				"Tall"										"22"
 			}
 		}
 		"CloseCaption_Normal"

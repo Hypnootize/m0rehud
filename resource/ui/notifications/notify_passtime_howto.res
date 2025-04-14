@@ -3,28 +3,28 @@
 	"Notification_Background"
 	{
 		"ControlName"								"CImagePanel"
-		"fieldName"									"Notification_Background"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
+		"FieldName"									"Notification_Background"
+		"Wide"										"0"
+		"Tall"										"0"
+		"Visible"									"0"
+		"Enabled"									"0"
 	}
 	"Notification_Icon"
 	{
 		"ControlName"								"CIconPanel"
-		"fieldName"									"Notification_Icon"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
+		"FieldName"									"Notification_Icon"
+		"Wide"										"0"
+		"Tall"										"0"
+		"Visible"									"0"
+		"Enabled"									"0"
 	}
 	"Notification_Label"
 	{
 		"ControlName"								"CExLabel"
-		"fieldName"									"Notification_Label"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
+		"FieldName"									"Notification_Label"
+		"Wide"										"0"
+		"Tall"										"0"
+		"Visible"									"0"
+		"Enabled"									"0"
 	}
 }

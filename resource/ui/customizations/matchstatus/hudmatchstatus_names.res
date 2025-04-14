@@ -12,35 +12,35 @@
 		{
 			"PlayerName"
 			{
-				"visible"							"1"
+				"Visible"							"1"
 			}
 			"ClassImage"
 			{
-				"xpos"								"0"
-				"wide"								"9"
-				"tall"								"9"
+				"XPos"								"0"
+				"Wide"								"9"
+				"Tall"								"9"
 			}
 			"ClassImageBG"
 			{
-				"tall"								"f6"
+				"Tall"								"f6"
 			}
 			"HealthBar"
 			{
-				"tall"								"f6"
+				"Tall"								"f6"
 			}
 			"OverhealBar"
 			{
-				"wide"								"f0"
-				"tall"								"f6"
+				"Wide"								"f0"
+				"Tall"								"f6"
 			}
 			"RespawnTime"
 			{
-				"font"								"m0refont11Shadow"
-				"xpos"								"rs1-5"
-				"ypos"								"0"
-				"wide"								"f0"
-				"tall"								"f7"
-				"textAlignment"						"east"
+				"Font"								"m0refont11Shadow"
+				"XPos"								"rs1-5"
+				"YPos"								"0"
+				"Wide"								"f0"
+				"Tall"								"f7"
+				"TextAlignment"						"east"
 			}
 		}
 	}

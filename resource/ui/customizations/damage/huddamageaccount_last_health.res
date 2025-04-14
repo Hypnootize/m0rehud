@@ -2,10 +2,10 @@
 {
 	"DamageAccountValue"
 	{
-		"visible"									"1"
+		"Visible"									"1"
 	}
 	"DamageAccountValueShadow"
 	{
-		"visible"									"1"
+		"Visible"									"1"
 	}
 }

@@ -2,6 +2,6 @@
 {
 	"PlayerStatusSpyOutlineImage"
 	{
-		"image"										"../hud/class_spy_outline"
+		"Image"										"../hud/class_spy_outline"
 	}
 }

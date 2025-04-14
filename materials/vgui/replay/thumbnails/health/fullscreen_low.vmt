@@ -1,0 +1,8 @@
+"UnlitGeneric"
+{
+	"$baseTexture"			"vgui/replay/thumbnails/health/fullscreen_low.vtf"
+	"$vertexalpha"			"1"
+	"$alpha"				"1"
+	"$translucent"			"1"
+	"$vertexcolor"			"1"
+}

@@ -154,6 +154,7 @@
 			"1"
 			{
 				"name"										"Maven Pro Black"
+				"Tall"										"28"
 			}
 		}
 		"m0refont30Outline"
@@ -161,6 +162,7 @@
 			"1"
 			{
 				"name"										"Maven Pro Black"
+				"Tall"										"28"
 			}
 		}
 		"m0refont30Numbers"
@@ -168,6 +170,7 @@
 			"1"
 			{
 				"name"										"Maven Pro Numbers"
+				"Tall"										"28"
 			}
 		}
 		"m0refont32"
@@ -175,6 +178,7 @@
 			"1"
 			{
 				"name"										"Maven Pro Black"
+				"Tall"										"30"
 			}
 		}
 		"m0refont32Shadow"
@@ -182,6 +186,7 @@
 			"1"
 			{
 				"name"										"Maven Pro Black"
+				"Tall"										"30"
 			}
 		}
 		"m0refont36"
@@ -189,7 +194,7 @@
 			"1"
 			{
 				"name"										"Maven Pro Black"
-				"tall"										"34"
+				"Tall"										"32"
 			}
 		}
 		"m0refont48"
@@ -197,7 +202,7 @@
 			"1"
 			{
 				"name"										"Maven Pro Black"
-				"tall"										"46"
+				"Tall"										"44"
 			}
 		}
 		"m0refont58"
@@ -205,7 +210,7 @@
 			"1"
 			{
 				"name"										"Maven Pro Black"
-				"tall"										"50"
+				"Tall"										"50"
 			}
 		}
 		"Default"
@@ -213,23 +218,27 @@
 			"1"
 			{
 				"name"										"Maven Pro Black"
+				"Tall"										"13"
 			}
 			"2"
 			{
 				"name"										"Maven Pro Black"
+				"Tall"										"16"
 			}
 			"3"
 			{
 				"name"										"Maven Pro Black"
+				"Tall"										"20"
 			}
 			"4"
 			{
 				"name"										"Maven Pro Black"
+				"Tall"										"22"
 			}
 			"5"
 			{
 				"name"										"Maven Pro Black"
-				"tall"										"24"
+				"Tall"										"9"
 			}
 		}
 		"CloseCaption_Normal"

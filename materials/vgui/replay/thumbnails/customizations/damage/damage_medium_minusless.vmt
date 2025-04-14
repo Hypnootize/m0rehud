@@ -1,0 +1,8 @@
+"UnlitGeneric"
+{
+	"$baseTexture"			"vgui/replay/thumbnails/customizations/damage/damage_medium_minusless"
+	"$vertexalpha"			"1"
+	"$alpha"				"1"
+	"$translucent"			"1"
+	"$vertexcolor"			"1"
+}

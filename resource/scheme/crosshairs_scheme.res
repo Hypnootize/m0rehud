@@ -7,7 +7,7 @@
 			"1"
 			{
 				"name"										"TF2Crosshairs_m0re_V3"
-				"tall"										"10"
+				"Tall"										"10"
 				"antialias"									"1"
 				"outline"									"0"
 				"dropshadow"								"0"
@@ -18,7 +18,7 @@
 			"1"
 			{
 				"name"										"TF2Crosshairs_m0re_V3"
-				"tall"										"12"
+				"Tall"										"12"
 				"antialias"									"1"
 				"outline"									"0"
 				"dropshadow"								"0"
@@ -29,7 +29,7 @@
 			"1"
 			{
 				"name"										"TF2Crosshairs_m0re_V3"
-				"tall"										"14"
+				"Tall"										"14"
 				"antialias"									"1"
 				"outline"									"0"
 				"dropshadow"								"0"
@@ -40,7 +40,7 @@
 			"1"
 			{
 				"name"										"TF2Crosshairs_m0re_V3"
-				"tall"										"16"
+				"Tall"										"16"
 				"antialias"									"1"
 				"outline"									"0"
 				"dropshadow"								"0"
@@ -51,7 +51,7 @@
 			"1"
 			{
 				"name"										"TF2Crosshairs_m0re_V3"
-				"tall"										"18"
+				"Tall"										"18"
 				"antialias"									"1"
 				"outline"									"0"
 				"dropshadow"								"0"
@@ -62,7 +62,7 @@
 			"1"
 			{
 				"name"										"TF2Crosshairs_m0re_V3"
-				"tall"										"20"
+				"Tall"										"20"
 				"antialias"									"1"
 				"outline"									"0"
 				"dropshadow"								"0"
@@ -73,7 +73,7 @@
 			"1"
 			{
 				"name"										"TF2Crosshairs_m0re_V3"
-				"tall"										"22"
+				"Tall"										"22"
 				"antialias"									"1"
 				"outline"									"0"
 				"dropshadow"								"0"
@@ -84,7 +84,7 @@
 			"1"
 			{
 				"name"										"TF2Crosshairs_m0re_V3"
-				"tall"										"24"
+				"Tall"										"24"
 				"antialias"									"1"
 				"outline"									"0"
 				"dropshadow"								"0"
@@ -95,7 +95,7 @@
 			"1"
 			{
 				"name"										"TF2Crosshairs_m0re_V3"
-				"tall"										"26"
+				"Tall"										"26"
 				"antialias"									"1"
 				"outline"									"0"
 				"dropshadow"								"0"
@@ -106,7 +106,7 @@
 			"1"
 			{
 				"name"										"TF2Crosshairs_m0re_V3"
-				"tall"										"28"
+				"Tall"										"28"
 				"antialias"									"1"
 				"outline"									"0"
 				"dropshadow"								"0"
@@ -117,7 +117,7 @@
 			"1"
 			{
 				"name"										"TF2Crosshairs_m0re_V3"
-				"tall"										"30"
+				"Tall"										"30"
 				"antialias"									"1"
 				"outline"									"0"
 				"dropshadow"								"0"
@@ -128,7 +128,7 @@
 			"1"
 			{
 				"name"										"TF2Crosshairs_m0re_V3"
-				"tall"										"32"
+				"Tall"										"32"
 				"antialias"									"1"
 				"outline"									"0"
 				"dropshadow"								"0"
@@ -139,7 +139,7 @@
 	{
 		"100"
 		{
-			"font"	"resource/scheme/fonts/TF2Crosshairs.ttf"
+			"Font"	"resource/scheme/fonts/TF2Crosshairs.ttf"
 			"name"	"TF2Crosshairs_m0re_V3"
 		}
 	}

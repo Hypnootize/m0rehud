@@ -2,17 +2,17 @@
 {
 	"HitMarker"
 	{
-		"visible"	"1"																																																																			"ControlName" "CExLabel" "fieldName" "HitMarker" "enabled" "1" "zpos" "0" "wide" "f0" "tall" "f0" "textAlignment" "center"
+		"Visible"	"1"																																																																			"ControlName" "CExLabel" "FieldName" "HitMarker" "Enabled" "1" "ZPos" "0" "Wide" "f0" "Tall" "f0" "TextAlignment" "center"
 
-		"labelText"	"8"
+		"LabelText"	"8"
 
-		"font"		"Crosshair_Size_18"
+		"Font"		"Crosshair_Size_18"
 
-		"xpos"		"cs-0.5"
-		"ypos"		"cs-0.5"
+		"XPos"		"cs-0.5"
+		"YPos"		"cs-0.5"
 
-		"fgcolor"	"HitMarker"
+		"FGColor"	"HitMarker"
 
-		"alpha"		"0"
+		"Alpha"		"0"
 	}
 }

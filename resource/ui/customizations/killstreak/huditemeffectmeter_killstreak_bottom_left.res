@@ -2,6 +2,6 @@
 {
 	"HudItemEffectMeter"
 	{
-		"wide"										"50"
+		"Wide"										"50"
 	}
 }

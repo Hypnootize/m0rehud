@@ -175,6 +175,7 @@
 			"1"
 			{
 				"name"										"Cerbetica Bold"
+				"Tall"										"30"
 			}
 		}
 		"m0refont32Shadow"
@@ -182,6 +183,7 @@
 			"1"
 			{
 				"name"										"Cerbetica Bold"
+				"Tall"										"30"
 			}
 		}
 		"m0refont36"
@@ -189,6 +191,7 @@
 			"1"
 			{
 				"name"										"Cerbetica Bold"
+				"Tall"										"34"
 			}
 		}
 		"m0refont48"
@@ -196,6 +199,7 @@
 			"1"
 			{
 				"name"										"Cerbetica Bold"
+				"Tall"										"44"
 			}
 		}
 		"m0refont58"
@@ -203,6 +207,7 @@
 			"1"
 			{
 				"name"										"Cerbetica Bold"
+				"Tall"										"54"
 			}
 		}
 		"Default"

@@ -1,0 +1,61 @@
+"Resource/UI/Training/BasicTraining/ClassPanel.res"
+{
+	"Image"
+	{
+		"ControlName"								"ImagePanel"
+		"FieldName"									"Image"
+		"Visible"									"1"
+		"Enabled"									"1"
+		"tileImage"									"0"
+		"ScaleImage"								"1"
+		"Image"										"illustrations/training_basic"
+	}
+	"ImageBG"
+	{
+		"ControlName"								"EditablePanel"
+		"FieldName"									"ImageBG"
+		"XPos"										"13"
+		"YPos"										"18"
+		"ZPos"										"-1"
+		"Wide"										"87"
+		"Tall"										"300"
+		"Visible"									"1"
+		"Enabled"									"1"
+		"paintBackground"							"1"
+		"paintBackgroundtype"						"0"
+		"BGcolor_Override"							"Background_Darkest"
+	}
+	"SelectButton"
+	{
+		"ControlName"								"CExButton"
+		"FieldName"									"SelectButton"
+		"Visible"									"1"
+		"Enabled"									"1"
+		"Font"										"HudFontSmallestBold"
+		"TextAlignment"								"center"
+		"Tall"										"16"
+		"AllCaps"									"1"
+		"LabelText"									"%selectbuttontext%"
+		"Command"									"%selectcommand%"
+		"Sound_Depressed"							"UI/buttonclick.wav"
+
+		"PaintBackground"							"1"
+	}
+	"ProgressLabel"
+	{
+		"ControlName"								"CExLabel"
+		"FieldName"									"ProgressLabel"
+		"XPos"										"0"
+		"YPos"										"200"
+		"Wide"										"30"
+		"Tall"										"15"
+		"Visible"									"0"
+		"Enabled"									"1"
+		"Allcaps"									"1"
+		"Wrap"										"0"
+		"Font"										"HudFontSmallest"
+		"LabelText"									""
+		"TextAlignment"								"center"
+		"FGColor"									"QuestGold"
+	}
+}

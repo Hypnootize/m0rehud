@@ -1,0 +1,98 @@
+"Resource/UI/MatchMakingDashboardPopup_NextMapWinner.res"
+{
+	"NextMapWinner"
+	{
+		"ControlName"								"CExpandablePanel"
+		"FieldName"									"NextMapWinner"
+		"XPos"										"cs-0.5"
+		"YPos"										"0"
+		"ZPos"										"9999"
+		"Wide"										"260"
+		"Tall"										"80"
+		"Visible"									"1"
+		"ProportionalToParent"						"0"
+		"keyboardinputenabled"						"0"
+		"mouseinputenabled"							"1"
+
+		"collapsed_height"							"0"
+		"expanded_height"							"80"
+
+		"BGPanel"
+		{
+			"ControlName"							"EditablePanel"
+			"FieldName"								"BGPanel"
+			"XPos"									"cs-0.5"
+			"YPos"									"cs-0.5"
+			"ZPos"									"-1"
+			"Wide"									"f5"
+			"Tall"									"f5"
+			"Visible"								"1"
+			"PaintBackground"						"1"
+			"PaintBackgroundType"					"0"
+			"BGColor_Override"						"Background_Dark"
+			"ProportionalToParent"					"1"
+
+			"DescLabel"
+			{
+				"ControlName"						"CExLabel"
+				"FieldName"							"DescLabel"
+				"XPos"								"0"
+				"YPos"								"3"
+				"Wide"								"f0"
+				"ZPos"								"100"
+				"Tall"								"20"
+				"Visible"							"1"
+				"Enabled"							"1"
+				"Font"								"HudFontSmallestBold"
+				"FGColor"							"White"
+				"TextAlignment"						"center"
+				"LabelText"							"#TF_Matchmaking_RollingQueue_NextMapWinner"
+				"ProportionalToParent"				"1"
+			}
+			"MapImageClip"
+			{
+				"ControlName"						"EditablePanel"
+				"FieldName"							"MapImageClip"
+				"XPos"								"cs-0.5"
+				"YPos"								"22"
+				"Wide"								"50"
+				"Tall"								"o0.75"
+				"ZPos"								"1"
+				"ProportionalToParent"				"1"
+				"mouseinputenabled"					"0"
+
+				"MapImage"
+				{
+					"ControlName"					"ScalableImagePanel"
+					"FieldName"						"MapImage"
+					"XPos"							"cs-0.5"
+					"YPos"							"0"
+					"Wide"							"f0"
+					"Tall"							"o1"
+					"ZPos"							"0"
+					"Image"							"maps/menu_thumb_pl_goldrush"
+					"ProportionalToParent"			"1"
+					"mouseinputenabled"				"0"
+				}
+			}
+			"NameLabel"
+			{
+				"ControlName"						"CExLabel"
+				"FieldName"							"NameLabel"
+				"XPos"								"0"
+				"YPos"								"rs1-2"
+				"Wide"								"f0"
+				"ZPos"								"10"
+				"Tall"								"20"
+				"Visible"							"1"
+				"Enabled"							"1"
+				"Font"								"HudFontSmallestBold"
+				"TextAlignment"						"south"
+				"LabelText"							"%mapname%"
+				"ProportionalToParent"				"1"
+				"mouseinputenabled"					"0"
+				"FGColor"							"White"
+			}
+		}
+	}
+}

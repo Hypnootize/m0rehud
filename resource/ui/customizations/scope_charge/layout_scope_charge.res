@@ -2,6 +2,6 @@
 {
 	"HudScopeCharge"
 	{
-		"xpos"										"c235"
+		"XPos"										"c235"
 	}
 }

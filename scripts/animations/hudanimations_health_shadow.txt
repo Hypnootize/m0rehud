@@ -7,20 +7,24 @@ event HudHealthBonusPulseShadow
 	Animate	PlayerStatusHealthBonusImage			Alpha		"0"									Linear	0.2		0.4
 
 	// NORMAL HEALTH --------------------------------------------------------------------------------------------------------
-	Animate	PlayerStatusHealthBonusBG				Alpha		"255"								Linear	0.0		0.0
-	Animate HealthValue								FgColor		"Health_Numbers"					Linear	0.0		0.0
-	Animate HealthValue_Shadow						FgColor		"Health_Shadow_Buff"				Linear	0.0		0.0
+	Animate	PlayerStatusHealthBonusBG				Alpha		"200"								Linear	0.0		0.0
+	Animate	PlayerStatusHealthBonusCross			Alpha		"255"								Linear	0.0		0.0
+	Animate HealthValue								FGColor		"Health_Numbers"					Linear	0.0		0.0
+	Animate HealthValue_Shadow						FGColor		"Health_Shadow_Buff"				Linear	0.0		0.0
 	Animate HealthValue_Shadow_Extra				Alpha		"255"								Linear	0.0		0.0
 
 	// TARGET HEALTH --------------------------------------------------------------------------------------------------------
-	Animate HealthValue_Target						FgColor		"Health_Buff_Target"				Linear	0.0		0.0
+	Animate HealthValue_Target						FGColor		"Health_Buff_Target"				Linear	0.0		0.0
 
 	// SPECTATOR HEALTH -----------------------------------------------------------------------------------------------------
-	Animate HealthValueSpec_BG						BgColor		"220 220 220 125"					Linear	0.0		0.0
+	Animate HealthValue_Spec						FGColor		"Health_Buff_Spectator"				Linear	0.0		0.0
 
 	// KILLER HEALTH --------------------------------------------------------------------------------------------------------
-	Animate HealthValue_Killer_Shadow				FgColor		"Health_Buff_Killer"				Linear	0.0		0.0
+	Animate HealthValue_Killer_Shadow				FGColor		"Health_Buff_Killer"				Linear	0.0		0.0
 	Animate HealthValue_Killer_Shadow_Extra			Alpha		"255"								Linear	0.0		0.0
+
+	// FULLSCREEN -----------------------------------------------------------------------------------------------------------
+	Animate FullScreen_Buff							Alpha		"80"								Linear	0.0		0.0
 
 	RunEvent HudHealthBonusPulseLoop				0.4
 }
@@ -36,19 +40,23 @@ event HudHealthBonusPulseStopShadow
 
 	// NORMAL HEALTH --------------------------------------------------------------------------------------------------------
 	Animate	PlayerStatusHealthBonusBG				Alpha		"0"									Linear	0.0		0.0
-	Animate HealthValue								FgColor		"Health_Numbers"					Linear	0.0		0.0
-	Animate HealthValue_Shadow						FgColor		"Main_Shadow"						Linear	0.0		0.0
+	Animate	PlayerStatusHealthBonusCross			Alpha		"0"									Linear	0.0		0.0
+	Animate HealthValue								FGColor		"Health_Numbers"					Linear	0.0		0.0
+	Animate HealthValue_Shadow						FGColor		"Main_Shadow"						Linear	0.0		0.0
 	Animate HealthValue_Shadow_Extra				Alpha		"0"									Linear	0.0		0.0
 
 	// TARGET HEALTH --------------------------------------------------------------------------------------------------------
-	Animate HealthValue_Target						FgColor		"Health_Numbers"					Linear	0.0		0.0
+	Animate HealthValue_Target						FGColor		"Health_Numbers"					Linear	0.0		0.0
 
 	// SPECTATOR HEALTH -----------------------------------------------------------------------------------------------------
-	Animate HealthValueSpec_BG						BgColor		"TransparentLightBlack"				Linear	0.0		0.0
+	Animate HealthValue_Spec						FGColor		"Health_Numbers"					Linear	0.0		0.0
 
 	// KILLER HEALTH --------------------------------------------------------------------------------------------------------
-	Animate HealthValue_Killer_Shadow				FgColor		"Main_Shadow"						Linear	0.0		0.0
+	Animate HealthValue_Killer_Shadow				FGColor		"Main_Shadow"						Linear	0.0		0.0
 	Animate HealthValue_Killer_Shadow_Extra			Alpha		"0"									Linear	0.0		0.0
+
+	// FULLSCREEN -----------------------------------------------------------------------------------------------------------
+	Animate FullScreen_Buff							Alpha		"0"									Linear	0.0		0.0
 }
 
 //===========================================================================================================================
@@ -60,21 +68,24 @@ event HudHealthDyingPulseShadow
 	Animate	PlayerStatusHealthBonusImage			Alpha		"0"									Linear	0.125	0.075
 
 	// NORMAL HEALTH --------------------------------------------------------------------------------------------------------
-	Animate	PlayerStatusHealthDyingBG				Alpha		"255"								Linear	0.0		0.0
-	Animate HealthValue								FgColor		"Health_Numbers"					Linear	0.0		0.0
-	Animate HealthValue_Shadow						FgColor		"Health_Shadow_Hurt"				Linear	0.0		0.0
+	Animate	PlayerStatusHealthDyingBG				Alpha		"200"								Linear	0.0		0.0
+	Animate	PlayerStatusHealthDyingCross			Alpha		"255"								Linear	0.0		0.0
+	Animate HealthValue								FGColor		"Health_Numbers"					Linear	0.0		0.0
+	Animate HealthValue_Shadow						FGColor		"Health_Shadow_Hurt"				Linear	0.0		0.0
 	Animate HealthValue_Shadow_Extra				Alpha		"255"								Linear	0.0		0.0
 
 	// TARGET HEALTH --------------------------------------------------------------------------------------------------------
-	Animate HealthValue_Target						FgColor		"Health_Hurt_Target"				Linear	0.0		0.0
+	Animate HealthValue_Target						FGColor		"Health_Hurt_Target"				Linear	0.0		0.0
 
 	// SPECTATOR HEALTH -----------------------------------------------------------------------------------------------------
-	Animate HealthValueSpec_BG						BgColor		"70 15 15 255"						Linear	0.0		0.075
-	Animate HealthValueSpec_BG						BgColor		"160 70 70 255"						Linear	0.125	0.075
+	Animate HealthValue_Spec						FGColor		"Health_Hurt_Spectator"				Linear	0.0		0.0
 
 	// KILLER HEALTH --------------------------------------------------------------------------------------------------------
-	Animate HealthValue_Killer_Shadow				FgColor		"Health_Hurt_Killer"				Linear	0.0		0.0
+	Animate HealthValue_Killer_Shadow				FGColor		"Health_Hurt_Killer"				Linear	0.0		0.0
 	Animate HealthValue_Killer_Shadow_Extra			Alpha		"255"								Linear	0.0		0.0
+
+	// FULLSCREEN -----------------------------------------------------------------------------------------------------------
+	Animate FullScreen_Hurt							Alpha		"80"								Linear	0.0		0.0
 
 	RunEvent HudHealthDyingPulseLoop				0.25
 }
@@ -89,18 +100,22 @@ event HudHealthDyingPulseStopShadow
 
 	// NORMAL HEALTH --------------------------------------------------------------------------------------------------------
 	Animate	PlayerStatusHealthDyingBG				Alpha		"0"									Linear	0.0		0.0
-	Animate HealthValue								FgColor		"Health_Numbers"					Linear	0.0		0.0
-	Animate HealthValue_Shadow						FgColor		"Main_Shadow"						Linear	0.0		0.0
+	Animate	PlayerStatusHealthDyingCross			Alpha		"0"									Linear	0.0		0.0
+	Animate HealthValue								FGColor		"Health_Numbers"					Linear	0.0		0.0
+	Animate HealthValue_Shadow						FGColor		"Main_Shadow"						Linear	0.0		0.0
 	Animate HealthValue_Shadow_Extra				Alpha		"0"									Linear	0.0		0.0
 
 	// TARGET HEALTH --------------------------------------------------------------------------------------------------------
-	Animate HealthValue_Target						FgColor		"Health_Numbers"					Linear	0.0		0.0
+	Animate HealthValue_Target						FGColor		"Health_Numbers"					Linear	0.0		0.0
 
 	// SPECTATOR HEALTH -----------------------------------------------------------------------------------------------------
-	Animate HealthValueSpec_BG						BgColor		"TransparentLightBlack"				Linear	0.0		0.0
+	Animate HealthValue_Spec						FGColor		"Health_Numbers"					Linear	0.0		0.0
 
 	// KILLER HEALTH --------------------------------------------------------------------------------------------------------
-	Animate HealthValue_Killer_Shadow				FgColor		"Main_Shadow"						Linear	0.0		0.0
+	Animate HealthValue_Killer_Shadow				FGColor		"Main_Shadow"						Linear	0.0		0.0
 	Animate HealthValue_Killer_Shadow_Extra			Alpha		"0"									Linear	0.0		0.0
+
+	// FULLSCREEN -----------------------------------------------------------------------------------------------------------
+	Animate FullScreen_Hurt							Alpha		"0"									Linear	0.0		0.0
 }
 //===========================================================================================================================

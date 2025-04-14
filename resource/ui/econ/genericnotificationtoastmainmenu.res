@@ -1,0 +1,86 @@
+"Resource/UI/Econ/GenericNotificationToastMainMenu.res"
+{
+	"GenericNotificationToast"
+	{
+		"ControlName"								"CGenericNotificationToast"
+		"FieldName"									"GenericNotificationToast"
+		"XPos"										"0"
+		"YPos"										"0"
+		"ZPos"										"1"
+		"Wide"										"150"
+		"Tall"										"50"
+		"Visible"									"1"
+		"Enabled"									"1"
+		"FGColor"									"White"
+		"FGColor_Override"							"White"
+	}
+	"AvatarBGPanel"
+	{
+		"ControlName"								"EditablePanel"
+		"FieldName"									"AvatarBGPanel"
+		"XPos"										"7"
+		"YPos"										"7"
+		"ZPos"										"-1"
+		"Wide"										"36"
+		"Tall"										"36"
+		"Visible"									"1"
+		"PaintBackgroundType"						"0"
+		"BGcolor_Override"							"White"
+	}
+	"AvatarImage"
+	{
+		"ControlName"								"CAvatarImagePanel"
+		"FieldName"									"AvatarImage"
+		"XPos"										"9"
+		"YPos"										"9"
+		"ZPos"										"0"
+		"Wide"										"32"
+		"Tall"										"32"
+		"Visible"									"1"
+		"Enabled"									"1"
+		"Image"										""
+		"ScaleImage"								"1"
+		"color_outline"								"Blank"
+	}
+	"AvatarTextLabel"
+	{
+		"ControlName"								"CExLabel"
+		"FieldName"									"AvatarTextLabel"
+		"XPos"										"45"
+		"YPos"										"7"
+		"ZPos"										"2"
+		"Wide"										"100"
+		"Tall"										"38"
+		"Visible"									"0"
+		"Enabled"									"1"
+		"Wrap"										"1"
+		"LabelText"									"%avatartext%"
+		"TextAlignment"								"West"
+		"Font"										"HudFontSmallest"
+		"FGColor"									"White"
+	}
+	"TextLabel"
+	{
+		"ControlName"								"CExLabel"
+		"FieldName"									"TextLabel"
+		
+		"if_high_priority"
+		{
+			"FGColor"								"White"
+			"Font"									"HudFontSmallest"
+		}
+
+		"XPos"										"7"
+		"YPos"										"7"
+		"ZPos"										"2"
+		"Wide"										"138"
+		"Tall"										"38"
+		"Visible"									"0"
+		"Enabled"									"1"
+		"Wrap"										"1"
+		"LabelText"									"%text%"
+		"TextAlignment"								"West"
+		"Font"										"HudFontSmallest"
+		"FGColor"									"White"
+	}
+}

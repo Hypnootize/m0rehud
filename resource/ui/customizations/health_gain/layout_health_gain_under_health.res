@@ -2,9 +2,9 @@
 {
 	"CHealthAccountPanel"
 	{
-		"xpos"										"c-188"
-		"xpos_minmode"								"c-104"
-		"ypos"										"c170"
-		"ypos_minmode"								"c83"
+		"XPos"										"c-188"
+		"XPos_Minmode"								"c-104"
+		"YPos"										"c170"
+		"YPos_Minmode"								"c83"
 	}
 }

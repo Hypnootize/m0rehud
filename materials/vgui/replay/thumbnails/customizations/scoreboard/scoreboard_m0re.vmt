@@ -1,6 +1,6 @@
 "UnlitGeneric"
 {
-	"$baseTexture"			"vgui\replay\thumbnails\customizations\scoreboard\scoreboard_m0re"
+	"$baseTexture"			"vgui/replay/thumbnails/customizations/scoreboard/scoreboard_m0re"
 	"$vertexalpha"			"1"
 	"$alpha"				"1"
 	"$translucent"			"1"

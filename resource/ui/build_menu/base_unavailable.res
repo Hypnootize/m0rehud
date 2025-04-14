@@ -4,23 +4,23 @@
 {
 	"ItemNameLabel"
 	{
-		"visible"									"0"
+		"Visible"									"0"
 	}
 	"CantBuildReason"
 	{
-		"visible"									"1"
-		"labelText"									"Unavailable"
+		"Visible"									"1"
+		"LabelText"									"Unavailable"
 	}
 	"CostLabel"
 	{
-		"visible"									"0"
+		"Visible"									"0"
 	}
 	"BuildingImage"	
 	{
-		"visible"									"1"
+		"Visible"									"1"
 	}
 	"NumberLabel"
 	{
-		"visible"									"0"
+		"Visible"									"0"
 	}
 }

@@ -4,6 +4,6 @@
 {
 	"TitleBG"
 	{
-		"image"										"../hud/color_panel_blu"
+		"Image"										"../hud/color_panel_blu"
 	}
 }

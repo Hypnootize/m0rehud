@@ -2,18 +2,18 @@
 {
 	"DamageAccountValue"
 	{
-		"xpos"										"cs-0.5+5"
-		"xpos_minmode"								"cs-0.5+5"
-		"ypos"										"r133"
-		"ypos_minmode"								"r220"
-		"visible"									"1"
-		"font"										"m0refont20"
+		"XPos"										"cs-0.5+5"
+		"XPos_Minmode"								"cs-0.5+5"
+		"YPos"										"r133"
+		"YPos_Minmode"								"r220"
+		"Visible"									"1"
+		"Font"										"m0refont20"
 	}
 	"DamageAccountValueShadow"
 	{
-		"wide"										"151"
-		"tall"										"26"
-		"visible"									"1"
-		"font"										"m0refont20"
+		"Wide"										"151"
+		"Tall"										"26"
+		"Visible"									"1"
+		"Font"										"m0refont20"
 	}
 }

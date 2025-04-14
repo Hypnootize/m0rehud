@@ -2,28 +2,28 @@
 {
 	"PlayerStatusHealthBonusBG"
 	{
-		"visible"									"1"
+		"Visible"									"1"
 	}
 	"PlayerStatusHealthDyingBG"
 	{
-		"visible"									"1"
+		"Visible"									"1"
 	}
 	"PlayerStatusHealthBonusImage"
 	{
-		"xpos"										"9999"
-		"xpos_minmode"								"9999"
+		"XPos"										"9999"
+		"XPos_Minmode"								"9999"
 	}
 	"HealthValue_Shadow"
 	{
-		"xpos"										"9999"
-		"xpos_minmode"								"9999"
+		"XPos"										"9999"
+		"XPos_Minmode"								"9999"
 	}
 	"HealthValue_Shadow_Extra"
 	{
-		"visible"									"0"
+		"Visible"									"0"
 	}
 	"HealthValue_Shadow_Black"
 	{
-		"visible"									"1"
+		"Visible"									"1"
 	}
 }

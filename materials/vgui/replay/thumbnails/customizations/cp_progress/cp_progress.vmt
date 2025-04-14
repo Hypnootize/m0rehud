@@ -1,6 +1,6 @@
 "UnlitGeneric"
 {
-	"$baseTexture"			"vgui\replay\thumbnails\customizations\cp_progress\cp_progress"
+	"$baseTexture"			"vgui/replay/thumbnails/customizations/cp_progress/cp_progress"
 	"$vertexalpha"			"1"
 	"$alpha"				"1"
 	"$translucent"			"1"

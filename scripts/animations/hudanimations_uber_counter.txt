@@ -14,7 +14,7 @@ event MenuClose
 {
 	Animate HudMenu								Alpha			"0"									Linear	0.0		0.2
 	Animate HudMenu								SelectionAlpha	"0"									Linear	0.0		0.2
-	Animate HudMenu								FgColor			"Blank"								Linear	0.0		0.2
+	Animate HudMenu								FGColor			"Blank"								Linear	0.0		0.2
 	Animate HudMenu								MenuColor		"Blank"								Linear	0.0		0.2
 	Animate HudMenu								ItemColor		"Blank"								Linear	0.0		0.2
 
@@ -23,10 +23,10 @@ event MenuClose
 event UberTimerRun
 {
 	Animate UberCounterBG						Tall			"2"									Linear	0.1		0.001
-	Animate UberCounter							BgColor			"White"								Linear	0.0		0.001
+	Animate UberCounter							BGColor			"White"								Linear	0.0		0.001
 	Animate UberCounter							Wide			"40"								Linear	0.0		55.0
-	Animate UberCounter							BgColor			"BrightYellow"						Linear	40.0	0.001
-	Animate UberCounter							BgColor			"Red"								Linear	55.0	0.001
+	Animate UberCounter							BGColor			"BrightYellow"						Linear	40.0	0.001
+	Animate UberCounter							BGColor			"Red"								Linear	55.0	0.001
 
 	RunEvent UberTimerHide						60.0
 }

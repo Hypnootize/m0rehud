@@ -1,8 +1,18 @@
 "UnlitGeneric"
 {
-	"$baseTexture"			"vgui\replay\thumbnails\customizations\health\health_warning_50"
-	"$vertexalpha"			"1"
-	"$alpha"				"1"
-	"$translucent"			"1"
-	"$vertexcolor"			"1"
+	"$baseTexture"									"vgui/replay/thumbnails/customizations/health/health_warning_50"
+	"$vertexalpha"									"1"
+	"$alpha"										"1"
+	"$translucent"									"1"
+	"$vertexcolor"									"1"
+
+	"Proxies"
+	{
+		"AnimatedTexture"
+		{
+			"animatedtexturevar"					"$basetexture"
+			"animatedtextureframenumvar"			"$frame"
+			"animatedtextureframerate"				"15"
+		}
+	}
 }

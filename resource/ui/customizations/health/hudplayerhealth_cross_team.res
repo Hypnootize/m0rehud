@@ -6,83 +6,83 @@
 	}
 	"HealthAnchor"
 	{
-		"xpos"										"c-175"
-		"xpos_minmode"								"c-95"
-		"ypos"										"c106"
-		"ypos_minmode"								"c51"
-		"zpos"										"0"
-		"tall"										"64"
+		"XPos"										"c-175"
+		"XPos_Minmode"								"c-95"
+		"YPos"										"c106"
+		"YPos_Minmode"								"c51"
+		"ZPos"										"0"
+		"Tall"										"64"
 	}
 	"PlayerStatusHealthImageBG"
 	{
-		"xpos"										"0"
+		"XPos"										"0"
 	}
 	"PlayerStatusHealthImage"
 	{
-		"visible"									"1"
+		"Visible"									"1"
 	}
 	"CrossBG1"
 	{
-		"visible"									"1"
+		"Visible"									"1"
 	}
 	"CrossBG2"
 	{
-		"visible"									"1"
+		"Visible"									"1"
 	}
 	"PlayerStatusHealthBonusImage"
 	{
-		"xpos"										"c-207"
-		"xpos_minmode"								"c-112"
-		"ypos"										"c105"
-		"ypos_minmode"								"c49"
-		"wide"										"66"
-		"wide_minmode"								"36"
-		"tall"										"66"
-		"tall_minmode"								"37"
+		"XPos"										"c-207"
+		"XPos_Minmode"								"c-112"
+		"YPos"										"c105"
+		"YPos_Minmode"								"c49"
+		"Wide"										"66"
+		"Wide_Minmode"								"36"
+		"Tall"										"66"
+		"Tall_Minmode"								"37"
 	}
 	"HealthValue"
 	{
-		"ypos"										"-10"
-		"ypos_minmode"								"-6"
-		"wide"										"60"
-		"wide_minmode"								"100"
-		"tall"										"40"
-		"tall_minmode"								"20"
-		"font"										"m0refont26"
-		"font_minmode"								"m0refont14"
+		"YPos"										"-10"
+		"YPos_Minmode"								"-6"
+		"Wide"										"60"
+		"Wide_Minmode"								"100"
+		"Tall"										"40"
+		"Tall_Minmode"								"20"
+		"Font"										"m0refont26"
+		"Font_Minmode"								"m0refont14"
 
-		"pin_to_sibling"							"PlayerStatusHealthImageBG"
-		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
-		"pin_to_sibling_corner"						"PIN_CENTER_TOP"
+		"Pin_To_Sibling"							"PlayerStatusHealthImageBG"
+		"Pin_Corner_To_Sibling"						"PIN_CENTER_TOP"
+		"Pin_To_Sibling_Corner"						"PIN_CENTER_TOP"
 	}
 	"HealthValue_Shadow"
 	{
-		"xpos"										"9999"
-		"xpos_minmode"								"9999"
+		"XPos"										"9999"
+		"XPos_Minmode"								"9999"
 	}
 	"HealthValue_Shadow_Extra"
 	{
-		"visible"									"0"
+		"Visible"									"0"
 	}
 	"HealthValue_Shadow_Black"
 	{
-		"xpos"										"-1"
-		"xpos_minmode"								"-1"
-		"ypos"										"-1"
-		"ypos_minmode"								"-1"
-		"wide"										"60"
-		"wide_minmode"								"100"
-		"tall"										"40"
-		"tall_minmode"								"20"
-		"font"										"m0refont26"
-		"font_minmode"								"m0refont14"
-		"visible"									"1"
+		"XPos"										"-1"
+		"XPos_Minmode"								"-1"
+		"YPos"										"-1"
+		"YPos_Minmode"								"-1"
+		"Wide"										"60"
+		"Wide_Minmode"								"100"
+		"Tall"										"40"
+		"Tall_Minmode"								"20"
+		"Font"										"m0refont26"
+		"Font_Minmode"								"m0refont14"
+		"Visible"									"1"
 	}
 	"PlayerStatusAnchor"
 	{
-		"xpos"										"-23"
-		"xpos_minmode"								"-49"
-		"ypos"										"-28"
-		"ypos_minmode"								"-18"
+		"XPos"										"-23"
+		"XPos_Minmode"								"-49"
+		"YPos"										"-28"
+		"YPos_Minmode"								"-18"
 	}
 }

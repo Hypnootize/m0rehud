@@ -58,12 +58,12 @@ event HudTournament_ShowTimerDefault
 
 event ActiveTimerHighlight
 {
-	Animate TimePanelValue							FgColor		"255 255 100 255"					Linear	0.0		0.0
+	Animate TimePanelValue							FGColor		"255 255 100 255"					Linear	0.0		0.0
 }
 
 event ActiveTimerDim
 {
-	Animate TimePanelValue							FgColor		"White"								Linear	0.0		0.0
+	Animate TimePanelValue							FGColor		"White"								Linear	0.0		0.0
 }
 
 //===========================================================================================================================

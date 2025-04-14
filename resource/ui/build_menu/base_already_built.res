@@ -4,15 +4,15 @@
 {
 	"ItemNameLabel"
 	{
-		"visible"									"0"
+		"Visible"									"0"
 	}
 	"CantBuildReason"
 	{
-		"visible"									"1"
-		"labelText"									"Already Built"
+		"Visible"									"1"
+		"LabelText"									"Already Built"
 	}
 	"CostLabel"
 	{
-		"visible"									"0"
+		"Visible"									"0"
 	}
 }

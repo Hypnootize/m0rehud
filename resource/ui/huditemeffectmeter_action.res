@@ -3,12 +3,12 @@
 	"ItemEffectMeter"
 	{
 		"ControlName"								"ContinuousProgressBar"
-		"fieldName"									"ItemEffectMeter"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
+		"FieldName"									"ItemEffectMeter"
+		"XPos"										"9999"
+		"YPos"										"9999"
+		"Wide"										"0"
+		"Tall"										"0"
+		"Visible"									"0"
+		"Enabled"									"0"
 	}
 }

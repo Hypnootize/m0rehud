@@ -1,0 +1,432 @@
+"Resource/UI/MvMScoreboard_Base.res"
+{
+	"RedBar"
+	{
+		"ControlName"								"Panel"
+		"FieldName"									"RedBar"
+		"XPos"										"0"
+		"YPos"										"0"
+		"Wide"										"f0"
+		"Tall"										"15"
+		"Visible"									"1"
+		"Enabled"									"1"
+		"ProportionalToParent"						"1"
+		"painbackground"							"1"
+		"painbackgroundtype"						"0"
+		"BGColor_Override"							"Red"
+	}
+	"PopFileLabel"
+	{
+		"ControlName"								"CExLabel"
+		"FieldName"									"PopFileLabel"
+		"XPos"										"-5"
+		"YPos"										"0"
+		"ZPos"										"1"
+		"Wide"										"f0"
+		"Tall"										"15"
+		"AllCaps"									"1"
+		"Font"										"m0refont11"
+		"LabelText"									"%popfile%"
+		"TextAlignment"								"east"
+		"FGColor"									"White"
+		"ProportionalToParent"						"1"
+
+		"Pin_To_Sibling"							"RedBar"
+		"Pin_Corner_To_Sibling"						"PIN_TOPRIGHT"
+		"Pin_To_Sibling_Corner"						"PIN_TOPRIGHT"
+	}
+	"DifficultyContainer"
+	{
+		"ControlName"								"EditablePanel"
+		"FieldName"									"DifficultyContainer"
+		"XPos"										"-5"
+		"YPos"										"0"
+		"ZPos"										"1"
+		"Wide"										"200"
+		"Tall"										"15"
+		"Visible"									"1"
+		"ProportionalToParent"						"1"
+
+		"Pin_To_Sibling"							"RedBar"
+
+		"DifficultyLabel"
+		{
+			"ControlName"							"CExLabel"
+			"FieldName"								"DifficultyLabel"
+			"Font"									"m0refont11"
+			"LabelText"								"Difficulty: "
+			"TextAlignment"							"west"
+			"XPos"									"0"
+			"YPos"									"0"
+			"Wide"									"55"
+			"Tall"									"15"
+			"AllCaps"								"1"
+			"FGColor"								"White"
+			"ProportionalToParent"					"1"
+		}
+		"DifficultyValue"
+		{
+			"ControlName"							"CExLabel"
+			"FieldName"								"DifficultyValue"
+			"Font"									"m0refont11"
+			"LabelText"								"%difficultyvalue%"
+			"TextAlignment"							"west"
+			"XPos"									"0"
+			"YPos"									"0"
+			"Wide"									"120"
+			"Tall"									"15"
+			"AllCaps"								"1"
+			"FGColor"								"White"
+			"ProportionalToParent"					"1"
+
+			"Pin_To_Sibling"						"DifficultyLabel"
+			"Pin_Corner_To_Sibling"					"PIN_TOPLEFT"
+			"Pin_To_Sibling_Corner"					"PIN_TOPRIGHT"
+		}
+	}
+	"WaveStatusPanel"
+	{
+		"ControlName"								"CWaveStatusPanel"
+		"FieldName"									"WaveStatusPanel"
+		"XPos"										"cs-0.5"
+		"YPos"										"20"
+		"ZPos"										"0"
+		"Wide"										"600"
+		"Tall"										"70"
+		"Visible"									"1"
+		"Enabled"									"1"
+
+		"verbose"									"1"
+		"ProportionalToParent"						"0"
+	}
+	"MvMPlayerList"
+	{
+		"ControlName"								"SectionedListPanel"
+		"FieldName"									"MvMPlayerList"
+		"XPos"										"cs-0.5"
+		"YPos"										"120"
+		"Wide"										"530"
+		"Tall"										"150"
+		"Visible"									"1"
+		"Enabled"									"1"
+		"autoresize"								"3"
+		"linespacing"								"22"
+		"textcolor"									"White"
+		"ProportionalToParent"						"1"
+		"alpha"										"255"
+	}
+	"PlaylistBG"
+	{
+		"ControlName"								"EditablePanel"
+		"FieldName"									"PlaylistBG"
+		"XPos"										"-3"
+		"YPos"										"-11"
+		"ZPos"										"-1"
+		"Wide"										"524"
+		"Tall"										"150"
+		"Visible"									"1"
+		"Enabled"									"1"
+		"PaintBackground"							"1"
+		"PaintBackgroundType"						"0"
+		"BGColor_Override"							"0 0 0 75"
+		"ProportionalToParent"						"1"
+
+		"Pin_To_Sibling"							"MvMPlayerList"
+	}
+	"CreditsBG"										// Moved here to fix win/lose panels + easier to control
+	{
+		"ControlName"								"EditablePanel"
+		"FieldName"									"CreditsBG"
+		"XPos"										"0"
+		"YPos"										"5"
+		"ZPos"										"-1"
+		"Wide"										"524"
+		"Tall"										"44"
+		"Visible"									"1"
+		"Enabled"									"1"
+		"ProportionalToParent"						"1"
+
+		"Pin_To_Sibling"							"PlaylistBG"
+		"Pin_Corner_To_Sibling"						"PIN_TOPLEFT"
+		"Pin_To_Sibling_Corner"						"PIN_BOTTOMLEFT"
+
+		"BG_1"
+		{
+			"ControlName"							"EditablePanel"
+			"FieldName"								"BG_1"
+			"XPos"									"0"
+			"YPos"									"0"
+			"ZPos"									"0"
+			"Wide"									"262"
+			"Tall"									"f0"
+			"Visible"								"1"
+			"Enabled"								"1"
+			"ProportionalToParent"					"1"
+
+			"Title_BG"
+			{
+				"ControlName"						"EditablePanel"
+				"FieldName"							"Title_BG"
+				"XPos"								"cs-0.5"
+				"YPos"								"0"
+				"ZPos"								"0"
+				"Wide"								"f0"
+				"Tall"								"12"
+				"Visible"							"1"
+				"Enabled"							"1"
+				"ProportionalToParent"				"1"
+				"PaintBackground"					"1"
+				"PaintBackgroundType"				"0"
+				"BGColor_Override"					"TransparentLightBlack"
+
+				"Rating_BG"
+				{
+					"ControlName"					"Panel"
+					"FieldName"						"Rating_BG"
+					"XPos"							"rs1"
+					"YPos"							"0"
+					"ZPos"							"0"
+					"Wide"							"20"
+					"Tall"							"12"
+					"Visible"						"1"
+					"Enabled"						"1"
+					"ProportionalToParent"			"1"
+					"PaintBackground"				"1"
+					"PaintBackgroundType"			"0"
+					"BGColor_Override"				"TransparentLightestBlack"
+				}
+			}
+			"Panel_BG"
+			{
+				"ControlName"						"EditablePanel"
+				"FieldName"							"Panel_BG"
+				"XPos"								"cs-0.5"
+				"YPos"								"rs1"
+				"ZPos"								"0"
+				"Wide"								"f0"
+				"Tall"								"f12"
+				"Visible"							"1"
+				"Enabled"							"1"
+				"ProportionalToParent"				"1"
+				"PaintBackground"					"1"
+				"PaintBackgroundType"				"0"
+				"BGColor_Override"					"TransparentLightestBlack"
+
+				"Separator"
+				{
+					"ControlName"					"Panel"
+					"FieldName"						"Separator"
+					"XPos"							"cs-0.5"
+					"YPos"							"rs1-3"
+					"ZPos"							"0"
+					"Wide"							"1"
+					"Tall"							"27"
+					"Visible"						"1"
+					"Enabled"						"1"
+					"ProportionalToParent"			"1"
+					"PaintBackground"				"1"
+					"PaintBackgroundType"			"0"
+					"BGColor_Override"				"TransparentLightestBlack"
+				}
+			}
+		}
+		"BG_2"
+		{
+			"ControlName"							"EditablePanel"
+			"FieldName"								"BG_2"
+			"XPos"									"2"
+			"YPos"									"0"
+			"ZPos"									"0"
+			"Wide"									"262"
+			"Tall"									"f0"
+			"Visible"								"1"
+			"Enabled"								"1"
+			"ProportionalToParent"					"1"
+
+			"Pin_To_Sibling"						"BG_1"
+			"Pin_Corner_To_Sibling"					"PIN_TOPLEFT"
+			"Pin_To_Sibling_Corner"					"PIN_TOPRIGHT"
+
+			"Title_BG"
+			{
+				"ControlName"						"EditablePanel"
+				"FieldName"							"Title_BG"
+				"XPos"								"cs-0.5"
+				"YPos"								"0"
+				"ZPos"								"0"
+				"Wide"								"f0"
+				"Tall"								"12"
+				"Visible"							"1"
+				"Enabled"							"1"
+				"ProportionalToParent"				"1"
+				"PaintBackground"					"1"
+				"PaintBackgroundType"				"0"
+				"BGColor_Override"					"TransparentLightBlack"
+
+				"Rating_BG"
+				{
+					"ControlName"					"Panel"
+					"FieldName"						"Rating_BG"
+					"XPos"							"rs1"
+					"YPos"							"0"
+					"ZPos"							"0"
+					"Wide"							"20"
+					"Tall"							"12"
+					"Visible"						"1"
+					"Enabled"						"1"
+					"ProportionalToParent"			"1"
+					"PaintBackground"				"1"
+					"PaintBackgroundType"			"0"
+					"BGColor_Override"				"TransparentLightestBlack"
+				}
+			}
+			"Panel_BG"
+			{
+				"ControlName"						"EditablePanel"
+				"FieldName"							"Panel_BG"
+				"XPos"								"cs-0.5"
+				"YPos"								"rs1"
+				"ZPos"								"0"
+				"Wide"								"f0"
+				"Tall"								"f12"
+				"Visible"							"1"
+				"Enabled"							"1"
+				"ProportionalToParent"				"1"
+				"PaintBackground"					"1"
+				"PaintBackgroundType"				"0"
+				"BGColor_Override"					"TransparentLightestBlack"
+
+				"Separator"
+				{
+					"ControlName"					"Panel"
+					"FieldName"						"Separator"
+					"XPos"							"cs-0.5"
+					"YPos"							"rs1-3"
+					"ZPos"							"0"
+					"Wide"							"1"
+					"Tall"							"27"
+					"Visible"						"1"
+					"Enabled"						"1"
+					"ProportionalToParent"			"1"
+					"PaintBackground"				"1"
+					"PaintBackgroundType"			"0"
+					"BGColor_Override"				"TransparentLightestBlack"
+				}
+			}
+		}
+	}
+	"CreditStatsContainer"
+	{
+		"ControlName"								"EditablePanel"
+		"FieldName"									"CreditStatsContainer"
+		"XPos"										"0"
+		"YPos"										"5"
+		"Wide"										"524"
+		"Tall"										"115"
+		"Visible"									"1"
+
+		"Pin_To_Sibling"							"PlaylistBG"
+		"Pin_Corner_To_Sibling"						"PIN_TOPLEFT"
+		"Pin_To_Sibling_Corner"						"PIN_BOTTOMLEFT"
+
+		"PreviousWaveCreditInfoPanel"
+		{
+			"ControlName"							"CCreditDisplayPanel"
+			"FieldName"								"PreviousWaveCreditInfoPanel"
+			"XPos"									"0"
+			"YPos"									"0"
+			"Wide"									"262"
+			"Tall"									"44"
+			"Visible"								"1"
+		}
+		"PreviousWaveCreditSpendPanel"
+		{
+			"ControlName"							"CCreditSpendPanel"
+			"FieldName"								"PreviousWaveCreditSpendPanel"
+			"XPos"									"0"
+			"YPos"									"0"
+			"Wide"									"262"
+			"Tall"									"44"
+			"Visible"								"1"
+			"Pin_To_Sibling"						"PreviousWaveCreditInfoPanel"
+		}
+		"TotalGameCreditInfoPanel"
+		{
+			"ControlName"							"CCreditDisplayPanel"
+			"FieldName"								"TotalGameCreditInfoPanel"
+			"XPos"									"2"
+			"YPos"									"0"
+			"Wide"									"262"
+			"Tall"									"44"
+			"Visible"								"1"
+
+			"Pin_To_Sibling"						"PreviousWaveCreditSpendPanel"
+			"Pin_Corner_To_Sibling"					"PIN_TOPLEFT"
+			"Pin_To_Sibling_Corner"					"PIN_TOPRIGHT"
+		}
+		"TotalGameCreditSpendPanel"
+		{
+			"ControlName"							"CCreditSpendPanel"
+			"FieldName"								"TotalGameCreditSpendPanel"
+			"XPos"									"0"
+			"YPos"									"0"
+			"Wide"									"262"
+			"Tall"									"44"
+			"Visible"								"1"
+			"Pin_To_Sibling"						"TotalGameCreditInfoPanel"
+		}
+		"RespecStatusLabel"							//NO CLUE WHAT YOU ARE, I DONT PLAY MVM FUCK
+		{
+			"ControlName"							"CExLabel"
+			"FieldName"								"RespecStatusLabel"
+			"Font"									"HudFontSmall"
+			"LabelText"								"%respecstatus%"
+			"TextAlignment"							"north-east"
+			"XPos"									"115"
+			"YPos"									"8"
+			"Wide"									"275"
+			"Tall"									"20"
+			"FGColor"								"tanlight"
+		}
+		"CreditStatsBackground"
+		{
+			"ControlName"							"ScalableImagePanel"
+			"FieldName"								"CreditStatsBackground"
+			"XPos"									"9999"
+			"YPos"									"9999"
+			"Wide"									"0"
+			"Tall"									"0"
+			"Visible"								"0"
+			"Enabled"								"0"
+		}
+		"CreditsLabel"
+		{
+			"ControlName"							"CExLabel"
+			"FieldName"								"CreditsLabel"
+			"XPos"									"9999"
+			"YPos"									"9999"
+			"Wide"									"0"
+			"Tall"									"0"
+			"Visible"								"0"
+			"Enabled"								"0"
+		}
+	}
+
+
+
+	//==================================================================================================================================================
+	// REMOVED ELEMENTS
+	//==================================================================================================================================================
+
+	"PlayerListBackground"
+	{
+		"ControlName"								"ScalableImagePanel"
+		"FieldName"									"PlayerListBackground"
+		"XPos"										"9999"
+		"YPos"										"9999"
+		"Wide"										"0"
+		"Tall"										"0"
+		"Visible"									"0"
+		"Enabled"									"0"
+	}
+}

@@ -2,43 +2,57 @@
 {
 	"PlayerStatusHealthBonusBG"
 	{
-		"xpos"										"c-215"
-		"ypos"										"c97"
-		"wide"										"84"
-		"tall"										"84"
+		"XPos"										"c-215"
+		"YPos"										"c97"
+		"Wide"										"84"
+		"Tall"										"84"
 	}
 	"PlayerStatusHealthDyingBG"
 	{
-		"xpos"										"c-215"
-		"ypos"										"c97"
-		"wide"										"84"
-		"tall"										"84"
+		"XPos"										"c-215"
+		"YPos"										"c97"
+		"Wide"										"84"
+		"Tall"										"84"
+	}
+	"PlayerStatusHealthBonusCross"
+	{
+		"XPos"										"c-208"
+		"YPos"										"c104"
+		"Wide"										"70"
+		"Tall"										"70"
+	}
+	"PlayerStatusHealthDyingCross"
+	{
+		"XPos"										"c-208"
+		"YPos"										"c104"
+		"Wide"										"70"
+		"Tall"										"70"
 	}
 	"PlayerStatusHealthBonusImage"
 	{
-		"xpos"										"c-199"
-		"ypos"										"c112"
-		"wide"										"54"
-		"tall"										"54"
+		"XPos"										"c-199"
+		"YPos"										"c112"
+		"Wide"										"54"
+		"Tall"										"54"
 	}
 	"HealthValue"
 	{
-		"font"										"m0refont48"
+		"Font"										"m0refont48"
 	}
 	"HealthValue_Shadow"
 	{
-		"font"										"m0refont48"
+		"Font"										"m0refont48"
 	}
 	"HealthValue_Shadow_Extra"
 	{
-		"font"										"m0refont48"
+		"Font"										"m0refont48"
 	}
 	"HealthValue_Shadow_Black"
 	{
-		"font"										"m0refont48"
+		"Font"										"m0refont48"
 	}
 	"PlayerStatusAnchor"
 	{
-		"ypos"										"3"
+		"YPos"										"3"
 	}
 }

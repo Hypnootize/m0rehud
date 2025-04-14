@@ -1,6 +1,6 @@
 "UnlitGeneric"
 {
-	"$baseTexture"				"vgui\replay\thumbnails\cp_icons\icon_obj_a"
+	"$baseTexture"				"vgui/replay/thumbnails/cp_icons/icon_obj_a"
 	"$vertexalpha"				"1"
 	"$alpha"					"1"
 	"$translucent"				"1"

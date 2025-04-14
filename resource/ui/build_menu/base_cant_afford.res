@@ -4,15 +4,15 @@
 {
 	"ItemNameLabel"
 	{
-		"visible"									"0"
+		"Visible"									"0"
 	}
 	"CantBuildReason"
 	{
-		"visible"									"1"
-		"labelText"									"Can't Afford"
+		"Visible"									"1"
+		"LabelText"									"Can't Afford"
 	}
 	"CostLabel"
 	{
-		"bgcolor_override"							"TransparentLightBlack"
+		"BGColor_Override"							"TransparentLightBlack"
 	}
 }

@@ -4,16 +4,16 @@
 event HudLowAmmoPulseShadow
 {
 	// AMMO IN CLIP ---------------------------------------------------------------------------------------------------------
-	Animate AmmoInClip								FgColor		"Ammo_In_Clip"						Linear	0.0		0.0
-	Animate AmmoInClipShadow						FgColor		"Ammo_In_Clip_Shadow_Low"			Linear	0.0		0.0
+	Animate AmmoInClip								FGColor		"Ammo_In_Clip"						Linear	0.0		0.0
+	Animate AmmoInClipShadow						FGColor		"Ammo_In_Clip_Shadow_Low"			Linear	0.0		0.0
 
 	// AMMO IN RESERVE ------------------------------------------------------------------------------------------------------
-	Animate AmmoInReserve							FgColor		"Ammo_In_Reserve"					Linear	0.0		0.0
-	Animate AmmoInReserveShadow						FgColor		"Ammo_In_Reserve_Shadow_Low"		Linear	0.0		0.0
+	Animate AmmoInReserve							FGColor		"Ammo_In_Reserve"					Linear	0.0		0.0
+	Animate AmmoInReserveShadow						FGColor		"Ammo_In_Reserve_Shadow_Low"		Linear	0.0		0.0
 
 	// AMMO NO CLIP ---------------------------------------------------------------------------------------------------------
-	Animate AmmoNoClip								FgColor		"Ammo_In_Clip"						Linear	0.0		0.0
-	Animate AmmoNoClipShadow						FgColor		"Ammo_In_Clip_Shadow_Low"			Linear	0.0		0.0
+	Animate AmmoNoClip								FGColor		"Ammo_In_Clip"						Linear	0.0		0.0
+	Animate AmmoNoClipShadow						FGColor		"Ammo_In_Clip_Shadow_Low"			Linear	0.0		0.0
 
 	RunEvent HudLowAmmoPulseLoop					0.25
 }
@@ -28,15 +28,15 @@ event HudLowAmmoPulseStopShadow
 	StopEvent HudLowAmmoPulse						0.0
 
 	// AMMO IN CLIP ---------------------------------------------------------------------------------------------------------
-	Animate AmmoInClip								FgColor		"Ammo_In_Clip"						Linear	0.0		0.0
-	Animate AmmoInClipShadow						FgColor		"Main_Shadow"						Linear	0.0		0.0
+	Animate AmmoInClip								FGColor		"Ammo_In_Clip"						Linear	0.0		0.0
+	Animate AmmoInClipShadow						FGColor		"Main_Shadow"						Linear	0.0		0.0
 
 	// AMMO IN RESERVE ------------------------------------------------------------------------------------------------------
-	Animate AmmoInReserve							FgColor		"Ammo_In_Reserve"					Linear	0.0		0.0
-	Animate AmmoInReserveShadow						FgColor		"Main_Shadow"						Linear	0.0		0.0
+	Animate AmmoInReserve							FGColor		"Ammo_In_Reserve"					Linear	0.0		0.0
+	Animate AmmoInReserveShadow						FGColor		"Main_Shadow"						Linear	0.0		0.0
 
 	// AMMO NO CLIP ---------------------------------------------------------------------------------------------------------
-	Animate AmmoNoClip								FgColor		"Ammo_In_Clip"						Linear	0.0		0.0
-	Animate AmmoNoClipShadow						FgColor		"Main_Shadow"						Linear	0.0		0.0
+	Animate AmmoNoClip								FGColor		"Ammo_In_Clip"						Linear	0.0		0.0
+	Animate AmmoNoClipShadow						FGColor		"Main_Shadow"						Linear	0.0		0.0
 }
 //===========================================================================================================================

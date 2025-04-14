@@ -2,16 +2,16 @@
 {
 	"ProgressBar"
 	{
-		"ypos"										"rs1"
-		"ypos_minmode"								"rs1-5"
+		"YPos"										"rs1"
+		"YPos_Minmode"								"rs1-5"
 	}
 	"ProgressText"
 	{
-		"ypos"										"rs1-5"
+		"YPos"										"rs1-5"
 	}
 	"Blocked"
 	{
-		"ypos"										"rs1"
-		"ypos_minmode"								"rs1-5"
+		"YPos"										"rs1"
+		"YPos_Minmode"								"rs1-5"
 	}
 }

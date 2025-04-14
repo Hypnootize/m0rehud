@@ -2,7 +2,7 @@
 {
 	"ItemEffectMeter2"
 	{
-		"tall"										"f0"
-		"tall_minmode"								"f0"
+		"Tall"										"f0"
+		"Tall_Minmode"								"f0"
 	}
 }

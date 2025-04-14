@@ -6,7 +6,7 @@
 		{
 			"HealthBar"
 			{
-				"wide"								"f0"
+				"Wide"								"f0"
 			}
 		}
 	}

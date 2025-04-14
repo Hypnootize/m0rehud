@@ -6,7 +6,7 @@
 		{
 			"PlayerName"
 			{
-				"visible"							"0"
+				"Visible"							"0"
 			}
 		}
 	}

@@ -1,6 +1,6 @@
 "UnlitGeneric"
 {
-	"$baseTexture"			"vgui\replay\thumbnails\customizations\scope_charge\scope_charge_outside"
+	"$baseTexture"			"vgui/replay/thumbnails/customizations/scope_charge/scope_charge_outside"
 	"$vertexalpha"			"1"
 	"$alpha"				"1"
 	"$translucent"			"1"

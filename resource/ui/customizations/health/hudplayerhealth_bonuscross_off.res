@@ -2,7 +2,7 @@
 {
 	"PlayerStatusHealthBonusImage"
 	{
-		"xpos"										"9999"
-		"xpos_minmode"								"9999"
+		"XPos"										"9999"
+		"XPos_Minmode"								"9999"
 	}
 }

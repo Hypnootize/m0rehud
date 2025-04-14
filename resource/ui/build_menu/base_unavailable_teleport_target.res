@@ -4,10 +4,10 @@
 {
 	"ItemNameLabel"
 	{
-		"visible"									"0"
+		"Visible"									"0"
 	}
 	"CantBuildReason"
 	{
-		"visible"									"1"
+		"Visible"									"1"
 	}
 }

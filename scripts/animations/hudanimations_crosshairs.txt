@@ -1,5 +1,5 @@
 event CrosshairFlash
 {
-	Animate "CustomCrosshair"		FgColor		"Crosshair_Flash"			Linear	0.0		0.00001
-	Animate "CustomCrosshair"		FgColor		"Crosshair"					Linear	0.10	0.10001
+	Animate "CustomCrosshair"		FGColor		"Crosshair_Flash"			Linear	0.0		0.00001
+	Animate "CustomCrosshair"		FGColor		"Crosshair"					Linear	0.10	0.10001
 }

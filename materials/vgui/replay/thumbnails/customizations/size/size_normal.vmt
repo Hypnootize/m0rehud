@@ -1,6 +1,6 @@
 "UnlitGeneric"
 {
-	"$baseTexture"			"vgui\replay\thumbnails\customizations\size\size_normal"
+	"$baseTexture"			"vgui/replay/thumbnails/customizations/size/size_normal"
 	"$vertexalpha"			"1"
 	"$alpha"				"1"
 	"$translucent"			"1"

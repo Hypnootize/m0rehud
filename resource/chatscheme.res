@@ -19,83 +19,83 @@
 		"Border.Selection"									"Blank"
 
 		"Button.TextColor"									"White"
-		"Button.BgColor"									"0 0 0 125"
+		"Button.BGColor"									"0 0 0 125"
 		"Button.ArmedTextColor"								"White"
-		"Button.ArmedBgColor"								"0 0 0 200"
+		"Button.ArmedBGColor"								"0 0 0 200"
 		"Button.DepressedTextColor"							"White"
-		"Button.DepressedBgColor"							"0 0 0 125"
+		"Button.DepressedBGColor"							"0 0 0 125"
 		"Button.FocusBorderColor"							"Black"
 
 		"CheckButton.TextColor"								"White"
 		"CheckButton.SelectedTextColor"						"White"
-		"CheckButton.BgColor"								"0 0 0 125"
+		"CheckButton.BGColor"								"0 0 0 125"
 		"CheckButton.Border1"								"White"
 		"CheckButton.Border2"								"White"
 		"CheckButton.Check"									"White"
-		"CheckButton.HighlightFgColor"						"White"
+		"CheckButton.HighlightFGColor"						"White"
 
 		"ComboBoxButton.ArrowColor"							"White"
 		"ComboBoxButton.ArmedArrowColor"					"White"
-		"ComboBoxButton.BgColor"							"Blank"
-		"ComboBoxButton.DisabledBgColor"					"Blank"
+		"ComboBoxButton.BGColor"							"Blank"
+		"ComboBoxButton.DisabledBGColor"					"Blank"
 
 		"Chat.TypingText"									"White"
 
 		"Frame.TitleTextInsetX"								"16"
 		"Frame.ClientInsetX"								"8"
 		"Frame.ClientInsetY"								"6"
-		"Frame.BgColor"										"Blank"
-		"Frame.OutOfFocusBgColor"							"Blank"
+		"Frame.BGColor"										"Blank"
+		"Frame.OutOfFocusBGColor"							"Blank"
 		"Frame.FocusTransitionEffectTime"					"0.2"
 		"Frame.TransitionEffectTime"						"0.2"
 		"Frame.AutoSnapRange"								"0"
 		"FrameGrip.Color1"									"0 0 0 200"
 		"FrameGrip.Color2"									"0 0 0 200"
-		"FrameTitleButton.FgColor"							"0 0 0 220"
-		"FrameTitleButton.BgColor"							"Blank"
-		"FrameTitleButton.DisabledFgColor"					"255 255 255 190"
-		"FrameTitleButton.DisabledBgColor"					"Blank"
-		"FrameSystemButton.FgColor"							"Blank"
-		"FrameSystemButton.BgColor"							"Blank"
+		"FrameTitleButton.FGColor"							"0 0 0 220"
+		"FrameTitleButton.BGColor"							"Blank"
+		"FrameTitleButton.DisabledFGColor"					"255 255 255 190"
+		"FrameTitleButton.DisabledBGColor"					"Blank"
+		"FrameSystemButton.FGColor"							"Blank"
+		"FrameSystemButton.BGColor"							"Blank"
 		"FrameSystemButton.Icon"							""
 		"FrameSystemButton.DisabledIcon"					""
 		"FrameTitleBar.Font"								"UiBold"
 		"FrameTitleBar.Font"								"DefaultLarge"
 		"FrameTitleBar.TextColor"							"White"
-		"FrameTitleBar.BgColor"								"Blank"
+		"FrameTitleBar.BGColor"								"Blank"
 		"FrameTitleBar.DisabledTextColor"					"255 255 255 190"
-		"FrameTitleBar.DisabledBgColor"						"Blank"
+		"FrameTitleBar.DisabledBGColor"						"Blank"
 
-		"GraphPanel.FgColor"								"White"
-		"GraphPanel.BgColor"								"Blank"
+		"GraphPanel.FGColor"								"White"
+		"GraphPanel.BGColor"								"Blank"
 
 		"Label.TextDullColor"								"White"
 		"Label.TextColor"									"White"
 		"Label.TextBrightColor"								"White"
 		"Label.SelectedTextColor"							"White"
-		"Label.BgColor"										"Blank"
-		"Label.DisabledFgColor1"							"117 117 117 255"
-		"Label.DisabledFgColor2"							"0 0 0 255"
+		"Label.BGColor"										"Blank"
+		"Label.DisabledFGColor1"							"117 117 117 255"
+		"Label.DisabledFGColor2"							"0 0 0 255"
 
 		"ListPanel.TextColor"								"White"
-		"ListPanel.TextBgColor"								"Blank"
-		"ListPanel.BgColor"									"Blank"
+		"ListPanel.TextBGColor"								"Blank"
+		"ListPanel.BGColor"									"Blank"
 		"ListPanel.SelectedTextColor"						"Black"
-		"ListPanel.SelectedBgColor"							"Orange"
-		"ListPanel.SelectedOutOfFocusBgColor"				"255 155 0 128"
+		"ListPanel.SelectedBGColor"							"Orange"
+		"ListPanel.SelectedOutOfFocusBGColor"				"255 155 0 128"
 		"ListPanel.EmptyListInfoTextColor"					"White"
 
 		"Menu.TextColor"									"White"
-		"Menu.BgColor"										"0 0 0 200"
+		"Menu.BGColor"										"0 0 0 200"
 		"Menu.ArmedTextColor"								"Black"
-		"Menu.ArmedBgColor"									"Orange"
+		"Menu.ArmedBGColor"									"Orange"
 		"Menu.TextInset"									"6"
 
-		"Panel.FgColor"										"Blank"
-		"Panel.BgColor"										"0 0 0 200"
+		"Panel.FGColor"										"Blank"
+		"Panel.BGColor"										"0 0 0 200"
 
-		"ProgressBar.FgColor"								"White"
-		"ProgressBar.BgColor"								"Blank"
+		"ProgressBar.FGColor"								"White"
+		"ProgressBar.BGColor"								"Blank"
 
 		"PropertySheet.TextColor"							"White"
 		"PropertySheet.SelectedTextColor"					"White"
@@ -105,32 +105,32 @@
 		"RadioButton.SelectedTextColor"						"White"
 
 		"RichText.TextColor"								"White"
-		"RichText.BgColor"									"Blank"
+		"RichText.BGColor"									"Blank"
 		"RichText.SelectedTextColor"						"Black"
-		"RichText.SelectedBgColor"							"160 165 170 255"
+		"RichText.SelectedBGColor"							"160 165 170 255"
 
 		"ScrollBar.Wide"									"5"
 
-		"ScrollBarButton.FgColor"							"Blank"
-		"ScrollBarButton.BgColor"							"Blank"
-		"ScrollBarButton.ArmedFgColor"						"Blank"
-		"ScrollBarButton.ArmedBgColor"						"Blank"
-		"ScrollBarButton.DepressedFgColor"					"Blank"
-		"ScrollBarButton.DepressedBgColor"					"Blank"
+		"ScrollBarButton.FGColor"							"Blank"
+		"ScrollBarButton.BGColor"							"Blank"
+		"ScrollBarButton.ArmedFGColor"						"Blank"
+		"ScrollBarButton.ArmedBGColor"						"Blank"
+		"ScrollBarButton.DepressedFGColor"					"Blank"
+		"ScrollBarButton.DepressedBGColor"					"Blank"
 
-		"ScrollBarSlider.FgColor"							"White"
-		"ScrollBarSlider.BgColor"							"Blank"
+		"ScrollBarSlider.FGColor"							"White"
+		"ScrollBarSlider.BGColor"							"Blank"
 
 		"SectionedListPanel.HeaderTextColor"				"White"
-		"SectionedListPanel.HeaderBgColor"					"Blank"
+		"SectionedListPanel.HeaderBGColor"					"Blank"
 		"SectionedListPanel.DividerColor"					"Black"
 		"SectionedListPanel.TextColor"						"White"
 		"SectionedListPanel.BrightTextColor"				"White"
-		"SectionedListPanel.BgColor"						"Blank"
+		"SectionedListPanel.BGColor"						"Blank"
 		"SectionedListPanel.SelectedTextColor"				"Black"
-		"SectionedListPanel.SelectedBgColor"				"Orange"
+		"SectionedListPanel.SelectedBGColor"				"Orange"
 		"SectionedListPanel.OutOfFocusSelectedTextColor"	"Black"
-		"SectionedListPanel.OutOfFocusSelectedBgColor"		"255 155 0 128"
+		"SectionedListPanel.OutOfFocusSelectedBGColor"		"255 155 0 128"
 
 		"Slider.NobColor"									"White"
 		"Slider.TextColor"									"White"
@@ -139,23 +139,23 @@
 		"Slider.DisabledTextColor2"							"Black"
 
 		"TextEntry.TextColor"								"White"
-		"TextEntry.BgColor"									"Blank"
+		"TextEntry.BGColor"									"Blank"
 		"TextEntry.CursorColor"								"White"
 		"TextEntry.DisabledTextColor"						"White"
-		"TextEntry.DisabledBgColor"							"Blank"
+		"TextEntry.DisabledBGColor"							"Blank"
 		"TextEntry.SelectedTextColor"						"Black"
-		"TextEntry.SelectedBgColor"							"160 165 170 255"
-		"TextEntry.OutOfFocusSelectedBgColor"				"160 165 170 255"
+		"TextEntry.SelectedBGColor"							"160 165 170 255"
+		"TextEntry.OutOfFocusSelectedBGColor"				"160 165 170 255"
 		"TextEntry.FocusEdgeColor"							"0 0 0 200"
 
 		"ToggleButton.SelectedTextColor"					"White"
 
 		"Tooltip.TextColor"									"0 0 0 200"
-		"Tooltip.BgColor"									"Orange"
+		"Tooltip.BGColor"									"Orange"
 
-		"TreeView.BgColor"									"Blank"
+		"TreeView.BGColor"									"Blank"
 
-		"WizardSubPanel.BgColor"							"Blank"
+		"WizardSubPanel.BGColor"							"Blank"
 
 		// scheme-specific colors
 		"MainMenu.TextColor"								"White"
@@ -195,7 +195,7 @@
 			"1"
 			{
 				"name"										"Verdana"
-				"tall"										"12"
+				"Tall"										"12"
 				"weight"									"0"
 				"range"										"0x0000 0x017F"
 				"yres"										"480 599"
@@ -203,7 +203,7 @@
 			"2"
 			{
 				"name"										"Verdana"
-				"tall"										"13"
+				"Tall"										"13"
 				"weight"									"0"
 				"range"										"0x0000 0x017F"
 				"yres"										"600 767"
@@ -211,7 +211,7 @@
 			"3"
 			{
 				"name"										"Verdana"
-				"tall"										"14"
+				"Tall"										"14"
 				"weight"									"0"
 				"range"										"0x0000 0x017F"
 				"yres"										"768 1023"
@@ -220,7 +220,7 @@
 			"4"
 			{
 				"name"										"Verdana"
-				"tall"										"16"
+				"Tall"										"16"
 				"weight"									"0"
 				"range"										"0x0000 0x017F"
 				"yres"										"1024 1199"
@@ -229,7 +229,7 @@
 			"5"
 			{
 				"name"										"Verdana"
-				"tall"										"8"
+				"Tall"										"8"
 				"weight"									"0"
 				"range"										"0x0000 0x017F"
 				"antialias"									"1"
@@ -240,21 +240,21 @@
 			"1"
 			{
 				"name"										"Verdana"
-				"tall"										"12"
+				"Tall"										"12"
 				"range"										"0x0000 0x017F"
 				"yres"										"480 599"
 			}
 			"2"
 			{
 				"name"										"Verdana"
-				"tall"										"12"
+				"Tall"										"12"
 				"range"										"0x0000 0x017F"
 				"yres"										"600 767"
 			}
 			"3"
 			{
 				"name"										"Verdana"
-				"tall"										"12"
+				"Tall"										"12"
 				"range"										"0x0000 0x017F"
 				"yres"										"768 1023"
 				"antialias"									"1"
@@ -262,7 +262,7 @@
 			"4"
 			{
 				"name"										"Verdana"
-				"tall"										"14"
+				"Tall"										"14"
 				"range"										"0x0000 0x017F"
 				"yres"										"1024 1199"
 				"antialias"									"1"
@@ -270,7 +270,7 @@
 			"5"
 			{
 				"name"										"Verdana"
-				"tall"										"16"
+				"Tall"										"16"
 				"range"										"0x0000 0x017F"
 				"yres"										"1200 6000"
 				"antialias"									"1"
@@ -281,7 +281,7 @@
 			"1"
 			{
 				"name"										"Verdana"
-				"tall"										"7"
+				"Tall"										"7"
 				"antialias"									"1"
 			}
 		}
@@ -289,8 +289,8 @@
 		{
 			"1"
 			{
-				"name"										"m0rehud Icons V12"
-				"tall"										"14"
+				"name"										"m0rehud Icons V13"
+				"Tall"										"14"
 				"antialias"									"1"
 			}
 		}
@@ -301,7 +301,7 @@
 			"1"
 			{
 				"name"										"Marlett"
-				"tall"										"10"
+				"Tall"										"10"
 				"weight"									"0"
 				"yres"										"480 599"
 				"symbol"									"1"
@@ -309,7 +309,7 @@
 			"2"
 			{
 				"name"										"Marlett"
-				"tall"										"14"
+				"Tall"										"14"
 				"weight"									"0"
 				"yres"										"600 767"
 				"symbol"									"1"
@@ -317,7 +317,7 @@
 			"3"
 			{
 				"name"										"Marlett"
-				"tall"										"13"
+				"Tall"										"13"
 				"weight"									"0"
 				"yres"										"768 1023"
 				"symbol"									"1"
@@ -325,7 +325,7 @@
 			"4"
 			{
 				"name"										"Marlett"
-				"tall"										"17"
+				"Tall"										"17"
 				"weight"									"0"
 				"yres"										"1024 1199"
 				"symbol"									"1"
@@ -333,7 +333,7 @@
 			"5"
 			{
 				"name"										"Marlett"
-				"tall"										"22"
+				"Tall"										"22"
 				"weight"									"0"
 				"yres"										"1200 10000"
 				"symbol"									"1"
@@ -345,7 +345,7 @@
 			"1"
 			{
 				"name"										"Marlett"
-				"tall"										"7"
+				"Tall"										"7"
 				"weight"									"0"
 				"yres"										"480 599"
 				"symbol"									"1"
@@ -353,7 +353,7 @@
 			"2"
 			{
 				"name"										"Marlett"
-				"tall"										"9"
+				"Tall"										"9"
 				"weight"									"0"
 				"yres"										"600 767"
 				"symbol"									"1"
@@ -361,7 +361,7 @@
 			"3"
 			{
 				"name"										"Marlett"
-				"tall"										"11"
+				"Tall"										"11"
 				"weight"									"0"
 				"yres"										"768 1023"
 				"symbol"									"1"
@@ -369,7 +369,7 @@
 			"4"
 			{
 				"name"										"Marlett"
-				"tall"										"13"
+				"Tall"										"13"
 				"weight"									"0"
 				"yres"										"1024 1199"
 				"symbol"									"1"
@@ -377,7 +377,7 @@
 			"5"
 			{
 				"name"										"Marlett"
-				"tall"										"17"
+				"Tall"										"17"
 				"weight"									"0"
 				"yres"										"1200 10000"
 				"symbol"									"1"
@@ -391,7 +391,7 @@
 			"1"
 			{
 				"name"										"Verdana"
-				"tall"										"12"
+				"Tall"										"12"
 				"weight"									"700"
 				"yres"										"480 599"
 				"dropshadow"								"1"
@@ -399,7 +399,7 @@
 			"2"
 			{
 				"name"										"Verdana"
-				"tall"										"14"
+				"Tall"										"14"
 				"weight"									"700"
 				"yres"										"600 767"
 				"dropshadow"								"1"
@@ -407,7 +407,7 @@
 			"3"
 			{
 				"name"										"Verdana"
-				"tall"										"15"
+				"Tall"										"15"
 				"weight"									"700"
 				"yres"										"768 1023"
 				"dropshadow"								"1"
@@ -415,7 +415,7 @@
 			"4"
 			{
 				"name"										"Verdana"
-				"tall"										"17"
+				"Tall"										"17"
 				"weight"									"700"
 				"yres"										"1024 1199"
 				"dropshadow"								"1"
@@ -423,7 +423,7 @@
 			"5"
 			{
 				"name"										"Verdana"
-				"tall"										"8"
+				"Tall"										"8"
 				"weight"									"300"
 				"dropshadow"								"1"
 				"antialias"									"1"
@@ -810,8 +810,8 @@
 		"2" "resource/HL2EP2.ttf"
 		"3"
 		{
-			"font"	"resource/scheme/fonts/m0rehud_icons.ttf"
-			"name"	"m0rehud Icons V12"
+			"Font"	"resource/scheme/fonts/m0rehud_icons.ttf"
+			"name"	"m0rehud Icons V13"
 		}
 	}
 }

@@ -2,12 +2,21 @@
 {
 	"Fonts"
 	{
+		"Showcase_User_Font"
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"Tall"										"24"
+				"antialias"									"1"
+			}
+		}
 		"Showcase_Alternate_Gothic"
 		{
 			"1"
 			{
 				"name"										"AlternateGothicEF-NoThree"
-				"tall"										"11"
+				"Tall"										"30"
 				"antialias"									"1"
 			}
 		}
@@ -16,7 +25,7 @@
 			"1"
 			{
 				"name"										"Archive"
-				"tall"										"11"
+				"Tall"										"23"
 				"antialias"									"1"
 			}
 		}
@@ -25,7 +34,7 @@
 			"1"
 			{
 				"name"										"AvenirLTStd-Black"
-				"tall"										"11"
+				"Tall"										"23"
 				"antialias"									"1"
 			}
 		}
@@ -34,7 +43,7 @@
 			"1"
 			{
 				"name"										"Cafe Nero M54"
-				"tall"										"8"
+				"Tall"										"15"
 				"antialias"									"1"
 			}
 		}
@@ -43,7 +52,7 @@
 			"1"
 			{
 				"name"										"Catamaran SemiBold"
-				"tall"										"14"
+				"Tall"										"36"
 				"antialias"									"1"
 			}
 		}
@@ -52,7 +61,7 @@
 			"1"
 			{
 				"name"										"Cerbetica Bold"
-				"tall"										"11"
+				"Tall"										"27"
 				"antialias"									"1"
 			}
 		}
@@ -61,7 +70,7 @@
 			"1"
 			{
 				"name"										"Code-Pro-LC"
-				"tall"										"11"
+				"Tall"										"24"
 				"antialias"									"1"
 			}
 		}
@@ -70,7 +79,7 @@
 			"1"
 			{
 				"name"										"Days"
-				"tall"										"10"
+				"Tall"										"20"
 				"antialias"									"1"
 			}
 		}
@@ -79,7 +88,7 @@
 			"1"
 			{
 				"name"										"FuturaSTD-Heavy"
-				"tall"										"11"
+				"Tall"										"25"
 				"antialias"									"1"
 			}
 		}
@@ -88,7 +97,7 @@
 			"1"
 			{
 				"name"										"Handel Gothic BT"
-				"tall"										"10"
+				"Tall"										"20"
 				"antialias"									"1"
 			}
 		}
@@ -97,7 +106,7 @@
 			"1"
 			{
 				"name"										"Harabara Bold"
-				"tall"										"11"
+				"Tall"										"24"
 				"antialias"									"1"
 			}
 		}
@@ -106,7 +115,7 @@
 			"1"
 			{
 				"name"										"HelveticaNeueLT-BoldExt"
-				"tall"										"10"
+				"Tall"										"18"
 				"antialias"									"1"
 			}
 		}
@@ -115,7 +124,7 @@
 			"1"
 			{
 				"name"										"Lato Bold"
-				"tall"										"11"
+				"Tall"										"24"
 				"antialias"									"1"
 			}
 		}
@@ -124,7 +133,7 @@
 			"1"
 			{
 				"name"										"Maven Pro Black"
-				"tall"										"11"
+				"Tall"										"22"
 				"antialias"									"1"
 			}
 		}
@@ -133,7 +142,7 @@
 			"1"
 			{
 				"name"										"NeutraText-Bold"
-				"tall"										"11"
+				"Tall"										"27"
 				"antialias"									"1"
 			}
 		}
@@ -142,7 +151,7 @@
 			"1"
 			{
 				"name"										"NexaBold"
-				"tall"										"11"
+				"Tall"										"23"
 				"antialias"									"1"
 			}
 		}
@@ -151,7 +160,7 @@
 			"1"
 			{
 				"name"										"Noto Sans Bold"
-				"tall"										"11"
+				"Tall"										"28"
 				"antialias"									"1"
 			}
 		}
@@ -160,7 +169,7 @@
 			"1"
 			{
 				"name"										"TT Octosquares Trl Bd"
-				"tall"										"11"
+				"Tall"										"22"
 				"antialias"									"1"
 			}
 		}
@@ -169,7 +178,7 @@
 			"1"
 			{
 				"name"										"Product Sans"
-				"tall"										"11"
+				"Tall"										"26"
 				"antialias"									"1"
 			}
 		}
@@ -178,7 +187,16 @@
 			"1"
 			{
 				"name"										"Product Sans Bold"
-				"tall"										"11"
+				"Tall"										"26"
+				"antialias"									"1"
+			}
+		}
+		"Showcase_Raleway"
+		{
+			"1"
+			{
+				"name"										"Raleway Bold"
+				"Tall"										"28"
 				"antialias"									"1"
 			}
 		}
@@ -187,7 +205,7 @@
 			"1"
 			{
 				"name"										"RenogareSoft-Regular"
-				"tall"										"11"
+				"Tall"										"24"
 				"antialias"									"1"
 			}
 		}
@@ -196,7 +214,7 @@
 			"1"
 			{
 				"name"										"Roboto Bold"
-				"tall"										"11"
+				"Tall"										"25"
 				"antialias"									"1"
 			}
 		}
@@ -205,7 +223,7 @@
 			"1"
 			{
 				"name"										"Rubik SemiBold"
-				"tall"										"11"
+				"Tall"										"23"
 				"antialias"									"1"
 			}
 		}
@@ -214,7 +232,7 @@
 			"1"
 			{
 				"name"										"Sansation Bold"
-				"tall"										"11"
+				"Tall"										"22"
 				"antialias"									"1"
 			}
 		}
@@ -223,7 +241,7 @@
 			"1"
 			{
 				"name"										"SlatePro-BoldCondensed"
-				"tall"										"11"
+				"Tall"										"25"
 				"antialias"									"1"
 			}
 		}
@@ -232,7 +250,7 @@
 			"1"
 			{
 				"name"										"Solomon Heavy"
-				"tall"										"10"
+				"Tall"										"22"
 				"antialias"									"1"
 			}
 		}
@@ -241,7 +259,16 @@
 			"1"
 			{
 				"name"										"Surface-Medium"
-				"tall"										"11"
+				"Tall"										"24"
+				"antialias"									"1"
+			}
+		}
+		"Showcase_Surface_Semibold"
+		{
+			"1"
+			{
+				"name"										"Surface-Semibold"
+				"Tall"										"22"
 				"antialias"									"1"
 			}
 		}
@@ -250,7 +277,7 @@
 			"1"
 			{
 				"name"										"Surface-Bold"
-				"tall"										"11"
+				"Tall"										"24"
 				"antialias"									"1"
 			}
 		}
@@ -259,7 +286,7 @@
 			"1"
 			{
 				"name"										"SurfaceSharpened-Medium"
-				"tall"										"11"
+				"Tall"										"24"
 				"antialias"									"1"
 			}
 		}
@@ -268,7 +295,7 @@
 			"1"
 			{
 				"name"										"TF2 Secondary"
-				"tall"										"11"
+				"Tall"										"28"
 				"antialias"									"1"
 			}
 		}
@@ -277,7 +304,7 @@
 			"1"
 			{
 				"name"										"TF2 Build"
-				"tall"										"9"
+				"Tall"										"22"
 				"antialias"									"1"
 			}
 		}
@@ -286,7 +313,7 @@
 			"1"
 			{
 				"name"										"Ubuntu Bold"
-				"tall"										"11"
+				"Tall"										"25"
 				"antialias"									"1"
 			}
 		}
@@ -295,7 +322,7 @@
 			"1"
 			{
 				"name"										"VCR OSD Mono"
-				"tall"										"10"
+				"Tall"										"20"
 				"antialias"									"1"
 			}
 		}
@@ -304,7 +331,7 @@
 			"1"
 			{
 				"name"										"Verlag-Black"
-				"tall"										"11"
+				"Tall"										"27"
 				"antialias"									"1"
 			}
 		}
@@ -313,7 +340,7 @@
 			"1"
 			{
 				"name"										"Surface-Medium"
-				"tall"										"18"
+				"Tall"										"18"
 				"antialias"									"1"
 				"outline"									"1"
 			}
@@ -323,7 +350,7 @@
 			"1"
 			{
 				"name"										"Surface-Medium"
-				"tall"										"24"
+				"Tall"										"24"
 				"antialias"									"1"
 				"outline"									"1"
 			}
@@ -333,7 +360,7 @@
 			"1"
 			{
 				"name"										"Surface-Medium"
-				"tall"										"30"
+				"Tall"										"30"
 				"antialias"									"1"
 				"outline"									"1"
 			}
@@ -343,8 +370,28 @@
 			"1"
 			{
 				"name"										"TF2Crosshairs_m0re_V3"
-				"tall"										"10"
+				"Tall"										"13"
 				"antialias"									"1"
+			}
+		}
+		"Crosshair_Showcase_OL"
+		{
+			"1"
+			{
+				"name"										"TF2Crosshairs_m0re_V3"
+				"Tall"										"30"
+				"antialias"									"1"
+				"Outline"									"1"
+			}
+		}
+		"Crosshair_Showcase_DS"
+		{
+			"1"
+			{
+				"name"										"TF2Crosshairs_m0re_V3"
+				"Tall"										"30"
+				"antialias"									"1"
+				"Dropshadow"								"1"
 			}
 		}
 	}

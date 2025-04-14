@@ -4,22 +4,22 @@
 {
 	"TitleBG"
 	{
-		"visible"									"0"
+		"Visible"									"0"
 	}
 	"ItemNameLabel"
 	{
-		"labelText"									"#TF_Class_Name_Sniper"
+		"LabelText"									"#TF_Class_Name_Sniper"
 	}
 	"ClassIcon"
 	{
-		"labelText"									"h"
+		"LabelText"									"h"
 	}
 	"NumberLabel"
 	{
-		"labelText"									"8"
+		"LabelText"									"8"
 	}
 	"NewNumberLabel"
 	{
-		"labelText"									"2"
+		"LabelText"									"2"
 	}
 }

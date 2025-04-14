@@ -1,6 +1,6 @@
 "UnlitGeneric"
 {
-	"$baseTexture"									"vgui\replay\thumbnails\customizations\ammo\ammo_flash"
+	"$baseTexture"									"vgui/replay/thumbnails/customizations/ammo/ammo_flash"
 	"$vertexcolor"									"1"
 	"$vertexalpha"									"1"
 	"$nolod"										"1"
@@ -12,7 +12,7 @@
 		{
 			"animatedtexturevar"					"$basetexture"
 			"animatedtextureframenumvar"			"$frame"
-			"animatedtextureframerate"				"7"
+			"animatedtextureframerate"				"11"
 		}
 	}
 }

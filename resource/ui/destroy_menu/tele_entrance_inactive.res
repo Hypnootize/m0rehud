@@ -4,14 +4,14 @@
 {
 	"ItemNameLabel"
 	{
-		"labelText"									"#TF_Object_Tele_Entrance_360"
+		"LabelText"									"#TF_Object_Tele_Entrance_360"
 	}
 	"BuildingImage"
 	{
-		"labelText"									"x"
+		"LabelText"									"x"
 	}
 	"NumberLabel"
 	{
-		"labelText"									"3"
+		"LabelText"									"3"
 	}
 }

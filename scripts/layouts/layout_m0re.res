@@ -2,19 +2,19 @@
 {
 	"HudWeaponAmmo"
 	{
-		"xpos"										"0"
-		"xpos_minmode"								"0"
-		"ypos"										"0"
-		"ypos_minmode"								"0"
-		"wide"										"f0"
-		"tall"										"f0"
+		"XPos"										"0"
+		"XPos_Minmode"								"0"
+		"YPos"										"0"
+		"YPos_Minmode"								"0"
+		"Wide"										"f0"
+		"Tall"										"f0"
 	}
 	"HudKothTimeStatus"
 	{
-		"xpos"										"cs-0.5"
-		"ypos"										"0"
-		"wide"										"88"
-		"tall"										"40"
+		"XPos"										"cs-0.5"
+		"YPos"										"0"
+		"Wide"										"88"
+		"Tall"										"40"
 
 		"blue_active_xpos"							"0"
 		"blue_active_xpos_minmode"					"0"
@@ -24,53 +24,53 @@
 	}
 	"HudMedicCharge"
 	{
-		"xpos"										"0"
-		"xpos_minmode"								"0"
-		"ypos"										"0"
-		"ypos_minmode"								"0"
-		"wide"										"f0"
-		"tall"										"f0"
+		"XPos"										"0"
+		"XPos_Minmode"								"0"
+		"YPos"										"0"
+		"YPos_Minmode"								"0"
+		"Wide"										"f0"
+		"Tall"										"f0"
 	}
 	"HudDemomanCharge"
 	{
-		"xpos"										"0"
-		"xpos_minmode"								"0"
-		"ypos"										"0"
-		"ypos_minmode"								"0"
-		"zpos"										"1"
-		"wide"										"f0"
-		"wide_minmode"								"f0"
-		"tall"										"f0"
+		"XPos"										"0"
+		"XPos_Minmode"								"0"
+		"YPos"										"0"
+		"YPos_Minmode"								"0"
+		"ZPos"										"1"
+		"Wide"										"f0"
+		"Wide_Minmode"								"f0"
+		"Tall"										"f0"
 	}
 	"HudBossHealth"
 	{
-		"xpos"										"cs-0.5"
-		"ypos"										"65"
-		"wide"										"172"
-		"tall"										"50"
+		"XPos"										"cs-0.5"
+		"YPos"										"65"
+		"Wide"										"172"
+		"Tall"										"50"
 	}
 	"CHudAccountPanel"
 	{
-		"xpos"										"c-100"
-		"ypos"										"c50"
-		"ypos_minmode"								"c53"
-		"wide"										"200"
-		"tall"										"50"
+		"XPos"										"c-100"
+		"YPos"										"c50"
+		"YPos_Minmode"								"c53"
+		"Wide"										"200"
+		"Tall"										"50"
 	}
 	"CHealthAccountPanel"
 	{
-		"xpos"										"0"
-		"xpos_minmode"								"0"
-		"ypos"										"r25"
-		"ypos_minmode"								"r25"
-		"wide"										"f0"
-		"tall"										"25"
+		"XPos"										"0"
+		"XPos_Minmode"								"0"
+		"YPos"										"r25"
+		"YPos_Minmode"								"r25"
+		"Wide"										"f0"
+		"Tall"										"25"
 	}
 	"HudDamageIndicator"
 	{
-		"fieldName"									"HudDamageIndicator"
-		"visible"									"1"
-		"enabled"									"1"
+		"FieldName"									"HudDamageIndicator"
+		"Visible"									"1"
+		"Enabled"									"1"
 		"StartRadius"								"120"
 		"EndRadius"									"120"
 		"MinimumWidth"								"10"
@@ -86,73 +86,74 @@
 	}
 	"CDamageAccountPanel"
 	{
-		"xpos"										"-5"
-		"ypos"										"-5"
+		"XPos"										"-5"
+		"YPos"										"-5"
 	}
 	"DisguiseStatus"
 	{
-		"xpos"										"0"
-		"ypos"										"0"
-		"wide"										"f0"
-		"tall"										"f0"
+		"XPos"										"0"
+		"YPos"										"0"
+		"Wide"										"f0"
+		"Tall"										"f0"
 	}
 	"CMainTargetID"
 	{
-		"ypos"										"c85"
-		"ypos_minmode"								"c30"
-		"tall"										"32"
-		"tall_minmode"								"32"
+		"YPos"										"c74"
+		"YPos_Minmode"								"c17"
+		"Tall"										"55"
+		"Tall_Minmode"								"55"
 	}
 	"CSpectatorTargetID"
 	{
-		"ypos"										"c90"
-		"ypos_minmode"								"c90"
-		"tall"										"32"
-		"tall_minmode"								"32"
+		"YPos"										"c81"
+		"YPos_Minmode"								"c81"
+		"Tall"										"55"
+		"Tall_Minmode"								"55"
 	}
 	"CSecondaryTargetID"
 	{
-		"ypos"										"c122"
-		"ypos_minmode"								"c85"
-		"tall"										"32"
-		"tall_minmode"								"32"
+		"YPos"										"c114"
+		"YPos_Minmode"								"c73"
+		"Tall"										"55"
+		"Tall_Minmode"								"55"
 	}
 	"BuildingAnchor"
 	{
 		"ControlName"								"Panel"
-		"fieldName"									"BuildingAnchor"
-		"xpos"										"-9"
-		"ypos"										"135"
-		"zpos"										"0"
-		"wide"										"1"
-		"tall"										"1"
-		"visible"									"0"
-		"enabled"									"1"
-		"alpha"										"0"
+		"FieldName"									"BuildingAnchor"
+		"XPos"										"-9"
+		"YPos"										"135"
+		"ZPos"										"0"
+		"Wide"										"1"
+		"Tall"										"1"
+		"Visible"									"0"
+		"Enabled"									"1"
+		"Alpha"										"0"
 	}
 	"BuildingStatus_Spy"
 	{
-		"pin_to_sibling"							"BuildingAnchor"
+		"Pin_To_Sibling"							"BuildingAnchor"
 	}
 	"BuildingStatus_Engineer"
 	{
-		"pin_to_sibling"							"BuildingAnchor"
+		"Pin_To_Sibling"							"BuildingAnchor"
 	}
 	"CurrencyStatusPanel"
 	{
-		"xpos"										"0"
-		"xpos_minmode"								"0"
-		"ypos"										"0"
-		"ypos_minmode"								"0"
-		"wide"										"f0"
-		"tall"										"f0"
+		"XPos"										"c-45"
+		"XPos_Minmode"								"c-45"
+		"YPos"										"rs1"
+		"YPos_Minmode"								"rs1"
+		"ZPos"										"2"
+		"Wide"										"44"
+		"Tall"										"12"
 	}
 	"HudDeathNotice"
 	{
-		"xpos"										"r640"
-		"ypos"										"15"
-		"wide"										"628"
-		"tall"										"468"
+		"XPos"										"r640"
+		"YPos"										"22"
+		"Wide"										"628"
+		"Tall"										"468"
 
 		"MaxDeathNotices"							"8"
 		"IconScale"									"0.35"
@@ -173,12 +174,12 @@
 	}
 	"HudCloseCaption"
 	{
-		"xpos"										"c220"
-		"xpos_minmode"								"c-35"
-		"ypos"										"c112"
-		"ypos_minmode"								"r105"
-		"wide"										"150"
-		"tall"										"50"
+		"XPos"										"c220"
+		"XPos_Minmode"								"c-35"
+		"YPos"										"c112"
+		"YPos_Minmode"								"r105"
+		"Wide"										"500"
+		"Tall"										"50"
 
 		"BgAlpha"									"0"
 
@@ -196,133 +197,133 @@
 	}
 	"WinPanel"
 	{
-		"xpos"										"0"
-		"ypos"										"0"
-		"zpos"										"10"
-		"wide"										"f0"
-		"tall"										"f0"
+		"XPos"										"0"
+		"YPos"										"0"
+		"ZPos"										"10"
+		"Wide"										"f0"
+		"Tall"										"f0"
 	}
 	"ArenaWinPanel"
 	{
-		"xpos"										"0"
-		"ypos"										"0"
-		"zpos"										"10"
-		"wide"										"f0"
-		"tall"										"f0"
+		"XPos"										"0"
+		"YPos"										"0"
+		"ZPos"										"10"
+		"Wide"										"f0"
+		"Tall"										"f0"
 	}
 	"PVEWinPanel"
 	{
-		"xpos"										"0"
-		"ypos"										"0"
-		"wide"										"f0"
-		"tall"										"f0"
+		"XPos"										"0"
+		"YPos"										"0"
+		"Wide"										"f0"
+		"Tall"										"f0"
 	}
 	"HudAlert"
 	{
-		"xpos"										"0"
-		"ypos"										"0"
-		"wide"										"f0"
-		"tall"										"f0"
+		"XPos"										"0"
+		"YPos"										"0"
+		"Wide"										"f0"
+		"Tall"										"f0"
 	}
 	"HudTeamSwitch"
 	{
-		"xpos"										"0"
-		"ypos"										"0"
-		"wide"										"f0"
-		"tall"										"f0"
+		"XPos"										"0"
+		"YPos"										"0"
+		"Wide"										"f0"
+		"Tall"										"f0"
 	}
 	"HudMenuEngyBuild"
 	{
-		"xpos"										"0"
-		"ypos"										"0"
-		"zpos"										"20"
-		"wide"										"f0"
-		"tall"										"f0"
+		"XPos"										"0"
+		"YPos"										"0"
+		"ZPos"										"20"
+		"Wide"										"f0"
+		"Tall"										"f0"
 	}
 	"HudMenuEngyDestroy"
 	{
-		"xpos"										"0"
-		"ypos"										"0"
-		"zpos"										"20"
-		"wide"										"f0"
-		"tall"										"f0"
+		"XPos"										"0"
+		"YPos"										"0"
+		"ZPos"										"20"
+		"Wide"										"f0"
+		"Tall"										"f0"
 	}
 	"HudEurekaEffectTeleportMenu"
 	{
-		"xpos"										"0"
-		"ypos"										"0"
-		"zpos"										"20"
-		"wide"										"f0"
-		"tall"										"f0"
+		"XPos"										"0"
+		"YPos"										"0"
+		"ZPos"										"20"
+		"Wide"										"f0"
+		"Tall"										"f0"
 	}
 	"HudMenuSpyDisguise"
 	{
-		"xpos"										"0"
-		"ypos"										"0"
-		"zpos"										"20"
-		"wide"										"f0"
-		"tall"										"f0"
+		"XPos"										"0"
+		"YPos"										"0"
+		"ZPos"										"20"
+		"Wide"										"f0"
+		"Tall"										"f0"
 	}
 	"HudMenuTauntSelection"
 	{
-		"xpos"										"0"
-		"ypos"										"0"
-		"zpos"										"20"
-		"wide"										"f0"
-		"tall"										"f0"
+		"XPos"										"0"
+		"YPos"										"0"
+		"ZPos"										"20"
+		"Wide"										"f0"
+		"Tall"										"f0"
 	}
 	"HudDemomanPipes"
 	{
-		"xpos"										"0"
-		"xpos_minmode"								"0"
-		"ypos"										"0"
-		"ypos_minmode"								"0"
-		"wide"										"f0"
-		"tall"										"f0"
+		"XPos"										"0"
+		"XPos_Minmode"								"0"
+		"YPos"										"0"
+		"YPos_Minmode"								"0"
+		"Wide"										"f0"
+		"Tall"										"f0"
 	}
 	"HudStalemate"
 	{
-		"xpos"										"0"
-		"ypos"										"0"
-		"wide"										"f0"
-		"tall"										"f0"
+		"XPos"										"0"
+		"YPos"										"0"
+		"Wide"										"f0"
+		"Tall"										"f0"
 	}
 	"HudTournament"
 	{
-		"xpos"										"c-225"
-		"ypos"										"5"
-		"zpos"										"20"
-		"wide"										"450"
-		"tall"										"280"
+		"XPos"										"c-225"
+		"YPos"										"5"
+		"ZPos"										"20"
+		"Wide"										"450"
+		"Tall"										"280"
 	}
 	"HudTournamentSetup"
 	{
-		"xpos"										"cs-0.5"
-		"ypos"										"32"
-		"wide"										"76"
-		"tall"										"25"
+		"XPos"										"cs-0.5"
+		"YPos"										"32"
+		"Wide"										"76"
+		"Tall"										"25"
 	}
 	"HudStopWatch"
 	{
-		"xpos"										"0"
-		"ypos"										"0"
-		"wide"										"f0"
-		"tall"										"f0"
+		"XPos"										"0"
+		"YPos"										"0"
+		"Wide"										"f0"
+		"Tall"										"f0"
 	}
 	"HudArenaClassLayout"
 	{
-		"xpos"										"0"
-		"ypos"										"r260"
-		"wide"										"f0"
-		"tall"										"320"
+		"XPos"										"0"
+		"YPos"										"r260"
+		"Wide"										"f0"
+		"Tall"										"320"
 	}
 	"HudArenaPlayerCount"
 	{
-		"xpos"										"0"
-		"ypos"										"0"
-		"zpos"										"6"
-		"wide"										"f0"
-		"tall"										"f0"
+		"XPos"										"0"
+		"YPos"										"0"
+		"ZPos"										"6"
+		"Wide"										"f0"
+		"Tall"										"f0"
 	}
 	"HudAchievementTracker"
 	{
@@ -331,12 +332,11 @@
 	}
 	"ItemQuickSwitchPanel"
 	{
-		"xpos"										"cs-0.5"
-		"ypos"										"320"
-		"wide"										"230"
-		"tall"										"120"
+		"XPos"										"cs-0.5"
+		"YPos"										"320"
+		"Wide"										"230"
+		"Tall"										"120"
 	}
-
 
 
 	//==================================================================================================================================================
@@ -345,23 +345,23 @@
 
 	"HudBowCharge"
 	{
-		"wide"										"0"
-		"wide_minmode"								"0"
+		"Wide"										"0"
+		"Wide_Minmode"								"0"
 	}
 	"StatPanel"
 	{
-		"wide"										"0"
+		"Wide"										"0"
 	}
 	"HudArenaNotification"
 	{
-		"wide"										"0"
+		"Wide"										"0"
 	}
 	"HudTeamGoal"
 	{
-		"wide"										"0"
+		"Wide"										"0"
 	}
 	"HudTeamGoalTournament"
 	{
-		"wide"										"0"
+		"Wide"										"0"
 	}
 }

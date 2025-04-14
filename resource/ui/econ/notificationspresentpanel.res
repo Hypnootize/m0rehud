@@ -1,0 +1,38 @@
+"Resource/UI/Econ/NotificationsPresentPanel.res"
+{
+	"NotificationsPresentPanel"
+	{
+		"ControlName"								"CNotificationsPresentPanel"
+		"FieldName"									"NotificationsPresentPanel"
+		"XPos"										"cs-0.5"
+		"YPos"										"26"
+		"ZPos"										"10000"
+		"Wide"										"320"
+		"Tall"										"20"
+		"Visible"									"0"
+		"Enabled"									"1"
+		"ProportionalToParent"						"1"
+		"PaintBackground"							"1"
+		"PaintBackgroundType"						"0"
+		"BGcolor_Override"							"Background_Bright"
+	}
+	"TextLabel"
+	{
+		"ControlName"								"CExLabel"
+		"FieldName"									"TextLabel"
+		"XPos"										"cs-0.5"
+		"YPos"										"0"
+		"ZPos"										"2"
+		"Wide"										"f10"
+		"Tall"										"f0"
+		"Visible"									"1"
+		"Enabled"									"1"
+		"ProportionalToParent"						"1"
+		"Wrap"										"0"
+		"LabelText"									"#Notifications_Present"
+		"TextAlignment"								"center"
+		"Font"										"HudFontSmallest"
+		"AllCaps"									"1"
+		"FGColor"									"White"
+	}
+}

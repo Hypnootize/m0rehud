@@ -2,21 +2,21 @@
 {
 	"ChargeLabelBig"
 	{
-		"visible"									"0"
+		"Visible"									"0"
 	}
 	"ChargeLabelBigShadow"
 	{
-		"visible"									"0"
+		"Visible"									"0"
 	}
 	"ChargeLabelBigShadowExtra"
 	{
-		"visible"									"0"
+		"Visible"									"0"
 	}
 	"ChargeMeter"
 	{
-		"xpos"										"cs-0.5"
-		"ypos"										"r88"
-		"wide"										"140"
-		"tall"										"2"
+		"XPos"										"cs-0.5"
+		"YPos"										"r88"
+		"Wide"										"140"
+		"Tall"										"2"
 	}
 }

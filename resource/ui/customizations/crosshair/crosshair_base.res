@@ -2,29 +2,29 @@
 {
 	"CustomCrosshair"
 	{
-		"visible"	"0"																																																																			"ControlName" "CExLabel" "fieldName" "CustomCrosshair" "enabled" "1" "zpos" "0" "wide" "f0" "tall" "f0" "textAlignment" "center"
+		"Visible"	"0"																																																																			"ControlName" "CExLabel" "FieldName" "CustomCrosshair" "Enabled" "1" "ZPos" "0" "Wide" "f0" "Tall" "f0" "TextAlignment" "center"
 
-		"labelText"	"I"
+		"LabelText"	"I"
 
-		"font"		"Crosshair_Size_18"
+		"Font"		"Crosshair_Size_18"
 
-		"xpos"		"cs-0.5"
-		"ypos"		"cs-0.5"
+		"XPos"		"cs-0.5"
+		"YPos"		"cs-0.5"
 
-		"fgcolor"	"Crosshair"
+		"FGColor"	"Crosshair"
 	}
 
 	"CustomCrosshair2"
 	{
-		"visible"	"0"																																																																			"ControlName" "CExLabel" "fieldName" "CustomCrosshair2" "enabled" "1" "zpos" "0" "wide" "f0" "tall" "f0" "textAlignment" "center"
+		"Visible"	"0"																																																																			"ControlName" "CExLabel" "FieldName" "CustomCrosshair2" "Enabled" "1" "ZPos" "0" "Wide" "f0" "Tall" "f0" "TextAlignment" "center"
 
-		"labelText"	"I"
+		"LabelText"	"I"
 
-		"font"		"Crosshair_Size_18"
+		"Font"		"Crosshair_Size_18"
 
-		"xpos"		"cs-0.5"
-		"ypos"		"cs-0.5"
+		"XPos"		"cs-0.5"
+		"YPos"		"cs-0.5"
 
-		"fgcolor"	"Crosshair"
+		"FGColor"	"Crosshair"
 	}
 }

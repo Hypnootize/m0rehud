@@ -6,14 +6,14 @@
 	{
 		"CarriedImage"
 		{
-			"image"									"../hud/hud_halloween_soul_64"
+			"Image"									"../hud/hud_halloween_soul_64"
 		}
 	}
 	"CountdownContainer"
 	{
 		"Background"
 		{
-			"image"									"../hud/hud_halloween_orangebg"
+			"Image"									"../hud/hud_halloween_orangebg"
 			"teambg_2"								"../hud/hud_halloween_orangebg"
 			"teambg_3"								"../hud/hud_halloween_orangebg"
 		}
@@ -24,11 +24,11 @@
 		{
 			"FlagImageBlue"
 			{
-				"image"								"../hud/hud_halloween_soul_64"
+				"Image"								"../hud/hud_halloween_soul_64"
 			}
 			"FlagImageRed"
 			{
-				"image"								"../hud/hud_halloween_soul_64"
+				"Image"								"../hud/hud_halloween_soul_64"
 			}
 		}
 	}

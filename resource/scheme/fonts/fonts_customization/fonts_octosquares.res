@@ -84,7 +84,7 @@
 			"1"
 			{
 				"name"										"TT Octosquares Trl Bd"
-				"tall"										"17"
+				"Tall"										"17"
 			}
 		}
 		"m0refont18Shadow"
@@ -92,7 +92,7 @@
 			"1"
 			{
 				"name"										"TT Octosquares Trl Bd"
-				"tall"										"17"
+				"Tall"										"17"
 			}
 		}
 		"m0refont18Outline"
@@ -100,7 +100,7 @@
 			"1"
 			{
 				"name"										"TT Octosquares Trl Bd"
-				"tall"										"17"
+				"Tall"										"17"
 			}
 		}
 		"m0refont18Numbers"
@@ -108,7 +108,7 @@
 			"1"
 			{
 				"name"										"TT Octosquares Numbers"
-				"tall"										"17"
+				"Tall"										"17"
 			}
 		}
 		"m0refont20"
@@ -116,7 +116,7 @@
 			"1"
 			{
 				"name"										"TT Octosquares Trl Bd"
-				"tall"										"18"
+				"Tall"										"18"
 			}
 		}
 		"m0refont24"
@@ -124,7 +124,7 @@
 			"1"
 			{
 				"name"										"TT Octosquares Trl Bd"
-				"tall"										"20"
+				"Tall"										"20"
 			}
 		}
 		"m0refont24Shadow"
@@ -132,7 +132,7 @@
 			"1"
 			{
 				"name"										"TT Octosquares Trl Bd"
-				"tall"										"20"
+				"Tall"										"20"
 			}
 		}
 		"m0refont24Outline"
@@ -140,7 +140,7 @@
 			"1"
 			{
 				"name"										"TT Octosquares Trl Bd"
-				"tall"										"20"
+				"Tall"										"20"
 			}
 		}
 		"m0refont24Numbers"
@@ -148,7 +148,7 @@
 			"1"
 			{
 				"name"										"TT Octosquares Numbers"
-				"tall"										"20"
+				"Tall"										"20"
 			}
 		}
 		"m0refont26"
@@ -156,7 +156,7 @@
 			"1"
 			{
 				"name"										"TT Octosquares Trl Bd"
-				"tall"										"22"
+				"Tall"										"22"
 			}
 		}
 		"m0refont30"
@@ -164,7 +164,7 @@
 			"1"
 			{
 				"name"										"TT Octosquares Trl Bd"
-				"tall"										"26"
+				"Tall"										"26"
 			}
 		}
 		"m0refont30Outline"
@@ -172,7 +172,7 @@
 			"1"
 			{
 				"name"										"TT Octosquares Trl Bd"
-				"tall"										"26"
+				"Tall"										"26"
 			}
 		}
 		"m0refont30Numbers"
@@ -180,7 +180,7 @@
 			"1"
 			{
 				"name"										"TT Octosquares Numbers"
-				"tall"										"26"
+				"Tall"										"26"
 			}
 		}
 		"m0refont32"
@@ -188,7 +188,7 @@
 			"1"
 			{
 				"name"										"TT Octosquares Trl Bd"
-				"tall"										"28"
+				"Tall"										"28"
 			}
 		}
 		"m0refont32Shadow"
@@ -196,7 +196,7 @@
 			"1"
 			{
 				"name"										"TT Octosquares Trl Bd"
-				"tall"										"28"
+				"Tall"										"28"
 			}
 		}
 		"m0refont36"
@@ -204,7 +204,7 @@
 			"1"
 			{
 				"name"										"TT Octosquares Trl Bd"
-				"tall"										"30"
+				"Tall"										"30"
 			}
 		}
 		"m0refont48"
@@ -212,7 +212,7 @@
 			"1"
 			{
 				"name"										"TT Octosquares Trl Bd"
-				"tall"										"40"
+				"Tall"										"40"
 			}
 		}
 		"m0refont58"
@@ -220,7 +220,7 @@
 			"1"
 			{
 				"name"										"TT Octosquares Trl Bd"
-				"tall"										"48"
+				"Tall"										"48"
 			}
 		}
 		"Default"

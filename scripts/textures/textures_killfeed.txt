@@ -2513,7 +2513,7 @@
 		"infection_emp"
 		{
 			"dfile"			"vgui/logos/killfeed_icons_white/d_images_v3"
-			"dnegfile"		"vgui/logos/killfeed_icons_white/d_images_v3"
+			"dnegfile"		"vgui/logos/killfeed_icons_black/dneg_images_v3"
 			"x"				"384"
 			"y"				"0"
 			"width"			"96"
@@ -2522,7 +2522,7 @@
 		"infection_acid_ball"
 		{
 			"dfile"			"vgui/logos/killfeed_icons_white/d_images_v3"
-			"dnegfile"		"vgui/logos/killfeed_icons_white/d_images_v3"
+			"dnegfile"		"vgui/logos/killfeed_icons_black/dneg_images_v3"
 			"x"				"384"
 			"y"				"32"
 			"width"			"96"
@@ -2531,7 +2531,7 @@
 		"infection_acid_puddle"
 		{
 			"dfile"			"vgui/logos/killfeed_icons_white/d_images_v3"
-			"dnegfile"		"vgui/logos/killfeed_icons_white/d_images_v3"
+			"dnegfile"		"vgui/logos/killfeed_icons_black/dneg_images_v3"
 			"x"				"384"
 			"y"				"64"
 			"width"			"96"
@@ -2540,7 +2540,7 @@
 		"infection_soldier"
 		{
 			"dfile"			"vgui/logos/killfeed_icons_white/d_images_v3"
-			"dnegfile"		"vgui/logos/killfeed_icons_white/d_images_v3"
+			"dnegfile"		"vgui/logos/killfeed_icons_black/dneg_images_v3"
 			"x"				"384"
 			"y"				"96"
 			"width"			"64"
@@ -2549,7 +2549,7 @@
 		"infection_heavy"
 		{
 			"dfile"			"vgui/logos/killfeed_icons_white/d_images_v3"
-			"dnegfile"		"vgui/logos/killfeed_icons_white/d_images_v3"
+			"dnegfile"		"vgui/logos/killfeed_icons_black/dneg_images_v3"
 			"x"				"384"
 			"y"				"128"
 			"width"			"64"
@@ -2558,7 +2558,7 @@
 		"infection_scout"
 		{
 			"dfile"			"vgui/logos/killfeed_icons_white/d_images_v3"
-			"dnegfile"		"vgui/logos/killfeed_icons_white/d_images_v3"
+			"dnegfile"		"vgui/logos/killfeed_icons_black/dneg_images_v3"
 			"x"				"384"
 			"y"				"160"
 			"width"			"64"
@@ -2567,7 +2567,7 @@
 		"infection_pyro"
 		{
 			"dfile"			"vgui/logos/killfeed_icons_white/d_images_v3"
-			"dnegfile"		"vgui/logos/killfeed_icons_white/d_images_v3"
+			"dnegfile"		"vgui/logos/killfeed_icons_black/dneg_images_v3"
 			"x"				"384"
 			"y"				"192"
 			"width"			"64"
@@ -2576,7 +2576,7 @@
 		"infection_demoman"
 		{
 			"dfile"			"vgui/logos/killfeed_icons_white/d_images_v3"
-			"dnegfile"		"vgui/logos/killfeed_icons_white/d_images_v3"
+			"dnegfile"		"vgui/logos/killfeed_icons_black/dneg_images_v3"
 			"x"				"448"
 			"y"				"96"
 			"width"			"64"
@@ -2585,7 +2585,7 @@
 		"infection_sniper"
 		{
 			"dfile"			"vgui/logos/killfeed_icons_white/d_images_v3"
-			"dnegfile"		"vgui/logos/killfeed_icons_white/d_images_v3"
+			"dnegfile"		"vgui/logos/killfeed_icons_black/dneg_images_v3"
 			"x"				"448"
 			"y"				"128"
 			"width"			"64"
@@ -2594,7 +2594,7 @@
 		"infection_medic"
 		{
 			"dfile"			"vgui/logos/killfeed_icons_white/d_images_v3"
-			"dnegfile"		"vgui/logos/killfeed_icons_white/d_images_v3"
+			"dnegfile"		"vgui/logos/killfeed_icons_black/dneg_images_v3"
 			"x"				"448"
 			"y"				"160"
 			"width"			"64"
@@ -2603,9 +2603,90 @@
 		"infection_engineer"
 		{
 			"dfile"			"vgui/logos/killfeed_icons_white/d_images_v3"
-			"dnegfile"		"vgui/logos/killfeed_icons_white/d_images_v3"
+			"dnegfile"		"vgui/logos/killfeed_icons_black/dneg_images_v3"
 			"x"				"448"
 			"y"				"192"
+			"width"			"64"
+			"height"		"32"
+		}
+		"hale_punch"
+		{
+			"dfile"			"vgui/logos/killfeed_icons_white/d_images_v3"
+			"dnegfile"		"vgui/logos/killfeed_icons_black/dneg_images_v3"
+			"x"				"384"
+			"y"				"224"
+			"width"			"64"
+			"height"		"32"
+		}
+		"hale_punch_collateral"
+		{
+			"dfile"			"vgui/logos/killfeed_icons_white/d_images_v3"
+			"dnegfile"		"vgui/logos/killfeed_icons_black/dneg_images_v3"
+			"x"				"384"
+			"y"				"256"
+			"width"			"128"
+			"height"		"32"
+		}
+		"hale_megapunch"
+		{
+			"dfile"			"vgui/logos/killfeed_icons_white/d_images_v3"
+			"dnegfile"		"vgui/logos/killfeed_icons_black/dneg_images_v3"
+			"x"				"384"
+			"y"				"288"
+			"width"			"64"
+			"height"		"32"
+		}
+		"hale_megapunch_collateral"
+		{
+			"dfile"			"vgui/logos/killfeed_icons_white/d_images_v3"
+			"dnegfile"		"vgui/logos/killfeed_icons_black/dneg_images_v3"
+			"x"				"384"
+			"y"				"320"
+			"width"			"96"
+			"height"		"32"
+		}
+		"hale_charge"
+		{
+			"dfile"			"vgui/logos/killfeed_icons_white/d_images_v3"
+			"dnegfile"		"vgui/logos/killfeed_icons_black/dneg_images_v3"
+			"x"				"384"
+			"y"				"352"
+			"width"			"64"
+			"height"		"32"
+		}
+		"hale_slam"
+		{
+			"dfile"			"vgui/logos/killfeed_icons_white/d_images_v3"
+			"dnegfile"		"vgui/logos/killfeed_icons_black/dneg_images_v3"
+			"x"				"384"
+			"y"				"384"
+			"width"			"64"
+			"height"		"32"
+		}
+		"hale_slam_collateral"
+		{
+			"dfile"			"vgui/logos/killfeed_icons_white/d_images_v3"
+			"dnegfile"		"vgui/logos/killfeed_icons_black/dneg_images_v3"
+			"x"				"384"
+			"y"				"416"
+			"width"			"64"
+			"height"		"32"
+		}
+		"hale_stomp"
+		{
+			"dfile"			"vgui/logos/killfeed_icons_white/d_images_v3"
+			"dnegfile"		"vgui/logos/killfeed_icons_black/dneg_images_v3"
+			"x"				"384"
+			"y"				"448"
+			"width"			"64"
+			"height"		"32"
+		}
+		"hale_taunt"
+		{
+			"dfile"			"vgui/logos/killfeed_icons_white/d_images_v3"
+			"dnegfile"		"vgui/logos/killfeed_icons_black/dneg_images_v3"
+			"x"				"384"
+			"y"				"480"
 			"width"			"64"
 			"height"		"32"
 		}

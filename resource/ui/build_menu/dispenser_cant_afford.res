@@ -4,10 +4,10 @@
 {
 	"BuildingImage"
 	{
-		"labelText"									"w"
+		"LabelText"									"w"
 	}
 	"NumberLabel"
 	{
-		"labelText"									"2"
+		"LabelText"									"2"
 	}
 }

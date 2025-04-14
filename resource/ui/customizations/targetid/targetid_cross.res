@@ -2,11 +2,11 @@
 {
 	"SpectatorGUIHealth"
 	{
-		"xpos"										"6"
-		"wide"										"35"
+		"XPos"										"6"
+		"Wide"										"35"
 	}
 	"KillStreakAnchor"
 	{
-		"xpos"										"92"
+		"XPos"										"92"
 	}
 }

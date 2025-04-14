@@ -1,6 +1,6 @@
 "UnlitGeneric"
 {
-	"$baseTexture"			"vgui\replay\thumbnails\quickplay\quickplay_filters"
+	"$baseTexture"			"vgui/replay/thumbnails/quickplay/quickplay_filters"
 	"$vertexalpha"			"1"
 	"$alpha"				"1"
 	"$translucent"			"1"

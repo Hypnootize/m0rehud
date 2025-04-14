@@ -154,6 +154,7 @@
 			"1"
 			{
 				"name"										"RenogareSoft-Regular"
+				"Tall"										"27"
 			}
 		}
 		"m0refont30Outline"
@@ -161,6 +162,7 @@
 			"1"
 			{
 				"name"										"RenogareSoft-Regular"
+				"Tall"										"27"
 			}
 		}
 		"m0refont30Numbers"
@@ -168,6 +170,7 @@
 			"1"
 			{
 				"name"										"Renogare Soft Numbers"
+				"Tall"										"27"
 			}
 		}
 		"m0refont32"
@@ -175,6 +178,7 @@
 			"1"
 			{
 				"name"										"RenogareSoft-Regular"
+				"Tall"										"29"
 			}
 		}
 		"m0refont32Shadow"
@@ -182,6 +186,7 @@
 			"1"
 			{
 				"name"										"RenogareSoft-Regular"
+				"Tall"										"29"
 			}
 		}
 		"m0refont36"
@@ -189,6 +194,7 @@
 			"1"
 			{
 				"name"										"RenogareSoft-Regular"
+				"Tall"										"43"
 			}
 		}
 		"m0refont48"
@@ -196,7 +202,7 @@
 			"1"
 			{
 				"name"										"RenogareSoft-Regular"
-				"tall"										"46"
+				"Tall"										"44"
 			}
 		}
 		"m0refont58"
@@ -204,7 +210,7 @@
 			"1"
 			{
 				"name"										"RenogareSoft-Regular"
-				"tall"										"52"
+				"Tall"										"52"
 			}
 		}
 		"Default"

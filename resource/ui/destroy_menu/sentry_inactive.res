@@ -4,14 +4,14 @@
 {
 	"ItemNameLabel"
 	{
-		"labelText"									"#TF_Object_Sentry"
+		"LabelText"									"#TF_Object_Sentry"
 	}
 	"BuildingImage"
 	{
-		"labelText"									"t"
+		"LabelText"									"t"
 	}
 	"NumberLabel"
 	{
-		"labelText"									"1"
+		"LabelText"									"1"
 	}
 }

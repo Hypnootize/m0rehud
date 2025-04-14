@@ -2,9 +2,9 @@
 {
 	"ChargeMeter"
 	{
-		"wide"										"100"
-		"wide_minmode"								"70"
-		"tall"										"5"
-		"tall_minmode"								"4"
+		"Wide"										"100"
+		"Wide_Minmode"								"70"
+		"Tall"										"5"
+		"Tall_Minmode"								"4"
 	}
 }

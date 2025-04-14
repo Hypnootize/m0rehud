@@ -2,9 +2,9 @@
 {
 	"HudDamageIndicator"							// DEFAULT VALUES FROM TF2 SOURCE CODE
 	{
-		"fieldName"									"HudDamageIndicator"
-		"visible"									"1"
-		"enabled"									"1"
+		"FieldName"									"HudDamageIndicator"
+		"Visible"									"1"
+		"Enabled"									"1"
 		"StartRadius"								"140"
 		"EndRadius"									"120"
 		"MinimumWidth"								"10"

@@ -1,6 +1,6 @@
 "UnlitGeneric"
 {
-	"$baseTexture"			"vgui\replay\thumbnails\customizations\colors\crosshair_flash_disabled"
+	"$baseTexture"			"vgui/replay/thumbnails/customizations/colors/crosshair_flash_disabled"
 	"$vertexalpha"			"1"
 	"$alpha"				"1"
 	"$translucent"			"1"

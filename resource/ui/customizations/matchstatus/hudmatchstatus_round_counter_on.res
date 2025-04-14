@@ -2,7 +2,7 @@
 {
 	"RoundCounter"
 	{
-		"ypos"										"0"
+		"YPos"										"0"
 	}
 	"ObjectiveStatusTimePanel"
 	{
@@ -10,8 +10,8 @@
 		{
 			"if_match"
 			{
-				"ypos"								"4"
-				"tall"								"16"
+				"YPos"								"4"
+				"Tall"								"16"
 			}
 		}
 	}

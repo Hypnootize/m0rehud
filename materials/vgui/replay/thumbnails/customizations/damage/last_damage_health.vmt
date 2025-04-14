@@ -1,6 +1,6 @@
 "UnlitGeneric"
 {
-	"$baseTexture"			"vgui\replay\thumbnails\customizations\damage\last_damage_health"
+	"$baseTexture"			"vgui/replay/thumbnails/customizations/damage/last_damage_health"
 	"$vertexalpha"			"1"
 	"$alpha"				"1"
 	"$translucent"			"1"

@@ -13,328 +13,328 @@
 	}
 	"BluePlayerList"
 	{
-		"xpos"										"cs-1"
-		"ypos"										"c-100"
-		"wide"										"200"
-		"tall"										"180"
+		"XPos"										"cs-1"
+		"YPos"										"c-100"
+		"Wide"										"200"
+		"Tall"										"180"
 		"linespacing"								"12"
 	}
 	"RedPlayerList"
 	{
-		"xpos"										"cs-0"
-		"ypos"										"c-100"
-		"wide"										"200"
-		"tall"										"180"
+		"XPos"										"cs-0"
+		"YPos"										"c-100"
+		"Wide"										"200"
+		"Tall"										"180"
 		"linespacing"								"12"
 	}
 	"WhiteBG"
 	{
-		"visible"									"0"
+		"Visible"									"0"
 	}
 	"BlueScoreBG"
 	{
-		"visible"									"0"
+		"Visible"									"0"
 	}
 	"BlueTeamName"
 	{
-		"visible"									"0"
+		"Visible"									"0"
 	}
 	"BlueTeamScore"
 	{
-		"xpos"										"cs-1-5"
-		"ypos"										"125"
-		"wide"										"45"
-		"tall"										"20"
-		"font"										"m0refont16Shadow"
-		"fgcolor"									"Blue"
-		"textAlignment"								"east"
-		"pin_to_sibling"							""
+		"XPos"										"cs-1-5"
+		"YPos"										"125"
+		"Wide"										"45"
+		"Tall"										"20"
+		"Font"										"m0refont16Shadow"
+		"FGColor"									"Blue"
+		"TextAlignment"								"east"
+		"Pin_To_Sibling"							""
 	}
 	"BlueTeamPlayerCount"
 	{
-		"visible"									"0"
+		"Visible"									"0"
 	}
 	"RedScoreBG"
 	{
-		"visible"									"0"
+		"Visible"									"0"
 	}
 	"RedTeamName"
 	{
-		"visible"									"0"
+		"Visible"									"0"
 	}
 	"RedTeamScore"
 	{
-		"xpos"										"cs-0+5"
-		"ypos"										"125"
-		"wide"										"87"
-		"tall"										"20"
-		"font"										"m0refont16Shadow"
-		"fgcolor"									"Red"
-		"textAlignment"								"west"
-		"pin_to_sibling"							""
+		"XPos"										"cs-0+5"
+		"YPos"										"125"
+		"Wide"										"87"
+		"Tall"										"20"
+		"Font"										"m0refont16Shadow"
+		"FGColor"									"Red"
+		"TextAlignment"								"west"
+		"Pin_To_Sibling"							""
 	}
 	"RedTeamPlayerCount"
 	{
-		"visible"									"0"
+		"Visible"									"0"
 	}
 	"ServerLabel"
 	{
-		"xpos"										"-4"
-		"ypos"										"0"
-		"wide"										"f0"
-		"tall"										"8"
-		"font"										"ScoreboardVerySmall"
-		"textAlignment"								"east"
-		"pin_to_sibling"							""
+		"XPos"										"-4"
+		"YPos"										"0"
+		"Wide"										"f0"
+		"Tall"										"8"
+		"Font"										"ScoreboardVerySmall"
+		"TextAlignment"								"east"
+		"Pin_To_Sibling"							""
 	}
 	"ServerTimeLeft"
 	{
-		"xpos"										"c-75"
-		"ypos"										"110"
-		"wide"										"150"
-		"tall"										"12"
-		"font"										"m0refont12Shadow"
-		"fgcolor"									"34 202 66 255"
-		"pin_to_sibling"							""
+		"XPos"										"c-75"
+		"YPos"										"110"
+		"Wide"										"150"
+		"Tall"										"12"
+		"Font"										"m0refont12Shadow"
+		"FGColor"									"34 202 66 255"
+		"Pin_To_Sibling"							""
 	}
 	"Spectators"
 	{
-		"xpos"										"3"
-		"ypos"										"0"
-		"wide"										"f0"
-		"tall"										"8"
-		"textAlignment"								"west"
-		"pin_to_sibling"							""
+		"XPos"										"3"
+		"YPos"										"0"
+		"Wide"										"f0"
+		"Tall"										"8"
+		"TextAlignment"								"west"
+		"Pin_To_Sibling"							""
 	}
 	"SpectatorsInQueue"
 	{
-		"xpos"										"3"
-		"ypos"										"0"
-		"wide"										"f0"
-		"tall"										"8"
-		"textAlignment"								"west"
-		"pin_to_sibling"							""
+		"XPos"										"3"
+		"YPos"										"0"
+		"Wide"										"f0"
+		"Tall"										"8"
+		"TextAlignment"								"west"
+		"Pin_To_Sibling"							""
 	}
 	"ShadedBar"
 	{
-		"visible"									"0"
+		"Visible"									"0"
 	}
 	"HorizontalLine"
 	{
-		"visible"									"0"
+		"Visible"									"0"
 	}
 	"MapName"
 	{
-		"visible"									"0"
+		"Visible"									"0"
 	}
 	"LocalPlayerStatsPanel"
 	{
-		"xpos"										"c-70"
-		"ypos"										"r150"
-		"zpos"										"40"
-		"wide"										"f0"
-		"tall"										"480"
+		"XPos"										"c-70"
+		"YPos"										"r150"
+		"ZPos"										"40"
+		"Wide"										"f0"
+		"Tall"										"480"
 
 		"K/D"
 		{
-			"visible"								"0"
+			"Visible"								"0"
 		}
 		"KillsLabel"
 		{
 			"ControlName"							"CExLabel"
-			"fieldName"								"KillsLabel"
-			"xpos"									"0"
-			"ypos"									"0"
-			"wide"									"50"
-			"tall"									"10"
-			"zpos"									"3"
-			"visible"								"1"
-			"enabled"								"1"
-			"font"									"m0refont10Shadow"
-			"labelText"								"#TF_ScoreBoard_KillsLabel"
-			"textAlignment"							"east"
-			"fgcolor"								"255 255 255 255"
+			"FieldName"								"KillsLabel"
+			"XPos"									"0"
+			"YPos"									"0"
+			"Wide"									"50"
+			"Tall"									"10"
+			"ZPos"									"3"
+			"Visible"								"1"
+			"Enabled"								"1"
+			"Font"									"m0refont10Shadow"
+			"LabelText"								"#TF_ScoreBoard_KillsLabel"
+			"TextAlignment"							"east"
+			"FGColor"								"255 255 255 255"
 		}
 		"Kills"
 		{
-			"xpos"									"55"
-			"ypos"									"0"
-			"wide"									"30"
-			"tall"									"10"
-			"font"									"m0refont10Shadow"
-			"disabledfgcolor2_override"				"34 202 66 255"
-			"textAlignment"							"west"
-			"pin_to_sibling"						""
+			"XPos"									"55"
+			"YPos"									"0"
+			"Wide"									"30"
+			"Tall"									"10"
+			"Font"									"m0refont10Shadow"
+			"DisabledFGColor2_Override"				"34 202 66 255"
+			"TextAlignment"							"west"
+			"Pin_To_Sibling"						""
 		}
 		"DeathsLabel"
 		{
 			"ControlName"							"CExLabel"
-			"fieldName"								"DeathsLabel"
-			"xpos"									"60"
-			"ypos"									"0"
-			"wide"									"50"
-			"tall"									"10"
-			"zpos"									"3"
-			"visible"								"1"
-			"enabled"								"1"
-			"font"									"m0refont10Shadow"
-			"labelText"								"#TF_ScoreBoard_DeathsLabel"
-			"textAlignment"							"east"
-			"fgcolor"								"255 255 255 255"
+			"FieldName"								"DeathsLabel"
+			"XPos"									"60"
+			"YPos"									"0"
+			"Wide"									"50"
+			"Tall"									"10"
+			"ZPos"									"3"
+			"Visible"								"1"
+			"Enabled"								"1"
+			"Font"									"m0refont10Shadow"
+			"LabelText"								"#TF_ScoreBoard_DeathsLabel"
+			"TextAlignment"							"east"
+			"FGColor"								"255 255 255 255"
 		}
 		"Deaths"
 		{
-			"xpos"									"115"
-			"ypos"									"0"
-			"wide"									"30"
-			"tall"									"10"
-			"font"									"m0refont10Shadow"
-			"disabledfgcolor2_override"				"255 0 0 255"
-			"pin_to_sibling"						""
+			"XPos"									"115"
+			"YPos"									"0"
+			"Wide"									"30"
+			"Tall"									"10"
+			"Font"									"m0refont10Shadow"
+			"DisabledFGColor2_Override"				"255 0 0 255"
+			"Pin_To_Sibling"						""
 		}
 		"AssistsLabel"
 		{
 			"ControlName"							"CExLabel"
-			"fieldName"								"AssistsLabel"
-			"visible"								"0"
+			"FieldName"								"AssistsLabel"
+			"Visible"								"0"
 		}
 		"DestructionLabel"
 		{
 			"ControlName"							"CExLabel"
-			"fieldName"								"DestructionLabel"
-			"visible"								"0"
+			"FieldName"								"DestructionLabel"
+			"Visible"								"0"
 		}
 		"CapturesLabel"
 		{
 			"ControlName"							"CExLabel"
-			"fieldName"								"CapturesLabel"
-			"visible"								"0"
+			"FieldName"								"CapturesLabel"
+			"Visible"								"0"
 		}
 		"DefensesLabel"
 		{
 			"ControlName"							"CExLabel"
-			"fieldName"								"DefensesLabel"
-			"visible"								"0"
+			"FieldName"								"DefensesLabel"
+			"Visible"								"0"
 		}
 		"DominationLabel"
 		{
 			"ControlName"							"CExLabel"
-			"fieldName"								"DominationLabel"
-			"visible"								"0"
+			"FieldName"								"DominationLabel"
+			"Visible"								"0"
 		}
 		"RevengeLabel"
 		{
 			"ControlName"							"CExLabel"
-			"fieldName"								"RevengeLabel"
-			"visible"								"0"
+			"FieldName"								"RevengeLabel"
+			"Visible"								"0"
 		}
 		"HealingLabel"
 		{
 			"ControlName"							"CExLabel"
-			"fieldName"								"HealingLabel"
-			"visible"								"0"
+			"FieldName"								"HealingLabel"
+			"Visible"								"0"
 		}
 		"InvulnLabel"
 		{
 			"ControlName"							"CExLabel"
-			"fieldName"								"InvulnLabel"
-			"visible"								"0"
+			"FieldName"								"InvulnLabel"
+			"Visible"								"0"
 		}
 		"TeleportsLabel"
 		{
 			"ControlName"							"CExLabel"
-			"fieldName"								"TeleportsLabel"
-			"visible"								"0"
+			"FieldName"								"TeleportsLabel"
+			"Visible"								"0"
 		}
 		"HeadshotsLabel"
 		{
 			"ControlName"							"CExLabel"
-			"fieldName"								"HeadshotsLabel"
-			"visible"								"0"
+			"FieldName"								"HeadshotsLabel"
+			"Visible"								"0"
 		}
 		"BackstabsLabel"
 		{
 			"ControlName"							"CExLabel"
-			"fieldName"								"BackstabsLabel"
-			"visible"								"0"
+			"FieldName"								"BackstabsLabel"
+			"Visible"								"0"
 		}
 		"DamageLabel"
 		{
 			"ControlName"							"CExLabel"
-			"fieldName"								"DamageLabel"
-			"visible"								"0"
+			"FieldName"								"DamageLabel"
+			"Visible"								"0"
 		}
 		"Assists"
 		{
 			"ControlName"							"CExLabel"
-			"fieldName"								"Assists"
-			"visible"								"0"
+			"FieldName"								"Assists"
+			"Visible"								"0"
 		}
 		"Destruction"
 		{
 			"ControlName"							"CExLabel"
-			"fieldName"								"Destruction"
-			"visible"								"0"
+			"FieldName"								"Destruction"
+			"Visible"								"0"
 		}
 		"Captures"
 		{
 			"ControlName"							"CExLabel"
-			"fieldName"								"Captures"
-			"visible"								"0"
+			"FieldName"								"Captures"
+			"Visible"								"0"
 		}
 		"Defenses"
 		{
 			"ControlName"							"CExLabel"
-			"fieldName"								"Defenses"
-			"visible"								"0"
+			"FieldName"								"Defenses"
+			"Visible"								"0"
 		}
 		"Domination"
 		{
 			"ControlName"							"CExLabel"
-			"fieldName"								"Domination"
-			"visible"								"0"
+			"FieldName"								"Domination"
+			"Visible"								"0"
 		}
 		"Revenge"
 		{
 			"ControlName"							"CExLabel"
-			"fieldName"								"Revenge"
-			"visible"								"0"
+			"FieldName"								"Revenge"
+			"Visible"								"0"
 		}
 		"Healing"
 		{
 			"ControlName"							"CExLabel"
-			"fieldName"								"Healing"
-			"visible"								"0"
+			"FieldName"								"Healing"
+			"Visible"								"0"
 		}
 		"Invuln"
 		{
 			"ControlName"							"CExLabel"
-			"fieldName"								"Invuln"
-			"visible"								"0"
+			"FieldName"								"Invuln"
+			"Visible"								"0"
 		}
 		"Teleports"
 		{
 			"ControlName"							"CExLabel"
-			"fieldName"								"Teleports"
-			"visible"								"0"
+			"FieldName"								"Teleports"
+			"Visible"								"0"
 		}
 		"Headshots"
 		{
 			"ControlName"							"CExLabel"
-			"fieldName"								"Headshots"
-			"visible"								"0"
+			"FieldName"								"Headshots"
+			"Visible"								"0"
 		}
 		"Backstabs"
 		{
 			"ControlName"							"CExLabel"
-			"fieldName"								"Backstabs"
-			"visible"								"0"
+			"FieldName"								"Backstabs"
+			"Visible"								"0"
 		}
 		"Damage"
 		{
 			"ControlName"							"CExLabel"
-			"fieldName"								"Damage"
-			"visible"								"0"
+			"FieldName"								"Damage"
+			"Visible"								"0"
 		}
 	}
 }

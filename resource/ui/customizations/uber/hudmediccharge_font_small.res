@@ -2,14 +2,14 @@
 {
 	"ChargeLabelBig"
 	{
-		"font"										"m0refont48"
+		"Font"										"m0refont48"
 	}
 	"ChargeLabelBigShadow"
 	{
-		"font"										"m0refont48"
+		"Font"										"m0refont48"
 	}
 	"ChargeLabelBigShadowExtra"
 	{
-		"font"										"m0refont48"
+		"Font"										"m0refont48"
 	}
 }

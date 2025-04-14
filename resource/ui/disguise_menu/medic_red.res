@@ -4,22 +4,22 @@
 {
 	"TitleBG"
 	{
-		"visible"									"0"
+		"Visible"									"0"
 	}
 	"ItemNameLabel"
 	{
-		"labelText"									"#TF_Class_Name_Medic"
+		"LabelText"									"#TF_Class_Name_Medic"
 	}
 	"ClassIcon"
 	{
-		"labelText"									"g"
+		"LabelText"									"g"
 	}
 	"NumberLabel"
 	{
-		"labelText"									"7"
+		"LabelText"									"7"
 	}
 	"NewNumberLabel"
 	{
-		"labelText"									"1"
+		"LabelText"									"1"
 	}
 }

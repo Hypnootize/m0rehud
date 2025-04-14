@@ -4,14 +4,14 @@
 {
 	"ItemNameLabel"
 	{
-		"labelText"									"#TF_Object_Dispenser"
+		"LabelText"									"#TF_Object_Dispenser"
 	}
 	"BuildingImage"
 	{
-		"labelText"									"w"
+		"LabelText"									"w"
 	}
 	"NumberLabel"
 	{
-		"labelText"									"2"
+		"LabelText"									"2"
 	}
 }

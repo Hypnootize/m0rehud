@@ -1,0 +1,1 @@
+#base "vsh_hud.res"

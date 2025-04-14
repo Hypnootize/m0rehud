@@ -1,6 +1,6 @@
 "UnlitGeneric"
 {
-	"$baseTexture"			"vgui\replay\thumbnails\customizations\matchstatus\match_status_big_hp"
+	"$baseTexture"			"vgui/replay/thumbnails/customizations/matchstatus/match_status_big_hp"
 	"$vertexalpha"			"1"
 	"$alpha"				"1"
 	"$translucent"			"1"

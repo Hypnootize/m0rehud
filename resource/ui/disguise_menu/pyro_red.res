@@ -4,22 +4,22 @@
 {
 	"TitleBG"
 	{
-		"visible"									"0"
+		"Visible"									"0"
 	}
 	"ItemNameLabel"
 	{
-		"labelText"									"#TF_Class_Name_Pyro"
+		"LabelText"									"#TF_Class_Name_Pyro"
 	}
 	"ClassIcon"
 	{
-		"labelText"									"c"
+		"LabelText"									"c"
 	}
 	"NumberLabel"
 	{
-		"labelText"									"3"
+		"LabelText"									"3"
 	}
 	"NewNumberLabel"
 	{
-		"labelText"									"3"
+		"LabelText"									"3"
 	}
 }
