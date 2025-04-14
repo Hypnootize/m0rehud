@@ -6,17 +6,17 @@
 ## MAIN MENU
 ![Main Menu](../screenshots/01_Main_Menu.jpg)
 
-## CUSTOMIZATIONS
-![Customizations](../screenshots/02_Customizations.gif)
-
 ## MATCHMAKING
-![Matchmaking](../screenshots/03_Matchmaking.jpg)
+![Matchmaking](../screenshots/02_Matchmaking.jpg)
 
-## QUICKPLAY
-![Quickplay](../screenshots/04_Quickplay.jpg)
+## LOADOUT
+![Loadout](../screenshots/03_Loadout.jpg)
 
 ## BACKPACK
-![Backpack](../screenshots/05_Backpack.jpg)
+![Backpack](../screenshots/04_Backpack.jpg)
+
+## CUSTOMIZATIONS
+![Customizations](../screenshots/05_Customizations.gif)
 
 ## TEAM SELECTION
 ![Team Selection](../screenshots/06_Team_Selection.jpg)
