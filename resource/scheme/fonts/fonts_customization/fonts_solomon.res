@@ -6,7 +6,7 @@
 		{
 			"1"
 			{
-				"name"										"Solomon Heavy"
+				"name"										"solomon_heavy"
 				"Tall"										"8"
 			}
 		}
@@ -14,7 +14,7 @@
 		{
 			"1"
 			{
-				"name"										"Solomon Heavy"
+				"name"										"solomon_heavy"
 				"Tall"										"9"
 			}
 		}
@@ -22,7 +22,7 @@
 		{
 			"1"
 			{
-				"name"										"Solomon Heavy"
+				"name"										"solomon_heavy"
 				"Tall"										"9"
 			}
 		}
@@ -30,7 +30,7 @@
 		{
 			"1"
 			{
-				"name"										"Solomon Heavy"
+				"name"										"solomon_heavy"
 				"Tall"										"10"
 			}
 		}
@@ -38,7 +38,7 @@
 		{
 			"1"
 			{
-				"name"										"Solomon Heavy"
+				"name"										"solomon_heavy"
 				"Tall"										"10"
 			}
 		}
@@ -46,7 +46,7 @@
 		{
 			"1"
 			{
-				"name"										"Solomon Heavy"
+				"name"										"solomon_heavy"
 				"Tall"										"11"
 			}
 		}
@@ -54,7 +54,7 @@
 		{
 			"1"
 			{
-				"name"										"Solomon Heavy"
+				"name"										"solomon_heavy"
 				"Tall"										"11"
 			}
 		}
@@ -62,7 +62,7 @@
 		{
 			"1"
 			{
-				"name"										"Solomon Heavy"
+				"name"										"solomon_heavy"
 				"Tall"										"12"
 			}
 		}
@@ -70,7 +70,7 @@
 		{
 			"1"
 			{
-				"name"										"Solomon Heavy"
+				"name"										"solomon_heavy"
 				"Tall"										"12"
 			}
 		}
@@ -78,7 +78,7 @@
 		{
 			"1"
 			{
-				"name"										"Solomon Heavy"
+				"name"										"solomon_heavy"
 				"Tall"										"14"
 			}
 		}
@@ -86,7 +86,7 @@
 		{
 			"1"
 			{
-				"name"										"Solomon Heavy"
+				"name"										"solomon_heavy"
 				"Tall"										"14"
 			}
 		}
@@ -94,7 +94,7 @@
 		{
 			"1"
 			{
-				"name"										"Solomon Heavy"
+				"name"										"solomon_heavy"
 				"Tall"										"16"
 			}
 		}
@@ -102,7 +102,7 @@
 		{
 			"1"
 			{
-				"name"										"Solomon Heavy"
+				"name"										"solomon_heavy"
 				"Tall"										"16"
 			}
 		}
@@ -110,7 +110,7 @@
 		{
 			"1"
 			{
-				"name"										"Solomon Heavy"
+				"name"										"solomon_heavy"
 				"Tall"										"16"
 			}
 		}
@@ -118,7 +118,7 @@
 		{
 			"1"
 			{
-				"name"										"Solomon Numbers"
+				"name"										"solomon_numbers"
 				"Tall"										"16"
 			}
 		}
@@ -126,7 +126,7 @@
 		{
 			"1"
 			{
-				"name"										"Solomon Heavy"
+				"name"										"solomon_heavy"
 				"Tall"										"18"
 			}
 		}
@@ -134,7 +134,7 @@
 		{
 			"1"
 			{
-				"name"										"Solomon Heavy"
+				"name"										"solomon_heavy"
 				"Tall"										"20"
 			}
 		}
@@ -142,7 +142,7 @@
 		{
 			"1"
 			{
-				"name"										"Solomon Heavy"
+				"name"										"solomon_heavy"
 				"Tall"										"20"
 			}
 		}
@@ -150,7 +150,7 @@
 		{
 			"1"
 			{
-				"name"										"Solomon Heavy"
+				"name"										"solomon_heavy"
 				"Tall"										"20"
 			}
 		}
@@ -158,7 +158,7 @@
 		{
 			"1"
 			{
-				"name"										"Solomon Numbers"
+				"name"										"solomon_numbers"
 				"Tall"										"20"
 			}
 		}
@@ -166,7 +166,7 @@
 		{
 			"1"
 			{
-				"name"										"Solomon Heavy"
+				"name"										"solomon_heavy"
 				"Tall"										"22"
 			}
 		}
@@ -174,7 +174,7 @@
 		{
 			"1"
 			{
-				"name"										"Solomon Heavy"
+				"name"										"solomon_heavy"
 				"Tall"										"24"
 			}
 		}
@@ -182,7 +182,7 @@
 		{
 			"1"
 			{
-				"name"										"Solomon Heavy"
+				"name"										"solomon_heavy"
 				"Tall"										"26"
 			}
 		}
@@ -190,7 +190,7 @@
 		{
 			"1"
 			{
-				"name"										"Solomon Numbers"
+				"name"										"solomon_numbers"
 				"Tall"										"26"
 			}
 		}
@@ -198,7 +198,7 @@
 		{
 			"1"
 			{
-				"name"										"Solomon Heavy"
+				"name"										"solomon_heavy"
 				"Tall"										"26"
 			}
 		}
@@ -206,7 +206,7 @@
 		{
 			"1"
 			{
-				"name"										"Solomon Heavy"
+				"name"										"solomon_heavy"
 				"Tall"										"26"
 			}
 		}
@@ -214,7 +214,7 @@
 		{
 			"1"
 			{
-				"name"										"Solomon Heavy"
+				"name"										"solomon_heavy"
 				"Tall"										"28"
 			}
 		}
@@ -222,7 +222,7 @@
 		{
 			"1"
 			{
-				"name"										"Solomon Heavy"
+				"name"										"solomon_heavy"
 				"Tall"										"38"
 			}
 		}
@@ -230,7 +230,7 @@
 		{
 			"1"
 			{
-				"name"										"Solomon Heavy"
+				"name"										"solomon_heavy"
 				"Tall"										"46"
 			}
 		}
@@ -238,27 +238,27 @@
 		{
 			"1"
 			{
-				"name"										"Solomon Heavy"
+				"name"										"solomon_heavy"
 				"Tall"										"13"
 			}
 			"2"
 			{
-				"name"										"Solomon Heavy"
+				"name"										"solomon_heavy"
 				"Tall"										"16"
 			}
 			"3"
 			{
-				"name"										"Solomon Heavy"
+				"name"										"solomon_heavy"
 				"Tall"										"20"
 			}
 			"4"
 			{
-				"name"										"Solomon Heavy"
+				"name"										"solomon_heavy"
 				"Tall"										"22"
 			}
 			"5"
 			{
-				"name"										"Solomon Heavy"
+				"name"										"solomon_heavy"
 				"Tall"										"24"
 			}
 		}
@@ -266,35 +266,35 @@
 		{
 			"1"
 			{
-				"name"										"Solomon Heavy"
+				"name"										"solomon_heavy"
 			}
 		}
 		"CloseCaption_Italic"
 		{
 			"1"
 			{
-				"name"										"Solomon Heavy"
+				"name"										"solomon_heavy"
 			}
 		}
 		"CloseCaption_Bold"
 		{
 			"1"
 			{
-				"name"										"Solomon Heavy"
+				"name"										"solomon_heavy"
 			}
 		}
 		"CloseCaption_BoldItalic"
 		{
 			"1"
 			{
-				"name"										"Solomon Heavy"
+				"name"										"solomon_heavy"
 			}
 		}
 		"CloseCaption_Small"
 		{
 			"1"
 			{
-				"name"										"Solomon Heavy"
+				"name"										"solomon_heavy"
 			}
 		}
 	}

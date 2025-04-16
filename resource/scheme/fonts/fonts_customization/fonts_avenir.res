@@ -6,119 +6,119 @@
 		{
 			"1"
 			{
-				"name"										"AvenirLTStd-Black"
+				"name"										"avenir_black"
 			}
 		}
 		"m0refont10"
 		{
 			"1"
 			{
-				"name"										"AvenirLTStd-Black"
+				"name"										"avenir_black"
 			}
 		}
 		"m0refont10Shadow"
 		{
 			"1"
 			{
-				"name"										"AvenirLTStd-Black"
+				"name"										"avenir_black"
 			}
 		}
 		"m0refont11"
 		{
 			"1"
 			{
-				"name"										"AvenirLTStd-Black"
+				"name"										"avenir_black"
 			}
 		}
 		"m0refont11Shadow"
 		{
 			"1"
 			{
-				"name"										"AvenirLTStd-Black"
+				"name"										"avenir_black"
 			}
 		}
 		"m0refont12"
 		{
 			"1"
 			{
-				"name"										"AvenirLTStd-Black"
+				"name"										"avenir_black"
 			}
 		}
 		"m0refont12Shadow"
 		{
 			"1"
 			{
-				"name"										"AvenirLTStd-Black"
+				"name"										"avenir_black"
 			}
 		}
 		"m0refont14"
 		{
 			"1"
 			{
-				"name"										"AvenirLTStd-Black"
+				"name"										"avenir_black"
 			}
 		}
 		"m0refont14Shadow"
 		{
 			"1"
 			{
-				"name"										"AvenirLTStd-Black"
+				"name"										"avenir_black"
 			}
 		}
 		"m0refont16"
 		{
 			"1"
 			{
-				"name"										"AvenirLTStd-Black"
+				"name"										"avenir_black"
 			}
 		}
 		"m0refont16Shadow"
 		{
 			"1"
 			{
-				"name"										"AvenirLTStd-Black"
+				"name"										"avenir_black"
 			}
 		}
 		"m0refont18"
 		{
 			"1"
 			{
-				"name"										"AvenirLTStd-Black"
+				"name"										"avenir_black"
 			}
 		}
 		"m0refont18Shadow"
 		{
 			"1"
 			{
-				"name"										"AvenirLTStd-Black"
+				"name"										"avenir_black"
 			}
 		}
 		"m0refont18Outline"
 		{
 			"1"
 			{
-				"name"										"AvenirLTStd-Black"
+				"name"										"avenir_black"
 			}
 		}
 		"m0refont18Numbers"
 		{
 			"1"
 			{
-				"name"										"AvenirLTStd-Black-Numbers"
+				"name"										"avenir_black_numbers"
 			}
 		}
 		"m0refont20"
 		{
 			"1"
 			{
-				"name"										"AvenirLTStd-Black"
+				"name"										"avenir_black"
 			}
 		}
 		"m0refont24"
 		{
 			"1"
 			{
-				"name"										"AvenirLTStd-Black"
+				"name"										"avenir_black"
 				"Tall"										"22"
 			}
 		}
@@ -126,7 +126,7 @@
 		{
 			"1"
 			{
-				"name"										"AvenirLTStd-Black"
+				"name"										"avenir_black"
 				"Tall"										"22"
 			}
 		}
@@ -134,7 +134,7 @@
 		{
 			"1"
 			{
-				"name"										"AvenirLTStd-Black"
+				"name"										"avenir_black"
 				"Tall"										"22"
 			}
 		}
@@ -142,7 +142,7 @@
 		{
 			"1"
 			{
-				"name"										"AvenirLTStd-Black-Numbers"
+				"name"										"avenir_black_numbers"
 				"Tall"										"22"
 			}
 		}
@@ -150,7 +150,7 @@
 		{
 			"1"
 			{
-				"name"										"AvenirLTStd-Black"
+				"name"										"avenir_black"
 				"Tall"										"24"
 			}
 		}
@@ -158,7 +158,7 @@
 		{
 			"1"
 			{
-				"name"										"AvenirLTStd-Black"
+				"name"										"avenir_black"
 				"Tall"										"27"
 			}
 		}
@@ -166,7 +166,7 @@
 		{
 			"1"
 			{
-				"name"										"AvenirLTStd-Black"
+				"name"										"avenir_black"
 				"Tall"										"27"
 			}
 		}
@@ -174,7 +174,7 @@
 		{
 			"1"
 			{
-				"name"										"AvenirLTStd-Black-Numbers"
+				"name"										"avenir_black_numbers"
 				"Tall"										"27"
 			}
 		}
@@ -182,7 +182,7 @@
 		{
 			"1"
 			{
-				"name"										"AvenirLTStd-Black"
+				"name"										"avenir_black"
 				"Tall"										"29"
 			}
 		}
@@ -190,7 +190,7 @@
 		{
 			"1"
 			{
-				"name"										"AvenirLTStd-Black"
+				"name"										"avenir_black"
 				"Tall"										"29"
 			}
 		}
@@ -198,7 +198,7 @@
 		{
 			"1"
 			{
-				"name"										"AvenirLTStd-Black"
+				"name"										"avenir_black"
 				"Tall"										"32"
 			}
 		}
@@ -206,7 +206,7 @@
 		{
 			"1"
 			{
-				"name"										"AvenirLTStd-Black"
+				"name"										"avenir_black"
 				"Tall"										"42"
 			}
 		}
@@ -214,7 +214,7 @@
 		{
 			"1"
 			{
-				"name"										"AvenirLTStd-Black"
+				"name"										"avenir_black"
 				"Tall"										"50"
 			}
 		}
@@ -222,58 +222,58 @@
 		{
 			"1"
 			{
-				"name"										"AvenirLTStd-Black"
+				"name"										"avenir_black"
 			}
 			"2"
 			{
-				"name"										"AvenirLTStd-Black"
+				"name"										"avenir_black"
 			}
 			"3"
 			{
-				"name"										"AvenirLTStd-Black"
+				"name"										"avenir_black"
 			}
 			"4"
 			{
-				"name"										"AvenirLTStd-Black"
+				"name"										"avenir_black"
 			}
 			"5"
 			{
-				"name"										"AvenirLTStd-Black"
+				"name"										"avenir_black"
 			}
 		}
 		"CloseCaption_Normal"
 		{
 			"1"
 			{
-				"name"										"AvenirLTStd-Black"
+				"name"										"avenir_black"
 			}
 		}
 		"CloseCaption_Italic"
 		{
 			"1"
 			{
-				"name"										"AvenirLTStd-Black"
+				"name"										"avenir_black"
 			}
 		}
 		"CloseCaption_Bold"
 		{
 			"1"
 			{
-				"name"										"AvenirLTStd-Black"
+				"name"										"avenir_black"
 			}
 		}
 		"CloseCaption_BoldItalic"
 		{
 			"1"
 			{
-				"name"										"AvenirLTStd-Black"
+				"name"										"avenir_black"
 			}
 		}
 		"CloseCaption_Small"
 		{
 			"1"
 			{
-				"name"										"AvenirLTStd-Black"
+				"name"										"avenir_black"
 			}
 		}
 	}

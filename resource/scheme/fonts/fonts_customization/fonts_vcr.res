@@ -6,7 +6,7 @@
 		{
 			"1"
 			{
-				"name"										"VCR OSD Mono"
+				"name"										"vcr_osd_mono"
 				"Tall"										"7"
 			}
 		}
@@ -14,7 +14,7 @@
 		{
 			"1"
 			{
-				"name"										"VCR OSD Mono"
+				"name"										"vcr_osd_mono"
 				"Tall"										"7"
 			}
 		}
@@ -22,7 +22,7 @@
 		{
 			"1"
 			{
-				"name"										"VCR OSD Mono"
+				"name"										"vcr_osd_mono"
 				"Tall"										"7"
 			}
 		}
@@ -30,7 +30,7 @@
 		{
 			"1"
 			{
-				"name"										"VCR OSD Mono"
+				"name"										"vcr_osd_mono"
 				"Tall"										"8"
 			}
 		}
@@ -38,7 +38,7 @@
 		{
 			"1"
 			{
-				"name"										"VCR OSD Mono"
+				"name"										"vcr_osd_mono"
 				"Tall"										"8"
 			}
 		}
@@ -46,7 +46,7 @@
 		{
 			"1"
 			{
-				"name"										"VCR OSD Mono"
+				"name"										"vcr_osd_mono"
 				"Tall"										"9"
 			}
 		}
@@ -54,7 +54,7 @@
 		{
 			"1"
 			{
-				"name"										"VCR OSD Mono"
+				"name"										"vcr_osd_mono"
 				"Tall"										"9"
 			}
 		}
@@ -62,7 +62,7 @@
 		{
 			"1"
 			{
-				"name"										"VCR OSD Mono"
+				"name"										"vcr_osd_mono"
 				"Tall"										"10"
 			}
 		}
@@ -70,7 +70,7 @@
 		{
 			"1"
 			{
-				"name"										"VCR OSD Mono"
+				"name"										"vcr_osd_mono"
 				"Tall"										"10"
 			}
 		}
@@ -78,7 +78,7 @@
 		{
 			"1"
 			{
-				"name"										"VCR OSD Mono"
+				"name"										"vcr_osd_mono"
 				"Tall"										"12"
 			}
 		}
@@ -86,7 +86,7 @@
 		{
 			"1"
 			{
-				"name"										"VCR OSD Mono"
+				"name"										"vcr_osd_mono"
 				"Tall"										"12"
 			}
 		}
@@ -94,7 +94,7 @@
 		{
 			"1"
 			{
-				"name"										"VCR OSD Mono"
+				"name"										"vcr_osd_mono"
 				"Tall"										"14"
 			}
 		}
@@ -102,7 +102,7 @@
 		{
 			"1"
 			{
-				"name"										"VCR OSD Mono"
+				"name"										"vcr_osd_mono"
 				"Tall"										"14"
 			}
 		}
@@ -110,7 +110,7 @@
 		{
 			"1"
 			{
-				"name"										"VCR OSD Mono"
+				"name"										"vcr_osd_mono"
 				"Tall"										"14"
 			}
 		}
@@ -118,7 +118,7 @@
 		{
 			"1"
 			{
-				"name"										"VCR OSD Mono Numbers"
+				"name"										"vcr_osd_mono_numbers"
 				"Tall"										"14"
 			}
 		}
@@ -126,7 +126,7 @@
 		{
 			"1"
 			{
-				"name"										"VCR OSD Mono"
+				"name"										"vcr_osd_mono"
 				"Tall"										"16"
 			}
 		}
@@ -134,7 +134,7 @@
 		{
 			"1"
 			{
-				"name"										"VCR OSD Mono"
+				"name"										"vcr_osd_mono"
 				"Tall"										"19"
 			}
 		}
@@ -142,7 +142,7 @@
 		{
 			"1"
 			{
-				"name"										"VCR OSD Mono"
+				"name"										"vcr_osd_mono"
 				"Tall"										"19"
 			}
 		}
@@ -150,7 +150,7 @@
 		{
 			"1"
 			{
-				"name"										"VCR OSD Mono"
+				"name"										"vcr_osd_mono"
 				"Tall"										"19"
 			}
 		}
@@ -158,7 +158,7 @@
 		{
 			"1"
 			{
-				"name"										"VCR OSD Mono Numbers"
+				"name"										"vcr_osd_mono_numbers"
 				"Tall"										"19"
 			}
 		}
@@ -166,7 +166,7 @@
 		{
 			"1"
 			{
-				"name"										"VCR OSD Mono"
+				"name"										"vcr_osd_mono"
 				"Tall"										"22"
 			}
 		}
@@ -174,7 +174,7 @@
 		{
 			"1"
 			{
-				"name"										"VCR OSD Mono"
+				"name"										"vcr_osd_mono"
 				"Tall"										"24"
 			}
 		}
@@ -182,7 +182,7 @@
 		{
 			"1"
 			{
-				"name"										"VCR OSD Mono"
+				"name"										"vcr_osd_mono"
 				"Tall"										"24"
 			}
 		}
@@ -190,7 +190,7 @@
 		{
 			"1"
 			{
-				"name"										"VCR OSD Mono Numbers"
+				"name"										"vcr_osd_mono_numbers"
 				"Tall"										"24"
 			}
 		}
@@ -198,7 +198,7 @@
 		{
 			"1"
 			{
-				"name"										"VCR OSD Mono"
+				"name"										"vcr_osd_mono"
 				"Tall"										"26"
 			}
 		}
@@ -206,7 +206,7 @@
 		{
 			"1"
 			{
-				"name"										"VCR OSD Mono"
+				"name"										"vcr_osd_mono"
 				"Tall"										"26"
 			}
 		}
@@ -214,7 +214,7 @@
 		{
 			"1"
 			{
-				"name"										"VCR OSD Mono"
+				"name"										"vcr_osd_mono"
 				"Tall"										"30"
 			}
 		}
@@ -222,7 +222,7 @@
 		{
 			"1"
 			{
-				"name"										"VCR OSD Mono"
+				"name"										"vcr_osd_mono"
 				"Tall"										"40"
 			}
 		}
@@ -230,7 +230,7 @@
 		{
 			"1"
 			{
-				"name"										"VCR OSD Mono"
+				"name"										"vcr_osd_mono"
 				"Tall"										"44"
 			}
 		}
@@ -238,27 +238,27 @@
 		{
 			"1"
 			{
-				"name"										"VCR OSD Mono"
+				"name"										"vcr_osd_mono"
 				"Tall"										"12"
 			}
 			"2"
 			{
-				"name"										"VCR OSD Mono"
+				"name"										"vcr_osd_mono"
 				"Tall"										"16"
 			}
 			"3"
 			{
-				"name"										"VCR OSD Mono"
+				"name"										"vcr_osd_mono"
 				"Tall"										"20"
 			}
 			"4"
 			{
-				"name"										"VCR OSD Mono"
+				"name"										"vcr_osd_mono"
 				"Tall"										"22"
 			}
 			"5"
 			{
-				"name"										"VCR OSD Mono"
+				"name"										"vcr_osd_mono"
 				"Tall"										"22"
 			}
 		}
@@ -266,7 +266,7 @@
 		{
 			"1"
 			{
-				"name"										"VCR OSD Mono"
+				"name"										"vcr_osd_mono"
 				"Tall"										"10"
 			}
 		}
@@ -274,7 +274,7 @@
 		{
 			"1"
 			{
-				"name"										"VCR OSD Mono"
+				"name"										"vcr_osd_mono"
 				"Tall"										"10"
 			}
 		}
@@ -282,7 +282,7 @@
 		{
 			"1"
 			{
-				"name"										"VCR OSD Mono"
+				"name"										"vcr_osd_mono"
 				"Tall"										"10"
 			}
 		}
@@ -290,7 +290,7 @@
 		{
 			"1"
 			{
-				"name"										"VCR OSD Mono"
+				"name"										"vcr_osd_mono"
 				"Tall"										"10"
 			}
 		}
@@ -298,7 +298,7 @@
 		{
 			"1"
 			{
-				"name"										"VCR OSD Mono"
+				"name"										"vcr_osd_mono"
 				"Tall"										"8"
 			}
 		}

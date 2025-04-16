@@ -5,352 +5,352 @@
 		"200"
 		{
 			"Font"		"resource/scheme/fonts/fonts_optional/alternate_gothic.ttf"
-			"name"		"AlternateGothicEF-NoThree"
+			"name"		"alternate_gothic_ef"
 		}
 		"201"
 		{
 			"Font"		"resource/scheme/fonts/fonts_optional/alternate_gothic_numbers.ttf"
-			"name"		"AlternateGothic-Numbers"
+			"name"		"alternate_gothic_numbers"
 		}
 		"202"
 		{
 			"Font"		"resource/scheme/fonts/fonts_optional/archive.otf"
-			"name"		"Archive"
+			"name"		"archive"
 		}
 		"203"
 		{
 			"Font"		"resource/scheme/fonts/fonts_optional/archive_numbers.otf"
-			"name"		"Archive-Numbers"
+			"name"		"archive-numbers"
 		}
 		"204"
 		{
 			"Font"		"resource/scheme/fonts/fonts_optional/avenir.ttf"
-			"name"		"AvenirLTStd-Black"
+			"name"		"avenir_black"
 		}
 		"205"
 		{
 			"Font"		"resource/scheme/fonts/fonts_optional/avenir_numbers.ttf"
-			"name"		"AvenirLTStd-Black-Numbers"
+			"name"		"avenir_black_numbers"
 		}
 		"206"
 		{
 			"Font"		"resource/scheme/fonts/fonts_optional/cafe_nero.ttf"
-			"name"		"Cafe Nero M54"
+			"name"		"cafe_nero_m54"
 		}
 		"207"
 		{
 			"Font"		"resource/scheme/fonts/fonts_optional/cafe_nero_numbers.ttf"
-			"name"		"Cafe Nero Numbers"
+			"name"		"cafe_nero_numbers"
 		}
 		"208"
 		{
 			"Font"		"resource/scheme/fonts/fonts_optional/catamaran.ttf"
-			"name"		"Catamaran SemiBold"
+			"name"		"catamaran_semibold"
 		}
 		"209"
 		{
 			"Font"		"resource/scheme/fonts/fonts_optional/catamaran_numbers.ttf"
-			"name"		"Catamaran-SemiBold-Numbers"
+			"name"		"catamaran_semibold_numbers"
 		}
 		"210"
 		{
 			"Font"		"resource/scheme/fonts/fonts_optional/cerbetica.ttf"
-			"name"		"Cerbetica Bold"
+			"name"		"cerbetica_bold"
 		}
 		"211"
 		{
 			"Font"		"resource/scheme/fonts/fonts_optional/cerbetica_numbers.ttf"
-			"name"		"Cerbetica-Bold-Numbers"
+			"name"		"cerbetica_numbers"
 		}
 		"212"
 		{
 			"Font"		"resource/scheme/fonts/fonts_optional/code_pro.otf"
-			"name"		"Code-Pro-LC"
+			"name"		"code_pro_lc"
 		}
 		"213"
 		{
 			"Font"		"resource/scheme/fonts/fonts_optional/code_pro_numbers.otf"
-			"name"		"Code-Pro-Numbers"
+			"name"		"code_pro_numbers"
 		}
 		"214"
 		{
 			"Font"		"resource/scheme/fonts/fonts_optional/days.ttf"
-			"name"		"Days"
+			"name"		"days"
 		}
 		"215"
 		{
 			"Font"		"resource/scheme/fonts/fonts_optional/days_numbers.ttf"
-			"name"		"Days-Numbers"
+			"name"		"days_numbers"
 		}
 		"216"
 		{
 			"Font"		"resource/scheme/fonts/fonts_optional/futura.otf"
-			"name"		"FuturaSTD-Heavy"
+			"name"		"futura_std_heavy"
 		}
 		"217"
 		{
 			"Font"		"resource/scheme/fonts/fonts_optional/futura_numbers.otf"
-			"name"		"Futura Numbers"
+			"name"		"futura_numbers"
 		}
 		"218"
 		{
 			"Font"		"resource/scheme/fonts/fonts_optional/handel_gothic.ttf"
-			"name"		"Handel Gothic BT"
+			"name"		"handel_gothic_bt"
 		}
 		"219"
 		{
 			"Font"		"resource/scheme/fonts/fonts_optional/handel_gothic_numbers.ttf"
-			"name"		"HandelGothic BT Numbers"
+			"name"		"handel_gothic_numbers"
 		}
 		"220"
 		{
 			"Font"		"resource/scheme/fonts/fonts_optional/harabara.ttf"
-			"name"		"Harabara Bold"
+			"name"		"harabara_bold"
 		}
 		"221"
 		{
 			"Font"		"resource/scheme/fonts/fonts_optional/harabara_numbers.ttf"
-			"name"		"Harabara Bold Numbers"
+			"name"		"harabara_numbers"
 		}
 		"222"
 		{
 			"Font"		"resource/scheme/fonts/fonts_optional/helvetica.otf"
-			"name"		"HelveticaNeueLT-BoldExt"
+			"name"		"helvetica_neue_lt"
 		}
 		"223"
 		{
 			"Font"		"resource/scheme/fonts/fonts_optional/helvetica_numbers.otf"
-			"name"		"Helvetica Neue LT Numbers"
+			"name"		"helvetica_numbers"
 		}
 		"224"
 		{
 			"Font"		"resource/scheme/fonts/fonts_optional/lato.ttf"
-			"name"		"Lato Bold"
+			"name"		"lato_bold"
 		}
 		"225"
 		{
 			"Font"		"resource/scheme/fonts/fonts_optional/lato_numbers.ttf"
-			"name"		"Lato Numbers"
+			"name"		"lato_numbers"
 		}
 		"226"
 		{
 			"Font"		"resource/scheme/fonts/fonts_optional/mavenpro.ttf"
-			"name"		"Maven Pro Black"
+			"name"		"mavenpro_black"
 		}
 		"227"
 		{
 			"Font"		"resource/scheme/fonts/fonts_optional/mavenpro_numbers.ttf"
-			"name"		"Maven Pro Numbers"
+			"name"		"mavenpro_numbers"
 		}
 		"228"
 		{
 			"Font"		"resource/scheme/fonts/fonts_optional/neutra.ttf"
-			"name"		"NeutraText-Bold"
+			"name"		"neutra_text_bold"
 		}
 		"229"
 		{
 			"Font"		"resource/scheme/fonts/fonts_optional/neutra_numbers.ttf"
-			"name"		"NeutraText-Numbers"
+			"name"		"neutra_numbers"
 		}
 		"230"
 		{
 			"Font"		"resource/scheme/fonts/fonts_optional/nexa.otf"
-			"name"		"NexaBold"
+			"name"		"nexa_bold"
 		}
 		"231"
 		{
 			"Font"		"resource/scheme/fonts/fonts_optional/nexa_numbers.otf"
-			"name"		"Nexa-Numbers"
+			"name"		"nexa_numbers"
 		}
 		"232"
 		{
 			"Font"		"resource/scheme/fonts/fonts_optional/noto.ttf"
-			"name"		"Noto Sans Bold"
+			"name"		"noto_sans_bold"
 		}
 		"233"
 		{
 			"Font"		"resource/scheme/fonts/fonts_optional/noto_numbers.ttf"
-			"name"		"Noto Sans Numbers"
+			"name"		"noto_numbers"
 		}
 		"234"
 		{
 			"Font"		"resource/scheme/fonts/fonts_optional/octosquares.ttf"
-			"name"		"TT Octosquares Trl Bd"
+			"name"		"tt_octosquares_trl_bld"
 		}
 		"235"
 		{
 			"Font"		"resource/scheme/fonts/fonts_optional/octosquares_numbers.ttf"
-			"name"		"TT Octosquares Numbers"
+			"name"		"octosquares_numbers"
 		}
 		"236"
 		{
 			"Font"		"resource/scheme/fonts/fonts_optional/product.ttf"
-			"name"		"Product Sans"
+			"name"		"product_sans"
 		}
 		"237"
 		{
 			"Font"		"resource/scheme/fonts/fonts_optional/product_numbers.ttf"
-			"name"		"Product Sans Numbers"
+			"name"		"product_numbers"
 		}
 		"238"
 		{
 			"Font"		"resource/scheme/fonts/fonts_optional/product_bold.ttf"
-			"name"		"Product Sans Bold"
+			"name"		"product_sans_bold"
 		}
 		"239"
 		{
 			"Font"		"resource/scheme/fonts/fonts_optional/product_bold_numbers.ttf"
-			"name"		"Product Sans Bold Numbers"
+			"name"		"product_bold_numbers"
 		}
 		"240"
 		{
 			"Font"		"resource/scheme/fonts/fonts_optional/raleway_bold.ttf"
-			"name"		"Raleway Bold"
+			"name"		"raleway_bold"
 		}
 		"241"
 		{
 			"Font"		"resource/scheme/fonts/fonts_optional/raleway_bold_numbers.ttf"
-			"name"		"Raleway Bold Numbers"
+			"name"		"raleway_bold_numbers"
 		}
 		"242"
 		{
 			"Font"		"resource/scheme/fonts/fonts_optional/renogare.ttf"
-			"name"		"RenogareSoft-Regular"
+			"name"		"renogare_soft_regular"
 		}
 		"243"
 		{
 			"Font"		"resource/scheme/fonts/fonts_optional/renogare_numbers.ttf"
-			"name"		"Renogare Soft Numbers"
+			"name"		"renogare_numbers"
 		}
 		"244"
 		{
 			"Font"		"resource/scheme/fonts/fonts_optional/roboto.ttf"
-			"name"		"Roboto Bold"
+			"name"		"roboto_bold"
 		}
 		"245"
 		{
 			"Font"		"resource/scheme/fonts/fonts_optional/roboto_numbers.ttf"
-			"name"		"Roboto Numbers"
+			"name"		"roboto_numbers"
 		}
 		"246"
 		{
 			"Font"		"resource/scheme/fonts/fonts_optional/rubik.otf"
-			"name"		"Rubik SemiBold"
+			"name"		"rubik_semibold"
 		}
 		"247"
 		{
 			"Font"		"resource/scheme/fonts/fonts_optional/rubik_numbers.otf"
-			"name"		"Rubik SemiBold Numbers"
+			"name"		"rubik_numbers"
 		}
 		"248"
 		{
 			"Font"		"resource/scheme/fonts/fonts_optional/sansation.ttf"
-			"name"		"Sansation Bold"
+			"name"		"sansation_bold"
 		}
 		"249"
 		{
 			"Font"		"resource/scheme/fonts/fonts_optional/sansation_numbers.ttf"
-			"name"		"Sansation-Numbers"
+			"name"		"sansation_numbers"
 		}
 		"250"
 		{
 			"Font"		"resource/scheme/fonts/fonts_optional/slate.otf"
-			"name"		"SlatePro-BoldCondensed"
+			"name"		"slate_pro_bold_condensed"
 		}
 		"251"
 		{
 			"Font"		"resource/scheme/fonts/fonts_optional/slate_numbers.otf"
-			"name"		"Slate Pro Numbers"
+			"name"		"slate_numbers"
 		}
 		"252"
 		{
 			"Font"		"resource/scheme/fonts/fonts_optional/solomon.ttf"
-			"name"		"Solomon Heavy"
+			"name"		"solomon_heavy"
 		}
 		"253"
 		{
 			"Font"		"resource/scheme/fonts/fonts_optional/solomon_numbers.ttf"
-			"name"		"Solomon Numbers"
+			"name"		"solomon_numbers"
 		}
 		"254"
 		{
 			"Font"		"resource/scheme/fonts/fonts_optional/surface_semiBold.ttf"
-			"name"		"Surface-SemiBold"
+			"name"		"surface_semibold"
 		}
 		"255"
 		{
 			"Font"		"resource/scheme/fonts/fonts_optional/surface_semiBold_numbers.ttf"
-			"name"		"Surface Semibold Numbers"
+			"name"		"surface_semibold_numbers"
 		}
 		"256"
 		{
 			"Font"		"resource/scheme/fonts/fonts_optional/surface_bold.otf"
-			"name"		"Surface-Bold"
+			"name"		"surface_bold"
 		}
 		"257"
 		{
 			"Font"		"resource/scheme/fonts/fonts_optional/surface_bold_numbers.otf"
-			"name"		"Surface Bold Numbers"
+			"name"		"surface_bold_numbers"
 		}
 		"258"
 		{
 			"Font"		"resource/scheme/fonts/fonts_optional/surface_sharpened.ttf"
-			"name"		"SurfaceSharpened-Medium"
+			"name"		"surface_sharpened_medium"
 		}
 		"259"
 		{
 			"Font"		"resource/scheme/fonts/fonts_optional/surface_sharpened_numbers.ttf"
-			"name"		"Surface Sharpened Numbers"
+			"name"		"surface_sharpened_numbers"
 		}
 		"260"
 		{
 			"Font"		"resource/scheme/fonts/fonts_optional/tf2_build.ttf"
-			"name"		"TF2 Build"
+			"name"		"tf2_build"
 		}
 		"261"
 		{
 			"Font"		"resource/scheme/fonts/fonts_optional/tf2_build_numbers.ttf"
-			"name"		"TF2 Build Numbers"
+			"name"		"tf2_build_numbers"
 		}
 		"262"
 		{
 			"Font"		"resource/scheme/fonts/fonts_optional/tf2_secondary.ttf"
-			"name"		"TF2 Secondary"
+			"name"		"tf2_secondary"
 		}
 		"263"
 		{
 			"Font"		"resource/scheme/fonts/fonts_optional/tf2_secondary_numbers.ttf"
-			"name"		"TF2 Secondary Numbers"
+			"name"		"tf2_numbers"
 		}
 		"264"
 		{
 			"Font"		"resource/scheme/fonts/fonts_optional/ubuntu.ttf"
-			"name"		"Ubuntu Bold"
+			"name"		"ubuntu_bold"
 		}
 		"265"
 		{
 			"Font"		"resource/scheme/fonts/fonts_optional/ubuntu_numbers.ttf"
-			"name"		"Ubuntu Numbers"
+			"name"		"ubuntu_numbers"
 		}
 		"266"
 		{
 			"Font"		"resource/scheme/fonts/fonts_optional/vcr_osd_mono.ttf"
-			"name"		"VCR OSD Mono"
+			"name"		"vcr_osd_mono"
 		}
 		"267"
 		{
 			"Font"		"resource/scheme/fonts/fonts_optional/vcr_osd_mono_numbers.ttf"
-			"name"		"VCR OSD Mono Numbers"
+			"name"		"vcr_osd_mono_numbers"
 		}
 		"268"
 		{
 			"Font"		"resource/scheme/fonts/fonts_optional/verlag.otf"
-			"name"		"Verlag-Black"
+			"name"		"verlag_black"
 		}
 		"269"
 		{
 			"Font"		"resource/scheme/fonts/fonts_optional/verlag_numbers.otf"
-			"name"		"Verlag Black Numbers"
+			"name"		"verlag_numbers"
 		}
 		// CUSTOM USER FONT
 		"300"

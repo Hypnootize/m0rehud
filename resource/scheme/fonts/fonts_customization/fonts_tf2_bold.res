@@ -6,7 +6,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Build"
+				"name"										"tf2_build"
 				"Tall"										"8"
 			}
 		}
@@ -14,7 +14,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Build"
+				"name"										"tf2_build"
 				"Tall"										"9"
 			}
 		}
@@ -22,7 +22,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Build"
+				"name"										"tf2_build"
 				"Tall"										"9"
 			}
 		}
@@ -30,7 +30,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Build"
+				"name"										"tf2_build"
 				"Tall"										"10"
 			}
 		}
@@ -38,7 +38,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Build"
+				"name"										"tf2_build"
 				"Tall"										"10"
 			}
 		}
@@ -46,7 +46,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Build"
+				"name"										"tf2_build"
 				"Tall"										"11"
 			}
 		}
@@ -54,7 +54,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Build"
+				"name"										"tf2_build"
 				"Tall"										"11"
 			}
 		}
@@ -62,7 +62,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Build"
+				"name"										"tf2_build"
 				"Tall"										"12"
 			}
 		}
@@ -70,7 +70,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Build"
+				"name"										"tf2_build"
 				"Tall"										"12"
 			}
 		}
@@ -78,7 +78,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Build"
+				"name"										"tf2_build"
 				"Tall"										"14"
 			}
 		}
@@ -86,7 +86,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Build"
+				"name"										"tf2_build"
 				"Tall"										"14"
 			}
 		}
@@ -94,7 +94,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Build"
+				"name"										"tf2_build"
 				"Tall"										"16"
 			}
 		}
@@ -102,7 +102,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Build"
+				"name"										"tf2_build"
 				"Tall"										"16"
 			}
 		}
@@ -110,7 +110,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Build"
+				"name"										"tf2_build"
 				"Tall"										"16"
 			}
 		}
@@ -118,7 +118,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Build Numbers"
+				"name"										"tf2_build_numbers"
 				"Tall"										"16"
 			}
 		}
@@ -126,7 +126,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Build"
+				"name"										"tf2_build"
 				"Tall"										"18"
 			}
 		}
@@ -134,7 +134,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Build"
+				"name"										"tf2_build"
 				"Tall"										"20"
 			}
 		}
@@ -142,7 +142,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Build"
+				"name"										"tf2_build"
 				"Tall"										"20"
 			}
 		}
@@ -150,7 +150,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Build"
+				"name"										"tf2_build"
 				"Tall"										"20"
 			}
 		}
@@ -158,7 +158,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Build Numbers"
+				"name"										"tf2_build_numbers"
 				"Tall"										"20"
 			}
 		}
@@ -166,7 +166,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Build"
+				"name"										"tf2_build"
 				"Tall"										"24"
 			}
 		}
@@ -174,7 +174,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Build"
+				"name"										"tf2_build"
 				"Tall"										"24"
 			}
 		}
@@ -182,7 +182,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Build"
+				"name"										"tf2_build"
 				"Tall"										"24"
 			}
 		}
@@ -190,7 +190,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Build Numbers"
+				"name"										"tf2_build_numbers"
 				"Tall"										"24"
 			}
 		}
@@ -198,7 +198,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Build"
+				"name"										"tf2_build"
 				"Tall"										"26"
 			}
 		}
@@ -206,7 +206,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Build"
+				"name"										"tf2_build"
 				"Tall"										"26"
 			}
 		}
@@ -214,7 +214,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Build"
+				"name"										"tf2_build"
 				"Tall"										"28"
 			}
 		}
@@ -222,7 +222,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Build"
+				"name"										"tf2_build"
 				"Tall"										"38"
 			}
 		}
@@ -230,7 +230,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Build"
+				"name"										"tf2_build"
 				"Tall"										"46"
 			}
 		}
@@ -238,27 +238,27 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Build"
+				"name"										"tf2_build"
 				"Tall"										"11"
 			}
 			"2"
 			{
-				"name"										"TF2 Build"
+				"name"										"tf2_build"
 				"Tall"										"15"
 			}
 			"3"
 			{
-				"name"										"TF2 Build"
+				"name"										"tf2_build"
 				"Tall"										"19"
 			}
 			"4"
 			{
-				"name"										"TF2 Build"
+				"name"										"tf2_build"
 				"Tall"										"21"
 			}
 			"5"
 			{
-				"name"										"TF2 Build"
+				"name"										"tf2_build"
 				"Tall"										"8"
 			}
 		}
@@ -266,7 +266,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Build"
+				"name"										"tf2_build"
 				"Tall"										"12"
 			}
 		}
@@ -274,7 +274,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Build"
+				"name"										"tf2_build"
 				"Tall"										"12"
 			}
 		}
@@ -282,7 +282,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Build"
+				"name"										"tf2_build"
 				"Tall"										"12"
 			}
 		}
@@ -290,7 +290,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Build"
+				"name"										"tf2_build"
 				"Tall"										"12"
 			}
 		}
@@ -298,7 +298,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Build"
+				"name"										"tf2_build"
 				"Tall"										"9"
 			}
 		}

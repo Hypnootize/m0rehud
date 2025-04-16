@@ -6,7 +6,7 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
+				"name"										"surface_medium"
 				"Tall"										"24"
 				"antialias"									"1"
 			}
@@ -15,7 +15,7 @@
 		{
 			"1"
 			{
-				"name"										"AlternateGothicEF-NoThree"
+				"name"										"alternate_gothic_ef"
 				"Tall"										"30"
 				"antialias"									"1"
 			}
@@ -33,7 +33,7 @@
 		{
 			"1"
 			{
-				"name"										"AvenirLTStd-Black"
+				"name"										"avenir_black"
 				"Tall"										"23"
 				"antialias"									"1"
 			}
@@ -42,7 +42,7 @@
 		{
 			"1"
 			{
-				"name"										"Cafe Nero M54"
+				"name"										"cafe_nero_m54"
 				"Tall"										"15"
 				"antialias"									"1"
 			}
@@ -51,7 +51,7 @@
 		{
 			"1"
 			{
-				"name"										"Catamaran SemiBold"
+				"name"										"catamaran_semibold"
 				"Tall"										"36"
 				"antialias"									"1"
 			}
@@ -60,7 +60,7 @@
 		{
 			"1"
 			{
-				"name"										"Cerbetica Bold"
+				"name"										"cerbetica_bold"
 				"Tall"										"27"
 				"antialias"									"1"
 			}
@@ -69,7 +69,7 @@
 		{
 			"1"
 			{
-				"name"										"Code-Pro-LC"
+				"name"										"code_pro_lc"
 				"Tall"										"24"
 				"antialias"									"1"
 			}
@@ -78,7 +78,7 @@
 		{
 			"1"
 			{
-				"name"										"Days"
+				"name"										"days"
 				"Tall"										"20"
 				"antialias"									"1"
 			}
@@ -87,7 +87,7 @@
 		{
 			"1"
 			{
-				"name"										"FuturaSTD-Heavy"
+				"name"										"futura_std_heavy"
 				"Tall"										"25"
 				"antialias"									"1"
 			}
@@ -96,7 +96,7 @@
 		{
 			"1"
 			{
-				"name"										"Handel Gothic BT"
+				"name"										"handel_gothic_bt"
 				"Tall"										"20"
 				"antialias"									"1"
 			}
@@ -105,7 +105,7 @@
 		{
 			"1"
 			{
-				"name"										"Harabara Bold"
+				"name"										"harabara_bold"
 				"Tall"										"24"
 				"antialias"									"1"
 			}
@@ -114,7 +114,7 @@
 		{
 			"1"
 			{
-				"name"										"HelveticaNeueLT-BoldExt"
+				"name"										"helvetica_neue_lt"
 				"Tall"										"18"
 				"antialias"									"1"
 			}
@@ -123,7 +123,7 @@
 		{
 			"1"
 			{
-				"name"										"Lato Bold"
+				"name"										"lato_bold"
 				"Tall"										"24"
 				"antialias"									"1"
 			}
@@ -132,7 +132,7 @@
 		{
 			"1"
 			{
-				"name"										"Maven Pro Black"
+				"name"										"mavenpro_black"
 				"Tall"										"22"
 				"antialias"									"1"
 			}
@@ -141,7 +141,7 @@
 		{
 			"1"
 			{
-				"name"										"NeutraText-Bold"
+				"name"										"neutra_text_bold"
 				"Tall"										"27"
 				"antialias"									"1"
 			}
@@ -150,7 +150,7 @@
 		{
 			"1"
 			{
-				"name"										"NexaBold"
+				"name"										"nexa_bold"
 				"Tall"										"23"
 				"antialias"									"1"
 			}
@@ -159,7 +159,7 @@
 		{
 			"1"
 			{
-				"name"										"Noto Sans Bold"
+				"name"										"noto_sans_bold"
 				"Tall"										"28"
 				"antialias"									"1"
 			}
@@ -168,7 +168,7 @@
 		{
 			"1"
 			{
-				"name"										"TT Octosquares Trl Bd"
+				"name"										"tt_octosquares_trl_bld"
 				"Tall"										"22"
 				"antialias"									"1"
 			}
@@ -177,7 +177,7 @@
 		{
 			"1"
 			{
-				"name"										"Product Sans"
+				"name"										"product_sans"
 				"Tall"										"26"
 				"antialias"									"1"
 			}
@@ -186,7 +186,7 @@
 		{
 			"1"
 			{
-				"name"										"Product Sans Bold"
+				"name"										"product_sans_bold"
 				"Tall"										"26"
 				"antialias"									"1"
 			}
@@ -195,7 +195,7 @@
 		{
 			"1"
 			{
-				"name"										"Raleway Bold"
+				"name"										"raleway_bold"
 				"Tall"										"28"
 				"antialias"									"1"
 			}
@@ -204,7 +204,7 @@
 		{
 			"1"
 			{
-				"name"										"RenogareSoft-Regular"
+				"name"										"renogare_soft_regular"
 				"Tall"										"24"
 				"antialias"									"1"
 			}
@@ -213,7 +213,7 @@
 		{
 			"1"
 			{
-				"name"										"Roboto Bold"
+				"name"										"roboto_bold"
 				"Tall"										"25"
 				"antialias"									"1"
 			}
@@ -222,7 +222,7 @@
 		{
 			"1"
 			{
-				"name"										"Rubik SemiBold"
+				"name"										"rubik_semibold"
 				"Tall"										"23"
 				"antialias"									"1"
 			}
@@ -231,7 +231,7 @@
 		{
 			"1"
 			{
-				"name"										"Sansation Bold"
+				"name"										"sansation_bold"
 				"Tall"										"22"
 				"antialias"									"1"
 			}
@@ -240,7 +240,7 @@
 		{
 			"1"
 			{
-				"name"										"SlatePro-BoldCondensed"
+				"name"										"slate_pro_bold_condensed"
 				"Tall"										"25"
 				"antialias"									"1"
 			}
@@ -249,7 +249,7 @@
 		{
 			"1"
 			{
-				"name"										"Solomon Heavy"
+				"name"										"solomon_heavy"
 				"Tall"										"22"
 				"antialias"									"1"
 			}
@@ -258,7 +258,7 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
+				"name"										"surface_medium"
 				"Tall"										"24"
 				"antialias"									"1"
 			}
@@ -267,7 +267,7 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Semibold"
+				"name"										"surface_semibold"
 				"Tall"										"22"
 				"antialias"									"1"
 			}
@@ -276,7 +276,7 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Bold"
+				"name"										"surface_bold"
 				"Tall"										"24"
 				"antialias"									"1"
 			}
@@ -285,7 +285,7 @@
 		{
 			"1"
 			{
-				"name"										"SurfaceSharpened-Medium"
+				"name"										"surface_sharpened_medium"
 				"Tall"										"24"
 				"antialias"									"1"
 			}
@@ -294,7 +294,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Secondary"
+				"name"										"tf2_secondary"
 				"Tall"										"28"
 				"antialias"									"1"
 			}
@@ -303,7 +303,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Build"
+				"name"										"tf2_build"
 				"Tall"										"22"
 				"antialias"									"1"
 			}
@@ -312,7 +312,7 @@
 		{
 			"1"
 			{
-				"name"										"Ubuntu Bold"
+				"name"										"ubuntu_bold"
 				"Tall"										"25"
 				"antialias"									"1"
 			}
@@ -321,7 +321,7 @@
 		{
 			"1"
 			{
-				"name"										"VCR OSD Mono"
+				"name"										"vcr_osd_mono"
 				"Tall"										"20"
 				"antialias"									"1"
 			}
@@ -330,7 +330,7 @@
 		{
 			"1"
 			{
-				"name"										"Verlag-Black"
+				"name"										"verlag_black"
 				"Tall"										"27"
 				"antialias"									"1"
 			}
@@ -339,7 +339,7 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
+				"name"										"surface_medium"
 				"Tall"										"18"
 				"antialias"									"1"
 				"outline"									"1"
@@ -349,7 +349,7 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
+				"name"										"surface_medium"
 				"Tall"										"24"
 				"antialias"									"1"
 				"outline"									"1"
@@ -359,7 +359,7 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
+				"name"										"surface_medium"
 				"Tall"										"30"
 				"antialias"									"1"
 				"outline"									"1"

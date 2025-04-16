@@ -6,119 +6,119 @@
 		{
 			"1"
 			{
-				"name"										"Code-Pro-LC"
+				"name"										"code_pro_lc"
 			}
 		}
 		"m0refont10"
 		{
 			"1"
 			{
-				"name"										"Code-Pro-LC"
+				"name"										"code_pro_lc"
 			}
 		}
 		"m0refont10Shadow"
 		{
 			"1"
 			{
-				"name"										"Code-Pro-LC"
+				"name"										"code_pro_lc"
 			}
 		}
 		"m0refont11"
 		{
 			"1"
 			{
-				"name"										"Code-Pro-LC"
+				"name"										"code_pro_lc"
 			}
 		}
 		"m0refont11Shadow"
 		{
 			"1"
 			{
-				"name"										"Code-Pro-LC"
+				"name"										"code_pro_lc"
 			}
 		}
 		"m0refont12"
 		{
 			"1"
 			{
-				"name"										"Code-Pro-LC"
+				"name"										"code_pro_lc"
 			}
 		}
 		"m0refont12Shadow"
 		{
 			"1"
 			{
-				"name"										"Code-Pro-LC"
+				"name"										"code_pro_lc"
 			}
 		}
 		"m0refont14"
 		{
 			"1"
 			{
-				"name"										"Code-Pro-LC"
+				"name"										"code_pro_lc"
 			}
 		}
 		"m0refont14Shadow"
 		{
 			"1"
 			{
-				"name"										"Code-Pro-LC"
+				"name"										"code_pro_lc"
 			}
 		}
 		"m0refont16"
 		{
 			"1"
 			{
-				"name"										"Code-Pro-LC"
+				"name"										"code_pro_lc"
 			}
 		}
 		"m0refont16Shadow"
 		{
 			"1"
 			{
-				"name"										"Code-Pro-LC"
+				"name"										"code_pro_lc"
 			}
 		}
 		"m0refont18"
 		{
 			"1"
 			{
-				"name"										"Code-Pro-LC"
+				"name"										"code_pro_lc"
 			}
 		}
 		"m0refont18Shadow"
 		{
 			"1"
 			{
-				"name"										"Code-Pro-LC"
+				"name"										"code_pro_lc"
 			}
 		}
 		"m0refont18Outline"
 		{
 			"1"
 			{
-				"name"										"Code-Pro-LC"
+				"name"										"code_pro_lc"
 			}
 		}
 		"m0refont18Numbers"
 		{
 			"1"
 			{
-				"name"										"Code-Pro-Numbers"
+				"name"										"code_pro_numbers"
 			}
 		}
 		"m0refont20"
 		{
 			"1"
 			{
-				"name"										"Code-Pro-LC"
+				"name"										"code_pro_lc"
 			}
 		}
 		"m0refont24"
 		{
 			"1"
 			{
-				"name"										"Code-Pro-LC"
+				"name"										"code_pro_lc"
 				"Tall"										"22"
 			}
 		}
@@ -126,7 +126,7 @@
 		{
 			"1"
 			{
-				"name"										"Code-Pro-LC"
+				"name"										"code_pro_lc"
 				"Tall"										"22"
 			}
 		}
@@ -134,7 +134,7 @@
 		{
 			"1"
 			{
-				"name"										"Code-Pro-LC"
+				"name"										"code_pro_lc"
 				"Tall"										"22"
 			}
 		}
@@ -142,7 +142,7 @@
 		{
 			"1"
 			{
-				"name"										"Code-Pro-Numbers"
+				"name"										"code_pro_numbers"
 				"Tall"										"22"
 			}
 		}
@@ -150,7 +150,7 @@
 		{
 			"1"
 			{
-				"name"										"Code-Pro-LC"
+				"name"										"code_pro_lc"
 				"Tall"										"24"
 			}
 		}
@@ -158,7 +158,7 @@
 		{
 			"1"
 			{
-				"name"										"Code-Pro-LC"
+				"name"										"code_pro_lc"
 				"Tall"										"28"
 			}
 		}
@@ -166,7 +166,7 @@
 		{
 			"1"
 			{
-				"name"										"Code-Pro-LC"
+				"name"										"code_pro_lc"
 				"Tall"										"28"
 			}
 		}
@@ -174,7 +174,7 @@
 		{
 			"1"
 			{
-				"name"										"Code-Pro-Numbers"
+				"name"										"code_pro_numbers"
 				"Tall"										"28"
 			}
 		}
@@ -182,7 +182,7 @@
 		{
 			"1"
 			{
-				"name"										"Code-Pro-LC"
+				"name"										"code_pro_lc"
 				"Tall"										"30"
 			}
 		}
@@ -190,7 +190,7 @@
 		{
 			"1"
 			{
-				"name"										"Code-Pro-LC"
+				"name"										"code_pro_lc"
 				"Tall"										"30"
 			}
 		}
@@ -198,7 +198,7 @@
 		{
 			"1"
 			{
-				"name"										"Code-Pro-LC"
+				"name"										"code_pro_lc"
 				"Tall"										"32"
 			}
 		}
@@ -206,7 +206,7 @@
 		{
 			"1"
 			{
-				"name"										"Code-Pro-LC"
+				"name"										"code_pro_lc"
 				"Tall"										"42"
 			}
 		}
@@ -214,7 +214,7 @@
 		{
 			"1"
 			{
-				"name"										"Code-Pro-LC"
+				"name"										"code_pro_lc"
 				"Tall"										"50"
 			}
 		}
@@ -222,58 +222,58 @@
 		{
 			"1"
 			{
-				"name"										"Code-Pro-LC"
+				"name"										"code_pro_lc"
 			}
 			"2"
 			{
-				"name"										"Code-Pro-LC"
+				"name"										"code_pro_lc"
 			}
 			"3"
 			{
-				"name"										"Code-Pro-LC"
+				"name"										"code_pro_lc"
 			}
 			"4"
 			{
-				"name"										"Code-Pro-LC"
+				"name"										"code_pro_lc"
 			}
 			"5"
 			{
-				"name"										"Code-Pro-LC"
+				"name"										"code_pro_lc"
 			}
 		}
 		"CloseCaption_Normal"
 		{
 			"1"
 			{
-				"name"										"Code-Pro-LC"
+				"name"										"code_pro_lc"
 			}
 		}
 		"CloseCaption_Italic"
 		{
 			"1"
 			{
-				"name"										"Code-Pro-LC"
+				"name"										"code_pro_lc"
 			}
 		}
 		"CloseCaption_Bold"
 		{
 			"1"
 			{
-				"name"										"Code-Pro-LC"
+				"name"										"code_pro_lc"
 			}
 		}
 		"CloseCaption_BoldItalic"
 		{
 			"1"
 			{
-				"name"										"Code-Pro-LC"
+				"name"										"code_pro_lc"
 			}
 		}
 		"CloseCaption_Small"
 		{
 			"1"
 			{
-				"name"										"Code-Pro-LC"
+				"name"										"code_pro_lc"
 			}
 		}
 	}

@@ -6,7 +6,7 @@
 		{
 			"1"
 			{
-				"name"										"HelveticaNeueLT-BoldExt"
+				"name"										"helvetica_neue_lt"
 				"Tall"										"7"
 			}
 		}
@@ -14,7 +14,7 @@
 		{
 			"1"
 			{
-				"name"										"HelveticaNeueLT-BoldExt"
+				"name"										"helvetica_neue_lt"
 				"Tall"										"8"
 			}
 		}
@@ -22,7 +22,7 @@
 		{
 			"1"
 			{
-				"name"										"HelveticaNeueLT-BoldExt"
+				"name"										"helvetica_neue_lt"
 				"Tall"										"8"
 			}
 		}
@@ -30,7 +30,7 @@
 		{
 			"1"
 			{
-				"name"										"HelveticaNeueLT-BoldExt"
+				"name"										"helvetica_neue_lt"
 				"Tall"										"9"
 			}
 		}
@@ -38,7 +38,7 @@
 		{
 			"1"
 			{
-				"name"										"HelveticaNeueLT-BoldExt"
+				"name"										"helvetica_neue_lt"
 				"Tall"										"9"
 			}
 		}
@@ -46,7 +46,7 @@
 		{
 			"1"
 			{
-				"name"										"HelveticaNeueLT-BoldExt"
+				"name"										"helvetica_neue_lt"
 				"Tall"										"8"
 			}
 		}
@@ -54,7 +54,7 @@
 		{
 			"1"
 			{
-				"name"										"HelveticaNeueLT-BoldExt"
+				"name"										"helvetica_neue_lt"
 				"Tall"										"8"
 			}
 		}
@@ -62,7 +62,7 @@
 		{
 			"1"
 			{
-				"name"										"HelveticaNeueLT-BoldExt"
+				"name"										"helvetica_neue_lt"
 				"Tall"										"9"
 			}
 		}
@@ -70,7 +70,7 @@
 		{
 			"1"
 			{
-				"name"										"HelveticaNeueLT-BoldExt"
+				"name"										"helvetica_neue_lt"
 				"Tall"										"9"
 			}
 		}
@@ -78,7 +78,7 @@
 		{
 			"1"
 			{
-				"name"										"HelveticaNeueLT-BoldExt"
+				"name"										"helvetica_neue_lt"
 				"Tall"										"10"
 			}
 		}
@@ -86,7 +86,7 @@
 		{
 			"1"
 			{
-				"name"										"HelveticaNeueLT-BoldExt"
+				"name"										"helvetica_neue_lt"
 				"Tall"										"10"
 			}
 		}
@@ -94,7 +94,7 @@
 		{
 			"1"
 			{
-				"name"										"HelveticaNeueLT-BoldExt"
+				"name"										"helvetica_neue_lt"
 				"Tall"										"12"
 			}
 		}
@@ -102,7 +102,7 @@
 		{
 			"1"
 			{
-				"name"										"HelveticaNeueLT-BoldExt"
+				"name"										"helvetica_neue_lt"
 				"Tall"										"12"
 			}
 		}
@@ -110,7 +110,7 @@
 		{
 			"1"
 			{
-				"name"										"HelveticaNeueLT-BoldExt"
+				"name"										"helvetica_neue_lt"
 				"Tall"										"12"
 			}
 		}
@@ -118,7 +118,7 @@
 		{
 			"1"
 			{
-				"name"										"Helvetica Neue LT Numbers"
+				"name"										"helvetica_numbers"
 				"Tall"										"12"
 			}
 		}
@@ -126,7 +126,7 @@
 		{
 			"1"
 			{
-				"name"										"HelveticaNeueLT-BoldExt"
+				"name"										"helvetica_neue_lt"
 				"Tall"										"14"
 			}
 		}
@@ -134,7 +134,7 @@
 		{
 			"1"
 			{
-				"name"										"HelveticaNeueLT-BoldExt"
+				"name"										"helvetica_neue_lt"
 				"Tall"										"18"
 			}
 		}
@@ -142,7 +142,7 @@
 		{
 			"1"
 			{
-				"name"										"HelveticaNeueLT-BoldExt"
+				"name"										"helvetica_neue_lt"
 				"Tall"										"18"
 			}
 		}
@@ -150,7 +150,7 @@
 		{
 			"1"
 			{
-				"name"										"HelveticaNeueLT-BoldExt"
+				"name"										"helvetica_neue_lt"
 				"Tall"										"18"
 			}
 		}
@@ -158,7 +158,7 @@
 		{
 			"1"
 			{
-				"name"										"Helvetica Neue LT Numbers"
+				"name"										"helvetica_numbers"
 				"Tall"										"18"
 			}
 		}
@@ -166,7 +166,7 @@
 		{
 			"1"
 			{
-				"name"										"HelveticaNeueLT-BoldExt"
+				"name"										"helvetica_neue_lt"
 				"Tall"										"19"
 			}
 		}
@@ -174,7 +174,7 @@
 		{
 			"1"
 			{
-				"name"										"HelveticaNeueLT-BoldExt"
+				"name"										"helvetica_neue_lt"
 				"Tall"										"22"
 			}
 		}
@@ -182,7 +182,7 @@
 		{
 			"1"
 			{
-				"name"										"HelveticaNeueLT-BoldExt"
+				"name"										"helvetica_neue_lt"
 				"Tall"										"22"
 			}
 		}
@@ -190,7 +190,7 @@
 		{
 			"1"
 			{
-				"name"										"Helvetica Neue LT Numbers"
+				"name"										"helvetica_numbers"
 				"Tall"										"22"
 			}
 		}
@@ -198,7 +198,7 @@
 		{
 			"1"
 			{
-				"name"										"HelveticaNeueLT-BoldExt"
+				"name"										"helvetica_neue_lt"
 				"Tall"										"24"
 			}
 		}
@@ -206,7 +206,7 @@
 		{
 			"1"
 			{
-				"name"										"HelveticaNeueLT-BoldExt"
+				"name"										"helvetica_neue_lt"
 				"Tall"										"24"
 			}
 		}
@@ -214,7 +214,7 @@
 		{
 			"1"
 			{
-				"name"										"HelveticaNeueLT-BoldExt"
+				"name"										"helvetica_neue_lt"
 				"Tall"										"27"
 			}
 		}
@@ -222,7 +222,7 @@
 		{
 			"1"
 			{
-				"name"										"HelveticaNeueLT-BoldExt"
+				"name"										"helvetica_neue_lt"
 				"Tall"										"34"
 			}
 		}
@@ -230,7 +230,7 @@
 		{
 			"1"
 			{
-				"name"										"HelveticaNeueLT-BoldExt"
+				"name"										"helvetica_neue_lt"
 				"Tall"										"42"
 			}
 		}
@@ -238,27 +238,27 @@
 		{
 			"1"
 			{
-				"name"										"HelveticaNeueLT-BoldExt"
+				"name"										"helvetica_neue_lt"
 				"Tall"										"11"
 			}
 			"2"
 			{
-				"name"										"HelveticaNeueLT-BoldExt"
+				"name"										"helvetica_neue_lt"
 				"Tall"										"14"
 			}
 			"3"
 			{
-				"name"										"HelveticaNeueLT-BoldExt"
+				"name"										"helvetica_neue_lt"
 				"Tall"										"18"
 			}
 			"4"
 			{
-				"name"										"HelveticaNeueLT-BoldExt"
+				"name"										"helvetica_neue_lt"
 				"Tall"										"20"
 			}
 			"5"
 			{
-				"name"										"HelveticaNeueLT-BoldExt"
+				"name"										"helvetica_neue_lt"
 				"Tall"										"20"
 			}
 		}
@@ -266,7 +266,7 @@
 		{
 			"1"
 			{
-				"name"										"HelveticaNeueLT-BoldExt"
+				"name"										"helvetica_neue_lt"
 				"Tall"										"9"
 			}
 		}
@@ -274,7 +274,7 @@
 		{
 			"1"
 			{
-				"name"										"HelveticaNeueLT-BoldExt"
+				"name"										"helvetica_neue_lt"
 				"Tall"										"9"
 			}
 		}
@@ -282,7 +282,7 @@
 		{
 			"1"
 			{
-				"name"										"HelveticaNeueLT-BoldExt"
+				"name"										"helvetica_neue_lt"
 				"Tall"										"9"
 			}
 		}
@@ -290,7 +290,7 @@
 		{
 			"1"
 			{
-				"name"										"HelveticaNeueLT-BoldExt"
+				"name"										"helvetica_neue_lt"
 				"Tall"										"9"
 			}
 		}
@@ -298,7 +298,7 @@
 		{
 			"1"
 			{
-				"name"										"HelveticaNeueLT-BoldExt"
+				"name"										"helvetica_neue_lt"
 				"Tall"										"7"
 			}
 		}

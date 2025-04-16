@@ -6,7 +6,7 @@
 		{
 			"1"
 			{
-				"name"										"Cafe Nero M54"
+				"name"										"cafe_nero_m54"
 				"Tall"										"7"
 			}
 		}
@@ -14,7 +14,7 @@
 		{
 			"1"
 			{
-				"name"										"Cafe Nero M54"
+				"name"										"cafe_nero_m54"
 				"Tall"										"8"
 			}
 		}
@@ -22,7 +22,7 @@
 		{
 			"1"
 			{
-				"name"										"Cafe Nero M54"
+				"name"										"cafe_nero_m54"
 				"Tall"										"8"
 			}
 		}
@@ -30,7 +30,7 @@
 		{
 			"1"
 			{
-				"name"										"Cafe Nero M54"
+				"name"										"cafe_nero_m54"
 				"Tall"										"9"
 			}
 		}
@@ -38,7 +38,7 @@
 		{
 			"1"
 			{
-				"name"										"Cafe Nero M54"
+				"name"										"cafe_nero_m54"
 				"Tall"										"9"
 			}
 		}
@@ -46,7 +46,7 @@
 		{
 			"1"
 			{
-				"name"										"Cafe Nero M54"
+				"name"										"cafe_nero_m54"
 				"Tall"										"10"
 			}
 		}
@@ -54,7 +54,7 @@
 		{
 			"1"
 			{
-				"name"										"Cafe Nero M54"
+				"name"										"cafe_nero_m54"
 				"Tall"										"10"
 			}
 		}
@@ -62,7 +62,7 @@
 		{
 			"1"
 			{
-				"name"										"Cafe Nero M54"
+				"name"										"cafe_nero_m54"
 				"Tall"										"11"
 			}
 		}
@@ -70,7 +70,7 @@
 		{
 			"1"
 			{
-				"name"										"Cafe Nero M54"
+				"name"										"cafe_nero_m54"
 				"Tall"										"11"
 			}
 		}
@@ -78,7 +78,7 @@
 		{
 			"1"
 			{
-				"name"										"Cafe Nero M54"
+				"name"										"cafe_nero_m54"
 				"Tall"										"12"
 			}
 		}
@@ -86,7 +86,7 @@
 		{
 			"1"
 			{
-				"name"										"Cafe Nero M54"
+				"name"										"cafe_nero_m54"
 				"Tall"										"12"
 			}
 		}
@@ -94,7 +94,7 @@
 		{
 			"1"
 			{
-				"name"										"Cafe Nero M54"
+				"name"										"cafe_nero_m54"
 				"Tall"										"14"
 			}
 		}
@@ -102,7 +102,7 @@
 		{
 			"1"
 			{
-				"name"										"Cafe Nero M54"
+				"name"										"cafe_nero_m54"
 				"Tall"										"14"
 			}
 		}
@@ -110,7 +110,7 @@
 		{
 			"1"
 			{
-				"name"										"Cafe Nero M54"
+				"name"										"cafe_nero_m54"
 				"Tall"										"14"
 			}
 		}
@@ -118,7 +118,7 @@
 		{
 			"1"
 			{
-				"name"										"Cafe Nero Numbers"
+				"name"										"cafe_nero_numbers"
 				"Tall"										"14"
 			}
 		}
@@ -126,7 +126,7 @@
 		{
 			"1"
 			{
-				"name"										"Cafe Nero M54"
+				"name"										"cafe_nero_m54"
 				"Tall"										"15"
 			}
 		}
@@ -134,7 +134,7 @@
 		{
 			"1"
 			{
-				"name"										"Cafe Nero M54"
+				"name"										"cafe_nero_m54"
 				"Tall"										"14"
 			}
 		}
@@ -142,7 +142,7 @@
 		{
 			"1"
 			{
-				"name"										"Cafe Nero M54"
+				"name"										"cafe_nero_m54"
 				"Tall"										"14"
 			}
 		}
@@ -150,7 +150,7 @@
 		{
 			"1"
 			{
-				"name"										"Cafe Nero M54"
+				"name"										"cafe_nero_m54"
 				"Tall"										"14"
 			}
 		}
@@ -158,7 +158,7 @@
 		{
 			"1"
 			{
-				"name"										"Cafe Nero Numbers"
+				"name"										"cafe_nero_numbers"
 				"Tall"										"14"
 			}
 		}
@@ -166,7 +166,7 @@
 		{
 			"1"
 			{
-				"name"										"Cafe Nero M54"
+				"name"										"cafe_nero_m54"
 				"Tall"										"15"
 			}
 		}
@@ -174,7 +174,7 @@
 		{
 			"1"
 			{
-				"name"										"Cafe Nero M54"
+				"name"										"cafe_nero_m54"
 				"Tall"										"18"
 			}
 		}
@@ -182,7 +182,7 @@
 		{
 			"1"
 			{
-				"name"										"Cafe Nero M54"
+				"name"										"cafe_nero_m54"
 				"Tall"										"18"
 			}
 		}
@@ -190,7 +190,7 @@
 		{
 			"1"
 			{
-				"name"										"Cafe Nero Numbers"
+				"name"										"cafe_nero_numbers"
 				"Tall"										"18"
 			}
 		}
@@ -198,7 +198,7 @@
 		{
 			"1"
 			{
-				"name"										"Cafe Nero M54"
+				"name"										"cafe_nero_m54"
 				"Tall"										"19"
 			}
 		}
@@ -206,7 +206,7 @@
 		{
 			"1"
 			{
-				"name"										"Cafe Nero M54"
+				"name"										"cafe_nero_m54"
 				"Tall"										"19"
 			}
 		}
@@ -214,7 +214,7 @@
 		{
 			"1"
 			{
-				"name"										"Cafe Nero M54"
+				"name"										"cafe_nero_m54"
 				"Tall"										"22"
 			}
 		}
@@ -222,7 +222,7 @@
 		{
 			"1"
 			{
-				"name"										"Cafe Nero M54"
+				"name"										"cafe_nero_m54"
 				"Tall"										"28"
 			}
 		}
@@ -230,7 +230,7 @@
 		{
 			"1"
 			{
-				"name"										"Cafe Nero M54"
+				"name"										"cafe_nero_m54"
 				"Tall"										"34"
 			}
 		}
@@ -238,34 +238,34 @@
 		{
 			"1"
 			{
-				"name"										"Cafe Nero M54"
+				"name"										"cafe_nero_m54"
 				"Tall"										"9"
 			}
 			"2"
 			{
-				"name"										"Cafe Nero M54"
+				"name"										"cafe_nero_m54"
 				"Tall"										"12"
 			}
 			"3"
 			{
-				"name"										"Cafe Nero M54"
+				"name"										"cafe_nero_m54"
 				"Tall"										"14"
 			}
 			"4"
 			{
-				"name"										"Cafe Nero M54"
+				"name"										"cafe_nero_m54"
 				"Tall"										"16"
 			}
 			"5"
 			{
-				"name"										"Cafe Nero M54"
+				"name"										"cafe_nero_m54"
 			}
 		}
 		"CloseCaption_Normal"
 		{
 			"1"
 			{
-				"name"										"Cafe Nero M54"
+				"name"										"cafe_nero_m54"
 				"Tall"										"10"
 			}
 		}
@@ -273,7 +273,7 @@
 		{
 			"1"
 			{
-				"name"										"Cafe Nero M54"
+				"name"										"cafe_nero_m54"
 				"Tall"										"10"
 			}
 		}
@@ -281,7 +281,7 @@
 		{
 			"1"
 			{
-				"name"										"Cafe Nero M54"
+				"name"										"cafe_nero_m54"
 				"Tall"										"10"
 			}
 		}
@@ -289,7 +289,7 @@
 		{
 			"1"
 			{
-				"name"										"Cafe Nero M54"
+				"name"										"cafe_nero_m54"
 				"Tall"										"10"
 			}
 		}
@@ -297,7 +297,7 @@
 		{
 			"1"
 			{
-				"name"										"Cafe Nero M54"
+				"name"										"cafe_nero_m54"
 				"Tall"										"7"
 			}
 		}

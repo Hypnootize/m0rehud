@@ -8,7 +8,7 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
+				"name"										"surface_medium"
 				"Tall"										"58"
 				"antialias"									"1"
 			}
@@ -17,7 +17,7 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
+				"name"										"surface_medium"
 				"Tall"										"32"
 				"antialias"									"1"
 			}
@@ -26,7 +26,7 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
+				"name"										"surface_medium"
 				"Tall"										"24"
 				"antialias"									"1"
 			}
@@ -35,7 +35,7 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
+				"name"										"surface_medium"
 				"Tall"										"18"
 				"antialias"									"1"
 			}

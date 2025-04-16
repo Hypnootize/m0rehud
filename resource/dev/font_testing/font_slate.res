@@ -6,7 +6,7 @@
 		{
 			"1"
 			{
-				"name"										"SlatePro-BoldCondensed"
+				"name"										"slate_pro_bold_condensed"
 				"Tall"										"1"
 				"antialias"									"1"
 			}
@@ -15,7 +15,7 @@
 		{
 			"1"
 			{
-				"name"										"SlatePro-BoldCondensed"
+				"name"										"slate_pro_bold_condensed"
 				"Tall"										"2"
 				"antialias"									"1"
 			}
@@ -24,7 +24,7 @@
 		{
 			"1"
 			{
-				"name"										"SlatePro-BoldCondensed"
+				"name"										"slate_pro_bold_condensed"
 				"Tall"										"3"
 				"antialias"									"1"
 			}
@@ -33,7 +33,7 @@
 		{
 			"1"
 			{
-				"name"										"SlatePro-BoldCondensed"
+				"name"										"slate_pro_bold_condensed"
 				"Tall"										"4"
 				"antialias"									"1"
 			}
@@ -42,7 +42,7 @@
 		{
 			"1"
 			{
-				"name"										"SlatePro-BoldCondensed"
+				"name"										"slate_pro_bold_condensed"
 				"Tall"										"5"
 				"antialias"									"1"
 			}
@@ -51,7 +51,7 @@
 		{
 			"1"
 			{
-				"name"										"SlatePro-BoldCondensed"
+				"name"										"slate_pro_bold_condensed"
 				"Tall"										"6"
 				"antialias"									"1"
 			}
@@ -60,7 +60,7 @@
 		{
 			"1"
 			{
-				"name"										"SlatePro-BoldCondensed"
+				"name"										"slate_pro_bold_condensed"
 				"Tall"										"7"
 				"antialias"									"1"
 			}
@@ -69,7 +69,7 @@
 		{
 			"1"
 			{
-				"name"										"SlatePro-BoldCondensed"
+				"name"										"slate_pro_bold_condensed"
 				"Tall"										"8"
 				"antialias"									"1"
 			}
@@ -78,7 +78,7 @@
 		{
 			"1"
 			{
-				"name"										"SlatePro-BoldCondensed"
+				"name"										"slate_pro_bold_condensed"
 				"Tall"										"9"
 				"antialias"									"1"
 			}
@@ -87,7 +87,7 @@
 		{
 			"1"
 			{
-				"name"										"SlatePro-BoldCondensed"
+				"name"										"slate_pro_bold_condensed"
 				"Tall"										"10"
 				"antialias"									"1"
 			}
@@ -96,7 +96,7 @@
 		{
 			"1"
 			{
-				"name"										"SlatePro-BoldCondensed"
+				"name"										"slate_pro_bold_condensed"
 				"Tall"										"11"
 				"antialias"									"1"
 			}
@@ -105,7 +105,7 @@
 		{
 			"1"
 			{
-				"name"										"SlatePro-BoldCondensed"
+				"name"										"slate_pro_bold_condensed"
 				"Tall"										"12"
 				"antialias"									"1"
 			}
@@ -114,7 +114,7 @@
 		{
 			"1"
 			{
-				"name"										"SlatePro-BoldCondensed"
+				"name"										"slate_pro_bold_condensed"
 				"Tall"										"13"
 				"antialias"									"1"
 			}
@@ -123,7 +123,7 @@
 		{
 			"1"
 			{
-				"name"										"SlatePro-BoldCondensed"
+				"name"										"slate_pro_bold_condensed"
 				"Tall"										"14"
 				"antialias"									"1"
 			}
@@ -132,7 +132,7 @@
 		{
 			"1"
 			{
-				"name"										"SlatePro-BoldCondensed"
+				"name"										"slate_pro_bold_condensed"
 				"Tall"										"15"
 				"antialias"									"1"
 			}
@@ -141,7 +141,7 @@
 		{
 			"1"
 			{
-				"name"										"SlatePro-BoldCondensed"
+				"name"										"slate_pro_bold_condensed"
 				"Tall"										"16"
 				"antialias"									"1"
 			}
@@ -150,7 +150,7 @@
 		{
 			"1"
 			{
-				"name"										"SlatePro-BoldCondensed"
+				"name"										"slate_pro_bold_condensed"
 				"Tall"										"17"
 				"antialias"									"1"
 			}
@@ -159,7 +159,7 @@
 		{
 			"1"
 			{
-				"name"										"SlatePro-BoldCondensed"
+				"name"										"slate_pro_bold_condensed"
 				"Tall"										"18"
 				"antialias"									"1"
 			}
@@ -168,7 +168,7 @@
 		{
 			"1"
 			{
-				"name"										"SlatePro-BoldCondensed"
+				"name"										"slate_pro_bold_condensed"
 				"Tall"										"19"
 				"antialias"									"1"
 			}
@@ -177,7 +177,7 @@
 		{
 			"1"
 			{
-				"name"										"SlatePro-BoldCondensed"
+				"name"										"slate_pro_bold_condensed"
 				"Tall"										"20"
 				"antialias"									"1"
 			}
@@ -186,7 +186,7 @@
 		{
 			"1"
 			{
-				"name"										"SlatePro-BoldCondensed"
+				"name"										"slate_pro_bold_condensed"
 				"Tall"										"21"
 				"antialias"									"1"
 			}
@@ -195,7 +195,7 @@
 		{
 			"1"
 			{
-				"name"										"SlatePro-BoldCondensed"
+				"name"										"slate_pro_bold_condensed"
 				"Tall"										"22"
 				"antialias"									"1"
 			}
@@ -204,7 +204,7 @@
 		{
 			"1"
 			{
-				"name"										"SlatePro-BoldCondensed"
+				"name"										"slate_pro_bold_condensed"
 				"Tall"										"23"
 				"antialias"									"1"
 			}
@@ -213,7 +213,7 @@
 		{
 			"1"
 			{
-				"name"										"SlatePro-BoldCondensed"
+				"name"										"slate_pro_bold_condensed"
 				"Tall"										"24"
 				"antialias"									"1"
 			}
@@ -222,7 +222,7 @@
 		{
 			"1"
 			{
-				"name"										"SlatePro-BoldCondensed"
+				"name"										"slate_pro_bold_condensed"
 				"Tall"										"25"
 				"antialias"									"1"
 			}
@@ -231,7 +231,7 @@
 		{
 			"1"
 			{
-				"name"										"SlatePro-BoldCondensed"
+				"name"										"slate_pro_bold_condensed"
 				"Tall"										"26"
 				"antialias"									"1"
 			}
@@ -240,7 +240,7 @@
 		{
 			"1"
 			{
-				"name"										"SlatePro-BoldCondensed"
+				"name"										"slate_pro_bold_condensed"
 				"Tall"										"27"
 				"antialias"									"1"
 			}
@@ -249,7 +249,7 @@
 		{
 			"1"
 			{
-				"name"										"SlatePro-BoldCondensed"
+				"name"										"slate_pro_bold_condensed"
 				"Tall"										"28"
 				"antialias"									"1"
 			}
@@ -258,7 +258,7 @@
 		{
 			"1"
 			{
-				"name"										"SlatePro-BoldCondensed"
+				"name"										"slate_pro_bold_condensed"
 				"Tall"										"29"
 				"antialias"									"1"
 			}
@@ -267,7 +267,7 @@
 		{
 			"1"
 			{
-				"name"										"SlatePro-BoldCondensed"
+				"name"										"slate_pro_bold_condensed"
 				"Tall"										"30"
 				"antialias"									"1"
 			}
@@ -276,7 +276,7 @@
 		{
 			"1"
 			{
-				"name"										"SlatePro-BoldCondensed"
+				"name"										"slate_pro_bold_condensed"
 				"Tall"										"31"
 				"antialias"									"1"
 			}
@@ -285,7 +285,7 @@
 		{
 			"1"
 			{
-				"name"										"SlatePro-BoldCondensed"
+				"name"										"slate_pro_bold_condensed"
 				"Tall"										"32"
 				"antialias"									"1"
 			}
@@ -294,7 +294,7 @@
 		{
 			"1"
 			{
-				"name"										"SlatePro-BoldCondensed"
+				"name"										"slate_pro_bold_condensed"
 				"Tall"										"33"
 				"antialias"									"1"
 			}
@@ -303,7 +303,7 @@
 		{
 			"1"
 			{
-				"name"										"SlatePro-BoldCondensed"
+				"name"										"slate_pro_bold_condensed"
 				"Tall"										"34"
 				"antialias"									"1"
 			}
@@ -312,7 +312,7 @@
 		{
 			"1"
 			{
-				"name"										"SlatePro-BoldCondensed"
+				"name"										"slate_pro_bold_condensed"
 				"Tall"										"35"
 				"antialias"									"1"
 			}
@@ -321,7 +321,7 @@
 		{
 			"1"
 			{
-				"name"										"SlatePro-BoldCondensed"
+				"name"										"slate_pro_bold_condensed"
 				"Tall"										"36"
 				"antialias"									"1"
 			}
@@ -330,7 +330,7 @@
 		{
 			"1"
 			{
-				"name"										"SlatePro-BoldCondensed"
+				"name"										"slate_pro_bold_condensed"
 				"Tall"										"37"
 				"antialias"									"1"
 			}
@@ -339,7 +339,7 @@
 		{
 			"1"
 			{
-				"name"										"SlatePro-BoldCondensed"
+				"name"										"slate_pro_bold_condensed"
 				"Tall"										"38"
 				"antialias"									"1"
 			}
@@ -348,7 +348,7 @@
 		{
 			"1"
 			{
-				"name"										"SlatePro-BoldCondensed"
+				"name"										"slate_pro_bold_condensed"
 				"Tall"										"39"
 				"antialias"									"1"
 			}
@@ -357,7 +357,7 @@
 		{
 			"1"
 			{
-				"name"										"SlatePro-BoldCondensed"
+				"name"										"slate_pro_bold_condensed"
 				"Tall"										"40"
 				"antialias"									"1"
 			}
@@ -366,7 +366,7 @@
 		{
 			"1"
 			{
-				"name"										"SlatePro-BoldCondensed"
+				"name"										"slate_pro_bold_condensed"
 				"Tall"										"41"
 				"antialias"									"1"
 			}
@@ -375,7 +375,7 @@
 		{
 			"1"
 			{
-				"name"										"SlatePro-BoldCondensed"
+				"name"										"slate_pro_bold_condensed"
 				"Tall"										"42"
 				"antialias"									"1"
 			}
@@ -384,7 +384,7 @@
 		{
 			"1"
 			{
-				"name"										"SlatePro-BoldCondensed"
+				"name"										"slate_pro_bold_condensed"
 				"Tall"										"43"
 				"antialias"									"1"
 			}
@@ -393,7 +393,7 @@
 		{
 			"1"
 			{
-				"name"										"SlatePro-BoldCondensed"
+				"name"										"slate_pro_bold_condensed"
 				"Tall"										"44"
 				"antialias"									"1"
 			}
@@ -402,7 +402,7 @@
 		{
 			"1"
 			{
-				"name"										"SlatePro-BoldCondensed"
+				"name"										"slate_pro_bold_condensed"
 				"Tall"										"45"
 				"antialias"									"1"
 			}
@@ -411,7 +411,7 @@
 		{
 			"1"
 			{
-				"name"										"SlatePro-BoldCondensed"
+				"name"										"slate_pro_bold_condensed"
 				"Tall"										"46"
 				"antialias"									"1"
 			}
@@ -420,7 +420,7 @@
 		{
 			"1"
 			{
-				"name"										"SlatePro-BoldCondensed"
+				"name"										"slate_pro_bold_condensed"
 				"Tall"										"47"
 				"antialias"									"1"
 			}
@@ -429,7 +429,7 @@
 		{
 			"1"
 			{
-				"name"										"SlatePro-BoldCondensed"
+				"name"										"slate_pro_bold_condensed"
 				"Tall"										"48"
 				"antialias"									"1"
 			}
@@ -438,7 +438,7 @@
 		{
 			"1"
 			{
-				"name"										"SlatePro-BoldCondensed"
+				"name"										"slate_pro_bold_condensed"
 				"Tall"										"49"
 				"antialias"									"1"
 			}
@@ -447,7 +447,7 @@
 		{
 			"1"
 			{
-				"name"										"SlatePro-BoldCondensed"
+				"name"										"slate_pro_bold_condensed"
 				"Tall"										"50"
 				"antialias"									"1"
 			}
@@ -456,7 +456,7 @@
 		{
 			"1"
 			{
-				"name"										"SlatePro-BoldCondensed"
+				"name"										"slate_pro_bold_condensed"
 				"Tall"										"51"
 				"antialias"									"1"
 			}
@@ -465,7 +465,7 @@
 		{
 			"1"
 			{
-				"name"										"SlatePro-BoldCondensed"
+				"name"										"slate_pro_bold_condensed"
 				"Tall"										"52"
 				"antialias"									"1"
 			}
@@ -474,7 +474,7 @@
 		{
 			"1"
 			{
-				"name"										"SlatePro-BoldCondensed"
+				"name"										"slate_pro_bold_condensed"
 				"Tall"										"53"
 				"antialias"									"1"
 			}
@@ -483,7 +483,7 @@
 		{
 			"1"
 			{
-				"name"										"SlatePro-BoldCondensed"
+				"name"										"slate_pro_bold_condensed"
 				"Tall"										"54"
 				"antialias"									"1"
 			}
@@ -492,7 +492,7 @@
 		{
 			"1"
 			{
-				"name"										"SlatePro-BoldCondensed"
+				"name"										"slate_pro_bold_condensed"
 				"Tall"										"55"
 				"antialias"									"1"
 			}
@@ -501,7 +501,7 @@
 		{
 			"1"
 			{
-				"name"										"SlatePro-BoldCondensed"
+				"name"										"slate_pro_bold_condensed"
 				"Tall"										"56"
 				"antialias"									"1"
 			}
@@ -510,7 +510,7 @@
 		{
 			"1"
 			{
-				"name"										"SlatePro-BoldCondensed"
+				"name"										"slate_pro_bold_condensed"
 				"Tall"										"57"
 				"antialias"									"1"
 			}
@@ -519,7 +519,7 @@
 		{
 			"1"
 			{
-				"name"										"SlatePro-BoldCondensed"
+				"name"										"slate_pro_bold_condensed"
 				"Tall"										"58"
 				"antialias"									"1"
 			}
@@ -528,7 +528,7 @@
 		{
 			"1"
 			{
-				"name"										"SlatePro-BoldCondensed"
+				"name"										"slate_pro_bold_condensed"
 				"Tall"										"59"
 				"antialias"									"1"
 			}
@@ -537,7 +537,7 @@
 		{
 			"1"
 			{
-				"name"										"SlatePro-BoldCondensed"
+				"name"										"slate_pro_bold_condensed"
 				"Tall"										"60"
 				"antialias"									"1"
 			}
@@ -546,7 +546,7 @@
 		{
 			"1"
 			{
-				"name"										"SlatePro-BoldCondensed"
+				"name"										"slate_pro_bold_condensed"
 				"Tall"										"61"
 				"antialias"									"1"
 			}
@@ -555,7 +555,7 @@
 		{
 			"1"
 			{
-				"name"										"SlatePro-BoldCondensed"
+				"name"										"slate_pro_bold_condensed"
 				"Tall"										"62"
 				"antialias"									"1"
 			}
@@ -564,7 +564,7 @@
 		{
 			"1"
 			{
-				"name"										"SlatePro-BoldCondensed"
+				"name"										"slate_pro_bold_condensed"
 				"Tall"										"63"
 				"antialias"									"1"
 			}
@@ -573,7 +573,7 @@
 		{
 			"1"
 			{
-				"name"										"SlatePro-BoldCondensed"
+				"name"										"slate_pro_bold_condensed"
 				"Tall"										"64"
 				"antialias"									"1"
 			}
@@ -582,7 +582,7 @@
 		{
 			"1"
 			{
-				"name"										"SlatePro-BoldCondensed"
+				"name"										"slate_pro_bold_condensed"
 				"Tall"										"65"
 				"antialias"									"1"
 			}
@@ -591,7 +591,7 @@
 		{
 			"1"
 			{
-				"name"										"SlatePro-BoldCondensed"
+				"name"										"slate_pro_bold_condensed"
 				"Tall"										"66"
 				"antialias"									"1"
 			}
@@ -600,7 +600,7 @@
 		{
 			"1"
 			{
-				"name"										"SlatePro-BoldCondensed"
+				"name"										"slate_pro_bold_condensed"
 				"Tall"										"67"
 				"antialias"									"1"
 			}
@@ -609,7 +609,7 @@
 		{
 			"1"
 			{
-				"name"										"SlatePro-BoldCondensed"
+				"name"										"slate_pro_bold_condensed"
 				"Tall"										"68"
 				"antialias"									"1"
 			}
@@ -618,7 +618,7 @@
 		{
 			"1"
 			{
-				"name"										"SlatePro-BoldCondensed"
+				"name"										"slate_pro_bold_condensed"
 				"Tall"										"69"
 				"antialias"									"1"
 			}
@@ -627,7 +627,7 @@
 		{
 			"1"
 			{
-				"name"										"SlatePro-BoldCondensed"
+				"name"										"slate_pro_bold_condensed"
 				"Tall"										"70"
 				"antialias"									"1"
 			}
@@ -636,7 +636,7 @@
 		{
 			"1"
 			{
-				"name"										"SlatePro-BoldCondensed"
+				"name"										"slate_pro_bold_condensed"
 				"Tall"										"71"
 				"antialias"									"1"
 			}
@@ -645,7 +645,7 @@
 		{
 			"1"
 			{
-				"name"										"SlatePro-BoldCondensed"
+				"name"										"slate_pro_bold_condensed"
 				"Tall"										"72"
 				"antialias"									"1"
 			}
@@ -654,7 +654,7 @@
 		{
 			"1"
 			{
-				"name"										"SlatePro-BoldCondensed"
+				"name"										"slate_pro_bold_condensed"
 				"Tall"										"73"
 				"antialias"									"1"
 			}
@@ -663,7 +663,7 @@
 		{
 			"1"
 			{
-				"name"										"SlatePro-BoldCondensed"
+				"name"										"slate_pro_bold_condensed"
 				"Tall"										"74"
 				"antialias"									"1"
 			}
@@ -672,7 +672,7 @@
 		{
 			"1"
 			{
-				"name"										"SlatePro-BoldCondensed"
+				"name"										"slate_pro_bold_condensed"
 				"Tall"										"75"
 				"antialias"									"1"
 			}
@@ -681,7 +681,7 @@
 		{
 			"1"
 			{
-				"name"										"SlatePro-BoldCondensed"
+				"name"										"slate_pro_bold_condensed"
 				"Tall"										"76"
 				"antialias"									"1"
 			}
@@ -690,7 +690,7 @@
 		{
 			"1"
 			{
-				"name"										"SlatePro-BoldCondensed"
+				"name"										"slate_pro_bold_condensed"
 				"Tall"										"77"
 				"antialias"									"1"
 			}
@@ -699,7 +699,7 @@
 		{
 			"1"
 			{
-				"name"										"SlatePro-BoldCondensed"
+				"name"										"slate_pro_bold_condensed"
 				"Tall"										"78"
 				"antialias"									"1"
 			}
@@ -708,7 +708,7 @@
 		{
 			"1"
 			{
-				"name"										"SlatePro-BoldCondensed"
+				"name"										"slate_pro_bold_condensed"
 				"Tall"										"79"
 				"antialias"									"1"
 			}
@@ -717,7 +717,7 @@
 		{
 			"1"
 			{
-				"name"										"SlatePro-BoldCondensed"
+				"name"										"slate_pro_bold_condensed"
 				"Tall"										"80"
 				"antialias"									"1"
 			}
