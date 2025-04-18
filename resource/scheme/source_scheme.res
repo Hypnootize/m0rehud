@@ -55,7 +55,7 @@
 
 		"SS_Option_Disabled"								"150 152 154 255"
 
-		"SS_ScrollBar"										"255 255 255 255"
+		"SS_ScrollBar"										"202 201 200 255"
 		"SS_ScrollBar_BG"									"18 15 14 255"
 		"SS_ScrollBar_Button_Icon"							"255 255 255 255"
 		"SS_ScrollBar_Button_Icon_Armed"					"255 255 255 255"

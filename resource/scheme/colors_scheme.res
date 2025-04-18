@@ -328,9 +328,9 @@
 		"Econ.Button.PresetArmedColorFg"					"White"
 		"Econ.Button.PresetDepressedColorFg"				"White"
 
-		"Econ.Button.PresetDefaultColorBg"					"Button_Bright"
-		"Econ.Button.PresetArmedColorBg"					"Button_Hover"
-		"Econ.Button.PresetDepressedColorBg"				"Button_Bright"
+		"Econ.Button.PresetDefaultColorBg"					"Menu_Accent"
+		"Econ.Button.PresetArmedColorBg"					"Menu_Accent"
+		"Econ.Button.PresetDepressedColorBg"				"Menu_Accent"
 
 		"Border.Bright"										"Blank"
 		"Border.Dark"										"Black"
