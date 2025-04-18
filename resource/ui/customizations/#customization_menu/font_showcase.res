@@ -369,7 +369,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2Crosshairs_m0re_V3"
+				"name"										"tf2_crosshairs_m0re_v3"
 				"Tall"										"13"
 				"antialias"									"1"
 			}
@@ -378,7 +378,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2Crosshairs_m0re_V3"
+				"name"										"tf2_crosshairs_m0re_v3"
 				"Tall"										"30"
 				"antialias"									"1"
 				"Outline"									"1"
@@ -388,7 +388,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2Crosshairs_m0re_V3"
+				"name"										"tf2_crosshairs_m0re_v3"
 				"Tall"										"30"
 				"antialias"									"1"
 				"Dropshadow"								"1"
