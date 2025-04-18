@@ -28,7 +28,7 @@
 		"Tall"										"f0"
 		"Visible"									"0"
 		"Enabled"									"1"
-		//"Image"									"replay/thumbnails/menu/loading_bg"
+		"Image"										"replay/thumbnails/menu/loading_bg"
 		"ScaleImage"								"1"
 	}
 	//=====================================================================================
