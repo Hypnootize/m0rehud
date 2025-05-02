@@ -262,12 +262,12 @@
 				"Tall"										"20"
 			}
 		}
-		"CloseCaption_Normal"
+		"CloseCaption"
 		{
 			"1"
 			{
 				"name"										"handel_gothic_bt"
-				"Tall"										"12"
+				"Tall"										"10"
 			}
 		}
 		"CloseCaption_Italic"
@@ -275,7 +275,7 @@
 			"1"
 			{
 				"name"										"handel_gothic_bt"
-				"Tall"										"12"
+				"Tall"										"10"
 			}
 		}
 		"CloseCaption_Bold"
@@ -283,7 +283,7 @@
 			"1"
 			{
 				"name"										"handel_gothic_bt"
-				"Tall"										"12"
+				"Tall"										"10"
 			}
 		}
 		"CloseCaption_BoldItalic"
@@ -291,7 +291,7 @@
 			"1"
 			{
 				"name"										"handel_gothic_bt"
-				"Tall"										"12"
+				"Tall"										"10"
 			}
 		}
 		"CloseCaption_Small"
@@ -299,7 +299,7 @@
 			"1"
 			{
 				"name"										"handel_gothic_bt"
-				"Tall"										"9"
+				"Tall"										"10"
 			}
 		}
 	}

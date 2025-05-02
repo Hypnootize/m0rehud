@@ -246,7 +246,7 @@
 				"name"										"tt_octosquares_trl_bld"
 			}
 		}
-		"CloseCaption_Normal"
+		"CloseCaption"
 		{
 			"1"
 			{

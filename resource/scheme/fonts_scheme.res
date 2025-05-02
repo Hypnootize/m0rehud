@@ -1316,7 +1316,7 @@
 				"antialias"									"1"
 			}
 		}
-		"CloseCaption_Normal"
+		"CloseCaption"
 		{
 			"1"
 			{
@@ -1367,7 +1367,7 @@
 			"1"
 			{
 				"name"										"surface_medium"
-				"Tall"										"10"
+				"Tall"										"12"
 				"range"										"0x0000 0x017F"
 				"antialias"									"1"
 				"dropshadow"								"1"

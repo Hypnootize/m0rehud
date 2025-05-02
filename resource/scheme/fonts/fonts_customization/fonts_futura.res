@@ -241,7 +241,7 @@
 				"name"										"futura_std_heavy"
 			}
 		}
-		"CloseCaption_Normal"
+		"CloseCaption"
 		{
 			"1"
 			{

@@ -262,7 +262,7 @@
 				"Tall"										"22"
 			}
 		}
-		"CloseCaption_Normal"
+		"CloseCaption"
 		{
 			"1"
 			{

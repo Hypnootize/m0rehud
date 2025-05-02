@@ -228,7 +228,7 @@
 				"name"										"tf2_secondary"
 			}
 		}
-		"CloseCaption_Normal"
+		"CloseCaption"
 		{
 			"1"
 			{

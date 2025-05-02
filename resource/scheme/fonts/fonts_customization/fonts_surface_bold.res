@@ -228,7 +228,7 @@
 				"name"										"surface_bold"
 			}
 		}
-		"CloseCaption_Normal"
+		"CloseCaption"
 		{
 			"1"
 			{

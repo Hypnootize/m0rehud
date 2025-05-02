@@ -228,7 +228,7 @@
 				"name"										"MYFONT"
 			}
 		}
-		"CloseCaption_Normal"
+		"CloseCaption"
 		{
 			"1"
 			{

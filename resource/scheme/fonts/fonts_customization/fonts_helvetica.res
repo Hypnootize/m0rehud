@@ -262,7 +262,7 @@
 				"Tall"										"20"
 			}
 		}
-		"CloseCaption_Normal"
+		"CloseCaption"
 		{
 			"1"
 			{
@@ -299,7 +299,7 @@
 			"1"
 			{
 				"name"										"helvetica_neue_lt"
-				"Tall"										"7"
+				"Tall"										"9"
 			}
 		}
 	}

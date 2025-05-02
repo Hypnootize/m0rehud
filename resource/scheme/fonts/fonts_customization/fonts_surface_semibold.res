@@ -246,7 +246,7 @@
 				"name"										"surface_semibold"
 			}
 		}
-		"CloseCaption_Normal"
+		"CloseCaption"
 		{
 			"1"
 			{

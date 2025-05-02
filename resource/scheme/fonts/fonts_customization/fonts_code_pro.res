@@ -241,7 +241,7 @@
 				"name"										"code_pro_lc"
 			}
 		}
-		"CloseCaption_Normal"
+		"CloseCaption"
 		{
 			"1"
 			{

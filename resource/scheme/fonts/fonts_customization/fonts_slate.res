@@ -257,7 +257,7 @@
 				"name"										"slate_pro_bold_condensed"
 			}
 		}
-		"CloseCaption_Normal"
+		"CloseCaption"
 		{
 			"1"
 			{

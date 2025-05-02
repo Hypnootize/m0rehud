@@ -241,7 +241,7 @@
 				"name"										"avenir_black"
 			}
 		}
-		"CloseCaption_Normal"
+		"CloseCaption"
 		{
 			"1"
 			{

@@ -230,7 +230,7 @@
 				"name"										"roboto_bold"
 			}
 		}
-		"CloseCaption_Normal"
+		"CloseCaption"
 		{
 			"1"
 			{

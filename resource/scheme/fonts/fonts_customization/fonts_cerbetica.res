@@ -233,7 +233,7 @@
 				"name"										"cerbetica_bold"
 			}
 		}
-		"CloseCaption_Normal"
+		"CloseCaption"
 		{
 			"1"
 			{

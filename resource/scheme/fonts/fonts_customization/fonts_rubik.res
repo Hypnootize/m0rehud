@@ -241,7 +241,7 @@
 				"Tall"										"24"
 			}
 		}
-		"CloseCaption_Normal"
+		"CloseCaption"
 		{
 			"1"
 			{

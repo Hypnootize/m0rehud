@@ -228,7 +228,7 @@
 				"name"										"verlag_black"
 			}
 		}
-		"CloseCaption_Normal"
+		"CloseCaption"
 		{
 			"1"
 			{

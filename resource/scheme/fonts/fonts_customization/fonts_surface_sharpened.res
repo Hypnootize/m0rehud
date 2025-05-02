@@ -228,7 +228,7 @@
 				"name"										"surface_sharpened_medium"
 			}
 		}
-		"CloseCaption_Normal"
+		"CloseCaption"
 		{
 			"1"
 			{

@@ -261,12 +261,12 @@
 				"name"										"cafe_nero_m54"
 			}
 		}
-		"CloseCaption_Normal"
+		"CloseCaption"
 		{
 			"1"
 			{
 				"name"										"cafe_nero_m54"
-				"Tall"										"10"
+				"Tall"										"9"
 			}
 		}
 		"CloseCaption_Italic"
@@ -274,7 +274,7 @@
 			"1"
 			{
 				"name"										"cafe_nero_m54"
-				"Tall"										"10"
+				"Tall"										"9"
 			}
 		}
 		"CloseCaption_Bold"
@@ -282,7 +282,7 @@
 			"1"
 			{
 				"name"										"cafe_nero_m54"
-				"Tall"										"10"
+				"Tall"										"9"
 			}
 		}
 		"CloseCaption_BoldItalic"
@@ -290,7 +290,7 @@
 			"1"
 			{
 				"name"										"cafe_nero_m54"
-				"Tall"										"10"
+				"Tall"										"9"
 			}
 		}
 		"CloseCaption_Small"
@@ -298,7 +298,7 @@
 			"1"
 			{
 				"name"										"cafe_nero_m54"
-				"Tall"										"7"
+				"Tall"										"9"
 			}
 		}
 	}

@@ -236,7 +236,7 @@
 				"name"										"renogare_soft_regular"
 			}
 		}
-		"CloseCaption_Normal"
+		"CloseCaption"
 		{
 			"1"
 			{

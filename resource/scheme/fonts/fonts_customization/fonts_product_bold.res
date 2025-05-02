@@ -228,7 +228,7 @@
 				"name"										"product_sans_bold"
 			}
 		}
-		"CloseCaption_Normal"
+		"CloseCaption"
 		{
 			"1"
 			{

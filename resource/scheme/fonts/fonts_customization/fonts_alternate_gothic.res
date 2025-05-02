@@ -228,7 +228,7 @@
 				"name"										"alternate_gothic_ef"
 			}
 		}
-		"CloseCaption_Normal"
+		"CloseCaption"
 		{
 			"1"
 			{
