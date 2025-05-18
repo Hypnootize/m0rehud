@@ -259,7 +259,6 @@
 			"5"
 			{
 				"name"										"catamaran_semibold"
-				"Tall"										"11"
 			}
 		}
 		"CloseCaption"

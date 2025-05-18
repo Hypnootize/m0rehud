@@ -238,7 +238,6 @@
 			"5"
 			{
 				"name"										"mavenpro_black"
-				"Tall"										"9"
 			}
 		}
 		"CloseCaption"

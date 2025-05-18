@@ -243,7 +243,6 @@
 			"5"
 			{
 				"name"										"lato_bold"
-				"Tall"										"22"
 			}
 		}
 		"CloseCaption"

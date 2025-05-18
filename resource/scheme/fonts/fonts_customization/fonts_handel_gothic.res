@@ -259,7 +259,6 @@
 			"5"
 			{
 				"name"										"handel_gothic_bt"
-				"Tall"										"20"
 			}
 		}
 		"CloseCaption"

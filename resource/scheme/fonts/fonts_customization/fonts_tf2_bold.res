@@ -259,7 +259,6 @@
 			"5"
 			{
 				"name"										"tf2_build"
-				"Tall"										"8"
 			}
 		}
 		"CloseCaption"

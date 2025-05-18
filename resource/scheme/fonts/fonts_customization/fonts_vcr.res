@@ -259,7 +259,6 @@
 			"5"
 			{
 				"name"										"vcr_osd_mono"
-				"Tall"										"22"
 			}
 		}
 		"CloseCaption"

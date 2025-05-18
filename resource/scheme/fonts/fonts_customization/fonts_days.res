@@ -259,7 +259,6 @@
 			"5"
 			{
 				"name"										"days"
-				"Tall"										"20"
 			}
 		}
 		"CloseCaption"

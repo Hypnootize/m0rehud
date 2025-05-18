@@ -259,7 +259,6 @@
 			"5"
 			{
 				"name"										"solomon_heavy"
-				"Tall"										"24"
 			}
 		}
 		"CloseCaption"

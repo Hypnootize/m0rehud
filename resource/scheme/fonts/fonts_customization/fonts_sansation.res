@@ -259,7 +259,6 @@
 			"5"
 			{
 				"name"										"sansation_bold"
-				"Tall"										"30"
 			}
 		}
 		"CloseCaption"

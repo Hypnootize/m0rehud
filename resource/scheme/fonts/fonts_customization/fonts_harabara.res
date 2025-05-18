@@ -259,7 +259,6 @@
 			"5"
 			{
 				"name"										"harabara_bold"
-				"Tall"										"22"
 			}
 		}
 		"CloseCaption"

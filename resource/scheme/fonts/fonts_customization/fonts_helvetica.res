@@ -259,7 +259,6 @@
 			"5"
 			{
 				"name"										"helvetica_neue_lt"
-				"Tall"										"20"
 			}
 		}
 		"CloseCaption"

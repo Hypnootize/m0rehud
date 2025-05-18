@@ -238,7 +238,6 @@
 			"5"
 			{
 				"name"										"rubik_semibold"
-				"Tall"										"24"
 			}
 		}
 		"CloseCaption"
