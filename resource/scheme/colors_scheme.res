@@ -498,28 +498,28 @@
 		"BGColor"											"TransparentBlack"
 
 		"ViewportBG"										"Blank"
-		"TeamSpec"											"204 204 204 255"
-		"TeamRed"											"255 64 64 255"
-		"TeamBlue"											"153 204 255 255"
+		"TeamSpec"											"HUDSpectator"
+		"TeamRed"											"HUDRedTeam"
+		"TeamBlue"											"HUDBlueTeam"
 
 		"MapDescriptionText"								"Gray"
 		"HudIcon_Green"										"0 160 0 255"
 		"HudIcon_Red"										"160 0 0 255"
 
 		"ItemColor"											"255 167 42 200"
-		"MenuColor"											"233 208 173 255"
-		"MenuBoxBg"											"0 0 0 100"
+		"MenuColor"											"White"
+		"MenuBoxBg"											"TransparentLightBlack"
 
-		"SelectionNumberFg"									"255 255 255 255"
-		"SelectionTextFg"									"255 255 255 255"
-		"SelectionEmptyBoxBg"								"0 0 0 80"
-		"SelectionBoxBg"									"0 0 0 80"
-		"SelectionSelectedBoxBg"							"0 0 0 190"
+		"SelectionNumberFg"									"White"
+		"SelectionTextFg"									"White"
+		"SelectionEmptyBoxBg"								"TransparentLightBlack"
+		"SelectionBoxBg"									"TransparentLightBlack"
+		"SelectionSelectedBoxBg"							"TransparentBlack"
 
-		"HintMessageFg"										"255 255 255 255"
-		"HintMessageBg"										"0 0 0 60"
+		"HintMessageFg"										"White"
+		"HintMessageBg"										"TransparentLightestBlack"
 
-		"ProgressBarFg"										"255 30 13 255"
+		"ProgressBarFg"										"Red"
 
 		"Main.Menu.X"										"32"
 		"Main.Menu.Y"										"248"
