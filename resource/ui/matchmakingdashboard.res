@@ -545,5 +545,92 @@
 			"ArmedBGColor_Override"					"Button_Green_Hover"
 			"DepressedBGColor_Override"				"Button_Green_Hover"
 		}
+		"Map1"
+		{
+			"ControlName"						"Button"
+			"fieldName"						"Map1"
+			"xpos"							"1"
+			"zpos"							"100"
+			"wide"							"24"
+			"tall"							"19"
+			"visible"						"1"
+			"textAlignment"						"center"
+			"Command"						"engine next_map_vote 0"
+			"proportionaltoparent"					"1"
+			"labeltext"						"1"
+			"actionsignallevel"					"3"
+			"roundedcorners"					"0"
+
+			"defaultFgColor_override"				"White"
+			"armedFgColor_override"					"White"
+			"depressedFgColor_override"				"White"
+
+			"defaultBgColor_override"				"TransparentBlack"
+			"armedBgColor_override"					"Menu_Accent"
+			"depressedBgColor_override"				"Menu_Accent"
+
+			"sound_depressed"					"UI/buttonclick.wav"
+
+			"pin_to_sibling"					"Map2"
+			"pin_corner_to_sibling"					"1"
+		}
+		"Map2"
+		{
+			"ControlName"						"Button"
+			"fieldName"						"Map2"
+			"xpos"							"1"
+			"zpos"							"100"
+			"wide"							"24"
+			"tall"							"19"
+			"visible"						"1"
+			"textAlignment"						"center"
+			"Command"						"engine next_map_vote 1"
+			"proportionaltoparent"					"1"
+			"labeltext"						"2"
+			"actionsignallevel"					"3"
+			"roundedcorners"					"0"
+
+			"defaultFgColor_override"				"White"
+			"armedFgColor_override"					"White"
+			"depressedFgColor_override"				"White"
+
+			"defaultBgColor_override"				"TransparentBlack"
+			"armedBgColor_override"					"Menu_Accent"
+			"depressedBgColor_override"				"Menu_Accent"
+
+			"sound_depressed"					"UI/buttonclick.wav"
+
+			"pin_to_sibling"					"Map3"
+			"pin_corner_to_sibling"					"1"
+		}
+		"Map3"
+		{
+			"ControlName"						"Button"
+			"fieldName"						"Map3"
+			"xpos"							"1"
+			"zpos"							"100"
+			"wide"							"24"
+			"tall"							"19"
+			"visible"						"1"
+			"textAlignment"						"center"
+			"Command"						"engine next_map_vote 2"
+			"proportionaltoparent"					"1"
+			"labeltext"						"3"
+			"actionsignallevel"					"3"
+			"roundedcorners"					"0"
+
+			"sound_depressed"					"UI/buttonclick.wav"
+
+			"defaultFgColor_override"				"White"
+			"armedFgColor_override"					"White"
+			"depressedFgColor_override"				"White"
+
+			"defaultBgColor_override"				"TransparentBlack"
+			"armedBgColor_override"					"Menu_Accent"
+			"depressedBgColor_override"				"Menu_Accent"
+
+			"pin_to_sibling"					"ResumeButton"
+			"pin_corner_to_sibling"					"1"
+		}
 	}
 }
