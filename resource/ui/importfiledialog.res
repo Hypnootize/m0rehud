@@ -821,6 +821,23 @@
 			"Command"								"UpdateBodygroup"
 			"Border"								"SteamWorkshopBorder"
 		}
+		"Bodygroup9"
+		{
+			"ControlName"							"CheckButton"
+			"FieldName"								"Bodygroup9"
+			"XPos"									"4"
+			"YPos"									"198"
+			"Wide"									"150"
+			"Tall"									"20"
+			"Visible"								"1"
+			"Enabled"								"0"
+			"LabelText"								""
+			"Font"									"HudFontSmallest"
+			"TextAlignment"							"west"
+			"DisabledFGColor2_Override"				"White"
+			"Command"								"UpdateBodygroup"
+			"Border"								"SteamWorkshopBorder"
+		}
 	}
 	"LODsPanel"
 	{
